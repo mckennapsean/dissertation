@@ -1,0 +1,87 @@
+
+\documentclass[11pt,Chicago]{styles/uuthesis2e}
+
+\usepackage{makeidx}
+\usepackage{graphicx}
+\usepackage{subfigure}
+\usepackage{epsfig}
+\usepackage{afterpage}
+\usepackage{styles/thesis}
+\usepackage{url}
+%\usepackage{amssymb}
+%\usepackage{diagram}
+%\usepackage{tgrind}
+\usepackage{longtable}
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+%\usepackage[sectionbib,round]{natbib} % author-year citations
+\usepackage[sectionbib,numbers]{styles/natbib} % numeric citations
+
+\citeindextrue
+\makeindex
+\includeonly{chapters/bubble-net,front/appendix}
+
+\title{The Design Activity Framework: Analyzing the User-Centered Design Process for Data Visualization}
+\author{Sean Patrick McKenna}
+% \thesistype{dissertation}
+\thesistype{proposal}
+\degree{Doctor of Philosophy}
+\degreeIn{Computing: Graphics \& Visualization}
+
+\graduatedean{David B. Kieda}
+\department{School of Computing}
+\departmentchair{Ross Whitaker}
+\committeechair{Miriah Meyer}
+\chairtitle{Professor}
+\firstreader{Alexander Lex}
+\secondreader{Tamara Denning}
+\thirdreader{James Agutter}
+\fourthreader{Nathalie Henry Riche}
+
+\submitdate{May 2016}
+\copyrightyear{2016}
+
+% chapter is one level, then section and subsection are next two
+\threelevels
+%\dedication{To ...}
+
+%\inputpicturetrue % By Jeff McGough. See uuguide and private thesis.sty
+%\inputpicturefalse % To NOT produce pictures, uncomment this line
+
+\begin{document}
+
+\renewcommand{\topfraction}{1.0}
+\renewcommand{\bottomfraction}{1.0}
+\renewcommand{\textfraction}{0.2}
+\renewcommand{\floatpagefraction}{1.0}
+\setcounter{bottomnumber}{1}
+\setcounter{topnumber}{3}
+
+\frontmatterformat
+\titlepage
+\copyrightpage
+\committeeapproval
+\readingapproval
+\preface{front/abstract}{Abstract}
+%\dedicationpage
+\tableofcontents
+\listoffigures
+\listoftables
+%\optionalfront{Notation and Symbols}{\input{notation.tex}}
+%\preface{front/acknowledge}{Acknowledgements}
+
+\maintext % start normal page numbering, parts and chapters follow
+\include{chapters/bubble-net}
+\numberofappendices = 0 % set 0 for none, else number of appendices
+%\appendix % chapters, sections are now appendix style
+%\include{front/appendix}
+%\nocite{*}
+
+% The choice of bibliography style is a major decision, jointly made
+% by you, your thesis advisor and the thesis editor. Common choices are
+% "siam", "acm", "amsplain", "plain", "chicago".
+\bibliographystyle{acm}
+\bibliography{references}
+
+\end{document}
