@@ -688,7 +688,7 @@ or which algorithms to utilize.
   time constraints, or deadlines, listed at the
   top. Towards the bottom, we highlight numerous
   methods and outcomes utilized throughout our project.
-](figures/daf/timeline.pdf){#fig:timeline width="50%"}
+](figures/daf/timeline.pdf){#fig:timeline width="100%"}
 
 
 #### Deploy
@@ -1113,8 +1113,19 @@ method of
 constraint removal (*M-26*) [@Goodwin2013a].
 
 
-<!-- TODO methods table as a FIGURE instead! -->
-<!-- \input{figures/daf/table} -->
+![
+  This table presents several
+  exemplar methods and where they fit within the framework;
+  we provide a more extensive list of 100 methods in the Supplemental Materials.
+  We coded each method into one or more of the four design
+  activities: understand (***u***), ideate (***i***),
+  make (***m***), and deploy (***d***).
+  Additionally, we tagged whether each method was largely
+  generative (***g***) or evaluative (***e***), or both.
+  Lastly, we tagged the methods we have seen commonly reported within the
+  visualization community (***v***) and also present succinct
+  definitions for each method.
+](figures/daf/table.pdf){#tab:methods width="100%"}
 
 
 
