@@ -320,7 +320,7 @@ available within this process model.
 
 ## Visualization Redesign Project {#sec:context}
 
-#[
+![
   We present the framework's breakdown of a
   *design activity:*
   motivation, outcomes, and methods, where
@@ -1364,7 +1364,7 @@ visualization.
 
 
 
-<!-- TODO move acknowledgements -->
+<!-- TODO move acknowledgements
   The authors wish to thank Michael Sedlmair,
   Mike Kirby, Alex Bigelow, Ethan Kerzner, Nina McCurdy, Sam Quinan,
   and Kris Zygmunt for their feedback on this work.
@@ -1377,3 +1377,4 @@ visualization.
   information does not necessarily reflect the position or
   the policy of the government or Intelligent Automation,
   Inc., and no official endorsement should be inferred.
+-->
