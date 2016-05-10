@@ -187,7 +187,7 @@ These different discourse channels interacted together and led to successful out
   The third channel involved a network analyst from a university.
   Each channel involved different sets of users and data,
   but the final BubbleNet design in c) and deployments all occurred due to the interaction of outcomes and user feedback across all of these channels.
-](figures/process.pdf){#fig:process width="100%"}
+](figures/bubble-net/process.pdf){#fig:process width="100%"}
 
 
 We present an overview of our design process in [@fig:process].
@@ -258,7 +258,7 @@ This supports identifying interesting patterns and comparing them as well.
 
 ![
   The BubbleNet dashboard labeled by its corresponding encodings: a) location map based on a Dorling cartogram, b) temporal chart and heatmap, c) attribute bullet bar charts, d) record details table, and e) selection overview.
-](figures/dashboard.pdf){#fig:dashboard width="100%"}
+](figures/bubble-net/dashboard.pdf){#fig:dashboard width="100%"}
 
 
 ### Location View
@@ -325,8 +325,8 @@ but interaction supports comparing precise values using text.
 
 |     |     |
 | --- | --- |
-| ![](figures/bubble3.png){width="50%"} | ![](figures/bubble4.png){width="50%"} |
-| ![](figures/bubble5.png){width="50%"} | ![](figures/bubble6.png){width="50%"} |
+| ![](figures/bubble-net/bubble3.png){width="50%"} | ![](figures/bubble-net/bubble4.png){width="50%"} |
+| ![](figures/bubble-net/bubble5.png){width="50%"} | ![](figures/bubble-net/bubble6.png){width="50%"} |
 
 ![
   Most elements of the BubbleNet dashboard are interactive and update all other views accordingly.
@@ -437,7 +437,7 @@ By combining this survey with a qualitative coding methodology, we sought to inc
 
 ![
   Final results of a system usability survey of nine different users, both network analysts and managers. The average score of the dashboard is 75, above the average usability score of 68 [@sauro2011sus].
-](figures/sus.pdf){#fig:sus width="100%"}
+](figures/bubble-net/sus.pdf){#fig:sus width="100%"}
 
 
 After coding each of the participants' comments, the following categories of tags were formed: desired task, that task's intended target in the dashboard, and its outcome.
