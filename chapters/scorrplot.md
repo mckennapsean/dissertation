@@ -260,8 +260,8 @@ variable is subtracted from each observation, and second, the variable is
 scaled to unit length.  The first step corresponds to projecting the variable
 onto a $(n-1)$-flat orthogonal to $\mathbf{1}$, the all ones vector.  More
 formally, the subtraction of the mean for any variable $\mathbf{x}$ can be written
-as $ \tilde{\mathbf{x}} = \mathbf{x} - \frac{\mathbf{x} \cdot \mathbf{1}}{n} \mathbf{1} \, $.  This
-is a projection onto the hyperplane $\mathbf{x} \cdot \mathbf{1} = 0$, thus, the mean
+as $\tilde{\mathbf{x}} = \mathbf{x} - \frac{\mathbf{x} \cdot \mathbf{1}}{n} \mathbf{1} \,$.
+This is a projection onto the hyperplane $\mathbf{x} \cdot \mathbf{1} = 0$, thus, the mean
 subtracted variables reside in a $(n-1)$-flat.  The second step, scaling to
 unit length, results in the projection of the variables onto the aforementioned
 $(n-2)$-sphere. For any two variables, their correlation is now directly
@@ -396,7 +396,7 @@ o(\mathbf{p}, \mathbf{s}) = \frac{ \mathbf{s} - (\mathbf{s} \cdot
 \, .
 $$ {#eq:projection-plane-o}
 Any standardized variable, $\mathbf{x}$, can be projected onto the plane $U$,
-producing the 2D coordinates of the s-CorrPlot,  
+producing the 2D coordinates of the s-CorrPlot,
 $\mathbf{x}_U = U \, \mathbf{x} \, .$
 This projection results in the s-CorrPlot, shown in [@fig:corr-plot](b).
 
@@ -420,7 +420,7 @@ This projection results in the s-CorrPlot, shown in [@fig:corr-plot](b).
   correlation to $\mathbf{p}$. As such, (c) these vertical lines can be
   generalized as grid lines along $U$, denoting sets of equidistant correlation
   values to $\mathbf{p}$. Similarly, (d) grid lines to $\mathbf{s}$ can be shown.
-](){#fig:corr-plot width="100%"}
+](){#fig:corr-plot}
 
 
 Based on [@eq:geom], the correlation coefficient for two variables
@@ -479,7 +479,6 @@ For any single plot, the correlation value $\hat{r}(\mathbf{x}, \mathbf{y})$ is 
 the range:
 $$
   \begin{aligned}
-    \label{eq:upper}
     \hat{r}_{\text{max}}(\mathbf{x},\mathbf{y})
       &= \frac{\lVert \mathbf{x}_U \rVert^2 + \lVert \mathbf{y}_U \rVert^2 -
       \lVert \mathbf{x}_U - \mathbf{y}_U \rVert^2}{2}
@@ -490,7 +489,6 @@ $$ {#eq:upper}
 
 $$
   \begin{aligned}
-    \label{eq:lower}
     \hat{r}_{\text{min}}(\mathbf{x},\mathbf{y})
       &=\frac{\lVert \mathbf{x}_U \rVert^2 + \lVert \mathbf{y}_U \rVert^2 -
       \lVert \mathbf{x}_U - \mathbf{y}_U \rVert^2}{2}
@@ -510,14 +508,13 @@ of [@eq:upper] and [@eq:lower] in the rest of this section.
 
 
 For two standardized variables, their squared Euclidean distance determines their correlation:
-\begin{equation}
-  \begin{aligned} 
-    \label{eq:corrcoef}
+$$
+  \begin{aligned}
     \hat{r}(\mathbf{x}, \mathbf{y}) =
       \mathbf{x} \cdot \mathbf{y} = 1 - \frac{\lVert \mathbf{x} - \mathbf{y} \rVert^2}{2}
       \, ,
   \end{aligned}
-\end{equation}
+$$ {#eq:corrcoef}
 which is derived by rewriting the squared Euclidean distance in terms of the
 inner product $(\mathbf{x} - \mathbf{y}) \cdot (\mathbf{x} - \mathbf{y}) = 2 - 2
 \mathbf{x} \cdot \mathbf{y}$.
@@ -538,6 +535,7 @@ and intersect the correlation sphere at distances $d_\mathbf{x}$ and
 $d_\mathbf{y}$ from $U^\top \mathbf{x}_U$ and $U^\top \mathbf{y}_U$, respectively.
 The intersections of $N_\mathbf{x}$ and $N_\mathbf{y}$ with the correlation spheres
 are $(n-4)$-spheres with radius $d_\mathbf{x}$ and $d_\mathbf{y}$.
+
 
 The minimal and maximal distances between two variables on these $(n-4)$-spheres
 are achieved when the variables are located on the closest and farthest points
@@ -636,7 +634,7 @@ the s-CorrPlot, examples of which are shown in
   reduce this overplotting and more effectively highlight clusters in the
   scatterplot.  This plot uses a large bandwidth emphasizing spread-out
   clusters, but we can also use a smaller bandwidth as in (c) to more
-  effectively highlight tightly clustered variables.  
+  effectively highlight tightly clustered variables.
 ](){#fig:density}
 
 
@@ -646,7 +644,6 @@ estimator [@parzen:ams62; @silverman1986density] on the set of standardized
 vectors $\{\mathbf{y}_1, \mathbf{y}_2, \ldots, \mathbf{y}_n\}$:
 $$
 f( \mathbf{x} ) = \frac{1}{p} \sum_{i=1}^{p} K_{n-2}( \mathbf{x} \cdot \mathbf{y}_i, h)
-\end{equation}
 $$ {#eq:density}
 with $K_{n-2}$ the kernel and $h$ the kernel bandwidth parameter. Because the
 density we are estimating lies on a $(n-2)$-sphere, we use the
@@ -1191,10 +1188,10 @@ size of datasets that our collaborator struggles to analyze.
 
 
 |     |     |     |     |
-| :-- | --- | --- | --- |
+| :-- | :-: | :-: | :-: |
 |     | brain region #1 | brain region #2 | overlay |
-| genes | ![](figures/scorrplot/gene-case-study-0){width="32%"} | ![](figures/scorrplot/gene-case-study-1){width="32%"} | ![](figures/scorrplot/gene-case-study-2){width="32%"} |
-| exons | ![](figures/scorrplot/exon-case-study-0){width="32%"} | ![](figures/scorrplot/exon-case-study-0){width="32%"} | ![](figures/scorrplot/exon-case-study-0){width="32%"} |
+| genes | ![](figures/scorrplot/gene-case-study-0){width="29%"} | ![](figures/scorrplot/gene-case-study-1){width="32%"} | ![](figures/scorrplot/gene-case-study-2){width="29%"} |
+| exons | ![](figures/scorrplot/exon-case-study-0){width="29%"} | ![](figures/scorrplot/exon-case-study-1){width="31%"} | ![](figures/scorrplot/exon-case-study-2){width="29%"} |
 
 ![
   Two different biological datasets containing 76,730 (genes) and 120,000
