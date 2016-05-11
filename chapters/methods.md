@@ -135,7 +135,7 @@ The next design method we present was utilized during our second project: design
 
 |     |     |
 | --- | --- |
-| ![](figures/methods/dashboard.pdf){width="45%"} | ![](figures/methods/dashboard2.pdf){width="45%"} |
+| ![](figures/methods/dashboard1.pdf){width="45%"} | ![](figures/methods/dashboard2.pdf){width="45%"} |
 | (a) | (b) |
 
 ![
@@ -153,7 +153,7 @@ We developed the personas based on a dozen semi-structured interviews conducted 
 
 ![
   An overview of the four visual personas we identified, showing the role decisions and information play across all users. The personas method was particularly effective at narrowing our design focus and facilitating consistent communication as a design team.
-](figures/methods/personas.pdf){#fig:personas width="100%"}
+](figures/methods/personas.pdf){#fig:personas height="100%"}
 
 
 We present the resulting personas from our project in [@fig:personas] and provide them in Supplemental Materials.[^1] The four personas are: a cyber analyst, a network operations center (NOC) manager, a director of information technology (IT), and a chief executive officer (CEO). For each persona, we pinpointed the goal or domain-specific task for each archetypal user and visually illustrated the user's cyber knowledge and situational awareness (SA) focus. We also considered the range or window of temporal data that each user requested, illustrating how to represent visualization-specific needs within a persona. Next, we highlighted each user's key cyber SA questions, pulling from an existing question taxonomy as a basis [@Paul2013a]. Lastly, we identified the general flow of both decisions (downward) and information (upwards) between these personas to characterize interactions taking place between them.
