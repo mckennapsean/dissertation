@@ -5,7 +5,7 @@ Deadlines:
   Time: 1pm
   Location: Evans Conference Room (or Skype)
   - Wed, May 18: send out dissertation proposal document
-  - Thu, May 5: very rough draft of proposal in outline form
+  - Thu, May 11: rough draft of proposal in outline form
 
 
 Rough Outline:
@@ -52,4 +52,14 @@ What is the hope for my job talk?
 
 
 
+
+To-Do:
+
+  - questions above...
+  - rearrange chapters: split apart DAF into own
+  - hide parts of papers/chapters
+  - revisit intro, clean up, shorten
+  - background section
+  - new barebones chapter intros
+  - minimal conclusion/discussion chapter
 
