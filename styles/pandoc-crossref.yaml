@@ -4,6 +4,6 @@ figPrefix:
 secPrefix:
   - "Section"
   - "Sections"
-eqPrefix:
+eqnPrefix:
   - "Equation"
   - "Equations"
