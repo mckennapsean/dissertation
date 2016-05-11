@@ -14,13 +14,15 @@
 \usepackage{longtable}
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\usepackage{amssymb}
+\usepackage[cmex10]{amsmath}
 
 %\usepackage[sectionbib,round]{natbib} % author-year citations
 \usepackage[sectionbib,numbers]{styles/natbib} % numeric citations
 
 \citeindextrue
 \makeindex
-\includeonly{chapters/daf,chapters/bubble-net,front/appendix}
+\includeonly{chapters/daf,chapters/bubble-net,chapters/scorrplot,front/appendix}
 
 \title{The Design Activity Framework: Analyzing the User-Centered Design Process for Data Visualization}
 \author{Sean Patrick McKenna}
@@ -74,6 +76,7 @@
 \maintext % start normal page numbering, parts and chapters follow
 \include{chapters/daf}
 \include{chapters/bubble-net}
+\include{chapters/scorrplot}
 \numberofappendices = 0 % set 0 for none, else number of appendices
 %\appendix % chapters, sections are now appendix style
 %\include{front/appendix}
