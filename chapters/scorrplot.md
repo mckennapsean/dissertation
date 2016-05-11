@@ -1190,8 +1190,8 @@ size of datasets that our collaborator struggles to analyze.
 |     |     |     |     |
 | :-- | :-: | :-: | :-: |
 |     | brain region #1 | brain region #2 | overlay |
-| genes | ![](figures/scorrplot/gene-case-study-0){width="29%"} | ![](figures/scorrplot/gene-case-study-1){width="32%"} | ![](figures/scorrplot/gene-case-study-2){width="29%"} |
-| exons | ![](figures/scorrplot/exon-case-study-0){width="29%"} | ![](figures/scorrplot/exon-case-study-1){width="31%"} | ![](figures/scorrplot/exon-case-study-2){width="29%"} |
+| genes | ![](figures/scorrplot/gene-case-study-0.pdf){width="29%"} | ![](figures/scorrplot/gene-case-study-1.pdf){width="32%"} | ![](figures/scorrplot/gene-case-study-2.pdf){width="29%"} |
+| exons | ![](figures/scorrplot/exon-case-study-0.pdf){width="29%"} | ![](figures/scorrplot/exon-case-study-1.pdf){width="31%"} | ![](figures/scorrplot/exon-case-study-2.pdf){width="29%"} |
 
 ![
   Two different biological datasets containing 76,730 (genes) and 120,000
