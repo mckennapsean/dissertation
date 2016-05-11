@@ -53,8 +53,10 @@ The design activity framework consists of four different design activities: *und
 
 We can use the framing of a design activity to find effective methods for cyber security visualization design. We define effectiveness here as a reflection in two parts: short-term and long-term. In the short-term, an effective design method must successfully achieve the desired outcome for the design activity --- we argue that this completed outcome is one way to validate a design method. The long-term effectiveness of a method can be established when the method is used within the development of a 
 deployed visualization tool: one that is evaluated with, and given to, real end users. Thus, we can determine if a design method was effective within a project by reflecting on these two questions:
+
 1. Did you achieve your desired outcomes?
 2. Did you deploy a tool to users as a result of this method?
+
 We will return to these questions in [@sec:methods] to discuss the effectiveness of the three methods presented in this paper for enabling successful designs of cyber security visualizations.
 
 
@@ -203,6 +205,7 @@ We present an overview of the twenty data sketches we produced in [@fig:sketches
 #### Results and Implications
 
 We showed each data sketch to our analyst; here we summarize the analyst's feedback for each kind of data sketch.
+
   - *Network Graphs:* The analyst was unconvinced that the graphs could show meaningful insights at scale with each node representing a single IP address. Furthermore, the layout algorithm confused the analyst since it positioned each IP address at a location that was not meaningful to the analyst.
   - *Maps:* In contrast to the network graph sketches, the map representations garnered positive feedback from the analyst, in particular the cartograms due to their novelty.
   - *Aggregated Charts:* These charts concerned the analyst because the finest level of detail was not available. We also included one data sketch to show a 3D data chart, which seemed to entice the analyst despite our continued warnings about the usability challenges of 3D for cyber security visualization [@Komlodi2005]. More unique kinds of visualization, such as parallel coordinates and treemaps, confused the analyst on first glance and required further explanation. After explanation, the analyst commented that parallel coordinates seemed promising for exploring multidimensional data, while the treemaps, which showed the IP address hierarchy, seemed less useful.
@@ -210,12 +213,14 @@ We showed each data sketch to our analyst; here we summarize the analyst's feedb
 
 
 After reviewing the analyst's feedback, we synthesized several considerations for cyber security dashboard design:
+
   - Avoid complex 3D graphics and interactions.
   - Avoid visual representations that require significant explanation, such as parallel coordinates or treemaps.
   - Precise details on the time scale may not be immediately vital.
   - Summary views for communication can use aggregation.
   - Aggregation of data should be immediately obvious.
   - A map-based view could aid the discovery of patterns.
+
 With these considerations in mind, we revisited our initial dashboard design and performed another iteration on the *ideate* and *make* design activities to produce the final dashboard design shown in [@fig:dashboard](b). The major change made in the final design is the type of encoding, using a map view with aggregation over time. This change was, in part, driven by the results of the data sketches method, which showed the potential of aggregation and map-based views for discovering and communicating cyber data. 
 
 
