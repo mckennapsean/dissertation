@@ -22,7 +22,7 @@
 
 \citeindextrue
 \makeindex
-\includeonly{chapters/daf,chapters/methods,chapters/bubble-net,chapters/scorrplot,front/appendix}
+\includeonly{chapters/intro,chapters/daf,chapters/methods,chapters/bubble-net,chapters/scorrplot}
 
 \title{The Design Activity Framework: Analyzing the User-Centered Design Process for Data Visualization}
 \author{Sean Patrick McKenna}
@@ -62,18 +62,19 @@
 
 \frontmatterformat
 \titlepage
-\copyrightpage
-\committeeapproval
-\readingapproval
-\preface{front/abstract}{Abstract}
+% \copyrightpage
+% \committeeapproval
+% \readingapproval
+% \preface{front/abstract}{Abstract}
 %\dedicationpage
 \tableofcontents
-\listoffigures
-\listoftables
+% \listoffigures
+% \listoftables
 %\optionalfront{Notation and Symbols}{\input{notation.tex}}
 %\preface{front/acknowledge}{Acknowledgements}
 
 \maintext % start normal page numbering, parts and chapters follow
+\include{chapters/intro}
 \include{chapters/daf}
 \include{chapters/methods}
 \include{chapters/bubble-net}
