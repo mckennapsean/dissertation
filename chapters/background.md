@@ -1,6 +1,14 @@
 
 # Background and Related Work
 
+**_TODO_**:
+
+  - section on UCD (2 pars), overview of this space and connections to vis
+  - section on evaluation (2 pars), overview of this space and what is missing
+  - eventually, section on agile, probably no time to research yet
+  - revisit framing of intro here: nod to DAF as way to combine them all, how they are disparate, and why that matters
+
+
 As the field of visualization matures, theories and models
 that capture the *how* of visualization design have
 become more prevalent, from evaluation
@@ -59,7 +67,7 @@ design [@Lowgren1995; @Howard2008; @Wolf2006; @Cardella2008; @Jones2008; @Brown2
 
 
 
-## Types of Process Models
+## Types of Visualization Models
 
 Visualization research often involves the creation of new
 visual encodings, interaction techniques, and systems. This
@@ -217,4 +225,20 @@ in the middle four design stages. The design activity
 framework is largely inspired by the nine-stage framework,
 in particular to provide actionable guidance not currently
 available within this process model.
+
+
+
+
+
+##  User-Centered Design for Visualization
+
+
+
+
+
+
+
+## Role of Evaluation in Design
+
+
 
