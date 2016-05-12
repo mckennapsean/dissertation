@@ -6,6 +6,7 @@
   - redo first paragraph to higher level, save details for later chapter
   - add paragraph on *how* to solve the problem here with the DAF
   - revisit intro / outline based on changes to papers and ordering
+  - clearly state in overview what is done and what is yet to be done
 
 
 This dissertation centers around the formulation, use, and validation of a user-centered framework
