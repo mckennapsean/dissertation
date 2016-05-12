@@ -1,5 +1,5 @@
 
-# Case Study: Design Study in Cyber Security Visualization
+# Case Study: Design Study in Cyber Security
 
 **_TODO:_**
 

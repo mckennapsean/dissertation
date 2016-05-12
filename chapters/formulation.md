@@ -1,5 +1,5 @@
 
-# Formulation of the Design Activity Framework
+# Formulation of the Framework
 
 **_TODO:_**
 

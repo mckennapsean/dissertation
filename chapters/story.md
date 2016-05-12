@@ -1,5 +1,5 @@
 
-# Case Study: Designing a Data Storytelling Authoring Tool
+# Case Study: Data Storytelling Authoring Tool
 
 **_TODO:_**
 
