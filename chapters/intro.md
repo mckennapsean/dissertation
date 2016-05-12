@@ -1,6 +1,13 @@
 
 # Introduction
 
+**_TODO:_**
+
+  - redo first paragraph to higher level, save details for later chapter
+  - add paragraph on *how* to solve the problem here with the DAF
+  - revisit intro / outline based on changes to papers and ordering
+
+
 This dissertation centers around the formulation, use, and validation of a user-centered framework
 for capturing and describing the interplay between the visualization design process, design decisions, and design artifacts.
 Design can mean many things,
