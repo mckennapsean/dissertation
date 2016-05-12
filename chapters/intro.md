@@ -1,6 +1,34 @@
 
 # Introduction
 
+
+This dissertation centers around the formulation, use, and validation of a user-centered framework for capturing and describing the visualization design process.
+
+
+Many visualization designers think deeply about the role of the design process for creating and building novel and useful visualizations.
+
+
+Design has many meanings, and the role of design in visualization is critical yet cryptic.
+
+
+It is important to evaluate theoretical frameworks based on their real world usage.
+
+
+Focusing on the design process can enable visualization designers to apply what they have learned to other problems, saving time and making more effective visualizations.
+
+Artifacts are crucial to pinpointing the success of a project and process, so it is important to capture and save artifacts as part of the design process. (reuse?)
+
+Design decisions are important to connect to the design process. (why?)
+
+Why does someone care about any of this? What is the problem you are solving?
+
+
+
+
+
+
+## Contributions
+
 This dissertation is about a user-centered framework for visualization design: the design activity framework [@McKenna2014].
 We present this framework as a validated methodology for visualization designers pursuing problem-driven work, such as design studies.
 The key novel aspects of this framework includes its flexibility for iteration, actionability to guide designers, and connections to existing models across fields.
@@ -8,12 +36,6 @@ We have utilized this framework to formulate, guide, and reflect on the design p
 For each of these projects, we have employed a variety of qualitative design methods in order to validate the utility of these methods in real-world projects and reflect on using them in future projects.
 Furthermore, we illustrate the importance of design artifacts or outcomes and how they can play a useful and continued role in a project.
 We conclude by reflecting on what we have learned about the visualization design process from our case studies to inform future problem-driven visualization research, design, and development.
-
-
-
-
-
-## Contributions
 
 The design activity framework was initially formulated from a collaborative effort between designers, a psychologist, and visualization experts [@McKenna2014].
 As a multidisciplinary team, we struggled to utilize existing design process models to capture the complex methods we utilized in a project and how they connected to each other.
