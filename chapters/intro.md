@@ -36,12 +36,18 @@ thus, it is often both beneficial and can save time by capturing many artifacts 
 
 This dissertation's primary contribution is a user-centered framework for visualization design: the design activity framework [@McKenna2014].
 We present this framework as a validated methodology for visualization designers pursuing problem-driven work, such as design studies.
-The key novelty to this framework is its specificity for visualization design by connecting steps of the design process to the design decisions made and outcomes or artfacts achieved during this process.
+The key novelty to this framework is its specificity for visualization design by connecting steps of the design process to the design decisions made and outcomes or artifacts achieved during this process.
 Other novel aspects of this framework includes its flexibility for iteration, actionability to guide visualization designers, and connections to existing models across fields.
 We have utilized this framework to formulate, guide, and reflect on the design process of several case studies in the fields of cyber security [@McKenna2014; @Staheli2014; @McKenna2015; @mckenna2016], biology [@mckenna2015s], and data storytelling [@mckenna2017].
 For each of these projects, we have employed a variety of qualitative design methods in order to validate the utility of these methods in real-world projects and reflect on using them in future projects.
 Furthermore, we illustrate the importance of design artifacts or outcomes and how they can play a useful and continued role in a project.
 We conclude by reflecting on what we have learned about the visualization design process from our case studies to inform future problem-driven visualization research, design, and development.
+
+
+
+
+
+## Overview of Work
 
 The design activity framework was initially formulated from a collaborative effort between designers, a psychologist, and visualization experts [@McKenna2014].
 As a multidisciplinary team, we struggled to utilize existing design process models to capture the complex methods we utilized in a project and how they connected to each other.
@@ -75,7 +81,7 @@ Furthermore, we performed a formal usability study with a standardized quantitat
 By reflecting on our design process, we are currently writing up a paper of this project to show the connection between the design activity framework and that of a design study [@mckenna2016].
 
 
-Additionally, we have conducted a case study in the field of biology which explored a different set of project constraints, data, and users in order to further extend and validate the design activity framework [@mckenna2015s; @mckenna2017].
+Additionally, we have conducted a case study in the field of biology which explored a different set of project constraints, data, and users in order to further extend and validate the design activity framework [@mckenna2015s].
 This study was with a biology researcher studying mouse genetics through exploring multidimensional correlation.
 With a statistics researcher, we created a new technique, the s-CorrPlot, to encode and project correlation to two-dimensions that have more meaningful dimensions in terms of reading correlation coefficient values from the plot, coupled with interactive techniques and animations to facilitate exploration of the large datasets [@mckenna2015s].
 However, we were unable to achieve a successful design study from this project since our collaborators were not able to go beyond simple exploration and very basic hypothesis generation using the tool.
@@ -90,12 +96,16 @@ Then, we will design a novel data storytelling authoring tool according to these
 For example, one such technique is varying use of either scrolling or stepping for navigating a story with animated transitions.
 We will employ several quantitative studies to evaluate the effectiveness of the storytelling techniques and the feasibility of this authoring tool to support them.
 Finally, we plan to release the contents of this authoring tool for others to utilize these data storytelling techniques in their own work.
-By reflecting on our design process of this authoring tool, this project will highlight the flexiblity of the design activity framework by capturing and describing a project with quantitative user evaluation of various visualization and interaction techniques.
+By reflecting on our design process of this authoring tool, this project will highlight the flexibility of the design activity framework by capturing and describing a project with quantitative user evaluation of various visualization and interaction techniques.
 
 
 
 
 
-## Timeline of Work
+## Timeline
 
-
+Most of the work has already been completed.
+The design activity framework has already been formulated [@McKenna2014] and revised.
+This work started several case studies in cyber security [@McKenna2015; @mckenna2016].
+The case study in biology has also been completed [@mckenna2015s], but more thought will be spent reflecting on this project with respect to the design activity framework.
+Lastly, the case study for data storytelling is ongoing, expected to be completed by this fall.
