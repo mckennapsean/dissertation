@@ -1,8 +1,8 @@
+archive/
 chapters/*.tex
 examples/
 figures/
 front/*.tex
-proposal/
 *.pdf
 *.aux
 *.bbl
