@@ -98,14 +98,3 @@ We will employ several quantitative studies to evaluate the effectiveness of the
 Finally, we plan to release the contents of this authoring tool for others to utilize these data storytelling techniques in their own work.
 By reflecting on our design process of this authoring tool, this project will highlight the flexibility of the design activity framework by capturing and describing a project with quantitative user evaluation of various visualization and interaction techniques.
 
-
-
-
-
-## Timeline
-
-Most of the work has already been completed.
-The design activity framework has already been formulated [@McKenna2014] and revised.
-This work started several case studies in cyber security [@McKenna2015; @mckenna2016].
-The case study in biology has also been completed [@mckenna2015s], but more thought will be spent reflecting on this project with respect to the design activity framework.
-Lastly, the case study for data storytelling is ongoing, expected to be completed by this fall.
