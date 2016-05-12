@@ -34,9 +34,10 @@ thus, it is often both beneficial and can save time by capturing many artifacts 
 
 ## Contributions
 
-This dissertation is about a user-centered framework for visualization design: the design activity framework [@McKenna2014].
+This dissertation's primary contribution is a user-centered framework for visualization design: the design activity framework [@McKenna2014].
 We present this framework as a validated methodology for visualization designers pursuing problem-driven work, such as design studies.
-The key novel aspects of this framework includes its flexibility for iteration, actionability to guide designers, and connections to existing models across fields.
+The key novelty to this framework is its specificity for visualization design by connecting steps of the design process to the design decisions made and outcomes or artfacts achieved during this process.
+Other novel aspects of this framework includes its flexibility for iteration, actionability to guide visualization designers, and connections to existing models across fields.
 We have utilized this framework to formulate, guide, and reflect on the design process of several case studies in the fields of cyber security [@McKenna2014; @Staheli2014; @McKenna2015; @mckenna2016], biology [@mckenna2015s], and data storytelling [@mckenna2017].
 For each of these projects, we have employed a variety of qualitative design methods in order to validate the utility of these methods in real-world projects and reflect on using them in future projects.
 Furthermore, we illustrate the importance of design artifacts or outcomes and how they can play a useful and continued role in a project.
@@ -85,11 +86,11 @@ This highlights that technique-driven work can be unique and require extensions 
 
 We are currently pursuing a case study in the field of data storytelling.
 For this investigation, we have begun to analyze various techniques used by authors on the web to convey data in a storytelling fashion.
-Then, we will design several studies to uncover different techniques and strategies, such as the use of scrolling as input and how to design effective animated transitions to aid visual storytelling.
-We plan to employ a pilot study followed by a series of quantitative studies to evaluate the effectiveness and feasibility of various storytelling techniques.
-Finally, we plan to release the contents of the visualizations we create as a simple web framework for others to utilize these data storytelling techniques in their own work.
-By reflecting on our design process of these studies, we believe that this project will enable the design activity framework to capture and describe a project focused heavily on quantitative user evaluation to further reflect on how these play a role in visualization design.
-
+Then, we will design a novel data storytelling authoring tool according to these techniques and strategies.
+For example, one such technique is varying use of either scrolling or stepping for navigating a story with animated transitions.
+We will employ several quantitative studies to evaluate the effectiveness of the storytelling techniques and the feasibility of this authoring tool to support them.
+Finally, we plan to release the contents of this authoring tool for others to utilize these data storytelling techniques in their own work.
+By reflecting on our design process of this authoring tool, this project will highlight the flexiblity of the design activity framework by capturing and describing a project with quantitative user evaluation of various visualization and interaction techniques.
 
 
 
