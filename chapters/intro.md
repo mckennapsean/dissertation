@@ -1,26 +1,31 @@
 
 # Introduction
 
-
-This dissertation centers around the formulation, use, and validation of a user-centered framework for capturing and describing the visualization design process.
-
-
-Many visualization designers think deeply about the role of the design process for creating and building novel and useful visualizations.
-
-
-Design has many meanings, and the role of design in visualization is critical yet cryptic.
-
-
-It is important to evaluate theoretical frameworks based on their real world usage.
+This dissertation centers around the formulation, use, and validation of a user-centered framework
+for capturing and describing the interplay between the visualization design process, design decisions, and design artifacts.
+Design can mean many things,
+but visualization design is about the planning and creation of a particular chart or complex visualization system.
+The design process consists of the steps taken to achieve a given outcome, such as a visualization system.
+Design decisions are the reasons and justification behind a choice made for a visualization, such as choosing a pie or bar chart.
+The ultimate outcomes of any step of the design process and from design decisions are design artifacts, such as a system prototype.
+No such work previously exists which connects all three of these aspects for visualization design.
 
 
+Many visualization designers reflect on the role of the design process for creating and building novel and useful visualizations.
+...
 Focusing on the design process can enable visualization designers to apply what they have learned to other problems, saving time and making more effective visualizations.
 
-Artifacts are crucial to pinpointing the success of a project and process, so it is important to capture and save artifacts as part of the design process. (reuse?)
 
-Design decisions are important to connect to the design process. (why?)
+Visualization designers constantly make decisions throughout the process in order to focus their work.
+These design decisions play a crucial role in stating assumptions, identifying design opportunities, and formalizing requirements of a system.
+...
+Design decisions are often rooted in various research and design methods that can enable both the generation and creation of artifacts.
 
-Why does someone care about any of this? What is the problem you are solving?
+
+Visualization design artifacts are often crucial to the success of a project, especially for the final desired outcome which is sought to be usable, useful, and effective.
+...
+Artifacts for visualization design can serve many purposes, from measuring success to reuse in future projects;
+thus, it is often both beneficial and can save time by capturing many artifacts and connecting them to design decisions in a design process.
 
 
 
