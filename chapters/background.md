@@ -54,7 +54,7 @@ make with these various creative process models.
 By reflecting on our own design process, we
 identified a need for a process framework that balances
 the flexibility and actionability of models from the design
-community with the explicit outcomes and decisions necessary
+community with the explicit artifacts and decisions necessary
 for visualization design.
 We developed the
 design activity framework to overcome shortcomings in
@@ -214,7 +214,7 @@ steps involved with designing a visualization system, with
 four stages that, at a high level, are similar in motivation
 to the proposed design activity framework. In some of these
 middle stages, the levels of the nested model are mentioned;
-however, an explicit description of what types of outcomes
+however, an explicit description of what types of artifacts
 should be expected at each step is not provided.
 Furthermore, the model as a whole only loosely captures the
 overlapping and iterative nature of visualization design, as
@@ -223,7 +223,7 @@ nine-stage framework, although the first model of its kind to
 provide guidance for conducting design studies, does not
 give actionable advice for knowing what stage a designer is
 in, what kinds of methods to employ, or the specific
-outcomes and decisions a designer should make, particularly
+artifacts and decisions a designer should make, particularly
 in the middle four design stages. The design activity
 framework is largely inspired by the nine-stage framework,
 in particular to provide actionable guidance not currently
