@@ -3,8 +3,6 @@
 
 **_TODO_**:
 
-  - section on UCD (2 pars), overview of this space and connections to vis
-  - section on evaluation (2 pars), overview of this space and what is missing
   - eventually, section on agile, probably no time to research yet
   - revisit framing of intro here: nod to DAF as way to combine them all, how they are disparate, and why that matters
 
@@ -235,13 +233,23 @@ available within this process model.
 
 ##  User-Centered Design for Visualization
 
+User-centered design is a promising approach to build better and more effective visualization tools.
+By focusing on the needs, wants, and limitations of users, user-centered design enables users to achieve their goals more effectively, efficiently, and with increased satisfaction, thus providing benefits such as increased productivity, better accessibility, reduced stress and risk of harm, and an improved user well-being [@DIS2010].
+User-centered design has become widely accepted within the HCI community [@Tory2004] and slowly become more popular and accepted within the visualization community as well.
+Many different visualization practitioners have illustrated potential phases of a user-design process [@Chee2011; @Tory2004; @Wassink2009; @Lloyd2011],
+but each of these lacks the connection to design decisions and potential design methods.
+Many of these visualization models contain differing phases,
+and others have even reflected on existing models and extended them, such as adding a deployment phase as a result of utilizing Lloyd and Dyke's user-centered design model in a design study with investigative journalists [@Brehmer2014].
+For visualization, user-centered design plays a vital role to capturing elements of the design process,
+but there is no clear definition of the phases of this process nor how this connects to design decisions or methods.
 
 
-
-
-
-
-## Role of Evaluation in Design
-
-
+For visualization design, many papers report use and benefit of user-centered design methods, but a connection back to the larger design process is not always clear.
+In many design studies, researchers often interview users to derive requirements for a visualization tool [@Goodall2005; @Erbacher2012; @Brehmer2014; @McCurdy2015; @Kerzner2015; @Quinan2015].
+There are other methods for deriving user requirements, such as the personas design method [@Stoll2008a] or qualitative coding and data sketches [@McKenna2015].
+Others promote similar design-first, co-creation, or creative approaches to help find innovative visualization solutions, emphasizing visual concepts before user requirements [@Paul2015; @Goodwin2013a; @Landstorfer2014].
+Several researchers have used iterative usability studies and user feedback to improve upon the design of a visualization prototype [@Komlodi2005; @Hao2013a; @McKenna2016].
+Many of the visualization models capture more of an engineering design process, with a testing or evaluation phase [@Chee2011; @Tory2004; @Wassink2009; @Lloyd2011].
+However, design methods can be evaluative at any step or phase, to limit or narrow the choice of potential artifacts going forward.
+This points to another gap between existing visualization design process models and the plethora or design methods that get utilized.
 
