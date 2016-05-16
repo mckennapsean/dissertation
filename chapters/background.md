@@ -1,15 +1,16 @@
 
 # Background and Related Work
 
+<!--
 **_TODO_**:
 
-  - eventually, section on agile, probably no time to research yet
-  - revisit framing of intro here: nod to DAF as way to combine them all, how they are disparate, and why that matters
+  - section on agile development
+
+-->
 
 
-Design can mean many things,
-but visualization design is about the planning and creation of a particular chart or complex visualization system.
-
+Design has many meanings,
+and visualization design is about the planning and creation of a visualization or combined visualization system.
 As the field of visualization matures, theories and models
 that capture the *how* of visualization design have
 become more prevalent, from evaluation
@@ -25,14 +26,16 @@ design decision models [@Munzner2009; @Meyer].
 Furthermore, visualization design is known to be messy,
 iterative, and complex [@Sedlmair2012b; @DIS2010; @Tory2004; @Wassink2009; @Chee2011; @Moere2011], characteristics that are not fully
 described in existing visualization process models.
+We will introduce the design activity framework as a way to connect these design decisions to the design process,
+one which is both supportive of an engineering and creative design process approach.
 
 
 
 
 
-## Creative Design within Visualization Design
+## Bridging Creativity into Visualization Design
 
-When working with other designers, we found a disparity between how other visualization designers characterize and describe the design process.
+When working with other designers, we have discovered a disparity between how other visualization designers characterize and describe the design process.
 Although some visualization researchers
 stress that design and creativity research methods can play
 an effective role in visualization design
@@ -87,7 +90,7 @@ actions that a designer takes as a series of steps. Linking
 a process model to a decision model enables visualization
 designers to verify and validate the design decisions they
 make along each step of the design process. This link is
-highlighted by Sch\"{o}n's reflection-in-action concept,
+highlighted by Sch\mbox{\"{o}}n's reflection-in-action concept,
 which emphasizes that the processes of doing and thinking are
 complementary to each other [@Schon1983]; thus, the
 design process and its many design decisions are intricately
@@ -251,5 +254,5 @@ Others promote similar design-first, co-creation, or creative approaches to help
 Several researchers have used iterative usability studies and user feedback to improve upon the design of a visualization prototype [@Komlodi2005; @Hao2013a; @McKenna2016].
 Many of the visualization models capture more of an engineering design process, with a testing or evaluation phase [@Chee2011; @Tory2004; @Wassink2009; @Lloyd2011].
 However, design methods can be evaluative at any step or phase, to limit or narrow the choice of potential artifacts going forward.
-This points to another gap between existing visualization design process models and the plethora or design methods that get utilized.
+This points to another gap between existing visualization design process models and the plethora of design methods that get utilized.
 
