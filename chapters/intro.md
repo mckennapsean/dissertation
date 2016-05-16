@@ -49,11 +49,13 @@ Lastly, this framework connects and bridges other existing visualization design 
 
 This dissertation's primary contribution is a user-centered framework for visualization design: the design activity framework [@McKenna2014].
 We present this framework as a validated methodology for visualization designers pursuing problem-driven work, such as design studies.
-The key novelty to this framework is its specificity for visualization design by connecting steps of the design process to the design decisions made and outcomes or artifacts achieved during this process.
+The key novelty to this framework is its specificity for visualization design by connecting steps of the design process to the design decisions made and artifacts achieved during this process.
 Other novel aspects of this framework includes its flexibility for iteration, actionability to guide visualization designers, and connections to existing models across fields.
-We have utilized this framework to formulate, guide, and reflect on the design process of several case studies in the fields of cyber security [@McKenna2014; @Staheli2014; @McKenna2015; @mckenna2016], biology [@mckenna2015s], and data storytelling [@mckenna2017].
-For each of these projects, we have employed a variety of qualitative design methods in order to validate the utility of these methods in real-world projects and reflect on using them in future projects.
-Furthermore, we illustrate the importance of design artifacts or outcomes and how they can play a useful and continued role in a project.
+To strengthen the contribution of this framework, we have validated its use and application across several different visualization design projects.
+We have utilized this framework to formulate, guide, and reflect on the design process of several case studies in the fields of
+biology [@mckenna2015s], cyber security [@McKenna2014; @Staheli2014; @McKenna2015; @mckenna2016], and data storytelling [@mckenna2017].
+For each of these projects, we have employed a variety of qualitative and quantitative design methods in order to validate the utility of these methods in real-world projects and reflect on using them in future projects.
+Furthermore, we illustrate the importance of design artifacts and how they can play a useful and continued role in a project.
 We conclude by reflecting on what we have learned about the visualization design process from our case studies to inform future problem-driven visualization research, design, and development.
 
 
@@ -64,13 +66,13 @@ We conclude by reflecting on what we have learned about the visualization design
 
 The design activity framework was initially formulated from a collaborative effort between designers, a psychologist, and visualization experts [@McKenna2014].
 As a multidisciplinary team, we struggled to utilize existing design process models to capture the complex methods we utilized in a project and how they connected to each other.
-As a result, we identified the core concept of a design activity: a group of actions a visualization designer takes to work towards a specific outcome or set of outcomes [@McKenna2014].
+As a result, we identified the core concept of a design activity: a group of actions a visualization designer takes to work towards a specific artifact or set of artifacts [@McKenna2014].
 There are different kinds of design activities: e.g. understand, ideate, make, or deploy.
-Each activity has a basic structure composed of: a motivation, methods, and outcomes.
-The motivation is the specific purpose behind the methods and actions; this is intricately connected to the outcomes: the specific, unique results of a design activity such as a prototype, sketch, domain characterization, or data abstraction.
-We achieve design artifacts or outcomes through the use of design methods, which can be either generative or evaluative (or both) in nature.
+Each activity has a basic structure composed of: a motivation, methods, and artifacts.
+The motivation is the specific purpose behind the methods and actions; this is intricately connected to the artifacts: the specific, unique results of a design activity such as a prototype, sketch, domain characterization, or data abstraction.
+We achieve design artifacts through the use of design methods, which can be either generative or evaluative (or both) in nature.
 The design activity framework supports many flexible and iterative combinations of design activities to support the full range of possible design processes, including those from all of our case studies.
-Through these case studies, we extended our framework by reflecting on how to evaluate the effectiveness of design methods, clarified the role of design outcomes as research contributions, and identified additional related activities for research, design, and development that connect to existing models across a variety of fields.
+Through these case studies, we extended our framework by reflecting on how to evaluate the effectiveness of design methods, clarified the role of design artifacts as research contributions, and identified additional related activities for research, design, and development that connect to existing models across a variety of fields.
 We found the design activity framework as a useful methodology for conducting user-centered problem-driven visualization design,
 and we validate its usefulness and utility by discussing and reflecting on this framework through a series of case studies for cyber security and biology.
 
