@@ -3,7 +3,6 @@
 
 **_TODO:_**
 
-  - add paragraph on *how* to solve the problem here with the DAF
   - revisit intro / outline based on changes to papers and ordering
   - clearly state in overview what is done and what is yet to be done
   - add detail to all relevant sections
@@ -17,7 +16,7 @@ These artifacts get produced as a result of *decisions* that get made by a visua
 No work previously exists that connects all three of these aspects for visualization design.
 
 
-Many visualization designers reflect on the role of the design process for creating and building novel and useful visualizations.
+Many visualization designers reflect on the role and steps of the design process for creating and building novel and useful visualizations.
 ...
 Focusing on the design process can enable visualization designers to apply what they have learned to other problems, saving time and making more effective visualizations.
 
@@ -32,6 +31,14 @@ Visualization design artifacts are often crucial to the success of a project, es
 ...
 Artifacts for visualization design can serve many purposes, from measuring success to reuse in future projects;
 thus, it is often both beneficial and can save time by capturing many artifacts and connecting them to design decisions in a design process.
+
+
+These steps of the design process, design decisions, and artifacts can all be connected through the design activity framework.
+This framework breaks apart these steps into a series of four overlapping activities.
+Each activity has a specific motivation for a visualization designer to ground themselves in.
+Once an activity is identified, the expected kind of artifact to achieve becomes more clear.
+This further empowers visualization designers to choose from appropriate kinds of design methods to make and justify design decisions.
+Lastly, this framework connects and bridges other existing visualization design models and theories to provide unique and novel insight into the visualization design process.
 
 
 
