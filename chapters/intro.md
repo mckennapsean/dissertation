@@ -3,21 +3,18 @@
 
 **_TODO:_**
 
-  - redo first paragraph to higher level, save details for later chapter
-  - rethink if there is anything else to add to this about evaluation and where it fits in to the DAF...
   - add paragraph on *how* to solve the problem here with the DAF
   - revisit intro / outline based on changes to papers and ordering
   - clearly state in overview what is done and what is yet to be done
+  - add detail to all relevant sections
 
 
 This dissertation centers around the formulation, use, and validation of a user-centered framework
 for capturing and describing the interplay between the visualization design process, design decisions, and design artifacts.
-Design can mean many things,
-but visualization design is about the planning and creation of a particular chart or complex visualization system.
-The design process consists of the steps taken to achieve a given outcome, such as a visualization system.
-Design decisions are the reasons and justification behind a choice made for a visualization, such as choosing a pie or bar chart.
-The ultimate outcomes of any step of the design process and from design decisions are design artifacts, such as a system prototype.
-No such work previously exists which connects all three of these aspects for visualization design.
+For this field, design centers around the creation of a single visualization or more robust visualization system.
+This design process takes place in a series of overlapping *activities* which produce *artifacts*, like a new visualization encoding.
+These artifacts get produced as a result of *decisions* that get made by a visualization designer, such as how to evaluate a system.
+No work previously exists that connects all three of these aspects for visualization design.
 
 
 Many visualization designers reflect on the role of the design process for creating and building novel and useful visualizations.

@@ -9,6 +9,9 @@
   - revisit framing of intro here: nod to DAF as way to combine them all, how they are disparate, and why that matters
 
 
+Design can mean many things,
+but visualization design is about the planning and creation of a particular chart or complex visualization system.
+
 As the field of visualization matures, theories and models
 that capture the *how* of visualization design have
 become more prevalent, from evaluation
