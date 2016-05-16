@@ -1,11 +1,6 @@
 
 # Introduction
 
-**_TODO:_**
-
-  - add detail to all relevant sections
-
-
 This dissertation centers around the formulation, use, and validation of a user-centered framework
 for capturing and describing the interplay between the visualization design process, design decisions, and design artifacts.
 For this field, design centers around the creation of a single visualization or more robust visualization system.
@@ -15,18 +10,23 @@ No work previously exists that connects all three of these aspects for visualiza
 
 
 Many visualization designers reflect on the role and steps of the design process for creating and building novel and useful visualizations.
-...
-Focusing on the design process can enable visualization designers to apply what they have learned to other problems, saving time and making more effective visualizations.
+In the field of visualization, a good chunk of problem-driven visualization work conducts design studies, where visualization experts work closely with collaborators to help those other researchers work with visualizations or visualization systems to conduct their work.
+It is helpful both for novice visualization designers and even expert ones to provide guidance on how to achieve success in these projects and avoid common pitfalls which can lead to failure.
+There are also many different design process models out there, many from the design or HCI communities, and even several within the visualizastion community. 
+Clearly, focusing on the design process can enable visualization designers to apply what they have learned to other problems, saving time and making more effective visualizations.
 
 
 Visualization designers constantly make decisions throughout the process in order to focus their work.
 These design decisions play a crucial role in stating assumptions, identifying design opportunities, and formalizing requirements of a system.
-...
+One of the most common kind of design decisions is to perform an evaluation of a system, from informal to formal or qualitative to quantitative, in order to justify the use of a specific encoding or interaction technique.
+Another easy and common design decision is to utilize 2D space to encode the most important visual data, over less perceptually effective channels such as radial size or color.
 Design decisions are often rooted in various research and design methods that can enable both the generation and creation of artifacts.
 
 
 Visualization design artifacts are often crucial to the success of a project, especially for the final desired outcome which is sought to be usable, useful, and effective.
-...
+Some artifacts are tangible software tools, such as a visualization prototype or the final deployed system.
+However, design artifacts can span a variety of other mediums, such as ideas or sketches of a new visualization technique or even the results of a formative study in order to identify user needs for a project.
+These artifacts may be the result of generative or evaluative methods, where there may be either a collection of artifacts, such as a list of user needs or user requirements, or evaluative methods which pinpoint a subset of artifacts as being more useful or critical to pursue.
 Artifacts for visualization design can serve many purposes, from measuring success to reuse in future projects;
 thus, it is often both beneficial and can save time by capturing many artifacts and connecting them to design decisions in a design process.
 
