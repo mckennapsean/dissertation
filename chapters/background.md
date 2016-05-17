@@ -8,6 +8,11 @@
 
 -->
 
+**_TODO:_**
+
+  - low-level edits
+  - make a new intro, or take from DAF
+
 
 Design has many meanings,
 and visualization design is about the planning and creation of a visualization or combined visualization system.

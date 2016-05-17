@@ -1,6 +1,15 @@
 
 # Introduction
 
+**_TODO:_**
+
+  - low-level edits from Miriah
+  - pull problem statement from background
+  - add one more sentence to solidify the problem
+  - add clarification on artifacts, and what is novel/missing from current bits, see Miriah's comments
+  - add citations (3-4 when necessary)
+  - trim down overview: 3-4 sentences per chapter, more high-level, and what has been done
+
 This dissertation centers around the formulation, use, and validation of a user-centered framework
 for capturing and describing the interplay between the visualization design process, design decisions, and design artifacts.
 For this field, design centers around the creation of a single visualization or more robust visualization system.
