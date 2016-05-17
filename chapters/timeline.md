@@ -20,7 +20,7 @@ A breakdown of each paper follows:
   - **P4:** BubbleNet: A Cyber Security Dashboard for Visualizing Patterns [@mckenna2016]
     - published through *Computer Graphics Forum*
     - presenting at Eurovis 2016
-  - **P5:** Animated Transitions and Techniques for Data Storytelling [@mckenna2017]
+  - **P5:** Battle of Steppers and Scrollers: Navigational Paradigms for Visual Stories [@mckenna2017]
     - work in progress, see below for more details
 
 
