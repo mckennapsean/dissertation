@@ -1,20 +1,12 @@
 
 # Design Activity Framework
 
-**_TODO:_**
 
-  - get high level overview here, 3-4 pages
-  - repeat that this is about bringing what is missing together
-  - emphasize that this has happened piecemeal over many projects
-
-
-The design process consists of the steps taken to achieve a given outcome, such as a visualization system.
+A design process consists of steps taken to achieve a given outcome, such as a visualization system.
 Design decisions are the reasons and justification behind a choice made for a visualization, such as choosing a pie or bar chart.
-The ultimate outcomes of any step of the design process and from design decisions are design artifacts, such as a system prototype.
-No such work previously exists which connects all three of these aspects for visualization design.
-
-
-
+Design artifacts, like a system prototype, are the goal for any step of the design process and from making design decisions.
+As explored in the previous chapter, no such work exists which connects all three of these aspects for visualization design.
+By connecting these components, the design activity framework more completely captures and describes the design process, increasing its actionability for use by other visualization designers.
 
 
 In this chapter, we present an overview of the *design activity
@@ -33,7 +25,8 @@ believe is a more actionable visualization process model
 than those that currently exist.
 
 
-We present the idea of a *design activity* in [@sec:activity],
+The concepts of this framework have developed over the course of several real-world design processes, both as a result of less successful projects and reflection upon successful case studies.
+Next, we present the idea of a *design activity* in [@sec:activity],
 which forms the basis of the new
 framework. From there we describe, in [@sec:activities],
 the four activities contained in the
@@ -74,16 +67,14 @@ collection of *methods*. We pictorially represent the design
 activity framework in [@fig:framework].
 
 
-
-
-
-
+<!--
 The design activity framework consists of four different design activities: *understand*, *ideate*, *make*, and *deploy*. Each of these activities consists of a *motivation*, *design artifacts*, and *methods*. As shown in [@fig:activity], the motivation places the designer within a specific activity in the framework, with the goal of establishing a specific set of artifacts for that activity. Artifacts are achieved using one or more design methods, both for generative or evaluative purposes. The design activity framework supports iterative, user-centered visualization design, and provides guidance about effective methods for reaching a range of design goals. While the focus of this paper is on three specific design methods, we ground these methods within the design activity framework to provide guidance about how and when these methods can be used most effectively. 
 
 
 ![
   Overview of the design activity framework [@McKenna2014], showing how each design activity has a motivation, artifacts, and methods.
 ](figures/methods/framework.pdf){#fig:activity width="70%"}
+-->
 
 
 The **motivation** of an activity is the specific
@@ -359,9 +350,10 @@ backward movement to a different activity can happen within
 an activity, such as revisiting an understanding while
 brainstorming new ideas, or two activities that occur
 concurrently. Taken together, these two  movement principles
-support both iteration and multilinearity. 
+support both iteration and multilinearity.
 
 
+<!--
 Other visualization process models are also characterized in
 similar ways, supporting ordered forward movement with
 iteration [@Chee2011; @Tory2004; @Wassink2009; @Sedlmair2012b; @DIS2010],
@@ -373,6 +365,7 @@ represented linearly or cyclically and imply the need to
 start at the beginning of the process, making it
 difficult, for example, to capture the process of a
 visualization redesign project.
+-->
 
 
 
