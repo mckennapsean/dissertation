@@ -5,34 +5,18 @@
 **_TODO_**:
 
   - section on agile development
+  - chapter reference
 
 -->
 
-**_TODO:_**
-
-  - make a new intro, or take from DAF
-  - update chapter references
-
-
-Design has many meanings,
-and visualization design is about the planning and creation of a visualization or combined visualization system.
-As the field of visualization matures, theories and models
-that capture the *how* of visualization design have
-become more prevalent, from evaluation
-strategies [@Plaisant2004; @Lam2011a; @Carpendale2008a; @Isenberg2013a; @Shneiderman2006]
-to the design process
-itself [@Tory2004; @Sedlmair2012b; @Lloyd2011; @Shneiderman2006; @Wassink2009; @Chee2011].
-These theories and models for the design process largely
-address the *how* of visualization design, but they fail
-to explicitly describe the connections of those actions
-back to the *why* of visualization design decisions
---- these design decisions are described instead by separate
-design decision models [@Munzner2009; @Meyer].
-Furthermore, visualization design is known to be messy,
-iterative, and complex [@Sedlmair2012b; @DIS2010; @Tory2004; @Wassink2009; @Chee2011; @Moere2011], characteristics that are not fully
-described in existing visualization process models.
-We will introduce the design activity framework as a way to connect these design decisions to the design process,
-one which is both supportive of an engineering and creative design process approach.
+Visualization design and research has explored many facets of design, from the process to decisions made throughout.
+In this chapter, we will first explore how creativity has played a blossoming role in recent work.
+On the theoretical side, we focus on two types of visualization models, process and decision models [@Meyer].
+For visualization design, we discuss the primary decision model, the nested model [@Munzner2009; @Meyer].
+For process models, the HCI field has identified two differing approaches to the design process: creative versus engineering [@Lowgren1995; @Howard2008; @Wolf2006; @Moere2011].
+Together, these two approaches can complement and enrich a design process.
+Furthermore, we reflect on the role and use of user-centered design throughout visualization design.
+In the next chapter, we will introduce the design activity framework as a way to connect these design decisions to a design process which supports a combination of engineering and creative approaches for user-centered design.
 
 
 
@@ -57,7 +41,7 @@ reconcile the visualization design decisions we wanted to
 make with these various creative process models.
 
 
-By reflecting on our own design process in [@CHAPTER], we
+By reflecting on our own design process in Chapter 4, we
 identified a need for a process framework that balances
 the flexibility and actionability of models from the design
 community with the explicit artifacts and decisions necessary
