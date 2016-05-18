@@ -12,10 +12,6 @@
 
 -->
 
-**_TODO:_**
-
-  - trim down overview: 3-4 sentences per chapter, more high-level, and what has been done
-
 Design has many meanings,
 and visualization design is about the planning and creation of a visualization or combined visualization system.
 As the field of visualization matures, theories and models
@@ -104,53 +100,42 @@ We conclude by reflecting on what we have learned about the visualization design
 
 ## Overview
 
-At the core of this framework is the concept of a step or design activity:
-a group of actions a visualization designer takes to work towards a specific artifact or set of artifacts.
-In the design activity framework, we have identified four kinds of activities:
-e.g. understand, ideate, make, or deploy [@McKenna2014].
-Each activity has a basic structure composed of: a motivation, methods, and artifacts.
-The motivation is the specific purpose behind the methods and actions; this is intricately connected to the artifacts: the specific, unique results of a design activity such as a prototype, sketch, domain characterization, or data abstraction.
-We achieve design artifacts through the use of design methods, which can be either generative or evaluative (or both) in nature and often result in forming a design decision when evaluative.
-The design activity framework supports many flexible and iterative combinations of design activities to support the full range of possible design processes, including those from all of our case studies.
-Through these case studies, we extended our framework by reflecting on how to evaluate the effectiveness of design methods, clarified the role of design artifacts as research contributions, and identified additional related activities for research, design, and development that connect to existing models across a variety of fields.
-We found the design activity framework as a useful methodology for conducting user-centered problem-driven visualization design based on our own project failures,
-and we validate the framework's usefulness and utility by discussing and reflecting on this framework through a series of successful case studies for cyber security and data storytelling.
+In Chapter 2, the necessary background for this dissertation is presented.
+It includes a discussion of creativity in visualization design and user-centered design.
+There is a discussion on the different theoretical models presented in visualization design, both process and decision models.
+This work is largely complete, but an additional section on the role of agile development will be flushed out in the full dissertation.
 
 
-The design activity framework was initially formulated from reflecting on previous failed projects;
-this work has already been completed.
-At first, we pursued a design study in the field of biology, working with a research lab studying mouse genetics through correlation.
-With a statistics researcher, we created a new technique, the s-CorrPlot, to encode correlation of large datasets in a scatterplot [@mckenna2015s].
-However, this project did not yield us with a successful design study, since our collaborators could not go beyond exploration or basic hypothesis generation with the tool.
-Upon reflection, we realized that we were driven to build this tool for a novel technique, not to support the needs of the researchers.
-This led into a second case study, in the field of cyber security,
-where we worked with a team of designers, a psychologist, and visualization experts to formulate the beginnings of the design activity framework [@McKenna2014].
-In this work, our team worked with a cyber security firm to redesign one of their visualization software tools.
-We focused our redesign to create a series of sketches, wireframes, and mockups that visually communicated our ideas to the company's development team in order to improve their tool,
-but the final artifacts and changes were limited by the company's development budget.
-We found that a common aspect of failure in these projects and design studies was that less reflection and less control of the design process led to projects which were not as successful as they otherwise could have been.
+The core contribution of this dissertation is the design activity framework; an overview is presented in Chapter 3.
+This framework addresses a lack of connection between different kinds of design models, providing for a more complete description of a design project.
+This framework presents steps of a process through four design activities: understand, ideate, make, and deploy.
+Each activity contains a motivation, methods, and artifacts, to connect back to design decisions and help novice designers utilize the framework more easily.
+This work is already completed, but it may be modified over time and with reflection on our projects.
 
 
-A second but successful case study in the field of cyber security focused on a new investigation:
-building a cyber security dashboard to support visual communication across multiple types of cyber users [@McKenna2015; @mckenna2016];
-this work has already been completed.
-One of the challenges in the domain of cyber security is limited access to end users.
-We found certain methods to be effective with this limited access, such as personas and data sketches [@McKenna2015].
-Through a collaboration with cyber security researchers and users, we were able to perform a design study between network analysts and network managers in order to study how cyber information is communicated and created a tool to aid that communication flow [@mckenna2016].
-With the design activity framework as the backbone for this project, we had to delicately balance user-centered design methods when we had very limited access to end users.
-We were also able to build off of and repurpose the design opportunities we had identified with existing users from our redesign project into this dashboard project [@mckenna2016].
-Furthermore, we performed a formal usability study with a standardized quantitative questionnaire in order to validate the usability of our final dashboard tool.
-By reflecting on this design process, we have found that artifacts play a critical role in communicating the design process,
-and we have seen that design studies can be formed and reflected upon using the design activity framework. 
-We have modified the design activity framework accordingly with these insights.
+The design activity framework came out of reflections of previous failed projects, and these projects are explained in Chapter 4.
+The first project involved creation of a novel technique for exploring correlation,
+but the resulting tool strayed from solving real world problems due to its novelty.
+A second project focused on redesigning a tool,
+and this work resulted in only minor software changes since the development process was isolated.
+We found that a common aspect of failure in these projects was less reflection and decreased control of the entire design process.
+These reflections led to the formulation of the design activity framework,
+and this work has already been completed.
 
 
-We are currently pursuing a case study in the field of data storytelling;
-this work is currently on-going and is not complete.
-For this investigation, we have begun to analyze various techniques used by authors on the web to convey data in a storytelling fashion using visualization.
-From these techniques we observe, we will design a novel data storytelling authoring tool according to strategies we have seen.
-For example, one such technique is the varying use of either scrolling or stepping for navigating a story with animated transitions.
-We will employ several quantitative studies to evaluate the effectiveness of the storytelling techniques and the feasibility of this authoring tool to support them.
-Finally, we plan to release the contents of this authoring tool for others to utilize these data storytelling techniques in their own work.
-By reflecting on our design process of this authoring tool, this project will highlight the flexibility of the design activity framework by capturing and describing a project with more rigorous quantitative user evaluation of various visualization and interaction techniques.
+Using the design activity framework, we conducted a successful design study to create a cyber security visualization dashboard, discussed in Chapter 5.
+This design study introduced significant challenges to user-centered design, such as limited access to end users and data.
+We present several design methods that were used to overcome these challenges,
+and we discuss the design and successful evaluation and deployment of this dashboard.
+This work has already been completed.
+
+
+A second validation of the design activity framework is discussed in Chapter 6: the design of a data storytelling authoring tool.
+For this project, we have studied how authors currently use data visualization in telling stories on the web.
+Using the techniques we have observed, we will create an authoring tool to support creation of data stories and for authors to explore different dimensions of the reading experience.
+We plan to evaluate this tool with users to measure its effectiveness and utility.
+This work is on-going and is not completed yet.
+
+
+Lastly, Chapter 7 contains a timeline for the proposed remaining work, to outline the completion of this dissertation.
 
