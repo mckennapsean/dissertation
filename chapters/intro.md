@@ -4,10 +4,8 @@
 <!--
 **_TODO_**:
 
-  - spelling check
   - check other dissertation
   - references to chapters
-  - fix compilation issues
   - switch compilation entirely to pandoc?
 
 -->

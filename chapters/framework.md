@@ -340,7 +340,7 @@ when it comes to the flow of the design process. First, the
 activities are ordered
 when moving forward: understand, ideate, make,
 deploy. A project can start with any activity, as with our
-cybersecurity redesign project, which started from a tool in the
+cyber security redesign project, which started from a tool in the
 deploy activity, but forward movement must happen in an ordered
 fashion, even if the methods used are very narrow and informal.
 Backward movement, however, can move to any previous

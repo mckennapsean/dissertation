@@ -87,7 +87,7 @@ visualization process models while working on a project with
 a multidisciplinary design team consisting of two
 visualization experts, two designers, and one psychologist. Our
 team tackled the challenge of redesigning an existing
-visualization tool in the area of cybersecurity. As our team
+visualization tool in the area of cyber security. As our team
 attempted to adopt the nine-stage framework for conducting
 design studies [@Sedlmair2012b], we struggled to answer
 questions such as: If I'm not starting from the beginning,
@@ -106,8 +106,8 @@ visualization design process.
 This seven-month
 project focused on improving the usability and
 effectiveness of an existing, robust visualization
-system (RVS) for cybersecurity analysis.
-Analysts working with cybersecurity data focus on maintaining
+system (RVS) for cyber security analysis.
+Analysts working with cyber security data focus on maintaining
 the security of computer networks, relying on data about how
 a network is functioning, known network attack patterns, and a
 broad range of external sources of knowledge.
@@ -121,13 +121,13 @@ maintains RVS.
 Over the
 course of our redesign project we worked with: developers,
 researchers, and managers at the RVS company; several Department of Defense intrusion
-analysts who use RVS; and several cybersecurity
+analysts who use RVS; and several cyber security
 analysts at the University of Utah. This redesign project
 included several real-world constraints for our
 design team, namely
 a strict time frame for producing redesign ideas, limited
 funding available for implementing our ideas by software
-developers, confidentiality issues surrounding cybersecurity
+developers, confidentiality issues surrounding cyber security
 data, and the engineering realities of working within a
 large software system.
 
@@ -237,7 +237,7 @@ system, the RVS, we started our design process in the deploy
 activity.
 Rather than test RVS and simply clean up usability
 and aesthetic issues, however, our design team was tasked with
-thinking of the broader task of cybersecurity analysis, the needs of
+thinking of the broader task of cyber security analysis, the needs of
 users within that workflow, and the role of visualization for
 exploring computer network data. Ultimately, the RVS company
 was interested in incorporating new visualization components into
@@ -262,7 +262,7 @@ the features and efficacy of the tool.
 Our analysis of RVS revealed that it was 
 necessary for us to take a step back to the understand activity so
 that we could
-better discern the needs of cybersecurity analysts.
+better discern the needs of cyber security analysts.
 We have not yet returned to the deploy activity as
 the RVS company is still involved with major redesigns of the tool.
 
@@ -270,20 +270,20 @@ the RVS company is still involved with major redesigns of the tool.
 ### Understand --- Redesign Project
 
 The field of
-cybersecurity analysis has many types of users,
+cyber security analysis has many types of users,
 from those within companies who maintain their own networks, to
 the military, which maintains and monitors traffic across a global
 network grid.
 A number of cognitive scientists have spent significant time observing
-and interviewing cybersecurity
+and interviewing cyber security
 analysts [@DAmico2008; @Erbacher2010a; @Fink2009] across these
 different facets. We used the
 published work from these experts to form our base understanding of
-the field as we had limited access to cybersecurity experts ourselves. 
+the field as we had limited access to cyber security experts ourselves. 
 First, we conducted an
 extensive and broad literature review <!--(*M-53*)--> across
 a series of 40 articles from several key domains:
-cybersecurity visualization, situational awareness, and
+cyber security visualization, situational awareness, and
 cognitive task analysis. From this review we informally
 evaluated the articles based on their relevance and
 descriptive quality, isolating three of the articles as the
@@ -327,7 +327,7 @@ such as highlighting critical alerts in red.
 Lastly, we conducted a series of semistructured interviews
 with different stakeholders to identify needs and aspirations
 <!--(*M-51*)-->, where these stakeholders included a developer
-who works on RVS and several cybersecurity analysts at the
+who works on RVS and several cyber security analysts at the
 University of Utah. Based on this feedback, we 
 met as a design team and informally evaluated and filtered the
 list of opportunities
@@ -385,7 +385,7 @@ For each data type, we explored
 various encodings and interaction techniques that would
 scale to different levels of the data; this scaling is
 critical due to the quantity and spread of real-world
-cybersecurity data.
+cyber security data.
 
 
 The concept sketches proved to be useful in exploring
