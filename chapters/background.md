@@ -10,8 +10,8 @@
 
 **_TODO:_**
 
-  - low-level edits
   - make a new intro, or take from DAF
+  - update chapter references
 
 
 Design has many meanings,
@@ -40,7 +40,7 @@ one which is both supportive of an engineering and creative design process appro
 
 ## Bridging Creativity into Visualization Design
 
-When working with other designers, we have discovered a disparity between how other visualization designers characterize and describe the design process.
+When working with other designers, we discovered a disparity with how other visualization designers incorporate creativity into the design process.
 Although some visualization researchers
 stress that design and creativity research methods can play
 an effective role in visualization design
@@ -57,7 +57,7 @@ reconcile the visualization design decisions we wanted to
 make with these various creative process models.
 
 
-By reflecting on our own design process, we
+By reflecting on our own design process in [@CHAPTER], we
 identified a need for a process framework that balances
 the flexibility and actionability of models from the design
 community with the explicit artifacts and decisions necessary

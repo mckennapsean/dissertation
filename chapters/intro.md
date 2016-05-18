@@ -31,23 +31,24 @@ and provide more actionable guidance for others to follow.
 
 This dissertation centers around the formulation, use, and validation of a user-centered framework
 for capturing and describing the interplay between the visualization design process and design decisions.
-For this field, design centers around the creation of a single visualization or more robust visualization system.
+For data visualization, design centers around the creation of a single visualization or more robust visualization system.
 This design process takes place in a series of overlapping *activities* which produce *artifacts*, like a new visualization encoding.
 These artifacts get produced as a result of *decisions* that get made by a visualization designer, such as how to evaluate a system.
 No work previously exists that connects all three of these aspects for visualization design.
 
 
-Many visualization designers reflect on the role and steps of the design process for creating and building novel and useful visualizations.
-In the field of visualization, a good chunk of problem-driven visualization work conducts design studies, where visualization experts work closely with collaborators to help those other researchers work with visualizations or visualization systems to conduct their work.
+Many visualization designers reflect on the role and steps of the design process for creating and building novel and useful visualizations [@CITATION].
+In the field of visualization, a good chunk of problem-driven visualization work conducts design studies,
+where visualization experts create visualization systems to support solving some real world problem.
 It is helpful both for novice visualization designers and even expert ones to provide guidance on how to achieve success in these projects and avoid common pitfalls which can lead to failure.
 There are also many different design process models out there, many from the design or HCI communities, and even several within the visualization community.
-Clearly, focusing on the design process can enable visualization designers to apply what they have learned to other problems, saving time and making more effective visualizations.
+Focusing on the design process can enable visualization designers to apply what they have learned to other problems, saving time and making more effective visualizations.
 
 
 Visualization designers constantly make decisions throughout the process in order to focus their work.
 These design decisions play a crucial role in stating assumptions, identifying design opportunities, and formalizing requirements of a system.
-One of the most common kind of design decisions is to perform an evaluation of a system, from informal to formal or qualitative to quantitative, in order to justify the use of a specific encoding or interaction technique.
-Another easy and common design decision is to utilize 2D space to encode the most important visual data, over less perceptually effective channels such as radial size or color.
+One of the most common kind of design decisions is to perform an evaluation of a system, from informal to formal or qualitative to quantitative, in order to justify the use of a specific encoding or interaction technique [@CITATION].
+Another common design decision is to utilize 2D space to encode the most important visual data, over less perceptually effective channels such as radial size or color [@CITATION].
 Design decisions are often rooted in various research and design methods that can enable both the generation and creation of artifacts.
 
 
@@ -61,7 +62,7 @@ Artifacts for visualization design can serve many purposes, from measuring succe
 thus, it is often both beneficial and time-saving to capture many artifacts and link them back to design decisions.
 
 
-These steps of the design process, design decisions, and artifacts can all be connected through the design activity framework.
+The design process, design decisions, and artifacts can all be connected through the design activity framework.
 Without this connection, it is much harder for a visualization designer to answer both the *how* and *why* questions of design,
 which results in less useful design process descriptions and models which can lead to failure for novice designers.
 The design activity framework breaks apart steps of the design process into a series of four overlapping activities.
@@ -92,7 +93,7 @@ We conclude by reflecting on what we have learned about the visualization design
 
 
 
-## Overview of Work
+## Overview
 
 At the core of this framework is the concept of a step or design activity:
 a group of actions a visualization designer takes to work towards a specific artifact or set of artifacts.
