@@ -4,9 +4,8 @@
 <!--
 **_TODO_**:
 
-  - check other dissertation
   - references to chapters
-  - switch compilation entirely to pandoc?
+  - switch compilation entirely to pandoc? simplify bash script?
 
 -->
 

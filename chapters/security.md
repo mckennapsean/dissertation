@@ -17,7 +17,7 @@ We have modified the design activity framework accordingly with these insights.
 
 
 
-## Design Process {#sec:design}
+## Design Process
 
 This project focused on creating a dashboard for cyber security patterns.
 To present these patterns, there was a focus on users beyond the network analyst.

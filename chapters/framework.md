@@ -26,9 +26,9 @@ than those that currently exist.
 
 
 The concepts of this framework have developed over the course of several real-world design processes, both as a result of less successful projects and reflection upon successful case studies.
-Next, we present the idea of a *design activity* in [@sec:activity],
+Next, we present the idea of a *design activity*,
 which forms the basis of the new
-framework. From there we describe, in [@sec:activities],
+framework. Following that, we describe
 the four activities contained in the
 framework: *understand*, *ideate*,
 *make*, and *deploy*. For each activity, we
@@ -50,7 +50,7 @@ back to the levels of the nested model.
 
 
 
-## A Design Activity {#sec:activity}
+## A Design Activity
 
 At the core of this framework is the concept of an
 **activity**, a group of actions a designer takes to
@@ -147,7 +147,7 @@ into the design process.
 
 
 
-## The Four Activities {#sec:activities}
+## The Four Activities
 
 We have identified four overlapping, critical activities for
 designing visualizations for real-world problems and

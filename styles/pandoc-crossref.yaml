@@ -2,8 +2,8 @@ figPrefix:
   - "Figure"
   - "Figures"
 secPrefix:
-  - "Section"
-  - "Sections"
+  - "Chapter"
+  - "Chapters"
 eqnPrefix:
   - "Equation"
   - "Equations"

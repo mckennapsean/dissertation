@@ -229,7 +229,7 @@ simplification of our process for the purposes of illustration.
 ](){#fig:redesign}
 
 
-### Deploy --- Redesign Project
+### Deploy
 
 Since our redesign project focused on analyzing an existing
 visualization 
@@ -267,7 +267,7 @@ We have not yet returned to the deploy activity as
 the RVS company is still involved with major redesigns of the tool.
 
 
-### Understand --- Redesign Project
+### Understand
 
 The field of
 cyber security analysis has many types of users,
@@ -344,7 +344,7 @@ developed a more low-level list of all artifacts, which
 included a detailed data and task abstraction.
 
 
-### Ideate --- Redesign Project
+### Ideate
 
 After our design team had identified the specific
 design opportunities, constraints, and considerations for
@@ -408,7 +408,7 @@ These sketches and wireframes formed the
 artifacts of our ideate activity.
 
 
-### Make --- Redesign Project
+### Make
 
 The make activity was
 conducted in part by our design team and also in part by the
