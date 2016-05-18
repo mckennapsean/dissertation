@@ -240,7 +240,7 @@ For visualization design, many papers report use and benefit of user-centered de
 In many design studies, researchers often interview users to derive requirements for a visualization tool [@Goodall2005; @Erbacher2012; @Brehmer2014; @McCurdy2015; @Kerzner2015; @Quinan2015].
 There are other methods for deriving user requirements, such as the personas design method [@Stoll2008a] or qualitative coding and data sketches [@McKenna2015].
 Others promote similar design-first, co-creation, or creative approaches to help find innovative visualization solutions, emphasizing visual concepts before user requirements [@Paul2015; @Goodwin2013a; @Landstorfer2014].
-Several researchers have used iterative usability studies and user feedback to improve upon the design of a visualization prototype [@Komlodi2005; @Hao2013a; @McKenna2016].
+Several researchers have used iterative usability studies and user feedback to improve upon the design of a visualization prototype [@Komlodi2005; @Hao2013a; @mckenna2016].
 Many of the visualization models capture more of an engineering design process, with a testing or evaluation phase [@Chee2011; @Tory2004; @Wassink2009; @Lloyd2011].
 However, design methods can be evaluative at any step or phase, to limit or narrow the choice of potential artifacts going forward.
 This points to another gap between existing visualization design process models and the plethora of design methods that get utilized.
