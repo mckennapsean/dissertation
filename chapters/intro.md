@@ -1,6 +1,17 @@
 
 # Introduction
 
+<!--
+**_TODO_**:
+
+  - spelling check
+  - check other dissertation
+  - references to chapters
+  - fix compilation issues
+  - switch compilation entirely to pandoc?
+
+-->
+
 **_TODO:_**
 
   - trim down overview: 3-4 sentences per chapter, more high-level, and what has been done
