@@ -4,14 +4,34 @@
 **_TODO:_**
 
   - low-level edits from Miriah
-  - pull problem statement from background
-  - add one more sentence to solidify the problem
   - add clarification on artifacts, and what is novel/missing from current bits, see Miriah's comments
   - add citations (3-4 when necessary)
   - trim down overview: 3-4 sentences per chapter, more high-level, and what has been done
 
+Design has many meanings,
+and visualization design is about the planning and creation of a visualization or combined visualization system.
+As the field of visualization matures, theories and models
+that capture the *how* of visualization design have
+become more prevalent, from evaluation
+strategies [@Plaisant2004; @Lam2011a; @Carpendale2008a; @Isenberg2013a; @Shneiderman2006]
+to the design process
+itself [@Tory2004; @Sedlmair2012b; @Lloyd2011; @Shneiderman2006; @Wassink2009; @Chee2011].
+Visualization design is known to be messy,
+iterative, and complex [@Sedlmair2012b; @DIS2010; @Tory2004; @Wassink2009; @Chee2011; @Moere2011], characteristics that are not fully
+described in existing visualization process models.
+Furthermore, these theories and models for the design process largely
+address the *how* of visualization design, but they fail
+to explicitly describe the connections of those actions
+back to the *why* of visualization design decisions
+--- these design decisions are described instead by separate
+design decision models [@Munzner2009; @Meyer].
+If a process model existed to bridge the *how* with the *why*,
+then such a framework would enable a richer description of the visualization design process
+and provide more actionable guidance for others to follow.
+
+
 This dissertation centers around the formulation, use, and validation of a user-centered framework
-for capturing and describing the interplay between the visualization design process, design decisions, and design artifacts.
+for capturing and describing the interplay between the visualization design process and design decisions.
 For this field, design centers around the creation of a single visualization or more robust visualization system.
 This design process takes place in a series of overlapping *activities* which produce *artifacts*, like a new visualization encoding.
 These artifacts get produced as a result of *decisions* that get made by a visualization designer, such as how to evaluate a system.
@@ -21,7 +41,7 @@ No work previously exists that connects all three of these aspects for visualiza
 Many visualization designers reflect on the role and steps of the design process for creating and building novel and useful visualizations.
 In the field of visualization, a good chunk of problem-driven visualization work conducts design studies, where visualization experts work closely with collaborators to help those other researchers work with visualizations or visualization systems to conduct their work.
 It is helpful both for novice visualization designers and even expert ones to provide guidance on how to achieve success in these projects and avoid common pitfalls which can lead to failure.
-There are also many different design process models out there, many from the design or HCI communities, and even several within the visualizastion community. 
+There are also many different design process models out there, many from the design or HCI communities, and even several within the visualization community.
 Clearly, focusing on the design process can enable visualization designers to apply what they have learned to other problems, saving time and making more effective visualizations.
 
 
@@ -43,7 +63,7 @@ thus, it is often both beneficial and can save time by capturing many artifacts 
 These steps of the design process, design decisions, and artifacts can all be connected through the design activity framework.
 This framework breaks apart these steps into a series of four overlapping activities.
 Each activity has a specific motivation for a visualization designer to ground themselves in.
-Once an activity is identified, the expected kind of artifact to achieve becomes more clear.
+Once an activity is identified, the expected kind of artifact to achieve becomes clear.
 This further empowers visualization designers to choose from appropriate kinds of design methods to make and justify design decisions.
 Lastly, this framework connects and bridges other existing visualization design models and theories to provide unique and novel insight into the visualization design process.
 
