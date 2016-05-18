@@ -3,8 +3,6 @@
 
 **_TODO:_**
 
-  - low-level edits from Miriah
-  - add citations (3-4 when necessary)
   - trim down overview: 3-4 sentences per chapter, more high-level, and what has been done
 
 Design has many meanings,
@@ -37,7 +35,7 @@ These artifacts get produced as a result of *decisions* that get made by a visua
 No work previously exists that connects all three of these aspects for visualization design.
 
 
-Many visualization designers reflect on the role and steps of the design process for creating and building novel and useful visualizations [@CITATION].
+Many visualization designers reflect on the role and steps of the design process for creating and building novel and useful visualizations [@Sedlmair2012b; @Lloyd2011; @Wassink2009; @Chee2011].
 In the field of visualization, a good chunk of problem-driven visualization work conducts design studies,
 where visualization experts create visualization systems to support solving some real world problem.
 It is helpful both for novice visualization designers and even expert ones to provide guidance on how to achieve success in these projects and avoid common pitfalls which can lead to failure.
@@ -47,8 +45,8 @@ Focusing on the design process can enable visualization designers to apply what 
 
 Visualization designers constantly make decisions throughout the process in order to focus their work.
 These design decisions play a crucial role in stating assumptions, identifying design opportunities, and formalizing requirements of a system.
-One of the most common kind of design decisions is to perform an evaluation of a system, from informal to formal or qualitative to quantitative, in order to justify the use of a specific encoding or interaction technique [@CITATION].
-Another common design decision is to utilize 2D space to encode the most important visual data, over less perceptually effective channels such as radial size or color [@CITATION].
+One of the most common kind of design decisions is to perform an evaluation of a system, from informal to formal or qualitative to quantitative, in order to justify the use of a specific encoding or interaction technique [@Brehmer2014; @McCurdy2015; @Kerzner2015; @Quinan2015].
+Another common design decision is to utilize 2D space to encode the most important visual data, over less perceptually effective channels such as radial size or color [@Cleveland1984].
 Design decisions are often rooted in various research and design methods that can enable both the generation and creation of artifacts.
 
 
