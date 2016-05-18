@@ -53,11 +53,13 @@ Design decisions are often rooted in various research and design methods that ca
 
 
 Visualization design artifacts are often crucial to the success of a project, especially for the final desired outcome which is sought to be usable, useful, and effective.
-Some artifacts are tangible software tools, such as a visualization prototype or the final deployed system.
-However, design artifacts can span a variety of other mediums, such as ideas or sketches of a new visualization technique or even the results of a formative study in order to identify user needs for a project.
-These artifacts may be the result of generative or evaluative methods, where there may be either a collection of artifacts, such as a list of user needs or user requirements, or evaluative methods which pinpoint a subset of artifacts as being more useful or critical to pursue.
+Commonly, artifacts are tangible software tools,
+but the design process can involve other kinds of artifacts,
+such as sketches, ideas, user needs, or a list of software requirements.
+Existing process models fail to capture some of these kinds of design artifacts,
+and this is largely due to how existing models consider evaluation as a separate step of the design process rather than a part of every step.
 Artifacts for visualization design can serve many purposes, from measuring success to reuse in future projects;
-thus, it is often both beneficial and can save time by capturing many artifacts and connecting them to design decisions in a design process.
+thus, it is often both beneficial and time-saving to capture many artifacts and link them back to design decisions.
 
 
 These steps of the design process, design decisions, and artifacts can all be connected through the design activity framework.
