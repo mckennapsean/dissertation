@@ -1,5 +1,5 @@
 
-# Design Activity Framework
+# Design Activity Framework {#sec:framework}
 
 
 A design process consists of steps taken to achieve a given outcome, such as a visualization system.

@@ -1,5 +1,5 @@
 
-# Formulation of the Framework
+# Formulation of the Framework {#sec:formulation}
 
 The design activity framework was initially formulated from reflecting on previous failed projects.
 At first, we pursued a design study in the field of biology, working with a research lab studying mouse genetics through correlation.

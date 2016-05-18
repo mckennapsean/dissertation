@@ -1,5 +1,5 @@
 
-# Case Study: Data Storytelling Authoring Tool
+# Case Study: Data Storytelling Authoring Tool {#sec:story}
 
 For this investigation, we have begun to analyze various techniques used by authors on the web to convey data in a storytelling fashion using visualization.
 From these techniques we observe, we will design a novel data storytelling authoring tool according to strategies we have seen.

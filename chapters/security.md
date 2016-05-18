@@ -1,5 +1,5 @@
 
-# Case Study: Design Study in Cyber Security
+# Case Study: Design Study in Cyber Security {#sec:security}
 
 A second but successful case study in the field of cyber security focused on a new investigation:
 building a cyber security dashboard to support visual communication across multiple types of cyber users [@McKenna2015; @mckenna2016].

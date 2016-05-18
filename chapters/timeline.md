@@ -1,5 +1,5 @@
 
-# Timeline of Proposed Work
+# Timeline of Proposed Work {#sec:timeline}
 
 Please see [@fig:timeline-prior] for an overview of work that has already been completed.
 For this timeline, each of the rows corresponds to a different project and paper.
