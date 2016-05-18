@@ -1,10 +1,6 @@
 
 # Timeline of Proposed Work
 
-**_TODO:_**
-
-  - add legends to both timeline figures!
-
 Please see [@fig:timeline-prior] for an overview of work that has already been completed.
 For this timeline, each of the rows corresponds to a different project and paper.
 A breakdown of each paper follows:
