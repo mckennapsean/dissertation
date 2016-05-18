@@ -4,7 +4,6 @@
 **_TODO:_**
 
   - low-level edits from Miriah
-  - add clarification on artifacts, and what is novel/missing from current bits, see Miriah's comments
   - add citations (3-4 when necessary)
   - trim down overview: 3-4 sentences per chapter, more high-level, and what has been done
 
@@ -63,11 +62,13 @@ thus, it is often both beneficial and time-saving to capture many artifacts and 
 
 
 These steps of the design process, design decisions, and artifacts can all be connected through the design activity framework.
-This framework breaks apart these steps into a series of four overlapping activities.
+Without this connection, it is much harder for a visualization designer to answer both the *how* and *why* questions of design,
+which results in less useful design process descriptions and models which can lead to failure for novice designers.
+The design activity framework breaks apart steps of the design process into a series of four overlapping activities.
 Each activity has a specific motivation for a visualization designer to ground themselves in.
 Once an activity is identified, the expected kind of artifact to achieve becomes clear.
 This further empowers visualization designers to choose from appropriate kinds of design methods to make and justify design decisions.
-Lastly, this framework connects and bridges other existing visualization design models and theories to provide unique and novel insight into the visualization design process.
+Lastly, this framework connects to other existing visualization design models and theories to enable a richer and more complete description of the visualization design process.
 
 
 
