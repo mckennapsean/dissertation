@@ -4,30 +4,31 @@
 <!--
 **_TODO_**:
 
-  - switch compilation entirely to pandoc? simplify bash script?
+  - switch compilation entirely to pandoc?
+  - can we remove crossref support? issues with windows...
+  - clean up bash script
 
 -->
 
 Design has many meanings,
 and visualization design is about the planning and creation of a visualization or combined visualization system.
-As the field of visualization matures, theories and models
-that capture the *how* of visualization design have
+Visualization design is known to be messy,
+iterative, and complex [@Sedlmair2012b; @DIS2010; @Tory2004; @Wassink2009; @Chee2011; @Moere2011],
+but existing theories in the visualization community do not fully address these characteristics.
+As the field of visualization matures, theories and models for visualization design have
 become more prevalent, from evaluation
 strategies [@Plaisant2004; @Lam2011a; @Carpendale2008a; @Isenberg2013a; @Shneiderman2006]
 to the design process
 itself [@Tory2004; @Sedlmair2012b; @Lloyd2011; @Shneiderman2006; @Wassink2009; @Chee2011].
-Visualization design is known to be messy,
-iterative, and complex [@Sedlmair2012b; @DIS2010; @Tory2004; @Wassink2009; @Chee2011; @Moere2011], characteristics that are not fully
-described in existing visualization process models.
 Furthermore, these theories and models for the design process largely
-address the *how* of visualization design, but they fail
-to explicitly describe the connections of those actions
+address the *how* of visualization design,
+but they fail to explicitly describe the connections of those actions
 back to the *why* of visualization design decisions
 --- these design decisions are described instead by separate
 design decision models [@Munzner2009; @Meyer].
-If a process model existed to bridge the *how* with the *why*,
-then such a framework would enable a richer description of the visualization design process
-and provide more actionable guidance for others to follow.
+The visualization community needs a new framework which bridges the design process with design decisions
+to enable a richer description of the visualization design process
+and provide more actionable guidance for novice visualization designers.
 
 
 This dissertation centers around the formulation, use, and validation of a user-centered framework
