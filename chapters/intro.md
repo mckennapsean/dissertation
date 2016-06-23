@@ -134,5 +134,5 @@ We plan to evaluate this tool with users to measure its effectiveness and utilit
 This work is on-going and is not completed yet.
 
 
-Lastly, [@sec:timeline] contains a timeline for the proposed remaining work, to outline the completion of this dissertation.
+Lastly, [Chapter 5](@sec:timeline) contains a timeline for the proposed remaining work, to outline the completion of this dissertation.
 

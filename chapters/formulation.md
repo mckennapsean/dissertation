@@ -20,7 +20,7 @@ We found that a common aspect of failure in these projects and design studies wa
 ## Designing for a Novel Technique
 
 In collaboration with a statistician and biology researcher, a new scatterplot for encoding correlation was created, the s-CorrPlot [@mckenna2015s].
-As shown in [@fig:scorrplot], the s-CorrPlot in (b) encodes as points different patches of the two images in (a) to enable measure of correlation exactly to a single variable of interest, as opposed to the challenges brought by a cluttered parallel coordinates plot (c) or clustered heatmap (d) for reading off these values.
+As shown in {*@fig:scorrplot}, the s-CorrPlot in (b) encodes as points different patches of the two images in (a) to enable measure of correlation exactly to a single variable of interest, as opposed to the challenges brought by a cluttered parallel coordinates plot (c) or clustered heatmap (d) for reading off these values.
 The s-CorrPlot works by projecting the large data space into two dimensions for a variable of interest,
 and further details can be found in the discussion of the technique [@mckenna2015s].
 The scatterplot approach enabled useful interactions for exploring the plot and animating between projections of the data.
@@ -140,7 +140,7 @@ large software system.
 
 We provide a
 timeline for our redesign project in
-[@fig:timeline], where activities are represented
+{*@fig:timeline}, where activities are represented
 as colored boxes. This timeline shows the flow of the project 
 through multiple activities, including nested activities and
 both forward and backward movement.
@@ -198,7 +198,7 @@ controlled experiments (*M-28*).
 -->
 We note that this description is a
 simplification of our process for the purposes of illustration.
-[@fig:timeline] presents further details.
+{*@fig:timeline} presents further details.
 
 
 |     |     |
@@ -310,15 +310,15 @@ representations of temporal data.
 We revisited the RVS system with these opportunities in mind.
 Since we were working with an existing, deployed version of
 the RVS software,
-we performed a broad artifact analysis <!--(*M-8*)--> on the
+we performed a broad artifact analysis <!--(_M-8_)--> on the
 current software architecture, illustrated in
-[@fig:redesign]a. By examining the 
+{*@fig:redesign}a. By examining the
 workflow supported by RVS, we identified which
 opportunities the tool already supported and which aspects of
 the tool could be improved, and then evaluated these against our
 initial list of opportunities. These findings were combined
-with our project-specific *constraints* and
-*considerations*, which included four months of the design team's
+with our project-specific _constraints_ and
+_considerations_, which included four months of the design team's
 time, one month of a developer's time, and
 existing visual conventions in the field
 such as highlighting critical alerts in red.
@@ -353,8 +353,8 @@ This activity
 took up several months as we sketched out a
 series of possible ideas for modifying the current design of
 RVS. First, each member of our team began to develop
-separate concept sketches <!--(*M-23*)--> tackling a specific
-opportunity, as illustrated in [@fig:redesign]b.
+separate concept sketches <!--(_M-23_)--> tackling a specific
+opportunity, as illustrated in {*@fig:redesign}b.
 We chose this first method based on the experience of the
 designers in our group as
 they were used to sketching out possible concepts.
@@ -392,11 +392,11 @@ The concept sketches proved to be useful in exploring
 different ideas, but we wanted to explore some of these ideas in
 more depth and detail.
 Thus we synthesized the paper concept sketches
-into very low-fidelity paper prototypes <!--(*M-61*)--> that
+into very low-fidelity paper prototypes <!--(_M-61_)--> that
 highlighted
 interactions inside the tool. These ideas were
 eventually finalized into more concrete wireframes
-<!--(*M-98*)-->, shown in [@fig:redesign]c, to
+<!--(_M-98_)-->, shown in {*@fig:redesign}c, to
 mimic the look and feel of a real tool.
 Again, we evaluated these wireframes very informally,
 internally as a design team and with different members of the
@@ -415,18 +415,20 @@ conducted in part by our design team and also in part by the
 RVS development team. As a design team, we generated a
 number of digital
 mockups; several of these were detailed wireframes
-<!--(*M-98*)--> that focused on the layout of different
+<!--(_M-98_)--> that focused on the layout of different
 visualizations and interaction mechanisms, as shown in
-[@fig:redesign]d.
+{*@fig:redesign}d.
+
+
 In addition, we also mocked up
-more detailed prototypes <!--(*M-67*)--> that showed how the different
+more detailed prototypes <!--(_M-67_)--> that showed how the different
 visualizations would link together through user interactions. These
 prototypes
 synthesized all of our design ideas into an idealized,
 revised interface, as illustrated in
-[@fig:redesign]e.
+{*@fig:redesign}e.
 The purpose behind this method
-was to envision what RVS *could* be even though the
+was to envision what RVS _could_ be even though the
 software implementation was
 beyond the scope of what the developers could achieve given the
 constraint of one month of their time.

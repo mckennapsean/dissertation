@@ -64,11 +64,11 @@ Each activity is composed of several key
 components: a *motivation*; clear, tangible
 *artifacts* related to design decisions; and a
 collection of *methods*. We pictorially represent the design
-activity framework in [@fig:framework].
+activity framework in {*@fig:framework}.
 
 
 <!--
-The design activity framework consists of four different design activities: *understand*, *ideate*, *make*, and *deploy*. Each of these activities consists of a *motivation*, *design artifacts*, and *methods*. As shown in [@fig:activity], the motivation places the designer within a specific activity in the framework, with the goal of establishing a specific set of artifacts for that activity. Artifacts are achieved using one or more design methods, both for generative or evaluative purposes. The design activity framework supports iterative, user-centered visualization design, and provides guidance about effective methods for reaching a range of design goals. While the focus of this paper is on three specific design methods, we ground these methods within the design activity framework to provide guidance about how and when these methods can be used most effectively. 
+The design activity framework consists of four different design activities: *understand*, *ideate*, *make*, and *deploy*. Each of these activities consists of a *motivation*, *design artifacts*, and *methods*. As shown in {*@fig:activity}, the motivation places the designer within a specific activity in the framework, with the goal of establishing a specific set of artifacts for that activity. Artifacts are achieved using one or more design methods, both for generative or evaluative purposes. The design activity framework supports iterative, user-centered visualization design, and provides guidance about effective methods for reaching a range of design goals. While the focus of this paper is on three specific design methods, we ground these methods within the design activity framework to provide guidance about how and when these methods can be used most effectively. 
 
 
 ![
@@ -151,17 +151,15 @@ into the design process.
 
 We have identified four overlapping, critical activities for
 designing visualizations for real-world problems and
-applications: understand, ideate, make,  and deploy. As shown in
-[@fig:nm-comparison], three of the four
-activities map to several levels of the nested model, implying that a
-specific 
-design activity can be used to make different types of
-visualization design decisions. Conversely, a designer
-focusing on just one type of design decision 
+applications: understand, ideate, make, and deploy.
+As shown in {*@fig:nm-comparison}, three of the four
+activities map to several levels of the nested model,
+implying that a specific design activity can be used to make different types of visualization design decisions.
+Conversely, a designer focusing on just one type of design decision 
 will often move through different activities; thus, the
 culmination of a complete visualization could involve moving
 through this framework in a complex, iterative, and
-*multilinear* fashion. By multilinear we mean that a
+_multilinear_ fashion. By multilinear we mean that a
 process combines forward, linear movement with cyclic, backwards,
 and parallel movements.
 Next, we articulate the unique motivations and artifacts for each of

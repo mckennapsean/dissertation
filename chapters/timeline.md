@@ -1,7 +1,7 @@
 
 # Timeline of Proposed Work {#sec:timeline}
 
-Please see [@fig:timeline-prior] for an overview of work that has already been completed.
+Please see {*@fig:timeline-prior} for an overview of work that has already been completed.
 For this timeline, each of the rows corresponds to a different project and paper.
 A breakdown of each paper follows:
 
@@ -25,7 +25,7 @@ A breakdown of each paper follows:
 ](figures/timeline/prior-work.pdf){#fig:timeline-prior width="100%"}
 
 
-The work remaining is outlined in [@fig:timeline-left].
+The work remaining is outlined in {*@fig:timeline-left}.
 The first set of items to be completed relate to **P5**, a data visualization storytelling authoring tool.
 We plan to submit this work to CHI in September of 2016.
 Part of this development process involves ideation among a design team, prototyping, and end user evaluation of the system and techniques we implement.
