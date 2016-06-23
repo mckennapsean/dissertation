@@ -5,7 +5,6 @@
 **_TODO_**:
 
   - switch compilation entirely to pandoc?
-  - can we remove crossref support? issues with windows...
   - clean up bash script
 
 -->
