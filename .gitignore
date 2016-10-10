@@ -1,7 +1,4 @@
-archive/
 chapters/*.tex
-examples/
-figures/
 front/*.tex
 *.pdf
 *.aux
