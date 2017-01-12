@@ -1,5 +1,8 @@
 #/bin/sh
 
+# environment variable for WSL
+# export GHCRTS=-V0
+
 # build tex files
 pandoc -F pandoc-fignos --natbib --chapters chapters/intro.md -o chapters/intro.tex
 pandoc -F pandoc-fignos --natbib --chapters chapters/background.md -o chapters/background.tex
