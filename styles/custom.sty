@@ -1,0 +1,98 @@
+%%% -*-LaTeX-*-
+%%% This is custom.sty.
+%%% Put your own private macro definitions, and style modifications, here.
+%%%
+%%% However, avoid introducing shorthands for standard LaTeX markup,
+%%% such as \beq and \eeq for \begin{equation} and \end{equation},
+%%% because it makes your input unreadable to others, and publishers
+%%% may reject your LaTeX files because nonstandard markup interferes
+%%% with their large-volume production practices.
+
+\newcommand {\mainindex}   [1] {\index{#1|mainpage}}
+\newcommand {\mainpage}    [1] {\textbf{#1}}
+
+\newcommand {\gobblearg}   [1] {}
+
+\newcommand {\figlabel}    [1] {\label{fig:#1}}
+\newcommand {\tablabel}    [1] {\label{tab:#1}}
+
+%%: \newcommand {\shortfigref} [1] {{\color {utahheadingcolor}\textbf{Figure~\ref{fig:#1}}}}
+%%: \newcommand {\figref}      [1] {{\color {utahheadingcolor}\textbf{Figure~\ref{fig:#1}}} \vpageref{fig:#1}}
+%%: \newcommand {\tabref}      [1] {{\color {utahheadingcolor}\textbf{Table~\ref{tab:#1}}}  \vpageref{tab:#1}}
+
+\newcommand {\shortfigref} [1] {{\textbf{Figure~\ref{fig:#1}}}}
+\newcommand {\figref}      [1] {{\textbf{Figure~\ref{fig:#1}}} \vpageref{fig:#1}}
+
+\newcommand {\shorttabref} [1] {{\textbf{Table~\ref{tab:#1}}}}
+\newcommand {\tabref}      [1] {{\textbf{Table~\ref{tab:#1}}}  \vpageref{tab:#1}}
+
+\newcommand{\support}[1]{{\renewcommand{\thefootnote}{}\footnotetext{#1}}}
+
+\def\v#1{{\bf #1}}
+\def\cth{\hbox{c}\theta}
+\def\sth{\hbox{s}\theta}
+\def\vth{\hbox{v}\theta}
+\def\sphi{\hbox{s}\phi}
+\def\cphi{\hbox{c}\phi}
+\def\spsi{\hbox{s}\psi}
+\def\cpsi{\hbox{c}\psi}
+
+\def\valpha{\hbox{\boldmath$\alpha$}}
+\def\vgamma{\hbox{\boldmath$\gamma$}}
+\def\vtau{\hbox{\boldmath$\tau$}}
+\def\vomega{\hbox{\boldmath$\omega$}}
+\def\vOmega{\hbox{\boldmath$\Omega$}}
+\def\vphi{\hbox{\boldmath$\phi$}}
+\def\vpsi{\hbox{\boldmath$\psi$}}
+\def\vrho{\hbox{\boldmath$\rho$}}
+\def\vtheta{\hbox{\boldmath$\theta$}}
+\def\vTheta{\hbox{\boldmath$\Theta$}}
+
+\def\diag{\hbox{diag}}
+\def\matrix #1{\left[ \begin{array}{cccccc}#1
+			    \end{array} \right]}
+\def\twovec#1#2{\left[ \begin{array}{c} #1 \\ #2 \end{array} \right]}
+\def\parderiv#1#2{\displaystyle{\partial #1 \over \partial #2}}
+\def\s{\hbox{s}}
+\def\c{\hbox{c}}
+\def\salpha{\hbox{s}\alpha}
+\def\calpha{\hbox{c}\alpha}
+\newcommand{\boldemph}[1]{\emph{\bfseries #1}}
+\def\qp{\boldemph{p}}
+\def\qq{\boldemph{q}}
+\def\qv{\boldemph{v}}
+\def\S#1{{\bf \$}_{#1}}
+
+\newtheorem{thrm}{Theorem}
+\newtheorem{lem}[thrm]{Lemma}
+\newtheorem{cor}[thrm]{Corollary}
+\newtheorem{rem}[thrm]{Remark}
+\newtheorem{defn}[thrm]{Definition}
+\newtheorem{exmpl}[thrm]{Example}
+
+% conveniences for citation
+\newcommand{\etal}{{\em et al.}}
+\newcommand{\etc}{{\em etc.}}
+\newcommand{\eg}{{\em e.g.,}}
+\newcommand{\ie}{{\em i.e.,}}
+
+% comments
+\newcommand{\comm}[2]{\bigskip
+                      \begin{tabular}{|p{11cm}|}\hline
+                      \multicolumn{1}{|c|}{{\bf Comment by #1}}\\ \hline
+                      #2\\ \hline
+                      \end{tabular}
+                      \bigskip
+                     }
+
+% tighter lists (could break formatting rules...)
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+%\newif\ifinputpicture \inputpicturetrue
+
+% Use this command to input pictures, then control whether that
+% happens or not by saying \inputpicturetrue or \inputpicturefalse
+% in the preamble
+%\newcommand{\inputpicture}[1]{%
+%   \ifinputpicture \input{#1} \else \input{box.tex} \fi }
