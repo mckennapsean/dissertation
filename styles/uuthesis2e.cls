@@ -449,7 +449,6 @@
 \def\graduatedean#1{\gdef\@graduatedean{#1}}    % dean of the graduate school
 \def\department#1{\gdef\@department{#1}}        % academic department
 \def\degree#1{\gdef\@degree{#1}}                % exact degree being gotten
-\def\degreeIn#1{\gdef\@degreeIn{#1}}                % and what degree is in
 \def\committeechair#1{\gdef\@committeechair{#1}} % Committee chair-critter.
 \def\firstreader#1{\gdef\@firstreader{#1}}      % The other committee members.
 \def\secondreader#1{\gdef\@secondreader{#1}}
@@ -1151,7 +1150,7 @@
 % Figure environment definition proper.
 %
 \def\figure{\@float{figure}}
-\def\endfigure{\end@float}
+\let\endfigure\end@float
 
 % Table definitions nearly identical to those for figures, since
 % they are treated the same internally, except for list of tables
@@ -1165,7 +1164,7 @@
 \def\thetable{\thechapter.\@arabic\c@table}
 \def\fnum@table{\bfseries Table \thetable}
 \def\table{\@float{table}}
-\def\endtable{\end@float}
+\let\endtable\end@float
 
 %%% Page style commands.
 
@@ -1319,7 +1318,7 @@
     by\\
       \mbox{} \\
       \@author \\
-      \vbox to 12\baselineskip
+      \vbox to 15\baselineskip
       {
         \vss
         A \@thesistype ~submitted to the faculty of\\
@@ -1328,11 +1327,7 @@
         \vss
       }
       \@degree \\
-      \mbox{} \\
-      in \\
-      \mbox{} \\
-      \@degreeIn \\
-      \vskip 6\baselineskip
+      \vskip 7\baselineskip
       \expandafter{\@department}\\
       \mbox{} \\
       The University of Utah \\
