@@ -41,19 +41,21 @@
 %%% NB: The amsthm package refines the LaTeX theorem environment,
 %%% and the uuthesis-color-headings wraps that definition, so the
 %%% amsthm package must be read first!
-% \let \proof    = \relax
-% \let \endproof = \relax
-% \usepackage{amsthm}
+\let \proof    = \relax
+\let \endproof = \relax
+\usepackage {amsthm}
 
 %%% ====================================================================
 %%% Choose an alternate font family for the document if the TeX default
 %%% of Computer Modern is not wanted:
-% \usepackage{mathpazo}
+
+\usepackage{mathpazo}
 
 %%% ====================================================================
 %%% Some miscellaneous Utah- and student-specific settings:
 %%%
 %%% Chapter is one level, section and subsection are the next two levels.
+
 \fourlevels
 
 %%% ====================================================================
@@ -64,19 +66,24 @@
 %%% formatting styles, and such changes are likely to conflict with
 %%% University of Utah Thesis Office requirements.  Therefore, minimize
 %%% the number of packages that you include!
-\usepackage{graphicx}
-\usepackage{booktabs} % better latex tables
-\usepackage{longtable} % tables beyond 1 page
-\usepackage[sectionbib,numbers, sort]{natbib} % numeric citations using natbib
-% \usepackage{url} % must be careful when changing formatting for text/hypertext links!
-% \usepackage{afterpage} % execute command after page break
-% \usepackage{varioref} % smart referencing (e.g. on this page, on page XX)
-% \usepackage{subfigure} % create nested figure structures
-% \usepackage{multirow} % formatting cells going beyond one row
+
+\usepackage {amsmath}
+\usepackage {styles/amssymb}
+\usepackage {bm}
+\usepackage {styles/bibnames}
+\usepackage {styles/citesort}
+\usepackage {graphicx}
+\usepackage {graphpap}
+\usepackage {longtable}
+\usepackage {multirow}
+\usepackage {tikz}
+\usetikzlibrary {decorations.markings}
+\usepackage {varioref}
 
 %%% ====================================================================
 %%% Support for a subject index:
-%% \usepackage{uuthesis-index}
+
+%% \usepackage {uuthesis-index}
 
 %%% ====================================================================
 %%% The various uuthesis-*.sty packages must come AFTER all other
@@ -86,28 +93,31 @@
 %%% Include latest updates for 2016 (WARNING: the name is subject to
 %%% change: see http://www.math.utah.edu/pub/uuthesis/ for the most
 %%% current version.)
-\usepackage{styles/uuthesis-2016-h}  % MANDATORY package
+
+\usepackage {styles/uuthesis-2016-h}  % MANDATORY package
 
 %%% This is an OPTIONAL package that sets chapter and sectional headings
 %%% in color:
 %%% Use one or the other of these:
-% \usepackage{color}
-% \usepackage{uuthesis-color-headings}
-% \definecolor{utahheadingcolor} {rgb}  {0.7, 0.0, 0.0}
-% \definecolor{utahtheoremcolor} {rgb}  {0.490,0.149,0.804} % purple4
-% \definecolor{utahtheoremcolor} {rgb}  {0.545,0.137,0.137} % brown4
+% \usepackage {color}
+%%: \usepackage {uuthesis-color-headings}
+%%: \definecolor{utahheadingcolor} {rgb}  {0.7, 0.0, 0.0}
+%%: \definecolor{utahtheoremcolor} {rgb}  {0.490,0.149,0.804} % purple4
+%%: \definecolor{utahtheoremcolor} {rgb}  {0.545,0.137,0.137} % brown4
 
 %%% Here is another, and more convenient, way to define colors, via
 %%% aliases of named colors in the X11-derived rgb.sty file
-% \usepackage{coloralias}
-% \definecoloralias{utahheadingcolor}{steelblue4}
-% \definecoloralias{utahtheoremcolor}{hotpink3}
+
+%%: \usepackage{coloralias}
+%%: \definecoloralias{utahheadingcolor}{steelblue4}
+%%: \definecoloralias{utahtheoremcolor}{hotpink3}
 
 %%% The default heading color is utahred (defined by University Printing
 %%% Services as 0.8 red, 0.0 green, 0.0 blue), but you could redefine
 %%% that to, for example, a dark blue color, like this AFTER including
 %%% the package:
-% \definecolor{utahheading}{rgb}{0,0,0.8}
+%%%
+%%%     \definecolor{utahheading}{rgb}{0,0,0.8}
 %%%
 %%% NB: Be careful with use of colors in typesetting, and in figures,
 %%% because about 6 percent of the human male population is red/green
@@ -120,42 +130,45 @@
 
 %%% ====================================================================
 %%% Support for a subject index:
-%: \usepackage{uuthesis-index}
+%
+%: \usepackage {uuthesis-index}
 
 %%% ====================================================================
 %%% This single user-specific file is where all personal customizations
 %%% and macro definitions should be placed, and it should come LAST,
 %%% after ALL OTHER packages, in case it needs to override some of their
 %%% definitions.
-\usepackage{styles/custom}
+
+\usepackage {styles/mythesis}
 
 %%% ====================================================================
 %%% The student-specific front matter fields are defined here:
-\author                 {Sean Patrick McKenna}
-\title                  {The Design Activity Framework: Analyzing the User-Centered Design Process for Data Visualization}
-\thesistype             {proposal} %{dissertation}
 
-\dedication             {To ...}
+\author                 {Jane Doe}
+\title                  {INTEGRAL ESTIMATION IN QUANTUM PHYSICS}
+\thesistype             {dissertation}
+
+\dedication             {For my parents, Alice and Bob.}
 
 %%% Most students need just a short degree name, like this:
-% \degree                 {Doctor of Philosophy}
+\degree                 {Doctor of Philosophy}
 %%% However, multiline degrees are possible, and are done like this:
-\degree                 {Doctor of Philosophy \\
-                        in \\
-                        Computing: Graphics \& Visualization}
+%%% \degree                 {Doctor of Philosophy \\
+%%%                         in \\
+%%%                         Mathematical Physics}
 
 %%% College- and Department-level definitions:
-\approvaldepartment     {Computing}
-\department             {School of Computing}
-\graduatedean           {David B. Kieda}
-\departmentchair        {Ross Whitaker}
+\approvaldepartment     {Mathematics}
+\department             {Department of Mathematics}
+\graduatedean           {Alice B. Toklas}
+\departmentchair        {Petrus Marcus Aurelius Featherstone-Hough}
 
 %%% The graduate student's committee members:
-\committeechair         {Miriah Meyer}
-\firstreader            {Alexander Lex}
-\secondreader           {Tamara Denning}
-\thirdreader            {James Agutter}
-\fourthreader           {Nathalie Henry Riche}
+\committeechair         {Cornelius L{\'a}nczos}
+\firstreader            {Hans Bethe}
+\secondreader           {Niels Bohr}
+\thirdreader            {Max Born}
+\fourthreader           {Paul A. M. Dirac}
 \chairtitle             {Professor}
 
 %%% NB: It is rare, but possible, for there to be two chairs, For
@@ -172,22 +185,11 @@
 \copyrightyear          {2016}
 
 %%% Dates on which committee members approved the thesis
-% \chairdateapproved      {17 Feb 2016}
-% \firstdateapproved      {17 Feb 2016}
-% \seconddateapproved     {17 Feb 2016}
-% \thirddateapproved      {17 Feb 2016}
-% \fourthdateapproved     {17 Feb 2016}
-
-%%%%%
-% what did these do....?
-% \citeindextrue
-% \makeindex
-% \includeonly{chapters/intro,chapters/background,chapters/framework,chapters/formulation,chapters/security,chapters/story,chapters/timeline}
-
-%\inputpicturetrue % By Jeff McGough. See uuguide and private thesis.sty
-%\inputpicturefalse % To NOT produce pictures, uncomment this line
-%%%%%
-
+\chairdateapproved      {17 Feb 2016}
+\firstdateapproved      {17 Feb 2016}
+\seconddateapproved     {17 Feb 2016}
+\thirddateapproved      {17 Feb 2016}
+\fourthdateapproved     {17 Feb 2016}
 
 %%% ====================================================================
 %%% Typesetting begins here:
@@ -197,49 +199,50 @@
 %% Comment out items by inserting a percent % character
 \frontmatterformat
 \titlepage
-% \copyrightpage
-% \dissertationapproval
+\copyrightpage
+\dissertationapproval
 \setcounter {page}     {2}             % UofU Thesis Office demands abstract on p. iii: start one lower
-% \preface    {content/abstract} {Abstract}
-% \dedicationpage
+\preface    {content/abstract} {Abstract}
+\dedicationpage
 \tableofcontents
-% \listoffigures
-% \listoftables
-
+\listoffigures
+\listoftables
+%
 %%% Optional front matter page(s), made from source "notation.tex". If
 %%% you don't need it, then comment out the \optionalfront command
 %%% line!  The first argument is the (unnumbered) section header for
 %%% the text supplied by the file input by the second argument; that
 %%% file must NOT contain \chapter, \section, \subsection, \ldots{}
 %%% sectioning commands.
-% \optionalfront {Notation and Symbols} {\input{content/notation}}
+
+\optionalfront {Notation and Symbols} {\input{content/notation}}
 
 %%% Uncomment this is you want the contents of acknowledge.tex typeset here.
 %%% Note that both "Acknowledgement" and "Acknowledgment" are accepted
 %%% spellings of that word.
+
 % \preface{acknowledge}{Acknowledgements}
 
 %%% Demonstrations of thesis typesetting features for the sample thesis.
 %%% Once you have seen the examples, you can comment out this line.
 %%: \optionalfront {Typesetting Experiments} {\input{samples.tex}}
+
 \maintext       % Start normal page numbering: parts and chapters follow.
+
 \pagestyle{headings} % NEW for sample-thesis-6
 
-% chapters
-\include{chapters/intro}
-\include{chapters/background}
-\include{chapters/framework}
-\include{chapters/formulation}
-\include{chapters/security}
-\include{chapters/story}
-\include{chapters/timeline}
-%\include{chapters/conclusion}
+\include {content/chap1}
+\include {content/chap2}
+\include {content/chap3}
+\include {content/chap4}
 
-% appendices
-\numberofappendices = 0 % set 0 for none, else number of appendices
-%\appendix % chapters, sections are now appendix style
-%\include{front/appendix}
-%\nocite{*}
+% \numberofappendices = 1   % Set 0 for none, else number of appendices.
+\numberofappendices = 3
+\appendix       % Chapters, sections are now appendix style A, A.1, A.2, B, C, D, ...
+
+\include {content/appa}
+\include {content/appb}
+\include {content/appc}
 
 %%% The choice of bibliography style is a major decision, jointly made
 %%% by you, your thesis advisor and the thesis editor. Common choices are
@@ -268,8 +271,8 @@
 
 %%% This tells BibTeX to read siam.bst from the first directory where
 %%% it is found in the BSTINPUTS search path:
-\bibliographystyle{acm}
-% \bibliographystyle{siam} % default
+
+\bibliographystyle{siam}
 
 %%% This can also specify a comma-separated list (without embedded
 %%% spaces) of *.bib files found by BibTeX in its BIBINPUTS search
@@ -281,8 +284,7 @@
 %%%
 %%% LaTeX reads BibTeX's formatted reference list from the file
 %%% \jobname.bbl.
-\bibliography{references}
 
-% to create an index, see the additional template files for more details
+\bibliography{\jobname}
 
-\end{document}
+\end {document}
