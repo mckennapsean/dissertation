@@ -5,22 +5,25 @@
 # but pandoc runs slow after v1.17.2 so breaks commands
 # can run natively on Windows though
 
-# build tex files
-pandoc -F pandoc-fignos --natbib --top-level-division=chapter chapters/intro.md -o chapters/intro.tex
-pandoc -F pandoc-fignos --natbib --top-level-division=chapter chapters/background.md -o chapters/background.tex
-pandoc -F pandoc-fignos --natbib --top-level-division=chapter chapters/framework.md -o chapters/framework.tex
-pandoc -F pandoc-fignos --natbib --top-level-division=chapter chapters/formulation.md -o chapters/formulation.tex
-pandoc -F pandoc-fignos --natbib --top-level-division=chapter chapters/security.md -o chapters/security.tex
-pandoc -F pandoc-fignos --natbib --top-level-division=chapter chapters/story.md -o chapters/story.tex
-pandoc -F pandoc-fignos --natbib --top-level-division=chapter chapters/timeline.md -o chapters/timeline.tex
-# pandoc -F pandoc-fignos --natbib --chapters chapters/conclusion.md -o chapters/conclusion.tex
-# pandoc front/abstract.md -o front/abstract.tex
-# pandoc front/acknowledge.md -o front/acknowledge.tex
+# build tex files from markdown
+chapters=($(find chapters -type f -name "*.md"))
+for chapter in ${chapters[*]}
+do
+  pandoc -F pandoc-fignos --natbib --top-level-division=chapter $chapter -o ${chapter%.md}.tex
+done
+
+# front=($(find front -type f -name "*.md"))
+# for item in ${front[*]}
+# do
+#   pandoc -F pandoc-fignos --natbib --top-level-division=chapter $item -o ${item%.md}.tex
+# done
 
 # run latex
-# TODO - can we do this all with pandoc?
 latexmk -pdf -silent -f thesis.tex
 
-# clear tex files
+# clean tex files
+# latexmk -C
 # rm chapters/*.tex
+# rm chapters/*.aux
 # rm front/*.tex
+# rm front/*.aux
