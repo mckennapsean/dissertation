@@ -4,9 +4,11 @@
   "isShellCommand": true,
   "args": ["build.sh"],
   "showOutput": "always",
+  "suppressTaskName": true,
   "tasks": [
     {
-      "taskName": "-c"
+      "taskName": "clean",
+      "args": ["-c"]
     },
     {
       "taskName": "make",
