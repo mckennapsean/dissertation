@@ -2,6 +2,8 @@
 
 # environment variable for WSL
 # export GHCRTS=-V0
+# but pandoc runs slow after v1.17.2 so breaks commands
+# can run natively on Windows though
 
 # build tex files
 pandoc -F pandoc-fignos --natbib --top-level-division=chapter chapters/intro.md -o chapters/intro.tex
