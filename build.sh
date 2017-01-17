@@ -1,9 +1,13 @@
 #/bin/sh
 
-# environment variable for WSL
-# export GHCRTS=-V0
-# but pandoc runs slow after v1.17.2 so breaks commands
-# can run natively on Windows though
+# clean all files when given "-c" flag, otherwise build pdf
+if [ "$1" == "-c" ]; then
+  latexmk -C
+  rm chapters/*.tex
+  rm chapters/*.aux
+  rm front/*.tex
+  rm front/*.aux
+else
 
 # build tex files from markdown
 chapters=($(find chapters -type f -name "*.md"))
@@ -18,12 +22,7 @@ done
 #   pandoc -F pandoc-fignos --natbib --top-level-division=chapter $item -o ${item%.md}.tex
 # done
 
-# run latex
+# generate pdf using latex
 latexmk -pdf -silent -f thesis.tex
 
-# clean tex files
-# latexmk -C
-# rm chapters/*.tex
-# rm chapters/*.aux
-# rm front/*.tex
-# rm front/*.aux
+fi
