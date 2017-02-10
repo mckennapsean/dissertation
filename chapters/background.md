@@ -12,8 +12,8 @@ Visualization design and research has explored many facets of design, from the p
 In this chapter, we will first explore how creativity has played a blossoming role in recent work.
 On the theoretical side, we focus on two types of visualization models, process and decision models [@Meyer].
 For visualization design, we discuss the primary decision model, the nested model [@Munzner2009; @Meyer].
-For process models, the HCI field has identified two differing approaches to the design process: creative versus engineering [@Lowgren1995; @Howard2008; @Wolf2006; @Moere2011].
-Together, these two approaches can complement and enrich a design process.
+For process models, the HCI field has identified two differing approaches to the design process: creative versus \al{AND, not against} engineering [@Lowgren1995; @Howard2008; @Wolf2006; @Moere2011].
+Together, these two \al{"two" - cut} approaches can complement and enrich a design process.
 Furthermore, we reflect on the role and use of user-centered design throughout visualization design.
 In the next chapter, we will introduce the design activity framework as a way to connect these design decisions to a design process which supports a combination of engineering and creative approaches for user-centered design.
 
@@ -78,7 +78,7 @@ actions that a designer takes as a series of steps. Linking
 a process model to a decision model enables visualization
 designers to verify and validate the design decisions they
 make along each step of the design process. This link is
-highlighted by Sch\mbox{\"{o}}n's reflection-in-action concept,
+highlighted by Sch\mbox{\"{o}}n's reflection-in-action concept \al{move citation here},
 which emphasizes that the processes of doing and thinking are
 complementary to each other [@Schon1983]; thus, the
 design process and its many design decisions are intricately
@@ -90,7 +90,7 @@ interconnected.
 Many researchers have explored the general act of
 decision-making in design. A detailed model by Christiaans and
 Almendra captures both the mindset and strategies of
-designers, such as problem-driven versus solution-driven,
+designers, such as problem-driven versus solution-driven \al{example of? what is this?,
 along with specific operationalization of that mindset, or
 how decisions get made by an individual or a team, such as
 autocratic versus autonomic [@Christiaans2010].
@@ -98,13 +98,15 @@ Similarly, Tang et al. divide design decisions into
 three groups: planning, problem space, and solution space
 decisions, in order to better realize the effect decisions
 have on design [@Tang2010]. Through studying the process
-of expert designers, Wu et al. identify three classes of
+of expert designers, Wu et al. identify \sm{write verbage? and watch period spacing!} three classes of
 design strategies: forward working, problem switching, and
 backward working strategies [@Wu2011]. Furthermore,
 several researchers have broken down decision-making into
 different kinds of high-level design judgments: e.g.
 appearance, compositional, navigational, etc.
-[@Nelson2003; @Wolf2006]. These many models have a
+[@Nelson2003; @Wolf2006].
+explain what all three of these are?
+These many models have a
 utility to analyze and compare general decisions and
 strategies for design, but they do not capture the
 specific decisions that visualization designers face when
@@ -169,7 +171,9 @@ studies [@Shneiderman2006] proposes a process and
 specific methods for assessing and evaluating visualization
 systems deployed in the wild. This model, however, does not
 cover the creation and
-development of a visualization system. More abstracted design process
+development of a visualization system.
+\al{below, what is the relation to software engineering?}
+More abstracted design process
 models for 
 visualization have also been proposed in a variety of forms ---
 waterfall, cyclical, and spiral --- to perform
@@ -225,8 +229,10 @@ available within this process model.
 ##  User-Centered Design for Visualization
 
 User-centered design is a promising approach to build better and more effective visualization tools.
-By focusing on the needs, wants, and limitations of users, user-centered design enables users to achieve their goals more effectively, efficiently, and with increased satisfaction, thus providing benefits such as increased productivity, better accessibility, reduced stress and risk of harm, and an improved user well-being [@DIS2010].
-User-centered design has become widely accepted within the HCI community [@Tory2004] and slowly become more popular and accepted within the visualization community as well.
+By focusing on the needs, wants, and limitations of users, user-centered design enables users
+\al{clarify how: enables better systems that allow users...)}
+to achieve their goals more effectively, efficiently, and with increased \al{user} satisfaction, thus providing benefits such as increased productivity, better accessibility, reduced stress and risk of harm, and an improved user well-being [@DIS2010].
+User-centered design has become widely accepted within the HCI community [@Tory2004] and slowly \al{just use "has"} become more popular and accepted within the visualization community as well.
 Many different visualization practitioners have illustrated potential phases of a user-design process [@Chee2011; @Tory2004; @Wassink2009; @Lloyd2011],
 but each of these lacks the connection to design decisions and potential design methods.
 Many of these visualization models contain differing phases,
@@ -236,7 +242,7 @@ but there is no clear definition of the phases of this process nor how this conn
 
 
 For visualization design, many papers report use and benefit of user-centered design methods, but a connection back to the larger design process is not always clear.
-In many design studies, researchers often interview users to derive requirements for a visualization tool [@Goodall2005; @Erbacher2012; @Brehmer2014; @McCurdy2015; @Kerzner2015; @Quinan2015].
+In many design studies, researchers often \al{"often" - cut} interview users to derive requirements for a visualization tool [@Goodall2005; @Erbacher2012; @Brehmer2014; @McCurdy2015; @Kerzner2015; @Quinan2015].
 There are other methods for deriving user requirements, such as the personas design method [@Stoll2008a] or qualitative coding and data sketches [@McKenna2015].
 Others promote similar design-first, co-creation, or creative approaches to help find innovative visualization solutions, emphasizing visual concepts before user requirements [@Paul2015; @Goodwin2013a; @Landstorfer2014].
 Several researchers have used iterative usability studies and user feedback to improve upon the design of a visualization prototype [@Komlodi2005; @Hao2013a; @mckenna2016].

@@ -39,6 +39,7 @@ These different discourse channels interacted together and led to successful out
   but the final BubbleNet design in c) and deployments all occurred due to the interaction of outcomes and user feedback across all of these channels.
 ](figures/bubble-net/process.pdf){#fig:process width="100%"}
 
+\al{larger versions of dashboards?}
 
 We present an overview of our design process in {*@fig:process}.
 Each row and color corresponds to a different
@@ -68,6 +69,7 @@ resulting in several key ideas with the most potential.
 We created the first prototype from these ideas, shown in {*@fig:process}a).
 This prototype contained a treemap of network records, organized by city and country.
 We evaluated this prototype using Nielsen's usability heuristics and Gestalt principles.
+\al{how? not many details}
 This method highlighted low-level changes,
 but we desired to evaluate the data abstraction and treemap encoding.
 

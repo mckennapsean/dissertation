@@ -1,10 +1,12 @@
 
 # Formulation of the Framework {#sec:formulation}
 
+\al{does this title work? eh on it...}
+
 The design activity framework was initially formulated from reflecting on previous failed projects.
 At first, we pursued a design study in the field of biology, working with a research lab studying mouse genetics through correlation.
 With a statistics researcher, we created a new technique, the s-CorrPlot, to encode correlation of large datasets in a scatterplot [@mckenna2015s].
-However, this project did not yield us with a successful design study, since our collaborators could not go beyond exploration or basic hypothesis generation with the tool.
+However, this project did not yield \al{"us with" - cut} a successful design study, since our collaborators could not go beyond exploration or basic hypothesis generation with the tool.
 Upon reflection, we realized that we were driven to build this tool for a novel technique, not to support the needs of the researchers.
 This led into a second case study, in the field of cyber security,
 where we worked with a team of designers, a psychologist, and visualization experts to formulate the beginnings of the design activity framework [@McKenna2014].
@@ -19,6 +21,7 @@ We found that a common aspect of failure in these projects and design studies wa
 
 ## Designing for a Novel Technique
 
+\al{use active voice here!}
 In collaboration with a statistician and biology researcher, a new scatterplot for encoding correlation was created, the s-CorrPlot [@mckenna2015s].
 As shown in {*@fig:scorrplot}, the s-CorrPlot in (b) encodes as points different patches of the two images in (a) to enable measure of correlation exactly to a single variable of interest, as opposed to the challenges brought by a cluttered parallel coordinates plot (c) or clustered heatmap (d) for reading off these values.
 The s-CorrPlot works by projecting the large data space into two dimensions for a variable of interest,
@@ -41,6 +44,7 @@ Several coordinated views were linked with the s-CorrPlot to illustrate its util
   can plot all variables, due to computational and screenspace limitations of
   (c) and (d).
 ](figures/scorrplot/corr-house.pdf){#fig:scorrplot width="100%"}
+\al{explain more about it - what does position mean? example is not clear!}
 
 
 We worked with a biologist at the University of Utah
@@ -53,9 +57,14 @@ so they did not scale to the size of datasets that our collaborator struggles to
 
 
 Using the s-CorrPlot tool, we enabled our collaborator to analyze the correlation of over 75,000 genes at once.
+\al{why so many? need to explain brain regions x genes}
 This enabled quick insights into the general correlation structure, such as that strong clusters emerged for one region of genes in the brain.
 He anticipated that this data could reflect differences in the cell types
 and mechanisms that regulate gene expression and the function of those two brain regions.
+\al{how many samples? why many samples? what are they?}
+\al{what is the data? why do exon level comparison?}
+\al{is exon level useful, why?}
+\al{are you comparing exons from different genes?}
 With a second dataset of 120,000 exons, or subparts of genes, our collaborator performed the first exon-level correlation analysis that he is aware of,
 noting that patterns in the exon data are significantly different than that for the data at the gene-level.
 This implies that differences in these brain regions could be described at a smaller scale than genes.
@@ -65,11 +74,13 @@ He commented:
   that we were completely unaware of. It offers the potential for deriving
   entirely new hypotheses about the functional relationships between genes
   in different brain regions that we can test experimentally."*
+\al{clarify on what BR-specific patterns are?}
 
 
 While this is very promising work for a novel technique, the s-CorrPlot also failed our collaborator.
 When publishing this work, we had to focus on the novel components and the mathematical description of why it worked.
 Even when sharing this with our biology researchers in our collaborator's lab, we had difficulty in explaining what any particular scatterplot meant.
+\al{neither does Alex!}
 There were significant barriers to others using this tool for exploring their large datasets,
 and even when they could use the tool it still limited them by what features were supported.
 This is because the tool was designed as a general-purpose proof-of-concept of this novel projection technique.
@@ -81,6 +92,8 @@ and that collaboration with another researcher led to different contributions an
 
 
 ## Redesigning a Visualization System
+
+\al{why subsection? why not?}
 
 We encountered the insufficiencies of current
 visualization process models while working on a project with
@@ -159,7 +172,7 @@ artifacts we developed in our redesign process.
   top. Towards the bottom, we highlight numerous
   methods and artifacts utilized throughout our project.
 ](figures/daf/timeline.pdf){#fig:timeline width="100%"}
-
+\al{why is there a separation/gap between activities? }
 
 Other researchers have shown the
 feasibility and usefulness of a design process timeline as
@@ -228,8 +241,11 @@ simplification of our process for the purposes of illustration.
   -->
 ](){#fig:redesign}
 
+\al{figure is split across two pages?? figure is wonky...}
 
 ### Deploy
+
+\al{here is a sub-sub-sections? is that working?}
 
 Since our redesign project focused on analyzing an existing
 visualization 
@@ -324,6 +340,7 @@ existing visual conventions in the field
 such as highlighting critical alerts in red.
 
 
+\al{weird gap after "needs and aspirations"}
 Lastly, we conducted a series of semistructured interviews
 with different stakeholders to identify needs and aspirations
 <!--(*M-51*)-->, where these stakeholders included a developer
@@ -388,6 +405,7 @@ critical due to the quantity and spread of real-world
 cyber security data.
 
 
+\al{weird gap after "concrete wireframes"}
 The concept sketches proved to be useful in exploring
 different ideas, but we wanted to explore some of these ideas in
 more depth and detail.
@@ -434,6 +452,7 @@ beyond the scope of what the developers could achieve given the
 constraint of one month of their time.
 
 
+\al{weird gap after "software prototype" and "questionnaire"}
 After we finalized these detailed
 and revised mockups, the RVS development team focused
 on implementing these concepts into the existing software.
@@ -456,4 +475,6 @@ we took as a
 validation of the design ideas
 that had became concretized within the final artifact:
 a new prototype of RVS.
+
+\al{where is the line between ideate & make?}
 

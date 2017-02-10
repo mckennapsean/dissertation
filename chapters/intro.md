@@ -19,13 +19,15 @@ become more prevalent, from evaluation
 strategies [@Plaisant2004; @Lam2011a; @Carpendale2008a; @Isenberg2013a; @Shneiderman2006]
 to the design process
 itself [@Tory2004; @Sedlmair2012b; @Lloyd2011; @Shneiderman2006; @Wassink2009; @Chee2011].
+\al{However?}
 Furthermore, these theories and models for the design process largely
 address the *how* of visualization design,
 but they fail to explicitly describe the connections of those actions
 back to the *why* of visualization design decisions
 --- these design decisions are described instead by separate
 design decision models [@Munzner2009; @Meyer].
-The visualization community needs a new framework which bridges the design process with design decisions
+\al{what is the problem first? then how to solve it}
+The visualization community needs a new framework which \al{that} bridges the design process with design decisions
 to enable a richer description of the visualization design process
 and provide more actionable guidance for novice visualization designers.
 
@@ -34,29 +36,35 @@ This dissertation centers around the formulation, use, and validation of a user-
 for capturing and describing the interplay between the visualization design process and design decisions.
 For data visualization, design centers around the creation of a single visualization or more robust visualization system.
 This design process takes place in a series of overlapping *activities* which produce *artifacts*, like a new visualization encoding.
-These artifacts get produced as a result of *decisions* that get made by a visualization designer, such as how to evaluate a system.
-No work previously exists that connects all three of these aspects for visualization design.
+These artifacts get \al{are} produced as a result of *decisions* that get \al{are} made by a visualization designer, such as how to evaluate a system.
+No work previously \al{previous work} exists that connects all three of these aspects for visualization design.
 
 
 Many visualization designers reflect on the role and steps of the design process for creating and building novel and useful visualizations [@Sedlmair2012b; @Lloyd2011; @Wassink2009; @Chee2011].
 In the field of visualization, a good chunk of problem-driven visualization work conducts design studies,
-where visualization experts create visualization systems to support solving some real world problem.
+\al{does "work conduct" ? people conduct, work is "about"}
+where visualization experts create visualization systems to support solving some \al{a} real world problem.
 It is helpful both for novice visualization designers and even expert ones to provide guidance on how to achieve success in these projects and avoid common pitfalls which can lead to failure.
 There are also many different design process models out there, many from the design or HCI communities, and even several within the visualization community.
 Focusing on the design process can enable visualization designers to apply what they have learned to other problems, saving time and making more effective visualizations.
 
 
-Visualization designers constantly make decisions throughout the process in order to focus their work.
-These design decisions play a crucial role in stating assumptions, identifying design opportunities, and formalizing requirements of a system.
-One of the most common kind of design decisions is to perform an evaluation of a system, from informal to formal or qualitative to quantitative, in order to justify the use of a specific encoding or interaction technique [@Brehmer2014; @McCurdy2015; @Kerzner2015; @Quinan2015].
-Another common design decision is to utilize 2D space to encode the most important visual data, over less perceptually effective channels such as radial size or color [@Cleveland1984].
+Visualization designers constantly make decisions throughout the process in order to focus \al{refine} their work.
+These design decisions play a crucial role in stating assumptions,
+\al{do they? why? how?}
+identifying design opportunities, and formalizing requirements of a system.
+One of the most common kind of design decisions is to perform an evaluation of a system,
+\al{is evaluation really design?}
+from informal to formal or qualitative to quantitative, in order to justify the use of a specific encoding or interaction technique [@Brehmer2014; @McCurdy2015; @Kerzner2015; @Quinan2015].
+Another common design decision is to utilize 2D space \al{2d position} to encode the most important visual data, over less perceptually effective channels such as radial size or color [@Cleveland1984].
+\al{check resource for more than just position? VERIFY}
 Design decisions are often rooted in various research and design methods that can enable both the generation and creation of artifacts.
 
 
 Visualization design artifacts are often crucial to the success of a project, especially for the final desired outcome which is sought to be usable, useful, and effective.
 Commonly, artifacts are tangible software tools,
 but the design process can involve other kinds of artifacts,
-such as sketches, ideas, user needs, or a list of software requirements.
+such as sketches, ideas, \al{documents of} user needs, or a list of software requirements.
 Existing process models fail to capture some of these kinds of design artifacts,
 and this is largely due to how existing models consider evaluation as a separate step of the design process rather than a part of every step.
 Artifacts for visualization design can serve many purposes, from measuring success to reuse in future projects;
@@ -68,7 +76,7 @@ Without this connection, it is much harder for a visualization designer to answe
 which results in less useful design process descriptions and models which can lead to failure for novice designers.
 The design activity framework breaks apart steps of the design process into a series of four overlapping activities.
 Each activity has a specific motivation for a visualization designer to ground themselves in.
-Once an activity is identified, the expected kind of artifact to achieve becomes clear.
+Once an activity is identified, the expected kind of artifact to achieve \al{produce} becomes clear.
 This further empowers visualization designers to choose from appropriate kinds of design methods to make and justify design decisions.
 Lastly, this framework connects to other existing visualization design models and theories to enable a richer and more complete description of the visualization design process.
 
@@ -99,13 +107,13 @@ We conclude by reflecting on what we have learned about the visualization design
 In Chapter 2, the necessary background for this dissertation is presented.
 It includes a discussion of creativity in visualization design and user-centered design.
 There is a discussion on the different theoretical models presented in visualization design, both process and decision models.
-This work is largely complete, but an additional section on the role of agile development will be flushed out in the full dissertation.
+This work is largely complete, but an additional section on the role of agile development will be flushed \al{fleshed} out in the full dissertation.
 
 
 The core contribution of this dissertation is the design activity framework; an overview is presented in Chapter 3.
 This framework addresses a lack of connection between different kinds of design models, providing for a more complete description of a design project.
 This framework presents steps of a process through four design activities: understand, ideate, make, and deploy.
-Each activity contains a motivation, methods, and artifacts, to connect back to design decisions and help novice designers utilize the framework more easily.
+Each activity contains a \al{?} motivation, \al{list of} methods, and \al{?} artifacts, to connect back to design decisions and help novice designers utilize the framework more easily.
 This work is already completed, but it may be modified over time and with reflection on our projects.
 
 
@@ -115,7 +123,8 @@ but the resulting tool strayed from solving real world problems due to its novel
 A second project focused on redesigning a tool,
 and this work resulted in only minor software changes since the development process was isolated.
 We found that a common aspect of failure in these projects was less reflection and decreased control of the entire design process.
-These reflections led to the formulation of the design activity framework,
+These reflections led to the formulation of the \al{more meta / in brackets?} design activity framework,
+\al{cut the following...}
 and this work has already been completed.
 
 

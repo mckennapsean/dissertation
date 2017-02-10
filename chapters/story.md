@@ -24,3 +24,5 @@ We will evaluate output of this authoring tool by performing a user study on how
 We hope to find that our authoring tool is usable and meets this purpose
 and that novel navigational mechanics will improve upon both the stepper and scroller design, to carve a path for more effective way for visual storytelling.
 
+\al{seems distant from the rest. how to tie in?}
+

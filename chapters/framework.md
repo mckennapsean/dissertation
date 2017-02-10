@@ -4,7 +4,7 @@
 
 A design process consists of steps taken to achieve a given outcome, such as a visualization system.
 Design decisions are the reasons and justification behind a choice made for a visualization, such as choosing a pie or bar chart.
-Design artifacts, like a system prototype, are the goal for any step of the design process and from making design decisions.
+Design artifacts, like a system prototype, are the goal for any \al{each} step of the design process and from making design decisions.
 As explored in the previous chapter, no such work exists which connects all three of these aspects for visualization design.
 By connecting these components, the design activity framework more completely captures and describes the design process, increasing its actionability for use by other visualization designers.
 
@@ -79,10 +79,12 @@ The design activity framework consists of four different design activities: *und
 
 The **motivation** of an activity is the specific
 purpose behind the methods and actions that are performed
-within that activity. For example, is my motivation to brainstorm new
+within that activity.
+\al{For example, a motivation can be to brainstorm ....}
+For example, is my motivation to brainstorm new
 ideas to solve 
-a specific problem? Or, is it to test the efficacy of an
-aspect of my chosen visualization for a specific task? By
+a specific problem? Or, \al{"is it" - cut} to test the efficacy of an
+aspect of my chosen visualization for a specific task?\al{.} By
 matching a real-world motivation to those specified for
 each activity in the framework, visualization designers can
 place themselves within a specific design activity, which
@@ -227,10 +229,13 @@ structured way.
 
 The second activity in the framework is the **ideate**
 activity, which has the motivation: *to generate good
-ideas for supporting the understand artifacts*. The artifact
-of the ideate activity is a set of ideas that are most
+ideas for supporting the understand artifacts*.
+\al{last two words, not clear on this being a previous activity... is this really the best definition?}
+\al{unclear sentence? (prev or next? not sure, check)}
+The artifact
+of the ideate activity is a set of ideas that are \al{"most" - cut}
 often externalized in a variety of forms, from sketches to
-wireframes to even low-fidelity prototypes. It is important to note that
+wireframes to \al{"even" - cut} low-fidelity prototypes. It is important to note that
 the act of externalizing an idea onto some medium often
 results in the generation of additional ideas as they become
 more concrete [@Fallman2003a].
@@ -350,6 +355,7 @@ brainstorming new ideas, or two activities that occur
 concurrently. Taken together, these two  movement principles
 support both iteration and multilinearity.
 
+\al{example figures, more diagrams and examples of the framework is needed here!}
 
 <!--
 Other visualization process models are also characterized in
