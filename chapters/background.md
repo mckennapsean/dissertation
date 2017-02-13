@@ -1,13 +1,6 @@
 
 # Background and Related Work {#sec:background}
 
-<!--
-**_TODO_**:
-
-  - section on agile development
-
--->
-
 Visualization design and research has explored many facets of design, from the process to decisions made throughout.
 In this chapter, we will first explore how creativity has played a blossoming role in recent work.
 On the theoretical side, we focus on two types of visualization models, process and decision models [@Meyer].
@@ -249,4 +242,10 @@ Several researchers have used iterative usability studies and user feedback to i
 Many of the visualization models capture more of an engineering design process, with a testing or evaluation phase [@Chee2011; @Tory2004; @Wassink2009; @Lloyd2011].
 However, design methods can be evaluative at any step or phase, to limit or narrow the choice of potential artifacts going forward.
 This points to another gap between existing visualization design process models and the plethora of design methods that get utilized.
+
+
+
+
+
+<!--## Agile Development-->
 

@@ -1,14 +1,6 @@
 
 # Introduction {#sec:intro}
 
-<!--
-**_TODO_**:
-
-  - switch compilation entirely to pandoc?
-  - clean up bash script
-
--->
-
 Design has many meanings,
 and visualization design is about the planning and creation of a visualization or combined visualization system.
 Visualization design is known to be messy,

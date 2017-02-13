@@ -203,8 +203,6 @@ each activity of our redesign project, presented
 in rough, chronological order, and the methods we used and the
 artifacts we achieved.
 <!--
-TODO table???
-TODO uncomment all table references?
 We will refer to
 methods listed in [@tab:methods] using a prefix, such as the method of
 controlled experiments (*M-28*).
@@ -235,7 +233,6 @@ simplification of our process for the purposes of illustration.
   interface components and e) designing a fully-detailed
   revised interface.
   <!--
-  TODO: supplemental materials
   These artifacts are provided at
   full-resolution in the Supplemental Materials.
   -->
