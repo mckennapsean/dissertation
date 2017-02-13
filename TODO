@@ -1,6 +1,8 @@
 small things:
   - comments
   - color in headers
+  - spellcheck
+  - linting
   - build system
   - switch compilation entirely to pandoc?
   - clean up bash script
