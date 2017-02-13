@@ -91,7 +91,7 @@ Similarly, Tang et al. divide design decisions into
 three groups: planning, problem space, and solution space
 decisions, in order to better realize the effect decisions
 have on design [@Tang2010]. Through studying the process
-of expert designers, Wu et al. identify \sm{write verbage? and watch period spacing!} three classes of
+of expert designers, Wu et al. identify three classes of
 design strategies: forward working, problem switching, and
 backward working strategies [@Wu2011]. Furthermore,
 several researchers have broken down decision-making into
