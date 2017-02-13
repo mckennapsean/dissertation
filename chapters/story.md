@@ -25,4 +25,5 @@ We hope to find that our authoring tool is usable and meets this purpose
 and that novel navigational mechanics will improve upon both the stepper and scroller design, to carve a path for more effective way for visual storytelling.
 
 \al{seems distant from the rest. how to tie in?}
+\sm{what about talking about evaluation and its ties to the design process? motivation for future design studies by formative work like this?}
 

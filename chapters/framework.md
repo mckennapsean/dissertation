@@ -4,7 +4,7 @@
 
 A design process consists of steps taken to achieve a given outcome, such as a visualization system.
 Design decisions are the reasons and justification behind a choice made for a visualization, such as choosing a pie or bar chart.
-Design artifacts, like a system prototype, are the goal for any \al{each} step of the design process and from making design decisions.
+Design artifacts, like a system prototype, are the goal for each step of the design process and from making design decisions.
 As explored in the previous chapter, no such work exists which connects all three of these aspects for visualization design.
 By connecting these components, the design activity framework more completely captures and describes the design process, increasing its actionability for use by other visualization designers.
 
@@ -80,11 +80,10 @@ The design activity framework consists of four different design activities: *und
 The **motivation** of an activity is the specific
 purpose behind the methods and actions that are performed
 within that activity.
-\al{For example, a motivation can be to brainstorm ....}
-For example, is my motivation to brainstorm new
+For example, a motivation can be to brainstorm new
 ideas to solve 
-a specific problem? Or, \al{"is it" - cut} to test the efficacy of an
-aspect of my chosen visualization for a specific task?\al{.} By
+a specific problem or to test the efficacy of an
+aspect of my chosen visualization for a specific task. By
 matching a real-world motivation to those specified for
 each activity in the framework, visualization designers can
 place themselves within a specific design activity, which
@@ -229,16 +228,15 @@ structured way.
 
 The second activity in the framework is the **ideate**
 activity, which has the motivation: *to generate good
-ideas for supporting the understand artifacts*.
-\al{last two words, not clear on this being a previous activity... is this really the best definition?}
-\al{unclear sentence? (prev or next? not sure, check)}
+ideas for supporting the artifacts from the *Understand* activity.
+\al{not clear on this being a previous activity... is this really the best definition?}
 The artifact
-of the ideate activity is a set of ideas that are \al{"most" - cut}
-often externalized in a variety of forms, from sketches to
-wireframes to \al{"even" - cut} low-fidelity prototypes. It is important to note that
+of the ideate activity is a set of ideas that can be
+externalized in a variety of forms, from sketches to
+wireframes to low-fidelity prototypes. It is important to note that
 the act of externalizing an idea onto some medium often
 results in the generation of additional ideas as they become
-more concrete [@Fallman2003a].
+more concrete [@Fallman2003a]. \al{unclear sentence?}
 
 
 These ideas encompass design

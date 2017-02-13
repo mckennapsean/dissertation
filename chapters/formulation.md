@@ -2,11 +2,12 @@
 # Formulation of the Framework {#sec:formulation}
 
 \al{does this title work? eh on it...}
+\sm{should I keep all of these projects together? or split them apart? include sociology project? perhaps separate chapter for redesign project}
 
 The design activity framework was initially formulated from reflecting on previous failed projects.
 At first, we pursued a design study in the field of biology, working with a research lab studying mouse genetics through correlation.
 With a statistics researcher, we created a new technique, the s-CorrPlot, to encode correlation of large datasets in a scatterplot [@mckenna2015s].
-However, this project did not yield \al{"us with" - cut} a successful design study, since our collaborators could not go beyond exploration or basic hypothesis generation with the tool.
+However, this project did not yield a successful design study, since our collaborators could not go beyond exploration or basic hypothesis generation with the tool.
 Upon reflection, we realized that we were driven to build this tool for a novel technique, not to support the needs of the researchers.
 This led into a second case study, in the field of cyber security,
 where we worked with a team of designers, a psychologist, and visualization experts to formulate the beginnings of the design activity framework [@McKenna2014].
@@ -21,8 +22,7 @@ We found that a common aspect of failure in these projects and design studies wa
 
 ## Designing for a Novel Technique
 
-\al{use active voice here!}
-In collaboration with a statistician and biology researcher, a new scatterplot for encoding correlation was created, the s-CorrPlot [@mckenna2015s].
+In collaboration with a statistician and biology researcher, we created a new scatterplot for encoding correlation, the s-CorrPlot [@mckenna2015s].
 As shown in {*@fig:scorrplot}, the s-CorrPlot in (b) encodes as points different patches of the two images in (a) to enable measure of correlation exactly to a single variable of interest, as opposed to the challenges brought by a cluttered parallel coordinates plot (c) or clustered heatmap (d) for reading off these values.
 The s-CorrPlot works by projecting the large data space into two dimensions for a variable of interest,
 and further details can be found in the discussion of the technique [@mckenna2015s].
@@ -80,7 +80,8 @@ He commented:
 While this is very promising work for a novel technique, the s-CorrPlot also failed our collaborator.
 When publishing this work, we had to focus on the novel components and the mathematical description of why it worked.
 Even when sharing this with our biology researchers in our collaborator's lab, we had difficulty in explaining what any particular scatterplot meant.
-\al{neither does Alex!}
+\al{neither do I!}
+\sm{clearly, need to clean up this section. tough...}
 There were significant barriers to others using this tool for exploring their large datasets,
 and even when they could use the tool it still limited them by what features were supported.
 This is because the tool was designed as a general-purpose proof-of-concept of this novel projection technique.
@@ -94,6 +95,7 @@ and that collaboration with another researcher led to different contributions an
 ## Redesigning a Visualization System
 
 \al{why subsection? why not?}
+\sm{perhaps we should have this be a chapter?}
 
 We encountered the insufficiencies of current
 visualization process models while working on a project with
@@ -243,6 +245,7 @@ simplification of our process for the purposes of illustration.
 ### Deploy
 
 \al{here is a sub-sub-sections? is that working?}
+\sm{moving to own chapter would fix that...}
 
 Since our redesign project focused on analyzing an existing
 visualization 
@@ -337,10 +340,9 @@ existing visual conventions in the field
 such as highlighting critical alerts in red.
 
 
-\al{weird gap after "needs and aspirations"}
 Lastly, we conducted a series of semistructured interviews
 with different stakeholders to identify needs and aspirations
-<!--(*M-51*)-->, where these stakeholders included a developer
+(*M-51*), where these stakeholders included a developer
 who works on RVS and several cyber security analysts at the
 University of Utah. Based on this feedback, we 
 met as a design team and informally evaluated and filtered the
@@ -402,7 +404,6 @@ critical due to the quantity and spread of real-world
 cyber security data.
 
 
-\al{weird gap after "concrete wireframes"}
 The concept sketches proved to be useful in exploring
 different ideas, but we wanted to explore some of these ideas in
 more depth and detail.
@@ -411,7 +412,7 @@ into very low-fidelity paper prototypes <!--(_M-61_)--> that
 highlighted
 interactions inside the tool. These ideas were
 eventually finalized into more concrete wireframes
-<!--(_M-98_)-->, shown in {*@fig:redesign}c, to
+(_M-98_), shown in {*@fig:redesign}c, to
 mimic the look and feel of a real tool.
 Again, we evaluated these wireframes very informally,
 internally as a design team and with different members of the
@@ -449,7 +450,6 @@ beyond the scope of what the developers could achieve given the
 constraint of one month of their time.
 
 
-\al{weird gap after "software prototype" and "questionnaire"}
 After we finalized these detailed
 and revised mockups, the RVS development team focused
 on implementing these concepts into the existing software.
@@ -458,14 +458,14 @@ development team is somewhat unique to our redesign project;
 most often in visualization design these two groups of people are
 the same.
 As a result of this implementation process, the development
-team created a software prototype <!--(*M-67*)-->,
+team created a software prototype (*M-67*),
 which they evaluated with
 several network security analysts who work with RVS.
 The RVS company sought a quick
 and easy approach to minimize the time needed by
 analysts to participate;
 thus, this evaluation consisted of an A/B testing method
-<!--(*M-1*)--> coupled with a questionnaire <!--(*M-69*)-->.
+(*M-1*) coupled with a questionnaire (*M-69*).
 This evaluation received
 positive feedback over the previous version of RVS, which
 we took as a
@@ -474,4 +474,5 @@ that had became concretized within the final artifact:
 a new prototype of RVS.
 
 \al{where is the line between ideate and make?}
+\sm{deploy?}
 
