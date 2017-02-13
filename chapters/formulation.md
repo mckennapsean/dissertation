@@ -473,5 +473,5 @@ validation of the design ideas
 that had became concretized within the final artifact:
 a new prototype of RVS.
 
-\al{where is the line between ideate & make?}
+\al{where is the line between ideate and make?}
 
