@@ -1,5 +1,4 @@
 small things:
-  -wrapping
   - build system
   - switch compilation entirely to pandoc?
   - clean up bash script
