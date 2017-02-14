@@ -1,4 +1,3 @@
-
 # Introduction {#sec:intro}
 
 Design has many meanings,

@@ -1,6 +1,5 @@
 small things:
-  - wrapping?
-  - linting
+  -wrapping
   - build system
   - switch compilation entirely to pandoc?
   - clean up bash script

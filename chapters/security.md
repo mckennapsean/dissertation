@@ -1,4 +1,3 @@
-
 # Case Study: Design Study in Cyber Security {#sec:security}
 
 A second but successful case study in the field of cyber security focused on a new investigation:
@@ -62,7 +61,7 @@ and prioritized against each of our user personas.
 Examples of these needs or *user requirements* include:
 scaling to real-world data on a single screen, preservation of data context, emphasizing temporal representations of patterns,
 designing visualizations for presenting to others, and keeping it both intuitive and easy to use.
-Next, two dozen different visualization encoding ideas were sketched 
+Next, two dozen different visualization encoding ideas were sketched
 and weighted against each need.
 As a result, each idea was scored by combining these priorities and weights,
 resulting in several key ideas with the most potential.

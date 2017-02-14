@@ -1,4 +1,3 @@
-
 # Formulation of the Framework {#sec:formulation}
 
 \al{does this title work? eh on it...}
@@ -156,7 +155,7 @@ large software system.
 We provide a
 timeline for our redesign project in
 {*@fig:timeline}, where activities are represented
-as colored boxes. This timeline shows the flow of the project 
+as colored boxes. This timeline shows the flow of the project
 through multiple activities, including nested activities and
 both forward and backward movement.
 The timeline is annotated with many of the methods we used and the
@@ -201,7 +200,7 @@ in a similar way.
 
 Here we will walk through our redesign project and describe
 our design process using the framework. This section focuses on
-each activity of our redesign project, presented 
+each activity of our redesign project, presented
 in rough, chronological order, and the methods we used and the
 artifacts we achieved.
 <!--
@@ -248,7 +247,7 @@ simplification of our process for the purposes of illustration.
 \sm{moving to own chapter would fix that...}
 
 Since our redesign project focused on analyzing an existing
-visualization 
+visualization
 system, the RVS, we started our design process in the deploy
 activity.
 Rather than test RVS and simply clean up usability
@@ -271,11 +270,11 @@ constraint within our project.
 We received a copy of
 RVS in order to understand what needs
 it currently addressed and what constraints it already
-contained. 
-We used a walkthrough tutorial and 
+contained.
+We used a walkthrough tutorial and
 sample dataset <!--(*M-75*)--> built by the RVS company to explore
 the features and efficacy of the tool.
-Our analysis of RVS revealed that it was 
+Our analysis of RVS revealed that it was
 necessary for us to take a step back to the understand activity so
 that we could
 better discern the needs of cyber security analysts.
@@ -295,7 +294,7 @@ and interviewing cyber security
 analysts [@DAmico2008; @Erbacher2010a; @Fink2009] across these
 different facets. We used the
 published work from these experts to form our base understanding of
-the field as we had limited access to cyber security experts ourselves. 
+the field as we had limited access to cyber security experts ourselves.
 First, we conducted an
 extensive and broad literature review <!--(*M-53*)--> across
 a series of 40 articles from several key domains:
@@ -344,12 +343,12 @@ Lastly, we conducted a series of semistructured interviews
 with different stakeholders to identify needs and aspirations
 (*M-51*), where these stakeholders included a developer
 who works on RVS and several cyber security analysts at the
-University of Utah. Based on this feedback, we 
+University of Utah. Based on this feedback, we
 met as a design team and informally evaluated and filtered the
 list of opportunities
 by reaching a group consensus on
 those we felt best met the unmet needs of our
-target users, balanced against the 
+target users, balanced against the
 strengths and weaknesses of RVS and taking into account
 the real-world constraints and considerations of the
 project.

@@ -1,4 +1,3 @@
-
 # Design Activity Framework {#sec:framework}
 
 
@@ -68,7 +67,7 @@ activity framework in {*@fig:framework}.
 
 
 <!--
-The design activity framework consists of four different design activities: *understand*, *ideate*, *make*, and *deploy*. Each of these activities consists of a *motivation*, *design artifacts*, and *methods*. As shown in {*@fig:activity}, the motivation places the designer within a specific activity in the framework, with the goal of establishing a specific set of artifacts for that activity. Artifacts are achieved using one or more design methods, both for generative or evaluative purposes. The design activity framework supports iterative, user-centered visualization design, and provides guidance about effective methods for reaching a range of design goals. While the focus of this paper is on three specific design methods, we ground these methods within the design activity framework to provide guidance about how and when these methods can be used most effectively. 
+The design activity framework consists of four different design activities: *understand*, *ideate*, *make*, and *deploy*. Each of these activities consists of a *motivation*, *design artifacts*, and *methods*. As shown in {*@fig:activity}, the motivation places the designer within a specific activity in the framework, with the goal of establishing a specific set of artifacts for that activity. Artifacts are achieved using one or more design methods, both for generative or evaluative purposes. The design activity framework supports iterative, user-centered visualization design, and provides guidance about effective methods for reaching a range of design goals. While the focus of this paper is on three specific design methods, we ground these methods within the design activity framework to provide guidance about how and when these methods can be used most effectively.
 
 
 ![
@@ -81,7 +80,7 @@ The **motivation** of an activity is the specific
 purpose behind the methods and actions that are performed
 within that activity.
 For example, a motivation can be to brainstorm new
-ideas to solve 
+ideas to solve
 a specific problem or to test the efficacy of an
 aspect of my chosen visualization for a specific task. By
 matching a real-world motivation to those specified for
@@ -156,7 +155,7 @@ applications: understand, ideate, make, and deploy.
 As shown in {*@fig:nm-comparison}, three of the four
 activities map to several levels of the nested model,
 implying that a specific design activity can be used to make different types of visualization design decisions.
-Conversely, a designer focusing on just one type of design decision 
+Conversely, a designer focusing on just one type of design decision
 will often move through different activities; thus, the
 culmination of a complete visualization could involve moving
 through this framework in a complex, iterative, and
@@ -386,7 +385,7 @@ visualization redesign project.
 We can use the framing of a design activity to find effective methods for visualization design.
 We define effectiveness here as a reflection in two parts: short-term and long-term.
 In the short-term, an effective design method must successfully achieve the desired artifact for the design activity --- we argue that this completed artifact is one way to validate a design method.
-The long-term effectiveness of a method can be established when the method is used within the development of a 
+The long-term effectiveness of a method can be established when the method is used within the development of a
 deployed visualization tool: one that is evaluated with, and given to, real end users.
 Thus, we can determine if a design method was effective within a project by reflecting on these two questions:
 

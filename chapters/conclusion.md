@@ -1,4 +1,3 @@
-
 # Conclusion
 
 In this work, we have introduced the design activity framework as a way to connect visualization design decisions to their artifacts and ultimately the role within the design process itself.

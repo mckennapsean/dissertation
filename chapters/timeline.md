@@ -1,23 +1,22 @@
-
 # Timeline of Proposed Work {#sec:timeline}
 
 Please see {*@fig:timeline-prior} for an overview of work that has already been completed.
 For this timeline, each of the rows corresponds to a different project and paper.
 A breakdown of each paper follows:
 
-  - **P1:** s-CorrPlot: An Interactive Scatterplot for Exploring Correlation [@mckenna2015s]
-    - published through *Journal of Computational and Graphical Statistics*
-  - **P2:** Design Activity Framework for Visualization Design [@McKenna2014]
-    - published through *Transactions for Visualization and Computer Graphics*
-    - presented at IEEE VIS - InfoVis 2014
-  - **P3:** Unlocked User-Centered Design Methods for Building Cyber Security Visualizations [@McKenna2015]
-    - published through *Proceedings of IEEE Visualization for Cyber Security*
-    - presented at IEEE VIS - VizSec 2015
-  - **P4:** BubbleNet: A Cyber Security Dashboard for Visualizing Patterns [@mckenna2016]
-    - published through *Computer Graphics Forum*
-    - presenting at Eurovis 2016
-  - **P5:** Battle of Steppers and Scrollers: Navigational Paradigms for Visual Stories [@mckenna2017]
-    - work in progress, see below for more details
+- **P1:** s-CorrPlot: An Interactive Scatterplot for Exploring Correlation [@mckenna2015s]
+  - published through *Journal of Computational and Graphical Statistics*
+- **P2:** Design Activity Framework for Visualization Design [@McKenna2014]
+  - published through *Transactions for Visualization and Computer Graphics*
+  - presented at IEEE VIS - InfoVis 2014
+- **P3:** Unlocked User-Centered Design Methods for Building Cyber Security Visualizations [@McKenna2015]
+  - published through *Proceedings of IEEE Visualization for Cyber Security*
+  - presented at IEEE VIS - VizSec 2015
+- **P4:** BubbleNet: A Cyber Security Dashboard for Visualizing Patterns [@mckenna2016]
+  - published through *Computer Graphics Forum*
+  - presenting at Eurovis 2016
+- **P5:** Battle of Steppers and Scrollers: Navigational Paradigms for Visual Stories [@mckenna2017]
+  - work in progress, see below for more details
 
 
 ![

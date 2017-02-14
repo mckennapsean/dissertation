@@ -1,4 +1,3 @@
-
 # Background and Related Work {#sec:background}
 
 Visualization design and research has explored many facets of design, from the process to decisions made throughout.
@@ -114,7 +113,7 @@ decisions as occurring at one of four levels: domain
 characterization, data and task abstraction, visual encoding
 and interaction, and algorithm. A recent extension to the
 model, called the nested blocks and guidelines model [@Meyer],
-provides a more fine-grained 
+provides a more fine-grained
 characterization of individual design decisions as blocks at
 each level, with guidelines describing the relationships
 between blocks. Together, blocks and guidelines relate the
@@ -122,7 +121,7 @@ visualization decisions a designer makes, with regard to
 finding good blocks in the design of a visualization. It is
 important to stress that the nested model, as well as the
 nested blocks and guidelines model, are not process models; they do
-not describe 
+not describe
 *how* to design a visualization, only the types of
 decisions (*what*) and rationale (*why*) that
 a visualization designer needs to make along the way
@@ -150,14 +149,14 @@ recognized by researchers in the design [@Howard2008],
 HCI [@Wolf2006; @Lowgren1995], and visualization [@Moere2011]
 communities, the combination and balanced mixture of these
 two types of process models is useful for characterizing the
-design process. 
+design process.
 
 
 Visualization-specific design process models describe unique aspects for
 designing and evaluating visualization systems; however,
 they largely do not connect back to visualization design decisions
 and do not explicitly incorporate aspects of a
-creative design process. 
+creative design process.
 The seminal research
 method of multidimensional longitudinal case
 studies [@Shneiderman2006] proposes a process and
@@ -168,7 +167,7 @@ development of a visualization system.
 \al{below, what is the relation to software engineering?}
 \sm{need to clarify this distinction, what makes it engineering? convergence?}
 More abstracted design process
-models for 
+models for
 visualization have also been proposed in a variety of forms ---
 waterfall, cyclical, and spiral --- to perform
 user-centered design [@Chee2011; @Tory2004; @Wassink2009],
@@ -220,7 +219,7 @@ available within this process model.
 
 
 
-##  User-Centered Design for Visualization
+## User-Centered Design for Visualization
 
 User-centered design is a promising approach to build better and more effective visualization tools.
 By focusing on a user's needs, wants, and limitations, user-centered design enables users
