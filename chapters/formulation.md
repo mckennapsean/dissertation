@@ -41,7 +41,7 @@ Several coordinated views were linked with the s-CorrPlot to illustrate its util
   coefficients (d). In (b) and (c), color indicates membership of the
   displayed variable from the images in (a). In (d), purple indicates strong
   positive correlation and orange strong negative correlation. Only the s-CorrPlot
-  can plot all variables, due to computational and screenspace limitations of
+  can plot all variables, due to computational and screen-space limitations of
   (c) and (d).
 ](figures/scorrplot/corr-house.pdf){#fig:scorrplot width="100%"}
 \al{explain more about it - what does position mean? example is not clear!}
