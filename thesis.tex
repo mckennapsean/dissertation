@@ -120,7 +120,7 @@
 %%% The student-specific front matter fields are defined here:
 \author                 {Sean Patrick McKenna}
 \title                  {The Design Activity Framework: Analyzing the User-Centered Design Process for Data Visualization}
-\thesistype             {proposal} %{dissertation}
+\thesistype             {dissertation}
 
 \dedication             {To ...}
 
@@ -155,15 +155,15 @@
 
 %%% Dates that must be adjusted for each academic term, and be permitted
 %%% according to the University of Utah Thesis Office:
-\submitdate             {May 2016}
-\copyrightyear          {2016}
+\submitdate             {May 2017}
+\copyrightyear          {2017}
 
 %%% Dates on which committee members approved the thesis
-% \chairdateapproved      {17 Feb 2016}
-% \firstdateapproved      {17 Feb 2016}
-% \seconddateapproved     {17 Feb 2016}
-% \thirddateapproved      {17 Feb 2016}
-% \fourthdateapproved     {17 Feb 2016}
+% \chairdateapproved      {17 May 2017}
+% \firstdateapproved      {17 May 2017}
+% \seconddateapproved     {17 May 2017}
+% \thirddateapproved      {17 May 2017}
+% \fourthdateapproved     {17 May 2017}
 
 %%%%%
 % what did these do....?
@@ -184,27 +184,19 @@
 %% Comment out items by inserting a percent % character
 \frontmatterformat
 \titlepage
-% \copyrightpage
+\copyrightpage
 % \dissertationapproval
 \setcounter {page}     {2}             % UofU Thesis Office demands abstract on p. iii: start one lower
-% \preface    {content/abstract} {Abstract}
+\preface    {content/abstract} {Abstract}
 % \dedicationpage
 \tableofcontents
 % \listoffigures
 % \listoftables
 
-%%% Optional front matter page(s), made from source "notation.tex". If
-%%% you don't need it, then comment out the \optionalfront command
-%%% line!  The first argument is the (unnumbered) section header for
-%%% the text supplied by the file input by the second argument; that
-%%% file must NOT contain \chapter, \section, \subsection, \ldots{}
-%%% sectioning commands.
-% \optionalfront {Notation and Symbols} {\input{content/notation}}
-
 %%% Uncomment this is you want the contents of acknowledge.tex typeset here.
 %%% Note that both "Acknowledgement" and "Acknowledgment" are accepted
 %%% spellings of that word.
-% \preface{acknowledge}{Acknowledgements}
+% \preface{content/acknowledge}{Acknowledgements}
 
 %%% Demonstrations of thesis typesetting features for the sample thesis.
 %%% Once you have seen the examples, you can comment out this line.
@@ -219,13 +211,13 @@
 \include{chapters/formulation}
 \include{chapters/security}
 \include{chapters/story}
-\include{chapters/timeline}
-%\include{chapters/conclusion}
+% \include{chapters/timeline}
+\include{chapters/conclusion}
 
 % appendices
 \numberofappendices = 0 % set 0 for none, else number of appendices
 %\appendix % chapters, sections are now appendix style
-%\include{front/appendix}
+%\include{content/appendix}
 %\nocite{*}
 
 %%% The choice of bibliography style is a major decision, jointly made

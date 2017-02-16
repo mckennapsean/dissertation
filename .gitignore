@@ -1,5 +1,5 @@
 chapters/*.tex
-front/*.tex
+content/*.tex
 *.pdf
 *.aux
 *.bbl

@@ -5,8 +5,8 @@ if [ "$1" == "-c" ]; then
   latexmk -C
   rm chapters/*.tex
   rm chapters/*.aux
-  rm front/*.tex
-  rm front/*.aux
+  rm content/*.tex
+  rm content/*.aux
 else
 
 # build tex files from markdown
@@ -15,10 +15,10 @@ do
   pandoc -F pandoc-fignos --natbib --top-level-division=chapter $chapter -o ${chapter%.md}.tex
 done
 
-# for item in front/*.md
-# do
-#   pandoc -F pandoc-fignos --natbib --top-level-division=chapter $item -o ${item%.md}.tex
-# done
+for item in content/*.md
+do
+  pandoc -F pandoc-fignos --natbib --top-level-division=chapter $item -o ${item%.md}.tex
+done
 
 # generate pdf using latex
 latexmk -pdf -silent -f thesis.tex
