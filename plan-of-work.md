@@ -1,5 +1,7 @@
 # Work I will do
 
+[ + address Alex's high-level comments]
+
 scope the dissertation to the target audience: novice visualization designers
 
 - edit introduction and scope all chapters with this in mind
