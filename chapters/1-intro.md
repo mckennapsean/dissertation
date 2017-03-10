@@ -1,5 +1,8 @@
 # Introduction {#sec:intro}
 
+\sm{refocus on teaching vis design}
+\sm{clarify role of design decisions: DAF helps justify, follow train of thought, form of validation}
+
 Design has many meanings, and visualization design is about the planning and
 creation of a visualization or combined visualization system. Visualization
 design is known to be messy, iterative, and complex [@Sedlmair2012b; @DIS2010;

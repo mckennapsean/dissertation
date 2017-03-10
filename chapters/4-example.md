@@ -1,5 +1,10 @@
 # Formulation of the Framework {#sec:formulation}
 
+\sm{update title and intro to reflect purpose}
+\sm{add in methods}
+\sm{add in timeline}
+\sm{explain role wrt to framework (reflective? during? team? etc)}
+
 \al{does this title work? eh on it...}
 \sm{should I keep all of these projects together? or split them apart? include
 sociology project? perhaps separate chapter for redesign project}

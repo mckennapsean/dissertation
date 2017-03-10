@@ -5,6 +5,8 @@ connect visualization design decisions to their artifacts and ultimately the
 role within the design process itself.
 ...
 
+\sm{wrap-up and reiterate story}
+
 
 
 

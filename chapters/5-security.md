@@ -22,6 +22,11 @@ seen that design studies can be formed and reflected upon using the design
 activity framework. We have modified the design activity framework accordingly
 with these insights.
 
+\sm{focus to f/w, explain its role and purpose and use}
+\sm{do this simply, match to the story, connect to activities throughout}
+\sm{add to figure with activities and where (at bottom)}
+\sm{increase figure sizes}
+
 
 
 

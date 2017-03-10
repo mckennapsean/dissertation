@@ -14,6 +14,11 @@ the next chapter, we will introduce the design activity framework as a way to
 connect these design decisions to a design process which supports a combination
 of engineering and creative approaches for user-centered design.
 
+\sm{section on pedagogy in vis design}
+\sm{section on swe/agile}
+\sm{add resources: existing models better, Nath had a few}
+\sm{creative / creativity, careful, see Jim's notes: presc/descr from DSM, characterize with words not a single one?}
+
 
 
 
