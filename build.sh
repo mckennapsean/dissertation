@@ -1,19 +1,24 @@
 #/bin/sh
 
-# clean all files when given "-c" flag, otherwise build pdf
+# variables for building and cleaning
+TEMP="tex"
+FILE="thesis"
+
+# clean latexmk files when given "-c" flag, otherwise build pdf
 if [ "$1" == "-c" ]; then
-  latexmk -C
-  rm content/*.tex
-  rm content/*.aux
+  rm -rf $TEMP
 else
 
-# build tex files from markdown
-for item in content/*.md
+# build tex files from markdown (overwrites each time)
+for ITEM in content/*.md
 do
-  pandoc -F pandoc-fignos --natbib --top-level-division=chapter $item -o ${item%.md}.tex
+  pandoc -F pandoc-fignos --natbib --top-level-division=chapter $ITEM -o ${ITEM%.md}.tex
 done
 
-# generate pdf using latex
-latexmk -pdf -silent -f thesis.tex
+# generate pdf using latexmk
+latexmk -output-directory=$TEMP -pdf -silent -f $FILE
+
+# move pdf to main directory
+mv $TEMP/$FILE.pdf dissertation.pdf
 
 fi
