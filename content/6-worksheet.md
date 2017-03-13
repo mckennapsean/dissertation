@@ -38,10 +38,12 @@ effectively and methodically build and validate visualization systems.
 Many of the pedagogical approaches to the visualization design process, however, 
 are theoretical in nature. From our
 own combined teaching experiences we have witnessed students struggle to incorporate these theory-based design concepts into their practical, hands-on projects.
-%these challenges
-%first-hand, and we have struggled to effectively teach visualization design
-%process and methodologies to beginning graduate students since not all novice
-%visualization designers grasp onto these concepts. 
+<!--
+these challenges
+first-hand, and we have struggled to effectively teach visualization design
+process and methodologies to beginning graduate students since not all novice
+visualization designers grasp onto these concepts.
+-->
 As such, we believe there is an opportunity for new approaches to teaching
 the next generation of visualization designers, equipping them with not just theoretical knowledge but
 also the practical steps for building better systems and tools.
@@ -60,10 +62,8 @@ the process of designing visualizations --- along with an evaluation of the effe
 
 <!--
 The contributions of this work are as follows:
--  design activity worksheets with concrete steps for novices to walk through
-%the process of designing visualizations
--  an evaluation of the effectiveness of these worksheets highlighting what
-%worked and improvements to be made
+-  design activity worksheets with concrete steps for novices to walk through the process of designing visualizations
+-  an evaluation of the effectiveness of these worksheets highlighting what worked and improvements to be made
 -->
 
 ## Related Work
@@ -189,8 +189,10 @@ text to guide students towards finding the answer. We included warnings about
 when to jump back to previous boxes or worksheets, and icons to illustrate the
 expected type of answer for each box: a list, a sketch, or a table. Lastly, the
 bottom contains a list of icons pointing to the potential next worksheet.
-% depending on the success of previous activities, showing how to use the
-% worksheets in a more complex, iterative process.
+<!--
+depending on the success of previous activities, showing how to use the
+worksheets in a more complex, iterative process.
+-->
 
 To create the worksheets, we combined the design activity framework
 definitions with related worksheets used by a colleague
@@ -471,12 +473,16 @@ advisor] then we had time carved out [for] doing the worksheets'' (P5).
 Nevertheless, the design worksheets were able to teach students how to design,
 guide them through actionable steps, and facilitated effective design
 discussions both within a group and with their mentor. As students highlighted:
-% ``in having that methodically prescribed ... you break down the process into
-% those clear steps, and I think that's useful. It is an intuitive flow'' (P2),
+<!--
+``in having that methodically prescribed ... you break down the process into
+those clear steps, and I think that's useful. It is an intuitive flow'' (P2),
+-->
 ``you break down the process into those clear steps... an intuitive flow'' (P2),
 and: ``this was really good guidance for us'' (P3), and:
-% ... well categorized for the beginner'' (P3), and:
-% ``it was my first time doing something at this scale, and
+<!--
+... well categorized for the beginner'' (P3), and:
+``it was my first time doing something at this scale, and
+-->
 ``I didn't know where to start. It was nice to have steps along the way'' (P4),
 and the benefit of generating ideas: ``we considered more options than we would
 have'' (P1). Despite the many improvements that can be made, we
