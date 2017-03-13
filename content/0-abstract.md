@@ -7,3 +7,4 @@ We have utilized this framework to formulate, guide, and reflect on the design p
 For each of these projects, we have employed a variety of qualitative design methods in order to validate the utility of these methods in real-world projects and reflect on using them in future projects.
 Furthermore, we illustrate the importance of design artifacts or outcomes and how they can play a useful and continued role in a project.
 We conclude by reflecting on what we have learned about the visualization design process from our case studies to inform future problem-driven visualization research, design, and development.
+\sm{update as needed!}

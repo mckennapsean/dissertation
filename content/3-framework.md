@@ -5,7 +5,7 @@
 \sm{add more figures, micro and macro aspects}
 \sm{flesh out content}
 \sm{ideate, check definition}
-\sm{watch out for make & deploy definitions for clarity, how relates for design?}
+\sm{watch out for make \& deploy definitions for clarity, how relates for design?}
 
 A design process consists of steps taken to achieve a given outcome, such as a
 visualization system. Design decisions are the reasons and justification behind
