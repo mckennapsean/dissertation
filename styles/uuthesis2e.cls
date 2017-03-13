@@ -1,7 +1,7 @@
 %% From Ken Parker (kparker@facility.cs.utah.edu) Fri May  5 16:34:08 1995
 %% uuthesis2e.cls
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\ProvidesClass{uuthesis2e}
+\ProvidesClass{styles/uuthesis2e}
               [1998/04/01 v1.3 University of Utah Thesis Class]
 \newcommand\@ptsize{}
 
