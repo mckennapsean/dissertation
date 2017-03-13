@@ -1,3 +1,3 @@
 # Acknowledgements
 
-\sm{acknowledge friends & family}
+\sm{acknowledge friends \& family}
