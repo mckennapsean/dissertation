@@ -11,6 +11,9 @@ if [ "$1" == "-c" ]; then
   rm -rf $TEX
 else
 
+# time bash script
+begin=$(date +"%s")
+
 # build tex files from markdown (overwrites each time)
 mkdir $TEX
 for ITEM in content/*.md
@@ -23,5 +26,9 @@ latexmk -output-directory=$TEMP -pdf -silent -f $FILE
 
 # move pdf to main directory
 mv $TEMP/$FILE.pdf dissertation.pdf
+
+end=$(date +"%s")
+diff=$(($end-$begin))
+echo "$diff seconds elapsed."
 
 fi
