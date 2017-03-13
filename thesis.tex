@@ -116,6 +116,12 @@
 %%% definitions.
 \usepackage{styles/custom}
 
+% if you need biblatex package
+% \usepackage[style=numeric,natbib=true]{biblatex}
+% \bibliography{references}
+% \addbibresource{references.bib}
+
+
 %%% ====================================================================
 %%% The student-specific front matter fields are defined here:
 \author                 {Sean Patrick McKenna}
@@ -205,6 +211,7 @@
 \pagestyle{headings} % NEW for sample-thesis-6
 
 \input{chapters}
+% $body$
 
 % appendices
 \numberofappendices = 0 % set 0 for none, else number of appendices
@@ -253,6 +260,9 @@
 %%% LaTeX reads BibTeX's formatted reference list from the file
 %%% \jobname.bbl.
 \bibliography{references}
+
+% if you need biblatex package
+% \printbibliography
 
 % to create an index, see the additional template files for more details
 
