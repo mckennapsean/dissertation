@@ -167,7 +167,7 @@ and we broke down each activity into a series of tangible and generalized steps 
   prototypes, or visualization systems. The fifth step is evaluative, to
   compare different artifacts in order to justify decisions and record that
   reasoning down for later use. We presented these five steps to students
-  using design worksheets, like in {@fig:worksheets}.
+  using design worksheets, like in [@fig:worksheets].
 ](){#tab:steps}
 
 
@@ -181,7 +181,7 @@ and we broke down each activity into a series of tangible and generalized steps 
 
 
 We introduce the first design worksheet for the *understand* activity in
-{@fig:worksheets}. At the top of each sheet we describe the goal and
+[@fig:worksheets]. At the top of each sheet we describe the goal and
 resulting artifact or outcome for the activity. Each sheet can be
 numbered in the top-right for keeping track of order, for planning, and
 retrospection. For each worksheet's five steps we included additional helper
@@ -220,7 +220,7 @@ this real-world project we were able to explain the theory with actual
 concepts. Additionally, we mocked up an example of this project using the design
 worksheets to illustrate how to capture a complex, iterative design process
 utilizing the design worksheets. An overview of this example is provided in
-{@fig:example}. We include a copy of our lecture materials in the Supplemental Materials.
+[@fig:example]. We include a copy of our lecture materials in the Supplemental Materials.
 
 
 ![
@@ -355,9 +355,9 @@ design process informed by the worksheets or stuck to the worksheets entirely.
 One group that conducted their own design process acknowledged that their design
 process, while different, still mapped onto the steps provided in each activity.
 Another student recognized the flexibility of the worksheets:
-<!-- for different visualization systems: -->
 ``if I had a different project, I would use each box in
 different ways depending on the context'' (P8).
+<!-- for different visualization systems: -->
 
 All of the students agreed that evaluation was a necessary and important step
 for design in order to pinpoint flaws in your understanding of the problem, users,
@@ -366,17 +366,17 @@ discovered that their project was better suited to a subset of users, and
 another group realized that a particular encoding resulted in points overplotting
 from feedback during an advisor meeting. All
 students agreed that worksheets helped them document their design process for their
-final project report. These worksheets served as a ``snapshot in
-time'' (P1) and were sufficiently detailed to explain their design process for
+final project report. These worksheets served as a "snapshot in
+time" (P1) and were sufficiently detailed to explain their design process for
 the report. Eight of the students described an iterative process that occurred
 during the process, although informal and not written on any
 worksheets. When digging into this informality, students pinpointed that
 worksheets helped organize their thoughts.
-<!-- and gave concise names for the design process. -->
 Furthermore, the activities helped guide novice designers, such as one student
 who used the design worksheets for the first time later in
-their project and that ``when I used [the] worksheets it kept me focused on what
-I was doing and trying to get more ideas or more [encodings]'' (P8).
+their project and that "when I used [the] worksheets it kept me focused on what
+I was doing and trying to get more ideas or more [encodings]" (P8).
+<!-- and gave concise names for the design process. -->
 
 An intriguing finding was that four students employed the worksheets in
 surprisingly creative ways. For example, one student loaded the *ideate*
@@ -391,10 +391,10 @@ flexibility helped harness their creative ability.
 -->
 Four students expressed frustration with the paper worksheets because they
 preferred another format, whether digital, larger paper, or the ability to
-structure their notes how they wish. As one student put it, ``I
+structure their notes how they wish. As one student put it, "I
 think the concepts are very helpful in the worksheets .... [but] for a free form
 thinker ... if you box it in then it is sort of restricting your creativity, as
-it tells you how much you have to fit into where'' (P9). Students suggested
+it tells you how much you have to fit into where" (P9). Students suggested
 improvements and other feedback which we explore in the next
 section.
 
