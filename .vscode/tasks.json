@@ -1,14 +1,13 @@
 {
   "version": "0.1.0",
-  "command": "sh",
+  "command": "make",
   "isShellCommand": true,
-  "args": ["build.sh"],
   "showOutput": "always",
   "suppressTaskName": true,
   "tasks": [
     {
       "taskName": "clean",
-      "args": ["-c"]
+      "args": ["clean"]
     },
     {
       "taskName": "make",
