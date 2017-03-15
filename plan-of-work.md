@@ -55,6 +55,4 @@ I'd really like to see the worksheets etc. - this could also be helpful when you
 
 simplify core components of the design activity framework into a textbook-like overview, with a more cohesive main figure that describes the macro and micro components altogether
 
-conduct the storytelling design project with respect to the design activity framework, journaling the design process
-
 prepare worksheets and other materials/tools available online for others to more easily utilize and take action using the framework
