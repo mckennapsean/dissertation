@@ -39,7 +39,7 @@ to reconcile the visualization design decisions we wanted to make with these
 various creative process models.
 
 
-By reflecting on our own design process in Chapter 4, we identified a need for a
+By reflecting on our own design process in [@sec:formulation], we identified a need for a
 process framework that balances the flexibility and actionability of models from
 the design community with the explicit artifacts and decisions necessary for
 visualization design. We developed the design activity framework to overcome
