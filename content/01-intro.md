@@ -17,11 +17,11 @@ prevalent, from evaluation strategies [@Plaisant2004; @Lam2011a;
 @Carpendale2008a; @Isenberg2013a; @Shneiderman2006] to the design process itself
 [@Tory2004; @Sedlmair2012b; @Lloyd2011; @Shneiderman2006; @Wassink2009;
 @Chee2011]. These theories and models for the visualization design process
-largely address *how* a novice can design a visualization; however, these
+largely address _how_ a novice can design a visualization; however, these
 theories sometimes fail to explicitly distinguish or lay out specific steps for
 a novice visualization designer because the models include rich but verbose
 theoretical terminology. Additionally, none of these models describe the
-connections of those actions back to *why* a novice makes specific decisions,
+connections of those actions back to _why_ a novice makes specific decisions,
 such as relying on pre-existing visualization guidelines or through performing
 evaluation methods. There is an opportunity here for creating a new approach to
 teach the next generation of visualization designers, by equipping them not just
