@@ -1,0 +1,15 @@
+---
+# crossref
+secPrefix:
+  - "Chapter"
+  - "Chapters"
+figPrefix:
+  - "Figure"
+  - "Figures"
+tblPrefix:
+  - "Table"
+  - "Tables"
+eqnPrefix:
+  - "Equation"
+  - "Equations"
+---
