@@ -71,7 +71,7 @@ The contributions of this work are as follows:
 The design activity framework introduced by McKenna et al. contains activities of
 the design process with a breakdown of each activity's motivation, artifacts,
 and design methods [@McKenna2014]. These activities are an extension of the
-core design phase of Sedlmair \etalns's nine-stage framework for design
+core design phase of Sedlmair et al.'s nine-stage framework for design
 studies [@Sedlmair2012b]: discover, design, implement, and deploy. This adapted framework, however,
 supports more general problem-driven visualization
 challenges and researchers without visualization expertise, as well as projects with tight deadlines as is
