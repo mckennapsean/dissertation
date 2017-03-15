@@ -107,22 +107,25 @@ the visualization community could further aid contributions to this design
 knowledge as well.
 
 
-<!-- again, the solution, the framework -->
-<!--\sm{is this redundant with contributions below?}-->
-The design process, design decisions, and artifacts can all be connected through
-the design activity framework. Without this connection, it is much harder for a
-visualization designer to answer both the *how* and *why* questions of design,
-which results in less useful design process descriptions and models which can
-lead to failure for novice designers. The design activity framework breaks apart
-steps of the design process into a series of four overlapping activities. Each
-activity has a specific motivation for a visualization designer to ground
-themselves in. Once an activity is identified, the expected kind of artifact to
-produce becomes clear. This further empowers visualization designers to choose
-from appropriate kinds of design methods to make and justify design decisions.
-Lastly, this framework connects to other existing visualization design models
-and theories to enable a richer and more complete description of the
-visualization design process.
-
+<!-- back to the solution -->
+The activities of a visualization design process, with each of its artifacts and
+associated design decisions, could all be connected through a new type of
+visualization design framework. Without this connection, it is much harder for a
+novice visualization designer to answer both the _how_ and _why_ questions of
+design using existing models. Even expert visualization designers can struggle
+with these models due to lack of useful step-by-step descriptions or no steps
+altogether but focusing on just the decisions. If such a framework could
+describe these steps of the visualization design process as series of
+overlapping activities, then perhaps the iterative nature of a design process
+would be immediately clear for novice designers. By prescribing each activity
+with a simple, encompassing definitions, a novice could easily determine which
+activity they are currently in, what visualization design artifacts they should
+produce, and how to evaluate them. By providing a novice designer with specific
+steps to perform, they can learn to design a visualization and perhaps learn and
+grow on to using new design methods over time. The goal of such a framework
+would be to empower novice visualization designers with the knowledge, tools,
+and techniques available for them to effectively design a useful and usable
+visualization system.
 
 
 
