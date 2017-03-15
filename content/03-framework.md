@@ -346,5 +346,3 @@ was effective within a project by reflecting on these two questions:
 1. Did you achieve your desired artifacts?
 1. Did you deploy a tool to users as a result of this method?
 
--->
-

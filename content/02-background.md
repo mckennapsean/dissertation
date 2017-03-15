@@ -80,7 +80,7 @@ decisions are intricately interconnected.
 Many researchers have explored the general act of decision-making in design. A
 detailed model by Christiaans and Almendra captures both the mindset and
 strategies of designers, such as problem-driven versus solution-driven
-\al{example of? what is this?, along with specific operationalization of that
+\al{example of? what is this?}, along with specific operationalization of that
 mindset, or how decisions get made by an individual or a team, such as
 autocratic versus autonomic [@Christiaans2010]. Similarly, Tang et al. divide
 design decisions into three groups: planning, problem space, and solution space
