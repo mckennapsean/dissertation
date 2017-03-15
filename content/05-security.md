@@ -61,7 +61,7 @@ successful outcomes as a result.
 
 \al{larger versions of dashboards?}
 
-We present an overview of our design process in {*@fig:process}. Each row and
+We present an overview of our design process in [@fig:process]. Each row and
 color corresponds to a different discourse channel. Each of these channels have
 different users, data sources, and design methods that were employed. The
 primary outcomes of this process are the prototypes and tools, with screenshots
@@ -88,7 +88,7 @@ and keeping it both intuitive and easy to use. Next, two dozen different
 visualization encoding ideas were sketched and weighted against each need. As a
 result, each idea was scored by combining these priorities and weights,
 resulting in several key ideas with the most potential. We created the first
-prototype from these ideas, shown in {*@fig:process}a). This prototype contained
+prototype from these ideas, shown in [@fig:process]a). This prototype contained
 a treemap of network records, organized by city and country. We evaluated this
 prototype using Nielsen's usability heuristics and Gestalt principles. \al{how?
 not many details} This method highlighted low-level changes, but we desired to
@@ -114,12 +114,12 @@ location-based views required little to no explanation.
 
 Thus, we iteratively developed towards a location-based encoding which is
 simpler and more intuitive for a larger variety of users, shown in
-{*@fig:process}b).
+[@fig:process]b).
 
 
 A usability study was performed on this second prototype to evaluate its
 usability, and this resulted in the final BubbleNet dashboard in
-{*@fig:process}c). While BubbleNet was deployed in a research environment,
+[@fig:process]c). While BubbleNet was deployed in a research environment,
 significant changes were necessary to create the final tool for deployment into
 an operational environment. These aspects of the final tool, evaluation, and
 deployment will be discussed further in the final dissertation.

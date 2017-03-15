@@ -83,7 +83,7 @@ realities of working within a large software system.
 ## Redesign Project Timeline
 
 
-We provide a timeline for our redesign project in {*@fig:timeline}, where
+We provide a timeline for our redesign project in [@fig:timeline], where
 activities are represented as colored boxes. This timeline shows the flow of the
 project through multiple activities, including nested activities and both
 forward and backward movement. The timeline is annotated with many of the
@@ -132,7 +132,7 @@ controlled experiments (*M-28*).
 -->
 We note that this description is a
 simplification of our process for the purposes of illustration.
-{*@fig:timeline} presents further details.
+[@fig:timeline] presents further details.
 
 
 |     |     |
@@ -224,7 +224,7 @@ and optimizing the representations of temporal data.
 We revisited the RVS system with these opportunities in mind. Since we were
 working with an existing, deployed version of the RVS software, we performed a
 broad artifact analysis <!--(_M-8_)--> on the current software architecture,
-illustrated in {*@fig:redesign}a. By examining the workflow supported by RVS, we
+illustrated in [@fig:redesign]a. By examining the workflow supported by RVS, we
 identified which opportunities the tool already supported and which aspects of
 the tool could be improved, and then evaluated these against our initial list of
 opportunities. These findings were combined with our project-specific
@@ -254,7 +254,7 @@ constraints, and considerations for our redesign, we were ready to come up with
 ideas. This activity took up several months as we sketched out a series of
 possible ideas for modifying the current design of RVS. First, each member of
 our team began to develop separate concept sketches <!--(_M-23_)--> tackling a
-specific opportunity, as illustrated in {*@fig:redesign}b. We chose this first
+specific opportunity, as illustrated in [@fig:redesign]b. We chose this first
 method based on the experience of the designers in our group as they were used
 to sketching out possible concepts. We then came together as a team to review
 these sketches and evaluate them based on which ones possessed the most
@@ -282,7 +282,7 @@ wanted to explore some of these ideas in more depth and detail. Thus we
 synthesized the paper concept sketches into very low-fidelity paper prototypes
 <!--(_M-61_)--> that highlighted interactions inside the tool. These ideas were
 eventually finalized into more concrete wireframes (_M-98_), shown in
-{*@fig:redesign}c, to mimic the look and feel of a real tool. Again, we
+[@fig:redesign]c, to mimic the look and feel of a real tool. Again, we
 evaluated these wireframes very informally, internally as a design team and with
 different members of the RVS company, to check that our redesigns were on track
 for meeting the analysts' needs. Due to the main constraint of time within the
@@ -297,13 +297,13 @@ The make activity was conducted in part by our design team and also in part by
 the RVS development team. As a design team, we generated a number of digital
 mockups; several of these were detailed wireframes <!--(_M-98_)--> that focused
 on the layout of different visualizations and interaction mechanisms, as shown
-in {*@fig:redesign}d.
+in [@fig:redesign]d.
 
 
 In addition, we also mocked up more detailed prototypes <!--(_M-67_)--> that
 showed how the different visualizations would link together through user
 interactions. These prototypes synthesized all of our design ideas into an
-idealized, revised interface, as illustrated in {*@fig:redesign}e. The purpose
+idealized, revised interface, as illustrated in [@fig:redesign]e. The purpose
 behind this method was to envision what RVS _could_ be even though the software
 implementation was beyond the scope of what the developers could achieve given
 the constraint of one month of their time.

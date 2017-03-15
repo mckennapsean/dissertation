@@ -14,7 +14,7 @@
 
 In collaboration with a statistician and biology researcher, we created a new
 scatterplot for encoding correlation, the s-CorrPlot [@mckenna2015s]. As shown
-in {*@fig:scorrplot}, the s-CorrPlot in (b) encodes as points different patches
+in [@fig:scorrplot], the s-CorrPlot in (b) encodes as points different patches
 of the two images in (a) to enable measure of correlation exactly to a single
 variable of interest, as opposed to the challenges brought by a cluttered
 parallel coordinates plot (c) or clustered heatmap (d) for reading off these
