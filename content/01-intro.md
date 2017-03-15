@@ -1,9 +1,5 @@
 # Introduction {#sec:intro}
 
-\sm{refocus on teaching vis design}
-
-<!--\sm{thoughts on we vs i?}-->
-
 <!-- problem: teaching design -->
 The process of designing a visualization is known to be iterative, complex, and
 occasionally messy [@Sedlmair2012b; @DIS2010; @Tory2004; @Wassink2009;
@@ -133,27 +129,33 @@ visualization system.
 
 ## Contributions
 
-This dissertation's primary contribution is a user-centered framework for
-visualization design: the design activity framework [@McKenna2014]. We present
-this framework as a validated methodology for visualization designers pursuing
-problem-driven work, such as design studies. The key novelty to this framework
-is its specificity for visualization design by connecting steps of the design
-process to the design decisions made and artifacts achieved during this process.
+The primary contribution of this dissertation is the design activity framework:
+a structure for how to teach novices to perform a human-centered visualization
+design process while tracking their design decisions. We introduce this
+framework as a methodology for visualization designers pursuing problem-driven
+work, such as design studies. The key novelty to this framework is its
+specificity for visualization design by connecting steps of the design process
+to the design decisions made and visualization-specific artifacts obtained.
 Other novel aspects of this framework includes its flexibility for iteration,
-actionability to guide visualization designers, and connections to existing
-models across fields. To strengthen the contribution of this framework, we have
-validated its use and application across several different visualization design
-projects. We have utilized this framework to formulate, guide, and reflect on
-the design process of several case studies in the fields of biology
-[@mckenna2015s], cyber security [@McKenna2014; @Staheli2014; @McKenna2015;
-@mckenna2016], and data storytelling [@mckenna2017]. For each of these projects,
-we have employed a variety of qualitative and quantitative design methods in
-order to validate the utility of these methods in real-world projects and
-reflect on using them in future projects. Furthermore, we illustrate the
-importance of design artifacts and how they can play a useful and continued role
-in a project. We conclude by reflecting on what we have learned about the
-visualization design process from our case studies to inform future
-problem-driven visualization research, design, and development.
+actionability to guide novice visualization designers, and connections to
+existing models across fields. To strengthen the contribution of this framework,
+we have evaluated its use and application across several different visualization
+design projects. Specifically, we have utilized this framework to formulate,
+guide, and reflect on the design process of design studies and research in the
+fields of biology [@mckenna2015s], cyber security [@McKenna2014; @Staheli2014;
+@McKenna2015; @mckenna2016], and data visualization storytelling [@mckenna2017].
+For each of these projects, we have employed a variety of qualitative and
+quantitative design methods in order to validate the utility of these methods in
+real-world projects and reflect on their use for future projects. We also
+include rich descriptions behind a variety of different visualization design
+artifacts used in a case study on cyber security as one example of how to use
+this framework. To further simplify and validate this framework, we created
+concrete, step-by-step worksheets for each activity that we evaluated through a
+series of qualitative surveys and interviews with novice visualization
+designers. As a result of this evaluation, we discovered that novices
+effectively learned how to design and develop a visualization system while
+justifying their decisions using the design activity worksheets.
+<!--\sm{thoughts on we vs i here?}-->
 
 
 
