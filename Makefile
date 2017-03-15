@@ -4,7 +4,7 @@ CHAPTERS := $(patsubst content/%,tex/%,$(CHAPTERSTX))
 
 dissertation.pdf: thesis.tex $(CHAPTERS)
 	latexmk -outdir=tmp -pdf -silent -f $<; \
-	mv tmp/thesis.pdf dissertation.pdf
+	cp tmp/thesis.pdf dissertation.pdf
 
 tex/%.tex: content/%.md
 	pandoc -F pandoc-crossref --natbib --top-level-division=chapter styles/pandoc.yaml $< -o $@
