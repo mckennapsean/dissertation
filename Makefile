@@ -7,7 +7,7 @@ dissertation.pdf: thesis.tex $(CHAPTERS)
 	mv tmp/thesis.pdf dissertation.pdf
 
 tex/%.tex: content/%.md
-	pandoc -F pandoc-fignos --natbib --top-level-division=chapter $< -o $@
+	pandoc -F pandoc-crossref --natbib --top-level-division=chapter $< -o $@
 
 clean:
 	rm -rf tex/
