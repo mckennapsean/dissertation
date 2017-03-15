@@ -129,32 +129,32 @@ visualization system.
 
 ## Contributions
 
-The primary contribution of this dissertation is the design activity framework:
-a structure for how to teach novices to perform a human-centered visualization
-design process while tracking their design decisions. We introduce this
-framework as a methodology for visualization designers pursuing problem-driven
-work, such as design studies. The key novelty to this framework is its
-specificity for visualization design by connecting steps of the design process
-to the design decisions made and visualization-specific artifacts obtained.
-Other novel aspects of this framework includes its flexibility for iteration,
-actionability to guide novice visualization designers, and connections to
-existing models across fields. To strengthen the contribution of this framework,
-we have evaluated its use and application across several different visualization
-design projects. Specifically, we have utilized this framework to formulate,
-guide, and reflect on the design process of design studies and research in the
-fields of biology [@mckenna2015s], cyber security [@McKenna2014; @Staheli2014;
-@McKenna2015; @mckenna2016], and data visualization storytelling [@mckenna2017].
-For each of these projects, we have employed a variety of qualitative and
-quantitative design methods in order to validate the utility of these methods in
-real-world projects and reflect on their use for future projects. We also
-include rich descriptions behind a variety of different visualization design
-artifacts used in a case study on cyber security as one example of how to use
-this framework. To further simplify and validate this framework, we created
-concrete, step-by-step worksheets for each activity that we evaluated through a
-series of qualitative surveys and interviews with novice visualization
-designers. As a result of this evaluation, we discovered that novices
-effectively learned how to design and develop a visualization system while
-justifying their decisions using the design activity worksheets.
+The primary contribution of this dissertation is the **design activity
+framework**: a structure for how to teach novices to perform a human-centered
+visualization design process while tracking their design decisions. We introduce
+this framework as a methodology for visualization designers pursuing
+problem-driven work, such as design studies. The key novelty to this framework
+is its specificity for visualization design by connecting steps of the design
+process to the design decisions made and visualization-specific artifacts
+obtained. Other novel aspects of this framework includes its flexibility for
+iteration, actionability to guide novice visualization designers, and
+connections to existing models across fields. To strengthen the contribution of
+this framework, we have evaluated its use and application across several
+different visualization design projects. Specifically, we have utilized this
+framework to formulate, guide, and reflect on the design process of design
+studies and research in the fields of biology [@mckenna2015s], cyber security
+[@McKenna2014; @Staheli2014; @McKenna2015; @mckenna2016], and data visualization
+storytelling [@mckenna2017]. For each of these projects, we have employed a
+variety of qualitative and quantitative design methods in order to validate the
+utility of these methods in real-world projects and reflect on their use for
+future projects. We also include rich descriptions behind a variety of different
+visualization design artifacts used in a case study on cyber security as one
+example of how to use this framework. To further simplify and validate this
+framework, we created concrete, step-by-step worksheets for each activity that
+we evaluated through a series of qualitative surveys and interviews with novice
+visualization designers. As a result of this evaluation, we discovered that
+novices effectively learned how to design and develop a visualization system
+while justifying their decisions using the design activity worksheets.
 <!--\sm{thoughts on we vs i here?}-->
 
 
@@ -163,53 +163,86 @@ justifying their decisions using the design activity worksheets.
 
 ## Overview
 
-In [@sec:background], the necessary background for this dissertation is presented. It
-includes a discussion of creativity in visualization design and user-centered
-design. There is a discussion on the different theoretical models presented in
-visualization design, both process and decision models. This work is largely
-complete, but an additional section on the role of agile development will be
-fleshed out in the full dissertation.
+<!-- \sm{should I highlight which papers go where?} -->
+In [@sec:background], we present the necessary background for this dissertation.
+We begin by highlighting the various approaches used for design pedagogy in both
+the visualization and human-computer interaction communities. The chapter
+includes a discussion of different types of theoretical design models across
+communities, including models for visualization that focus separately on either
+the design process or decisions. Then we explore the relation of design to
+development in a discussion on agile software engineering approaches.
 
 
-The core contribution of this dissertation is the design activity framework; an
-overview is presented in [@sec:framework]. This framework addresses a lack of
-connection between different kinds of design models, providing for a more
-complete description of a design project. This framework presents steps of a
-process through four design activities: understand, ideate, make, and deploy.
-Each activity contains a motivation or goal, a list of methods, and target
-artifacts, to connect back to design decisions and help novice designers utilize
-the framework more easily. This work is already completed, but it may be
-modified over time and with reflection on our projects.
+A core contribution of this dissertation is the design activity framework; we
+present an overview in [@sec:framework]. This framework addresses a missing
+connection between different kinds of visualization design models, providing for
+a more complete description of a design project. This framework presents steps
+of a visualization design process through four design activities: _understand_,
+_ideate_, _make_, and _deploy_. Each activity contains a motivation or goal, a
+list of methods, and target visualization artifacts. These concise definitions
+support novice designers in learning and utilizing the framework to connect
+their design decisions to visualization artifacts. We include a table of
+possible design methods that novices can employ to generate and evaluate
+visualization artifacts. Lastly, a showcase of design timelines illustrates how
+to track and report on activities with their associated visualization design
+artifacts.
 
 
-The design activity framework came out of reflections of previous failed
-projects, and these projects are explained in [@sec:formulation]. The first project
-involved creation of a novel technique for exploring correlation, but the
-resulting tool strayed from solving real world problems due to its novelty. A
-second project focused on redesigning a tool, and this work resulted in only
-minor software changes since the development process was isolated. We found that
-a common aspect of failure in these projects was less reflection and decreased
-control of the entire design process. These reflections led to the formulation
-of the \al{more meta / in brackets?} design activity framework.
+The design activity framework came out of reflections of a successful design
+project explained in [@sec:formulation]. This project focused on redesigning a
+cyber security tool, and this work resulted in updates to the underlying system
+as a result of this separate design process. This isolation of the design and
+development enabled us to reflect with other collaborators with novice
+visualization experience on how to best describe and explain our visualization
+design process. As a result, we used this project as an example use-case for how
+to use the design activity framework, and this chapter showcases a variety of
+design methods, visualization artifacts, and design timelines.
 
 
-Using the design activity framework, we conducted a successful design study to
-create a cyber security visualization dashboard, discussed in [@sec:security]. This
-design study introduced significant challenges to user-centered design, such as
-limited access to end users and data. We present several design methods that
-were used to overcome these challenges, and we discuss the design and successful
-evaluation and deployment of this dashboard.
+In [@sec:security], we conducted a successful design study to create a cyber
+security visualization dashboard using this framework. This design study
+highlights significant challenges for user-centered design, such as limited
+access to end users and data. We present several design methods that we used to
+overcome these challenges and produce useful visualization design artifacts. We
+include a discussion on the design decisions, evaluation, and deployment of this
+visualization system as a case study on the descriptive and generative power of
+the design activity framework.
 
 
-A second validation of the design activity framework is discussed in Chapter ?:
-the design of a data storytelling authoring tool. For this project, we have
-studied how authors currently use data visualization in telling stories on the
-web. Using the techniques we have observed, we will create an authoring tool to
-support creation of data stories and for authors to explore different dimensions
-of the reading experience. We plan to evaluate this tool with users to measure
-its effectiveness and utility. This work is on-going and is not completed yet.
+To tailor the design activity framework to visualization novices, we created
+concise design worksheets for the framework, in [@sec:worksheets]. By reflecting
+on our own experience using a variety of design methods, we identified simple
+but descriptive steps for each design activity of visualization design. These
+steps served as a checklist, which we taught and utilized in a visualization
+course with real novices. We performed a qualitative evaluation of the use of
+these visualization design worksheets for a cumulative project where students
+had to design and develop their own web-based visualization system from scratch.
+This qualitative evaluation included survey feedback from 32 students and 11
+in-depth, semi-structured interviews.
 
 
-Lastly, Chapter ? contains a timeline for the proposed remaining work, to
-outline the completion of this dissertation.
+[@sec:reflections] explores different applications of the design activity
+framework for visualization through a perspective on the role of design and the
+process across different kinds of visualization research. For example, a project
+we encountered before we had the knowledge of this framework involved the
+creation of a novel technique for exploring correlation, but the resulting tool
+we designed strayed away from solving real world problems of our biology
+collaborators due to its novelty. Another project we conducted was an
+exploration and evaluation of a design space for interactive, visual data
+stories, and through this project we designed a tool to explore the design space
+and help create conditions studied in our user studies. While the overall work
+was less driven by a design process, we recognize that this work was very
+formative and exploratory, beginning to shape an understanding and setting
+guidelines for future decisions made by visualization designers in this space.
+Our reflections on these two projects showcase how design can play a subtle yet
+pivotal role in both technique-driven and evaluation-driven research.
 
+
+We provide a discussion of this framework and outline future work in
+[@sec:discussion]. In this discussion, we include a call for more pedagogical
+work and materials for novice visualization designers, based on results of our
+framework and worksheet evaluations. Additionally, we explore the notion of
+broader process models, for both research and development, as ways to extend and
+connect these models to better guide novices to build better visualization tools
+and systems. Lastly, we conclude this dissertation in [@sec:conclusion] with a
+summary of our contributions, findings, and recommendations.
