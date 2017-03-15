@@ -48,18 +48,20 @@ and conduct it more effectively.
 
 
 <!-- design activities -->
-Many visualization designers reflect on the role and steps of the design process
-for creating and building novel and useful visualizations [@Sedlmair2012b;
-@Lloyd2011; @Wassink2009; @Chee2011]. In the field of visualization,
-problem-driven research often involves design studies, where visualization
-experts create visualization systems to support solving a real world problem. It
-is helpful both for novice visualization designers and even expert ones to
-provide guidance on how to achieve success in these projects and avoid common
-pitfalls which can lead to failure. There are also many different design process
-models out there, many from the design or HCI communities, and even several
-within the visualization community. Focusing on the design process can enable
-visualization designers to apply what they have learned to other problems,
-saving time and making more effective visualizations.
+Many visualization designers reflect on the role of _design activities_ as steps
+of the design process for creating and building novel and useful visualizations
+[@Sedlmair2012b; @Lloyd2011; @Wassink2009; @Chee2011]. In the field of
+visualization, problem-driven research often involves design studies, where
+visualization experts create visualization systems to support solving a real
+world problem. It is helpful both for novice visualization designers and even
+expert ones to provide guidance on how to achieve success in these projects and
+avoid common pitfalls [@Sedlmair2012b] which can lead to wasted time, less
+effective solutions, or even failure. There are also many different design
+process models out there, many from the design or human-computer interaction
+(HCI) communities, and several within the visualization community. The broad
+range of and different steps showcased within each model make it challenging for
+a novice visualization designer to learn how to design visualization systems on
+their own.
 
 
 \sm{clarify role of design decisions: DAF helps justify, follow train of thought, form of validation}
