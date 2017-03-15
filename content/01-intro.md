@@ -88,17 +88,23 @@ guidelines or evaluation results they utilize as justification.
 
 
 <!-- design artifacts -->
-Visualization design artifacts are often crucial to the success of a project,
-especially for the final desired outcome which is sought to be usable, useful,
-and effective. Commonly, artifacts are tangible software tools, but the design
-process can involve other kinds of artifacts, such as sketches, ideas, documents
-of user needs, or a list of software requirements. Existing process models fail
-to capture some of these kinds of design artifacts, and this is largely due to
-how existing models consider evaluation as a separate step of the design process
-rather than a part of every step. Artifacts for visualization design can serve
-many purposes, from measuring success to reuse in future projects; thus, it is
-often both beneficial and time-saving to capture many artifacts and link them
-back to design decisions.
+Visualization _design artifacts_ are often crucial to the success of a project,
+especially for the final desired visualization system which should be usable,
+useful, and effective. Commonly, artifacts are tangible software tools, but the
+design process can involve other kinds of artifacts, such as sketches, ideas,
+documents of user needs, or a list of software requirements. Existing process
+models fail to rigorously capture some of these design artifacts, and this is
+largely due to how existing models consider evaluation as a separate step of the
+design process rather than a part of every activity. Artifacts for visualization
+design can serve many purposes, from measuring success to being reused in future
+projects; thus, it is often both beneficial and time-saving to capture and
+report on a variety of design artifacts and link them back to the design
+decisions or guidelines which motivated their selection. By identifying and
+recognizing more kinds of design artifacts, novice visualization designers could
+learn how to reuse not only what they know but what others know, and a more
+descriptive approach for discussing design artifacts and associated decisions in
+the visualization community could further aid contributions to this design
+knowledge as well.
 
 
 <!-- again, the solution, the framework -->
