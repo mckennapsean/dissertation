@@ -7,47 +7,45 @@
 \sm{ideate, check definition}
 \sm{watch out for make \& deploy definitions for clarity, how relates for design?}
 
-A design process consists of steps taken to achieve a given outcome, such as a
-visualization system. Design decisions are the reasons and justification behind
-a choice made for a visualization, such as choosing a pie or bar chart. Design
-artifacts, like a system prototype, are the goal for each step of the design
-process and from making design decisions. As explored in the previous chapter,
-no such work exists which connects all three of these aspects for visualization
-design. By connecting these components, the design activity framework more
-completely captures and describes the design process, increasing its
-actionability for use by other visualization designers.
+A design process consists of _activities_ or steps taken to achieve a given
+outcome, such as a visualization system. Design _decisions_ are the reasons and
+justification behind a choice made for a visualization, such as choosing a pie
+or bar chart. Design _artifacts_, like a system prototype, are the goal for each
+step of the design process and from making design decisions. As explored in the
+previous chapter, no such work exists which connects all three of these aspects
+for visualization design. By connecting these components, the design activity
+framework more completely captures and describes the design process, increasing
+its actionability for use by novice visualization designers.
 
 
-In this chapter, we present an overview of the *design activity
-framework*, a flexible structure meant to guide a designer
-through the real-world, multilinear, and iterative  process
-of developing a visualization for a specific problem or
-application domain. We envision the framework as a lens that
-designers can use to orient themselves within the design
-process, to choose useful methods, to make appropriate
-design decisions, and to analyze and summarize the process
-itself. The design activity framework makes use of the
-nested model [@Munzner2009] to explicitly link
-the actions visualization designers take with the visualization
-decisions they make along the way, leading to what we
-believe is a more actionable visualization process model
-than those that currently exist.
+In this chapter, we present an overview of the **design activity framework**, a
+flexible structure meant to guide a novice designer through the real-world,
+multilinear, and iterative  process of developing a visualization for a specific
+problem or application domain. We envision the framework as a lens that a novice
+designer could use to orient themselves within the design process, to choose
+useful methods, to make appropriate design decisions, and to analyze and
+summarize the process itself. The design activity framework makes use of the
+nested model [@Munzner2009] to explicitly link the actions visualization
+designers take with the visualization decisions they make along the way, leading
+to what we believe is a more actionable visualization process model than those
+that currently exist.
 
 
 The concepts of this framework have developed over the course of several
-real-world design processes, both as a result of less successful projects and
-reflection upon successful case studies. Next, we present the idea of a *design
-activity*, which forms the basis of the new framework. Following that, we
-describe the four activities contained in the framework: *understand*, *ideate*,
-*make*, and *deploy*. For each activity, we articulate the motivation,
-artifacts, and the explicit link back to the levels of the nested model.
+real-world design processes, as a result of reflection on less successful
+projects and more successful case studies. Next, we present the idea of a design
+activity, which forms the basis of the new framework. Following that, we
+describe the four activities contained in the framework: _understand_, _ideate_,
+_make_, and _deploy_. For each activity, we articulate the motivation,
+artifacts, and decisions through an explicit link back to the levels of the
+nested model.
 
 
 ![
-  We present the framework's breakdown of a *design activity:* motivation,
-  outcomes, and methods, where methods can be generative or evaluative.
+  We present the framework's breakdown of a _design activity_: motivation,
+  artifacts, and methods, where methods can be generative or evaluative.
   Additionally, we provide four overlapping, multilinear activities that compose
-  the design activity framework.
+  the design activity framework for visualization design.
 ](figures/daf/framework.pdf){#fig:framework width="100%"}
 
 

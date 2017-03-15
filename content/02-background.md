@@ -1,18 +1,24 @@
 # Background and Related Work {#sec:background}
 
-Visualization design and research has explored many facets of design, from the
-process to decisions made throughout. In this chapter, we will first explore how
-creativity has played a blossoming role in recent work. On the theoretical side,
-we focus on two types of visualization models, process and decision models
-[@Meyer]. For visualization design, we discuss the primary decision model, the
-nested model [@Munzner2009; @Meyer]. For process models, the HCI field has
-identified two differing approaches to the design process: creative and
-engineering [@Lowgren1995; @Howard2008; @Wolf2006; @Moere2011]. Together, these
-approaches can complement and enrich a design process. Furthermore, we reflect
-on the role and use of user-centered design throughout visualization design. In
-the next chapter, we will introduce the design activity framework as a way to
-connect these design decisions to a design process which supports a combination
-of engineering and creative approaches for user-centered design.
+Research in visualization design has explored many facets of design, from the
+process and its steps to the design decisions made throughout. In this chapter,
+we will first explore the role of design in the pedagogy of the data
+visualization and human-computer interaction (HCI) communities. Following this,
+we investigate how visualization research on design utilizes the complex and
+flexible nature of the creative process. On the theoretical side, we focus on
+two types of visualization design models, process and decision models [@Meyer].
+For visualization design, we discuss the primary decision model used in the
+field, the nested model [@Munzner2009; @Meyer]. For process models, the HCI
+field has identified two differing approaches to the design process: creative
+and engineering [@Lowgren1995; @Howard2008; @Wolf2006; @Moere2011]. Together,
+these approaches can complement and enrich a design process. Furthermore, we
+reflect on the role and use of human-centered design methods throughout
+visualization design. Lastly, we relate these design processes to ones for
+development, specifically agile approaches, within the context of building data
+visualization systems. In the next chapter, we will introduce the design
+activity framework as a way to bridge design activities with the decisions a
+novice might make, supporting both an engineering and creative approach to
+visualization design.
 
 \sm{section on pedagogy in vis design}
 \sm{section on swe/agile}
