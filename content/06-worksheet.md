@@ -1,4 +1,4 @@
-# Design Activity Framework Worksheets
+# Design Activity Framework Worksheets {#sec:worksheets}
 
 <!-- Worksheets for Guiding Novices through the Visualization Design Process-->
 
