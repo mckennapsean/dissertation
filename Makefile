@@ -3,7 +3,7 @@ CHAPTERSTX := $(patsubst %.md,%.tex,$(CHAPTERSMD))
 CHAPTERS := $(patsubst content/%,tex/%,$(CHAPTERSTX))
 
 dissertation.pdf: thesis.tex $(CHAPTERS)
-	latexmk -output-directory=tmp -pdf -silent -f $<; \
+	latexmk -outdir=tmp -pdf -silent -f $<; \
 	mv tmp/thesis.pdf dissertation.pdf
 
 tex/%.tex: content/%.md
@@ -13,3 +13,4 @@ clean:
 	rm -rf tex/
 	rm -rf tmp/
 	mkdir tex/
+	rm dissertation.pdf
