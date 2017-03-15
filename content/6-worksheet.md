@@ -309,15 +309,15 @@ of 7 responses. Overall, the *ideate* (6 students) and
 *understand* (4 students) worksheets were selected as the most helpful.
 Students stated that the *ideate* worksheet helped them critique their own designs, while *understand* helped get their project off the ground.
 <!--
-As stated by some of the students: ``Ideate: critique of ones own design was
-most helpful'' and ``[Ideate] is the most clear worksheet'' and that both
-understand and ideate worksheets ``helped to get the project off the ground.''
+As stated by some of the students: "Ideate: critique of ones own design was
+most helpful" and "[Ideate] is the most clear worksheet" and that both
+understand and ideate worksheets "helped to get the project off the ground."
 -->
 On the flip side, the *deploy* (4 students) worksheet was selected as the
 least helpful because students often ran out of time at the end.
 <!--
-``we were out of time'' and ``once the
-projects were off the ground, didn't seem too important.''
+"we were out of time" and "once the
+projects were off the ground, didn't seem too important."
 -->
 Student feedback
 highlighted a benefit for the specific steps in an activity to organize and
@@ -355,8 +355,8 @@ design process informed by the worksheets or stuck to the worksheets entirely.
 One group that conducted their own design process acknowledged that their design
 process, while different, still mapped onto the steps provided in each activity.
 Another student recognized the flexibility of the worksheets:
-``if I had a different project, I would use each box in
-different ways depending on the context'' (P8).
+"if I had a different project, I would use each box in
+different ways depending on the context" (P8).
 <!-- for different visualization systems: -->
 
 All of the students agreed that evaluation was a necessary and important step
@@ -407,11 +407,11 @@ students was to convert the worksheets into a checklist for each step, as in
 [@tab:steps].
 <!-- Based on our interviews -->
 We would recommend two
-types of resources, since worksheets did provide structure, ``it's like a checklist to make sure everything is covered'' (P11),
-but the worksheets did limit free-form thinkers: ``if you have a lot of things
-on your mind, you won't fit everything in the box anyways'' (P6).
+types of resources, since worksheets did provide structure, "it's like a checklist to make sure everything is covered" (P11),
+but the worksheets did limit free-form thinkers: "if you have a lot of things
+on your mind, you won't fit everything in the box anyways" (P6).
 <!--
-so the boxes are actually wasting paper''
+so the boxes are actually wasting paper"
 While some visualization designers recommend paper for
 sketching [@Roberts2015], there are those in the design community that argue
 digital sketching can have functional benefits like shapes, undo, layers,
@@ -420,15 +420,15 @@ manipulation of details through
 zooming [@Wu2011], which two students did.
 -->
 Another idea was to transform the
-worksheets into an app: ``a clickable, interactive worksheet, where you click on
-this [and] it will connect you with the other worksheet and have a screenshot'' (P8).
+worksheets into an app: "a clickable, interactive worksheet, where you click on
+this [and] it will connect you with the other worksheet and have a screenshot" (P8).
 
 Students suggested adding more worksheets to the materials. Six students felt
-that ``those activities frame the process well'' (P2). However, two students
+that "those activities frame the process well" (P2). However, two students
 brought up a crucial aspect of evaluation and feedback, since it may be
-worthwhile to devote a whole worksheet towards these concepts, otherwise ``if
+worthwhile to devote a whole worksheet towards these concepts, otherwise "if
 you have it on the other worksheets, [evaluation] doesn't seem to have as much
-value'' (P10).
+value" (P10).
 <!--
 A key challenge for this project was finding the right dataset,
 -->
@@ -466,26 +466,26 @@ the numbers were not often used and harder to coordinate among group members. We
 also asked several students about the visual result and warning icons, and the
 consensus was that most students did not realize what these were for so their
 use may be superfluous. Providing weekly advisor feedback was crucial for
-improving students' confidence in design: ``because we got to meet with [an
-advisor] then we had time carved out [for] doing the worksheets'' (P5).
+improving students' confidence in design: "because we got to meet with [an
+advisor] then we had time carved out [for] doing the worksheets" (P5).
 -->
 
 Nevertheless, the design worksheets were able to teach students how to design,
 guide them through actionable steps, and facilitated effective design
 discussions both within a group and with their mentor. As students highlighted:
 <!--
-``in having that methodically prescribed ... you break down the process into
-those clear steps, and I think that's useful. It is an intuitive flow'' (P2),
+"in having that methodically prescribed ... you break down the process into
+those clear steps, and I think that's useful. It is an intuitive flow" (P2),
 -->
-``you break down the process into those clear steps... an intuitive flow'' (P2),
-and: ``this was really good guidance for us'' (P3), and:
+"you break down the process into those clear steps... an intuitive flow" (P2),
+and: "this was really good guidance for us" (P3), and:
 <!--
-... well categorized for the beginner'' (P3), and:
-``it was my first time doing something at this scale, and
+... well categorized for the beginner" (P3), and:
+"it was my first time doing something at this scale, and
 -->
-``I didn't know where to start. It was nice to have steps along the way'' (P4),
-and the benefit of generating ideas: ``we considered more options than we would
-have'' (P1). Despite the many improvements that can be made, we
+"I didn't know where to start. It was nice to have steps along the way" (P4),
+and the benefit of generating ideas: "we considered more options than we would
+have" (P1). Despite the many improvements that can be made, we
 see the use of these worksheets as a success for teaching the visualization
 design process to students in their cumulative projects.
 
