@@ -3,26 +3,32 @@
 \sm{refocus on teaching vis design}
 \sm{clarify role of design decisions: DAF helps justify, follow train of thought, form of validation}
 
-Design has many meanings, and visualization design is about the planning and
-creation of a visualization or combined visualization system. Visualization
-design is known to be messy, iterative, and complex [@Sedlmair2012b; @DIS2010;
-@Tory2004; @Wassink2009; @Chee2011; @Moere2011], but existing theories in the
-visualization community do not fully address these characteristics. As the field
+<!-- hard to teach design. need new framework to do this effectively -->
+The process of designing a visualization
+is known to be iterative, complex, and occasionally messy [@Sedlmair2012b; @DIS2010;
+@Tory2004; @Wassink2009; @Chee2011; @Moere2011].
+Furthermore, the pedagogical approaches for teaching the visualization design process are often very theoretical in nature and may fail to effectively guide novices toward building a visualization system.
+As the field
 of visualization matures, theories and models for visualization design have
 become more prevalent, from evaluation strategies [@Plaisant2004; @Lam2011a;
 @Carpendale2008a; @Isenberg2013a; @Shneiderman2006] to the design process itself
 [@Tory2004; @Sedlmair2012b; @Lloyd2011; @Shneiderman2006; @Wassink2009;
-@Chee2011]. These theories and models for the design process largely address the
-*how* of visualization design; however, they fail to explicitly describe the
-connections of those actions back to the *why* of visualization design decisions
---- these design decisions are described instead by separate design decision
-models [@Munzner2009; @Meyer]. \al{what is the problem first? then how to solve
-it} The visualization community needs a new framework that bridges the design
-process with design decisions to enable a richer description of the
-visualization design process and provide more actionable guidance for novice
-visualization designers.
+@Chee2011].
+These theories and models for the visualization design process largely address
+*how* a novice can design a visualization; however, these theories fail to explicitly describe the
+connections of those actions back to *why* a novice makes specific decisions, such as relying on pre-existing guidelines or evaluation methods.
+Additionally, the rich but verbose terminology in these theoretical models make it difficult to teach and concretely walk novices through the visualization design process.
+There is an opportunity here for creating a new approach to teach the next generation of visualization designers, by equipping them not just with theoretical knowledge but the practical steps for building better visualization systems and tools.
+Furthermore with such a framework, the visualization community could concretely report on their own design processes for building visualization tools in a richer and more descriptive way.
 
+<!-- definition of vis design
+The word design can mean many things to different people, but visualization design is about the planning, creation, and evaluation of a visualization or a combined visualization system.
+-->
+<!--Thus, the visualization community needs a new framework that bridges the core components of these various visualization design models together and simplifies their theoretical concepts into a single, actionable checklist that a visualization design novice can utilize to learn and grow.-->
+<!-- these design decisions are described instead by separate design decision
+models [@Munzner2009; @Meyer].-->
 
+<!-- overview of contrib -->
 This dissertation centers around the formulation, use, and validation of a
 user-centered framework for capturing and describing the interplay between the
 visualization design process and design decisions. For data visualization,
@@ -34,6 +40,7 @@ visualization designer, such as how to evaluate a system. No previous work
 exists that connects all three of these aspects for visualization design.
 
 
+<!-- steps of design process -->
 Many visualization designers reflect on the role and steps of the design process
 for creating and building novel and useful visualizations [@Sedlmair2012b;
 @Lloyd2011; @Wassink2009; @Chee2011]. In the field of visualization,
@@ -48,6 +55,7 @@ visualization designers to apply what they have learned to other problems,
 saving time and making more effective visualizations.
 
 
+<!-- decisions in the design process -->
 Visualization designers constantly make decisions throughout the process in
 order to refine their work. These design decisions play a crucial role in
 stating assumptions, \al{do they? why? how?} identifying design opportunities,
@@ -63,6 +71,7 @@ often rooted in various research and design methods that can enable both the
 generation and creation of artifacts.
 
 
+<!-- artifcats in the design process -->
 Visualization design artifacts are often crucial to the success of a project,
 especially for the final desired outcome which is sought to be usable, useful,
 and effective. Commonly, artifacts are tangible software tools, but the design
@@ -76,6 +85,7 @@ often both beneficial and time-saving to capture many artifacts and link them
 back to design decisions.
 
 
+<!-- again, the solution, the framework -->
 The design process, design decisions, and artifacts can all be connected through
 the design activity framework. Without this connection, it is much harder for a
 visualization designer to answer both the *how* and *why* questions of design,
