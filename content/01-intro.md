@@ -1,9 +1,10 @@
 # Introduction {#sec:intro}
 
 \sm{refocus on teaching vis design}
-\sm{clarify role of design decisions: DAF helps justify, follow train of thought, form of validation}
 
-<!-- hard to teach design. need new framework to do this effectively -->
+<!--\sm{thoughts on we vs i?}-->
+
+<!-- problem: teaching design -->
 The process of designing a visualization is known to be iterative, complex, and
 occasionally messy [@Sedlmair2012b; @DIS2010; @Tory2004; @Wassink2009;
 @Chee2011; @Moere2011]. Furthermore, pedagogical approaches for teaching the
@@ -29,26 +30,24 @@ visualization systems and tools. Furthermore with such a framework, the
 visualization community could concretely report on their own design processes
 for building visualization tools in a richer and more descriptive way.
 
-<!-- definition of vis design
-The word design can mean many things to different people, but visualization design is about the planning, creation, and evaluation of a visualization or a combined visualization system.
--->
-<!--Thus, the visualization community needs a new framework that bridges the core components of these various visualization design models together and simplifies their theoretical concepts into a single, actionable checklist that a visualization design novice can utilize to learn and grow.-->
-<!-- these design decisions are described instead by separate design decision
-models [@Munzner2009; @Meyer].-->
 
-<!-- overview of contrib -->
-This dissertation centers around the formulation, use, and validation of a
-user-centered framework for capturing and describing the interplay between the
-visualization design process and design decisions. For data visualization,
-design centers around the creation of a single visualization or more robust
-visualization system. This design process takes place in a series of overlapping
-*activities* which produce *artifacts*, like a new visualization encoding. These
-artifacts are produced as a result of *decisions* that are made by a
-visualization designer, such as how to evaluate a system. No previous work
-exists that connects all three of these aspects for visualization design.
+<!-- overview of framework -->
+This dissertation focuses on a new framework for teaching the visualization
+design process to novice users. While design can mean many things to different
+people, the **data visualization design process** is about the planning,
+creation, and evaluation of a single data visualization or a multiview, robust
+visualization system. The _data visualization design process_ takes place in a
+series of overlapping **activities** which produce **artifacts**, such as a new
+visualization encoding. These artifacts are produced as a result of
+**decisions** that are made by a visualization designer, like guidelines that
+are established through evaluating a system. No previous work exists that
+connects all three of these aspects and describes the interplay between them for
+visualization design. By simplifying terminology and laying out specific steps,
+a new visualization process framework could help novices learn about the process
+and conduct it more effectively.
 
 
-<!-- steps of design process -->
+<!-- design activities -->
 Many visualization designers reflect on the role and steps of the design process
 for creating and building novel and useful visualizations [@Sedlmair2012b;
 @Lloyd2011; @Wassink2009; @Chee2011]. In the field of visualization,
@@ -63,7 +62,9 @@ visualization designers to apply what they have learned to other problems,
 saving time and making more effective visualizations.
 
 
-<!-- decisions in the design process -->
+\sm{clarify role of design decisions: DAF helps justify, follow train of thought, form of validation}
+
+<!-- design decisions -->
 Visualization designers constantly make decisions throughout the process in
 order to refine their work. These design decisions play a crucial role in
 stating assumptions, \al{do they? why? how?} identifying design opportunities,
@@ -77,9 +78,11 @@ perceptually effective channels such as radial size or color [@Cleveland1984].
 \al{check resource for more than just position? VERIFY} Design decisions are
 often rooted in various research and design methods that can enable both the
 generation and creation of artifacts.
+<!-- these design decisions are described instead by separate design decision
+models [@Munzner2009; @Meyer].-->
 
 
-<!-- artifcats in the design process -->
+<!-- design artifacts -->
 Visualization design artifacts are often crucial to the success of a project,
 especially for the final desired outcome which is sought to be usable, useful,
 and effective. Commonly, artifacts are tangible software tools, but the design
@@ -94,6 +97,7 @@ back to design decisions.
 
 
 <!-- again, the solution, the framework -->
+<!--\sm{is this redundant with contributions below?}-->
 The design process, design decisions, and artifacts can all be connected through
 the design activity framework. Without this connection, it is much harder for a
 visualization designer to answer both the *how* and *why* questions of design,
