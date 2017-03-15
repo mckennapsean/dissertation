@@ -7,7 +7,7 @@
 The process of designing a visualization
 is known to be iterative, complex, and occasionally messy [@Sedlmair2012b; @DIS2010;
 @Tory2004; @Wassink2009; @Chee2011; @Moere2011].
-Furthermore, the pedagogical approaches for teaching the visualization design process are often very theoretical in nature and may fail to effectively guide novices toward building a visualization system.
+Furthermore, pedagogical approaches for teaching the visualization design process [@Tufte1986; @cairo2012; @Munzner2014; @Shneiderman2004; @Ware2010; @Sedlmair2012b; @Munzner2009] can either be less concrete or quite theoretical in nature so that these approaches may fail to effectively guide novices toward building a visualization system.
 As the field
 of visualization matures, theories and models for visualization design have
 become more prevalent, from evaluation strategies [@Plaisant2004; @Lam2011a;
@@ -15,9 +15,8 @@ become more prevalent, from evaluation strategies [@Plaisant2004; @Lam2011a;
 [@Tory2004; @Sedlmair2012b; @Lloyd2011; @Shneiderman2006; @Wassink2009;
 @Chee2011].
 These theories and models for the visualization design process largely address
-*how* a novice can design a visualization; however, these theories fail to explicitly describe the
-connections of those actions back to *why* a novice makes specific decisions, such as relying on pre-existing guidelines or evaluation methods.
-Additionally, the rich but verbose terminology in these theoretical models make it difficult to teach and concretely walk novices through the visualization design process.
+*how* a novice can design a visualization; however, these theories sometimes fail to explicitly distinguish or lay out specific steps for a novice visualization designer because the models include rich but verbose theoretical terminology.
+Additionally, none of these models describe the connections of those actions back to *why* a novice makes specific decisions, such as relying on pre-existing visualization guidelines or through performing evaluation methods.
 There is an opportunity here for creating a new approach to teach the next generation of visualization designers, by equipping them not just with theoretical knowledge but the practical steps for building better visualization systems and tools.
 Furthermore with such a framework, the visualization community could concretely report on their own design processes for building visualization tools in a richer and more descriptive way.
 
