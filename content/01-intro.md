@@ -64,24 +64,27 @@ a novice visualization designer to learn how to design visualization systems on
 their own.
 
 
-\sm{clarify role of design decisions: DAF helps justify, follow train of thought, form of validation}
-
 <!-- design decisions -->
-Visualization designers constantly make decisions throughout the process in
-order to refine their work. These design decisions play a crucial role in
-stating assumptions, \al{do they? why? how?} identifying design opportunities,
-and formalizing requirements of a system. One of the most common kind of design
-decisions is to perform an evaluation of a system, \al{is evaluation really
-design?} from informal to formal or qualitative to quantitative, in order to
-justify the use of a specific encoding or interaction technique [@Brehmer2014;
-@McCurdy2015; @Kerzner2015; @Quinan2015]. Another common design decision is to
-utilize 2D position to encode the most important visual data, over less
-perceptually effective channels such as radial size or color [@Cleveland1984].
-\al{check resource for more than just position? VERIFY} Design decisions are
-often rooted in various research and design methods that can enable both the
-generation and creation of artifacts.
-<!-- these design decisions are described instead by separate design decision
-models [@Munzner2009; @Meyer].-->
+Visualization practitioners constantly make _design decisions_ throughout the
+process in order to refine their work. These decisions play a crucial role in
+justifying, validating, and challenging the use of artifacts that get generated
+within a design activity. Others have used the term guidelines to describe this
+same result of the decision-making process for visualization design [@Meyer].
+Decisions and guidelines are connected with evaluation, where artifacts can be
+compared and tested against each other. It is quite common to perform an
+evaluation of a system, from informal to formal or qualitative to quantitative,
+in order to justify the use or explore the effectiveness of a specific encoding
+or interaction technique [@Brehmer2014; @McCurdy2015; @Kerzner2015;
+@Quinan2015]. Other common design decisions stem from pre-existing guidelines in
+the visualization community, such as using position along a common scale to
+encode the most important data visually, over less perceptually effective
+channels such as angle, area, and saturation of color [@Cleveland1984].
+Currently, design decisions in the visualization community are commonly
+described with respect to the nested model for visualization design
+[@Munzner2009; @Meyer], but no visualization design process models bridge their
+concepts to the levels of the nested model. If such a model existed, it could
+help visualization novices make and track their design decisions based on which
+guidelines or evaluation results they utilize as justification.
 
 
 <!-- design artifacts -->
