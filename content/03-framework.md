@@ -403,6 +403,8 @@ constraint removal (_M-26_) [@Goodwin2013a].
 
 <!-- \sm{we should probably explain a bit more about this coding process in the text somewhere?} -->
 <!-- \sm{does this need to be a table instead of a figure?} -->
+<!-- \sm{this is labeled as a figure here, can we change?} -->
+<!-- \sm{TODO check with table vs figure caption differences in template?} -->
 
 
 
