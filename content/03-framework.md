@@ -311,6 +311,60 @@ capture the process of a visualization redesign project.
 
 ## Design Process Timelines
 
+In our experience, a visualization design process never seems to progress
+cleanly through a set of designated stages; this fact motivated our synthesis of
+the design activity framework, which can be pieced together in many different
+ways to best suit the needs of a project. This complex motion aligns with
+creative process models from the design community that already emphasize that
+design is messy, iterative, and multilinear [@Kumar2012; @Teal2010;
+@Gandra2013a]. These creative process models advocate that there is no one right
+way in which to engage in the activities of a framework.
+
+
+There are two basic principles for the design activity framework when it comes
+to the flow of the design process. First, the activities are ordered when moving
+forward: understand, ideate, make, deploy. A project can start with any
+activity, as with our cyber security redesign project, which started from a tool
+in the deploy activity, but forward movement must happen in an ordered fashion,
+even if the methods used are very narrow and informal. Backward movement,
+however, can move to any previous activity. The second principle is that
+activities can be nested or conducted in parallel, meaning that forward or
+backward movement to a different activity can happen within an activity, such as
+revisiting an understanding while brainstorming new ideas, or two activities
+that occur concurrently. Taken together, these two  movement principles support
+both iteration and multilinearity.
+
+
+Other visualization process models are also characterized in similar ways,
+supporting ordered forward movement with iteration [@Chee2011; @Tory2004;
+@Wassink2009; @Sedlmair2012b; @DIS2010], and others that suggest an overlap
+between stages, such as the nine-stage framework [@Sedlmair2012b] and the
+international standard for human-centred design activities [@DIS2010]. These
+models, however, are often represented linearly or cyclically and imply the need
+to start at the beginning of the process, making it difficult, for example, to
+capture the process of a visualization redesign project.
+
+
+To further illustrate the two movement principles, we provide a timeline for our
+redesign project in [@fig:timeline], where activities are represented as colored
+boxes. We discuss our process in more detail in [@sec:redesign]. This timeline
+shows the flow of the project through multiple activities, including nested
+activities and both forward and backward movement. The timeline is annotated
+with many of the methods we used and the outcomes we developed in our redesign
+process.
+
+Other researchers have shown the feasibility and usefulness of a design process
+timeline as an effective way to communicate a design process [@McLachlan2008;
+@Walz1993], to foster collaboration [@Bohøj2010], and to highlight some aspects
+of the multilinear nature of a design process [@Atman2009; @Wolf2006].
+Communication of the design process is important not only for understanding and
+evaluating the visualization research process itself, but also for supporting
+replicability of problem-driven work. Visualization models such as the nested
+model [@Munzner2009] are now widely used to communicate design decisions made
+over the course of a visualization process, and we advocate for the design
+activity framework to structure communication of a visualization design process
+in a similar way.
+
 
 
 
