@@ -1,10 +1,10 @@
 # Design Activity Framework {#sec:framework}
 
-\sm{add more figures, micro and macro aspects}
-\sm{flesh out content}
 \sm{ideate, check definition}
 \sm{watch out for make \& deploy definitions for clarity, how relates for design?}
 \sm{check definitions, matched with figures?}
+
+<!-- \sm{would be nice to have a concise macro-level fig. of the framework} -->
 
 A design process consists of _activities_ or steps taken to achieve a given
 outcome, such as a visualization system. Design _decisions_ are the reasons and
@@ -51,6 +51,14 @@ own projects.
 ](figures/daf/design-activity.pdf){#fig:activity width="100%"}
 
 
+![
+  Design methods for visualization design are typically generative (divergent)
+  or evaluative (convergent) in nature as artifacts get created and justified.
+  Design decisions play a critical role in this process to select and winnow
+  different visualization artifacts.
+](figures/daf/design-methods.pdf){#fig:genoreval width="100%"}
+
+
 
 
 
@@ -87,21 +95,22 @@ options, particularly methods for evaluation, where design **decisions** are mad
 
 
 We highlight two distinct kinds of methods used in each design activity:
-_generative_ versus _evaluative_. Generative methods are largely meant to be
-divergent and create many artifacts, such as methods for brainstorming
-[@Maiden2007; @Howard2008] or increasing creativity [@Maiden2004b;
-@Goodwin2013a]. Evaluative methods, on the other hand, are convergent and filter
-artifacts, such as methods that elicit feedback from domain experts [@Beyer1997;
-@Lam2011a] or user studies [@Cairns2008; @Lazar2010]. This distinction between
-generation and evaluation is common within the design community [@Brown2009;
-@Hevner2008; @Hanington2003; @Christiaans2010; @Hevner2008]. Interestingly, some
-methods can be both generative and evaluative, such as observation and
-interviewing. In the design activity framework, we consider generative and
-evaluative design methods as vital components of each activity, unlike process
-models that capture evaluation as a single, unique stage in the design process
-[@Chee2011; @Tory2004; @Wassink2009; @Lloyd2011; @Goodwin2013a; @DIS2010]. This
-further encourages novice visualization designers to consider evaluation early,
-and often, for each of the design activities they complete.
+_generative_ versus _evaluative_, as shown in [@fig:genoreval]. Generative
+methods are largely meant to be divergent and create many artifacts, such as
+methods for brainstorming [@Maiden2007; @Howard2008] or increasing creativity
+[@Maiden2004b; @Goodwin2013a]. Evaluative methods, on the other hand, are
+convergent and filter artifacts, such as methods that elicit feedback from
+domain experts [@Beyer1997; @Lam2011a] or user studies [@Cairns2008;
+@Lazar2010]. This distinction between generation and evaluation is common within
+the design community [@Brown2009; @Hevner2008; @Hanington2003; @Christiaans2010;
+@Hevner2008]. Interestingly, some methods can be both generative and evaluative,
+such as observation and interviewing. In the design activity framework, we
+consider generative and evaluative design methods as vital components of each
+activity, unlike process models that capture evaluation as a single, unique
+stage in the design process [@Chee2011; @Tory2004; @Wassink2009; @Lloyd2011;
+@Goodwin2013a; @DIS2010]. This further encourages novice visualization designers
+to consider evaluation early, and often, for each of the design activities they
+complete.
 
 
 The design activity framework further characterizes the methods based on two
@@ -302,6 +311,18 @@ advocate that there is no one right way in which to engage in the design
 activities of a framework.
 
 
+![
+  For conducting the design activity framework in real-world visualization
+  projects, we have synthesized two basic movement ordering principles to the
+  design activity. The first principle is that moving forward must only move to
+  the adjacent activity (backwards movement is unrestricted), and the second
+  principle is that activities may be conducted in parallel or in a hierarchical
+  fashion based on the design team's focus and division of work. This supports
+  flexible, iterative, and multilinear design across each of the different
+  activities.
+](figures/daf/activity-timeline.pdf){#fig:order width="100%"}
+
+
 We identified two basic principles for the design activity framework when it
 comes to the flow of the visualization design process. First, the activities are
 ordered when moving forward: _understand_, _ideate_, _make_, _deploy_. A project
@@ -338,8 +359,19 @@ where design activities are represented as colored boxes. We include a detailed
 discussion and annotation of the bottom timeline in [@sec:formulation]. These
 timelines show the flow of a project across multiple activities, from nested and
 parallel activities to backward movement.
-
 <!-- \sm{is this the right timeline here? perhaps link to later chapter?} -->
+
+
+![
+  To illustrate the complex, iterative, and multilinear nature of the
+  visualization design process, we constructed several different timelines
+  from real-world visualization projects. Each colored box corresponds to an
+  activity of the design activity framework, and these different timelines
+  emphasize the flexibility of backward movement plus the parallel and nested
+  support of these activities for a multi-focused approach. Lastly, these design
+  timelines serve as concise communication materials that could help both novice
+  and expert visualization designers track the progress of a project.
+](figures/daf/timelines.pdf){#fig:timelines width="100%"}
 
 
 Other researchers have shown the feasibility and usefulness of a design process
