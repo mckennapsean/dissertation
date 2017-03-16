@@ -37,9 +37,11 @@ real-world design processes, as a result of reflection on less successful
 projects and more successful case studies. Next, we present the idea of a design
 activity, which forms the basis of the new framework. Following that, we
 describe the four activities contained in the framework: _understand_, _ideate_,
-_make_, and _deploy_. For each activity, we articulate the motivation,
-artifacts, and decisions through an explicit link back to the levels of the
-nested model.
+_make_, and _deploy_. For each activity, we articulate the motivation, possible
+design methods, and the visualization artifacts which relate to decisions and
+have an explicit link back to levels of the nested model. This framework
+supports an iterative, human-centered visualization design process with guidance
+on possible effective design methods for novice visualization designers.
 
 
 ![
@@ -48,6 +50,13 @@ nested model.
   Additionally, we provide four overlapping, multilinear activities that compose
   the design activity framework for visualization design.
 ](figures/daf/framework.pdf){#fig:framework width="100%"}
+
+<!--
+![
+  Overview of the design activity framework [@McKenna2014], showing how each
+  design activity has a motivation, artifacts, and methods.
+](figures/methods/framework.pdf){#fig:activity width="70%"}
+-->
 
 
 
@@ -65,28 +74,6 @@ overlapping. Each activity is composed of several key components: a
 *motivation*; clear, tangible *artifacts* related to design decisions; and a
 collection of *methods*. We pictorially represent the design activity framework
 in [@fig:framework].
-
-
-<!--
-The design activity framework consists of four different design activities:
-*understand*, *ideate*, *make*, and *deploy*. Each of these activities consists
-of a *motivation*, *design artifacts*, and *methods*. As shown in
-[@fig:activity], the motivation places the designer within a specific activity
-in the framework, with the goal of establishing a specific set of artifacts for
-that activity. Artifacts are achieved using one or more design methods, both for
-generative or evaluative purposes. The design activity framework supports
-iterative, user-centered visualization design, and provides guidance about
-effective methods for reaching a range of design goals. While the focus of this
-paper is on three specific design methods, we ground these methods within the
-design activity framework to provide guidance about how and when these methods
-can be used most effectively.
-
-
-![
-  Overview of the design activity framework [@McKenna2014], showing how each
-  design activity has a motivation, artifacts, and methods.
-](figures/methods/framework.pdf){#fig:activity width="70%"}
--->
 
 
 The **motivation** of an activity is the specific purpose behind the methods and
