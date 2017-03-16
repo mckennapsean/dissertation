@@ -8,7 +8,7 @@
 2. focus the design activity framework as being specific to visualization
 
 - emphasize several key visualization-theory components, like the nested model and extension of the 9-stage framework for design studies
-- clarify this focus in the introduction and throughout the dissertation, especially the case studies
+- clarify this focus in the introduction and throughout the dissertation, especially the case studies: what does this framework provide over previous work?
 
 
 
@@ -24,8 +24,7 @@
 4. add in more components of the design activity framework, and why they address what is missing from existing work
 
 - discussion of the timelines for the design activity framework and how they are used
-- table of various design methods and how to use this table in the design process
-- simplify core components of the design activity framework into a textbook-like overview, with a more cohesive main figure that describes the macro and micro components altogether
+- more discussion of what's missing from related work in daf chapter
 
 
 
@@ -34,3 +33,7 @@
 - for formative projects, add descriptions of what was missing in existing design models that held back these projects
 - for bubble-net design study, clearly walk through the project within the framework and reflect on its use
 
+
+If time:
+
+- simplify core components of the design activity framework into a textbook-like overview, with a more cohesive main figure that describes the macro and micro components altogether
