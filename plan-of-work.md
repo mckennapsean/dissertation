@@ -23,7 +23,6 @@
 
 4. add in more components of the design activity framework, and why they address what is missing from existing work
 
-- discussion of the timelines for the design activity framework and how they are used
 - more discussion of what's missing from related work in daf chapter
 
 

@@ -337,9 +337,6 @@ ideas, or two activities that occur concurrently across a visualization design
 team. Taken together, these two movement principles support both iteration and
 multilinearity. Furthermore, we illustrate these principles in [@fig:order].
 
-\al{example figures, more diagrams and examples of the framework is needed
-here!}
-
 
 Other visualization process models are also characterized in similar ways,
 supporting ordered forward movement with iteration [@Chee2011; @Tory2004;
@@ -387,6 +384,8 @@ onboarding across skillsets. Visualization models such as the nested model
 course of a visualization process, and we advocate for the design activity
 framework as a way to structure the communication and reporting of a
 visualization design process in a similar way.
+
+<!-- \sm{nice start, but I feel like we could talk more about the timelines I show here too, perhaps flesh out some more detail. makes me wonder if it wouldn't be better to put in its own chapter though.} -->
 
 
 
