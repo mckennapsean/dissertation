@@ -5,7 +5,6 @@
 \sm{ideate, check definition}
 \sm{watch out for make \& deploy definitions for clarity, how relates for design?}
 \sm{check definitions, matched with figures?}
-\sm{clean up sections}
 
 A design process consists of _activities_ or steps taken to achieve a given
 outcome, such as a visualization system. Design _decisions_ are the reasons and
@@ -138,6 +137,36 @@ four design activities of the design activity framework.
 
 
 
+## Visualization Artifacts and the Nested Model
+
+\sm{I think we need to include more of a discussion on this!}
+\sm{I forgot that this was the 2nd paragraph in each activity... perhaps that is too much? we could separate out the nested model discussion into its own subsection. the sections on each activity would be smaller but that is okay, we could even flesh it out more there. I will read it and think about this!}
+
+As shown in [@fig:nm-comparison], three of the four
+activities map to several levels of the nested model, implying that a specific
+design activity can be used to make different types of visualization design
+decisions. Conversely, a designer focusing on just one type of design decision
+will often move through different activities; thus, the culmination of a
+complete visualization could involve moving through this framework in a complex,
+iterative, and _multilinear_ fashion. By multilinear we mean that a process
+combines forward, linear movement with cyclic, backwards, and parallel
+movements.
+
+
+![
+  Here, we illustrate the overlap of the design activity
+  framework with respect to the levels of the nested
+  model [@Munzner2009]. It is important to note that each
+  of the three inner levels of the nested model exists across
+  two activities in the framework; thus, a visualization
+  designer must think carefully about which levels of the
+  nested model any process artifact corresponds with.
+](figures/daf/nm-comparison.pdf){#fig:nm-comparison width="100%"}
+
+
+
+
+
 ## Understand Design Activity
 
 The first activity in the framework is to **understand** the problem domain and
@@ -256,33 +285,6 @@ itself, such as integration with existing software, databases, etc. This
 activity is the ultimate goal of problem-driven visualization design since it
 supports real-world users in their own work environments.
 
-
-
-
-
-## Mapping Decisions and Artifacts to the Nested Model
-
-\sm{I think we need to include at least a brief discussion on this!}
-
-As shown in [@fig:nm-comparison], three of the four
-activities map to several levels of the nested model, implying that a specific
-design activity can be used to make different types of visualization design
-decisions. Conversely, a designer focusing on just one type of design decision
-will often move through different activities; thus, the culmination of a
-complete visualization could involve moving through this framework in a complex,
-iterative, and _multilinear_ fashion. By multilinear we mean that a process
-combines forward, linear movement with cyclic, backwards, and parallel
-movements.
-
-![
-  Here, we illustrate the overlap of the design activity
-  framework with respect to the levels of the nested
-  model [@Munzner2009]. It is important to note that each
-  of the three inner levels of the nested model exists across
-  two activities in the framework; thus, a visualization
-  designer must think carefully about which levels of the
-  nested model any process artifact corresponds with.
-](figures/daf/nm-comparison.pdf){#fig:nm-comparison width="100%"}
 
 
 
