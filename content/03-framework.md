@@ -57,13 +57,13 @@ own projects.
 
 ## A Design Activity
 
-At the core of this framework is the concept of a design **activity**, a group
-of actions a designer takes to work towards a specific artifact, or set of
-artifacts. Many creative process models tend to avoid breaking a process into
-sequential steps, stages, or phases, but, rather, they use the term activities
-[@Wu2011; @Atman2009; @Cardella2008; @Rudisill1995; @Snider2013;
-@Wodehouse2010a], which are not necessarily linear, and they are often
-overlapping. Each activity is composed of several key components: a
+At the core of the design activity framework is the concept of a design
+**activity**, a group of actions a designer takes to work towards a specific
+artifact, or set of artifacts. Many creative process models tend to avoid
+breaking a process into sequential steps, stages, or phases, but, rather, they
+use the term activities [@Wu2011; @Atman2009; @Cardella2008; @Rudisill1995;
+@Snider2013; @Wodehouse2010a], which are not necessarily linear, and they are
+often overlapping. Each activity is composed of several key components: a
 _motivation_; clear, tangible _artifacts_ related to design decisions; and a
 collection of _methods_. We illustrate an overview of a design activity in
 [@fig:activity].
@@ -119,23 +119,12 @@ and 2) for providing a mechanism to thoughtfully incorporate real-world project
 constraints, such as time and budget considerations, into the design process.
 
 
-
-
-
-## The Four Activities
-
 We have identified four overlapping, critical activities for designing
-visualizations for real-world problems and applications: understand, ideate,
-make, and deploy. As shown in [@fig:nm-comparison], three of the four
-activities map to several levels of the nested model, implying that a specific
-design activity can be used to make different types of visualization design
-decisions. Conversely, a designer focusing on just one type of design decision
-will often move through different activities; thus, the culmination of a
-complete visualization could involve moving through this framework in a complex,
-iterative, and _multilinear_ fashion. By multilinear we mean that a process
-combines forward, linear movement with cyclic, backwards, and parallel
-movements. Next, we articulate the unique motivations and artifacts for each of
-the four activities in the design activity framework.
+visualizations for real-world problems and applications: _understand_, _ideate_,
+_make_, and _deploy_. An overview of these activities, with unique letter and
+coloring scheme used throughout this dissertation, is shown in [@fig:framework].
+Next, we articulate these unique motivations and visualization artifacts for all
+four design activities of the design activity framework.
 
 
 ![
@@ -146,7 +135,10 @@ the four activities in the design activity framework.
 ](figures/daf/activities.pdf){#fig:framework width="100%"}
 
 
-### Understand
+
+
+
+## Understand Design Activity
 
 The first activity in the framework is to **understand** the problem domain and
 target users. The motivation for this activity is: *to gather, observe, and
@@ -182,7 +174,10 @@ well as an initial data abstraction that describes the users' measurements in a
 structured way.
 
 
-### Ideate
+
+
+
+## Ideate Design Activity
 
 The second activity in the framework is the **ideate** activity, which has the
 motivation: *to generate good ideas for supporting the artifacts from the
@@ -213,7 +208,10 @@ highlights the different kinds of design decisions made within the visualization
 design process.
 
 
-### Make
+
+
+
+## Make Design Activity
 
 The **make** activity is the third activity in the framework. This activity's
 motivation is: *to concretize ideas into tangible prototypes.* The artifact from
@@ -241,7 +239,10 @@ decisions necessary to actualize an idea into a concrete, testable prototype,
 such as the details of how to encode a data item or which algorithms to utilize.
 
 
-### Deploy
+
+
+
+## Deploy Design Activity
 
 The fourth activity in the framework is the **deploy** activity, with the
 motivation: *to bring a prototype into effective action in a real-world setting
@@ -263,6 +264,15 @@ supports real-world users in their own work environments.
 
 \sm{I think we need to include at least a brief discussion on this!}
 
+As shown in [@fig:nm-comparison], three of the four
+activities map to several levels of the nested model, implying that a specific
+design activity can be used to make different types of visualization design
+decisions. Conversely, a designer focusing on just one type of design decision
+will often move through different activities; thus, the culmination of a
+complete visualization could involve moving through this framework in a complex,
+iterative, and _multilinear_ fashion. By multilinear we mean that a process
+combines forward, linear movement with cyclic, backwards, and parallel
+movements.
 
 ![
   Here, we illustrate the overlap of the design activity
@@ -277,7 +287,7 @@ supports real-world users in their own work environments.
 
 
 
-## Flow of the Framework
+## Timelines of the Design Process
 
 In our experience, a visualization design process never seems to progress
 cleanly through a set of designated stages; this fact motivated our synthesis of
@@ -305,46 +315,6 @@ both iteration and multilinearity.
 \al{example figures, more diagrams and examples of the framework is needed
 here!}
 
-<!--
-Other visualization process models are also characterized in similar ways,
-supporting ordered forward movement with iteration [@Chee2011; @Tory2004;
-@Wassink2009; @Sedlmair2012b; @DIS2010], and others that suggest an overlap
-between stages, such as the nine-stage framework [@Sedlmair2012b] and the
-international standard for human-centred design activities [@DIS2010]. These
-models, however, are often represented linearly or cyclically and imply the need
-to start at the beginning of the process, making it difficult, for example, to
-capture the process of a visualization redesign project.
--->
-
-
-
-
-
-## Design Process Timelines
-
-In our experience, a visualization design process never seems to progress
-cleanly through a set of designated stages; this fact motivated our synthesis of
-the design activity framework, which can be pieced together in many different
-ways to best suit the needs of a project. This complex motion aligns with
-creative process models from the design community that already emphasize that
-design is messy, iterative, and multilinear [@Kumar2012; @Teal2010;
-@Gandra2013a]. These creative process models advocate that there is no one right
-way in which to engage in the activities of a framework.
-
-
-There are two basic principles for the design activity framework when it comes
-to the flow of the design process. First, the activities are ordered when moving
-forward: understand, ideate, make, deploy. A project can start with any
-activity, as with our cyber security redesign project, which started from a tool
-in the deploy activity, but forward movement must happen in an ordered fashion,
-even if the methods used are very narrow and informal. Backward movement,
-however, can move to any previous activity. The second principle is that
-activities can be nested or conducted in parallel, meaning that forward or
-backward movement to a different activity can happen within an activity, such as
-revisiting an understanding while brainstorming new ideas, or two activities
-that occur concurrently. Taken together, these two  movement principles support
-both iteration and multilinearity.
-
 
 Other visualization process models are also characterized in similar ways,
 supporting ordered forward movement with iteration [@Chee2011; @Tory2004;
@@ -364,6 +334,7 @@ activities and both forward and backward movement. The timeline is annotated
 with many of the methods we used and the outcomes we developed in our redesign
 process.
 
+
 Other researchers have shown the feasibility and usefulness of a design process
 timeline as an effective way to communicate a design process [@McLachlan2008;
 @Walz1993], to foster collaboration [@Bohøj2010], and to highlight some aspects
@@ -380,7 +351,7 @@ in a similar way.
 
 
 
-## Exemplar Methods
+## Choosing Effective Design Methods
 
 To help novice users tackle a real-world design project, we present a list
 of exemplar methods that can be used throughout the design
@@ -460,21 +431,17 @@ constraint removal (_M-26_) [@Goodwin2013a].
 <!-- \sm{TODO check with table vs figure caption differences in template?} -->
 
 
+We can use the framing of a design activity to help novice visualization
+designers find effective design methods. We define effectiveness here as a
+reflection in two parts: short-term and long-term. In the short-term, an
+effective design method must successfully achieve the desired visualization
+artifact for the design activity --- we argue that this completed artifact is
+one way to validate a design method. The long-term effectiveness of a method can
+be established when the method is used within the development of a deployed
+visualization tool: one that is evaluated with, and given to, real end users.
+Thus, we can determine if a design method was effective within a visualization
+project by reflecting on these two questions:
 
-
-
-## Effective Design Methods
-
-We can use the framing of a design activity to find effective methods for
-visualization design. We define effectiveness here as a reflection in two parts:
-short-term and long-term. In the short-term, an effective design method must
-successfully achieve the desired artifact for the design activity --- we argue
-that this completed artifact is one way to validate a design method. The
-long-term effectiveness of a method can be established when the method is used
-within the development of a deployed visualization tool: one that is evaluated
-with, and given to, real end users. Thus, we can determine if a design method
-was effective within a project by reflecting on these two questions:
-
-1. Did you achieve your desired artifacts?
-1. Did you deploy a tool to users as a result of this method?
+1. Did you achieve your desired visualization artifacts?
+1. Did you successfully deploy a visualization tool to users as a result of this method?
 
