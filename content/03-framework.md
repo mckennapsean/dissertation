@@ -5,7 +5,7 @@
 \sm{ideate, check definition}
 \sm{watch out for make \& deploy definitions for clarity, how relates for design?}
 \sm{check definitions, matched with figures?}
-\sm{perhaps avoid subsections?}
+\sm{clean up sections}
 
 A design process consists of _activities_ or steps taken to achieve a given
 outcome, such as a visualization system. Design _decisions_ are the reasons and
@@ -49,16 +49,7 @@ own projects.
 ![
   We present the framework's breakdown of a _design activity_: motivation,
   artifacts, and methods, where methods can be generative or evaluative.
-  Additionally, we provide four overlapping, multilinear activities that compose
-  the design activity framework for visualization design.
-](figures/daf/framework.pdf){#fig:framework width="100%"}
-
-<!--
-![
-  Overview of the design activity framework [@McKenna2014], showing how each
-  design activity has a motivation, artifacts, and methods.
-](figures/methods/framework.pdf){#fig:activity width="70%"}
--->
+](figures/daf/design-activity.pdf){#fig:activity width="100%"}
 
 
 
@@ -66,16 +57,16 @@ own projects.
 
 ## A Design Activity
 
-At the core of this framework is the concept of an **activity**, a group of
-actions a designer takes to work towards a specific artifact, or set of
+At the core of this framework is the concept of a design **activity**, a group
+of actions a designer takes to work towards a specific artifact, or set of
 artifacts. Many creative process models tend to avoid breaking a process into
 sequential steps, stages, or phases, but, rather, they use the term activities
 [@Wu2011; @Atman2009; @Cardella2008; @Rudisill1995; @Snider2013;
 @Wodehouse2010a], which are not necessarily linear, and they are often
 overlapping. Each activity is composed of several key components: a
-*motivation*; clear, tangible *artifacts* related to design decisions; and a
-collection of *methods*. We pictorially represent the design activity framework
-in [@fig:framework].
+_motivation_; clear, tangible _artifacts_ related to design decisions; and a
+collection of _methods_. We illustrate an overview of a design activity in
+[@fig:activity].
 
 
 The **motivation** of an activity is the specific purpose behind the methods and
@@ -83,20 +74,21 @@ actions that are performed within that activity. For example, a motivation can
 be to brainstorm new ideas to solve a specific problem or to test the efficacy
 of an aspect of my chosen visualization for a specific task. By matching a
 real-world motivation to those specified for each activity in the framework,
-visualization designers can place themselves within a specific design activity,
-which helps in choosing appropriate methods and identifying artifacts.
+novice visualization designers can place themselves within a specific design
+activity, which helps in choosing appropriate methods and identifying
+visualization artifacts.
 
 
-Next, **artifacts** are the specific, unique results of a design activity,
+Next, visualization **artifacts** are the specific, unique results of a design activity,
 characterized by which level or levels of the nested model they address. There
-is a close connection of artifacts with **methods**, which are actions or
+is a close connection of artifacts with design **methods**, which are actions or
 techniques that a designer employs to either generate or evaluate artifacts. It
 is the application of methods to the broad space of all visualization design
-options, particularly methods for evaluation, where design decisions are made.
+options, particularly methods for evaluation, where design **decisions** are made.
 
 
 We highlight two distinct kinds of methods used in each design activity:
-*generative* versus *evaluative*. Generative methods  are largely meant to be
+_generative_ versus _evaluative_. Generative methods are largely meant to be
 divergent and create many artifacts, such as methods for brainstorming
 [@Maiden2007; @Howard2008] or increasing creativity [@Maiden2004b;
 @Goodwin2013a]. Evaluative methods, on the other hand, are convergent and filter
@@ -106,22 +98,24 @@ generation and evaluation is common within the design community [@Brown2009;
 @Hevner2008; @Hanington2003; @Christiaans2010; @Hevner2008]. Interestingly, some
 methods can be both generative and evaluative, such as observation and
 interviewing. In the design activity framework, we consider generative and
-evaluative methods as vital components of each activity, unlike process models
-that capture evaluation as a single, unique stage in the design process
-[@Chee2011; @Tory2004; @Wassink2009; @Lloyd2011; @Goodwin2013a; @DIS2010].
+evaluative design methods as vital components of each activity, unlike process
+models that capture evaluation as a single, unique stage in the design process
+[@Chee2011; @Tory2004; @Wassink2009; @Lloyd2011; @Goodwin2013a; @DIS2010]. This
+further encourages novice visualization designers to consider evaluation early,
+and often, for each of the design activities they complete.
 
 
 The design activity framework further characterizes the methods based on two
-spectrums. First, generative methods can be used *narrowly to broadly*. For
-example, a designer may narrowly consider only a single idea in the ideate
-stage, as opposed to specifically applying brainstorming methods to generate
-many different ideas broadly. Second, evaluative methods can be applied
-*informally to formally*, such as a designer informally choosing a prototype
-based on personal preferences versus formally comparing multiple prototypes
-through a controlled user study. Characterizing the use of methods in each
-activity is important for two reasons: 1) for elucidating missed opportunities
-throughout the design process for further investigation and work; and 2) for
-providing a mechanism to thoughtfully incorporate real-world project
+spectrums. First, generative methods can be used _narrowly to broadly_. For
+example, a novice visualization designer may narrowly consider only a single
+idea in the ideate stage, as opposed to specifically applying brainstorming
+methods to generate many different ideas broadly. Second, evaluative methods can
+be applied _informally to formally_, such as a novice informally choosing a
+prototype based on personal preferences versus formally comparing multiple
+prototypes through a controlled user study. Characterizing the use of methods in
+each activity is important for two reasons: 1) for elucidating missed
+opportunities throughout the design process for further investigation and work;
+and 2) for providing a mechanism to thoughtfully incorporate real-world project
 constraints, such as time and budget considerations, into the design process.
 
 
@@ -145,14 +139,11 @@ the four activities in the design activity framework.
 
 
 ![
-  Here, we illustrate the overlap of the design activity
-  framework with respect to the levels of the nested
-  model [@Munzner2009]. It is important to note that each
-  of the three inner levels of the nested model exists across
-  two activities in the framework; thus, a visualization
-  designer must think carefully about which levels of the
-  nested model any process artifact corresponds with.
-](figures/daf/nm-comparison.pdf){#fig:nm-comparison width="100%"}
+  Here we present the design activity framework's four core design activities:
+  _understand_, _ideate_, _make_, and _deploy_, which we refer to in following
+  figures as the first initial of each activity and its associated color. We
+  also include the motivation and expected artifacts for each activity.
+](figures/daf/activities.pdf){#fig:framework width="100%"}
 
 
 ### Understand
@@ -264,6 +255,24 @@ itself, such as integration with existing software, databases, etc. This
 activity is the ultimate goal of problem-driven visualization design since it
 supports real-world users in their own work environments.
 
+
+
+
+
+## Mapping Decisions and Artifacts to the Nested Model
+
+\sm{I think we need to include at least a brief discussion on this!}
+
+
+![
+  Here, we illustrate the overlap of the design activity
+  framework with respect to the levels of the nested
+  model [@Munzner2009]. It is important to note that each
+  of the three inner levels of the nested model exists across
+  two activities in the framework; thus, a visualization
+  designer must think carefully about which levels of the
+  nested model any process artifact corresponds with.
+](figures/daf/nm-comparison.pdf){#fig:nm-comparison width="100%"}
 
 
 
