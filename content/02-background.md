@@ -24,6 +24,7 @@ visualization design.
 \sm{section on swe/agile}
 \sm{add resources: existing models better, Nath had a few}
 \sm{creative / creativity, careful, see Jim's notes: presc/descr from DSM, characterize with words not a single one?}
+\sm{add a few figures from presentations}
 
 
 
