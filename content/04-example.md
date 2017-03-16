@@ -121,7 +121,7 @@ project, presented in rough, chronological order, and the methods we used and
 the artifacts we achieved.
 <!--
 We will refer to
-methods listed in [@tab:methods] using a prefix, such as the method of
+methods listed in [@tbl:methods] using a prefix, such as the method of
 controlled experiments (*M-28*).
 -->
 We note that this description is a

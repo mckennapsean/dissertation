@@ -336,7 +336,7 @@ found in the visualization literature, as well as many more
 that come from the design, human-computer interaction,
 software engineering, sociology, and anthropology
 literature.
-We present a shortened list of 40 methods in [@tab:methods],
+We present a shortened list of 40 methods in [@tbl:methods],
 and a more extensive list of 100 methods is available in the Appendix.
 We shortened to these 40 methods by picking those that
 were mentioned within the framework and redesign project,
@@ -384,7 +384,7 @@ potentially enhance the visualization design process. For
 example, Goodwin et al. introduce several novel creativity
 techniques for visualization design such as generating ideas using the
 method of
-constraint removal (*M-26*) [@Goodwin2013a].
+constraint removal (_M-26_) [@Goodwin2013a].
 
 
 ![
@@ -399,7 +399,7 @@ constraint removal (*M-26*) [@Goodwin2013a].
   Lastly, we tagged the methods we have seen commonly reported within the
   visualization community (**_v_**) and also present succinct
   definitions for each method to assist novices in trying each method out.
-](figures/daf/table.pdf){#tab:methods width="100%"}
+](figures/daf/table.pdf){#tbl:methods width="100%"}
 
 <!-- \sm{we should probably explain a bit more about this coding process in the text somewhere?} -->
 <!-- \sm{does this need to be a table instead of a figure?} -->
