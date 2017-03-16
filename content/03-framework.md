@@ -1,6 +1,5 @@
 # Design Activity Framework {#sec:framework}
 
-\sm{add timeline}
 \sm{add more figures, micro and macro aspects}
 \sm{flesh out content}
 \sm{ideate, check definition}
@@ -40,8 +39,11 @@ describe the four activities contained in the framework: _understand_, _ideate_,
 _make_, and _deploy_. For each activity, we articulate the motivation, possible
 design methods, and the visualization artifacts which relate to decisions and
 have an explicit link back to levels of the nested model. This framework
-supports an iterative, human-centered visualization design process with guidance
-on possible effective design methods for novice visualization designers.
+supports an iterative, human-centered visualization design process which we
+characterize with the introduction of design timelines. Lastly, we provide
+guidance on how to choose effective design methods with a table of 40 selected
+design methods of interest to novice visualization designers to employ in their
+own projects.
 
 
 ![
