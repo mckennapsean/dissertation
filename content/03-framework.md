@@ -1,11 +1,12 @@
 # Design Activity Framework {#sec:framework}
 
-\sm{add table}
 \sm{add timeline}
 \sm{add more figures, micro and macro aspects}
 \sm{flesh out content}
 \sm{ideate, check definition}
 \sm{watch out for make \& deploy definitions for clarity, how relates for design?}
+\sm{check definitions, matched with figures?}
+\sm{perhaps avoid subsections?}
 
 A design process consists of _activities_ or steps taken to achieve a given
 outcome, such as a visualization system. Design _decisions_ are the reasons and
