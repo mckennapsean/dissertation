@@ -370,6 +370,9 @@ parallel activities to backward movement.
   and expert visualization designers track the progress of a project.
 ](figures/daf/timelines.pdf){#fig:timelines width="100%"}
 
+<!-- \sm{could clean up these timeline figures, perhaps include some aspects of building or tools to create these in supplemental materials as well?} -->
+<!-- \sm{note to self: you could reuse arrow from bubblenet project instead, cleaner...} -->
+
 
 Other researchers have shown the feasibility and usefulness of a design process
 timeline as an effective way to communicate a design process [@McLachlan2008;
