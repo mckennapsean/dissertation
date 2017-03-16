@@ -10,6 +10,12 @@
 
 \sm{Need intro...}
 
+<!--At first, we pursued a design study in the field of biology, working with a research lab studying mouse genetics through correlation. With a statistics researcher, we created a new technique, the s-CorrPlot, to encode correlation of large datasets in a scatterplot [@mckenna2015s]. However, this project did not yield a successful design study, since our collaborators could not go beyond exploration or basic hypothesis generation with the tool. Upon reflection, we realized that we were driven to build this tool for a novel technique, not to support the needs of the researchers.-->
+
+
+
+
+
 ## Designing for a Novel Technique
 
 In collaboration with a statistician and biology researcher, we created a new

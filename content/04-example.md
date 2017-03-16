@@ -10,26 +10,20 @@
 sociology project? perhaps separate chapter for redesign project}
 \sm{refocus this on just the one example project in the DAF}
 
-The design activity framework was initially formulated from reflecting on
-previous failed projects. At first, we pursued a design study in the field of
-biology, working with a research lab studying mouse genetics through
-correlation. With a statistics researcher, we created a new technique, the
-s-CorrPlot, to encode correlation of large datasets in a scatterplot
-[@mckenna2015s]. However, this project did not yield a successful design study,
-since our collaborators could not go beyond exploration or basic hypothesis
-generation with the tool. Upon reflection, we realized that we were driven to
-build this tool for a novel technique, not to support the needs of the
-researchers. This led into a second case study, in the field of cyber security,
-where we worked with a team of designers, a psychologist, and visualization
-experts to formulate the beginnings of the design activity framework
-[@McKenna2014]. In this work, our team worked with a cyber security firm to
-redesign one of their visualization software tools. We focused our redesign to
-create a series of sketches, wireframes, and mockups that visually communicated
-our ideas to the company's development team in order to improve their tool, but
-the final artifacts and changes were limited by the company's development
-budget. We found that a common aspect of failure in these projects and design
-studies was that less reflection and less control of the design process led to
-projects which were not as successful as they otherwise could have been.
+The design activity framework was initially formulated from reflecting on a
+previous project where we worked with novice visualization designers. For this
+project, visualization experts worked with a team of designers, a psychologist,
+and a cyber security firm to tackle a redesign of that firm's visualization
+system [@McKenna2014]. We focused our redesign to create a series of sketches,
+wireframes, and mockups that visually communicated our ideas to the company's
+development team in order to improve their tool. While the final changes to the
+system were limited by the company's development budget, we found that a
+reflection on this project yielded useful insights which resulted in the design
+activity framework we presented in the last chapter. In particular, the
+visualization design artifacts and methods we created with other visualization
+novices were a significant portion of what made this project a success. Lastly,
+we reflect on the overall design process by incorporating and summarizing these
+aspects into a design timeline.
 
 
 

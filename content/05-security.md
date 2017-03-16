@@ -1,27 +1,28 @@
 # Case Study: Design Study in Cyber Security {#sec:security}
 
-A second but successful case study in the field of cyber security focused on a
-new investigation: building a cyber security dashboard to support visual
-communication across multiple types of cyber users [@McKenna2015; @mckenna2016].
-One of the challenges in the domain of cyber security is limited access to end
-users. We found certain methods to be effective with this limited access, such
-as personas and data sketches [@McKenna2015]. Through a collaboration with cyber
-security researchers and users, we were able to perform a design study between
-network analysts and network managers in order to study how cyber information is
-communicated and created a tool to aid that communication flow [@mckenna2016].
-Using the design activity framework as the backbone for this project, we
-balanced user-centered design methods with a development process to produce a
-useful and effective dashboard for domain users. We were also able to build off
-of and repurpose the design opportunities we had identified with existing users
-from our redesign project into this dashboard project [@mckenna2016].
-Furthermore, we performed a formal usability study with a standardized
-quantitative questionnaire in order to validate the usability of our final
-dashboard tool. By reflecting on this design process, we have found that
-artifacts play a critical role in communicating the design process, and we have
-seen that design studies can be formed and reflected upon using the design
-activity framework. We have modified the design activity framework accordingly
-with these insights.
+In this chapter we discuss successful case study in the field of cyber security
+focused on a new investigation: building a cyber security dashboard to support
+visual communication across multiple types of cyber users [@McKenna2015;
+@mckenna2016]. One of the challenges in the domain of cyber security is limited
+access to end users. We found certain design methods to be effective with this
+limited access for visualization, such as personas and data sketches
+[@McKenna2015]. Through a collaboration with cyber security researchers and
+users, we were able to perform a design study between network analysts and
+network managers in order to study how cyber information is communicated and
+created a tool to aid that communication [@mckenna2016]. Using the design
+activity framework as a backbone for this project, we balanced human-centered
+design methods with an agile development process to produce a useful and
+effective dashboard for domain users. We were also able to build off of and
+repurpose the design opportunities we had identified with existing users from
+our redesign project into this dashboard project [@mckenna2016]. Furthermore, we
+conducted a formal usability study with a standardized quantitative
+questionnaire in order to validate the usability of the final dashboard tool. By
+reflecting on this design process, we have found that visualization design
+artifacts played a critical role in communicating and reporting on our process,
+and we have witnessed how the design activity framework can help successfully
+shape a real-world visualization design study.
 
+<!--We have modified the design activity framework accordingly with these insights. \sm{did we? how? not sure... seems weird}-->
 \sm{focus to f/w, explain its role and purpose and use}
 \sm{do this simply, match to the story, connect to activities throughout}
 \sm{add to figure with activities and where (at bottom)}
