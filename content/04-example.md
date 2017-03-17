@@ -66,23 +66,17 @@ confidentiality issues surrounding cyber security data, and the engineering
 realities of working within a large software system.
 
 
-
-
-
-## Redesign Project in the Design Activity Framework
-
-Here we will walk through our redesign project and describe our design process
-using the framework. This section focuses on each activity of our redesign
-project, presented in rough, chronological order, and the methods we used and
-the artifacts we achieved.
-<!--
-We will refer to
-methods listed in [@tbl:methods] using a prefix, such as the method of
-controlled experiments (*M-28*).
--->
-We note that this description is a
-simplification of our process for the purposes of illustration.
-[@fig:timeline] presents further details.
+From our own teaching experience, we have found that showing off a real-world
+visualization project is an effective way to initially teach visualization
+design to novices. For this case study, we will describe our redesign project
+and design process using the design activity framework. We will focus on a
+single design activity at a time. We present this discussion in rough,
+chronological order. In this discussion, we incorporate the methods we utilized
+and the visualization artifacts which were achieved. Each method number we
+reference stems from the collection of example methods in [@tbl:methods] and the
+full list of 100 methods included in the Appendix, such as the method of
+controlled experiments (_M-28_).
+<!--\sm{TODO another reference to the appendix}-->
 
 
 |     |     |
@@ -102,24 +96,23 @@ simplification of our process for the purposes of illustration.
   project, starting from our a) software analysis, which
   resulted in b) initial concept sketches and c)
   wireframes. As we focused on more of the details, we
-  moved into the make activity with d) laying out
+  moved into the _make_ activity with d) laying out
   interface components and e) designing a fully-detailed
   revised interface.
-  <!--
-  These artifacts are provided at
-  full-resolution in the Supplemental Materials.
-  -->
 ](){#fig:redesign}
 
-\al{figure is split across two pages?? figure is wonky...}
+<!--\al{figure is split across two pages?? figure is wonky...}-->
+<!--\sm{agreed - how can we fix this? table issue is a problem. need to come up with a better solution, perhaps lay out figure in Illustrator? full page?}-->
+<!--\sm{TODO fix this figure!!!}-->
 
-### Deploy
 
-\al{here is a sub-sub-sections? is that working?}
-\sm{moving to own chapter would fix that...}
+
+
+
+## Redesign Project: Deploy Activity
 
 Since our redesign project focused on analyzing an existing visualization
-system, the RVS, we started our design process in the deploy activity. Rather
+system, the RVS, we started our design process in the _deploy_ activity. Rather
 than test RVS and simply clean up usability and aesthetic issues, however, our
 design team was tasked with thinking of the broader task of cyber security
 analysis, the needs of users within that workflow, and the role of visualization
@@ -127,22 +120,31 @@ for exploring computer network data. Ultimately, the RVS company was interested
 in incorporating new visualization components into their tool.
 
 
-Although deploy is commonly the final activity for a completed, successful
+Although _deploy_ is commonly the final activity for a completed, successful
 visualization system, evaluating a deployed system may reboot the entire design
-process to any earlier activity in order to extend, edit, or even redesign the
-system. In our redesign project we started in the deploy activity with the
-existing RVS tool as the given deploy artifact, forming a constraint within our
-project. We received a copy of RVS in order to understand what needs it
-currently addressed and what constraints it already contained. We used a
-walkthrough tutorial and sample dataset <!--(*M-75*)--> built by the RVS company
-to explore the features and efficacy of the tool. Our analysis of RVS revealed
-that it was necessary for us to take a step back to the understand activity so
-that we could better discern the needs of cyber security analysts. We have not
-yet returned to the deploy activity as the RVS company is still involved with
-major redesigns of the tool.
+process to any earlier design activity in order to extend, edit, or even
+redesign the system. In our redesign project we started in the _deploy_ activity
+with the existing RVS tool as the given _deploy_ visualization artifact, forming
+a constraint within our project. We received a copy of RVS in order to
+understand what needs it currently addressed and what constraints it already
+contained. We used a walkthrough tutorial and sample dataset (_M-75_) built by
+the RVS company to explore the features and efficacy of the tool.
 
 
-### Understand
+Our analysis of RVS revealed that it was necessary for us to take a step back to
+the _understand_ activity so that we could better discern the needs of cyber
+security analysts. Since the final visualization system is managed by the RVS
+company, we did not revisit the _deploy_ activity ourselves, but we do know that
+the changes that the company made to the tool were eventually pulled in as part
+of their visualization product. However, the scope of our redesign visualization
+project only started at this activity and took a step back to envision other
+possible encodings and techniques to improve the existing visualization system.
+
+
+
+
+
+## Redesign Project: Understand Activity
 
 The field of cyber security analysis has many types of users, from those within
 companies who maintain their own networks, to the military, which maintains and
@@ -151,65 +153,70 @@ have spent significant time observing and interviewing cyber security analysts
 [@DAmico2008; @Erbacher2010a; @Fink2009] across these different facets. We used
 the published work from these experts to form our base understanding of the
 field as we had limited access to cyber security experts ourselves. First, we
-conducted an extensive and broad literature review <!--(*M-53*)--> across a
-series of 40 articles from several key domains: cyber security visualization,
-situational awareness, and cognitive task analysis. From this review we
-informally evaluated the articles based on their relevance and descriptive
-quality, isolating three of the articles as the best representative samples with
-the highest impact for forming our domain characterization.
+conducted an extensive and broad literature review (_M-53_) across a series of
+40 articles from several key domains: cyber security visualization, situational
+awareness, and cognitive task analysis. From this review we informally evaluated
+the articles based on their relevance and descriptive quality, isolating three
+of the articles as the best representative samples with the highest impact for
+forming our domain characterization for the visualization of cyber security
+data.
 
 
 Next, for these three articles each member of our team did an informal open
-coding of the papers <!--(*M-16*)--> to pull out salient themes. As individuals,
-we tagged information broadly, and we then adjusted these tags as a team over a
+coding of the papers (_M-16_) to pull out salient themes. As individuals, we
+tagged information broadly, and we then adjusted these tags as a team over a
 series of meetings to organize and consolidate the key insights we pulled from
-the papers. These insights formed our initial set of artifacts, which pointed to
-a number of unmet needs and opportunities for visualization research. Some of
-these artifacts included *opportunities* such as supporting provenance-based
-tasks, increasing the scalability of visualizations to real-world datasets,
-preserving data context as it is filtered across many different visualizations,
-and optimizing the representations of temporal data.
+the papers. These insights formed our initial set of visualization artifacts,
+which pointed to a number of unmet needs and opportunities for visualization
+research. Some of these artifacts included design _opportunities_ such as
+supporting provenance-based tasks, increasing the scalability of visualizations
+to real-world datasets, preserving data context as it is filtered across many
+different visualizations, and optimizing the representations of temporal data.
 
 
-We revisited the RVS system with these opportunities in mind. Since we were
-working with an existing, deployed version of the RVS software, we performed a
-broad artifact analysis <!--(_M-8_)--> on the current software architecture,
-illustrated in [@fig:redesign]a. By examining the workflow supported by RVS, we
-identified which opportunities the tool already supported and which aspects of
-the tool could be improved, and then evaluated these against our initial list of
-opportunities. These findings were combined with our project-specific
-_constraints_ and _considerations_, which included four months of the design
-team's time, one month of a developer's time, and existing visual conventions in
-the field such as highlighting critical alerts in red.
+We revisited the RVS system with these design opportunities in mind. Since we
+were working with an existing, deployed version of the RVS software, we
+performed a broad artifact analysis (_M-8_) on the current software
+architecture, illustrated in [@fig:redesign]a. By examining the workflow
+supported by RVS, we identified which opportunities the tool already supported
+and which aspects of the tool could be improved, and then evaluated these
+against our initial list of design opportunities. These findings were combined
+with our project-specific _constraints_ and _considerations_, which included
+four months of the visualization team's time, one month of a developer's time,
+and existing visual conventions in the field of cyber security such as
+highlighting critical alerts in red.
 
 
 Lastly, we conducted a series of semistructured interviews with different
-stakeholders to identify needs and aspirations (*M-51*), where these
+stakeholders to identify needs and aspirations (_M-51_), where these
 stakeholders included a developer who works on RVS and several cyber security
-analysts at the University of Utah. Based on this feedback, we met as a design
-team and informally evaluated and filtered the list of opportunities by reaching
-a group consensus on those we felt best met the unmet needs of our target users,
-balanced against the strengths and weaknesses of RVS and taking into account the
-real-world constraints and considerations of the project. The final thematic
-design opportunities for our redesign were 1) usability, 2) workflow
-improvements, 3) desirability, and 4) temporal data representation. We also
-developed a more low-level list of all artifacts, which included a detailed data
-and task abstraction.
+analysts and managers at the University of Utah. Based on this feedback, we met
+as a design team and informally evaluated and filtered the list of design
+opportunities by reaching a group consensus on those we felt best met the unmet
+needs of our target users, balanced against the strengths and weaknesses of RVS
+and taking into account the real-world constraints and considerations of the
+project. The final thematic design opportunities for our visualization redesign
+were 1) interface usability, 2) workflow improvements, 3) tool desirability, and
+4) temporal data representation. We also developed a more low-level list of all
+visualization artifacts, such as a detailed data and task abstraction.
 
 
-### Ideate
+
+
+
+## Redesign Project: Ideate Activity
 
 After our design team had identified the specific design opportunities,
-constraints, and considerations for our redesign, we were ready to come up with
-ideas. This activity took up several months as we sketched out a series of
+constraints, and considerations for our visualization redesign, we were ready to come up with
+ideas to meet user needs. The _ideate_ activity took up several months as we sketched out a series of
 possible ideas for modifying the current design of RVS. First, each member of
-our team began to develop separate concept sketches <!--(_M-23_)--> tackling a
-specific opportunity, as illustrated in [@fig:redesign]b. We chose this first
+our team began to develop separate concept sketches (_M-23_) tackling a
+specific design opportunity, as illustrated in [@fig:redesign]b. We chose this first
 method based on the experience of the designers in our group as they were used
 to sketching out possible concepts. We then came together as a team to review
 these sketches and evaluate them based on which ones possessed the most
 potential for impacting a redesign of RVS. This evaluation process was very
-informal; we met as a design team and discussed some of the pros and cons for
+informal; we met as a visualization team and discussed some of the pros and cons for
 each concept, ultimately coming to a group consensus. These meetings were
 conducted as informal design critiques. We also shared a subset of these
 idealized sketches with the researchers and managers at the RVS company in order
@@ -220,61 +227,77 @@ The ideas and concept sketches relied on two key data abstractions that we
 identified: computer networks and time series data. For example, one of our
 ideas for the visualization of a computer network is a simplification of the
 nodes into subgroups and supporting details-on-demand in order to allow the
-visualization to scale to a larger dataset. For the time-series data, we
-explored ideas for derived data, such as network alerts or general traffic and
-activity. For each data type, we explored various encodings and interaction
-techniques that would scale to different levels of the data; this scaling is
-critical due to the quantity and spread of real-world cyber security data.
+visualization to scale to a larger dataset. While scalability can be a later
+concern in the _deploy_ activity, we found that perhaps revisiting the data
+abstraction could help simplify and improve the resulting visualizations so they
+could handle and show more data at once. For the time-series data, we explored
+ideas for derived data, such as network alerts or general traffic and activity.
+For each data type, we explored various encodings and interaction techniques
+that would scale to different levels of the data; this scaling is critical due
+to the quantity and spread of real-world cyber security data.
 
 
 The concept sketches proved to be useful in exploring different ideas, but we
 wanted to explore some of these ideas in more depth and detail. Thus we
 synthesized the paper concept sketches into very low-fidelity paper prototypes
-<!--(_M-61_)--> that highlighted interactions inside the tool. These ideas were
+(_M-61_) that highlighted interactions inside the tool. These ideas were
 eventually finalized into more concrete wireframes (_M-98_), shown in
-[@fig:redesign]c, to mimic the look and feel of a real tool. Again, we
-evaluated these wireframes very informally, internally as a design team and with
-different members of the RVS company, to check that our redesigns were on track
-for meeting the analysts' needs. Due to the main constraint of time within the
-project, we were unable to evaluate these wireframes more formally with
-analysts. These sketches and wireframes formed the artifacts of our ideate
-activity.
+[@fig:redesign]c, to mimic the look and feel of a real tool. Again, we evaluated
+these wireframes very informally, internally as a visualization team and showed
+our ideas to different members of the RVS company, to check that our _ideate_
+visualization artifacts (sketches, paper prototypes, and wireframes) were on
+track for meeting the analysts' needs. Due to the main constraint of time within
+the project, we were unable to evaluate these wireframes more formally with
+analysts.
 
 
-### Make
 
-The make activity was conducted in part by our design team and also in part by
+
+
+## Redesign Project: Make Activity
+
+The _make_ activity was conducted in small part by our visualization team and also in part by
 the RVS development team. As a design team, we generated a number of digital
-mockups; several of these were detailed wireframes <!--(_M-98_)--> that focused
+mockups; several of these were detailed wireframes (_M-98_) that focused
 on the layout of different visualizations and interaction mechanisms, as shown
 in [@fig:redesign]d.
 
 
-In addition, we also mocked up more detailed prototypes <!--(_M-67_)--> that
-showed how the different visualizations would link together through user
-interactions. These prototypes synthesized all of our design ideas into an
-idealized, revised interface, as illustrated in [@fig:redesign]e. The purpose
-behind this method was to envision what RVS _could_ be even though the software
-implementation was beyond the scope of what the developers could achieve given
-the constraint of one month of their time.
+In addition, we also mocked up more detailed prototypes (_M-67_) that showed how
+the different visualizations would link together through user interactions.
+These prototypes synthesized all of our design ideas into a revised interface,
+as illustrated in [@fig:redesign]e. The purpose behind this method was to
+envision what RVS _could_ be even though a complete software implementation was
+beyond what our visualization could perform given our constraint of time. We
+considered real-world datasets and user workflows when creating and formulating
+both the digital mockups and detailed wireframes, which are the visualization
+artifacts we created in the _make_ activity. While some may consider these as
+ideas and not prototypes, our visualization team had finalized making decisions
+at the abstraction level and focused not on new ideas but on encodings and
+interaction techniques in these artifacts, so we argue that this goes beyond the
+_ideate_ activity and resulted in visualization prototypes that could be tested
+with users.
+
+<!--\al{where is the line between ideate and make?}-->
+<!--\sm{how does this help? I agree it was vague before, I added some clarifications}-->
 
 
 After we finalized these detailed and revised mockups, the RVS development team
 focused on implementing these concepts into the existing software. We note that
-the distinction here between the design team and development team is somewhat
-unique to our redesign project; most often in visualization design these two
-groups of people are the same. As a result of this implementation process, the
-development team created a software prototype (*M-67*), which they evaluated
-with several network security analysts who work with RVS. The RVS company sought
-a quick and easy approach to minimize the time needed by analysts to
-participate; thus, this evaluation consisted of an A/B testing method (*M-1*)
-coupled with a questionnaire (*M-69*). This evaluation received positive
-feedback over the previous version of RVS, which we took as a validation of the
-design ideas that had became concretized within the final artifact: a new
-prototype of RVS.
-
-\al{where is the line between ideate and make?}
-\sm{deploy?}
+the distinction here between the visualization team and development team is
+somewhat unique to our redesign project; most often in visualization design
+these two groups of people overlap or work closely in cohort. As a result of
+this implementation process, the development team created a software prototype
+(_M-67_), which they evaluated with several network security analysts who work
+with RVS. The RVS company sought a quick and easy approach to minimize the time
+needed by network security analysts to participate; thus, this evaluation
+consisted of an A/B testing method (_M-1_) coupled with a questionnaire
+(_M-69_). This evaluation received positive feedback over the previous version
+of RVS, which we took as a validation of the design ideas that had became
+concretized within the final visualization artifact: a new prototype of RVS.
+While the company behind RVS likely continued implementing changes and deploying
+aspects into their visualization system, we were not involved with this design
+and development process.
 
 
 
