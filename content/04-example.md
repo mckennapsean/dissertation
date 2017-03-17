@@ -72,11 +72,15 @@ realities of working within a large software system.
 ## Redesign Project Timeline
 
 
-We provide a timeline for our redesign project in [@fig:timeline], where
-activities are represented as colored boxes. This timeline shows the flow of the
-project through multiple activities, including nested activities and both
-forward and backward movement. The timeline is annotated with many of the
-methods we used and the artifacts we developed in our redesign process.
+We provide a timeline for our redesign project in [@fig:timeline], where design
+activities are represented as described in [@sec:timelines]. This visualization
+project's timeline shows the flow over time as we conducted multiple design
+activities, including nested activities and both forward and backward movement.
+The timeline is annotated with many of the design methods we used and some of
+the visualization artifacts we created and validated during our redesign.
+Characterizing our design process and creating this timeline were possible using
+the language and structure of the design activity framework, which previous
+visualization design models did not support or outline.
 
 
 ![
@@ -88,21 +92,28 @@ methods we used and the artifacts we developed in our redesign process.
   Our redesign project contained several key
   time constraints, or deadlines, listed at the
   top. Towards the bottom, we highlight numerous
-  methods and artifacts utilized throughout our project.
-](figures/daf/timeline.pdf){#fig:timeline width="100%"}
-\al{why is there a separation/gap between activities? }
+  design methods and visualization artifacts utilized throughout our project.
+](figures/daf/timeline.pdf){#fig:redesignTimeline width="100%"}
 
-Other researchers have shown the feasibility and usefulness of a design process
-timeline as an effective way to communicate a design process [@McLachlan2008;
-@Walz1993], to foster collaboration [@Bohoj2010], and to highlight some aspects
-of the multilinear nature of a design process [@Atman2009; @Wolf2006].
-Communication of the design process is important not only for understanding and
-evaluating the visualization research process itself, but also for supporting
-replicability of problem-driven work. Visualization models such as the nested
-model [@Munzner2009] are now widely used to communicate design decisions made
-over the course of a visualization process, and we advocate for the design
-activity framework to structure communication of a visualization design process
-in a similar way.
+<!--\al{why is there a separation/gap between activities? }-->
+<!--\sm{revisit timeline, clean up any strange gaps that exist?}-->
+
+
+We show this timeline in more detail in [@fig:redesignTimeline] than previously
+shown in the bottom of [@fig:timelines]. The difference of these two timelines
+shows the flexiblity of the design activity framework to capture both the
+high-level view of a design project and the pattern or flow of design activities
+as well as the low-level detail of specific visualization artifacts and design
+methods utilized. These design timelines could be further enhanced by
+highlighting levels of the nested model or details of visualization design
+decisions made throughout the process. We found that keeping track of these
+activities can help novices meet deadlines by focusing on specific design
+activities and visualization artifacts as well, which is why we highlight these
+deadlines explicitly in the timeline as well. These visualization design
+timelines can help the communication of a design process internally with a
+design team during the process or externally after the fact with research
+colleagues or managers to provide a concise overview of the results and work
+conducted.
 
 
 

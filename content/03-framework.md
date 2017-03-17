@@ -402,7 +402,7 @@ reuse in their own visualization systems and tools.
 
 
 
-## Timelines of the Design Process
+## Timelines of the Design Process {#sec:timelines}
 
 In our experience, a visualization design process never seems to progress
 cleanly through a set of designated stages; this fact motivated our synthesis of
