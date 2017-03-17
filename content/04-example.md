@@ -1,38 +1,31 @@
-# Formulation of the Framework {#sec:formulation}
+# Case Study: Redesigning a Visualization System {#sec:formulation}
 
-\sm{update title and intro to reflect purpose}
 \sm{add in methods}
 \sm{add in timeline}
 \sm{explain role wrt to framework (reflective? during? team? etc)}
 
-\al{does this title work? eh on it...}
-\sm{should I keep all of these projects together? or split them apart? include
-sociology project? perhaps separate chapter for redesign project}
-\sm{refocus this on just the one example project in the DAF}
+<!--\sm{to help this section, we should better highlight stuff from the nested model and 9-stage framework. what was missing? how did this help?}-->
 
 The design activity framework was initially formulated from reflecting on a
 previous project where we worked with novice visualization designers. For this
 project, visualization experts worked with a team of designers, a psychologist,
 and a cyber security firm to tackle a redesign of that firm's visualization
 system [@McKenna2014]. We focused our redesign to create a series of sketches,
-wireframes, and mockups that visually communicated our ideas to the company's
-development team in order to improve their tool. While the final changes to the
-system were limited by the company's development budget, we found that a
-reflection on this project yielded useful insights which resulted in the design
-activity framework we presented in the last chapter. In particular, the
-visualization design artifacts and methods we created with other visualization
-novices were a significant portion of what made this project a success. Lastly,
-we reflect on the overall design process by incorporating and summarizing these
-aspects into a design timeline.
+wireframes, and mockups that visually communicated our visualization and
+interface ideas to the company's development team in order to improve their
+tool. While the final changes to the system were limited by the company's
+development budget and time, we found that a reflection on this project yielded
+useful insights which we used to create the design activity framework. In
+particular, the visualization design artifacts and methods we utilized with
+other visualization novices played a significant role in the success of this
+project. Lastly, we reflected on our team's overall design process by
+incorporating and summarizing these aspects into a design timeline.
 
 
 
 
 
-## Redesigning a Visualization System
-
-\al{why subsection? why not?}
-\sm{perhaps we should have this be a chapter?}
+## Overview of the Redesign Project
 
 We encountered the insufficiencies of current visualization process models while
 working on a project with a multidisciplinary design team consisting of two
