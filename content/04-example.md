@@ -283,15 +283,15 @@ prototype of RVS.
 ## Redesign Project Timeline
 
 
-We provide a timeline for our redesign project in [@fig:timeline], where design
-activities are represented as described in [@sec:timelines]. This visualization
-project's timeline shows the flow over time as we conducted multiple design
-activities, including nested activities and both forward and backward movement.
-The timeline is annotated with many of the design methods we used and some of
-the visualization artifacts we created and validated during our redesign.
-Characterizing our design process and creating this timeline were possible using
-the language and structure of the design activity framework, which previous
-visualization design models did not support or outline.
+We provide a timeline for our redesign project in [@fig:redesignTimeline], where
+design activities are represented as described in [@sec:timelines]. This
+visualization project's timeline shows the flow over time as we conducted
+multiple design activities, including nested activities and both forward and
+backward movement. The timeline is annotated with many of the design methods we
+used and some of the visualization artifacts we created and validated during our
+redesign. Characterizing our design process and creating this timeline were
+possible using the language and structure of the design activity framework,
+which previous visualization design models did not support or outline.
 
 
 ![
