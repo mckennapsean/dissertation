@@ -146,10 +146,85 @@ four design activities of the design activity framework.
 
 
 
+## Understand Design Activity
+
+\sm{should flesh out each of these activities in more detail...}
+
+The first activity in the framework is to **understand** the problem domain and
+target users. The motivation for this activity is: *to gather, observe, and
+research available information to find the needs of the user.* The artifacts of
+this activity are commonly referred to as design requirements [@Jones2008;
+@Royce1970; @Lloyd2011; @Goodwin2013a; @McLachlan2008; @DIS2010]. We
+specifically characterize requirements into one of three classes:
+*opportunities*, *constraints*, and *considerations*. **Opportunities**
+encompass the data and task abstraction artifacts that have a potential to
+impact the work and field of the  target users. They may also include higher
+level themes discovered through the domain characterization, such as workflow
+inefficiencies. **Constraints** are rigid limitations from the project itself
+that the visualization designer must work with, such as tight deadlines or
+display limitations. **Considerations**, however, are a looser, more flexible
+form of constraints that a designer should strive to consider, such as the
+importance of aesthetics or usability. Together, these three classes of
+artifacts for the understand activity play a crucial role in all following
+activities, and they often get reconsidered, adjusted, and prioritized
+throughout the design process.
+
+
+
+
+
+## Ideate Design Activity
+
+The second activity in the framework is the **ideate** activity, which has the
+motivation: *to generate good ideas for supporting the artifacts from the
+*Understand* activity. \al{not clear on this being a previous activity... is
+this really the best definition?} The artifact of the ideate activity is a set
+of ideas that can be externalized in a variety of forms, from sketches to
+wireframes to low-fidelity prototypes. It is important to note that the act of
+externalizing an idea onto some medium often results in the generation of
+additional ideas as they become more concrete [@Fallman2003a]. \al{unclear
+sentence?}
+
+
+
+
+
+## Make Design Activity
+
+The **make** activity is the third activity in the framework. This activity's
+motivation is: *to concretize ideas into tangible prototypes.* The artifact from
+the make activity is a set of prototypes, where prototypes are "approximations
+of a product along some dimensions of interest" [@Hartmann2006a]. These
+prototypes test aspects of design decisions made at the inner two levels of the
+nested model, the technique and algorithm levels. These prototypes explicitly
+explore the design decisions related to actualizing a specific visualization or
+interaction technique. Whereas low-fidelity prototypes can exist in the ideate
+activity, prototypes for the make activity are of a higher fidelity and
+typically involve encoding of real data in order to evaluate the efficacy of the
+visualization technique for a specific problem. This activity is not just
+implementing a given design; rather, the activity, including development or
+coding, also involves critical visualization design decisions [@Moere2011].
+
+
+
+
+
+## Deploy Design Activity
+
+The fourth activity in the framework is the **deploy** activity, with the
+motivation: *to bring a prototype into effective action in a real-world setting
+in order to support the target users' work and goals.* The overall artifact of
+this activity is a usable visualization system. This
+activity is the ultimate goal of problem-driven visualization design since it
+supports real-world users in their own work environments.
+
+
+
+
+
 ## Visualization Artifacts and the Nested Model
 
-\sm{I think we need to include more of a discussion on this!}
-\sm{I forgot that this was the 2nd paragraph in each activity... perhaps that is too much? we could separate out the nested model discussion into its own subsection. the sections on each activity would be smaller but that is okay, we could even flesh it out more there. I will read it and think about this!}
+\sm{reread this discussion}
 
 As shown in [@fig:nm-comparison], three of the four
 activities map to several levels of the nested model, implying that a specific
@@ -173,31 +248,6 @@ movements.
 ](figures/daf/nm-comparison.pdf){#fig:nm-comparison width="100%"}
 
 
-
-
-
-## Understand Design Activity
-
-The first activity in the framework is to **understand** the problem domain and
-target users. The motivation for this activity is: *to gather, observe, and
-research available information to find the needs of the user.* The artifacts of
-this activity are commonly referred to as design requirements [@Jones2008;
-@Royce1970; @Lloyd2011; @Goodwin2013a; @McLachlan2008; @DIS2010]. We
-specifically characterize requirements into one of three classes:
-*opportunities*, *constraints*, and *considerations*. **Opportunities**
-encompass the data and task abstraction artifacts that have a potential to
-impact the work and field of the  target users. They may also include higher
-level themes discovered through the domain characterization, such as workflow
-inefficiencies. **Constraints** are rigid limitations from the project itself
-that the visualization designer must work with, such as tight deadlines or
-display limitations. **Considerations**, however, are a looser, more flexible
-form of constraints that a designer should strive to consider, such as the
-importance of aesthetics or usability. Together, these three classes of
-artifacts for the understand activity play a crucial role in all following
-activities, and they often get reconsidered, adjusted, and prioritized
-throughout the design process.
-
-
 Artifacts for the understand activity fall into the outer two levels of the
 nested model, the domain characterization and abstraction levels. These artifact
 consist of acquired knowledge about the target set of users, their
@@ -210,22 +260,6 @@ etc. Artifacts can touch on the abstraction level of design decisions through an
 identification of the tasks that users need to perform to reach their goals, as
 well as an initial data abstraction that describes the users' measurements in a
 structured way.
-
-
-
-
-
-## Ideate Design Activity
-
-The second activity in the framework is the **ideate** activity, which has the
-motivation: *to generate good ideas for supporting the artifacts from the
-*Understand* activity. \al{not clear on this being a previous activity... is
-this really the best definition?} The artifact of the ideate activity is a set
-of ideas that can be externalized in a variety of forms, from sketches to
-wireframes to low-fidelity prototypes. It is important to note that the act of
-externalizing an idea onto some medium often results in the generation of
-additional ideas as they become more concrete [@Fallman2003a]. \al{unclear
-sentence?}
 
 
 These ideas encompass design decisions made at both the abstraction and
@@ -246,26 +280,6 @@ highlights the different kinds of design decisions made within the visualization
 design process.
 
 
-
-
-
-## Make Design Activity
-
-The **make** activity is the third activity in the framework. This activity's
-motivation is: *to concretize ideas into tangible prototypes.* The artifact from
-the make activity is a set of prototypes, where prototypes are "approximations
-of a product along some dimensions of interest" [@Hartmann2006a]. These
-prototypes test aspects of design decisions made at the inner two levels of the
-nested model, the technique and algorithm levels. These prototypes explicitly
-explore the design decisions related to actualizing a specific visualization or
-interaction technique. Whereas low-fidelity prototypes can exist in the ideate
-activity, prototypes for the make activity are of a higher fidelity and
-typically involve encoding of real data in order to evaluate the efficacy of the
-visualization technique for a specific problem. This activity is not just
-implementing a given design; rather, the activity, including development or
-coding, also involves critical visualization design decisions [@Moere2011].
-
-
 Most engineering design process models couple the ideate and make activities
 together. We believe that these two activities have related, but different,
 motivations and artifacts for visualization design, making their separation
@@ -277,22 +291,12 @@ decisions necessary to actualize an idea into a concrete, testable prototype,
 such as the details of how to encode a data item or which algorithms to utilize.
 
 
-
-
-
-## Deploy Design Activity
-
-The fourth activity in the framework is the **deploy** activity, with the
-motivation: *to bring a prototype into effective action in a real-world setting
-in order to support the target users' work and goals.* The overall artifact of
-this activity is a usable visualization system. This activity and its methods
+This activity and its methods
 are largely dominated by those from software engineering, with the focus of
 supporting target users utilizing the tool. Thus, the artifacts of the deploy
 stage touch on decisions made at the algorithm level of the nested model, as
 well as other decisions that are not necessarily about the visualization design
-itself, such as integration with existing software, databases, etc. This
-activity is the ultimate goal of problem-driven visualization design since it
-supports real-world users in their own work environments.
+itself, such as integration with existing software, databases, etc.
 
 
 
