@@ -70,10 +70,10 @@ artifact, or set of artifacts. Many creative process models tend to avoid
 breaking a process into sequential steps, stages, or phases, but, rather, they
 use the term activities [@Wu2011; @Atman2009; @Cardella2008; @Rudisill1995;
 @Snider2013; @Wodehouse2010a], which are not necessarily linear, and they are
-often overlapping. Each activity is composed of several key components: a
-_motivation_; clear, tangible _artifacts_ related to design decisions; and a
-collection of _methods_. We illustrate an overview of a design activity in
-[@fig:activity].
+often overlapping. We characterize the composition of each activity using
+several key components: a _motivation_; clear, tangible visualization
+_artifacts_ related to design decisions; and a collection of design _methods_.
+We illustrate an overview of a design activity in [@fig:activity].
 
 
 The **motivation** of an activity is the specific purpose behind the methods and
