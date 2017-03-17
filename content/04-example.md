@@ -303,7 +303,7 @@ and development process.
 
 
 
-## Redesign Project Timeline
+## Timeline of the Redesign Project
 
 
 We provide a timeline for our redesign project in [@fig:redesignTimeline], where
