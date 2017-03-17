@@ -1,9 +1,5 @@
 # Design Activity Framework {#sec:framework}
 
-\sm{ideate, check definition}
-\sm{watch out for make \& deploy definitions for clarity, how relates for design?}
-\sm{check definitions, matched with figures?}
-
 <!-- \sm{would be nice to have a concise macro-level fig. of the framework} -->
 
 A design process consists of _activities_ or steps taken to achieve a given
@@ -148,26 +144,48 @@ four design activities of the design activity framework.
 
 ## Understand Design Activity
 
-\sm{should flesh out each of these activities in more detail...}
+<!--\sm{keep fleshing out each of these activities with more detail?}-->
 
-The first activity in the framework is to **understand** the problem domain and
-target users. The motivation for this activity is: *to gather, observe, and
-research available information to find the needs of the user.* The artifacts of
-this activity are commonly referred to as design requirements [@Jones2008;
-@Royce1970; @Lloyd2011; @Goodwin2013a; @McLachlan2008; @DIS2010]. We
-specifically characterize requirements into one of three classes:
-*opportunities*, *constraints*, and *considerations*. **Opportunities**
-encompass the data and task abstraction artifacts that have a potential to
-impact the work and field of the  target users. They may also include higher
-level themes discovered through the domain characterization, such as workflow
-inefficiencies. **Constraints** are rigid limitations from the project itself
-that the visualization designer must work with, such as tight deadlines or
-display limitations. **Considerations**, however, are a looser, more flexible
-form of constraints that a designer should strive to consider, such as the
-importance of aesthetics or usability. Together, these three classes of
-artifacts for the understand activity play a crucial role in all following
-activities, and they often get reconsidered, adjusted, and prioritized
-throughout the design process.
+The first activity in the design activity framework for visualization projects
+is to **understand** the problem domain and target users. The motivation for
+this activity is: _to gather, observe, and research available information to
+find the needs of the user._ The artifacts of this activity are commonly
+referred to as design requirements [@Jones2008; @Royce1970; @Lloyd2011;
+@Goodwin2013a; @McLachlan2008; @DIS2010]. These design requirements are often
+tailored to helping users solve problems or challenges they face in visualizing
+data. Not all challenges that users or domain collaborators may face will use or
+need a visualization system. For example, sometimes statistics, machine
+learning, or pre-existing visualization tools such as Microsoft Excel or Tableau
+can help solve certain problems. In a visualization project, it is important for
+a novice designer to identify early on if there is a need and a set of design
+requirements that cannot easily be solved using existing tools.
+<!--\sm{perhaps include a few examples or citations here? I like some of this though}-->
+
+
+We can break down these visualization design requirements of the _understand_
+activity can be broken down into three classes: _opportunities_, _constraints_,
+and _considerations_. Visualization design **opportunities** encompass the data
+and task abstraction artifacts that have a potential to impact the work and
+field of the  target users. It is important to uncover data and task
+abstractions which cannot or cannot easily be solved using existing
+visualization tools. These opportunities may also include higher level themes
+discovered through the domain characterization, such as workflow inefficiencies
+when a collaborator may use static visualization tools in a pipeline that is
+slow, not interactive, and makes comparison tasks more difficult. Design
+**constraints** are rigid limitations from the project that the visualization
+designer must work with, such as rigid deadlines, limited hardware or computing
+systems, and access to expert users and their time. **Considerations**, however,
+are a looser, more flexible form of constraints that a designer should strive to
+consider, such as the importance of a final visualization tools' aesthetics,
+usability, or adherence to a set of domain visualization standards. These
+considerations may and sometimes should be broken, but careful analysis and
+justification needs to underlie such design decisions. Together, these three
+classes of visualization artifacts for the _understand_ activity play a crucial
+role in all following activities, and they often get reconsidered, adjusted, and
+prioritized throughout the design process. For example, data and task
+abstractions can be changed based on new data needed by a collaborator or a user
+expressing a need for a new type of task not previously considered when
+performing an evaluation of a deployed visualization system.
 
 
 
@@ -176,14 +194,42 @@ throughout the design process.
 ## Ideate Design Activity
 
 The second activity in the framework is the **ideate** activity, which has the
-motivation: *to generate good ideas for supporting the artifacts from the
-*Understand* activity. \al{not clear on this being a previous activity... is
-this really the best definition?} The artifact of the ideate activity is a set
-of ideas that can be externalized in a variety of forms, from sketches to
-wireframes to low-fidelity prototypes. It is important to note that the act of
-externalizing an idea onto some medium often results in the generation of
-additional ideas as they become more concrete [@Fallman2003a]. \al{unclear
-sentence?}
+motivation: _to generate a plethora of concepts and then winnow these into good
+ideas that meet the needs of a user._ The visualization artifacts of the
+_ideate_ activity are a set of ideas that are often externalized in a variety of
+forms, from sketches to wireframes to low-fidelity prototypes. These generation
+and evaluation are two very important steps for ideation. For example, many
+creative designers strive to generate ideas free of limitations, constraints, or
+considerations because early judgment and decision-making can limit the range of
+possible ideas and concepts produced. Divergent design thinking is valued and
+recommended here, especially with visualization design, because this is where
+innovation and new visualization designs, techniques, and algorithms can be
+created.
+<!--\sm{add a few citations here?}-->
+
+
+Beyond the creation of ideas, it is also important to compare, evaluate, and
+winnow the broad set of ideas into ones that have a greater potential for impact
+of a visualization tool. For example, a common choice faced by visualization
+designers is whether to encode a network graph as a set of nodes and links drawn
+between them or as a matrix to organize and restrict their position. Commonly,
+this decision can be motivated by the types of tasks a user wants to perform,
+but it could also be influenced by other factors such as the characteristics of
+the data (e.g., how many nodes or links?) or what role this tool needs to play
+in a larger system. Furthermore, to communicate and share ideas within a design
+team or to evaluate with users, it is often necessary to externalize these ideas
+by sketching them down on paper, or more refined versions like wireframes or
+low-fidelity prototypes. As a designer externalizes these ideas onto some medium
+such as paper, it is common that more details of an idea must be fleshed out and
+concretized [@Fallman2003a]. Another suggested technique in the visualization
+community is data sketching which incorporates data into the ideation process,
+to discover the result and limitations encountered when using real data when
+trying out an idea. For both this sketching and data sketching, it is also
+possible that more ideas may spin out of this process, as a variation upon an
+existing idea or new idea combining several together, so it is often recommended
+for novice visualization designers to externalize their ideas early and often to
+help them generate more ideas and better ideas.
+<!--\sm{add references here as well-wait are data sketches here or make?}-->
 
 
 
@@ -191,19 +237,37 @@ sentence?}
 
 ## Make Design Activity
 
-The **make** activity is the third activity in the framework. This activity's
-motivation is: *to concretize ideas into tangible prototypes.* The artifact from
-the make activity is a set of prototypes, where prototypes are "approximations
-of a product along some dimensions of interest" [@Hartmann2006a]. These
-prototypes test aspects of design decisions made at the inner two levels of the
-nested model, the technique and algorithm levels. These prototypes explicitly
-explore the design decisions related to actualizing a specific visualization or
-interaction technique. Whereas low-fidelity prototypes can exist in the ideate
-activity, prototypes for the make activity are of a higher fidelity and
-typically involve encoding of real data in order to evaluate the efficacy of the
-visualization technique for a specific problem. This activity is not just
-implementing a given design; rather, the activity, including development or
-coding, also involves critical visualization design decisions [@Moere2011].
+Next, a visualization designer must start to build a visualization system in the
+**make** activity. This activity's motivation is: _to concretize ideas into
+tangible prototypes._ The visualization artifacts from the _make_ activity are a
+set of prototypes, where prototypes are defined as "approximations of a product
+along some dimensions of interest" [@Hartmann2006a]. These prototypes must be
+built to handle and visualize real datasets, and it is common that as prototypes
+get built that more design requirements or ideas may be explored and discovered,
+highlighting the iterative nature of visualization design. Another aspect of the
+_make_ activity goes beyond design: visualization designers need to employ
+software engineering and development techniques for writing code and programs to
+build visualizations to meet the needs of the users. This could be as simple as
+writing scripts or automate processes for generating visualizations and tying
+them together using a variety of existing tools, but it is also possible to use
+other visualization frameworks (e.g., D3.js, Vega, Processing) or graphics
+toolkits (e.g., OpenGL, WebGL, Canvas) to build and generate interactive
+visualizations from the ground up.
+
+
+Most engineering design process models couple the ideate and make activities
+together. We believe that these two activities have related, but different,
+motivations and artifacts for visualization design, making their separation
+important for a careful consideration of all types of visualization design
+decisions. While low-fidelity prototypes can exist in the _ideate_ activity,
+prototypes for the _make_ activity are of a higher fidelity and typically
+involve encoding of real data in order to evaluate the efficacy of the
+visualization technique for a specific problem. The _ideate_ activity is meant
+to free the designer from focusing on low-level design decisions in order to
+broadly consider more abstract ones. The _make_ activity, on the other hand,
+focuses the designer on the low-level design decisions necessary to actualize an
+idea into a concrete, testable prototype, such as the details of how to encode a
+data item or which algorithms to utilize.
 
 
 
@@ -211,12 +275,33 @@ coding, also involves critical visualization design decisions [@Moere2011].
 
 ## Deploy Design Activity
 
-The fourth activity in the framework is the **deploy** activity, with the
-motivation: *to bring a prototype into effective action in a real-world setting
-in order to support the target users' work and goals.* The overall artifact of
-this activity is a usable visualization system. This
-activity is the ultimate goal of problem-driven visualization design since it
-supports real-world users in their own work environments.
+The final design activity in the visualization framework is the **deploy**
+activity, with the motivation: _to construct a visualization system and bring it
+into effective action in a real-world setting in order to support the target
+users' work and goals._ The overall visualization artifact of this activity is a
+usable visualization system. This activity is the ultimate goal of
+problem-driven visualization design since it supports real-world users in their
+own work environments. Constructing a visualization system often involves
+considerations and steps not necessary of an early visualization prototype. For
+example, it is less common to focus on usability, aesthetics, or scalability
+issues in a prototype system, but these are all critical aspects of a final
+system which can impact a domain collaborators' ability or desire to effectively
+use the produced visualization tool for their set of tasks.
+
+
+Another important step in the _deploy_ activity is to consider optimizations
+that are needed by users to solve their needs. As an example, imagine a domain
+user that generates their data using an industry standard tool, and they want to
+be able to use that data inside of the visualization system that you created.
+For your visualization to work for them, you could leave the prototype
+requirement of the user going to export their data to CSV, checking a few boxes
+or running a custom script to parse the data into your tool, but this would be
+cumbersome, require some training, and limit the ability of users to use the
+system. A key part of working towards deploying a visualization is improving
+these little annoyances, by having your visualization system support their
+native data format from the outset, so that no special steps are needed for a
+user to visualize their data in your tool.
+<!--\sm{is there a good example of this in the real world/papers?}-->
 
 
 
@@ -280,15 +365,12 @@ highlights the different kinds of design decisions made within the visualization
 design process.
 
 
-Most engineering design process models couple the ideate and make activities
-together. We believe that these two activities have related, but different,
-motivations and artifacts for visualization design, making their separation
-important for a careful consideration of all types of visualization design
-decisions. The ideate activity is meant to free the designer from focusing on
-low-level design decisions in order to broadly consider more abstract ones. The
-make activity, on the other hand, focuses the designer on the low-level design
-decisions necessary to actualize an idea into a concrete, testable prototype,
-such as the details of how to encode a data item or which algorithms to utilize.
+These prototypes test aspects of design decisions made at the inner two levels of the
+nested model, the technique and algorithm levels. These prototypes explicitly
+explore the design decisions related to actualizing a specific visualization or
+interaction technique. This activity is not just
+implementing a given design; rather, the activity, including development or
+coding, also involves critical visualization design decisions [@Moere2011].
 
 
 This activity and its methods
