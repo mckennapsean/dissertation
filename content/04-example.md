@@ -7,19 +7,19 @@
 <!--\sm{to help this section, we should better highlight stuff from the nested model and 9-stage framework. what was missing? how did this help?}-->
 
 The design activity framework was initially formulated from reflecting on a
-previous project where we worked with novice visualization designers. For this
-project, visualization experts worked with a team of designers, a psychologist,
-and a cyber security firm to tackle a redesign of that firm's visualization
-system [@McKenna2014]. We focused our redesign to create a series of sketches,
-wireframes, and mockups that visually communicated our visualization and
-interface ideas to the company's development team in order to improve their
-tool. While the final changes to the system were limited by the company's
-development budget and time, we found that a reflection on this project yielded
-useful insights which we used to create the design activity framework. In
-particular, the visualization design artifacts and methods we utilized with
-other visualization novices played a significant role in the success of this
-project. Lastly, we reflected on our team's overall design process by
-incorporating and summarizing these aspects into a design timeline.
+previous project where I was very much a novice visualization designer. For this
+project, visualization researchers worked with a team of designers, a
+psychologist, and a cyber security firm to tackle a redesign of that firm's
+visualization system [@McKenna2014]. We focused our redesign to create a series
+of sketches, wireframes, and mockups that visually communicated our
+visualization and interface ideas to the company's development team in order to
+improve their tool. While the final changes to the system were limited by the
+company's development budget and time, we found that a reflection on this
+project yielded useful insights which we used to create the design activity
+framework. In particular, the visualization design artifacts and methods we
+utilized with other visualization novices played a significant role in the
+success of this project. Lastly, we reflected on our team's overall design
+process by incorporating and summarizing these aspects into a design timeline.
 
 
 
@@ -27,20 +27,22 @@ incorporating and summarizing these aspects into a design timeline.
 
 ## Overview of the Redesign Project
 
-We encountered the insufficiencies of current visualization process models while
-working on a project with a multidisciplinary design team consisting of two
-visualization experts, two designers, and one psychologist. Our team tackled the
-challenge of redesigning an existing visualization tool in the area of cyber
-security. As our team attempted to adopt the nine-stage framework for conducting
-design studies [@Sedlmair2012b], we struggled to answer questions such as: If
-I'm not starting from the beginning, where exactly am I in the design process?
-What are the range of methods that are useful at any given point? What types of
-artifacts should I be working towards along the way? How do I know my artifacts
-are good, or even just good enough, when balanced against real-world
-constraints? We believe that these questions point to a lack of *actionability*
-in current visualization process models, or a lack of implementable and
-immediately usable guidance that helps a visualization practitioner explicitly
-navigate a real-world visualization design process.
+I encountered the insufficiencies of current visualization process models while
+working on a project with a multidisciplinary design team consisting of a
+visualization expert, two designers, and one psychologist. I was a novice
+visualization designer at the time, one year into my Ph.D. and still learning
+about data visualization. Our team tackled the challenge of redesigning an
+existing visualization tool in the area of cyber security. As our team attempted
+to adopt the nine-stage framework for conducting design studies
+[@Sedlmair2012b], I noted that we struggled to answer questions such as: If I'm
+not starting from the beginning, where exactly am I in the design process? What
+are the range of design methods that are useful at any given point? What types
+of visualization artifacts should I be working towards along the way? How do I
+know my artifacts are good, or even just good enough, when balanced against
+real-world constraints? We believe that these questions point to a lack of
+_actionability_ in current visualization process models, or a lack of
+implementable and immediately usable guidance that helps a visualization novice
+explicitly navigate a real-world visualization design process.
 
 
 This seven-month project focused on improving the usability and effectiveness of
@@ -49,9 +51,9 @@ Analysts working with cyber security data focus on maintaining the security of
 computer networks, relying on data about how a network is functioning, known
 network attack patterns, and a broad range of external sources of knowledge.
 Specifically, our team was tasked with providing ideas and mock-ups for how to
-redesign the visualizations within RVS --- the implementation of these redesigns
-within RVS was handled by developers at the company that developed and maintains
-RVS.
+redesign the visualizations and interface within RVS --- the implementation of
+these redesigns within RVS was handled by developers at the company that
+developed and maintains RVS.
 
 
 Over the course of our redesign project we worked with: developers, researchers,
