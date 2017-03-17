@@ -309,17 +309,20 @@ user to visualize their data in your tool.
 
 ## Visualization Artifacts and the Nested Model
 
-\sm{reread this discussion}
-
-As shown in [@fig:nm-comparison], three of the four
-activities map to several levels of the nested model, implying that a specific
-design activity can be used to make different types of visualization design
-decisions. Conversely, a designer focusing on just one type of design decision
-will often move through different activities; thus, the culmination of a
-complete visualization could involve moving through this framework in a complex,
+The design activity framework can be utilized by novice and even expert
+visualization designers to reflect on the design decisions they made by tracking
+the visualization artifacts you produce in each activity. As shown in
+[@fig:nm-comparison], three of the four design activities and their associated
+visualization artifacts map to two levels of the nested model, implying that a
+specific visualization artifact can result from different types of visualization
+design decisions. Conversely, a designer focusing on just one type of design
+decision (e.g. which data abstraction to use) will often move through different
+design activities to pick the right one; thus, the culmination of a complete
+visualization could involve moving through this framework in a complex,
 iterative, and _multilinear_ fashion. By multilinear we mean that a process
 combines forward, linear movement with cyclic, backwards, and parallel
-movements.
+movements. We discuss more about movement and design timelines in the following
+section.
 
 
 ![
@@ -333,52 +336,67 @@ movements.
 ](figures/daf/nm-comparison.pdf){#fig:nm-comparison width="100%"}
 
 
-Artifacts for the understand activity fall into the outer two levels of the
-nested model, the domain characterization and abstraction levels. These artifact
-consist of acquired knowledge about the target set of users, their
-domain-specific questions and goals, their workflows, and the types of
-measurements or data they have acquired --- these artifacts are referred to as
-situation blocks in the nested blocks and guidelines model [@Meyer].
-Furthermore, the artifacts also include contextual information about the project
-itself, such as real-world project considerations, i.e. time, budget, expertise,
-etc. Artifacts can touch on the abstraction level of design decisions through an
-identification of the tasks that users need to perform to reach their goals, as
-well as an initial data abstraction that describes the users' measurements in a
-structured way.
+Artifacts for the _understand_ activity fall into the outer two levels of the
+nested model, the domain characterization and abstraction levels. These
+visualization artifacts of design requirements consist of acquired knowledge
+about the target set of users, their domain-specific questions and goals, their
+workflows, and the types of measurements or data they have acquired --- these
+artifacts are referred to as situation blocks in the nested blocks and
+guidelines model [@Meyer]. Furthermore, design requirements can also include
+contextual information about the project itself, such as real-world project
+considerations, i.e. time, budget, expertise, etc. Visualization artifacts can
+touch on the abstraction level of design decisions through an identification of
+the tasks that users need to perform to reach their goals, as well as an initial
+data abstraction that describes the users' measurements in a structured way.
 
 
-These ideas encompass design decisions made at both the abstraction and
-technique levels of the nested model. More specifically, at the abstraction
-level ideas reflect decisions made about how to structure the data or derive new
-data types that will support the *understand* artifacts. At the technique level,
-the ideas reflect high-level design decisions about visual encoding and
-interaction technique choices based on the abstraction decisions, such as
-choosing a specific  visualization technique, while ignoring lower level
-decisions about the details of that technique; exploring these low-level
-decisions is the function of the make activity described in the next section.
-Thus, the ideate activity supports very broad exploration of the high-level
-design space for supporting a specific problem, leaving more detailed design
-decisions to later activities.  Ideation is commonly considered as a separate
-activity in the design community [@Brown2009; @Cardella2008; @Sedlmair2012b;
+In the _ideate_ activity, ideas encompass design decisions made at both the
+abstraction and technique levels of the nested model. More specifically, at the
+abstraction level ideas reflect decisions made about how to structure the data
+or derive new data types that will best support the needs of the users. At the
+technique level, the visualization artifacts reflect high-level design decisions
+about visual encoding and interaction technique choices based on the abstraction
+decisions, such as choosing a specific  visualization technique, while ignoring
+lower level decisions about the details of that technique; exploring these
+low-level decisions is the function of the _make_ activity described next. Thus,
+the _ideate_ activity supports very broad exploration of the high-level design
+space for supporting a specific problem, leaving more detailed design decisions
+to later activities.  Ideation is commonly considered as a separate activity in
+the design community [@Brown2009; @Cardella2008; @Sedlmair2012b;
 @Lidwell2010; @Vredenburg2002; @Ware2010; @Wodehouse2010a], and this separation
 highlights the different kinds of design decisions made within the visualization
 design process.
 
 
-These prototypes test aspects of design decisions made at the inner two levels of the
-nested model, the technique and algorithm levels. These prototypes explicitly
-explore the design decisions related to actualizing a specific visualization or
-interaction technique. This activity is not just
-implementing a given design; rather, the activity, including development or
-coding, also involves critical visualization design decisions [@Moere2011].
+Visualization prototypes from the _make_ activity can explore aspects of design
+decisions made at the inner two levels of the nested model, the technique and
+algorithm levels. Visualization prototypes explicitly explore the design
+decisions related to actualizing a specific visualization or interaction
+technique using code, so they typically involve implementing a given
+visualization encoding or interaction technique and the necessary algorithms
+that make the prototype work. This activity is not just about implementing a
+given design; rather, the activity, including development or coding, also
+involves critical visualization design decisions [@Moere2011]. For example,
+using a map-based encoding of a data, you might discover that several data
+points are right on top of each other and have to make low-level decisions on
+how the algorithm or encoding handles these overlapping points so that the data
+is shown completely and without error to the user.
 
 
-This activity and its methods
-are largely dominated by those from software engineering, with the focus of
-supporting target users utilizing the tool. Thus, the artifacts of the deploy
-stage touch on decisions made at the algorithm level of the nested model, as
-well as other decisions that are not necessarily about the visualization design
-itself, such as integration with existing software, databases, etc.
+The _deploy_ activity and its final visualization system is often constructed
+using methods from the field of software engineering and user experience
+engineering, with a focus of supporting target users utilizing the tool in a
+real world situation. Thus, the visualization system must touch on decisions
+made at the algorithm level of the nested model, in addition to other decisions
+that are not necessarily about the visualization design itself, such as
+integration with existing software, databases, etc. As such, thease additional
+decisions are not captured by the nested model. However, the algorithm level is
+important to consider, since there may be issues of scalability or the
+interactive speeds of the system when using the real, potentially larger
+datasets that collaborators use in their day-to-day workflows. These types of
+optimizations can even be published on their own as an algorithm improvement to
+speed up the visualization encoding or interactive technique that others could
+reuse in their own visualization systems and tools.
 
 
 
