@@ -15,6 +15,7 @@
 3. more complete comparison to existing work, including what existing work is missing
 
 - detailed comparison with what the 9-stage framework is missing
+- include this overview in daf chapter
 - a few more resources to include, as recommended by committee members
 - clearer use and distinction of the terms “creative”/“creativity”
 - add a short section on agile software development and design, and how this relates to the framework
@@ -22,8 +23,6 @@
 
 
 4. add in more components of the design activity framework, and why they address what is missing from existing work
-
-- more discussion of what's missing from related work in daf chapter
 
 
 
