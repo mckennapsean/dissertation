@@ -15,7 +15,7 @@ its actionability for use by novice visualization designers.
 
 In this chapter, we present an overview of the **design activity framework**, a
 flexible structure meant to guide a novice designer through the real-world,
-multilinear, and iterative  process of developing a visualization for a specific
+iterative, and multilinear process of developing a visualization for a specific
 problem or application domain. We envision the framework as a lens that a novice
 designer could use to orient themselves within the design process, to choose
 useful methods, to make appropriate design decisions, and to analyze and
