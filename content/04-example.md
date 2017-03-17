@@ -69,56 +69,6 @@ realities of working within a large software system.
 
 
 
-## Redesign Project Timeline
-
-
-We provide a timeline for our redesign project in [@fig:timeline], where design
-activities are represented as described in [@sec:timelines]. This visualization
-project's timeline shows the flow over time as we conducted multiple design
-activities, including nested activities and both forward and backward movement.
-The timeline is annotated with many of the design methods we used and some of
-the visualization artifacts we created and validated during our redesign.
-Characterizing our design process and creating this timeline were possible using
-the language and structure of the design activity framework, which previous
-visualization design models did not support or outline.
-
-
-![
-  This timeline provides a concise overview
-  of our redesign project. Key design activities
-  are located in the middle, highlighting both
-  backwards movement and activities nesting within
-  each other when team members worked separately.
-  Our redesign project contained several key
-  time constraints, or deadlines, listed at the
-  top. Towards the bottom, we highlight numerous
-  design methods and visualization artifacts utilized throughout our project.
-](figures/daf/timeline.pdf){#fig:redesignTimeline width="100%"}
-
-<!--\al{why is there a separation/gap between activities? }-->
-<!--\sm{revisit timeline, clean up any strange gaps that exist?}-->
-
-
-We show this timeline in more detail in [@fig:redesignTimeline] than previously
-shown in the bottom of [@fig:timelines]. The difference of these two timelines
-shows the flexiblity of the design activity framework to capture both the
-high-level view of a design project and the pattern or flow of design activities
-as well as the low-level detail of specific visualization artifacts and design
-methods utilized. These design timelines could be further enhanced by
-highlighting levels of the nested model or details of visualization design
-decisions made throughout the process. We found that keeping track of these
-activities can help novices meet deadlines by focusing on specific design
-activities and visualization artifacts as well, which is why we highlight these
-deadlines explicitly in the timeline as well. These visualization design
-timelines can help the communication of a design process internally with a
-design team during the process or externally after the fact with research
-colleagues or managers to provide a concise overview of the results and work
-conducted.
-
-
-
-
-
 ## Redesign Project in the Design Activity Framework
 
 Here we will walk through our redesign project and describe our design process
@@ -325,4 +275,54 @@ prototype of RVS.
 
 \al{where is the line between ideate and make?}
 \sm{deploy?}
+
+
+
+
+
+## Redesign Project Timeline
+
+
+We provide a timeline for our redesign project in [@fig:timeline], where design
+activities are represented as described in [@sec:timelines]. This visualization
+project's timeline shows the flow over time as we conducted multiple design
+activities, including nested activities and both forward and backward movement.
+The timeline is annotated with many of the design methods we used and some of
+the visualization artifacts we created and validated during our redesign.
+Characterizing our design process and creating this timeline were possible using
+the language and structure of the design activity framework, which previous
+visualization design models did not support or outline.
+
+
+![
+  This timeline provides a concise overview
+  of our redesign project. Key design activities
+  are located in the middle, highlighting both
+  backwards movement and activities nesting within
+  each other when team members worked separately.
+  Our redesign project contained several key
+  time constraints, or deadlines, listed at the
+  top. Towards the bottom, we highlight numerous
+  design methods and visualization artifacts utilized throughout our project.
+](figures/daf/timeline.pdf){#fig:redesignTimeline width="100%"}
+
+<!--\al{why is there a separation/gap between activities? }-->
+<!--\sm{revisit timeline, clean up any strange gaps that exist?}-->
+
+
+We show this timeline in more detail in [@fig:redesignTimeline] than previously
+shown in the bottom of [@fig:timelines]. The difference of these two timelines
+shows the flexiblity of the design activity framework to capture both the
+high-level view of a design project and the pattern or flow of design activities
+as well as the low-level detail of specific visualization artifacts and design
+methods utilized. These design timelines could be further enhanced by
+highlighting levels of the nested model or details of visualization design
+decisions made throughout the process. We found that keeping track of these
+activities can help novices meet deadlines by focusing on specific design
+activities and visualization artifacts as well, which is why we highlight these
+deadlines explicitly in the timeline as well. These visualization design
+timelines can help the communication of a design process internally with a
+design team during the process or externally after the fact with research
+colleagues or managers to provide a concise overview of the results and work
+conducted.
 
