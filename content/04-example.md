@@ -305,7 +305,6 @@ and development process.
 
 ## Timeline of the Redesign Project
 
-
 We provide a timeline for our redesign project in [@fig:redesignTimeline], where
 design activities are represented as described in [@sec:timelines]. This
 visualization project's timeline shows the flow over time as we conducted
@@ -349,3 +348,222 @@ design team during the process or externally after the fact with research
 colleagues or managers to provide a concise overview of the results and work
 conducted.
 
+
+
+
+
+## Results of the Redesign Project
+
+A tertiary contribution of this work is several _understand_ outcomes that
+consist of new considerations and rich opportunities for cyber security
+visualization design; these types of domain characterization and abstraction
+contributions have been advocated by others [@Munzner2009; @Meyer]. These
+outcomes were identified through both the open coding and interviews, as
+explained in [@sec:redesign-understand]. The new design considerations we
+introduce are a new data abstraction and a vital feedback loop for cyber
+security analysis. These considerations stem from the original data hierarchy
+model presented in a cognitive task analysis by D'Amico and Whitley, which
+illustrates how analysts process, filter, sort, and select important information
+from the data and transform that raw data into situational awareness for cyber
+security [@DAmico2008] (see Figure 1 in their paper). In their work, analysts
+start with raw data, or network packets, and filter data from alerts to events
+and eventually to **rule sets**, or high-level descriptions of a collection of
+multiple incidents. Based on our research and interviews, however, there are
+several other key types of data that analysts use: internal or "in-house" data
+such as firewall rules or incident reports; external data such as hacker
+websites and mailing lists; and processed output data, i.e. incident reports.
+Additionally, rule sets often become detection signatures to automatically
+filter raw data, creating a feedback loop in the analysts' workflow. This idea
+of a feedback loop is not new; we saw them in several different task diagrams
+for cyber security analysts [@Erbacher2010a; @DAmico2008]. Ideally, incident
+reports and other processed data by analysts would be incorporated into this
+feedback loop, but currently this is difficult to do since incident reports are
+disparate and not easily searchable [@DAmico2008]. We present a new data
+abstraction for the data hierarchy model in [@fig:data-hierarchy], highlighting
+the additional data types as well as an idealized feedback loop from incident
+reports to internal data, and external data if shared. This model established
+several key considerations for our redesign process, and we suspect it could
+similarly aid future cybersecurity visualization tools to better address the
+needs of analysts.
+
+
+![
+  We present a simplified extension of a data
+  hierarchy model for how cyber security analysts
+  transform raw data into cyber security situational
+  awareness [@DAmico2008].
+  This simplified model focuses on a novel data
+  abstraction: new data types such as internal data,
+  which is kept "in-house"; external data which may
+  be shared or obtained from websites, social media,
+  phone calls, etc.; as well as processed data such as
+  incident reports. There exists a data feedback loop
+  from rule sets back to raw data, and, ideally,
+  such a loop would exist for incident reports, but
+  this is an active research problem in this domain.
+](figures/daf/data-hierarchy.pdf){#fig:data-hierarchy width="100%"}
+
+
+Based on our literature review, interviews, and new data abstraction, we
+identify several open opportunities for visualization in the field of cyber
+security: provenance, data type handling, and data hierarchy continuity. For
+provenance, visualization researchers could focus on providing tools for
+analysts to track and document their findings while using a visualization tool
+to explore their data, ultimately for the purpose of automatically generating
+reports and sharing their analysis process [@Erbacher2010a; @DAmico2008]. The
+opportunity of data type handling would seek to visualize a broader variety of
+data types, such as a variety of external data coming from websites, social
+media, images, etc. [@Fink2009]. Lastly, related to the data hierarchy model,
+the continuity opportunity points to finding ways to scale visualizations to the
+current, massive datasets while retaining the ability to go back to the raw data
+[@DAmico2008; @Fink2009; @Erbacher2010a].
+
+
+
+
+
+## Qualitative Coding
+
+In this section, we focus on one design method in detail: **qualitative
+coding**. As we explained in the previous chapter, there is a benefit to
+exploring and validating the use of novel and unique design methods in the
+context of real-world visualization projects. The _qualitative coding_ method
+played a key role in the _understand_ activity of this project. For this design
+method, we first discuss our motivation behind why we utilized this approach in
+the context of our design process. Then, we highlight the visualization
+artifacts achieved, followed by results and implications of what we learned and
+a discussion of the method's efficiency, effectiveness, and limitations. Lastly,
+we present recommendations for using this method in the context of cyber
+security visualization design.
+
+
+![
+  A sample of qualitative codes pulled from three cognitive task analyses papers.
+](figures/methods/coding.pdf){#fig:coding width="100%"}
+
+<!-- For more details, please see the Appendix. Supplemental Materials.[^1]-->
+<!-- TODO do we want this extra detail? where to include? or just a URL? -->
+
+
+When tasked with redesigning a large cyber security tool, our design team had
+limited access to end users. Despite the fact that a fully deployed tool already
+existed, we were taking a step back to find users' needs in the first design
+activity: _understand_. Our motivation in this activity was to better understand
+the needs and design opportunities for network security analysts to redesign the
+firm's tool. But how do we identify user needs without direct access to end
+users? Many researchers have studied users in this domain from a variety of
+perspectives, particularly with cognitive task analyses. For this project we
+built off of this rich existing body of knowledge through qualitative coding of
+three cognitive task analyses.
+
+
+We took inspiration from the social sciences [@Strauss1990] to help structure
+our analysis by performing an open coding on several key CTA papers from the
+field. Qualitative researchers often use coding as a method to organize,
+structure, and consolidate information into a structured framework. Open coding
+is a subset of qualitative coding, which focuses on the original content to form
+the codes you make, as opposed to axial coding, which incorporates existing
+categories to tag onto the source material [@Strauss1990]. This method has been
+utilized by visualization researchers to perform various post-hoc analyses
+[@Lam2011a; @Isenberg2013a; @Sedlmair2014; @Staheli2014], but we had not seen
+this method used in the _understand_ activity to pinpoint user needs for cyber
+security.
+
+
+After half a month of extensive literature review, four members of our design
+team identified and performed a deep reading on three cognitive task analysis
+papers [@DAmico2008; @Erbacher2010a; @Fink2009], pulling out key quotes,
+paraphrases, and models. Each piece of data corresponds to rows of our coding
+table, and we met several times over a month to better organize, iterate on, and
+consistently tag this information across all three papers. These meetings and
+iterative coding process were crucial to allow the design team to come to an
+agreement on our final codes. After a month of open coding the three papers, we
+consolidated all of our data together in a final meeting.
+
+
+### Visualization Artifacts
+
+![
+  An extension to the data hierarchy model presented by D'Amico et al.
+  [@DAmico2008], highlighting how various results feed back to raw data, while
+  also pinpointing several key tasks. We established this extension as part of
+  the qualitative coding method, which we used to motivate the redesign of a
+  software tool.
+](figures/methods/model.pdf){#fig:model width="100%"}
+
+
+We present a sample visualization artifact resulting from our coding method in
+[@fig:coding] Each piece of information is organized across one or more papers
+and into a hierarchy of categories. At the top-most level, we identified
+categories such as data, design guidelines, phases, roles, responsibilities,
+tasks, terminology, tools, and workflows. Additionally, we tagged information
+with sub-categories on a finer scale.
+
+<!-- TODO where to put additional materials? -->
+<!-- ; a more complete table of all the data is included in Supplemental Materials.[^1] -->
+
+
+Focusing the data from these three CTAs enabled us to identify user needs
+without the user, as we had limited access to cyber security analysts. Over the
+course of a few weeks, our design team synthesized the codes into a set of
+distinguishable design opportunities, such as provenance, scalability,
+usability, desirability, data type handling, and a data hierarchy continuity. We
+used our knowledge from the qualitative coding method to prioritize this list
+and distinguish opportunities with the most potential to impact cyber security
+analysts. This produced our final thematic design opportunities for improvements
+to the existing tool: usability, workflow improvements, desirability, and
+temporal data representation.
+
+
+### Results and Implications
+
+After identifying key design opportunities, our design team iterated on a series
+of ideas for the company to improve their tool. We sketched out and detailed a
+more usable welcome screen, added a widget for sharing messages among analysts,
+highlighted recent user activity to promote sharing, visually clarified
+distinctions between vulnerabilities and alerts, and created a new overview
+timeline visualization to coordinate all views. A software developer
+incorporated these changes, and the updated tool was tested with Department of
+Defense analysts using an A/B evaluation method. The result of this evaluation
+was that the redesigned tool was more usable and effective than the previous
+design.
+
+
+Lastly, the qualitative coding method enabled us to identify extensions to a
+well-known data hierarchy model for cyber security situational awareness
+[@DAmico2008] --- we present this extension in [@fig:model]. The original data
+model describes how analysts process, filter, sort, and select data, as it
+transfers from raw data into situational awareness. Our extensions highlights
+the data feedback loop, clearly shows the outputs from this feedback loop, and
+provides identification of tasks for filtering the data across levels.
+
+
+### Discussion
+
+The qualitative coding method was efficient as compared to more complex methods,
+such as a multiple-analyst cognitive task analysis; we conducted the qualitative
+coding in under two months. As for the effectiveness of this method, we were
+able to focus our user needs into a set of concrete design opportunities to
+produce the desired outcome: understanding of user needs without direct access
+to users. These design opportunities led to the final redesign of a deployed
+tool that analysts found more usable and effective than before. The complete
+table of our coding results can be utilized by others to identify,
+categorize, and prioritize different user needs in future cyber security design
+projects. A limitation to this work is that it focuses on the details for only
+three papers; these results may be extended by coding additional papers from
+this field. Furthermore, one caveat to this approach is that published research
+may not reflect all the nuances of an operational environment. Thus, this method
+should not simply be used to replace access to real users.
+
+<!-- TODO again, where to link full table of coding methods? e.g. [^1] -->
+
+
+### Recommendations
+
+- Start your coding method on a few papers to develop an initial set of codes; select papers from appropriate venues:
+  - e.g. VizSec, VIS, CHI, HFES, Behavior & Information Technology, Computers & Security, FIRST, HST, AMCIS, SAM, CyCon, FloCon, CogSIMA, DHS CATCH, HCI HAS, CTS SECOTS.
+- On the first pass, highlight and tag key pieces of information; we suggest starting with the categories we identified.
+- Limit the time and scope on your first pass of coding; spend more time to meet as a team and agree on codes.
+- Once you reach a consensus on codes, expand to more papers and divide up the work, allowing some overlap in coverage for consistency.
+
+<!-- categories we identified [^1] -->

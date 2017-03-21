@@ -1204,7 +1204,7 @@ focus on providing tools for analysts to track and document
 their findings while using a visualization tool to explore their data,
 ultimately for the purpose of automatically generating
 reports and sharing their analysis process
-[@Erbacher2010a; DAmico2008]. The opportunity of data
+[@Erbacher2010a; @DAmico2008]. The opportunity of data
 type handling would seek to visualize a broader variety of data types, 
 such as a variety of external data
 coming from websites, social media, images, etc. [@Fink2009].
