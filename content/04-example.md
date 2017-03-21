@@ -1,9 +1,5 @@
 # Case Study: Redesigning a Visualization System {#sec:formulation}
 
-\sm{add in methods}
-\sm{add in timeline}
-\sm{explain role wrt to framework (reflective? during? team? etc)}
-
 <!--\sm{to help this section, we should better highlight stuff from the nested model and 9-stage framework. what was missing? how did this help?}-->
 
 The design activity framework was initially formulated from reflecting on a
@@ -352,77 +348,7 @@ conducted.
 
 
 
-## Results of the Redesign Project
-
-A tertiary contribution of this work is several _understand_ outcomes that
-consist of new considerations and rich opportunities for cyber security
-visualization design; these types of domain characterization and abstraction
-contributions have been advocated by others [@Munzner2009; @Meyer]. These
-outcomes were identified through both the open coding and interviews, as
-explained in [@sec:redesign-understand]. The new design considerations we
-introduce are a new data abstraction and a vital feedback loop for cyber
-security analysis. These considerations stem from the original data hierarchy
-model presented in a cognitive task analysis by D'Amico and Whitley, which
-illustrates how analysts process, filter, sort, and select important information
-from the data and transform that raw data into situational awareness for cyber
-security [@DAmico2008] (see Figure 1 in their paper). In their work, analysts
-start with raw data, or network packets, and filter data from alerts to events
-and eventually to **rule sets**, or high-level descriptions of a collection of
-multiple incidents. Based on our research and interviews, however, there are
-several other key types of data that analysts use: internal or "in-house" data
-such as firewall rules or incident reports; external data such as hacker
-websites and mailing lists; and processed output data, i.e. incident reports.
-Additionally, rule sets often become detection signatures to automatically
-filter raw data, creating a feedback loop in the analysts' workflow. This idea
-of a feedback loop is not new; we saw them in several different task diagrams
-for cyber security analysts [@Erbacher2010a; @DAmico2008]. Ideally, incident
-reports and other processed data by analysts would be incorporated into this
-feedback loop, but currently this is difficult to do since incident reports are
-disparate and not easily searchable [@DAmico2008]. We present a new data
-abstraction for the data hierarchy model in [@fig:data-hierarchy], highlighting
-the additional data types as well as an idealized feedback loop from incident
-reports to internal data, and external data if shared. This model established
-several key considerations for our redesign process, and we suspect it could
-similarly aid future cybersecurity visualization tools to better address the
-needs of analysts.
-
-
-![
-  We present a simplified extension of a data
-  hierarchy model for how cyber security analysts
-  transform raw data into cyber security situational
-  awareness [@DAmico2008].
-  This simplified model focuses on a novel data
-  abstraction: new data types such as internal data,
-  which is kept "in-house"; external data which may
-  be shared or obtained from websites, social media,
-  phone calls, etc.; as well as processed data such as
-  incident reports. There exists a data feedback loop
-  from rule sets back to raw data, and, ideally,
-  such a loop would exist for incident reports, but
-  this is an active research problem in this domain.
-](figures/daf/data-hierarchy.pdf){#fig:data-hierarchy width="100%"}
-
-
-Based on our literature review, interviews, and new data abstraction, we
-identify several open opportunities for visualization in the field of cyber
-security: provenance, data type handling, and data hierarchy continuity. For
-provenance, visualization researchers could focus on providing tools for
-analysts to track and document their findings while using a visualization tool
-to explore their data, ultimately for the purpose of automatically generating
-reports and sharing their analysis process [@Erbacher2010a; @DAmico2008]. The
-opportunity of data type handling would seek to visualize a broader variety of
-data types, such as a variety of external data coming from websites, social
-media, images, etc. [@Fink2009]. Lastly, related to the data hierarchy model,
-the continuity opportunity points to finding ways to scale visualizations to the
-current, massive datasets while retaining the ability to go back to the raw data
-[@DAmico2008; @Fink2009; @Erbacher2010a].
-
-
-
-
-
-## Qualitative Coding
+## Qualitative Coding Design Method
 
 In this section, we focus on one design method in detail: **qualitative
 coding**. As we explained in the previous chapter, there is a benefit to
