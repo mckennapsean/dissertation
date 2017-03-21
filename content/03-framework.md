@@ -480,7 +480,7 @@ parallel activities to backward movement.
 
 Other researchers have shown the feasibility and usefulness of a design process
 timeline as an effective way to communicate a design process [@McLachlan2008;
-@Walz1993], to foster collaboration [@Bohøj2010], and to highlight some aspects
+@Walz1993], to foster collaboration [@Bohoj2010], and to highlight some aspects
 of the multilinear nature of a design process [@Atman2009; @Wolf2006].
 Communication of the design process is important not only for understanding and
 evaluating the visualization research process itself, but also for supporting
