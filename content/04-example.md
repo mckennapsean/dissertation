@@ -75,31 +75,14 @@ controlled experiments (_M-28_).
 <!--\sm{TODO another reference to the appendix}-->
 
 
-|     |     |
-| --- | --- |
-| ![](figures/daf/redesign/1-analysis.pdf){width="50%"} | ![](figures/daf/redesign/2-sketch.pdf){width="50%"} |
-| a)  | b)  |
-| ![](figures/daf/redesign/3-wireframe.pdf){width="50%"} | ![](figures/daf/redesign/4-components.pdf){width="50%"} |
-| c)  | d)  |
-
-|     |
-| --- |
-| ![](figures/daf/redesign/5-interface.pdf){width="100%"} |
-| e)  |
-
 ![
-  We provide an overview of the artifacts for our redesign
+  We provide an overview of the visualization artifacts for our redesign
   project, starting from our a) software analysis, which
   resulted in b) initial concept sketches and c)
   wireframes. As we focused on more of the details, we
-  moved into the _make_ activity with d) laying out
-  interface components and e) designing a fully-detailed
-  revised interface.
-](){#fig:redesign}
-
-<!--\al{figure is split across two pages?? figure is wonky...}-->
-<!--\sm{agreed - how can we fix this? table issue is a problem. need to come up with a better solution, perhaps lay out figure in Illustrator? full page?}-->
-<!--\sm{TODO fix this figure!!!}-->
+  moved into the _make_ activity with and d) laying out
+  interface components.
+](figures/daf/redesign/process.pdf){#fig:redesign width="100%"}
 
 
 
@@ -262,7 +245,7 @@ in [@fig:redesign]d.
 In addition, we also mocked up more detailed prototypes (_M-67_) that showed how
 the different visualizations would link together through user interactions.
 These prototypes synthesized all of our design ideas into a revised interface,
-as illustrated in [@fig:redesign]e. The purpose behind this method was to
+as illustrated in [@fig:redesign2]. The purpose behind this method was to
 envision what RVS _could_ be even though a complete software implementation was
 beyond what our visualization could perform given our constraint of time. We
 considered real-world datasets and user workflows when creating and formulating
@@ -276,6 +259,13 @@ with users.
 
 <!--\al{where is the line between ideate and make?}-->
 <!--\sm{how does this help? I agree it was vague before, I added some clarifications}-->
+
+
+![
+  Here we illustrate the visualization artifact created as part of the _make_
+  activity for the redesign project: the design of a fully-detailed revised
+  digital mockup interface.
+](figures/daf/redesign/5-interface.pdf){#fig:redesign2 width="100%"}
 
 
 After we finalized these detailed and revised mockups, the RVS development team
