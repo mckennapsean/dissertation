@@ -500,76 +500,61 @@ visualization design process in a similar way.
 
 ## Choosing Effective Design Methods
 
-To help novice users tackle a real-world design project, we present a list
-of exemplar methods that can be used throughout the design
-activity framework. This list contains methods commonly
-found in the visualization literature, as well as many more
-that come from the design, human-computer interaction,
-software engineering, sociology, and anthropology
-literature.
-We present a shortened list of 40 methods in [@tbl:methods],
-and a more extensive list of 100 methods is available in the Appendix.
-We shortened to these 40 methods by picking those that
-were mentioned within the framework and redesign project,
-along with both commonly used and potentially novel or
-interesting methods for visualization design.
+To help novice users tackle a real-world design project, we present a list of
+exemplar methods that can be used throughout the design activity framework. This
+list contains methods commonly found in the visualization literature, as well as
+many more that come from the design, human-computer interaction, software
+engineering, sociology, and anthropology literature. We present a shortened list
+of 40 methods in [@tbl:methods], and a more extensive list of 100 methods is
+available in the Appendix. We shortened to these 40 methods by picking those
+that were mentioned within the framework and redesign project we present in the
+next chapter, along with both commonly used and potentially novel or interesting
+methods for visualization design.
 <!-- \sm{TODO: add appendix and link here?} -->
 
 
-Each method is characterized
-by which activities of the design activity framework it
-could be used in --- understand (**_u_**), ideate
-(**_i_**), make (**_m_**), and
-deploy (**_d_**). It is important to note that
-many methods can and often are used in different design
-activities. The methods are also categorized as being
-either generative (**_g_**), evaluative
-(**_e_**), or both in nature. There are several
-methods, e.g. graffiti walls (_M-43_), interviewing
-(_M-51_), and observation (_M-58_), that have
-more complex characterizations than presented in this table;
-please see the Appendix for a more complete
-and detailed characterization. Some methods are also marked
-as appearing within the visualization literature
-(**_v_**). Finally, each method includes a
-definition and reference to aid novice visualization designers in
-bringing these methods into practice.
-As the design activity framework targets novices performing problem-driven
-visualization work, it is worth noting that many of the listed
-methods involve collaboration with domain experts, such as bull's-eye diagramming
-(_M-12_), contextual inquiry (_M-27_), paper
-prototyping (_M-61_), and speed dating (_M-80_).
+Each method is characterized by which activities of the design activity
+framework it could be used in --- _understand_ (**_u_**), _ideate_ (**_i_**),
+_make_ (**_m_**), and _deploy_ (**_d_**). It is important to note that many
+methods can and often are used in different design activities. The methods are
+also categorized as being either generative (**_g_**), evaluative (**_e_**), or
+both in nature. There are several methods, e.g. graffiti walls (_M-43_),
+interviewing (_M-51_), and observation (_M-58_), that have more complex
+characterizations than presented in this table; please see the Appendix for a
+more complete and detailed characterization. Some methods are also marked as
+appearing within the visualization literature (**_v_**). Finally, each method
+includes a definition and reference to aid novice visualization designers in
+bringing these methods into practice. As the design activity framework targets
+novices performing problem-driven visualization work, it is worth noting that
+many of the listed methods involve collaboration with domain experts, such as
+bull's-eye diagramming (_M-12_), contextual inquiry (_M-27_), paper prototyping
+(_M-61_), and speed dating (_M-80_).
 
 
-The list is by no means a complete compendium of
-methods for visualization design, but rather a step towards
-understanding the large space of actions a novice designer can take
-throughout the design process.  Our goal in creating this list of
-methods is two-fold: first, the table serves as additional
-guidance for real-world, actionable usage of the design
-activity framework by finding potential methods within a
-specific design activity; and second, the table contains many
-methods that are not commonly, if at all, found in the
-visualization literature, and therefore provides new design methods to
-potentially enhance the visualization design process. For
-example, Goodwin et al. introduce several novel creativity
-techniques for visualization design such as generating ideas using the
-method of
-constraint removal (_M-26_) [@Goodwin2013a].
+The list is by no means a complete compendium of methods for visualization
+design, but rather a step towards understanding the large space of actions a
+novice designer can take throughout the visualization design process.  Our goal
+in creating this list of methods is two-fold: first, the table serves as
+additional guidance for real-world, actionable usage of the design activity
+framework by finding potential methods within a specific design activity; and
+second, the table contains many methods that are not commonly, if at all, found
+in the visualization literature, and therefore provides new design methods that
+more experienced visualization designers could utilize to potentially enhance
+their design process. For example, Goodwin et al. introduce several novel
+creativity techniques for visualization design such as generating ideas using
+the method of constraint removal (_M-26_) [@Goodwin2013a].
 
 
 ![
-  This table presents several
-  exemplar methods and where they fit within the framework;
-  we provide a more extensive list of 100 methods in the Appendix.
-  We coded each method into one or more of the four design
-  activities: understand (**_u_**), ideate (**_i_**),
-  make (**_m_**), and deploy (**_d_**).
-  Additionally, we tagged whether each method was largely
-  generative (**_g_**) or evaluative (**_e_**), or both.
-  Lastly, we tagged the methods we have seen commonly reported within the
-  visualization community (**_v_**) and also present succinct
-  definitions for each method to assist novices in trying each method out.
+  This table presents several exemplar methods and where they fit within the
+  framework; we provide a more extensive list of 100 methods in the Appendix. We
+  coded each method into one or more of the four design activities: _understand_
+  (**_u_**), _ideate_ (**_i_**), _make_ (**_m_**), and _deploy_ (**_d_**).
+  Additionally, we tagged whether each method was largely generative (**_g_**)
+  or evaluative (**_e_**), or both. Lastly, we categorized the methods we have
+  seen commonly reported within the visualization community (**_v_**) and also
+  present succinct definitions for each method to assist novices in trying each
+  method out.
 ](figures/daf/table.pdf){#tbl:methods width="100%"}
 
 <!-- \sm{we should probably explain a bit more about this coding process in the text somewhere?} -->
@@ -586,8 +571,9 @@ artifact for the design activity --- we argue that this completed artifact is
 one way to validate a design method. The long-term effectiveness of a method can
 be established when the method is used within the development of a deployed
 visualization tool: one that is evaluated with, and given to, real end users.
-Thus, we can determine if a design method was effective within a visualization
-project by reflecting on these two questions:
+Thus, a novice visualization designer can determine if a design method was
+effective within their visualization project by reflecting on these two
+questions:
 
 1. Did you achieve your desired visualization artifacts?
 1. Did you successfully deploy a visualization tool to users as a result of this method?
