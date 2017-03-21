@@ -156,6 +156,7 @@ visualization designers. As a result of this evaluation, we discovered that
 novices effectively learned how to design and develop a visualization system
 while justifying their decisions using the design activity worksheets.
 <!--\sm{thoughts on we vs i here?}-->
+<!--\sm{miriah suggested we over i, and formal over that if possible. stylistic decision}-->
 
 
 

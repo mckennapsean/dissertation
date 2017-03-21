@@ -7,7 +7,7 @@ that connect visualization design decisions to their visualization artifacts.
 ...
 
 \sm{wrap-up and reiterate story}
-
+\sm{check what others have done on disc vs concl etc}
 
 
 
