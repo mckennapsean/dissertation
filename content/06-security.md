@@ -125,3 +125,14 @@ significant changes were necessary to create the final tool for deployment into
 an operational environment. These aspects of the final tool, evaluation, and
 deployment will be discussed further in the final dissertation.
 
+
+
+
+<!-- \sm{TODO short section on design activity framework worksheets?} -->
+<!--![
+  We created these worksheets with linked sketches in collaboration with the
+  original authors of the BubbleNet dashboard [@mckenna2016]. This
+  real-world project showcases how to utilize the worksheets and highlights
+  how to capture a complex, iterative design process. A detailed copy of each
+  worksheet and sketches is included in Supplemental Materials.
+](figures/worksheets/worksheet-example.jpg){#fig:example width="100%"}-->

@@ -72,106 +72,122 @@ course.
 
 ## Worksheets for the Design Activity Framework
 
-The first contribution of this work is the creation of design worksheets that
-follow the design process and decisions illustrated by the design activity
-framework [@McKenna2014]. In this section, we discuss our process behind
-creating these teaching materials and provide examples of their use. The
-worksheets and teaching materials are located in a public
-repository\footnotemark for their dissemination and use by
-others, and we encourage feedback and improvements to these teaching materials
-over time.
+To create the visualization design worksheets, we first reflected on the design
+process and decisions illustrated by the design activity framework
+[@McKenna2014] across several of our own projects. Here, we discuss our process
+behind creating these teaching materials and provide examples of their use. The
+worksheets and teaching materials are located on a public-facing website for
+their dissemination and use by others, and we encourage feedback and
+improvements to these teaching materials by other visualization educators over
+time.
 
 <!-- TODO how to do a footnote??? or appendix?
+repository\footnotemark
 \footnotetext{Supplemental Materials can be accessed via:
 \url{https://design-worksheets.github.io}}
 -->
 
-Inspired by the five design-sheet methodology [@Roberts2015], we wanted to embody the design process into worksheets to enhance the
-teaching of an otherwise theoretical design process to new students. Our first goal
-was to create a worksheet for each of the design activities:
-*understand*, *ideate*, *make*, and *deploy*. To do
-so, we reflected on our combined research and design experiences across each,
-and we broke down each activity into a series of tangible and generalized steps (see [@tab:steps]). These steps are akin to design methods which can be generative or evaluative in nature.
-<!-- TODO change table reference somehow? crossref may support? -->
+
+Inspired by the five design-sheet methodology [@Roberts2015], we wanted to
+embody the visualization design process in its entirety into visualization
+design worksheets to enhance the teaching of an otherwise theoretical design
+process to new students. Our first goal was to create a worksheet for each of
+the visualization design activities: *understand*, *ideate*, *make*, and
+*deploy*. To do so, we reflected on our combined research and design experiences
+across each visualization design activity, and we broke down these activities
+into a series of tangible and generalized steps (see [@tbl:steps]). These steps
+are akin to design methods which can be generative or evaluative in nature.
 
 
-<!-- TODO check out table! how to underline in markdown?-->
+<!-- TODO can you underline in markdown? -->
+
 | *\underline{understand}* | *\underline{ideate}* | *\underline{make}* | *\underline{deploy}* |
-| :-- | :-- | :-- | :-- |
+| :--------------- | :--------------- | :--------------- | :--------------- |
 | identify the challenge \& users | select a design requirement | set an achievable goal | pinpoint a target audience |
+| | | | |
 | find questions \& tasks | sketch first idea | plan encodings \& layouts | fix usability concerns |
+| | | | |
 | check with users or explore data | sketch another idea | plan support for interactions | improve points of integration |
+| | | | |
 | brainstorm design requirements | sketch final idea | sketching additional views | refine the aesthetics |
+| | | | |
 | compare \& rank design requirements | compare \& relate your ideas | build the prototype \& check-in | consider a method to evaluate |
-![
-  Each design activity was broken down into five concrete steps. The first
-  four steps are generative, to establish design requirements, sketches,
-  prototypes, or visualization systems. The fifth step is evaluative, to
-  compare different artifacts in order to justify decisions and record that
-  reasoning down for later use. We presented these five steps to students
-  using design worksheets, like in [@fig:worksheets].
-](){#tab:steps}
+
+: Each visualization design activity was broken down into five concrete steps.
+  The first four steps of the process are generative, to establish design
+  requirements, encoding and interaction sketches, visualization prototypes, or
+  visualization systems. The fifth step is always evaluative, to compare
+  different visualization artifacts in order to justify design decisions and
+  record that reasoning down for later use. We presented these five steps to
+  novice visualization designers, students, using design worksheets as a
+  template, like in [@fig:worksheets]. {#tbl:steps}
 
 
 <!-- TODO fbox around graphic? -->
+
 ![
   Here we show the Understand worksheet, tailored to help students identify
   their problem, users, data, and requirements for a data visualization
-  system. The other worksheets we created are included in the Supplemental
-  Materials.
+  system. The other worksheets we created are included in the Appendix.
 ](figures/worksheets/worksheet-understand.pdf){#fig:worksheets width="90%"}
+
+<!-- \sm{TODO should we have these here or in the appendix? we have space? add to appendix if there...} -->
 
 
 We introduce the first design worksheet for the *understand* activity in
-[@fig:worksheets]. At the top of each sheet we describe the goal and
-resulting artifact or outcome for the activity. Each sheet can be
+[@fig:worksheets]. At the top of each sheet we describe the desired goal and
+resulting visualization artifact or outcome for the activity. Each sheet can be
 numbered in the top-right for keeping track of order, for planning, and
 retrospection. For each worksheet's five steps we included additional helper
-text to guide students towards finding the answer. We included warnings about
-when to jump back to previous boxes or worksheets, and icons to illustrate the
-expected type of answer for each box: a list, a sketch, or a table. Lastly, the
-bottom contains a list of icons pointing to the potential next worksheet.
-<!--
-depending on the success of previous activities, showing how to use the
-worksheets in a more complex, iterative process.
--->
+text to guide students towards finding the answer and completing each design
+worksheet. We included warnings about when to jump back to previous boxes or
+worksheets, and icons to illustrate the expected type of answer for each box: a
+list, a sketch, or a table. Lastly, the bottom contains a list of icons pointing
+to the potential next activity of the visualization design process. These
+decisions about which activity to perform next are tricky and require reflection
+on the visualization designer to validate and check on their current
+visualization artifacts and if they are sufficient and succeed towards
+addressing the desired problem or challenge in enough detail, and this is why
+many visualization design processes may be iterative and complex to perform.
 
-To create the worksheets, we combined the design activity framework
-definitions with related worksheets used by a colleague
-running design studios in our university's architecture and design department,
-resulting in five steps for each design activity. Knowing that engineering-type
-students could benefit from focusing on generation of artifacts, we utilized four
-of the steps for generation, and the *ideate* sheet used three sketches
-like the five-design sheet methodology. We targeted each
-step's instructions for a visualization project based on our own experience
-building visualization systems. After our first iteration we presented the
-worksheets to our visualization research group and received a series of
-recommendations for improvements including to place more of a focus on users early and to
-simplify complex, theoretical terminology. We also walked through one of
-our projects using the worksheets to identify further elements to add: more
-helper text, warning icons, expected results for each step, and a label at the
-top for attachments.
+
+To create the worksheets, we combined the design activity framework definitions
+with related worksheets used by a colleague running design studios in our
+university's architecture and design department, resulting in the five steps for
+each visualization design activity, shown in [@tbl:steps]. Knowing that
+engineering-type students could benefit from focusing on coming up with many
+types of visualization artifacts, we utilized four of the steps for generation,
+and the *ideate* sheet used three sketches like the five-design sheet
+methodology. We targeted each step's instructions for a single visualization
+project based on our own experience building visualization systems. After our
+first iteration we presented the worksheets to our visualization research group
+and received a series of recommendations for improvements including to place
+more of a focus on users early and to simplify complex, theoretical terminology.
+For example, the terminology of the nested model [@Munzner2009; @Meyer] were
+included in the original design but were deemed less novice-friendly and
+comprehensible so we simplified the terminology and recommendations or hints for
+each step. We also walked through one of our projects using the worksheets to
+identify further elements to add: more helper text, warning icons, expected
+results for each step, and a label at the top for attachments.
+
 
 Before introducing design worksheets to students, we needed to form a basis of
 understanding, both in terminology and contextualized into a real-world
 visualization example. We created an 80-minute lecture on visualization design,
-which teaches both the design activity framework and the
-nested model for design decisions [@Munzner2009], which is used to help categorize design decisions during each activity, centered around the design
-of a cyber-security visualization dashboard [@mckenna2016]. By utilizing
-this real-world project we were able to explain the theory with actual
-concepts. Additionally, we mocked up an example of this project using the design
-worksheets to illustrate how to capture a complex, iterative design process
-utilizing the design worksheets. An overview of this example is provided in
-[@fig:example]. We include a copy of our lecture materials in the Supplemental Materials.
+which teaches both the design activity framework and the nested model for
+visualization design decisions [@Munzner2009], which is used to help categorize
+design decisions during each activity, centered around the design of a
+cyber-security visualization dashboard [@mckenna2016]. By utilizing this
+real-world visualization project we were able to explain the theory with actual,
+tangible concepts. Additionally, we mocked up an example of this project using
+the design worksheets to illustrate how to capture a complex, iterative design
+process utilizing the design worksheets. An overview of this example is provided
+in the next chapter. We include a copy of our lecture materials in the Appendix.
+
+<!-- \sm{TODO should we include these in the appendix...? perhaps. or include some of it here? could use more detail} -->
 
 
-![
-  We created these worksheets with linked sketches in collaboration with the
-  original authors of the BubbleNet dashboard [@mckenna2016]. This
-  real-world project showcases how to utilize the worksheets and highlights
-  how to capture a complex, iterative design process. A detailed copy of each
-  worksheet and sketches is included in Supplemental Materials.
-](figures/worksheets/worksheet-example.jpg){#fig:example width="100%"}
+
 
 
 ## Evaluation Methodology
@@ -346,7 +362,7 @@ section.
 <!-- TODO again table ref -->
 To address this constraint on creativity, a key improvement recommended by five
 students was to convert the worksheets into a checklist for each step, as in
-[@tab:steps].
+[@tbl:steps].
 <!-- Based on our interviews -->
 We would recommend two
 types of resources, since worksheets did provide structure, "it's like a checklist to make sure everything is covered" (P11),
