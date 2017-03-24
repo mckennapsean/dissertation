@@ -54,8 +54,8 @@ practical steps for building better systems and tools.
 
 
 In [@sec:framework], we described one such theoretical model of the design
-process with four actionable design activities: *understand*, *ideate*, *make*,
-and *deploy*. Each of these activities includes a goal, target artifact or
+process with four actionable design activities: _understand_, _ideate_, _make_,
+and _deploy_. Each of these activities includes a goal, target artifact or
 outcomes, and a plethora of design methods to choose from, each of which were
 described in such a way to make the process model more actionable. We found,
 however, that the theoretical framing of the model restricted and limited its
@@ -92,8 +92,8 @@ Inspired by the five design-sheet methodology [@Roberts2015], we wanted to
 embody the visualization design process in its entirety into visualization
 design worksheets to enhance the teaching of an otherwise theoretical design
 process to new students. Our first goal was to create a worksheet for each of
-the visualization design activities: *understand*, *ideate*, *make*, and
-*deploy*. To do so, we reflected on our combined research and design experiences
+the visualization design activities: _understand_, _ideate_, _make_, and
+_deploy_. To do so, we reflected on our combined research and design experiences
 across each visualization design activity, and we broke down these activities
 into a series of tangible and generalized steps (see [@tbl:steps]). These steps
 are akin to design methods which can be generative or evaluative in nature.
@@ -101,7 +101,7 @@ are akin to design methods which can be generative or evaluative in nature.
 
 <!-- TODO can you underline in markdown? -->
 
-| *\underline{understand}* | *\underline{ideate}* | *\underline{make}* | *\underline{deploy}* |
+| _\underline{understand}_ | _\underline{ideate}_ | _\underline{make}_ | _\underline{deploy}_ |
 | :--------------- | :--------------- | :--------------- | :--------------- |
 | identify the challenge \& users | select a design requirement | set an achievable goal | pinpoint a target audience |
 | | | | |
@@ -134,7 +134,7 @@ are akin to design methods which can be generative or evaluative in nature.
 <!-- \sm{TODO should we have these here or in the appendix? we have space? add to appendix if there...} -->
 
 
-We introduce the first design worksheet for the *understand* activity in
+We introduce the first design worksheet for the _understand_ activity in
 [@fig:worksheets]. At the top of each sheet we describe the desired goal and
 resulting visualization artifact or outcome for the activity. Each sheet can be
 numbered in the top-right for keeping track of order, for planning, and
@@ -157,7 +157,7 @@ university's architecture and design department, resulting in the five steps for
 each visualization design activity, shown in [@tbl:steps]. Knowing that
 engineering-type students could benefit from focusing on coming up with many
 types of visualization artifacts, we utilized four of the steps for generation,
-and the *ideate* sheet used three sketches like the five-design sheet
+and the _ideate_ sheet used three sketches like the five-design sheet
 methodology. We targeted each step's instructions for a single visualization
 project based on our own experience building visualization systems. After our
 first iteration we presented the worksheets to our visualization research group
@@ -190,7 +190,7 @@ in the next chapter. We include a copy of our lecture materials in the Appendix.
 
 
 
-## Evaluation Methodology
+## Evaluating the Worksheets
 
 
 In order to conduct an evaluation of the visualization design worksheets, we
@@ -198,7 +198,7 @@ employed the worksheets for use in a clasroom setting. We gave a lecture on
 visualization design to all 66 students in our university's graduate-level
 visualization course. The lecture was followed by an in-class exercise that had
 students analyze and redesign an existing visualization using the first two
-worksheets: *understand* and *ideate*. As part of the course students formed
+worksheets: _understand_ and _ideate_. As part of the course students formed
 groups to complete a cumulative project, to design and build a web-based
 interactive visualization system. I recruited and mentored 13 volunteers from
 the course to complete the design worksheets for each of their six group
@@ -257,7 +257,7 @@ worksheets.
 
 
 
-## Evaluation Results
+## Results of the Evaluation
 
 For the full-class survey we received 25 responses. All but 2 students showed an
 improvement in their comfort level for visualization design, on average 2 out of
