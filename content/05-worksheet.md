@@ -192,29 +192,28 @@ in the next chapter. We include a copy of our lecture materials in the Appendix.
 
 ## Evaluation Methodology
 
-<!--
-In order to conduct an evaluation of the design worksheets we created, we
-employed the worksheets for use in a clasroom setting.
--->
-We gave a lecture on
-visualization design described in the previous section to all 66 students in our university's graduate-level visualization course. The lecture was followed by an in-class exercise that had
+
+In order to conduct an evaluation of the visualization design worksheets, we
+employed the worksheets for use in a clasroom setting. We gave a lecture on
+visualization design to all 66 students in our university's graduate-level
+visualization course. The lecture was followed by an in-class exercise that had
 students analyze and redesign an existing visualization using the first two
-worksheets: *understand* and *ideate*. As part of the course
-students formed groups to complete a cumulative project, to design and build
-a web-based interactive visualization system. We recruited 13 volunteers from
+worksheets: *understand* and *ideate*. As part of the course students formed
+groups to complete a cumulative project, to design and build a web-based
+interactive visualization system. I recruited and mentored 13 volunteers from
 the course to complete the design worksheets for each of their six group
-projects, mentored by the primary author of this work.
-<!--
-One student was not part of the original volunteers, but due to complications
-with their project they reached out to the teaching staff for further help and
-guidance with the design of their project.
--->
-For details on the project expectations, deadlines, and grading criteria, please
-see Supplemental Materials.
+projects. One student was not part of the original volunteers, but due to
+complications with their project they reached out to the teaching staff for
+further help and guidance for visualization design within the context of their
+project. For details on the project expectations, deadlines, and grading
+criteria, please see the Appendix.
+
 <!-- \footnotemark[\value{footnote}] \sm{this is on a previous page...}-->
+<!-- \sm{TODO note this is use of I here... because it was truly just me for the most part} -->
+<!-- \sm{TODO what to include in appendix? and do so...} -->
 
 
-To evaluate the efficacy of worksheets in supporting the design process of the final project we conducted a full-course survey, a focused survey for students
+To evaluate the efficacy of worksheets in supporting the visualization design process of a cumulative, final project we conducted a full-course survey, a focused survey for students
 who used the worksheets, and interviews with student participants to elicit
 in-depth worksheet feedback and clarify necessary details.
 Additionally, the mentor met with each of the visualization
@@ -222,30 +221,40 @@ groups weekly to provide feedback on their design and on the worksheets. These m
 a basis for obtaining in-person observations, in addition to the feedback
 acquired anonymously through the surveys and detailed interviews. All of the
 questions and prompts used for the surveys and interviews are included in the
-Supplemental Materials.
+Appendix.
+
+<!-- \sm{TODO include in appendix? if at all?} -->
+
 
 To gather anonymous feedback and assess the utility of the design worksheets for
-teaching the course, we sent a survey out to all of the students at the end of
-the course. Specifically, we asked questions about students' comfort level with
-design before and after taking the course along with which factors taught
-students how to design visualizations: lectures, in-class exercises,
-design worksheets, and the cumulative project. Additionally, we sent an
-anonymous survey to those who used the design worksheets. In this survey we
-asked which worksheets worked well and which ones did not, and why, along with ten questions on the worksheets' usefulness.
-<!--which vary in their positivity, to avoid positivity bias towards the worksheets.-->
+teaching a visualization course, we sent a survey out to all of the students at
+the end of the course. Specifically, we asked questions about students' comfort
+level with visualization design before and after taking the course along with
+which factors taught students how to design visualizations: lectures, in-class
+exercises, design worksheets, and the cumulative project. Additionally, we sent
+an anonymous survey to those who used the design worksheets. In this survey we
+asked which worksheets worked well and which ones did not, and why, along with
+ten questions on the worksheets' usefulness. To avoid positivity bias, questions
+on the worksheets' usefulness varied equally between positively and negatively
+worded questions.
 
-After the projects were completed 11 students, at least one from each project, participated in an interview to
-provide feedback on the design worksheets.
-<!--
-We audio recorded each interview to more efficiently take notes.
-For each person, we explained the goals of this project and at the end asked for
-consent to utilize quotes in a publication.
--->
-The interview questions focused on digging deeper into the survey findings.
-We asked open-ended questions to gather improvements and suggestions for the
-next iteration of the worksheets. At the beginning of the interview, we asked
-each student to briefly describe the steps of the design process in their own
-words in order to informally test recall of the high-level concepts.
+
+After student projects were completed 11 students, at least one from each
+project, participated in a semi-structured interview to provide feedback on the
+visualization design worksheets. We audio recorded each interview to more
+efficiently take notes and transcribed participant responses to ensure
+accurateness and correctness. With each interviewee, we explained the goals of
+this project and at the end asked for consent to utilize feedback obtained and
+quotes for publication. The interview questions focused on digging deeper into
+the survey findings. We asked open-ended questions to gather improvements and
+suggestions for the next iteration of the visualization design worksheets. At
+the beginning of the interview, we asked each student to briefly describe the
+steps of the visualization design process in their own words in order to
+informally test recall of the high-level concepts of the framework and
+worksheets.
+
+
+
 
 
 ## Evaluation Results
