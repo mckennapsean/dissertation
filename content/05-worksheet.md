@@ -271,99 +271,95 @@ and the design worksheets were on the level of other methods utilized in the
 course: design worksheets (13:1), lectures (23:1), exercises (20:2), and
 projects (18:2).
 
-For the survey sent to the students who used the worksheets, we received a total
-of 7 responses. Overall, the *ideate* (6 students) and
-*understand* (4 students) worksheets were selected as the most helpful.
-Students stated that the *ideate* worksheet helped them critique their own designs, while *understand* helped get their project off the ground.
-<!--
-As stated by some of the students: "Ideate: critique of ones own design was
-most helpful" and "[Ideate] is the most clear worksheet" and that both
-understand and ideate worksheets "helped to get the project off the ground."
--->
-On the flip side, the *deploy* (4 students) worksheet was selected as the
-least helpful because students often ran out of time at the end.
-<!--
-"we were out of time" and "once the
-projects were off the ground, didn't seem too important."
--->
-Student feedback
-highlighted a benefit for the specific steps in an activity to organize and
-record their design process.
-<!--
-It seemed that the amount of text, guidance, and time taken achieved a proper
-balance.
--->
-Additional feedback highlighted some drawbacks to the worksheets, such
-as vague terminology or phrasing, creative limitations, and not enough
-structure. To uncover more information, we conducted interviews as a follow-up.
+
+For the survey sent to the students who used the visualization design
+worksheets, we received a total of 7 responses. Overall, the _ideate_ (6
+students) and _understand_ (4 students) worksheets were selected as the most
+helpful design activity worksheets for their projects. Students stated that the
+_ideate_ worksheet helped them critique their own designs, while _understand_
+helped jumpstart a visualization project. As stated by visualization novices:
+"_ideate_: critique of ones own design was most helpful" and "_Ideate_ is the
+most clear worksheet" and that both _understand_ and _ideate_ worksheets "helped
+to get the project off the ground." On the flip side, the _deploy_ (4 students)
+worksheet was selected as the least helpful because students often did not have
+sufficient time to focus on this activity, as students stated: "we were out of
+time" and "once the projects were off the ground, [_deploy_] didn't seem too
+important." Student feedback highlighted a benefit for the specific steps in an
+activity to organize and record their design process, explaining that for the
+worksheets: "It seemed that the amount of text, guidance, and time taken
+achieved a proper balance." Additional feedback highlighted some drawbacks to
+the worksheets, such as vague terminology or phrasing, creative limitations, and
+not enough structure. To uncover more information, we conducted interviews as a
+follow-up.
+
 <!--
 \mm{no participant numbers for these quotes? i'd say either use all the time, or not at all.}
-\sm{removed the quotes, paraphrased instead}
+\sm{perhaps start labeling at P-12 onwards? possibly some overlap but it is more consistent?}
 -->
 
-<!-- TODO should quotes be regular or escaped...? -->
 
-During the follow-up interviews we asked students to describe the design process in their
-own words, and all students were spot on in their descriptions of the
-various activities.
-<!--
-Four students correctly recalled the activity names, but four other
-students were fuzzy on the *deploy* activity---possibly since most groups
-did not go through this activity.
--->
-As with the survey, all of the students found
-the *understand and *ideate* worksheets the most useful since it
-forced them to consider different tasks, users, and ideas, whereas
-*deploy* was often not reached in the course of the project. Students noted that the worksheets
-provided a structured way to organize and compare notes of different design
-artifacts. Three students stated that the worksheet example project was helpful
-in showcasing how to use the worksheets. Nine students either followed their own
-design process informed by the worksheets or stuck to the worksheets entirely.
-One group that conducted their own design process acknowledged that their design
-process, while different, still mapped onto the steps provided in each activity.
-Another student recognized the flexibility of the worksheets:
-"if I had a different project, I would use each box in
-different ways depending on the context" (P8).
-<!-- for different visualization systems: -->
+During the follow-up interviews we asked students to describe the design process
+in their own words, and all students were spot on in their descriptions of the
+various activities. Specifically, four students correctly recalled the names of
+each visualization design activity, but four other students were fuzzy on the
+_deploy_ activity---possibly since most groups did not go through this activity.
+As with the survey, all of the students found the _understand_ and _ideate_
+worksheets the most useful since it forced them to consider different tasks,
+users, and ideas, whereas _deploy_ was often not reached in the course of the
+project. Students noted that the worksheets provided a structured way to
+organize and compare notes of different visualization design artifacts. Three
+students stated that the worksheet example visualization project was helpful in
+showcasing how to use the design worksheets. Nine students either followed their
+own design process informed by the worksheets or stuck to the worksheets
+entirely. One group that conducted their own visualization design process
+acknowledged that their design process, while different, still mapped onto the
+steps provided in each visualization design activity. Another student recognized
+the flexibility of the visualization design worksheets: "if I had a different
+project, I would use each box in different ways depending on the context" (P8).
+
+<!-- \sm{TODO check if more to that last quote?} -->
+
 
 All of the students agreed that evaluation was a necessary and important step
-for design in order to pinpoint flaws in your understanding of the problem, users,
-tasks, and encodings. One group
-discovered that their project was better suited to a subset of users, and
-another group realized that a particular encoding resulted in points overplotting
-from feedback during an advisor meeting. All
-students agreed that worksheets helped them document their design process for their
-final project report. These worksheets served as a "snapshot in
-time" (P1) and were sufficiently detailed to explain their design process for
-the report. Eight of the students described an iterative process that occurred
-during the process, although informal and not written on any
-worksheets. When digging into this informality, students pinpointed that
-worksheets helped organize their thoughts.
-Furthermore, the activities helped guide novice designers, such as one student
-who used the design worksheets for the first time later in
-their project and that "when I used [the] worksheets it kept me focused on what
-I was doing and trying to get more ideas or more [encodings]" (P8).
-<!-- and gave concise names for the design process. -->
+for visualization design in order to pinpoint flaws in your understanding of the
+problem, users, tasks, interactions, and encodings. One group discovered that
+their visualization project was better suited to a subset of users, and another
+group realized that a particular encoding resulted in points overplotting from
+feedback during an advisor meeting. All students agreed that design worksheets
+helped them document their visualization design process for their final project
+report. These design worksheets served as a "snapshot in time" (P1) and were
+sufficiently detailed to explain their design process for the report. Eight of
+the students described an iterative process that occurred, although informal and
+not written on any of their own design worksheets. When digging into this
+informality, students pinpointed that worksheets helped organize their thoughts.
+Furthermore, the activities helped guide them, as novice designers, such as one
+student who used the visualization design worksheets for the first time later in
+the course of their project and that "when [they] used [the] worksheets it kept
+[them] focused on what [they were] doing and trying to get more ideas or more
+[encodings]" (P8).
+
+<!-- \sm{TODO check if more than that last quote?} -->
+
 
 An intriguing finding was that four students employed the worksheets in
-surprisingly creative ways. For example, one student loaded the *ideate*
-worksheet in PDF form on their tablet and zoomed in to sketch various
-aspects of their visualization design, allowing them to expand and use more
-space for the sketch. Also, another detail-oriented student
-transferred the worksheet into textual form, to brainstorm and add detail to the
-problem and requirements.
-<!--
-Since this student was very detail-oriented, having the additional space and
-flexibility helped harness their creative ability.
--->
-Four students expressed frustration with the paper worksheets because they
+surprisingly creative ways. For example, one student loaded the _ideate_
+worksheet in PDF form on their tablet and zoomed in to sketch various aspects of
+their visualization design, allowing them to expand and use more space for the
+visualization sketches. Also, another detail-oriented student transferred the
+design worksheets into textual form, listing all of the steps and hints, so that
+they could brainstorm and add detail to the problem and requirements over time,
+as a living document. For detail-oriented novice designers, having this
+additional space and flexibility helped harness their own creative ability. Four
+students expressed frustration with the paper design worksheets because they
 preferred another format, whether digital, larger paper, or the ability to
-structure their notes how they wish. As one student put it, "I
-think the concepts are very helpful in the worksheets .... [but] for a free form
-thinker ... if you box it in then it is sort of restricting your creativity, as
-it tells you how much you have to fit into where" (P9). Students suggested
-improvements and other feedback which we explore in the next
-section.
+structure their notes how they wish. As one student put it, "I think the
+concepts are very helpful in the worksheets .... [but] for a free form thinker
+... if you box it in then it is sort of restricting your creativity, as it tells
+you how much you have to fit into where" (P9). Students suggested improvements
+and other feedback which we explore next.
+
+
+
 
 
 ## Discussion
