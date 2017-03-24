@@ -30,6 +30,72 @@ visualization design.
 
 
 
+## Pedagogy in Visualization Design
+
+The design activity framework introduced by McKenna et al. contains activities of
+the design process with a breakdown of each activity's motivation, artifacts,
+and design methods [@McKenna2014]. These activities are an extension of the
+core design phase of Sedlmair et al.'s nine-stage framework for design
+studies [@Sedlmair2012b]: discover, design, implement, and deploy. This adapted framework, however,
+supports more general problem-driven visualization
+challenges and researchers without visualization expertise, as well as projects with tight deadlines as is
+often seen in the classroom. The authors of the design activity framework claim
+its actionability, but this was never shown beyond the authors' use-case. A
+clear path for future work remains to validate the actionability of this
+framework to teach novices how to conduct a visualization design project.
+
+For the past few decades, pedagogy for data visualization and human-computer
+interaction has begun to shift from academic or theoretical foundations
+towards including skills for design, critique, and critical
+analysis [@Reimer2003; @Rushmeier2007; @Hearst2016; @He2017]. An effective
+pedagogical methodology is the use of design studios incorporated into the
+classroom setting [@Greenberg2009; @Reimer2003; @He2017], inspired by its use in
+fields like architecture, design, and art. For visualization, educators often
+incorporate practical exercises or real-world projects for students to learn
+about design [@Kerren2008], such as VizIt cards [@He2017] to teach and
+reinforce visualization concepts during an in-class design studio.
+Human-computer interaction educators have noted that computer science students
+in a design studio tend to focus more on idea refinement rather than broad idea
+generation and innovation [@Cennamo2011]. As such, guidance for the design
+process, both generating and evaluating visualization design artifacts, is often a
+missing component within the visualization pedagogy.
+
+The five design-sheet methodology [@Roberts2015] utilizes worksheets to
+structure and guide visualization students through the ideation process. This
+approach by Roberts et al. encourages engineering-type students to think
+divergently, creatively, and sketch out ideas on paper when first designing a
+visualization. Their approach begins with brainstorming, followed by three
+unique designs, and a realization sheet for the final tool. The authors
+validated their methodology with 53 students over several
+years [@Roberts2015]. In a workshop at the 2016 IEEE VIS conference that used these worksheets, we
+experienced a limitation of using this approach too soon: many steps must occur first
+such as data collection, identifying the challenge, focusing on a target user,
+and finding tasks. The authors elude to this in their paper with different
+preparation steps, but these steps can be non-trivial and tricky for novices.
+Thus, it would be beneficial to establish and evaluate more worksheets beyond
+ideation for data visualization pedagogy.
+
+<!--
+\sm{below is on the evaluation of the 5-ds, which we can bring up briefly in
+the methodology section instead}
+The authors further evaluated this technique for teaching with masters
+students in information visualization. In their evaluation, a total of 53
+students completed these design sheets over the span of 2 hours to come up
+with different ways to visualize their own chosen data set, after which they
+received feedback and additional time to finalize their
+designs [@Roberts2015]. After grading the sheets, the researchers compared
+grades of the design sheets to the rest of the class with their final tool or
+project grade and whole grade, as well as an anonymous survey to gather
+feedback on the entire course including the design sheets. Generally, they
+found that the design sheets aided students in planning and organizing a
+design section for the project write-up, and it also encouraged students to
+think divergently which is a skill not often taught in computer science.
+-->
+
+
+
+
+
 ## Bridging Creativity into Visualization Design
 
 When working with other designers, we discovered a disparity with how other
