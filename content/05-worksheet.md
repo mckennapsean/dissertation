@@ -1,132 +1,74 @@
-# Design Activity Framework Worksheets {#sec:worksheets}
-
-<!-- Worksheets for Guiding Novices through the Visualization Design Process-->
+# Worksheets for the Design Activity Framework {#sec:worksheets}
 
 For visualization pedagogy, an important but challenging aspect to teach is
-design.
-<!--Making and characterizing decisions with when they occur during the design-->
-<!--process is tricky even for expert visualization designers.-->
-Previous work on the design activity framework introduced a simplified but cross-cutting
-framework for combining design decisions with where they fit in the design
-process. However, this work does not present concrete steps
-for a novice visualization designer to step through the design process on their
-own. We have created a design worksheet for each of the four design activities:
-*Understand*, *Ideate*, *Make*, and *Deploy*. Each
-worksheet presents a high-level summary of the activity with actionable, guided
-steps for a novice designer to follow. We validated the use of this framework
-and the worksheets in a graduate-level visualization course taught at our
+design. This includes showing students how to make and also characterize the
+decisions that they make when designing and evaluating a visualization encoding,
+user interaction, or data visualization system. While our introduction of a new
+framework for visualization design in [@sec:framework] codifies some of the
+high-level steps of the process for novice visualization designers, the four
+activities lack a breakdown or example of concrete steps to facilitate a novice
+utilizing this framework to walkthrough their own, real-world design process. To
+provide such a framing, we created new teaching materials for the design
+activity framework, such as visualization design worksheet for each design
+activity, a lecture on the design process showcased within a real-world project,
+and resources for learning how to design and sketch visualizations.
+
+
+These design activity worksheets for visualization novices present a high-level
+summary of each activity with more actionable, guided steps for novices to walk
+through the process of designing their own visualization system. Furthermore, we
+validated the effectiveness and use of these worksheets and the overall
+framework in the context of a graduate-level visualization course taught at our
 university. For this evaluation, we surveyed the class and 13 students who
 voluntarily utilized these design worksheets for their cumulative projects. We
 conducted a series of interviews to garner additional open-ended feedback and
-suggestions. Lastly, we conclude this work with a discussion and highlight
-various areas for future work on improving visualization design pedagogy.
+suggestions that highlight the strengths and limitations of these teaching
+materials.
 
-## Introduction
+
+
+
+
+## Motivation: Increasing Actionability of the Framework
 
 To teach design in data visualization, educators combine many foundational
 components, from user interface principles [@Shneiderman2004] to data and
 encoding taxonomies [@Munzner2014]. Additional pedagogical materials for the
-field focus on visual principles [@Tufte1986; @cairo2012] or perceptual
-ones [@Ware2010] as a basis for creating and judging data visualizations.
-Educators may also apply these principles and techniques in the classroom
-through the use of design critiques or a cumulative project. These visualization
-projects could be guided by several textbooks which expound upon different
-design processes [@Ware2010; @Shneiderman2004] or design decision
-models [@Munzner2014] to help novice visualization designers learn how to
-effectively and methodically build and validate visualization systems.
+field focus on visual principles [@Tufte1986; @cairo2012] or perceptual ones
+[@Ware2010] as a basis for creating and judging data visualizations. Educators
+may also apply these principles and techniques in the classroom through the use
+of design critiques or a cumulative project. These visualization projects could
+be guided by several textbooks which expound upon different design processes
+[@Ware2010; @Shneiderman2004] or design decision models [@Munzner2014] to help
+novice visualization designers learn how to effectively and methodically build
+and validate visualization systems.
 
-Many of the pedagogical approaches to the visualization design process, however, 
-are theoretical in nature. From our
-own combined teaching experiences we have witnessed students struggle to incorporate these theory-based design concepts into their practical, hands-on projects.
-<!--
-these challenges
-first-hand, and we have struggled to effectively teach visualization design
-process and methodologies to beginning graduate students since not all novice
-visualization designers grasp onto these concepts.
--->
-As such, we believe there is an opportunity for new approaches to teaching
-the next generation of visualization designers, equipping them with not just theoretical knowledge but
-also the practical steps for building better systems and tools.
 
-McKenna et al. [@McKenna2014] describe one such theoretical model of the
-design process with four actionable design activities:
-*understand*, *ideate*, *make*, and *deploy*. Each
-of these activities includes a goal, target artifact or outcomes, and a table of
-design methods, each of which were included to make the process model more actionable. We found, however, that the theoretical framing of the model restricted and limited its use and actionability in
-the classroom or class project settings. To address these limitations we crafted
-a design worksheet for each design activity with steps to assist a novice
-through the visualization design process. Furthermore, we validated the use of
-these worksheets in a graduate-level visualization course with 13 students in
-their cumulative projects. In this paper we present the design activity worksheets --- concrete steps for novices to walk through
-the process of designing visualizations --- along with an evaluation of the effectiveness of these worksheets, highlighting their strengths and limitations.
+Many of the pedagogical approaches to the visualization design process, however,
+are theoretical in nature. From our own combined teaching experiences we have
+witnessed students struggle to incorporate these theory-based design concepts
+into their practical, hands-on projects. As such, we believe there is an
+opportunity for new approaches to teaching the next generation of visualization
+designers, equipping them with not just theoretical knowledge but also the
+practical steps for building better systems and tools.
 
-<!--
-The contributions of this work are as follows:
--  design activity worksheets with concrete steps for novices to walk through the process of designing visualizations
--  an evaluation of the effectiveness of these worksheets highlighting what worked and improvements to be made
--->
 
-## Related Work
+In [@sec:framework], we described one such theoretical model of the design
+process with four actionable design activities: *understand*, *ideate*, *make*,
+and *deploy*. Each of these activities includes a goal, target artifact or
+outcomes, and a plethora of design methods to choose from, each of which were
+described in such a way to make the process model more actionable. We found,
+however, that the theoretical framing of the model restricted and limited its
+use and actionability in the classroom or class project settings. To address
+these limitations we crafted a design worksheet for each design activity with
+steps to assist a novice through the visualization design process. Furthermore,
+we sought to validate the use of these worksheets in a graduate-level
+visualization course with students working on their cumulative projects for the
+course.
 
-The design activity framework introduced by McKenna et al. contains activities of
-the design process with a breakdown of each activity's motivation, artifacts,
-and design methods [@McKenna2014]. These activities are an extension of the
-core design phase of Sedlmair et al.'s nine-stage framework for design
-studies [@Sedlmair2012b]: discover, design, implement, and deploy. This adapted framework, however,
-supports more general problem-driven visualization
-challenges and researchers without visualization expertise, as well as projects with tight deadlines as is
-often seen in the classroom. The authors of the design activity framework claim
-its actionability, but this was never shown beyond the authors' use-case. A
-clear path for future work remains to validate the actionability of this
-framework to teach novices how to conduct a visualization design project.
 
-For the past few decades, pedagogy for data visualization and human-computer
-interaction has begun to shift from academic or theoretical foundations
-towards including skills for design, critique, and critical
-analysis [@Reimer2003; @Rushmeier2007; @Hearst2016; @He2017]. An effective
-pedagogical methodology is the use of design studios incorporated into the
-classroom setting [@Greenberg2009; @Reimer2003; @He2017], inspired by its use in
-fields like architecture, design, and art. For visualization, educators often
-incorporate practical exercises or real-world projects for students to learn
-about design [@Kerren2008], such as VizIt cards [@He2017] to teach and
-reinforce visualization concepts during an in-class design studio.
-Human-computer interaction educators have noted that computer science students
-in a design studio tend to focus more on idea refinement rather than broad idea
-generation and innovation [@Cennamo2011]. As such, guidance for the design
-process, both generating and evaluating visualization design artifacts, is often a
-missing component within the visualization pedagogy.
 
-The five design-sheet methodology [@Roberts2015] utilizes worksheets to
-structure and guide visualization students through the ideation process. This
-approach by Roberts et al. encourages engineering-type students to think
-divergently, creatively, and sketch out ideas on paper when first designing a
-visualization. Their approach begins with brainstorming, followed by three
-unique designs, and a realization sheet for the final tool. The authors
-validated their methodology with 53 students over several
-years [@Roberts2015]. In a workshop at the 2016 IEEE VIS conference that used these worksheets, we
-experienced a limitation of using this approach too soon: many steps must occur first
-such as data collection, identifying the challenge, focusing on a target user,
-and finding tasks. The authors elude to this in their paper with different
-preparation steps, but these steps can be non-trivial and tricky for novices.
-Thus, it would be beneficial to establish and evaluate more worksheets beyond
-ideation for data visualization pedagogy.
 
-<!--
-\sm{below is on the evaluation of the 5-ds, which we can bring up briefly in
-the methodology section instead}
-The authors further evaluated this technique for teaching with masters
-students in information visualization. In their evaluation, a total of 53
-students completed these design sheets over the span of 2 hours to come up
-with different ways to visualize their own chosen data set, after which they
-received feedback and additional time to finalize their
-designs [@Roberts2015]. After grading the sheets, the researchers compared
-grades of the design sheets to the rest of the class with their final tool or
-project grade and whole grade, as well as an anonymous survey to gather
-feedback on the entire course including the design sheets. Generally, they
-found that the design sheets aided students in planning and organizing a
-design section for the project write-up, and it also encouraged students to
-think divergently which is a skill not often taught in computer science.
--->
 
 ## Worksheets for the Design Activity Framework
 
