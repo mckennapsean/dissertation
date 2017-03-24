@@ -362,128 +362,96 @@ and other feedback which we explore next.
 
 
 
-## Discussion
+## Discussion: Benefits and Limitations
 
-<!-- TODO again table ref -->
 To address this constraint on creativity, a key improvement recommended by five
-students was to convert the worksheets into a checklist for each step, as in
-[@tbl:steps].
-<!-- Based on our interviews -->
-We would recommend two
-types of resources, since worksheets did provide structure, "it's like a checklist to make sure everything is covered" (P11),
-but the worksheets did limit free-form thinkers: "if you have a lot of things
-on your mind, you won't fit everything in the box anyways" (P6).
-<!--
-so the boxes are actually wasting paper"
-While some visualization designers recommend paper for
+students was to convert the visualization design worksheets into a checklist for
+each step, the same as the steps shown in [@tbl:steps]. Based on the interviews,
+we would recommend two types of resources, since worksheets did provide
+structure, "it's like a checklist to make sure everything is covered" (P11), but
+the worksheets did limit free-form thinkers: "if you have a lot of things on
+your mind, you won't fit everything in the box anyways so the boxes are actually
+wasting paper" (P6). While some visualization designers recommend paper for
 sketching [@Roberts2015], there are those in the design community that argue
 digital sketching can have functional benefits like shapes, undo, layers,
-duplication, and
-manipulation of details through
-zooming [@Wu2011], which two students did.
--->
-Another idea was to transform the
-worksheets into an app: "a clickable, interactive worksheet, where you click on
-this [and] it will connect you with the other worksheet and have a screenshot" (P8).
+duplication, and manipulation of details through zooming [@Wu2011], which two
+students utilized and felt was vital to their visualization design process.
+Another recommendation was to transform the worksheets into an app: "a
+clickable, interactive worksheet, where you click on this [and] it will connect
+you with the other worksheet and have a screenshot" (P8).
 
-Students suggested adding more worksheets to the materials. Six students felt
-that "those activities frame the process well" (P2). However, two students
+
+Students also suggested adding more worksheets to the materials. Six students
+felt that "those activities frame the process well" (P2). However, two students
 brought up a crucial aspect of evaluation and feedback, since it may be
-worthwhile to devote a whole worksheet towards these concepts, otherwise "if
-you have it on the other worksheets, [evaluation] doesn't seem to have as much
-value" (P10).
-<!--
-A key challenge for this project was finding the right dataset,
--->
-Four students requested a worksheet to help you probe into and explore your
-data
-<!--
-by providing guidance and questions on aspects of the data so that issues
-with the data can be avoided later, which is exactly what happened with 2
-projects.
--->
-Lastly, 3 students requested a worksheet on
-how to structure their code, particularly in the case of 1 group which had no
-computer science background.
-<!--
-Such a resource would help students brainstorm how
-to structure classes in their code, especially for best practices on classes in
-Javascript.
-and specific guidelines for best practices on structuring
-code for the web with Javascript would have been useful even for more
+worthwhile to devote a whole worksheet towards these concepts, otherwise "if you
+have it on the other worksheets, [evaluation] doesn't seem to have as much
+value" (P10). A key challenge for a visualization design project can be finding
+the right dataset. Four students requested a visualization design worksheet to
+help probe into and explore the dataset or datasets that a group may want to
+visualize. By providing guidance, steps, and questions on aspects of the
+dataset, potential issues with visualizing the dataset could be avoided later,
+which is exactly what happened with 2 of the student projects. Lastly, 3
+students requested a visualization design worksheet on how to structure the code
+of a visualization system, particularly in the case of 1 group which had no
+computer science background. Such a resource would help students brainstorm how
+to structure classes in their code, especially for building data visualization
+systems. Specific guidelines for particular languages, such as designing
+visualizations for the web in Javascript, could be useful even for more
 experienced student programmers.
--->
-
-<!--
-Furthermore, there are some minor tweaks that can be made to improve the design
-worksheets. Several students noted that the grey, helper text on the worksheets
-confused them at a times, so a low-level editing pass and clarification could
-help the worksheets. One student even suggested fleshing out that text into
-more of a template but then providing blank boxes on separate worksheets for
-each activity to be filled out. Several students noted that having another
-example set of worksheets, such as a good student example, would help steer them
-towards knowing what to put onto the worksheets. We also received
-recommendations to use a date-field rather than a blank number-field to
-encourage students to more simply organize their group worksheets over time as
-the numbers were not often used and harder to coordinate among group members. We
-also asked several students about the visual result and warning icons, and the
-consensus was that most students did not realize what these were for so their
-use may be superfluous. Providing weekly advisor feedback was crucial for
-improving students' confidence in design: "because we got to meet with [an
-advisor] then we had time carved out [for] doing the worksheets" (P5).
--->
-
-Nevertheless, the design worksheets were able to teach students how to design,
-guide them through actionable steps, and facilitated effective design
-discussions both within a group and with their mentor. As students highlighted:
-<!--
-"in having that methodically prescribed ... you break down the process into
-those clear steps, and I think that's useful. It is an intuitive flow" (P2),
--->
-"you break down the process into those clear steps... an intuitive flow" (P2),
-and: "this was really good guidance for us" (P3), and:
-<!--
-... well categorized for the beginner" (P3), and:
-"it was my first time doing something at this scale, and
--->
-"I didn't know where to start. It was nice to have steps along the way" (P4),
-and the benefit of generating ideas: "we considered more options than we would
-have" (P1). Despite the many improvements that can be made, we
-see the use of these worksheets as a success for teaching the visualization
-design process to students in their cumulative projects.
 
 
-## Conclusion \& Future Work
+Furthermore, there are some minor tweaks that can be made to improve the
+visualization design worksheets. Several students noted that the grey, helper
+text on the worksheets confused them at a times, so a low-level editing pass and
+clarification could help the visualization design worksheets. One student even
+suggested fleshing out that text into more of a template but then providing
+blank boxes on separate design worksheets for each activity to be filled out
+with less clutter overall. Several students noted that having another example
+visualization project using the worksheets, such as a good student project,
+would help steer novices towards knowing what to put onto the design worksheets
+and define more clear expectations. We also received recommendations to use a
+date-field rather than a blank number-field to encourage students to simply
+organize their group worksheets over time as the numbers were not often used and
+harder to coordinate among group members. We also asked several students about
+the visual result and warning icons, and the consensus was that most students
+did not realize what these were for so their use may be superfluous or should be
+made more clear. Additionally, providing weekly advisor feedback was crucial for
+improving students' confidence in visualization design: "because we got to meet
+with [an advisor] then we had time carved out [for] doing the worksheets" (P5).
 
-In this paper, we have introduced design worksheets to guide and teach novices
-the process of designing a visualization system. These worksheets were designed
-to simplify the theoretical concepts presented by the design activity
-framework [@McKenna2014], and we include all of the materials we used to
-teach these concepts to a graduate-level visualization course to 66 students. By
-working with 13 students, we evaluated the use of the design activities and
-worksheets through surveys and interviews to highlight what worked well and what
-could be improved on these design worksheets going forward. Lastly, we
-summarized these improvements and areas for future work on teaching
-visualization design to novices.
+<!-- \sm{TODO can you quantify 'several' into actual numbers?} -->
 
-These design worksheets are one step towards building more effective teaching
-tools for data visualization and design, but plenty of work lies ahead. One
-clear area for future work involves materials for design inspiration: brainstorm
-visualization encodings, abstractions, and tasks. Initial work shared by He and
-Adar in Vizit Cards [@He2017] is a step in this direction, and we
-encourage the community to continue this line of work. While one student used
-VizIt cards, they would have liked to see the cards generalized for other
-visualization challenges.
-<!--
-Furthermore, the design process, steps, and guidance
-can always be improved to be more descriptive, more clear, sufficiently
-succinct, and encompass other design methods and methodologies.
--->
-Other common methods for teaching are design studios [@He2017] and
-exercises [@Bertini2017], and it would be worthwhile to adapt design
-worksheets for these settings.
-<!--
-Lastly, scaffolding these materials from novices
-to experts could provide support for the worksheets to grow and expand for more
-advanced, creative, and flexible use.
--->
+
+Nevertheless, the design worksheets were able to teach students how to perform
+visualization design, guide them through actionable steps, and facilitated
+effective visualization design discussions both within a group and with their
+mentor. As students highlighted: "in having that methodically prescribed ... you
+break down the process into those clear steps, ... it is an intuitive flow"
+(P2), and: "this was really good guidance for us ... well categorized for the
+beginner" (P3), and: "it was my first time doing something at this scale, and I
+didn't know where to start. It was nice to have steps along the way" (P4), and
+the benefit of generating ideas: "we considered more options than we would have"
+(P1). Despite the many improvements that can be made, we see the use of these
+design worksheets as a success for teaching the visualization design process to
+students in their cumulative projects.
+
+
+These visualization design worksheets are one step towards building more
+effective teaching tools for data visualization and design, but plenty of work
+lies ahead. One clear area for future work involves materials for design
+inspiration: brainstorm visualization encodings, abstractions, and tasks.
+Initial work shared by He and Adar in Vizit Cards [@He2017] is a step in this
+direction, and we encourage the community to continue this line of work. While
+one student used VizIt cards, they would have liked to see the cards generalized
+for other visualization challenges. Furthermore, the visualization design
+process, steps, and guidance can always be improved to be more descriptive, more
+clear, sufficiently succinct, and encompass other design methods and
+methodologies. Other common methods for teaching are design studios [@He2017]
+and exercises [@Bertini2017], and it would be worthwhile to adapt design
+worksheets for these settings. Lastly, scaffolding these design materials from
+visualization novices to experts could provide support for the visualization
+design worksheets to grow and expand for more advanced, creative, and flexible
+use.
+
+<!-- \sm{TODO feels a bit more conclusion-y/discussion-y, perhaps move last paragraph to later chapter} -->
