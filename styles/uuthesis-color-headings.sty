@@ -9,9 +9,14 @@
 %%% Usage:
 %%%
 %%%    \documentclass {uuthesis2e}
-%%%    \usepackage    {uuthesis-2016-d}
+%%%    \usepackage    {uuthesis-2016-h}
 %%%    \usepackage    {uuthesis-color-headings}
 %%%
+%%% [12-Mar-2017] -- Revise definition of newtheorem* from amsthm.sty to
+%%%                  remove unwanted space before the period following
+%%%                  the theorem heading when color headings are used.
+%%% [09-Mar-2017] -- Fix vertical spacing bug in \mainheadingtext: change
+%%%                  \color{...}{...} to {\color{...}{...}}
 %%% [30-Mar-2016] -- Fix bug in one \addtocontents command.
 %%% [22-Mar-2016] -- More cleanup of macro layout, and removal of debug
 %%%                  statements.
@@ -22,11 +27,13 @@
 %%% ====================================================================
 
 \NeedsTeXFormat{LaTeX2e}[1994/12/01]
-\ProvidesPackage{styles/uuthesis-color-headings}[2016/04/04 v1.07]
+% \ProvidesPackage{uuthesis-color-headings}[2016/04/04 v1.07]
+% \ProvidesPackage{uuthesis-color-headings}[2017/03/09 v1.08]
+\ProvidesPackage{styles/uuthesis-color-headings}[2017/03/12 v1.09]
 
 \immediate \write16 {===============================================================================}%
 \immediate \write16 {}%
-\immediate \write16 {This is uuthesis-color-headings.sty version 1.07 <4 April 2016>}%
+\immediate \write16 {This is uuthesis-color-headings.sty version 1.09 <12 March 2017>}%
 \immediate \write16 {}%
 \immediate \write16 {WARNING: Color in theses is still experimental, and subject to approval by}%
 \immediate \write16 {the University of Utah Thesis Office!  One of their concerns is that color}%
@@ -48,7 +55,7 @@
     \parbox{\mainheadingwidth}{%
      \begin{center}%
         #2%
-        \color{utahheadingcolor}{\uppercase{{\nohyphenation #1}}}%
+        {\color{utahheadingcolor}{\uppercase{{\nohyphenation #1}}}}%
       \end{center}%
       \removelastskip
     }% end parbox
@@ -110,8 +117,22 @@
     \@xsect{#3}%
 }%
 
-\let \@oldbegintheorem = \@begintheorem
-\def \@begintheorem #1#2{\@oldbegintheorem{\color{utahtheoremcolor}{#1}}{\color{utahtheoremcolor}{#2}}}%
+%% The original of this definition is taken from amsthm.sty:157.
+%% We add color wrappers around the first and second arguments.
+\def\@begintheorem#1#2[#3]{%
+  \deferred@thm@head{\the\thm@headfont \thm@indent
+    \@ifempty{#1}{\let\thmname\@gobble}{\let\thmname\@iden}%
+    \@ifempty{#2}{\let\thmnumber\@gobble}{\let\thmnumber\@iden}%
+    \@ifempty{#3}{\let\thmnote\@gobble}{\let\thmnote\@iden}%
+    \thm@swap\swappedhead
+    \thmhead{\color{utahtheoremcolor}{#1}}%   theorem-like name
+            {\color{utahtheoremcolor}{#2}}%   theorem-like number
+            {#3}%                             optional numbered-within name
+    \the\thm@headpunct
+    \thmheadnl % possibly a newline.
+    \hskip\thm@headsep
+  }%
+  \ignorespaces}
 
 %%% Original definitions from uuthesis2e.cls
 %%% \def \fnum@figure {\bfseries Figure \thefigure}%
