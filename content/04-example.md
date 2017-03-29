@@ -482,4 +482,6 @@ should not simply be used to replace access to real users.
 - Limit the time and scope on your first pass of coding; spend more time to meet as a team and agree on codes.
 - Once you reach a consensus on codes, expand to more papers and divide up the work, allowing some overlap in coverage for consistency.
 
+<!-- TODO have to change these lists to 1), 2), etc? -->
+
 <!-- categories we identified [^1] -->
