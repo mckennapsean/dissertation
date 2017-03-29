@@ -41,6 +41,8 @@ design methods of interest to novice visualization designers to employ in their
 own projects.
 
 
+<!-- TODO get copyright permissions from ALL journals for ALL figures!! -->
+
 ![
   We present the framework's breakdown of a _design activity_: motivation,
   artifacts, and methods, where methods can be generative or evaluative.
