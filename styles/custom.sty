@@ -112,3 +112,6 @@
 
 % change color of headers to match website theme
 \definecolor{utahheadingcolor}{rgb}{0.404, 0.294, 0.549}
+
+% override cite command since natbib won't work with ieee style guide
+\newcommand{\citep[1]{\cite{#1}}}

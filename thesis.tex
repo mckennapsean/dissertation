@@ -70,7 +70,8 @@
 \usepackage{graphicx}
 \usepackage{booktabs} % better latex tables
 \usepackage{longtable} % tables beyond 1 page
-\usepackage[sectionbib,numbers, sort]{natbib} % numeric citations using natbib
+\usepackage{cite}
+% \usepackage[sectionbib, numbers, sort]{natbib} % numeric citations using natbib
 % \usepackage{url} % must be careful when changing formatting for text/hypertext links!
 % \usepackage{afterpage} % execute command after page break
 % \usepackage{varioref} % smart referencing (e.g. on this page, on page XX)
@@ -248,8 +249,8 @@
 %%% This tells BibTeX to read siam.bst from the first directory where
 %%% it is found in the BSTINPUTS search path:
 
-%% TODO check bib style, change to IEEE? or see what is feasible? need to decide on this soon...
-\bibliographystyle{acm}
+%% using IEEE bibliography style
+\bibliographystyle{IEEEtran}
 % \bibliographystyle{siam} % default
 
 %%% This can also specify a comma-separated list (without embedded
