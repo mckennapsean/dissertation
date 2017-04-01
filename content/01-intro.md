@@ -5,7 +5,7 @@ The process of designing a visualization is known to be iterative, complex, and
 occasionally messy [@Sedlmair2012b; @DIS2010; @Tory2004; @Wassink2009;
 @Chee2011; @Moere2011]. Furthermore, pedagogical approaches for teaching the
 visualization design process [@cairo2012; @Munzner2014; @Shneiderman2004;
-@Ware2010; @Sedlmair2012b; @Munzner2009] can either be less concrete or quite
+@Ware2010; @Sedlmair2012b; @Munzner2009] can either be less concrete or too
 theoretical in nature so that these approaches may fail to effectively guide
 novices toward building a visualization system. As the field of visualization
 matures, theories and models for visualization design have become more
@@ -14,10 +14,10 @@ prevalent, from evaluation strategies [@Plaisant2004; @Lam2011a;
 [@Tory2004; @Sedlmair2012b; @Lloyd2011; @Shneiderman2006; @Wassink2009;
 @Chee2011]. These theories and models for the visualization design process
 largely address _how_ a novice can design a visualization; however, these
-theories sometimes fail to explicitly distinguish or lay out specific steps for
+theories often fail to explicitly distinguish or lay out specific steps for
 a novice visualization designer because the models include rich but verbose
 theoretical terminology. Additionally, none of these models describe the
-connections of those actions back to _why_ a novice makes specific decisions,
+connections of a novice's actions back to _why_ they make specific decisions,
 such as relying on pre-existing visualization guidelines or through performing
 evaluation methods. There is an opportunity here for creating a new approach to
 teach the next generation of visualization designers, by equipping them not just
@@ -38,7 +38,7 @@ visualization encoding. These artifacts are produced as a result of
 **decisions** that are made by a visualization designer, like guidelines that
 are established through evaluating a system. No previous work exists that
 connects all three of these aspects and describes the interplay between them for
-visualization design. By simplifying terminology and laying out specific steps,
+visualization design. By simplifying terminology and laying out example steps,
 a new visualization process framework could help novices learn about the process
 and conduct it more effectively.
 
@@ -49,20 +49,20 @@ of the design process for creating and building novel and useful visualizations
 [@Sedlmair2012b; @Lloyd2011; @Wassink2009; @Chee2011]. In the field of
 visualization, problem-driven research often involves design studies, where
 visualization experts create visualization systems to support solving a real
-world problem. It is helpful both for novice visualization designers and even
+world problem. It is helpful for both novice visualization designers and even
 expert ones to provide guidance on how to achieve success in these projects and
 avoid common pitfalls [@Sedlmair2012b] which can lead to wasted time, less
 effective solutions, or even failure. There are also many different design
-process models out there, many from the design or human-computer interaction
-(HCI) communities, and several within the visualization community. The broad
-range of and different steps showcased within each model make it challenging for
-a novice visualization designer to learn how to design visualization systems on
-their own.
+process models out there, some from the design or human-computer interaction
+(HCI) communities, and several within the visualization community as well. The
+variety and broad range of design steps showcased within these models make it
+challenging for a novice visualization designer to learn how to design
+visualization systems on their own.
 
 
 <!-- design decisions -->
 Visualization practitioners constantly make _design decisions_ throughout the
-process in order to refine their work. These decisions play a crucial role in
+process in order to refine their work. These design decisions play a crucial role in
 justifying, validating, and challenging the use of artifacts that get generated
 within a design activity. Others have used the term guidelines to describe this
 same result of the decision-making process for visualization design [@Meyer].
@@ -105,22 +105,21 @@ knowledge as well.
 
 <!-- back to the solution -->
 The activities of a visualization design process, with each of its artifacts and
-associated design decisions, could all be connected through a new type of
+associated design decisions, can all be connected through a new type of
 visualization design framework. Without this connection, it is much harder for a
 novice visualization designer to answer both the _how_ and _why_ questions of
-design using existing models. Even expert visualization designers can struggle
-with these models due to lack of useful step-by-step descriptions or no steps
-altogether but focusing on just the decisions. If such a framework could
+design using existing visualization models. Even expert visualization designers can struggle
+with these models due to a lack of step-by-step descriptions or focusing only on design decisions rather than the steps at all. If such a framework could
 describe these steps of the visualization design process as series of
 overlapping activities, then perhaps the iterative nature of a design process
 would be immediately clear for novice designers. By prescribing each activity
-with a simple, encompassing definitions, a novice could easily determine which
+with simple, encompassing definitions, a novice could easily determine which
 activity they are currently in, what visualization design artifacts they should
 produce, and how to evaluate them. By providing a novice designer with specific
 steps to perform, they can learn to design a visualization and perhaps learn and
 grow on to using new design methods over time. The goal of such a framework
 would be to empower novice visualization designers with the knowledge, tools,
-and techniques available for them to effectively design a useful and usable
+and techniques available for them to effectively design a usable and useful
 visualization system.
 
 
@@ -138,7 +137,7 @@ is its specificity for visualization design by connecting steps of the design
 process to the design decisions made and visualization-specific artifacts
 obtained. Other novel aspects of this framework includes its flexibility for
 iteration, actionability to guide novice visualization designers, and
-connections to existing models across fields. To strengthen the contribution of
+connections to existing visualization models. To strengthen the contribution of
 this framework, we have evaluated its use and application across several
 different visualization design projects. Specifically, we have utilized this
 framework to formulate, guide, and reflect on the design process of design
@@ -146,10 +145,11 @@ studies and research in the fields of biology [@mckenna2015s], cyber security
 [@McKenna2014; @Staheli2014; @McKenna2015; @mckenna2016], and data visualization
 storytelling [@mckenna2017]. For each of these projects, we have employed a
 variety of qualitative and quantitative design methods in order to validate the
-utility of these methods in real-world projects and reflect on their use for
-future projects. We also include rich descriptions behind a variety of different
-visualization design artifacts used in a case study on cyber security as one
-example of how to use this framework. To further simplify and validate this
+utility of this framework in real-world projects and reflect on their use in
+future visualization design projects. We also include two case studies in
+visualization cyber security datasets that provide examples of how to use this
+framework and showcase rich descriptions behind a variety of different
+visualization design artifacts. To further simplify and validate this
 framework, we created concrete, step-by-step worksheets for each activity that
 we evaluated through a series of qualitative surveys and interviews with novice
 visualization designers. As a result of this evaluation, we discovered that
@@ -177,7 +177,7 @@ development in a discussion on agile software engineering approaches.
 A core contribution of this dissertation is the design activity framework; we
 present an overview in [@sec:framework]. This framework addresses a missing
 connection between different kinds of visualization design models, providing for
-a more complete description of a design project. This framework presents steps
+a more complete description of a design project in visualization. This framework presents steps
 of a visualization design process through four design activities: _understand_,
 _ideate_, _make_, and _deploy_. Each activity contains a motivation or goal, a
 list of methods, and target visualization artifacts. These concise definitions
@@ -185,19 +185,18 @@ support novice designers in learning and utilizing the framework to connect
 their design decisions to visualization artifacts. We include a table of
 possible design methods that novices can employ to generate and evaluate
 visualization artifacts. Lastly, a showcase of design timelines illustrates how
-to track and report on activities with their associated visualization design
-artifacts.
+to track and report on activities with their associated artifacts.
 
 
 The design activity framework came out of reflections of a successful design
 project explained in [@sec:formulation]. This project focused on redesigning a
 cyber security tool, and this work resulted in updates to the underlying system
 as a result of this separate design process. This isolation of the design and
-development enabled us to reflect with other collaborators with novice
-visualization experience on how to best describe and explain our visualization
-design process. As a result, we used this project as an example use-case for how
-to use the design activity framework, and this chapter showcases a variety of
-design methods, visualization artifacts, and design timelines.
+development enabled us to reflect on how to best describe and explain our
+visualization design process to other collaborators who had novice
+visualization experience. As a result, we describe this project as a case study
+for how to use the design activity framework, and this chapter presents a
+variety of design methods, visualization artifacts, and a design timeline.
 
 
 To tailor the design activity framework to visualization novices, we created
@@ -231,19 +230,19 @@ we designed strayed away from solving real world problems of our biology
 collaborators due to its novelty. Another project we conducted was an
 exploration and evaluation of a design space for interactive, visual data
 stories, and through this project we designed a tool to explore the design space
-and help create conditions studied in our user studies. While the overall work
-was less driven by a design process, we recognize that this work was very
+that helped create conditions for our user studies. While this research
+was less driven by a visualization design process, we recognize that this work was very
 formative and exploratory, beginning to shape an understanding and setting
 guidelines for future decisions made by visualization designers in this space.
-Our reflections on these two projects showcase how design can play a subtle yet
+Our reflections on these two projects demonstrate how design can play a subtle yet
 pivotal role in both technique-driven and evaluation-driven research.
 
 
-We provide a discussion of this framework and outline future work in
+We provide a discussion of the design activity framework for visualization design and outline future work in
 [@sec:discussion]. In this discussion, we include a call for more pedagogical
 work and materials for novice visualization designers, based on results of our
 framework and worksheet evaluations. Additionally, we explore the notion of
 broader process models, for both research and development, as ways to extend and
-connect these models to better guide novices to build better visualization tools
+connect these design models to more effectively guide novices to build better visualization tools
 and systems. Lastly, we conclude this dissertation in [@sec:conclusion] with a
 summary of our contributions, findings, and recommendations.
