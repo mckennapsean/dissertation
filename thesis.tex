@@ -70,8 +70,6 @@
 \usepackage{graphicx}
 \usepackage{booktabs} % better latex tables
 \usepackage{longtable} % tables beyond 1 page
-\usepackage{cite}
-% \usepackage[sectionbib, numbers, sort]{natbib} % numeric citations using natbib
 % \usepackage{url} % must be careful when changing formatting for text/hypertext links!
 % \usepackage{afterpage} % execute command after page break
 % \usepackage{varioref} % smart referencing (e.g. on this page, on page XX)
@@ -118,10 +116,9 @@
 %%% definitions.
 \usepackage{styles/custom}
 
-% if you need biblatex package
-% \usepackage[style=numeric,natbib=true]{biblatex}
-% \bibliography{references}
-% \addbibresource{references.bib}
+% bibliography style guide (IEEE)
+\usepackage[style=ieee,bibencoding=utf8,backend=biber,sorting=none]{biblatex}
+\addbibresource{references.bib}
 
 
 %%% ====================================================================
@@ -189,7 +186,7 @@
 
 \begin{document}
 
-%% Comment out items by inserting a percent % character
+%% contents of dissertation
 \frontmatterformat
 \titlepage
 \copyrightpage
@@ -213,7 +210,6 @@
 \pagestyle{headings} % NEW for sample-thesis-6
 
 \input{chapters}
-% $body$
 
 % appendices
 \numberofappendices = 0 % set 0 for none, else number of appendices
@@ -221,53 +217,15 @@
 %\include{tex/11-appendix}
 %\nocite{*}
 
-%%% The choice of bibliography style is a major decision, jointly made
-%%% by you, your thesis advisor and the thesis editor. Common choices are
-%%% one of the four standard BibTeX styles (abbrv, alpha, plain, and unsrt),
-%%% or enhanced styles like acm, amsplain, siam, and hundreds of others
-%%% available in TeX Live, and other Unix and Windows TeX distributions.
-%%%
-%%% Do NOT handcode your reference list, because you are unlikely to
-%%% achieve consistency or conformance to the University of Utah Thesis Office
-%%% requirements: let BibTeX do that tedious job for you!
-%%%
-%%% Remember that reference-list metadata in BibTeX files remains
-%%% constant across journals and publishers, and is are often reused
-%%% in other documents and shared with others, whereas formatted
-%%% reference-list styles change: with BibTeX, you only need to record
-%%% the metadata once.
-%%%
-%%% If you prefer named, rather than numeric or tagged citations, you
-%%% may use styles such as authordate{1,2,3,4}, chicago, harvard, or
-%%% natbib.  Be aware, however, that most of those require an
-%%% additional \usepackage{} command to supply \LaTeX{} with
-%%% definitions of commands that the style needs, and that there are
-%%% usually several flavors of LaTeX citation commands beyond the
-%%% standard \cite{} command that you need to understand before you
-%%% can use them properly in your prose.
+% print out refs chapter according to thesis template (from uuthesis2e.cls)
+\newpage
+  \thispagestyle{empty}%
+  \addcontentsline{toc}{chapter}{REFERENCES}%
+  \mainheading{REFERENCES}%
+  \par\removelastskip\singlespace\par\removelastskip% GBG Oct 1993
+  \fixmainheadingSKIP
 
-%%% This tells BibTeX to read siam.bst from the first directory where
-%%% it is found in the BSTINPUTS search path:
-
-%% using IEEE bibliography style
-\bibliographystyle{IEEEtran}
-% \bibliographystyle{siam} % default
-
-%%% This can also specify a comma-separated list (without embedded
-%%% spaces) of *.bib files found by BibTeX in its BIBINPUTS search
-%%% path.  The argument \jobname means the base name of the top-level
-%%% LaTeX file, avoiding an unnecessary filename dependence here.
-%%%
-%%% BibTeX writes only one .bbl file, no matter how many *.bib files
-%%% are listed here, using the name \jobname.bbl.
-%%%
-%%% LaTeX reads BibTeX's formatted reference list from the file
-%%% \jobname.bbl.
-\bibliography{references}
-
-% if you need biblatex package
-% \printbibliography
-
-% to create an index, see the additional template files for more details
+% show references
+\printbibliography[heading=none]
 
 \end{document}
