@@ -1,7 +1,7 @@
 This dissertation focuses on a new visualization design process model, geared
 towards guiding novice visualization designers to tackle problem-driven work and
 build more effective and useful visualization systems and tools. The key novel
-aspects of this framework include its flexibility for iteration, actionablity
+aspects of this framework include its flexibility for iteration, actionability
 to guide novice designers with concrete steps and simplified definitions,
 and connections to other visualization models commonly used in the field.
 In summary, the design activity framework breaks down the design process into a
