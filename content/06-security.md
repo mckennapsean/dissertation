@@ -362,6 +362,284 @@ and deployment will be discussed further.
 ](figures/worksheets/worksheet-example.jpg){#fig:example width="100%"}-->
 
 
+As discussed previously, a number of user-centered design methods have been
+discussed in the cyber security visualization literature, such as interviews,
+observations, usability testing, focus groups, and workshops. A few methods were
+discussed in the context of a larger design process, but none of these methods
+were validated in the context of contribution to a completed, deployed
+visualization tool. There are many other user-centered design methods that have
+yet to be demonstrated for cyber security visualization design. We explored two
+design methods in detail for designing a visualization: _personas_ and _data
+sketches_. These design methods played instrumental roles in the _understand_
+and _ideate_ activities. Next, we discuss each of these methods in detail, along
+with our motivation to place that method in the context of the larger design
+process. Then we highlight the artifacts achieved, followed by results and
+implications of what we learned and a discussion of the method's efficiency,
+effectiveness, and limitations. Then we wrap up each method by presenting
+recommendations for use in cyber security visualization design.
+
+
+
+
+
+## Personas Design Method
+
+The next design method we present was utilized during our second project:
+designing a cyber security dashboard for communication of cyber information. We
+have included sample images of the dashboard in [@fig:dashboard] to show how a
+design method can iteratively improve upon the design of a final deployed tool.
+We began this project with a broad, and fuzzy, goal, requiring us to take a step
+back and identify the needs of the users; again, we started in the _understand_
+design activity. But who were the real users for a dashboard? With the task of
+communication, we surmised that more than one type of user was meant to utilize
+the dashboard. We could not find much research discussing users beyond network
+analysts, so our motivation was to uncover information on a range of users for
+cyber security to help form the design opportunities for this project. This
+motivation is an ideal fit for the personas design method.
+
+
+|     |     |
+| --- | --- |
+| ![](figures/methods/dashboard1.pdf){width="45%"} | ![](figures/methods/dashboard2.pdf){width="45%"} |
+| (a) | (b) |
+
+![
+  Different stages of the dashboard prototype. (a) The personas method helped
+  produce the first iteration of our design focused for analysts and managers.
+  (b) The data sketches method aided us in redesigning the dashboard.
+](){#fig:dashboard}
+
+<!-- TODO transfer figure from tabular to JUST figure! -->
+
+
+The personas method is often utilized within the user-experience, design, and
+HCI communities [@Pruitt2003; @Faily2011; @Chang2008; @McGinn2008; @Martin2012].
+Personas are _documents meant to foster communication within a design team as
+archetypes of users, their behaviors, and their knowledge_ [@Martin2012]. Within
+the cyber security domain, Stoll et al. describe a specific methodology for
+using personas, highlighting their benefits for cyber security visualization
+design [@Stoll2008a]. Here, we further this work in three ways. First, we
+describe how personas benefit the communication within a design team. Second, we
+add visual elements to our personas to promote fast visual comparison of
+multiple user profiles and highlight interactions between personas. Third, we
+tailor our personas to the field of cyber security by incorporating key aspects
+of cyber situational awareness.
+
+
+We developed the personas based on a dozen semi-structured interviews conducted
+over six weeks with various stakeholders: network analysts, managers,
+researchers embedded in cyber operations, and various other cyber security and
+business-focused users. Reflecting on the data gathered during these interviews
+and existing literature, we produced personas for four different kinds of users:
+an analyst, manager, director, and CEO. Once we identified four different kinds
+of users for our project, we narrowed the project's focus to specifically design
+our dashboard for only two of the personas: analysts and managers. By isolating
+these two types of users, we were able to keep our focus consistent throughout
+the rest of the design process; from development to evaluation, these two user
+archetypes became the key motivation to justify and balance all our decisions as
+a design team.
+
+
+### Visualization Artifacts
+
+![
+  An overview of the four visual personas we identified, showing the role
+  decisions and information play across all users. The personas method was
+  particularly effective at narrowing our design focus and facilitating
+  consistent communication as a design team.
+](figures/methods/personas.pdf){#fig:personas height="100%"}
+
+
+We present the resulting personas from our project in [@fig:personas] and
+provide them in Supplemental Materials.[^1] The four personas are: a cyber
+analyst, a network operations center (NOC) manager, a director of information
+technology (IT), and a chief executive officer (CEO). For each persona, we
+pinpointed the goal or domain-specific task for each archetypal user and
+visually illustrated the user's cyber knowledge and situational awareness (SA)
+focus. We also considered the range or window of temporal data that each user
+requested, illustrating how to represent visualization-specific needs within a
+persona. Next, we highlighted each user's key cyber SA questions, pulling from
+an existing question taxonomy as a basis [@Paul2013a]. Lastly, we identified the
+general flow of both decisions (downward) and information (upwards) between
+these personas to characterize interactions taking place between them.
+
+
+### Results and Implications
+
+Personas played a critical role in helping us to decide which users and needs to
+target in our design process. Narrowing the focus of our dashboard project early
+was crucial due to the time limitations of our project. We decided that the
+dashboard should not be too high-level for just CEO's nor just another tool for
+analysts. We targeted our dashboard to both cyber analysts and managers by
+combining features for analysts to quickly explore the data with standard
+visualizations for managers to quickly comprehend the details of the data; see
+[@fig:dashboard](a) for the first prototype of our design using these two
+personas. Furthermore, the narrowed design focus uncovered several key user
+needs for our project. By brainstorming off these needs, we were able to ideate
+upon various dashboard designs and compare how they worked for different users
+based on the personas we created. Some examples of these user needs include:
+intuitive and easy-to-use, communication and presentation, ability to provide
+details-on-demand, simplification and aggregation of data, adaptability, and
+promotion of collaboration between users. The personas continued to aid our
+design team in both communicating and evaluating the dashboard, up until its
+deployment.
+
+
+### Discussion
+
+The personas presented in [@fig:personas] can be used as a starting point or
+tailored by others in future visualization design projects for cyber security.
+Furthermore, these personas can be modified for different project motivations
+and user needs; it is common for personas to alter and become more refined over
+time [@Chang2008]. The personas design method took less than three months' time
+including the interview process, and this method resulted in the design of a
+deployed dashboard. Thus, the personas method can be both efficient and
+effective for cyber security visualization design. Additionally, the personas
+method can be data-driven, where personas are built and evaluated against data
+directly captured from users [@McGinn2008].
+
+
+### Recommendations
+
+  - Use personas to target the right users for a design or to evaluate a design with your users in mind.
+  - Talk with real users to build personas; if you cannot, use existing research or qualitative coding of the literature.
+  - Pinpoint user goals, knowledge, behaviors, and activities, focusing on both similarities and differences across users.
+  - Incorporate visual encodings when appropriate to enable easier and faster comparison across personas.
+  - Use and adapt personas over time; keep them as a living document to fuel multiple design projects.
+
+
+
+
+
+## Data Sketches Design Method
+
+As originally pioneered, data sketches allow a designer to _"quickly and
+flexibly produce transient and uncertain visual representations of domain data
+by scavenging existing applications for functionality that allow data,
+interactions, and functionality to be combined"_ [@Lloyd2011]. In other words, a
+data sketch is a visualization developed using available software tools. We
+incorporated data sketches into our design of the cyber security dashboard
+during our _understand_ and _ideate_ design activities in order to establish a
+more complete data and task abstraction for the communication of cyber
+information. Our motivation was to better understand an analyst's needs, and to
+ideate further on the potential design options; we also sought recommendations
+for cyber security dashboard design. We reached out to a network security
+analyst at the University of Utah to obtain real-world data for the data
+sketches, and followed-up with this analyst to get feedback on the sketches.
+
+
+We obtained a network flow dataset from our collaborator containing over 2.3
+million network flows, which captured over 0.4 TB throughput on the university's
+network. This dataset captured a five-minute snapshot of the network traffic. In
+developing data sketches of this flow dataset our focus was not on the scale or
+optimization of the data, but how to best represent the data. The question we
+wished to answer was this: if this is the raw data we have and given our
+technical network security analyst user, what views are appropriate, or
+inappropriate, to use in a dashboard?
+
+
+We spent a month sketching with this data. We utilized Python to simplify,
+aggregate, and parse the data in various ways, and used Tableau, Gephi, and
+D3.js to produce a variety of visualizations. Even with these powerful
+visualization tools, it was still challenging to explore this relatively small
+cyber security dataset. To supplement our own sketches, we also included images
+from existing literature of less common and more complex visual representations
+that made use of real-world cyber security data [@Fischer2014; @Koike2005;
+@Taylor2009].
+
+
+### Visualization Artifacts
+
+![
+  An overview of the twenty data sketches we evaluated with a cyber security
+  analyst; this feedback was critical to our redesign of a cyber security
+  dashboard in [@fig:dashboard](b). We categorized each sketch into four groups:
+  network graphs, maps, aggregated charts, and time. Several data sketches we
+  pulled from existing literature [@Fischer2014; @Koike2005; @Taylor2009]. We
+  provide a full-page version of each data sketch in Supplemental Materials.[^1]
+](figures/methods/sketches.pdf){#fig:sketches width="100%"}
+
+<!-- TODO superscript / link to other material? -->
+
+We present an overview of the twenty data sketches we produced in
+[@fig:sketches]; please see Supplemental Materials[^1] for a full-page version
+of each data sketch. We categorized each of the data sketches into four
+high-level groupings --- network graphs, maps, aggregated charts, and time ---
+which helped guide our discussion with our network analyst. We performed a
+free-form, informal evaluation session with our analyst for three hours to see
+which visual representations were easily understood and potentially most useful.
+These data sketches can be repurposed in future projects for further
+brainstorming.
+<!-- TODO superscript / link to other material? -->
+
+
+### Results and Implications
+
+We showed each data sketch to our analyst; here we summarize the analyst's
+feedback for each kind of data sketch.
+
+  - _Network Graphs:_ The analyst was unconvinced that the graphs could show meaningful insights at scale with each node representing a single IP address. Furthermore, the layout algorithm confused the analyst since it positioned each IP address at a location that was not meaningful to the analyst.
+  - _Maps:_ In contrast to the network graph sketches, the map representations garnered positive feedback from the analyst, in particular the cartograms due to their novelty.
+  - _Aggregated Charts:_ These charts concerned the analyst because the finest level of detail was not available. We also included one data sketch to show a 3D data chart, which seemed to entice the analyst despite our continued warnings about the usability challenges of 3D for cyber security visualization [@Komlodi2005]. More unique kinds of visualization, such as parallel coordinates and treemaps, confused the analyst on first glance and required further explanation. After explanation, the analyst commented that parallel coordinates seemed promising for exploring multidimensional data, while the treemaps, which showed the IP address hierarchy, seemed less useful.
+  - _Time:_ These sketches were discussed in less detail; however, the analyst stated that the timestamp was one of the least important data fields to him.
+
+
+After reviewing the analyst's feedback, we synthesized several considerations
+for cyber security dashboard design:
+
+  - Avoid complex 3D graphics and interactions.
+  - Avoid visual representations that require significant explanation, such as parallel coordinates or treemaps.
+  - Precise details on the time scale may not be immediately vital.
+  - Summary views for communication can use aggregation.
+  - Aggregation of data should be immediately obvious.
+  - A map-based view could aid the discovery of patterns.
+
+With these considerations in mind, we revisited our initial dashboard design and
+performed another iteration on the _ideate_ and _make_ design activities to
+produce the final dashboard design shown in [@fig:dashboard](b). The major
+change made in the final design is the type of encoding, using a map view with
+aggregation over time. This change was, in part, driven by the results of the
+data sketches method, which showed the potential of aggregation and map-based
+views for discovering and communicating cyber data.
+
+
+### Discussion
+
+We found that data sketches were very time efficient; the entire process took
+about two months to set up, perform, evaluate, and analyze. Furthermore, these
+data sketches were effective in our design process for producing a set of
+recommendations for dashboard design, and for pinpointing certain
+representations of the data as promising. Furthermore, this method provided some
+key insights for our redesign of the dashboard, which is currently deployed to
+users. These data sketches and the feedback we received can be used by others to
+inspire and evaluate their own visualization design projects for cyber security.
+
+
+There were several limitations to our approach. First, several of the sketches
+we presented were taken from images in the literature, and thus were not based
+on our collaborator's data. Unfortunately, many of the tools in visualization
+papers, particularly for cyber security, tend not to be publicly available or
+provide a consistent data format for others to easily and readily use the tools
+for such an exercise. This meant we either had to not include these more unique
+and interesting visualizations in our set, or compromise by showing alternative
+data; we opted for the latter and included a brief description of the data being
+used for each encoding. The second limitation was that we only received feedback
+on the data sketches from one analyst. While additional analyst feedback would
+be preferable, the feedback we did receive was helpful for allowing us to cull
+out potential design ideas and focus on a smaller subset of ideas quickly.
+
+
+### Recommendations
+
+  - Incorporate real data whenever possible; if you cannot, use realistic datasets like the VAST challenge datasets.
+  - Repurpose the tools you know, and experiment with new ones (e.g. Python, Tableau, Gephi, D3.js, Processing, Excel, Spotfire, Arcsight, Splunk).
+  - Utilize real-data examples of visualization tools if a tool is unavailable or requires excessive time to input your data.
+  - Explore both interaction and animation in your data sketches.
+  - During evaluations, provide users with tasks or prompts if your goals require focusing the user feedback.
+  - Users may provide initial positive feedback on sketches because they are novel; consider re-evaluating at a later time.
+  - Introducing many data sketches at once can overload users; consider introducing sketches in multiple sessions.
+
+
 
 
 
