@@ -157,7 +157,7 @@ referred to as design requirements [@Jones2008; @Royce1970; @Lloyd2011;
 tailored to helping users solve problems or challenges they face in visualizing
 data. Not all challenges that users or domain collaborators may face will use or
 need a visualization system. For example, sometimes statistics, machine
-learning, or pre-existing visualization tools such as Microsoft Excel or Tableau
+learning, or preexisting visualization tools such as Microsoft Excel or Tableau
 can help solve certain problems. In a visualization project, it is important for
 a novice designer to identify early on if there is a need and a set of design
 requirements that cannot easily be solved using existing tools.
