@@ -18,7 +18,7 @@ theories often fail to explicitly distinguish or lay out specific steps for a
 novice visualization designer because the models include rich but verbose
 theoretical terminology. Additionally, none of these models trace novices'
 actions back to _why_ they make specific decisions, such as relying on
-pre-existing visualization guidelines, or selecting certain evaluation methods.
+preexisting visualization guidelines, or selecting certain evaluation methods.
 The visualization community has an opportunity to create a new approach to teach
 the next generation of visualization designers, by equipping them with not only
 the theoretical knowledge but also the practical skills for building better
@@ -72,7 +72,7 @@ common to perform an evaluation of a system, from informal to formal or
 qualitative to quantitative, in order to justify the use or explore the
 effectiveness of a specific encoding or interaction technique [@Brehmer2014;
 @McCurdy2015; @Kerzner2015; @Quinan2015]. Other common design decisions stem
-from pre-existing guidelines in the visualization community, such as using
+from preexisting guidelines in the visualization community, such as using
 position along a common scale to encode the most important data visually, over
 less perceptually effective channels such as angle, area, and saturation of
 color [@Cleveland1984]. Currently, design decisions in the visualization
