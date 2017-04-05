@@ -111,7 +111,9 @@
 %   \ifinputpicture \input{#1} \else \input{box.tex} \fi }
 
 % change color of headers to match website theme
-\definecolor{utahheadingcolor}{rgb}{0.404, 0.294, 0.549}
+% disabled per Chris' suggestion of plain black headings
+% \definecolor{utahheadingcolor}{rgb}{0.404, 0.294, 0.549}
+\definecolor{utahheadingcolor}{rgb}{0.1, 0.1, 0.1}
 
 % override cite command since natbib won't work with ieee style guide
 \newcommand{\citep}[1]{\cite{#1}}
