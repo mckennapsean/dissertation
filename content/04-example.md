@@ -397,7 +397,7 @@ agreement on our final codes. After a month of open coding the three papers, we
 consolidated all of our data together in a final meeting.
 
 
-### Visualization Artifacts
+### Visualization Artifacts: Qualitative Coding
 
 ![
   An extension to the data hierarchy model presented by D'Amico et al.
@@ -431,7 +431,7 @@ to the existing tool: usability, workflow improvements, desirability, and
 temporal data representation.
 
 
-### Results and Implications
+### Results and Implications of Using Qualitative Coding
 
 After identifying key design opportunities, our design team iterated on a series
 of ideas for the company to improve their tool. We sketched out and detailed a
@@ -454,7 +454,7 @@ the data feedback loop, clearly shows the outputs from this feedback loop, and
 provides identification of tasks for filtering the data across levels.
 
 
-### Discussion
+### Discussion on Qualitative Coding Design Method
 
 The qualitative coding method was efficient as compared to more complex methods,
 such as a multiple-analyst cognitive task analysis; we conducted the qualitative
@@ -474,7 +474,7 @@ should not simply be used to replace access to real users.
 <!-- TODO again, where to link full table of coding methods? e.g. [^1] -->
 
 
-### Recommendations
+### Qualitative Coding Recommendations for Visualization Design
 
 - Start your coding method on a few papers to develop an initial set of codes; select papers from appropriate venues:
   - e.g. VizSec, VIS, CHI, HFES, Behavior & Information Technology, Computers & Security, FIRST, HST, AMCIS, SAM, CyCon, FloCon, CogSIMA, DHS CATCH, HCI HAS, CTS SECOTS.
