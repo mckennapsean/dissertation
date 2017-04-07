@@ -1,0 +1,52 @@
+{
+  "spellchecker.language": "en_US",
+  "spellchecker.ignoreWordsList": [
+    "actionability",
+    "cyber",
+    "Cyber",
+    "timeline",
+    "Timelines",
+    "mbox",
+    "Christiaans",
+    "Almendra",
+    "personas",
+    "multilinear",
+    "multilinearity",
+    "spectrums",
+    "workflow",
+    "workflows",
+    "wireframes",
+    "concretize",
+    "concretized",
+    "centred",
+    "CorrPlot",
+    "scorrplot",
+    "heatmap",
+    "scatterplot",
+    "mockups",
+    "walkthrough",
+    "repurpose",
+    "BubbleNet",
+    "treemap",
+    "treemaps",
+    "squarified",
+    "BubbleNet's",
+    "screenshots",
+    "webpages",
+    "scroller",
+    "scrollers",
+    "trackpads",
+    "touchscreens",
+    "Steller"
+  ],
+  "spellchecker.documentTypes": [
+    "markdown",
+    "latex",
+    "plaintext"
+  ],
+  "spellchecker.ignoreRegExp": [
+    "/\\\\[-?[@A-Za-z:0-9;\\\\s\\\\-]*\\\\]/g"
+  ],
+  "spellchecker.ignoreFileExtensions": [],
+  "spellchecker.checkInterval": 5000
+}
