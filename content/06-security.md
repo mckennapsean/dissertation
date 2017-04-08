@@ -331,7 +331,7 @@ and keeping it both intuitive and easy to use. Next, two dozen different
 visualization encoding ideas were sketched and weighted against each need. As a
 result, each idea was scored by combining these priorities and weights,
 resulting in several key ideas with the most potential. We created the first
-prototype from these ideas, shown in [@fig:process]a). This prototype contained
+prototype from these ideas, shown in [@fig:dashboard1]. This prototype contained
 a treemap of network records, organized by city and country.
 
 
@@ -368,7 +368,7 @@ location-based views required little to no explanation.
 
 Thus, we iteratively developed towards a location-based encoding which is
 simpler and more intuitive for a larger variety of users, shown in
-[@fig:process]b).
+[@fig:dashboard2].
 
 
 A usability study was performed on this second prototype to evaluate its
@@ -721,7 +721,7 @@ aesthetically to us.
 
 
 Originally, the dashboard dual-encoded color and size to the number of records
-as in [@fig:process]b), but the usability study presented in [@sec:eval]
+as in [@fig:dashboard2], but the usability study presented in [@sec:eval]
 obtained requests from users to show change visually on the map. There were
 records which could not be geolocated via MaxMind [@maxmind], so they were
 placed on an empty portion of the map to save space. Interactions with various
@@ -880,7 +880,7 @@ the tool in an operational environment.
 
 ### Evaluation Methodology
 
-To improve upon the second prototype from [@fig:process]b), a usability study
+To improve upon the second prototype from [@fig:dashboard], a usability study
 was performed with network analysts and managers from both research and
 operational organizations using real-time, real-world data from an
 organizational network. The intent of this study was to improve the design and
