@@ -24,7 +24,6 @@ framework can help successfully shape a real-world visualization design study.
 
 <!--\sm{focus to f/w, explain its role and purpose and use}-->
 <!--\sm{do this simply, match to the story, connect to activities throughout}-->
-<!--\sm{increase figure sizes?}-->
 
 
 
@@ -281,7 +280,7 @@ are _"complex relationship between producers and consumers of a visualization."_
 [@Wood2014] In this work, we utilized four distinct discourse channels: a
 software company, a research organization, university information security, and
 an operational organization. These different discourse channels interacted
-together and led to successful outcomes as a result.
+together and led to successful visualization artifacts as a result.
 
 
 ![
@@ -289,22 +288,20 @@ together and led to successful outcomes as a result.
   BubbleNet's design, the first was previous work, and the second and fourth
   were various users in two distinct settings, both research and operational.
   The third channel involved a network analyst from a university. Each channel
-  involved different sets of users and data, but the final BubbleNet design in
-  c) and deployments all occurred due to the interaction of outcomes and user
-  feedback across all of these channels.
-](figures/bubble-net/process.pdf){#fig:process width="100%"}
-
-\al{larger versions of dashboards?}
-\sm{add to figure with activities and where (at bottom)}
+  involved different sets of users and data, but the final BubbleNet dashboard
+  design and deployments all occurred due to the interaction of artifacts and
+  user feedback across all of these channels.
+](figures/bubble-net/process-daf.pdf){#fig:process width="100%"}
 
 
 We present an overview of our design process in [@fig:process]. Each row and
 color corresponds to a different discourse channel. Each of these channels have
 different users, data sources, and design methods that were employed. The
-primary outcomes of this process are the prototypes and tools, with screenshots
-shown above the timeline for each. Prototypes are linked via curved lines to
-evaluation methods, and the final BubbleNet dashboard in c) is linked to
-deployments in two different discourse channels.
+primary visualization artifacts of this process are the prototypes and tools,
+with other figures in this chapter showing each. The two prototypes are shown in
+[@fig:dashboard1; @fig:dashboard2], and the final BubbleNet dashboard is
+discussed in [@fig:dashboard]. This final dashboard is linked to deployments in
+two different discourse channels.
 
 
 Furthermore, at the bottom of [@fig:process], we highlight the different
@@ -335,10 +332,21 @@ visualization encoding ideas were sketched and weighted against each need. As a
 result, each idea was scored by combining these priorities and weights,
 resulting in several key ideas with the most potential. We created the first
 prototype from these ideas, shown in [@fig:process]a). This prototype contained
-a treemap of network records, organized by city and country. We evaluated this
-prototype using Nielsen's usability heuristics and Gestalt principles. \al{how?
-not many details} This method highlighted low-level changes, but we desired to
-evaluate the data abstraction and treemap encoding.
+a treemap of network records, organized by city and country.
+
+
+We evaluated this prototype using Nielsen's usability heuristics and Gestalt
+principles. Specifically, we investigated the different views and interactions
+with respect to the usability heuristics, marking both the successes and areas
+to improve. The visualization encoding design was checked for any violations of
+the Gestalt principles, for example grouping in the treemap satisfied the
+proximity principle, but the lack of proximity between two time-based
+visualizations (heatmap and temporal bar chart) failed to satisfy the
+continuation principle since days were encoded on two different, malaligned
+axes. This evaluation method highlighted low-level changes to fix, but we
+desired to evaluate the dashboard at a higher level first: the data abstraction
+and visualization encodings to see if a treemap was really most appropriate for
+communication of cyber data.
 
 
 To perform this evaluation, we turned to the data sketches method [@Lloyd2011].
@@ -365,7 +373,7 @@ simpler and more intuitive for a larger variety of users, shown in
 
 A usability study was performed on this second prototype to evaluate its
 usability, and this resulted in the final BubbleNet dashboard in
-[@fig:process]c) and [@fig:dashboard]. While BubbleNet was deployed in a
+[@fig:dashboard]. While BubbleNet was deployed in a
 research environment, significant changes were necessary to create the final
 tool for deployment into an operational environment. These aspects of evaluation
 and deployment will be discussed further.
@@ -416,18 +424,19 @@ cyber security to help form the design opportunities for this project. This
 motivation is an ideal fit for the personas design method.
 
 
-|     |     |
-| --- | --- |
-| ![](figures/methods/dashboard1.pdf){width="45%"} | ![](figures/methods/dashboard2.pdf){width="45%"} |
-| (a) | (b) |
+![
+  This shows the first dashboard prototype, after using the personas design
+  method to implement our first design for analysts and managers.
+](figures/methods/dashboard1.pdf){#fig:dashboard1 width="100%"}
+
 
 ![
-  Different stages of the dashboard prototype. (a) The personas method helped
-  produce the first iteration of our design focused for analysts and managers.
-  (b) The data sketches method aided us in redesigning the dashboard.
-](){#fig:dashboard}
-
-<!-- TODO transfer figure from tabular to JUST figure! -->
+  Here, we show the second dashboard prototype, implemented after conducting the
+  data sketches method to redesign the dashboard and simplify the encoding of
+  geopositioned data, using a map and fewer hierarchical details in the
+  resulting dashboard. The heatmap seen in the previous prototype was rearranged
+  to align with a temporal bar chart and to give it more screenspace.
+](figures/methods/dashboard2.pdf){#fig:dashboard2 width="100%"}
 
 
 The personas method is often utilized within the user-experience, design, and
@@ -493,7 +502,7 @@ dashboard should not be too high-level for just CEO's nor just another tool for
 analysts. We targeted our dashboard to both cyber analysts and managers by
 combining features for analysts to quickly explore the data with standard
 visualizations for managers to quickly comprehend the details of the data; see
-[@fig:dashboard](a) for the first prototype of our design using these two
+[@fig:dashboard1] for the first prototype of our design using these two
 personas. Furthermore, the narrowed design focus uncovered several key user
 needs for our project. By brainstorming off these needs, we were able to ideate
 upon various dashboard designs and compare how they worked for different users
@@ -573,7 +582,7 @@ that made use of real-world cyber security data [@Fischer2014; @Koike2005;
 ![
   An overview of the twenty data sketches we evaluated with a cyber security
   analyst; this feedback was critical to our redesign of a cyber security
-  dashboard in [@fig:dashboard](b). We categorized each sketch into four groups:
+  dashboard in [@fig:dashboard2]. We categorized each sketch into four groups:
   network graphs, maps, aggregated charts, and time. Several data sketches we
   pulled from existing literature [@Fischer2014; @Koike2005; @Taylor2009]. We
   provide a full-page version of each data sketch in the Appendix.
@@ -616,7 +625,7 @@ for cyber security dashboard design:
 
 With these considerations in mind, we revisited our initial dashboard design and
 performed another iteration on the _ideate_ and _make_ design activities to
-produce the final dashboard design shown in [@fig:dashboard](b). The major
+produce the final dashboard design shown in [@fig:dashboard2]. The major
 change made in the final design is the type of encoding, using a map view with
 aggregation over time. This change was, in part, driven by the results of the
 data sketches method, which showed the potential of aggregation and map-based
@@ -764,18 +773,11 @@ comparing values precisely, but interaction supports comparing precise values
 using text.
 
 
-|     |     |
-| --- | --- |
-| ![](figures/bubble-net/bubble3.png){width="50%"} | ![](figures/bubble-net/bubble4.png){width="50%"} |
-| ![](figures/bubble-net/bubble5.png){width="50%"} | ![](figures/bubble-net/bubble6.png){width="50%"} |
-
 ![
   Most elements of the BubbleNet dashboard are interactive and update all other
   views accordingly. For example, selecting four different countries shows
   significantly different patterns in the hourly heatmap.
-](){#fig:interaction}
-
-<!-- TODO transition to figure only here -->
+](figures/bubble-net/bubble-combine.pdf){#fig:interaction width="100%"}
 
 
 ### Records View
@@ -916,8 +918,8 @@ determine if it was ready to be deployed to users.
 
 After coding each of the participants' comments, the following categories of
 tags were formed: desired task, that task's intended target in the dashboard,
-and its outcome. Example tasks include to present, filter, or identify with any
-of the views presented in [@sec:dash], and example outcomes include successes,
+and its artifact. Example tasks include to present, filter, or identify with any
+of the views presented in [@sec:dash], and example artifacts include successes,
 struggles, and failures along with other tags such as feature suggestions. These
 tags provided a unique view on the qualitative data, and a list of features were
 prioritized and implemented for BubbleNet in [@fig:dashboard]. These features
