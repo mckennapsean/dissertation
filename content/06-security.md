@@ -379,14 +379,30 @@ tool for deployment into an operational environment. These aspects of evaluation
 and deployment will be discussed further.
 
 
-<!-- \sm{TODO short section on design activity framework worksheets?} -->
-<!--![
-  We created these worksheets with linked sketches in collaboration with the
-  original authors of the BubbleNet dashboard [@mckenna2016]. This
-  real-world project showcases how to utilize the worksheets and highlights
-  how to capture a complex, iterative design process. A detailed copy of each
+As part of teaching the design activity framework to visualization novices, we
+mocked up our design process using the design worksheets presented previously.
+These design worksheets, shown in [@fig:worksheet-example] served as an example
+which we taught to students in a visualization design lecture. By illustrating
+how students could utilize the worksheets with a real-world example, we hoped
+that the worksheets would seem more tangible and actionable for novice
+visualization designers. By walking back through our design process in this
+design study, we incorporated various visualization artifacts as linked sketches
+and printouts to match each with their respective design activities, in
+approximate temporal order. Illustrated in [@fig:worksheet-example], these
+worksheets match the order of design activities shown in [@fig:process]. Despite
+this project being complex and iterative, both the design activity framework and
+design worksheets are able to succinctly capture and convey distinct and crucial
+aspects of the design study.
+
+
+![
+  We showed how to use the design worksheets with linked sketches, summarizing
+  our design process to create the BubbleNet dashboard [@mckenna2016]. This
+  real-world project showcases how to utilize the worksheets and highlights how
+  to capture a complex, iterative design process. A detailed copy of each
   worksheet and sketches is included in the Appendix.
-](figures/worksheets/worksheet-example.jpg){#fig:example width="100%"}-->
+](figures/worksheets/worksheet-example.jpg){#fig:worksheet-example width="100%"}
+
 <!-- TODO include a copy of each worksheet in the Appendix? maybe? -->
 
 
