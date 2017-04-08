@@ -5,8 +5,8 @@ secPrefix:
   - "Chapter"
   - "Chapters"
 figPrefix:
-  - "Figure"
-  - "Figures"
+  - "Fig."
+  - "Figs."
 tblPrefix:
   - "Table"
   - "Tables"
