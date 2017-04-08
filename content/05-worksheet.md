@@ -99,9 +99,7 @@ into a series of tangible and generalized steps (see [@tbl:steps]). These steps
 are akin to design methods which can be generative or evaluative in nature.
 
 
-<!-- TODO can you underline in markdown? -->
-
-| _\underline{understand}_ | _\underline{ideate}_ | _\underline{make}_ | _\underline{deploy}_ |
+| _**understand**_ | _**ideate**_ | _**make**_ | _**deploy**_ |
 | :--------------- | :--------------- | :--------------- | :--------------- |
 | identify the challenge \& users | select a design requirement | set an achievable goal | pinpoint a target audience |
 | | | | |
@@ -120,33 +118,56 @@ are akin to design methods which can be generative or evaluative in nature.
   different visualization artifacts in order to justify design decisions and
   record that reasoning down for later use. We presented these five steps to
   novice visualization designers, students, using design worksheets as a
-  template, like in [@fig:worksheets]. {#tbl:steps}
+  template, like in [@fig:u-worksheet; @fig:i-worksheet; @fig:m-worksheet;
+  @fig:d-worksheet]. {#tbl:steps}
 
 
-<!-- TODO fbox around graphic? -->
+<!-- TODO fbox around graphics? -->
 
 ![
-  Here we show the Understand worksheet, tailored to help students identify
+  Here we show the _understand_ worksheet, tailored to help students identify
   their problem, users, data, and requirements for a data visualization
-  system. The other worksheets we created are included in the Appendix.
-](figures/worksheets/worksheet-understand.pdf){#fig:worksheets width="90%"}
+  system.
+](figures/worksheets/worksheet-understand.pdf){#fig:u-worksheet width="90%"}
 
-<!-- \sm{TODO should we have these here or in the appendix? we have space? add to appendix if there...} -->
+
+![
+  For the _ideate_ worksheet, a novice visualization designer must target a
+  specific design opportunity or requirement in order to draw and compare three
+  different sketches with each other.
+](figures/worksheets/worksheet-ideate.pdf){#fig:i-worksheet width="90%"}
+
+
+![
+  The _make_ worksheet is about guiding visualization novices to create a
+  prototype system, by planning out their encodings, layouts, and interactions,
+  along with coding it all together.
+](figures/worksheets/worksheet-make.pdf){#fig:m-worksheet width="90%"}
+
+
+![
+  The final _deploy_ worksheet involves making prototypes more useful as a
+  polished visualization system that gets in the hands of the appropriate
+  audience, along with fixing problems, speeding up the tool, and improving the
+  aesthetics.
+](figures/worksheets/worksheet-deploy.pdf){#fig:d-worksheet width="90%"}
 
 
 We introduce the first design worksheet for the _understand_ activity in
-[@fig:worksheets]. At the top of each sheet we describe the desired goal and
+[@fig:u-worksheet]. At the top of each sheet we describe the desired goal and
 resulting visualization artifact or outcome for the activity. Each sheet can be
 numbered in the top-right for keeping track of order, for planning, and
 retrospection. For each worksheet's five steps we included additional helper
 text to guide students towards finding the answer and completing each design
-worksheet. We included warnings about when to jump back to previous boxes or
-worksheets, and icons to illustrate the expected type of answer for each box: a
-list, a sketch, or a table. Lastly, the bottom contains a list of icons pointing
-to the potential next activity of the visualization design process. These
-decisions about which activity to perform next are tricky and require reflection
-on the visualization designer to validate and check on their current
-visualization artifacts and if they are sufficient and succeed towards
+worksheet. For the details, please find the details on each of the design
+activity worksheets, [@fig:u-worksheet; @fig:i-worksheet; @fig:m-worksheet;
+@fig:d-worksheet]. We included warnings about when to jump back to previous
+boxes or worksheets, and icons to illustrate the expected type of answer for
+each box: a list, a sketch, or a table. Lastly, the bottom contains a list of
+icons pointing to the potential next activity of the visualization design
+process. These decisions about which activity to perform next are tricky and
+require reflection on the visualization designer to validate and check on their
+current visualization artifacts and if they are sufficient and succeed towards
 addressing the desired problem or challenge in enough detail, and this is why
 many visualization design processes may be iterative and complex to perform.
 
