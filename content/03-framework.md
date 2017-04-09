@@ -41,8 +41,6 @@ design methods of interest to novice visualization designers to employ in their
 own projects.
 
 
-<!-- TODO get copyright permissions from ALL journals for ALL figures!! -->
-
 ![
   We present the framework's breakdown of a _design activity_: motivation,
   artifacts, and methods, where methods can be generative or evaluative.
@@ -161,6 +159,7 @@ learning, or preexisting visualization tools such as Microsoft Excel or Tableau
 can help solve certain problems. In a visualization project, it is important for
 a novice designer to identify early on if there is a need and a set of design
 requirements that cannot easily be solved using existing tools.
+
 <!--\sm{perhaps include a few examples or citations here? I like some of this though}-->
 
 
@@ -207,6 +206,7 @@ possible ideas and concepts produced. Divergent design thinking is valued and
 recommended here, especially with visualization design, because this is where
 innovation and new visualization designs, techniques, and algorithms can be
 created.
+
 <!--\sm{add a few citations here?}-->
 
 
@@ -231,6 +231,7 @@ possible that more ideas may spin out of this process, as a variation upon an
 existing idea or new idea combining several together, so it is often recommended
 for novice visualization designers to externalize their ideas early and often to
 help them generate more ideas and better ideas.
+
 <!--\sm{add references here as well-wait are data sketches here or make?}-->
 
 
@@ -303,6 +304,7 @@ system. A key part of working towards deploying a visualization is improving
 these little annoyances, by having your visualization system support their
 native data format from the outset, so that no special steps are needed for a
 user to visualize their data in your tool.
+
 <!--\sm{is there a good example of this in the real world/papers?}-->
 
 
@@ -462,6 +464,7 @@ where design activities are represented as colored boxes. We include a detailed
 discussion and annotation of the bottom timeline in [@sec:formulation]. These
 timelines show the flow of a project across multiple activities, from nested and
 parallel activities to backward movement.
+
 <!-- \sm{is this the right timeline here? perhaps link to later chapter?} -->
 
 
@@ -512,6 +515,7 @@ available in the Appendix. We shortened to these 40 methods by picking those
 that were mentioned within the framework and redesign project we present in the
 next chapter, along with both commonly used and potentially novel or interesting
 methods for visualization design.
+
 <!-- \sm{TODO: add appendix and link here?} -->
 
 
