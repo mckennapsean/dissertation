@@ -2,29 +2,28 @@
 
 Research in visualization design has explored many facets of design, from the
 process and its steps to the design decisions made throughout. In this chapter,
-we will first explore the role of design in the pedagogy of the data
-visualization and human-computer interaction (HCI) communities. Following this,
-we investigate how visualization research on design utilizes the complex and
-flexible nature of the creative process. On the theoretical side, we focus on
-two types of visualization design models, process and decision models [@Meyer].
-For visualization design, we discuss the primary decision model used in the
-field, the nested model [@Munzner2009; @Meyer]. For process models, the HCI
-field has identified two differing approaches to the design process: creative
-and engineering [@Lowgren1995; @Howard2008; @Wolf2006; @Moere2011]. Together,
-these approaches can complement and enrich a design process. Furthermore, we
-reflect on the role and use of human-centered design methods throughout
-visualization design. Lastly, we relate these design processes to ones for
-development, specifically agile approaches, within the context of building data
-visualization systems. In the next chapter, we will introduce the design
-activity framework as a way to bridge design activities with the decisions a
-novice might make, supporting both an engineering and creative approach to
-visualization design.
+we first explore the role of design in the pedagogy of the data visualization
+and human-computer interaction (HCI) communities. Following this, we investigate
+how visualization research on design utilizes the complex and flexible nature of
+the creative process. On the theoretical side, we focus on two types of
+visualization design models, process and decision models [@Meyer]. For
+visualization design, we discuss the primary decision model used in the field,
+the nested model [@Munzner2009; @Meyer]. For process models, the HCI community
+has identified two differing approaches to the design process: creative and
+engineering [@Lowgren1995; @Howard2008; @Wolf2006; @Moere2011]. Together, these
+approaches can complement and enrich a design process. Furthermore, we reflect
+on the role and use of human-centered design methods throughout visualization
+design. Lastly, we relate these design processes to ones for development,
+specifically agile approaches, within the context of building data visualization
+systems. In the next chapter, we will introduce the design activity framework as
+a way to bridge design activities with the decisions a novice might make,
+supporting both an engineering and creative approach to visualization design.
 
-\sm{section on pedagogy in vis design}
-\sm{section on swe/agile}
-\sm{add resources: existing models better, Nath had a few}
-\sm{creative / creativity, careful, see Jim's notes: presc/descr from DSM, characterize with words not a single one?}
-\sm{add a few figures from presentations}
+<!-- \sm{more detail to section on pedagogy in vis design} -->
+<!-- \sm{section on swe/agile} -->
+<!-- \sm{add resources: existing models better, Nath had a few} -->
+<!-- \sm{creative / creativity, careful, see Jim's notes: presc/descr from DSM, characterize with words not a single one?} -->
+<!-- \sm{add a few figures from presentations} -->
 
 
 
@@ -32,33 +31,36 @@ visualization design.
 
 ## Pedagogy in Visualization Design
 
-The design activity framework introduced by McKenna et al. contains activities of
-the design process with a breakdown of each activity's motivation, artifacts,
-and design methods [@McKenna2014]. These activities are an extension of the
-core design phase of Sedlmair et al.'s nine-stage framework for design
-studies [@Sedlmair2012b]: discover, design, implement, and deploy. This adapted framework, however,
-supports more general problem-driven visualization
-challenges and researchers without visualization expertise, as well as projects with tight deadlines as is
-often seen in the classroom. The authors of the design activity framework claim
-its actionability, but this was never shown beyond the authors' use-case. A
-clear path for future work remains to validate the actionability of this
-framework to teach novices how to conduct a visualization design project.
+\sm{I plan to add more to this section.}
+
+The design activity framework contains activities
+of the design process with a breakdown of each activity's motivation, artifacts,
+and design methods [@McKenna2014]. These activities are an extension of the core
+design phase of Sedlmair et al.'s nine-stage framework for design studies
+[@Sedlmair2012b]: discover, design, implement, and deploy. The design activity
+framework, however, supports more general problem-driven visualization
+challenges and researchers without visualization expertise, as well as projects
+with tight deadlines as is often seen in the classroom. However, the design
+activity framework would only be as actionable as its ability to teach
+visualization novices how to design a visualization system.
+
 
 For the past few decades, pedagogy for data visualization and human-computer
-interaction has begun to shift from academic or theoretical foundations
-towards including skills for design, critique, and critical
-analysis [@Reimer2003; @Rushmeier2007; @Hearst2016; @He2017]. An effective
-pedagogical methodology is the use of design studios incorporated into the
-classroom setting [@Greenberg2009; @Reimer2003; @He2017], inspired by its use in
-fields like architecture, design, and art. For visualization, educators often
-incorporate practical exercises or real-world projects for students to learn
-about design [@Kerren2008], such as VizIt cards [@He2017] to teach and
-reinforce visualization concepts during an in-class design studio.
-Human-computer interaction educators have noted that computer science students
-in a design studio tend to focus more on idea refinement rather than broad idea
-generation and innovation [@Cennamo2011]. As such, guidance for the design
-process, both generating and evaluating visualization design artifacts, is often a
-missing component within the visualization pedagogy.
+interaction has begun to shift from academic or theoretical foundations towards
+including skills for design, critique, and critical analysis [@Reimer2003;
+@Rushmeier2007; @Hearst2016; @He2017]. An effective pedagogical methodology is
+the use of design studios incorporated into the classroom setting
+[@Greenberg2009; @Reimer2003; @He2017], inspired by its use in fields like
+architecture, design, and art. For visualization, educators often incorporate
+practical exercises or real-world projects for students to learn about design
+[@Kerren2008], such as VizIt cards [@He2017] to teach and reinforce
+visualization concepts during an in-class design studio. Human-computer
+interaction educators have noted that computer science students in a design
+studio tend to focus more on idea refinement rather than broad idea generation
+and innovation [@Cennamo2011]. As such, guidance for the design process, both
+generating and evaluating visualization design artifacts, is often a missing
+component within the visualization pedagogy.
+
 
 The five design-sheet methodology [@Roberts2015] utilizes worksheets to
 structure and guide visualization students through the ideation process. This
@@ -66,14 +68,15 @@ approach by Roberts et al. encourages engineering-type students to think
 divergently, creatively, and sketch out ideas on paper when first designing a
 visualization. Their approach begins with brainstorming, followed by three
 unique designs, and a realization sheet for the final tool. The authors
-validated their methodology with 53 students over several
-years [@Roberts2015]. In a workshop at the 2016 IEEE VIS conference that used these worksheets, we
-experienced a limitation of using this approach too soon: many steps must occur first
-such as data collection, identifying the challenge, focusing on a target user,
-and finding tasks. The authors elude to this in their paper with different
+validated their methodology with 53 students over several years [@Roberts2015].
+In a workshop at the 2016 IEEE VIS conference that used these worksheets, we
+experienced a limitation of using this approach too soon: many steps must occur
+first such as data collection, identifying the challenge, focusing on a target
+user, and finding tasks. The authors elude to this in their paper with different
 preparation steps, but these steps can be non-trivial and tricky for novices.
 Thus, it would be beneficial to establish and evaluate more worksheets beyond
 ideation for data visualization pedagogy.
+
 
 <!--
 \sm{below is on the evaluation of the 5-ds, which we can bring up briefly in
@@ -136,9 +139,9 @@ design plays an integral role in research [@Fallman2003a]. As such, there exist
 a variety of theoretical models for visualization design and even more that have
 been adapted and used by visualization designers. In this work, we focus on two
 kinds of models for visualization design: decision models and process models
-[@Meyer]. **Decision models** capture the *what* and *why* of design by
+[@Meyer]. **Decision models** capture the _what_ and _why_ of design by
 characterizing the rationale behind the decisions that a designer makes.
-**Process models**, on the other hand, capture the *how* of design,
+**Process models**, on the other hand, capture the _how_ of design,
 characterizing the actions that a designer takes as a series of steps. Linking a
 process model to a decision model enables visualization designers to verify and
 validate the design decisions they make along each step of the design process.
@@ -180,8 +183,8 @@ between blocks. Together, blocks and guidelines relate the visualization
 decisions a designer makes, with regard to finding good blocks in the design of
 a visualization. It is important to stress that the nested model, as well as the
 nested blocks and guidelines model, are not process models; they do not describe
-*how* to design a visualization, only the types of decisions (*what*) and
-rationale (*why*) that a visualization designer needs to make along the way
+_how_ to design a visualization, only the types of decisions (_what_) and
+rationale (_why_) that a visualization designer needs to make along the way
 [@Meyer].
 
 
@@ -211,9 +214,7 @@ aspects of a creative design process. The seminal research method of
 multidimensional longitudinal case studies [@Shneiderman2006] proposes a process
 and specific methods for assessing and evaluating visualization systems deployed
 in the wild. This model, however, does not cover the creation and development of
-a visualization system. \al{below, what is the relation to software
-engineering?} \sm{need to clarify this distinction, what makes it engineering?
-convergence?} More abstracted design process models for visualization have also
+a visualization system. More abstracted design process models for visualization have also
 been proposed in a variety of forms --- waterfall, cyclical, and spiral --- to
 perform user-centered design [@Chee2011; @Tory2004; @Wassink2009], but they
 emphasize convergence like an engineering design process model. The design
@@ -229,6 +230,12 @@ balanced approach that mixes both creative and engineering aspects [@Moere2011].
 Although the visualization community is beginning to embrace aspects of a
 creative design process, none of these process models explicitly link back to
 visualization design decisions.
+
+<!--
+e.g. ... "More abstracted design process models...."
+\al{below, what is the relation to software engineering?}
+\sm{need to clarify this distinction, what makes it engineering? convergence?}
+-->
 
 
 The model closest to the design activity framework is the nine-stage framework
@@ -299,5 +306,7 @@ design methods that get utilized.
 
 
 
-<!--## Agile Development-->
+## Agile Development
+
+\sm{I will be adding a section on agile software development approaches}
 
