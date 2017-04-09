@@ -72,6 +72,7 @@ and the visualization artifacts which were achieved. Each method number we
 reference stems from the collection of example methods in [@tbl:methods] and the
 full list of 100 methods included in the Appendix, such as the method of
 controlled experiments (_M-28_).
+
 <!--\sm{TODO another reference to the appendix}-->
 
 
