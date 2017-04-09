@@ -615,6 +615,7 @@ free-form, informal evaluation session with our analyst for three hours to see
 which visual representations were easily understood and potentially most useful.
 These data sketches can be repurposed in future projects for further
 brainstorming.
+
 <!-- TODO superscript / link to other material? or store in Appendix completely? -->
 
 
@@ -819,6 +820,7 @@ country, number of records, and the deviation from average. Furthermore, a
 visual summary of the pattern's total records is shown in a horizontal bullet
 chart. For example, selecting four different countries results in very different
 patterns in the heatmap, as shown in [@fig:interaction].
+
 <!--We provide a video showcasing all possible interactions in Supplemental Materials.-->
 <!-- TODO should we reference any videos in the dissertation? link to website or youtube? -->
 
