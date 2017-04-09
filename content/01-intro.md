@@ -1,6 +1,7 @@
 # Introduction {#sec:intro}
 
 <!-- problem: teaching design -->
+
 The process of designing a visualization is known to be iterative, complex, and
 occasionally messy [@Sedlmair2012b; @DIS2010; @Tory2004; @Wassink2009;
 @Chee2011; @Moere2011]. Furthermore, pedagogical approaches for teaching the
@@ -28,6 +29,7 @@ for building visualization tools in a richer and more descriptive way.
 
 
 <!-- overview of framework -->
+
 This dissertation focuses on a new framework for teaching the visualization
 design process to novice users. Whereas design can mean many things to different
 people, the **data visualization design process** is about the planning,
@@ -44,6 +46,7 @@ and conduct it more effectively.
 
 
 <!-- design activities -->
+
 Many visualization designers reflect on the role of _design activities_ as steps
 of the design process for creating and building novel and useful visualizations
 [@Sedlmair2012b; @Lloyd2011; @Wassink2009; @Chee2011]. In the field of
@@ -61,6 +64,7 @@ visualization systems on their own.
 
 
 <!-- design decisions -->
+
 Visualization practitioners constantly make _design decisions_ throughout the
 process in order to refine their work. These design decisions play a crucial
 role in justifying, validating, and challenging the use of artifacts that get
@@ -85,6 +89,7 @@ justification.
 
 
 <!-- design artifacts -->
+
 Visualization _design artifacts_ are often crucial to the success of a project,
 especially for the final desired visualization system, which should be usable,
 useful, and effective. Commonly, artifacts are tangible software tools, but the
@@ -105,6 +110,7 @@ knowledge as well.
 
 
 <!-- back to the solution -->
+
 The activities of a visualization design process, with each of its artifacts and
 associated design decisions, can all be connected through a new type of
 visualization design framework. Without this connection, it is much harder for a
@@ -157,6 +163,7 @@ we evaluated through a series of qualitative surveys and interviews with novice
 visualization designers. As a result of this evaluation, we discovered that
 novices effectively learned how to design and develop a visualization system
 while justifying their decisions using the design activity worksheets.
+
 <!--\sm{thoughts on we vs i here?}-->
 <!--\sm{miriah suggested we over i, and formal over that if possible. stylistic decision}-->
 
@@ -167,6 +174,7 @@ while justifying their decisions using the design activity worksheets.
 ## Overview
 
 <!-- \sm{should I highlight which papers go where?} -->
+
 [@sec:background] presents the necessary background for this dissertation.
 We begin by highlighting the various approaches used for design pedagogy in both
 the visualization and human-computer interaction communities. The chapter
@@ -241,11 +249,12 @@ space. Our reflections on these two projects demonstrate how design can play a
 subtle yet pivotal role in both technique-driven and evaluation-driven research.
 
 
-We provide a discussion of the design activity framework for visualization design and outline future work in
-[@sec:discussion]. In this discussion, we include a call for more pedagogical
-work and materials for novice visualization designers, based on results of our
-framework and worksheet evaluations. Additionally, we explore the notion of
-broader process models, for both research and development, as ways to extend and
-connect these design models to more effectively guide novices to build better visualization tools
-and systems. Lastly, we conclude this dissertation in [@sec:conclusion] with a
-summary of our contributions, findings, and recommendations.
+We provide a discussion of the design activity framework for visualization
+design and outline future work in [@sec:discussion]. In this discussion, we
+include a call for more pedagogical work and materials for novice visualization
+designers, based on results of our framework and worksheet evaluations.
+Additionally, we explore the notion of broader process models, for both research
+and development, as ways to extend and connect these design models to more
+effectively guide novices to build better visualization tools and systems.
+Lastly, we conclude this dissertation in [@sec:conclusion] with a summary of our
+contributions, findings, and recommendations.
