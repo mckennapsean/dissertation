@@ -120,7 +120,7 @@ data in this domain, but very little of this work has tested the usability or
 utility for network analysts. Different researchers have plotted cyber security
 data on bar and scatter plots [@Hao2013a; @Watson2005; @Lakkaraju2004]. Other
 researchers have explored using a heatmap or matrix to encode various attributes
-and hierarchies within the data [@Watson2005; @Koike2005; @Landstorfer;
+and hierarchies within the data [@Watson2005; @Koike2005; @Landstorfer2014;
 @Komlodi2005]. Parallel coordinates have also been utilized by several
 researchers to visualize multiple dimensions of data [@Erbacher2005; @Yin2004;
 @Choi2009]. Goodall and Sowul went beyond a single parallel coordinates view
@@ -148,7 +148,7 @@ account for response bias [@brooke1996sus]. Leschke and Nicholas evaluated a
 tool with a standardized usability survey [@Leschke2013] and others have
 performed formal user studies [@Rasmussen2010; @Amershi2011], but none discuss
 deployment. Landstorfer et al. designed a visualization in a user-centered
-design process but only garnered initial user feedback [@Landstorfer]. Hao et
+design process but only garnered initial user feedback [@Landstorfer2014]. Hao et
 al. worked with analysts to showcase utility of web-based visualization
 dashboards for network security but did not evaluate with users' own data
 [@Hao2013a]. While visualization researchers have worked with users, we have
@@ -232,7 +232,7 @@ been developed for showing hierarchical time-varying aspects of the data
 aggregation to a larger scale by _hours_ and _days_ is both useful and
 interesting. Network security datasets are commonly aggregated by IP address,
 and these can be visualized in many ways from IP grids to internet maps
-[@Goodall2009; @Lakkaraju2004; @Watson2005; @Koike2005; @Landstorfer;
+[@Goodall2009; @Lakkaraju2004; @Watson2005; @Koike2005; @Landstorfer2014;
 @Komlodi2005; @Erbacher2005; @Fowlwer2014]. Aggregation of computers can also
 occur by their location of an IP address, through databases like MaxMind
 GeoLite2 [@maxmind], used by other visualization tools, like EMBER [@Yu2010]. We
