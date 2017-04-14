@@ -37,42 +37,54 @@ including skills for design, critique, and critical analysis [@Reimer2003;
 @Rushmeier2007; @Hearst2016; @He2017]. Educators have come to realize that they
 must rapidly adapt their teaching methods for a wide array of diverse students,
 from undergraduates across disciplines to graduate students in standard courses,
-flipped classrooms, and online environments. A recent approach among educators
-is to employ active learning [@Beyer2016; @Godwin2016; @Hearst2016], where
-techniques and methods are used to encourage deeper analysis and synthesis as
-opposed to just passively observing a lecture [@Beyer2016]. For example, a
+flipped classrooms, and online environments [@He2017]. A recent approach among
+educators is to employ active learning [@Beyer2016; @Godwin2016; @Hearst2016],
+where techniques and methods are used to encourage deeper analysis and synthesis
+as opposed to just passively observing a lecture [@Beyer2016]. For example, a
 common approach observed in most classroom settings are practical data
 visualization exercises, to give novices opportunities to critically analyze a
 data visualization, provided dataset, or existing visualization tool and work
-with their peers to analyze the outcomes [@Kerren2008].
+with their peers to analyze the outcomes [@Kerren2008; @He2017].
 
 
-<!-- more on textbooks and principles? vizit cards? -->
+When it comes to data visualization design, the core concepts of active learning
+can help overcome some of the challenges faced by educators when teaching
+concepts surrounding design thinking [@He2017], from considering broad divergent
+visualization ideas [@Roberts2015], evaluating based on visualization
+principles, and leveraging existing designs to create something new. An
+effective pedagogical methodology is the use of design studios incorporated into
+the classroom setting [@Greenberg2009; @Reimer2003; @He2017], inspired by its
+use in fields like architecture, design, and art. For visualization, educators
+often incorporate these studios as workshops or practical exercises and also
+through real-world projects for students to learn about design outside of the
+classroom [@Kerren2008], such as VizItCards [@He2017] for novices to practice
+and reinforce visualization concepts during an in-class design workshop.
+Human-computer interaction educators have noted that computer science students
+in a design studio tend to focus more on idea refinement rather than broad idea
+generation and innovation [@Cennamo2011].
 
-When it comes to data visualization design, these concepts at the core of active
-learning can help overcome some of the challenges faced by educators when
-teaching concepts like how to consider a broad range of ideas, thinking outside
-the box, evaluating based on visualization principles, and building off of
-existing designs to create something new. An effective pedagogical methodology
-is the use of design studios incorporated into the classroom setting
-[@Greenberg2009; @Reimer2003; @He2017], inspired by its use in fields like
-architecture, design, and art. For visualization, educators often incorporate
-practical exercises or real-world projects for students to learn about design
-[@Kerren2008], such as VizIt cards [@He2017] to teach and reinforce
-visualization concepts during an in-class design studio. Human-computer
-interaction educators have noted that computer science students in a design
-studio tend to focus more on idea refinement rather than broad idea generation
-and innovation [@Cennamo2011]. As such, guidance for how to design data
-visualizations, both generating and evaluating visualization artifacts, is often
-a missing component within the visualization pedagogy. An alternative approach
-to a design studio in-class is to incorporate a cumulative project into the
-course where students must acquire their own dataset, come up with ideas to
-visualize data for different tasks, and build an interactive, multi-view
-visualization system to support these tasks in the data. By providing novices
-with realistic, hands-on experience, students could be more capable at
-reapplying these skills in their own future projects. For novices, it is often
-useful to have a clear set of guidelines or instructions to walk through the
-process. However, no such step-by-step currently exists for the data
+
+As such, guidance for how to design data visualizations, both generating and
+evaluating visualization artifacts, is a missing component within data
+visualization pedagogy. When teaching data visualization design, educators often
+incorporate user interface principles [@Shneiderman2004], teach taxonomies of
+data and encoding [@Munzner2014], illustrate ideal visual principles
+[@Tufte1986; @cairo2012], explain perceptual principles [@Ware2010], and empower
+students with the tools to evaluate, criticize, and judge data visualizations.
+These principles and concepts often get applied in courses through design
+critiques or encased within a cumulative project. These cumulative projects are
+an alternative to in-class design studios, where students must acquire their own
+dataset, come up with ideas to visualize data for different tasks, and build an
+interactive, multi-view visualization system to support these tasks in the data.
+By providing novices with realistic, hands-on experience, students could reapply
+these skills in their own future projects. However, a novice may struggle how to
+conduct their own design process, perhaps referring to textbooks which include
+their own design process methodologies [@Ware2010; @Shneiderman2004] or research
+papers that detail the design process or design decisions [@Munzner2014;
+@Sedlmair2012b], but often these models are high-level, terminology-heavy, less
+actionable, and theoretical in nature. For novices, it is often useful to have a
+clear set of guidelines or instructions to walk through this process for the
+first time. However, no such step-by-step guidance currently exists for the data
 visualization design process.
 
 

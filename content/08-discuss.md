@@ -2,6 +2,14 @@
 
 \sm{address and bring up notions from committee members in proposal meeting}
 
+<!--
+ideas from vizit cards paper:
+  include discussion on tangibility of sketching, alternative approaches
+  scalability to classroom size?
+  justification of linear
+  workshop, constraints, time
+  may need feedback, like eval, from others to help teach
+-->
 
 
 ## Discussion and Future Work
