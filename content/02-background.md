@@ -67,7 +67,7 @@ visualizations, both generating and evaluating visualization artifacts, is often
 a missing component within the visualization pedagogy. An alternative approach
 to a design studio in-class is to incorporate a cumulative project into the
 course where students must acquire their own dataset, come up with ideas to
-visualize data for different tasks, and build an interactive, multiview
+visualize data for different tasks, and build an interactive, multi-view
 visualization system to support these tasks in the data. By providing novices
 with realistic, hands-on experience, students could be more capable at
 reapplying these skills in their own future projects. For novices, it is often
@@ -76,50 +76,54 @@ process. However, no such step-by-step currently exists for the data
 visualization design process.
 
 
+Educators have worked on concretizing steps for the ideation process.
+Specifically, the five design-sheet methodology [@Roberts2015] utilizes
+worksheets to structure and guide visualization students through the ideation
+process. This approach by Roberts et al. encourages engineering-type students to
+think divergently, creatively, and sketch out ideas on paper when first
+designing a visualization. Their approach begins with brainstorming, followed by
+three unique designs, and a realization sheet for the final tool. The authors
+evaluated this teaching methodology with masters students in information
+visualization. Over several years, a total of 53 students completed these design
+sheets over the span of 2 hours to come up with different ways to visualize
+their own chosen dataset, after which they received feedback and additional time
+to finalize their designs [@Roberts2015]. After grading the sheets, the
+researchers compared grades of the design sheets to the rest of the class with
+their final tool or project grade and whole grade, as well as an anonymous
+survey to gather feedback on the entire course including the design sheets.
+Generally, they found that the design sheets aided students in planning and
+organizing a design section for the project write-up, and it also encouraged
+students to think divergently which is a skill not often taught in computer
+science. However, in a workshop at the 2016 IEEE VIS conference that used these
+worksheets, we experienced a limitation of using this approach too soon: many
+steps must occur first such as data collection, identifying the challenge,
+focusing on a target user, and finding tasks. The authors elude to this in their
+paper with different preparation steps, but these steps can be non-trivial and
+tricky for novices. Thus, it would be beneficial to establish and evaluate more
+worksheets beyond just ideation for data visualization design pedagogy.
 
-Worksheets, more concrete steps. e.g. 5DS
 
-
-Unique challenges for classroom: tight deadlines / final projects, terminology,
-theoretical constructs, how to show how to design, guidance with steps.
-Can be tricky to teach. Vis literacy is important. People have preconceived notions about data vis.
-
-
-
-
-
-The five design-sheet methodology [@Roberts2015] utilizes worksheets to
-structure and guide visualization students through the ideation process. This
-approach by Roberts et al. encourages engineering-type students to think
-divergently, creatively, and sketch out ideas on paper when first designing a
-visualization. Their approach begins with brainstorming, followed by three
-unique designs, and a realization sheet for the final tool. The authors
-validated their methodology with 53 students over several years [@Roberts2015].
-In a workshop at the 2016 IEEE VIS conference that used these worksheets, we
-experienced a limitation of using this approach too soon: many steps must occur
-first such as data collection, identifying the challenge, focusing on a target
-user, and finding tasks. The authors elude to this in their paper with different
-preparation steps, but these steps can be non-trivial and tricky for novices.
-Thus, it would be beneficial to establish and evaluate more worksheets beyond
-ideation for data visualization pedagogy.
-
-
-<!--
-\sm{below is on the evaluation of the 5-ds, which we can bring up briefly in
-the methodology section instead}
-The authors further evaluated this technique for teaching with masters
-students in information visualization. In their evaluation, a total of 53
-students completed these design sheets over the span of 2 hours to come up
-with different ways to visualize their own chosen data set, after which they
-received feedback and additional time to finalize their
-designs [@Roberts2015]. After grading the sheets, the researchers compared
-grades of the design sheets to the rest of the class with their final tool or
-project grade and whole grade, as well as an anonymous survey to gather
-feedback on the entire course including the design sheets. Generally, they
-found that the design sheets aided students in planning and organizing a
-design section for the project write-up, and it also encouraged students to
-think divergently which is a skill not often taught in computer science.
--->
+There are also several unique challenges faced by educators in the classroom.
+First, students may have preconceived notions about data visualization and
+principles which can affect the learning process and how a novice evaluates a
+given data visualization []. Furthermore, this concept of visualization literacy
+can be traced back to how we introduce, teach, and incorporate visualizations
+throughout schooling, from elementary school and beyond []. In collegeiate
+courses, a key challenge cam be tight deadlines and schedules, with limited
+course time for practical exercises, design studios, and cumulative projects
+which often only last a month or two sometimes with non-colocated learners [].
+As course enrollments grow, it is important to think of how to scale
+visualization design feedback and evaluation; one recommended approach is to
+utilize peers to help scale this process and provide students with more practice
+on visualization evaluation to apply principles and concepts taught throughout a
+course []. Additionally, concepts that are heavily theoretical or mathematical
+in nature may be more challenging to teach to novices. Instead, it may be ideal
+to simplify terminology and focus on easier to grok aspects of theory so that
+students can more readily grasp, apply, and build upon these theoretical
+constructs. In our own experience, we have observed the challenges of teaching
+theoretical design aspects such as the nested model [] to visualization novices.
+By simplifying these aspects into a more step-driven process, students may be
+able to learn and apply these visualization design concepts more on their own.
 
 
 
