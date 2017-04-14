@@ -29,27 +29,32 @@ supporting both an engineering and creative approach to visualization design.
 
 
 
-## Pedagogy in Visualization Design
-
-\sm{I plan to add more to this section.}
-
-The design activity framework contains activities
-of the design process with a breakdown of each activity's motivation, artifacts,
-and design methods [@McKenna2014]. These activities are an extension of the core
-design phase of Sedlmair et al.'s nine-stage framework for design studies
-[@Sedlmair2012b]: discover, design, implement, and deploy. The design activity
-framework, however, supports more general problem-driven visualization
-challenges and researchers without visualization expertise, as well as projects
-with tight deadlines as is often seen in the classroom. However, the design
-activity framework would only be as actionable as its ability to teach
-visualization novices how to design a visualization system.
-
+## Pedagogy of Data Visualization Design
 
 For the past few decades, pedagogy for data visualization and human-computer
 interaction has begun to shift from academic or theoretical foundations towards
 including skills for design, critique, and critical analysis [@Reimer2003;
-@Rushmeier2007; @Hearst2016; @He2017]. An effective pedagogical methodology is
-the use of design studios incorporated into the classroom setting
+@Rushmeier2007; @Hearst2016; @He2017]. Educators have come to realize that they
+must rapidly adapt their teaching methods for a wide array of diverse students,
+from undergraduates across disciplines to graduate students in standard courses,
+flipped classrooms, and online environments. A recent approach among educators
+is to employ active learning [@Beyer2016; @Godwin2016; @Hearst2016], where
+techniques and methods are used to encourage deeper analysis and synthesis as
+opposed to just passively observing a lecture [@Beyer2016]. For example, a
+common approach observed in most classroom settings are practical data
+visualization exercises, to give novices opportunities to critically analyze a
+data visualization, provided dataset, or existing visualization tool and work
+with their peers to analyze the outcomes [@Kerren2008].
+
+
+<!-- more on textbooks and principles? vizit cards? -->
+
+When it comes to data visualization design, these concepts at the core of active
+learning can help overcome some of the challenges faced by educators when
+teaching concepts like how to consider a broad range of ideas, thinking outside
+the box, evaluating based on visualization principles, and building off of
+existing designs to create something new. An effective pedagogical methodology
+is the use of design studios incorporated into the classroom setting
 [@Greenberg2009; @Reimer2003; @He2017], inspired by its use in fields like
 architecture, design, and art. For visualization, educators often incorporate
 practical exercises or real-world projects for students to learn about design
@@ -57,9 +62,30 @@ practical exercises or real-world projects for students to learn about design
 visualization concepts during an in-class design studio. Human-computer
 interaction educators have noted that computer science students in a design
 studio tend to focus more on idea refinement rather than broad idea generation
-and innovation [@Cennamo2011]. As such, guidance for the design process, both
-generating and evaluating visualization design artifacts, is often a missing
-component within the visualization pedagogy.
+and innovation [@Cennamo2011]. As such, guidance for how to design data
+visualizations, both generating and evaluating visualization artifacts, is often
+a missing component within the visualization pedagogy. An alternative approach
+to a design studio in-class is to incorporate a cumulative project into the
+course where students must acquire their own dataset, come up with ideas to
+visualize data for different tasks, and build an interactive, multiview
+visualization system to support these tasks in the data. By providing novices
+with realistic, hands-on experience, students could be more capable at
+reapplying these skills in their own future projects. For novices, it is often
+useful to have a clear set of guidelines or instructions to walk through the
+process. However, no such step-by-step currently exists for the data
+visualization design process.
+
+
+
+Worksheets, more concrete steps. e.g. 5DS
+
+
+Unique challenges for classroom: tight deadlines / final projects, terminology,
+theoretical constructs, how to show how to design, guidance with steps.
+Can be tricky to teach. Vis literacy is important. People have preconceived notions about data vis.
+
+
+
 
 
 The five design-sheet methodology [@Roberts2015] utilizes worksheets to
@@ -194,6 +220,20 @@ rationale (_why_) that a visualization designer needs to make along the way
 
 
 ### Design Process Models
+
+<!--
+The design activity framework contains activities
+of the design process with a breakdown of each activity's motivation, artifacts,
+and design methods [@McKenna2014]. These activities are an extension of the core
+design phase of Sedlmair et al.'s nine-stage framework for design studies
+[@Sedlmair2012b]: discover, design, implement, and deploy. The design activity
+framework, however, supports more general problem-driven visualization
+challenges and researchers without visualization expertise, as well as projects
+with tight deadlines as is often seen in the classroom. However, the design
+activity framework would only be as actionable as its ability to teach
+visualization novices how to design a visualization system.
+-->
+
 
 Unlike a decision model, a design process model focuses on describing the
 specific steps a designer takes  over the course of designing a visualization.
