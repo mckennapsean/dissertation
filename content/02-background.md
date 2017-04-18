@@ -382,7 +382,7 @@ design methods that get utilized.
 A related field for the design of data visualization tools is how people develop
 software systems; this is the field of software engineering. The field of
 software engineering is about how programmers design, implement, test, and
-document the creation of software [@ISO-SWE]. This hints to an overlap in
+document the creation of software [@SWEVocab2010]. This hints to an overlap in
 visualization design, and when designers are coding up the a system or tool,
 then the methods and recommendations may overlap across fields. While these
 principles, methods, and methodologies relate to the field of visualization
