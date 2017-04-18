@@ -393,7 +393,7 @@ economics for software engineering [@Abran2001]. In other words, software
 engineering involves many aspects from how to write good, effective code to
 managing teams, business practices, and working with clients or customers. All
 of these concepts and associated methods can often relate to the field of
-visualization design, but the vast majority of this dissertation focuses on
+visualization design, but the vast majority of this dissertation focuses on the
 design and theoretical visualization components rather than those from software
 engineering bodies of knowledge.
 
@@ -439,9 +439,7 @@ facilitator, and a decider, a sprint process can focus peoples' time to be very
 productive [@Knapp2016]. As a result, this agile sprint method combines software
 engineering and development with project management [@Abran2001] and business
 ideas [@Knapp2016]. Designing visualization software systems, tools, and
-techniques can coincide and work in tandem with these alternative approaches and
-processes, and the focus of this dissertation is less on principles and aspects
-of software engineering, though they have a relation and connection to the
-concepts.
-
-
+techniques can coincide and work in tandem with these alternative approaches,
+such as agile sprints, and the focus of this dissertation is less on specific
+principles and aspects from software engineering, though they may have a
+relation and connection to those in data visualization design.
