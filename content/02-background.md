@@ -19,7 +19,6 @@ systems. In the next chapter, we will introduce the design activity framework as
 a way to bridge design activities with the decisions a novice might make,
 supporting both an engineering and creative approach to visualization design.
 
-<!-- \sm{section on swe/agile} -->
 <!-- \sm{add resources: existing models better, Nath had a few} -->
 <!-- \sm{creative / creativity, careful, see Jim's notes: presc/descr from DSM, characterize with words not a single one?} -->
 <!-- \sm{add a few figures from presentations} -->
