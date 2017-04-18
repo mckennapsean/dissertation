@@ -379,57 +379,69 @@ design methods that get utilized.
 
 ## Software Engineering and Agile Development
 
-A related field for the design of data visualization tools is how people develop
-software systems; this is the field of software engineering. The field of
-software engineering is about how programmers design, implement, test, and
-document the creation of software [@SWEVocab2010]. This hints to an overlap in
-visualization design, and when designers are coding up the a system or tool,
-then the methods and recommendations may overlap across fields. While these
-principles, methods, and methodologies relate to the field of visualization
-design, a significant portion is outside of the scope of this work.
+A related field for the design of data visualization tools is software
+engineering or how people develop tools and systems. The field of software
+engineering is about how programmers design, implement, test, and document the
+creation of software [@SWEVocab2010]. This hints to an overlap with
+visualization design when designers have to code up something into a system or
+tool, and as such the methods and recommendations may overlap across fields. The
+body of software engineering work is vast, with core components such as how to
+generate requirements (necessary properties for something to solve real-world
+problems), general design principles like managing data and events to function
+or object-oriented code, and testing, management, maintenance, and associated
+economics for software engineering [@Abran2001]. In other words, software
+engineering involves many aspects from how to write good, effective code to
+managing teams, business practices, and working with clients or customers. All
+of these concepts and associated methods can often relate to the field of
+visualization design, but the vast majority of this dissertation focuses on
+design and theoretical visualization components rather than those from software
+engineering bodies of knowledge.
 
 
 Agile development started in the 1990's with a series of methods aiming to
 evolutionize and adapt software engineering processes with lightweight
-alternatives that quickly adapt to the changing workplace and user needs
-[@Abran2001]. In 2001, 17 software developers, e.g. Jeff Sutherland, Alistair
-Cockburn, sat down at the Snowbird resort in Utah and eventually published their
+alternatives that quickly adapt to user needs in a changing workplace
+[@Abran2001]. In 2001, 17 software developers, e.g. Jeff Sutherland and Alistair
+Cockburn, sat down at the Snowbird resort in Utah and came to publish their
 discussions and insights into the _Manifesto for Agile Software Development_
 [@AgileManifesto2001]. Traditional software engineering process models were very
-much incremental, and agile approaches are in principle about promoting customer
-satisfaction, adaptation to clients' changing requirements, working software
-releases with the best technology, releases in terms of weeks, co-located and
-cross-functional teams, test-driven development, and reflection on how to make
-the product more effective [@AgileManifesto2001]. Various realizations of agile
-approaches have emerged over the years, from Scrum to Rapid Application
-Development (RAD) and eXtreme Programming (XP) [@Abran2001], which all utilize a
-variety of software engineering methods such as pair programming, daily
-stand-ups, scrum boards, and sprint planning exercises. A key cornerstone of
-these approaches is measuring success in terms of how well the software works
-[@AgileManifesto2001]. To stray from more complex methods that focus on
-incremental changes, the agile methodologies are designed to be iterative in
-nature, with teams adapting requirements to the software over time [@Abran2001].
+much incremental before agile approaches, and agile approaches are in principle
+about promoting customer satisfaction, adaptation to clients' changing
+requirements, working software releases with the best technology on the order of
+weeks, co-located and cross-functional teams, test-driven development, and
+reflections on how to make the product more effective [@AgileManifesto2001].
+Various realizations of agile approaches have emerged over the years, from Scrum
+to Rapid Application Development (RAD) and eXtreme Programming (XP)
+[@Abran2001], which all utilize a variety of software engineering methods such
+as pair programming, daily stand-ups, scrum boards, and sprint planning
+exercises. A key cornerstone of these approaches is how success is measured in
+terms of how well the software works [@AgileManifesto2001]. To stray from more
+complex methods that focus on incremental changes, the agile methodologies are
+designed to be iterative in nature, with teams adapting requirements to the
+software over time [@Abran2001].
 
 
-In agile software development, the notion of a sprint is a very common
-occurrence, and these sprints coincide well with other design process models.
-Often, a sprint is targeted as a time-restricted process, with a set deadline
-and clear goal for a working prototype to test with a client [?]. An example is
-the Google Ventures sprint, a five-day process that breaks apart the software
-engineering and design process into five big steps: map out the problem space
-and find a focus, sketching out ideas, compare and evaluate the ideas to find
-the best, build the software or other prototype, and then test with the clients
-or customers [@Knapp2016]. The goal of this sprint is to determine if an idea or
+The notion of a sprint is at the core of the agile Scrum approach, where a
+sprint manages and timeboxes activities and development work into a concrete
+time frame for tackling backlog items, daily updates, and progress reviews
+[@Abran2001]. This set deadline provides a clear goal for developing a working
+prototype to test with clients or customers. An example is the Google Ventures
+sprint, a five-day process that breaks apart the software engineering and design
+process into five big steps: mapping out the problem space and finding a focus,
+sketching out ideas, comparing and evaluating the ideas to find the best,
+building the software or other prototype, and testing with the clients or
+customers [@Knapp2016]. The goal of this sprint is to determine if an idea or
 potential product has a measurable impact on the clients or customers, which can
 shave months out of building a fully working tool or system. By preparing for
 sprints with tools like whiteboards, timers, and paper along with electronic
 device limitations, open schedules, and an appropriate team of experts, a
-facilitator, and a decider, a sprint process can focus peoples' time and be as
-effective and productive as possible [@Knapp2016]. Many of these sprint
-principles can correlate to agile approaches and design processes as well. The
-key difference is the overall purpose, since some approaches are about
-maximizing business or software potential over visualization design potential,
-and many of the methods and principles can be useful and utilized regardless of
-the focus in a given visualization design project.
+facilitator, and a decider, a sprint process can focus peoples' time to be very
+productive [@Knapp2016]. As a result, this agile sprint method combines software
+engineering and development with project management [@Abran2001] and business
+ideas [@Knapp2016]. Designing visualization software systems, tools, and
+techniques can coincide and work in tandem with these alternative approaches and
+processes, and the focus of this dissertation is less on principles and aspects
+of software engineering, though they have a relation and connection to the
+concepts.
 
 
