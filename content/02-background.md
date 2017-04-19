@@ -288,9 +288,14 @@ with specific methods for eliciting creativity from end users [@Goodwin2013a], a
 step towards including aspects of a creative design process. Vande Moere and
 Purchase further characterize the role of design in visualization, arguing for a
 balanced approach that mixes both creative and engineering aspects [@Moere2011].
-Although the visualization community is beginning to embrace aspects of a
-creative design process, none of these process models explicitly link back to
-visualization design decisions.
+By embracing concepts from action design research (ADR), McCurdy et al. applied
+ADR to a design study to illustrate how intervention with collaborators shaped
+the final visualization design and how they reflected and learned throughout
+this process [@McCurdy2016]. Although the visualization community is beginning
+to embrace aspects of a creative design process, none of these process models
+explicitly link back to visualization design decisions.
+
+<!-- TODO more discussion of reflection & learning later on -->
 
 
 The model closest to the design activity framework is the nine-stage framework
@@ -303,16 +308,18 @@ stages, the levels of the nested model are mentioned; however, an explicit
 description of what types of artifacts should be expected at each step is not
 provided. Furthermore, the model as a whole only loosely captures the
 overlapping and iterative nature of visualization design, as well as the role of
-evaluation throughout. As such, we consider the design activity framework as an
-extension of the four core design stages in Sedlmair's model for design studies,
-focused on helping novices perform general visualization design projects. The
-nine-stage framework, although the first model of its kind to provide guidance
-for conducting design studies, provides less actionable advice for novices, such
-as knowing what design stage a novice is in, what kinds of methods to employ, or
-the specific artifacts and decisions a novice designer should make. The design
-activity framework is largely inspired by the nine-stage framework but with a
-focus on providing more actionable guidance for novice visualization designers
-that is not currently available within the nine-stage framework.
+evaluation throughout which McCurdy et al. argue is crucial and should occur
+concurrently with building [@McCurdy2016]. As such, we consider the design
+activity framework as an extension of the four core design stages in Sedlmair's
+model for design studies, focused on helping novices perform general
+visualization design projects. The nine-stage framework, although the first
+model of its kind to provide guidance for conducting design studies, provides
+less actionable advice for novices, such as knowing what design stage a novice
+is in, what kinds of methods to employ, or the specific artifacts and decisions
+a novice designer should make. The design activity framework is largely inspired
+by the nine-stage framework but with a focus on providing more actionable
+guidance for novice visualization designers that is not currently available
+within the nine-stage framework.
 
 
 
@@ -381,9 +388,11 @@ economics for software engineering [@Abran2001]. In other words, software
 engineering involves many aspects from how to write good, effective code to
 managing teams, business practices, and working with clients or customers. All
 of these concepts and associated methods can often relate to the field of
-visualization design, but the vast majority of this dissertation focuses on the
-design and theoretical visualization components rather than those from software
-engineering bodies of knowledge.
+visualization design, and software engineering can incorporate design and
+research methods into their processes as well [@Peffers2007]. However, the
+majority of this dissertation focuses on the design and theoretical
+visualization components rather than those from software engineering bodies of
+knowledge.
 
 
 Agile development started in the 1990's with a series of methods aiming to
