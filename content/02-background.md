@@ -13,11 +13,14 @@ has identified two differing approaches to the design process: creative and
 engineering [@Lowgren1995; @Howard2008; @Wolf2006; @Moere2011]. Together, these
 approaches can complement and enrich a design process. Furthermore, we reflect
 on the role and use of human-centered design methods throughout visualization
-design. Lastly, we relate these design processes to ones for development,
-specifically agile approaches, within the context of building data visualization
-systems. In the next chapter, we will introduce the design activity framework as
-a way to bridge design activities with the decisions a novice might make,
-supporting both an engineering and creative approach to visualization design.
+design. Lastly, we relate these design processes to ones for development and
+software engineering, within the context of building data visualization systems.
+Specifically, agile methodologies are a popular approach in software engineering
+processes which start to combine engineering and creative approaches together.
+In the next chapter, we will introduce the design activity framework as a way to
+bridge design activities with the decisions a novice might make, supporting both
+an engineering and creative approach for teaching this process to novice
+visualization designers.
 
 <!-- \sm{TODO add a few figures from presentations? if needed?} -->
 
