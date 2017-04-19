@@ -19,7 +19,7 @@ systems. In the next chapter, we will introduce the design activity framework as
 a way to bridge design activities with the decisions a novice might make,
 supporting both an engineering and creative approach to visualization design.
 
-<!-- \sm{add a few figures from presentations} -->
+<!-- \sm{TODO add a few figures from presentations? if needed?} -->
 
 
 
@@ -177,13 +177,13 @@ to overcome shortcomings in existing visualization design process models
 
 
 
-## Types of Visualization Models
+## Types of Visualization Design Models
 
 Visualization research often involves the creation of new visual encodings,
 interaction techniques, and systems. This process of making something new is why
 design plays an integral role in research [@Fallman2003a]. As such, there exist
 a variety of theoretical models for visualization design and even more that have
-been adapted and used by visualization designers. In this work, we focus on two
+been adapted, used, and taught by visualization designers to novices. In this work, we focus on two
 kinds of models for visualization design: decision models and process models
 [@Meyer]. **Decision models** capture the _what_ and _why_ of design by
 characterizing the rationale behind the decisions that a designer makes.
@@ -204,21 +204,22 @@ detailed model by Christiaans and Almendra captures both the mindset and
 strategies of designers, such as problem-driven (targeting a specific
 description of a challenge, like generating software requirements) versus
 solution-driven (focusing on a small set of possible solutions, such as
-repurposing an existing tool or technique), along with specific
-operationalization of that mindset, or how decisions get made by an individual
-or a team, such as autocratic versus autonomic [@Christiaans2010]. Similarly,
-Tang et al. divide design decisions into three groups: planning, problem space,
-and solution space decisions, in order to better realize the effect decisions
-have on design [@Tang2010]. Through studying the process of expert designers, Wu
-et al. identify three classes of design strategies: forward working, problem
-switching, and backward working strategies [@Wu2011]. Furthermore, several
-researchers have broken down decision-making into different kinds of high-level
-design judgments: e.g. appearance, compositional, navigational, etc.
-[@Nelson2003; @Wolf2006]. explain what all three of these are? These many models
-have a utility to analyze and compare general decisions and strategies for
-design, but they do not capture the specific decisions that visualization
-designers face when representing and encoding data in an interactive
-visualization system.
+repurposing an existing tool or technique) [@Christiaans2010]. These strategies
+get combined with specific operationalizations of that mindset as well as how
+decisions get made by an individual or a team, such as autocratic versus
+autonomic. Similarly, Tang et al. divide design decisions into three groups:
+planning, problem space, and solution space decisions, in order to better
+realize the effect decisions have on design [@Tang2010]. Through studying the
+process of expert designers, Wu et al. identify three classes of design
+strategies: forward working (from abstract to concrete), backward working (from
+concrete to abstract), and problem switching (alternating between the two)
+strategies [@Wu2011]. Furthermore, several researchers have broken down
+decision-making into different kinds of high-level design judgments: e.g.
+appearance, compositional, navigational, etc. [@Nelson2003; @Wolf2006]. These
+many models have a utility to analyze and compare general decisions and
+strategies for design, but they do not capture the specific decisions that
+visualization designers face when representing and encoding data in an
+interactive visualization system.
 
 
 Within the visualization community, the well-cited nested model [@Munzner2009]
