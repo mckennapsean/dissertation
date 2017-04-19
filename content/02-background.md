@@ -240,22 +240,8 @@ rationale (_why_) that a visualization designer needs to make along the way
 
 ### Design Process Models
 
-<!--
-The design activity framework contains activities
-of the design process with a breakdown of each activity's motivation, artifacts,
-and design methods [@McKenna2014]. These activities are an extension of the core
-design phase of Sedlmair et al.'s nine-stage framework for design studies
-[@Sedlmair2012b]: discover, design, implement, and deploy. The design activity
-framework, however, supports more general problem-driven visualization
-challenges and researchers without visualization expertise, as well as projects
-with tight deadlines as is often seen in the classroom. However, the design
-activity framework would only be as actionable as its ability to teach
-visualization novices how to design a visualization system.
--->
-
-
 Unlike a decision model, a design process model focuses on describing the
-specific steps a designer takes  over the course of designing a visualization.
+specific steps a novice designer takes over the course of designing a visualization.
 In this regard, we consider design as a challenge that combines and mixes both
 engineering and creative design processes [@Lowgren1995; @Howard2008; @Wolf2006;
 @Moere2011], and this balanced mixture is what we sought in the synthesis of the
@@ -274,7 +260,7 @@ reasoning, and design thinking [@buxton2010sketching]. As recognized by
 researchers in the design [@Howard2008], HCI [@Wolf2006; @Lowgren1995], and
 visualization [@Moere2011] communities, the combination and balanced mixture of
 these two types of process models is useful for characterizing the design
-process.
+process for a novice visualization designer.
 
 <!-- TODO I like the new design funnel connection, probably link in DAF chapter? -->
 
@@ -305,8 +291,8 @@ visualization design decisions.
 
 
 The model closest to the design activity framework is the nine-stage framework
-for conducting design studies [@Sedlmair2012b], which captures the  steps from
-initial planning through the reflective analysis of a complete project.  The
+for conducting design studies [@Sedlmair2012b], which captures the steps from
+initial planning through the reflective analysis of a complete project. The
 middle core stages of the model describe the steps involved with designing a
 visualization system, with four stages that, at a high level, are similar in
 motivation to the proposed design activity framework. In some of these middle
@@ -314,13 +300,16 @@ stages, the levels of the nested model are mentioned; however, an explicit
 description of what types of artifacts should be expected at each step is not
 provided. Furthermore, the model as a whole only loosely captures the
 overlapping and iterative nature of visualization design, as well as the role of
-evaluation throughout. The nine-stage framework, although the first model of its
-kind to provide guidance for conducting design studies, does not give actionable
-advice for knowing what stage a designer is in, what kinds of methods to employ,
-or the specific artifacts and decisions a designer should make, particularly in
-the middle four design stages. The design activity framework is largely inspired
-by the nine-stage framework, in particular to provide actionable guidance not
-currently available within this process model.
+evaluation throughout. As such, we consider the design activity framework as an
+extension of the four core design stages in Sedlmair's model for design studies,
+focused on helping novices perform general visualization design projects. The
+nine-stage framework, although the first model of its kind to provide guidance
+for conducting design studies, provides less actionable advice for novices, such
+as knowing what design stage a novice is in, what kinds of methods to employ, or
+the specific artifacts and decisions a novice designer should make. The design
+activity framework is largely inspired by the nine-stage framework but with a
+focus on providing more actionable guidance for novice visualization designers
+that is not currently available within the nine-stage framework.
 
 
 
@@ -366,7 +355,8 @@ testing or evaluation phase [@Chee2011; @Tory2004; @Wassink2009; @Lloyd2011].
 However, design methods can be evaluative at any step or phase, to limit or
 narrow the choice of potential artifacts going forward. This points to another
 gap between existing visualization design process models and the plethora of
-design methods that get utilized.
+design methods that get utilized in real-world projects and could be taught to
+novices.
 
 
 
