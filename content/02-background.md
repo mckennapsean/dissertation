@@ -186,11 +186,11 @@ Visualization research often involves the creation of new visual encodings,
 interaction techniques, and systems. This process of making something new is why
 design plays an integral role in research [@Fallman2003a]. As such, there exist
 a variety of theoretical models for visualization design and even more that have
-been adapted, used, and taught by visualization designers to novices. In this work, we focus on two
-kinds of models for visualization design: decision models and process models
-[@Meyer]. **Decision models** capture the _what_ and _why_ of design by
-characterizing the rationale behind the decisions that a designer makes.
-**Process models**, on the other hand, capture the _how_ of design,
+been adapted, used, and taught by visualization designers to novices. In this
+work, we focus on two kinds of models for visualization design: decision models
+and process models [@Meyer]. **Decision models** capture the _what_ and _why_ of
+design by characterizing the rationale behind the decisions that a designer
+makes. **Process models**, on the other hand, capture the _how_ of design,
 characterizing the actions that a designer takes as a series of steps. Linking a
 process model to a decision model enables visualization designers to verify and
 validate the design decisions they make along each step of the design process.
@@ -244,23 +244,23 @@ rationale (_why_) that a visualization designer needs to make along the way
 ### Design Process Models
 
 Unlike a decision model, a design process model focuses on describing the
-specific steps a novice designer takes over the course of designing a visualization.
-In this regard, we consider design as a challenge that combines and mixes both
-engineering and creative design processes [@Lowgren1995; @Howard2008; @Wolf2006;
-@Moere2011], and this balanced mixture is what we sought in the synthesis of the
-design activity framework. An **engineering design process** begins with a
-problem definition, where the overall process is largely sequential and
-convergent towards a single solution [@Lowgren1995]. On the other hand, a
-**creative design process** begins with more gradual problem scoping, and the
-process has many overlapping activities where many different possibilities are
-explored before choosing a single solution [@Lowgren1995]. An example of a
-creative model is Pugh's process, a design funnel [@pugh1991total] that begins
-with concept generation and controlled convergence iterating over time until a
-final concept is reached [@buxton2010sketching]. Additionally, sketching is a
-crucial aspect for creative design processes, as sketching is not about the
-drawing but as an activity involving generation, brainstorming, learning,
-reasoning, and design thinking [@buxton2010sketching]. As recognized by
-researchers in the design [@Howard2008], HCI [@Wolf2006; @Lowgren1995], and
+specific steps a novice designer takes over the course of designing a
+visualization. In this regard, we consider design as a challenge that combines
+and mixes both engineering and creative design processes [@Lowgren1995;
+@Howard2008; @Wolf2006; @Moere2011], and this balanced mixture is what we sought
+in the synthesis of the design activity framework. An **engineering design
+process** begins with a problem definition, where the overall process is largely
+sequential and convergent towards a single solution [@Lowgren1995]. On the other
+hand, a **creative design process** begins with more gradual problem scoping,
+and the process has many overlapping activities where many different
+possibilities are explored before choosing a single solution [@Lowgren1995]. An
+example of a creative model is Pugh's process, a design funnel [@pugh1991total]
+that begins with concept generation and controlled convergence iterating over
+time until a final concept is reached [@buxton2010sketching]. Additionally,
+sketching is a crucial aspect for creative design processes, as sketching is not
+about the drawing but as an activity involving generation, brainstorming,
+learning, reasoning, and design thinking [@buxton2010sketching]. As recognized
+by researchers in the design [@Howard2008], HCI [@Wolf2006; @Lowgren1995], and
 visualization [@Moere2011] communities, the combination and balanced mixture of
 these two types of process models is useful for characterizing the design
 process for a novice visualization designer.
@@ -275,11 +275,11 @@ aspects of a creative design process. The seminal research method of
 multidimensional longitudinal case studies [@Shneiderman2006] proposes a process
 and specific methods for assessing and evaluating visualization systems deployed
 in the wild. This model, however, does not cover the creation and development of
-a visualization system. More abstracted design process models for visualization have also
-been proposed in a variety of forms --- waterfall, cyclical, and spiral --- to
-perform user-centered design [@Chee2011; @Tory2004; @Wassink2009], but they
-emphasize convergence like an engineering design process model. The design
-process model used by both Lloyd et al. [@Lloyd2011] and Goodwin et al.
+a visualization system. More abstracted design process models for visualization
+have also been proposed in a variety of forms --- waterfall, cyclical, and
+spiral --- to perform user-centered design [@Chee2011; @Tory2004; @Wassink2009],
+but they emphasize convergence like an engineering design process model. The
+design process model used by both Lloyd et al. [@Lloyd2011] and Goodwin et al.
 [@Goodwin2013a] is drawn from an international standard on human-centered
 design, ISO13407, which has recently been updated, ISO9241-210 [@DIS2010]. This
 standard's model describes different design activities as a cycle, emphasizing
