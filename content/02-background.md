@@ -201,26 +201,24 @@ decisions are intricately interconnected.
 
 Many researchers have explored the general act of decision-making in design. A
 detailed model by Christiaans and Almendra captures both the mindset and
-strategies of designers, such as problem-driven versus solution-driven, along
-with specific operationalization of that mindset, or how decisions get made by
-an individual or a team, such as autocratic versus autonomic [@Christiaans2010].
-Similarly, Tang et al. divide design decisions into three groups: planning,
-problem space, and solution space decisions, in order to better realize the
-effect decisions have on design [@Tang2010]. Through studying the process of
-expert designers, Wu et al. identify three classes of design strategies: forward
-working, problem switching, and backward working strategies [@Wu2011].
-Furthermore, several researchers have broken down decision-making into different
-kinds of high-level design judgments: e.g. appearance, compositional,
-navigational, etc. [@Nelson2003; @Wolf2006]. explain what all three of these
-are? These many models have a utility to analyze and compare general decisions
-and strategies for design, but they do not capture the specific decisions that
-visualization designers face when representing and encoding data in an
-interactive visualization system.
-
-<!--
-e.g. "problem-driven versus solution-driven"
-\al{example of? what is this?}
--->
+strategies of designers, such as problem-driven (targeting a specific
+description of a challenge, like generating software requirements) versus
+solution-driven (focusing on a small set of possible solutions, such as
+repurposing an existing tool or technique), along with specific
+operationalization of that mindset, or how decisions get made by an individual
+or a team, such as autocratic versus autonomic [@Christiaans2010]. Similarly,
+Tang et al. divide design decisions into three groups: planning, problem space,
+and solution space decisions, in order to better realize the effect decisions
+have on design [@Tang2010]. Through studying the process of expert designers, Wu
+et al. identify three classes of design strategies: forward working, problem
+switching, and backward working strategies [@Wu2011]. Furthermore, several
+researchers have broken down decision-making into different kinds of high-level
+design judgments: e.g. appearance, compositional, navigational, etc.
+[@Nelson2003; @Wolf2006]. explain what all three of these are? These many models
+have a utility to analyze and compare general decisions and strategies for
+design, but they do not capture the specific decisions that visualization
+designers face when representing and encoding data in an interactive
+visualization system.
 
 
 Within the visualization community, the well-cited nested model [@Munzner2009]
@@ -304,12 +302,6 @@ Although the visualization community is beginning to embrace aspects of a
 creative design process, none of these process models explicitly link back to
 visualization design decisions.
 
-<!--
-e.g. ... "More abstracted design process models...."
-\al{below, what is the relation to software engineering?}
-\sm{need to clarify this distinction, what makes it engineering? convergence?}
--->
-
 
 The model closest to the design activity framework is the nine-stage framework
 for conducting design studies [@Sedlmair2012b], which captures the  steps from
@@ -337,12 +329,13 @@ currently available within this process model.
 
 User-centered design is a promising approach to build better and more effective
 visualization tools. By focusing on a user's needs, wants, and limitations,
-user-centered design enables users to achieve their goals more effectively,
-efficiently, and with increased user satisfaction, thus providing benefits such
-as increased productivity, better accessibility, reduced stress and risk of
-harm, and an improved user well-being [@DIS2010]. User-centered design has
-become widely accepted within the HCI community [@Tory2004] and has become more
-popular and accepted within the visualization community as well. Many different
+user-centered design can result in more useful, usable, and enjoyable tools
+which enable users to achieve their goals more effectively, efficiently, and
+with increased user satisfaction, thus providing benefits such as increased
+productivity, better accessibility, reduced stress and risk of harm, and an
+improved user well-being [@DIS2010]. User-centered design has become widely
+accepted within the HCI community [@Tory2004] and has become more popular and
+accepted within the visualization community as well. Many different
 visualization practitioners have illustrated potential phases of a user-design
 process [@Chee2011; @Tory2004; @Wassink2009; @Lloyd2011], but each of these
 lacks the connection to design decisions and potential design methods. Many of
@@ -353,11 +346,6 @@ design study with investigative journalists [@Brehmer2014]. For visualization,
 user-centered design plays a vital role to capturing elements of the design
 process, but there is no clear definition of the phases of this process nor how
 this connects to design decisions or methods.
-
-<!--
-e.g. "enables users to achieve their goals..."
-\al{clarify how: enables better systems that allow users...)}
--->
 
 
 For visualization design, many papers report use and benefit of user-centered
@@ -427,22 +415,25 @@ designed to be iterative in nature, with teams adapting requirements to the
 software over time [@Abran2001].
 
 
-The notion of a sprint is at the core of the agile Scrum approach, where a
-sprint manages and timeboxes activities and development work into a concrete
-time frame for tackling backlog items, daily updates, and progress reviews
-[@Abran2001]. This set deadline provides a clear goal for developing a working
-prototype to test with clients or customers. An example is the Google Ventures
-sprint, a five-day process that breaks apart the software engineering and design
-process into five big steps: mapping out the problem space and finding a focus,
-sketching out ideas, comparing and evaluating the ideas to find the best,
-building the software or other prototype, and testing with the clients or
-customers [@Knapp2016]. The goal of this sprint is to determine if an idea or
-potential product has a measurable impact on the clients or customers, which can
-shave months out of building a fully working tool or system. By preparing for
-sprints with tools like whiteboards, timers, and paper along with electronic
-device limitations, open schedules, and an appropriate team of experts, a
-facilitator, and a decider, a sprint process can focus peoples' time to be very
-productive [@Knapp2016]. As a result, this agile sprint method combines software
+These agile approaches cross aspects of design for an engineering process with
+creative processes, but their focus is largely on software development and not
+tailored to visualization specifically. For example, the notion of a sprint is
+at the core of the agile Scrum approach, where a sprint manages and timeboxes
+activities and development work into a concrete time frame for tackling backlog
+items, daily updates, and progress reviews [@Abran2001]. This set deadline
+provides a clear goal for developing a working prototype to test with clients or
+customers. An example is the Google Ventures sprint, a five-day process that
+breaks apart the software engineering and design process into five big steps:
+mapping out the problem space and finding a focus, sketching out ideas,
+comparing and evaluating the ideas to find the best, building the software or
+other prototype, and testing with the clients or customers [@Knapp2016]. The
+goal of this sprint is to determine if an idea or potential product has a
+measurable impact on the clients or customers, which can shave months out of
+building a fully working tool or system. By preparing for sprints with tools
+like whiteboards, timers, and paper along with electronic device limitations,
+open schedules, and an appropriate team of experts, a facilitator, and a
+decider, a sprint process can focus peoples' time to be very productive
+[@Knapp2016]. As a result, this agile sprint method combines software
 engineering and development with project management [@Abran2001] and business
 ideas [@Knapp2016]. Designing visualization software systems, tools, and
 techniques can coincide and work in tandem with these alternative approaches,
