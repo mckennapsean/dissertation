@@ -19,7 +19,7 @@ systems. In the next chapter, we will introduce the design activity framework as
 a way to bridge design activities with the decisions a novice might make,
 supporting both an engineering and creative approach to visualization design.
 
-<!-- \sm{creative / creativity, careful, see Jim's notes: presc/descr from DSM, characterize with words not a single one?} -->
+<!-- \sm{presc/descr from DSM, characterize with words not a single one?} -->
 <!-- \sm{add a few figures from presentations} -->
 
 
@@ -145,12 +145,12 @@ visualization design concepts on their own more effectively.
 
 
 
-## Bridging Creativity into Visualization Design
+## Bridging Flexibility into Visualization Design
 
 When working with other designers, we discovered a disparity with how other
-visualization designers incorporate creativity into the design process. Although
-some visualization researchers stress that design and creativity research
-methods can play an effective role in visualization design [@Lloyd2011;
+visualization designers incorporate flexibility into the design process.
+Although some visualization researchers argue that design and research methods
+can elicit creativity in for visualization design [@Lloyd2011;
 @Goodwin2013a; @Moere2011], design research also tends to more explicitly
 emphasize and highlight the complex nature of the design process [@Baker2010;
 @Cao2010], as well as put an emphasis on constraints for design [@Onarheim2010;
@@ -161,16 +161,17 @@ to reconcile the visualization design decisions we wanted to make with these
 various creative process models.
 
 
-By reflecting on our own design process in [@sec:formulation], we identified a need for a
-process framework that balances the flexibility and actionability of models from
-the design community with the explicit artifacts and decisions necessary for
-visualization design. We developed the design activity framework to overcome
-shortcomings in existing visualization design process models [@Chee2011;
-@Tory2004; @Wassink2009; @Lloyd2011; @Goodwin2013a; @DIS2010; @Sedlmair2012b]
-and to incorporate ideas from a broad range of models in HCI [@Wolf2006;
-@Vredenburg2002; @Rudisill1995] and design [@Lowgren1995; @Howard2008;
-@Wolf2006; @Cardella2008; @Jones2008; @Brown2009; @Lidwell2010; @Ware2010;
-@Wodehouse2010a; @DaGandra2012; @Teal2010; @Wu2011; @Atman2009; @Snider2013].
+By reflecting on our own design process in [@sec:formulation], we identified a
+need for a process framework that balances the flexibility and actionability of
+models from the design community with the explicit artifacts and decisions
+necessary for visualization design. We developed the design activity framework
+to overcome shortcomings in existing visualization design process models
+[@Chee2011; @Tory2004; @Wassink2009; @Lloyd2011; @Goodwin2013a; @DIS2010;
+@Sedlmair2012b] and to incorporate ideas from a broad range of models in HCI
+[@Wolf2006; @Vredenburg2002; @Rudisill1995] and design [@Lowgren1995;
+@Howard2008; @Wolf2006; @Cardella2008; @Jones2008; @Brown2009; @Lidwell2010;
+@Ware2010; @Wodehouse2010a; @DaGandra2012; @Teal2010; @Wu2011; @Atman2009;
+@Snider2013].
 
 
 
