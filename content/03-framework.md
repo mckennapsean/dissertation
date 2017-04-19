@@ -574,13 +574,13 @@ the method of constraint removal (_M-26_) [@Goodwin2013a].
 
 We can use the framing of a design activity to help novice visualization
 designers find effective design methods. We define effectiveness here as a
-reflection in two parts: short-term and long-term effectiveness. For short-term effectiveness, a
-design method must successfully achieve the desired visualization
-artifact for the design activity --- we argue that this completed artifact is
-one way to validate a design method. The long-term effectiveness of a method can
-be established when the method is used within the development of a deployed
-visualization tool: one that is evaluated with, and given to, real end users.
-Thus, novice visualization designers can determine if a design method was
+reflection in two parts: short-term and long-term effectiveness. For short-term
+effectiveness, a design method must successfully achieve the desired
+visualization artifact for the design activity --- we argue that this completed
+artifact is one way to validate a design method. The long-term effectiveness of
+a method can be established when the method is used within the development of a
+deployed visualization tool: one that is evaluated with, and given to, real end
+users. Thus, novice visualization designers can determine if a design method was
 effective within their visualization project by reflecting on these two
 questions:
 
