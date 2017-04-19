@@ -19,7 +19,6 @@ systems. In the next chapter, we will introduce the design activity framework as
 a way to bridge design activities with the decisions a novice might make,
 supporting both an engineering and creative approach to visualization design.
 
-<!-- \sm{add resources: existing models better, Nath had a few} -->
 <!-- \sm{creative / creativity, careful, see Jim's notes: presc/descr from DSM, characterize with words not a single one?} -->
 <!-- \sm{add a few figures from presentations} -->
 
@@ -266,11 +265,19 @@ problem definition, where the overall process is largely sequential and
 convergent towards a single solution [@Lowgren1995]. On the other hand, a
 **creative design process** begins with more gradual problem scoping, and the
 process has many overlapping activities where many different possibilities are
-explored before choosing a single solution [@Lowgren1995]. As recognized by
+explored before choosing a single solution [@Lowgren1995]. An example of a
+creative model is Pugh's process, a design funnel [@pugh1991total] that begins
+with concept generation and controlled convergence iterating over time until a
+final concept is reached [@buxton2010sketching]. Additionally, sketching is a
+crucial aspect for creative design processes, as sketching is not about the
+drawing but as an activity involving generation, brainstorming, learning,
+reasoning, and design thinking [@buxton2010sketching]. As recognized by
 researchers in the design [@Howard2008], HCI [@Wolf2006; @Lowgren1995], and
 visualization [@Moere2011] communities, the combination and balanced mixture of
 these two types of process models is useful for characterizing the design
 process.
+
+<!-- TODO I like the new design funnel connection, probably link in DAF chapter? -->
 
 
 Visualization-specific design process models describe unique aspects for
