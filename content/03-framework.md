@@ -556,22 +556,7 @@ their design process. For example, Goodwin et al. introduce several novel
 creativity techniques for visualization design such as generating ideas using
 the method of constraint removal (_M-26_) [@Goodwin2013a].
 
-
-![
-  Several exemplar methods and where they fit within the framework; a more
-  extensive list of 100 methods is in the Appendix. We coded each method into
-  one or more of the four design activities: _understand_ (**_u_**), _ideate_
-  (**_i_**), _make_ (**_m_**), and _deploy_ (**_d_**). Additionally, we tagged
-  whether each method was largely generative (**_g_**) or evaluative (**_e_**),
-  or both. Lastly, we categorized the methods we have seen commonly reported
-  within the visualization community (**_v_**) and also present succinct
-  definitions for each method to assist novices in trying each method out.
-](figures/daf/table.pdf){#tbl:methods width="100%"}
-
 <!-- \sm{we should probably explain a bit more about this coding process in the text somewhere?} -->
-<!-- \sm{does this need to be a table instead of a figure?} -->
-<!-- \sm{this is labeled as a figure here, can we change?} -->
-<!-- \sm{TODO check with table vs figure caption differences in template?} -->
 
 
 We can use the framing of a design activity to help novice visualization
@@ -588,4 +573,34 @@ questions:
 
 1. Did you achieve your desired visualization artifacts?
 1. Did you successfully deploy a visualization tool to users as a result of this method?
+
+
+\begin{longtable}[]{@{}llll@{}}
+\caption{\label{tbl:methods}
+  Several exemplar methods and where they fit within the framework; a more
+  extensive list of 100 methods is in the Appendix. We coded each method into
+  one or more of the four design activities: \emph{understand}
+  (\textbf{\emph{u}}), \emph{ideate} (\textbf{\emph{i}}), \emph{make}
+  (\textbf{\emph{m}}), and \emph{deploy} (\textbf{\emph{d}}). Additionally, we
+  tagged whether each method was largely generative (\textbf{\emph{g}}) or
+  evaluative (\textbf{\emph{e}}), or both. Lastly, we categorized the methods we
+  have seen commonly reported within the visualization community
+  (\textbf{\emph{v}}) and also present succinct definitions for each method to
+  assist novices in trying each method out.
+}\tabularnewline
+\includegraphics[width=1.00000\textwidth]{figures/daf/table.pdf}
+\end{longtable}
+
+<!-- CANNOT have a table be shown in a figure or a figure in a table. embed manually via latex.
+![
+  Several exemplar methods and where they fit within the framework; a more
+  extensive list of 100 methods is in the Appendix. We coded each method into
+  one or more of the four design activities: _understand_ (**_u_**), _ideate_
+  (**_i_**), _make_ (**_m_**), and _deploy_ (**_d_**). Additionally, we tagged
+  whether each method was largely generative (**_g_**) or evaluative (**_e_**),
+  or both. Lastly, we categorized the methods we have seen commonly reported
+  within the visualization community (**_v_**) and also present succinct
+  definitions for each method to assist novices in trying each method out.
+](figures/daf/table.pdf){width="100%"}
+-->
 
