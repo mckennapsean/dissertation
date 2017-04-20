@@ -558,8 +558,8 @@ the method of constraint removal (_M-26_) [@Goodwin2013a].
 
 
 ![
-  Several exemplar methods and where they fit within the framework; we provide a
-  more extensive list of 100 methods in the Appendix. We coded each method into
+  Several exemplar methods and where they fit within the framework; a more
+  extensive list of 100 methods is in the Appendix. We coded each method into
   one or more of the four design activities: _understand_ (**_u_**), _ideate_
   (**_i_**), _make_ (**_m_**), and _deploy_ (**_d_**). Additionally, we tagged
   whether each method was largely generative (**_g_**) or evaluative (**_e_**),
