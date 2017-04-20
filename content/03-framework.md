@@ -317,6 +317,8 @@ to use the visualization tool to solve their domain tasks.
 
 ## Visualization Artifacts and the Nested Model
 
+<!-- TODO check length of line, Chris suggested moving model to second line! -->
+
 The design activity framework can be utilized by novice and even expert
 visualization designers to reflect on the design decisions they made by tracking
 the visualization artifacts they produce in each activity. As shown in
