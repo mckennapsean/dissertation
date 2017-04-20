@@ -76,14 +76,6 @@ controlled experiments (_M-28_).
 <!--\sm{TODO another reference to the appendix}-->
 
 
-![
-  An overview of the visualization artifacts for our redesign project, starting
-  from our a) software analysis, which resulted in b) initial concept sketches
-  and c) wireframes. As we focused on more of the details, we moved into the
-  _make_ activity with and d) laying out interface components.
-](figures/daf/redesign/process.pdf){#fig:redesign width="100%"}
-
-
 
 
 
@@ -177,6 +169,14 @@ opportunities for our visualization redesign were 1) interface usability, 2)
 workflow improvements, 3) tool desirability, and 4) temporal data
 representation. We also developed a more low-level list of all visualization
 artifacts, such as a detailed data and task abstraction.
+
+
+![
+  An overview of the visualization artifacts for our redesign project, starting
+  from our a) software analysis, which resulted in b) initial concept sketches
+  and c) wireframes. As we focused on more of the details, we moved into the
+  _make_ activity with and d) laying out interface components.
+](figures/daf/redesign/process.pdf){#fig:redesign width="100%"}
 
 
 
@@ -350,14 +350,6 @@ we present recommendations for using this method in the context of cyber
 security visualization design.
 
 
-![
-  A sample of qualitative codes pulled from three cognitive task analyses papers.
-](figures/methods/coding.pdf){#fig:coding width="100%"}
-
-<!-- For more details, please see the Appendix. Supplemental Materials.[^1]-->
-<!-- TODO do we want this extra detail? where to include? or just a URL? -->
-
-
 When tasked with redesigning a large cyber security tool, our design team had
 limited access to end users. Despite the fact that a fully deployed tool already
 existed, we were taking a step back to find users' needs in the first design
@@ -396,15 +388,6 @@ consolidated the data together in a final meeting.
 
 ### Visualization Artifacts: Qualitative Coding
 
-![
-  An extension to the data hierarchy model presented by D'Amico et al.
-  [@DAmico2008], highlighting how various results feed back to raw data, while
-  also pinpointing several key tasks. We established this extension as part of
-  the qualitative coding method, which we used to motivate the redesign of a
-  software tool.
-](figures/methods/model.pdf){#fig:model width="100%"}
-
-
 We present a sample visualization artifact resulting from our coding method in
 [@fig:coding]. Each piece of information is organized across one or more papers
 and into a hierarchy of categories. At the top-most level, we identified
@@ -414,6 +397,14 @@ with subcategories on a finer scale.
 
 <!-- TODO where to put additional materials? -->
 <!-- ; a more complete table of all the data is included in Supplemental Materials.[^1] -->
+
+
+![
+  A sample of qualitative codes pulled from three cognitive task analyses papers.
+](figures/methods/coding.pdf){#fig:coding width="100%"}
+
+<!-- For more details, please see the Appendix. Supplemental Materials.[^1]-->
+<!-- TODO do we want this extra detail? where to include? or just a URL? -->
 
 
 Focusing on the data from these three CTAs enabled us to identify user needs
@@ -449,6 +440,15 @@ model describes how analysts process, filter, sort, and select datasets, as
 datasets transfer from raw data into situational awareness. Our extensions
 highlights the data feedback loop, clearly shows the outputs from this feedback
 loop, and provides identification of tasks for filtering the data across levels.
+
+
+![
+  An extension to the data hierarchy model presented by D'Amico et al.
+  [@DAmico2008], highlighting how various results feed back to raw data, while
+  also pinpointing several key tasks. We established this extension as part of
+  the qualitative coding method, which we used to motivate the redesign of a
+  software tool.
+](figures/methods/model.pdf){#fig:model width="100%"}
 
 
 ### Discussion on Qualitative Coding Design Method
