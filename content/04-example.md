@@ -324,13 +324,13 @@ as well as the low-level detail of specific visualization artifacts and design
 methods utilized. These design timelines could be further enhanced by
 highlighting levels of the nested model or details of visualization design
 decisions made throughout the process. We found that keeping track of these
-activities can help novices meet deadlines by focusing on specific design
-activities and visualization artifacts as well, which is why we highlight these
-deadlines explicitly in the timeline as well. These visualization design
-timelines can help the communication of a design process internally with a
-design team during the process or externally after the fact with research
-colleagues or managers to provide a concise overview of the results and work
-conducted.
+activities can help visualization designers meet deadlines by focusing on
+specific design activities and visualization artifacts as well, which is why we
+highlight these deadlines explicitly in the timeline as well. These
+visualization design timelines can help the communication of a design process
+internally with a design team during the process or externally after the fact
+with research colleagues or managers to provide a concise overview of the
+results and work conducted.
 
 
 
