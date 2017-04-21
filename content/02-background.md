@@ -2,146 +2,27 @@
 
 Research in visualization design has explored many facets of design, from the
 process and its steps to the design decisions made throughout. In this chapter,
-we first explore the role of design in the pedagogy of the data visualization
-and human-computer interaction (HCI) communities. Following this, we investigate
-how visualization research on design utilizes the complex and flexible nature of
-the creative process. On the theoretical side, we focus on two types of
-visualization design models, process and decision models [@Meyer]. For
-visualization design, we discuss the primary decision model used in the field,
-the nested model [@Munzner2009; @Meyer]. For process models, the HCI community
-has identified two differing approaches to the design process: creative and
-engineering [@Lowgren1995; @Howard2008; @Wolf2006; @Moere2011]. Together, these
-approaches can complement and enrich a design process. Furthermore, we reflect
-on the role and use of human-centered design methods throughout visualization
-design. Lastly, we relate these design processes to ones for development and
-software engineering, within the context of building data visualization systems.
-Specifically, agile methodologies are a popular approach in software engineering
-processes which start to combine engineering and creative approaches together.
-In the next chapter, we will introduce the design activity framework as a way to
-bridge design activities with the decisions a novice might make, supporting both
-an engineering and creative approach for teaching this process to novice
-visualization designers.
+we first investigate how visualization research on design utilizes the complex
+and flexible nature of the creative process. On the theoretical side, we focus
+on two types of visualization design models, process and decision models
+[@Meyer]. For visualization design, we discuss the primary decision model used
+in the field, the nested model [@Munzner2009; @Meyer]. For process models, the
+HCI community has identified two differing approaches to the design process:
+creative and engineering [@Lowgren1995; @Howard2008; @Wolf2006; @Moere2011].
+Together, these approaches can complement and enrich a design process.
+Furthermore, we reflect on the role and use of human-centered design methods
+throughout visualization design. Following this, we explore the role of design
+in the pedagogy of the data visualization and human-computer interaction (HCI)
+communities. Lastly, we relate these design processes to ones for development
+and software engineering, within the context of building data visualization
+systems. Specifically, agile methodologies are a popular approach in software
+engineering processes which start to combine engineering and creative approaches
+together. In the next chapter, we will introduce the design activity framework
+as a way to bridge design activities with the decisions a visualization designer
+might make, supporting both an engineering and creative approach for data
+visualization design.
 
 <!-- \sm{TODO add a few figures from presentations? if needed?} -->
-
-
-
-
-
-## Pedagogy of Data Visualization Design
-
-For the past few decades, pedagogy for data visualization and human-computer
-interaction has begun to shift from academic or theoretical foundations towards
-including skills for design, critique, and critical analysis [@Reimer2003;
-@Rushmeier2007; @Hearst2016b; @He2017]. Educators have come to realize that they
-must rapidly adapt their teaching methods to a growing body of diverse students
-[@Rheingans2016; @Domik2016], from undergraduates across disciplines to graduate
-students in standard courses, flipped classrooms [@Rheingans2016; @He2017], and
-online environments [@Beyer2016]. A recent approach among educators is to employ
-active learning [@Beyer2016; @Godwin2016; @Hearst2016b], where techniques and
-methods are used to encourage deeper analysis and synthesis as opposed to just
-passively observing a lecture [@Beyer2016]. For example, a common approach
-observed in most classroom settings are practical data visualization exercises,
-to give novices opportunities to critically analyze a data visualization or
-existing visualization tool and work with their peers to analyze the outcomes
-[@Kerren2008; @He2017].
-
-
-When it comes to data visualization design, the core concepts of active learning
-can help overcome some of the challenges faced by educators when teaching
-concepts surrounding design thinking [@He2017], from considering broad divergent
-visualization ideas [@Roberts2015], evaluating based on visualization
-principles, and leveraging existing designs to create something new. An
-effective pedagogical methodology is the use of design studios incorporated into
-the classroom setting [@Greenberg2009; @Reimer2003; @He2017], inspired by its
-use in fields like architecture, design, and art. For visualization, educators
-often incorporate these studios as workshops or practical exercises and also
-through real-world projects for students to learn about design outside of the
-classroom [@Kerren2008]. For example, VizItCards [@He2017] was created to help
-novices practice and reinforce visualization concepts during an in-class design
-workshop. Human-computer interaction educators have noted that computer science
-students in a design studio tend to focus more on idea refinement rather than
-broad idea generation and innovation [@Cennamo2011]. Other active learning
-approaches include the use of design workshops [@He2017; @Huron2016; @Zoss2016],
-rich discussions [@Johnson2016; @Craft2016], and design games [@Godwin2016].
-
-
-Within the data visualization pedagogy, guidance for how to design data
-visualizations, both generating and evaluating visualization artifacts, is
-missing clear steps for novices. When teaching data visualization design,
-educators often incorporate user interface principles [@Shneiderman2004], teach
-taxonomies of data and encoding [@Munzner2014], illustrate ideal visual
-principles [@Tufte1986; @cairo2012], explain perceptual principles [@Ware2010],
-and generally empower students with the ability to evaluate, criticize, and
-judge data visualizations. These principles and concepts often get applied in
-courses through design critiques or encased within a cumulative project
-[@Eggermont2016]. These cumulative projects are an alternative to in-class
-design studios, where students must acquire their own dataset, come up with
-ideas to visualize data for different tasks, and build an interactive,
-multi-view visualization system to support these tasks in the data. By providing
-novices with realistic, hands-on experience, students could reapply these skills
-in their own future projects. However, a novice may struggle how to conduct
-their own design process, perhaps referring to textbooks which include their own
-design process methodologies [@Ware2010; @Shneiderman2004] or research papers
-that detail the design process or design decisions [@Munzner2014;
-@Sedlmair2012b], but often these models are high-level, terminology-heavy, less
-actionable, and theoretical in nature. For novices, it is often useful to have a
-clear set of guidelines or instructions to walk through this process for the
-first time. However, no such step-by-step guidance currently exists for the data
-visualization design process.
-
-
-Educators have worked on concretizing steps for the ideation process.
-Specifically, the five design-sheet methodology [@Roberts2015] utilizes
-worksheets to structure and guide visualization students through the ideation
-process. This approach by Roberts et al. encourages engineering-type students to
-think divergently, creatively, and sketch out ideas on paper when first
-designing a visualization. Their approach begins with brainstorming, followed by
-three unique designs, and a realization sheet for the final tool. The authors
-evaluated this teaching methodology with masters students in information
-visualization. Over several years, a total of 53 students completed these design
-sheets over the span of 2 hours to come up with different ways to visualize
-their own chosen dataset, after which they received feedback and additional time
-to finalize their designs [@Roberts2015]. After grading the sheets, the
-researchers compared grades of the design sheets to the rest of the class with
-their final tool or project grade and whole grade, as well as an anonymous
-survey to gather feedback on the entire course including the design sheets.
-Generally, they found that the design sheets aided students in planning and
-organizing a design section for the project write-up, and it also encouraged
-students to think divergently which is a skill not often taught in computer
-science. However, in a workshop at the 2016 IEEE VIS conference that used these
-worksheets, we experienced a limitation of using this approach too soon: many
-steps must occur first such as data collection, identifying the challenge,
-focusing on a target user, and finding tasks. The authors elude to this in their
-paper with different preparation steps, but these steps can be non-trivial and
-tricky for novices. Thus, it would be beneficial to establish and evaluate more
-worksheets beyond just ideation for data visualization design pedagogy.
-
-
-There are also several unique challenges faced by educators. First, students may
-have preconceived notions about data visualization and principles which can
-affect the learning process and how a novice evaluates a given data
-visualization [@Hearst2016b; @Mustafaraj2016]. Furthermore, the concept of
-visualization literacy can be traced back to how we introduce, teach, and
-incorporate visualizations throughout schooling, from elementary school
-[@Alper2017] and beyond. In collegeiate courses, a key challenge cam be tight
-deadlines and schedules [@He2017; @Rheingans2016], with limited course time for
-practical exercises, design studios, and cumulative projects which often only
-last a month or two sometimes with non-colocated learners [@Beyer2016]. As
-course enrollments grow, it is important to think of how to scale visualization
-design feedback and evaluation; one recommended approach is to utilize peers to
-help scale this process and provide students with more practice on visualization
-evaluation and critique in order to apply principles and concepts taught
-throughout a course [@Willett2016; @Hearst2016b; @Johnson2016]. Additionally,
-concepts that are heavily theoretical or mathematical in nature may be more
-challenging to teach to novices. Instead, it may be ideal to simplify
-terminology and focus on simpler, comprehensive aspects of the theory
-[@Kindlmann2016] so that students can more readily grasp, apply, and build upon
-these theoretical constructs. In our own experience, we have observed the
-challenges of teaching theoretical design aspects such as the nested model
-[@Munzner2009] to visualization novices. By simplifying these aspects into a
-more step-driven process, students may be able to apply and learn these
-visualization design concepts on their own more effectively.
 
 
 
@@ -367,6 +248,125 @@ narrow the choice of potential artifacts going forward. This points to another
 gap between existing visualization design process models and the plethora of
 design methods that get utilized in real-world projects and could be taught to
 novices.
+
+
+
+
+
+## Pedagogy of Data Visualization Design
+
+For the past few decades, pedagogy for data visualization and human-computer
+interaction has begun to shift from academic or theoretical foundations towards
+including skills for design, critique, and critical analysis [@Reimer2003;
+@Rushmeier2007; @Hearst2016b; @He2017]. Educators have come to realize that they
+must rapidly adapt their teaching methods to a growing body of diverse students
+[@Rheingans2016; @Domik2016], from undergraduates across disciplines to graduate
+students in standard courses, flipped classrooms [@Rheingans2016; @He2017], and
+online environments [@Beyer2016]. A recent approach among educators is to employ
+active learning [@Beyer2016; @Godwin2016; @Hearst2016b], where techniques and
+methods are used to encourage deeper analysis and synthesis as opposed to just
+passively observing a lecture [@Beyer2016]. For example, a common approach
+observed in most classroom settings are practical data visualization exercises,
+to give novices opportunities to critically analyze a data visualization or
+existing visualization tool and work with their peers to analyze the outcomes
+[@Kerren2008; @He2017].
+
+
+When it comes to data visualization design, the core concepts of active learning
+can help overcome some of the challenges faced by educators when teaching
+concepts surrounding design thinking [@He2017], from considering broad divergent
+visualization ideas [@Roberts2015], evaluating based on visualization
+principles, and leveraging existing designs to create something new. An
+effective pedagogical methodology is the use of design studios incorporated into
+the classroom setting [@Greenberg2009; @Reimer2003; @He2017], inspired by its
+use in fields like architecture, design, and art. For visualization, educators
+often incorporate these studios as workshops or practical exercises and also
+through real-world projects for students to learn about design outside of the
+classroom [@Kerren2008]. For example, VizItCards [@He2017] was created to help
+novices practice and reinforce visualization concepts during an in-class design
+workshop. Human-computer interaction educators have noted that computer science
+students in a design studio tend to focus more on idea refinement rather than
+broad idea generation and innovation [@Cennamo2011]. Other active learning
+approaches include the use of design workshops [@He2017; @Huron2016; @Zoss2016],
+rich discussions [@Johnson2016; @Craft2016], and design games [@Godwin2016].
+
+
+Within the data visualization pedagogy, guidance for how to design data
+visualizations, both generating and evaluating visualization artifacts, is
+missing clear steps for novices. When teaching data visualization design,
+educators often incorporate user interface principles [@Shneiderman2004], teach
+taxonomies of data and encoding [@Munzner2014], illustrate ideal visual
+principles [@Tufte1986; @cairo2012], explain perceptual principles [@Ware2010],
+and generally empower students with the ability to evaluate, criticize, and
+judge data visualizations. These principles and concepts often get applied in
+courses through design critiques or encased within a cumulative project
+[@Eggermont2016]. These cumulative projects are an alternative to in-class
+design studios, where students must acquire their own dataset, come up with
+ideas to visualize data for different tasks, and build an interactive,
+multi-view visualization system to support these tasks in the data. By providing
+novices with realistic, hands-on experience, students could reapply these skills
+in their own future projects. However, a novice may struggle how to conduct
+their own design process, perhaps referring to textbooks which include their own
+design process methodologies [@Ware2010; @Shneiderman2004] or research papers
+that detail the design process or design decisions [@Munzner2014;
+@Sedlmair2012b], but often these models are high-level, terminology-heavy, less
+actionable, and theoretical in nature. For novices, it is often useful to have a
+clear set of guidelines or instructions to walk through this process for the
+first time. However, no such step-by-step guidance currently exists for the data
+visualization design process.
+
+
+Educators have worked on concretizing steps for the ideation process.
+Specifically, the five design-sheet methodology [@Roberts2015] utilizes
+worksheets to structure and guide visualization students through the ideation
+process. This approach by Roberts et al. encourages engineering-type students to
+think divergently, creatively, and sketch out ideas on paper when first
+designing a visualization. Their approach begins with brainstorming, followed by
+three unique designs, and a realization sheet for the final tool. The authors
+evaluated this teaching methodology with masters students in information
+visualization. Over several years, a total of 53 students completed these design
+sheets over the span of 2 hours to come up with different ways to visualize
+their own chosen dataset, after which they received feedback and additional time
+to finalize their designs [@Roberts2015]. After grading the sheets, the
+researchers compared grades of the design sheets to the rest of the class with
+their final tool or project grade and whole grade, as well as an anonymous
+survey to gather feedback on the entire course including the design sheets.
+Generally, they found that the design sheets aided students in planning and
+organizing a design section for the project write-up, and it also encouraged
+students to think divergently which is a skill not often taught in computer
+science. However, in a workshop at the 2016 IEEE VIS conference that used these
+worksheets, we experienced a limitation of using this approach too soon: many
+steps must occur first such as data collection, identifying the challenge,
+focusing on a target user, and finding tasks. The authors elude to this in their
+paper with different preparation steps, but these steps can be non-trivial and
+tricky for novices. Thus, it would be beneficial to establish and evaluate more
+worksheets beyond just ideation for data visualization design pedagogy.
+
+
+There are also several unique challenges faced by educators. First, students may
+have preconceived notions about data visualization and principles which can
+affect the learning process and how a novice evaluates a given data
+visualization [@Hearst2016b; @Mustafaraj2016]. Furthermore, the concept of
+visualization literacy can be traced back to how we introduce, teach, and
+incorporate visualizations throughout schooling, from elementary school
+[@Alper2017] and beyond. In collegeiate courses, a key challenge cam be tight
+deadlines and schedules [@He2017; @Rheingans2016], with limited course time for
+practical exercises, design studios, and cumulative projects which often only
+last a month or two sometimes with non-colocated learners [@Beyer2016]. As
+course enrollments grow, it is important to think of how to scale visualization
+design feedback and evaluation; one recommended approach is to utilize peers to
+help scale this process and provide students with more practice on visualization
+evaluation and critique in order to apply principles and concepts taught
+throughout a course [@Willett2016; @Hearst2016b; @Johnson2016]. Additionally,
+concepts that are heavily theoretical or mathematical in nature may be more
+challenging to teach to novices. Instead, it may be ideal to simplify
+terminology and focus on simpler, comprehensive aspects of the theory
+[@Kindlmann2016] so that students can more readily grasp, apply, and build upon
+these theoretical constructs. In our own experience, we have observed the
+challenges of teaching theoretical design aspects such as the nested model
+[@Munzner2009] to visualization novices. By simplifying these aspects into a
+more step-driven process, students may be able to apply and learn these
+visualization design concepts on their own more effectively.
 
 
 
