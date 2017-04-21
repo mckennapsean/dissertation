@@ -76,54 +76,26 @@ artifacts and, by capturing this design knowledge, encourages the reuse of these
 design artifacts across the visualization community.
 
 
-<!-- back to the solution -->
-
-The activities of a visualization design process, with each of its artifacts and
-associated design decisions, can all be connected through a new type of
-visualization design framework. Without this connection, it is much harder for a
-novice visualization designer to answer both the _how_ and _why_ questions of
-design using existing visualization models. Even expert visualization designers
-can struggle with these models due to a lack of step-by-step descriptions or
-focusing only on design decisions rather than the steps. If such a framework
-could describe these steps of the visualization design process as series of
-overlapping activities, then perhaps the iterative nature of a design process
-would be immediately clear for novice designers. By prescribing each activity
-with simple, encompassing definitions, novices could easily determine which
-activity they are currently in, what visualization design artifacts they should
-produce, and how to evaluate them. By providing novice designers with specific
-steps to perform, they can learn to design a visualization and perhaps advance
-to using new design methods over time. The goal of such a framework would be to
-empower novice visualization designers with the knowledge, tools, and techniques
-available for them to effectively design a usable and useful visualization
-system.
-
-
-<!-- problem: teaching design -->
-
-The process of designing a visualization is known to be iterative, complex, and
-occasionally messy [@Sedlmair2012b; @DIS2010; @Tory2004; @Wassink2009;
-@Chee2011; @Moere2011]. Furthermore, pedagogical approaches for teaching the
-visualization design process [@cairo2012; @Munzner2014; @Shneiderman2004;
-@Ware2010; @Sedlmair2012b; @Munzner2009] can be either less concrete or too
-theoretical in nature so that these approaches may fail to effectively guide
-novices toward building a visualization system. As the field of visualization
-matures, theories and models for visualization design have become more
-prevalent, from evaluation strategies [@Plaisant2004; @Lam2011a;
-@Carpendale2008a; @Isenberg2013a; @Shneiderman2006] to the design process itself
-[@Tory2004; @Sedlmair2012b; @Lloyd2011; @Shneiderman2006; @Wassink2009;
-@Chee2011]. These theories and models for the visualization design process
-largely address _how_ a novice can design a visualization; however, these
-theories often fail to explicitly distinguish or lay out specific steps for a
-novice visualization designer because the models include rich but verbose
-theoretical terminology. Additionally, none of these models trace novices'
-actions back to _why_ they make specific decisions, such as relying on
-preexisting visualization guidelines, or selecting certain evaluation methods.
-The visualization community has an opportunity to create a new approach to teach
-the next generation of visualization designers, by equipping them with not only
-the theoretical knowledge but also the practical skills for building better
-visualization systems and tools. Furthermore, with such a framework, the
-visualization community could concretely report on their own design processes
-for building visualization tools in a richer and more descriptive way.
+By prescribing activities, artifacts, and their associated design decisions, the
+design activity framework could also have a pedagogical benefit by guiding
+novice visualization designers through the data visualization design process.
+Although existing design theories and models for the visualization design
+process largely address _how_ designers create a visualization, none of these
+models trace designers' actions back to _why_ they make specific decisions, such
+as relying on preexisting visualization guidelines, or selecting certain
+evaluation methods. Without this connection, it is much harder for visualization
+designers, both experts and novices, to answer the _how_ and _why_ questions of
+design using existing visualization models. On the other hand, design activity
+worksheets break apart high-level activities into succinct definitions and
+descriptive step-by-step actions for novice visualization designers to follow.
+Furthermore, worksheet examples of a real-world design process can illustrate
+how to generate and evaluate visualization artifacts along with the complex,
+iterative, and occasionally messy nature [@Sedlmair2012b; @DIS2010; @Tory2004;
+@Wassink2009; @Chee2011; @Moere2011] of design. The design activity worksheets
+are a new approach to teach the next generation of visualization designers about
+the data visualization design process, by equipping them with not only the
+theoretical knowledge but also the practical skills for building better
+visualization systems and tools.
 
 
 
@@ -177,6 +149,21 @@ includes a discussion of different types of theoretical design models across
 communities, including models for visualization that focus separately on either
 the design process or decisions. Then we explore the relation of design to
 development in a discussion on agile software engineering approaches.
+
+<!-- more related work & motivation really...
+The process of designing a visualization is known to be iterative, complex, and
+occasionally messy [@Sedlmair2012b; @DIS2010; @Tory2004; @Wassink2009;
+@Chee2011; @Moere2011]. Furthermore, pedagogical approaches for teaching the
+visualization design process [@cairo2012; @Munzner2014; @Shneiderman2004;
+@Ware2010; @Sedlmair2012b; @Munzner2009] can be either less concrete or too
+theoretical in nature so that these approaches may fail to effectively guide
+novices toward building a visualization system. As the field of visualization
+matures, theories and models for visualization design have become more
+prevalent, from evaluation strategies [@Plaisant2004; @Lam2011a;
+@Carpendale2008a; @Isenberg2013a; @Shneiderman2006] to the design process itself
+[@Tory2004; @Sedlmair2012b; @Lloyd2011; @Shneiderman2006; @Wassink2009;
+@Chee2011].
+-->
 
 
 A core contribution of this dissertation is the design activity framework; we
