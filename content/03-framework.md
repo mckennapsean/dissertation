@@ -10,15 +10,15 @@ goal for each step of the design process and result from making design
 decisions. As explored in the previous chapter, no such work exists that
 connects all three of these aspects for visualization design. By connecting
 these components, the design activity framework more completely captures and
-describes the design process, increasing its actionability for use by novice
+describes the design process, increasing its actionability for use by
 visualization designers.
 
 
 In this chapter, we present an overview of the **design activity framework**, a
-flexible structure meant to guide a novice designer through the real-world,
-iterative, and multilinear process of developing a visualization for a specific
-problem or application domain. We envision the framework as a lens that novice
-visualization designers could use to orient themselves within the design
+flexible structure meant to guide a visualization designer through the
+real-world, iterative, and multilinear process of developing a visualization for
+a specific problem or application domain. We envision the framework as a lens
+that visualization designers could use to orient themselves within the design
 process, to choose useful methods, to make appropriate design decisions, and to
 analyze and summarize the process itself. The design activity framework makes
 use of the nested model [@Munzner2009] to explicitly link the actions
@@ -38,8 +38,8 @@ have an explicit link back to levels of the nested model. This framework
 supports an iterative, human-centered visualization design process that we
 characterize with the introduction of design timelines. Lastly, we provide
 guidance on how to choose effective design methods with a table of 40 selected
-design methods of interest to novice visualization designers to employ in their
-own projects.
+design methods of interest to visualization designers to employ in their own
+projects.
 
 
 ![
@@ -78,8 +78,8 @@ actions that are performed within that activity. For example, a motivation can
 be to brainstorm new ideas to solve a specific problem or to test the efficacy
 of an aspect of a specific visualization for a given task. By matching a
 real-world motivation to those specified for each activity in the framework,
-novice visualization designers can place themselves within a specific design
-activity, which helps them choose appropriate methods and identify visualization
+visualization designers can place themselves within a specific design activity,
+which helps them choose appropriate methods and identify visualization
 artifacts.
 
 
@@ -106,7 +106,7 @@ such as observation and interviewing. In the design activity framework, we
 consider generative and evaluative design methods as vital components of each
 activity, unlike process models that capture evaluation as a single, unique
 stage in the design process [@Chee2011; @Tory2004; @Wassink2009; @Lloyd2011;
-@Goodwin2013a; @DIS2010]. This emphasis on evaluation methods encourages novice
+@Goodwin2013a; @DIS2010]. This emphasis on evaluation methods encourages
 visualization designers to consider evaluation early, and often, for each design
 activity.
 
@@ -116,10 +116,10 @@ spectrums. First, generative methods can be used _narrowly to broadly_. For
 example, a novice visualization designer may narrowly consider only a single
 idea in the ideate stage, as opposed to specifically applying brainstorming
 methods to generate many different ideas broadly. Second, evaluative methods can
-be applied _informally to formally_, such as a novice informally choosing a
-prototype based on personal preferences versus formally comparing multiple
-prototypes through a controlled user study. Characterizing the use of methods in
-each activity is important for two reasons: 1) for elucidating missed
+be applied _informally to formally_, such as a visualization designer informally
+choosing a prototype based on personal preferences versus formally comparing
+multiple prototypes through a controlled user study. Characterizing the use of
+methods in each activity is important for two reasons: 1) for elucidating missed
 opportunities throughout the design process for further investigation and work;
 and 2) for providing a mechanism to thoughtfully incorporate real-world project
 constraints, such as time and budget considerations, into the design process.
@@ -159,9 +159,9 @@ users solve the problems or challenges they face in visualizing data. Not all
 challenges that users or domain collaborators may face will use or need a
 visualization system. For example, sometimes statistics, machine learning, or
 preexisting visualization tools such as Microsoft Excel or Tableau can help
-solve certain problems. In a visualization project, it is important for a novice
-designer to identify early on if there is a need and a set of design
-requirements that cannot easily be solved using existing tools.
+solve certain problems. In a visualization project, it is important for a
+visualization designer to identify early on if there is a need and a set of
+design requirements that cannot easily be solved using existing tools.
 
 <!--\sm{perhaps include a few examples or citations here? I like some of this though}-->
 
@@ -229,11 +229,11 @@ onto some medium such as paper, it is common that more details of an idea must
 be fleshed out and concretized [@Fallman2003a]. Another suggested technique in
 the visualization community is data sketching, which incorporates data into the
 ideation process, to discover the results and limitations encountered when using
-real data to realize an idea. For both concept sketching and data sketching,
-it is also possible that more ideas may spin out of this process, as a variation
+real data to realize an idea. For both concept sketching and data sketching, it
+is also possible that more ideas may spin out of this process, as a variation
 upon an existing idea or new idea combining several together, so it is often
-recommended for novice visualization designers to externalize their ideas early
-and often to help them generate more and better ideas.
+recommended for visualization designers to externalize their ideas early and
+often to help them generate more and better ideas.
 
 <!--\sm{add references here as well-wait are data sketches here or make?}-->
 
@@ -319,7 +319,7 @@ to use the visualization tool to solve their domain tasks.
 
 <!-- TODO check length of line, Chris suggested moving model to second line! -->
 
-The design activity framework can be utilized by novice and even expert
+The design activity framework can be utilized by both novice and expert
 visualization designers to reflect on the design decisions they made by tracking
 the visualization artifacts they produce in each activity. As shown in
 [@fig:nm-comparison], three of the four design activities and their associated
@@ -386,7 +386,7 @@ visualization encoding or interaction technique and the necessary algorithms
 that make the prototype work. This activity is not just about implementing a
 given design; rather, the activity, including development or coding, also
 involves critical visualization design decisions [@Moere2011]. For example, when
-using a map-based encoding for a dataset, a novice visualization designer might
+using a map-based encoding for a dataset, a visualization designer might
 discover that several data points are right on top of each other and have to
 make low-level decisions on how the algorithm or encoding handles these
 overlapping points so that they are shown completely and without error to the
@@ -416,7 +416,7 @@ reuse in their own visualization systems and tools.
 
 In our experience, a visualization design process never seems to progress
 cleanly through a set of designated stages; this fact motivated our synthesis of
-the design activity framework, which can be pieced together by novices in many
+the design activity framework, which can be pieced together by designers in many
 different ways to best suit the needs of their visualization design project.
 This complex motion aligns with creative process models from the design
 community that already emphasize that design is messy, iterative, and
@@ -460,8 +460,8 @@ international standard for human-centered design activities [@DIS2010]. These
 models, however, are often represented linearly or cyclically and imply the need
 to start at the beginning of the process, making it difficult, for example, to
 capture the process of a more complex visualization redesign project. We want to
-ensure flexibility of this framework to maximize its teaching potential for
-novice visualization designers.
+ensure flexibility of this framework to maximize its utility for a wide variety
+of visualization designers.
 
 
 To further showcase these two movement principles, we provide several design
@@ -511,16 +511,16 @@ process in a similar way.
 
 ## Choosing Effective Design Methods
 
-To help novice users tackle a real-world design project, we present a list of
-exemplar methods that can be used throughout the design activity framework. This
-list contains methods commonly found in the visualization literature, as well as
-many more that come from the design, human-computer interaction, software
-engineering, sociology, and anthropology literature. We present a list of 40
-methods in [@tbl:methods] and a more extensive list of 100 methods in the
-Appendix. We shortened the list by picking those that were mentioned within the
-framework and redesign project we present in the next chapter, along with both
-commonly used and potentially novel or interesting methods for visualization
-design.
+To help visualization designers tackle a real-world design project, we present a
+list of exemplar methods that can be used throughout the design activity
+framework. This list contains methods commonly found in the visualization
+literature, as well as many more that come from the design, human-computer
+interaction, software engineering, sociology, and anthropology literature. We
+present a list of 40 methods in [@tbl:methods] and a more extensive list of 100
+methods in the Appendix. We shortened the list by picking those that were
+mentioned within the framework and redesign project we present in the next
+chapter, along with both commonly used and potentially novel or interesting
+methods for visualization design.
 
 <!-- \sm{TODO: add appendix and link here?} -->
 
@@ -530,13 +530,13 @@ in which it can be used --- _understand_ (**_u_**), _ideate_ (**_i_**), _make_
 (**_m_**), and _deploy_ (**_d_**). It is important to note that many methods can
 and often are used in different design activities. The methods are also
 categorized as being generative (**_g_**), evaluative (**_e_**), or both in
-nature. Several methods, e.g., graffiti walls (_M-43_), interviewing
-(_M-51_), and observation (_M-58_), have more complex characterizations
-than presented in this table; please see the Appendix for a more complete and
-detailed characterization. Some methods are also marked as appearing within the
+nature. Several methods, e.g., graffiti walls (_M-43_), interviewing (_M-51_),
+and observation (_M-58_), have more complex characterizations than presented in
+this table; please see the Appendix for a more complete and detailed
+characterization. Some methods are also marked as appearing within the
 visualization literature (**_v_**). Finally, each method includes a definition
-and reference to aid novice visualization designers in bringing these methods
-into practice. As the design activity framework targets novices performing
+and reference to aid visualization designers in bringing these methods into
+practice. As the design activity framework targets designers performing
 problem-driven visualization work, it is worth noting that many of the listed
 methods involve collaboration with domain experts, such as bull's-eye
 diagramming (_M-12_), contextual inquiry (_M-27_), paper prototyping (_M-61_),
@@ -545,31 +545,30 @@ and speed dating (_M-80_).
 
 The list is by no means a complete compendium of methods for visualization
 design, but rather a step toward understanding the large space of actions a
-novice designer can take throughout the visualization design process.  Our goal
-in creating this list of methods is twofold: first, the table serves as
-additional guidance for real-world, actionable usage of the design activity
-framework by finding potential methods within a specific design activity; and
-second, the table contains many methods that are not commonly, if at all, found
-in the visualization literature, and therefore provides new design methods that
-more experienced visualization designers could utilize to potentially enhance
-their design process. For example, Goodwin et al. introduce several novel
-creativity techniques for visualization design such as generating ideas using
-the method of constraint removal (_M-26_) [@Goodwin2013a].
+designer can take throughout the visualization design process. Our goal in
+creating this list of methods is twofold: first, the table serves as additional
+guidance for real-world, actionable usage of the design activity framework by
+finding potential methods within a specific design activity; and second, the
+table contains many methods that are not commonly, if at all, found in the
+visualization literature, and therefore provides new design methods that more
+experienced visualization designers could utilize to potentially enhance their
+design process. For example, Goodwin et al. introduce several novel creativity
+techniques for visualization design such as generating ideas using the method of
+constraint removal (_M-26_) [@Goodwin2013a].
 
 <!-- \sm{we should probably explain a bit more about this coding process in the text somewhere?} -->
 
 
-We can use the framing of a design activity to help novice visualization
-designers find effective design methods. We define effectiveness here as a
-reflection in two parts: short-term and long-term effectiveness. For short-term
-effectiveness, a design method must successfully achieve the desired
-visualization artifact for the design activity --- we argue that this completed
-artifact is one way to validate a design method. The long-term effectiveness of
-a method can be established when the method is used within the development of a
-deployed visualization tool: one that is evaluated with, and given to, real end
-users. Thus, novice visualization designers can determine if a design method was
-effective within their visualization project by reflecting on these two
-questions:
+We can use the framing of a design activity to help visualization designers find
+effective design methods. We define effectiveness here as a reflection in two
+parts: short-term and long-term effectiveness. For short-term effectiveness, a
+design method must successfully achieve the desired visualization artifact for
+the design activity --- we argue that this completed artifact is one way to
+validate a design method. The long-term effectiveness of a method can be
+established when the method is used within the development of a deployed
+visualization tool: one that is evaluated with, and given to, real end users.
+Thus, visualization designers can determine if a design method was effective
+within their visualization project by reflecting on these two questions:
 
 1. Did you achieve your desired visualization artifacts?
 1. Did you successfully deploy a visualization tool to users as a result of this method?
@@ -586,7 +585,7 @@ questions:
   evaluative (\textbf{\emph{e}}), or both. Lastly, we categorized the methods we
   have seen commonly reported within the visualization community
   (\textbf{\emph{v}}) and also present succinct definitions for each method to
-  assist novices in trying each method out.
+  assist designers in trying each method out.
 }\tabularnewline
 \includegraphics[width=1.00000\textwidth]{figures/daf/table.pdf}
 \end{longtable}
@@ -600,7 +599,7 @@ questions:
   whether each method was largely generative (**_g_**) or evaluative (**_e_**),
   or both. Lastly, we categorized the methods we have seen commonly reported
   within the visualization community (**_v_**) and also present succinct
-  definitions for each method to assist novices in trying each method out.
+  definitions for each method to assist designers in trying each method out.
 ](figures/daf/table.pdf){width="100%"}
 -->
 
