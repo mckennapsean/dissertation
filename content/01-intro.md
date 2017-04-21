@@ -1,5 +1,103 @@
 # Introduction {#sec:intro}
 
+This dissertation introduces the design activity framework for capturing and
+describing the interplay between the human-centered visualization design process
+and design decisions. Whereas design can mean many things to different people,
+the **data visualization design process** is about the planning, creation, and
+evaluation of a single data visualization or a multiview, robust visualization
+system. The _data visualization design process_ takes place in a series of
+**activities** that produce visualization **artifacts**, such as a new
+visualization encoding. These artifacts are produced as a result of
+**decisions** that are made by a visualization designer, such as guidelines that
+are established through evaluating a system. No previous work exists that
+connects all three of these aspects and describes the interplay among them for
+visualization design. Moreover, existing visualization design models have not
+explored pedagogical approaches for teaching the process and these three aspects
+to visualization design novices.
+
+
+Many visualization designers propose models to capture the steps of the design
+process for creating and building novel and useful visualizations
+[@Sedlmair2012b; @Lloyd2011; @Wassink2009; @Chee2011], but the novelty of the
+design activity framework is how it describes these steps as overlapping,
+iterative, and even nested _design activities_. Many different design process
+models have been developed, some by the design or human-computer interaction
+(HCI) communities, and several within the visualization community as well, and
+the design activity framework pulls in useful aspects from these models. In the
+field of visualization, problem-driven research often involves design studies,
+in which visualization experts create visualization systems to support solving a
+real-world problem [@Sedlmair2012b]. It can be helpful to provide guidance to
+both novice and even expert visualization designers on how to achieve success in
+their visualization design projects and avoid common pitfalls [@Sedlmair2012b]
+that can lead to wasted time, less effective solutions, or even failure.
+Additionally, the design activity framework contains worksheets with such
+guidance in the form of actionable steps for visualization designers to follow
+within a given design activity.
+
+
+Visualization practitioners constantly make _design decisions_ throughout the
+process in order to refine their work. These design decisions play a crucial
+role in justifying, validating, and challenging the use of visualization
+artifacts that get generated within a design activity. Researchers have used the
+term guidelines to describe this same result of the decision-making process for
+visualization design [@Meyer]. Decisions and guidelines are related through
+evaluation, via which visualization artifacts can be compared and tested against
+each other. It is quite common to perform an evaluation of a system, from
+informal to formal or qualitative to quantitative, in order to justify the use
+or explore the effectiveness of a specific encoding or interaction technique
+[@Brehmer2014; @McCurdy2015; @Kerzner2015; @Quinan2015]. Other common design
+decisions stem from preexisting guidelines in the visualization community, such
+as using position along a common scale to encode the most important data
+visually, over less perceptually effective channels such as angle, area, and
+saturation of color [@Cleveland1984]. Currently, design decisions in the
+visualization community are commonly described with respect to the nested model
+for visualization design [@Munzner2009; @Meyer], but no visualization design
+process models bridge their concepts to the levels of the nested model. The
+design activity framework fills this gap by connecting design activities to the
+levels of the nested model and through recognizing the relationship between
+design methods and visualization artifacts.
+
+
+Visualization _design artifacts_ are often crucial to the success of a project,
+especially for the final desired visualization system, which should be usable,
+useful, and effective. Commonly, visualization artifacts are tangible software
+tools, but the visualization design process can involve other kinds of
+artifacts, such as documents of user needs, a list of software requirements, or
+sketches. Existing process models fail to rigorously capture some of these
+design artifacts, largely due to how existing models consider evaluation as a
+separate step of the design process [@Lloyd2011; @Wassink2009; @Chee2011] rather
+than a part of every activity. Artifacts for visualization design can serve many
+purposes, from measuring success to being reused in future projects; thus, it is
+often both beneficial and time-saving to capture and report on a variety of
+design artifacts and link them back to the design decisions or guidelines that
+motivated their selection. The design activity framework can support
+visualization designers in identifying new kinds of visualization design
+artifacts and, by capturing this design knowledge, encourages the reuse of these
+design artifacts across the visualization community.
+
+
+<!-- back to the solution -->
+
+The activities of a visualization design process, with each of its artifacts and
+associated design decisions, can all be connected through a new type of
+visualization design framework. Without this connection, it is much harder for a
+novice visualization designer to answer both the _how_ and _why_ questions of
+design using existing visualization models. Even expert visualization designers
+can struggle with these models due to a lack of step-by-step descriptions or
+focusing only on design decisions rather than the steps. If such a framework
+could describe these steps of the visualization design process as series of
+overlapping activities, then perhaps the iterative nature of a design process
+would be immediately clear for novice designers. By prescribing each activity
+with simple, encompassing definitions, novices could easily determine which
+activity they are currently in, what visualization design artifacts they should
+produce, and how to evaluate them. By providing novice designers with specific
+steps to perform, they can learn to design a visualization and perhaps advance
+to using new design methods over time. The goal of such a framework would be to
+empower novice visualization designers with the knowledge, tools, and techniques
+available for them to effectively design a usable and useful visualization
+system.
+
+
 <!-- problem: teaching design -->
 
 The process of designing a visualization is known to be iterative, complex, and
@@ -26,109 +124,6 @@ the theoretical knowledge but also the practical skills for building better
 visualization systems and tools. Furthermore, with such a framework, the
 visualization community could concretely report on their own design processes
 for building visualization tools in a richer and more descriptive way.
-
-
-<!-- overview of framework -->
-
-This dissertation focuses on a new framework for teaching the visualization
-design process to novice users. Whereas design can mean many things to different
-people, the **data visualization design process** is about the planning,
-creation, and evaluation of a single data visualization or a multiview, robust
-visualization system. The _data visualization design process_ takes place in a
-series of overlapping **activities** that produce **artifacts**, such as a new
-visualization encoding. These artifacts are produced as a result of
-**decisions** that are made by a visualization designer, such as guidelines that
-are established through evaluating a system. No previous work exists that
-connects all three of these aspects and describes the interplay among them for
-visualization design. By simplifying terminology and laying out example steps,
-a new visualization process framework could help novices learn about the process
-and conduct it more effectively.
-
-
-<!-- design activities -->
-
-Many visualization designers reflect on the role of _design activities_ as steps
-of the design process for creating and building novel and useful visualizations
-[@Sedlmair2012b; @Lloyd2011; @Wassink2009; @Chee2011]. In the field of
-visualization, problem-driven research often involves design studies, in which
-visualization experts create visualization systems to support solving a
-real-world problem. It is helpful to provide guidance to both novice and even
-expert visualization designers on how to achieve success in their visualization
-design projects and avoid common pitfalls [@Sedlmair2012b] that can lead to
-wasted time, less effective solutions, or even failure. Many different design
-process models have been developed, some by the design or human-computer
-interaction (HCI) communities, and several within the visualization community as
-well. The variety and broad range of design steps showcased within these models
-make it challenging for novice visualization designers to learn how to design
-visualization systems on their own.
-
-
-<!-- design decisions -->
-
-Visualization practitioners constantly make _design decisions_ throughout the
-process in order to refine their work. These design decisions play a crucial
-role in justifying, validating, and challenging the use of artifacts that get
-generated within a design activity. Researchers have used the term guidelines to
-describe this same result of the decision-making process for visualization
-design [@Meyer]. Decisions and guidelines are related through evaluation, via
-which artifacts can be compared and tested against each other. It is quite
-common to perform an evaluation of a system, from informal to formal or
-qualitative to quantitative, in order to justify the use or explore the
-effectiveness of a specific encoding or interaction technique [@Brehmer2014;
-@McCurdy2015; @Kerzner2015; @Quinan2015]. Other common design decisions stem
-from preexisting guidelines in the visualization community, such as using
-position along a common scale to encode the most important data visually, over
-less perceptually effective channels such as angle, area, and saturation of
-color [@Cleveland1984]. Currently, design decisions in the visualization
-community are commonly described with respect to the nested model for
-visualization design [@Munzner2009; @Meyer], but no visualization design process
-models bridge their concepts to the levels of the nested model. If such a model
-existed, it could help visualization novices make and track their design
-decisions based on which guidelines or evaluation results they utilize as
-justification.
-
-
-<!-- design artifacts -->
-
-Visualization _design artifacts_ are often crucial to the success of a project,
-especially for the final desired visualization system, which should be usable,
-useful, and effective. Commonly, artifacts are tangible software tools, but the
-design process can involve other kinds of artifacts, such as sketches, ideas,
-documents of user needs, or a list of software requirements. Existing process
-models fail to rigorously capture some of these design artifacts,
-largely due to how existing models consider evaluation as a separate step of the
-design process rather than a part of every activity. Artifacts for visualization
-design can serve many purposes, from measuring success to being reused in future
-projects; thus, it is often both beneficial and time-saving to capture and
-report on a variety of design artifacts and link them back to the design
-decisions or guidelines that motivated their selection. By identifying and
-recognizing more kinds of design artifacts, novice visualization designers could
-learn how to reuse not only what they know but what others know, and a more
-descriptive approach for discussing design artifacts and associated decisions in
-the visualization community could further aid contributions to this design
-knowledge as well.
-
-
-<!-- back to the solution -->
-
-The activities of a visualization design process, with each of its artifacts and
-associated design decisions, can all be connected through a new type of
-visualization design framework. Without this connection, it is much harder for a
-novice visualization designer to answer both the _how_ and _why_ questions of
-design using existing visualization models. Even expert visualization designers
-can struggle with these models due to a lack of step-by-step descriptions or
-focusing only on design decisions rather than the steps. If such a framework
-could describe these steps of the visualization design process as series of
-overlapping activities, then perhaps the iterative nature of a design process
-would be immediately clear for novice designers. By prescribing each activity
-with simple, encompassing definitions, novices could easily determine which
-activity they are currently in, what visualization design artifacts they should
-produce, and how to evaluate them. By providing novice designers with specific
-steps to perform, they can learn to design a visualization and perhaps advance
-to using new design methods over time. The goal of such a framework would be to
-empower novice visualization designers with the knowledge, tools, and techniques
-available for them to effectively design a usable and useful visualization
-system.
 
 
 
