@@ -6,14 +6,14 @@ and design decisions. Whereas design can mean many things to different people,
 the **data visualization design process** is about the planning, creation, and
 evaluation of a single data visualization or a multiview, robust visualization
 system. The _data visualization design process_ takes place in a series of
-**activities** that produce visualization **artifacts**, such as a new
-visualization encoding. These artifacts are produced as a result of
-**decisions** that are made by a visualization designer, such as guidelines that
-are established through evaluating a system. No previous work exists that
-connects all three of these aspects and describes the interplay among them for
-visualization design. Moreover, existing visualization design models have not
-explored pedagogical approaches for teaching the process and these three aspects
-to visualization design novices.
+**activities** that produce visualization **artifacts**, such as a new encoding
+or interaction. These artifacts are produced as a result of **decisions** that
+are made by a visualization designer, such as guidelines that are established
+through evaluating a system. No previous work exists that connects all three of
+these aspects and describes the interplay among them for visualization design.
+Moreover, existing visualization design models have not explored pedagogical
+approaches for teaching the process and these three aspects to visualization
+design novices.
 
 
 Many visualization designers propose models to capture the steps of the design
