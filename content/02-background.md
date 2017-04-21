@@ -67,9 +67,9 @@ Visualization research often involves the creation of new visual encodings,
 interaction techniques, and systems. This process of making something new is why
 design plays an integral role in research [@Fallman2003a]. As such, there exist
 a variety of theoretical models for visualization design and even more that have
-been adapted, used, and taught by visualization designers to novices. In this
-work, we focus on two kinds of models for visualization design: decision models
-and process models [@Meyer]. **Decision models** capture the _what_ and _why_ of
+been adapted, used, and taught by visualization designers. In this work, we
+focus on two kinds of models for visualization design: decision models and
+process models [@Meyer]. **Decision models** capture the _what_ and _why_ of
 design by characterizing the rationale behind the decisions that a designer
 makes. **Process models**, on the other hand, capture the _how_ of design,
 characterizing the actions that a designer takes as a series of steps. Linking a
@@ -125,26 +125,26 @@ rationale (_why_) that a visualization designer needs to make along the way
 ### Design Process Models
 
 Unlike a decision model, a design process model focuses on describing the
-specific steps a novice designer takes over the course of designing a
-visualization. In this regard, we consider design as a challenge that combines
-and mixes both engineering and creative design processes [@Lowgren1995;
-@Howard2008; @Wolf2006; @Moere2011], and this balanced mixture is what we sought
-in the synthesis of the design activity framework. An **engineering design
-process** begins with a problem definition, where the overall process is largely
-sequential and convergent towards a single solution [@Lowgren1995]. On the other
-hand, a **creative design process** begins with more gradual problem scoping,
-and the process has many overlapping activities where many different
-possibilities are explored before choosing a single solution [@Lowgren1995]. An
-example of a creative model is Pugh's process, a design funnel [@pugh1991total]
-that begins with concept generation and controlled convergence iterating over
-time until a final concept is reached [@buxton2010sketching]. Additionally,
-sketching is a crucial aspect for creative design processes, as sketching is not
-about the drawing but as an activity involving generation, brainstorming,
-learning, reasoning, and design thinking [@buxton2010sketching]. As recognized
-by researchers in the design [@Howard2008], HCI [@Wolf2006; @Lowgren1995], and
+specific steps a designer takes over the course of designing a visualization. In
+this regard, we consider design as a challenge that combines and mixes both
+engineering and creative design processes [@Lowgren1995; @Howard2008; @Wolf2006;
+@Moere2011], and this balanced mixture is what we sought in the synthesis of the
+design activity framework. An **engineering design process** begins with a
+problem definition, where the overall process is largely sequential and
+convergent towards a single solution [@Lowgren1995]. On the other hand, a
+**creative design process** begins with more gradual problem scoping, and the
+process has many overlapping activities where many different possibilities are
+explored before choosing a single solution [@Lowgren1995]. An example of a
+creative model is Pugh's process, a design funnel [@pugh1991total] that begins
+with concept generation and controlled convergence iterating over time until a
+final concept is reached [@buxton2010sketching]. Additionally, sketching is a
+crucial aspect for creative design processes, as sketching is not about the
+drawing but as an activity involving generation, brainstorming, learning,
+reasoning, and design thinking [@buxton2010sketching]. As recognized by
+researchers in the design [@Howard2008], HCI [@Wolf2006; @Lowgren1995], and
 visualization [@Moere2011] communities, the combination and balanced mixture of
 these two types of process models is useful for characterizing the design
-process for a novice visualization designer.
+process for visualization designers.
 
 <!-- TODO I like the new design funnel connection, probably link in DAF chapter? -->
 
@@ -192,15 +192,15 @@ overlapping and iterative nature of visualization design, as well as the role of
 evaluation throughout which McCurdy et al. argue is crucial and should occur
 concurrently with building [@McCurdy2016]. As such, we consider the design
 activity framework as an extension of the four core design stages in Sedlmair's
-model for design studies, focused on helping novices perform general
-visualization design projects. The nine-stage framework, although the first
-model of its kind to provide guidance for conducting design studies, provides
-less actionable advice for novices, such as knowing what design stage a novice
-is in, what kinds of methods to employ, or the specific artifacts and decisions
-a novice designer should make. The design activity framework is largely inspired
-by the nine-stage framework but with a focus on providing more actionable
-guidance for novice visualization designers that is not currently available
-within the nine-stage framework.
+model for design studies, focused on helping conduct general visualization
+design projects. The nine-stage framework, although the first model of its kind
+to provide guidance for conducting design studies, provides less actionable
+advice for visualization designers, such as knowing what design stage they are
+in, what kinds of methods to employ, or the specific artifacts and decisions
+they should make. The design activity framework is largely inspired by the
+nine-stage framework but with a focus on providing more actionable guidance for
+visualization designers that is not currently available within the nine-stage
+framework.
 
 
 
