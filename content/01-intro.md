@@ -65,13 +65,13 @@ tools, but the visualization design process can involve other kinds of
 artifacts, such as documents of user needs, a list of software requirements, or
 sketches. Existing process models fail to rigorously capture some of these
 design artifacts, largely due to how existing models consider evaluation as a
-separate step of the design process [@Lloyd2011; @Wassink2009; @Chee2011] rather
-than a part of every activity. Artifacts for visualization design can serve many
-purposes, from measuring success to being reused in future projects; thus, it is
-often both beneficial and time-saving to capture and report on a variety of
-design artifacts and link them back to the design decisions or guidelines that
-motivated their selection. The design activity framework can support
-visualization designers in identifying new kinds of visualization design
+separate stage of the design process [@Lloyd2011; @Wassink2009; @Chee2011]
+rather than a part of every activity. Artifacts for visualization design can
+serve many purposes, from measuring success to being reused in future projects;
+thus, it is often both beneficial and time-saving to capture and report on a
+variety of design artifacts and link them back to the design decisions or
+guidelines that motivated their selection. The design activity framework can
+support visualization designers in identifying new kinds of visualization design
 artifacts and, by capturing this design knowledge, encourages the reuse of these
 design artifacts across the visualization community.
 
