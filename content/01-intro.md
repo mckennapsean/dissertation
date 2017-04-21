@@ -108,31 +108,31 @@ framework**: a structure for how to perform a human-centered, data visualization
 design process while tracking design methods, visualization artifacts, and
 design decisions for each design activity. We introduce this framework as a
 methodology for visualization designers pursuing problem-driven work, such as
-design studies, but we also recognize its potential usefulness for general visualization design, teaching novice
-visualization designers, and visualization design pedagogy. The key novelty to this
-framework is its specificity for visualization design by connecting steps of the
-design process to the design decisions made and visualization-specific artifacts
-obtained. Other novel aspects of this framework include its flexibility for
-iteration, actionability to guide novice visualization designers, and
-connections to existing visualization models. To strengthen the contribution of
-this framework, we have evaluated its use and application across several
-different visualization design projects. Specifically, we have utilized this
-framework to formulate, guide, and reflect on the design process of design
-studies and research in the fields of biology [@mckenna2015s], cyber security
-[@McKenna2014; @Staheli2014; @McKenna2015; @mckenna2016], and data visualization
-storytelling [@mckenna2017]. For each of these projects, we have employed a
-variety of qualitative and quantitative design methods in order to validate the
-utility of this framework in real-world projects and reflect on their use in
-future visualization design projects. We describe two case studies for
-visualization of cyber security datasets that illustrate examples of how to use
-this framework and provide rich descriptions behind a variety of different
-visualization design artifacts. To explore teaching and validating this
-framework in the classroom, we created concrete, step-by-step worksheets for
-each activity that we evaluated through a series of qualitative surveys and
-interviews with novice visualization designers. As a result of this evaluation,
-we discovered that novices effectively learned how to design and develop a
-visualization system while justifying their decisions using the design activity
-worksheets.
+design studies, but we also recognize its potential usefulness for general
+visualization design, teaching novice visualization designers, and data
+visualization pedagogy. The key novelty to this framework is its specificity for
+visualization design by connecting steps of the design process to the design
+decisions made and visualization-specific artifacts obtained. Other novel
+aspects of this framework include its flexibility for iteration, actionability
+to guide novice visualization designers, and connections to existing
+visualization models. To strengthen the contribution of this framework, we have
+evaluated its use and application across several different visualization design
+projects. Specifically, we have utilized this framework to formulate, guide, and
+reflect on the design process of design studies and research in the fields of
+biology [@mckenna2015s], cyber security [@McKenna2014; @Staheli2014;
+@McKenna2015; @mckenna2016], and data visualization storytelling [@mckenna2017].
+For each of these projects, we have employed a variety of qualitative and
+quantitative design methods in order to validate the utility of this framework
+in real-world projects and reflect on their use in future visualization design
+projects. We describe two case studies for visualization of cyber security
+datasets that illustrate examples of how to use this framework and provide rich
+descriptions behind a variety of different visualization design artifacts. To
+explore teaching and validating this framework in the classroom, we created
+concrete, step-by-step worksheets for each activity that we evaluated through a
+series of qualitative surveys and interviews with novice visualization
+designers. As a result of this evaluation, we discovered that novices
+effectively learned how to design and develop a visualization system while
+justifying their decisions using the design activity worksheets.
 
 
 
@@ -140,30 +140,18 @@ worksheets.
 
 ## Overview
 
-<!-- \sm{should I highlight which papers go where?} -->
-
-[@sec:background] presents the necessary background for this dissertation.
-We begin by highlighting the various approaches used for design pedagogy in both
-the visualization and human-computer interaction communities. The chapter
-includes a discussion of different types of theoretical design models across
-communities, including models for visualization that focus separately on either
-the design process or decisions. Then we explore the relation of design to
-development in a discussion on agile software engineering approaches.
-
-<!-- more related work & motivation really...
-The process of designing a visualization is known to be iterative, complex, and
-occasionally messy [@Sedlmair2012b; @DIS2010; @Tory2004; @Wassink2009;
-@Chee2011; @Moere2011]. Furthermore, pedagogical approaches for teaching the
-visualization design process [@cairo2012; @Munzner2014; @Shneiderman2004;
-@Ware2010; @Sedlmair2012b; @Munzner2009] can be either less concrete or too
-theoretical in nature so that these approaches may fail to effectively guide
-novices toward building a visualization system. As the field of visualization
-matures, theories and models for visualization design have become more
-prevalent, from evaluation strategies [@Plaisant2004; @Lam2011a;
-@Carpendale2008a; @Isenberg2013a; @Shneiderman2006] to the design process itself
-[@Tory2004; @Sedlmair2012b; @Lloyd2011; @Shneiderman2006; @Wassink2009;
-@Chee2011].
--->
+[@sec:background] presents the necessary background for this dissertation. As
+the field of visualization matures, theories and models for visualization design
+have become more prevalent, from evaluation strategies [@Plaisant2004;
+@Lam2011a; @Carpendale2008a; @Isenberg2013a; @Shneiderman2006] to the design
+process itself [@Tory2004; @Sedlmair2012b; @Lloyd2011; @Shneiderman2006;
+@Wassink2009; @Chee2011]. We discuss these different theoretical design models
+across communities, including models for visualization that focus separately on
+either the design process or decisions. Next, we investigate various pedagogical
+approaches for teaching the visualization design process [@cairo2012;
+@Munzner2014; @Shneiderman2004; @Ware2010; @Sedlmair2012b; @Munzner2009].
+Lastly, we explore the connection between visualization design and development
+through an exploration on agile software engineering approaches.
 
 
 A core contribution of this dissertation is the design activity framework; we
@@ -194,12 +182,12 @@ visualization artifacts, and a design timeline.
 
 To tailor the design activity framework to visualization novices, we created
 concise design worksheets for the framework, in [@sec:worksheets]. By reflecting
-on our own experience using a variety of design methods, we identified simple
-but descriptive steps for each design activity of visualization design. These
-steps served as a checklist that we taught and utilized in a visualization
-course with real novices. We performed a qualitative evaluation of the use of
-these visualization design worksheets in a cumulative project for which students
-had to design and develop their own web-based visualization system from scratch.
+on our own experience using a variety of design methods, we identified
+descriptive steps for each design activity of visualization design. These steps
+served as a checklist that we taught and utilized in a visualization course with
+students. We performed a qualitative evaluation of the use of these
+visualization design worksheets in a cumulative project for which students had
+to design and develop their own web-based visualization system from scratch.
 This qualitative evaluation included survey feedback from 32 students and 11
 in-depth, semistructured interviews.
 
