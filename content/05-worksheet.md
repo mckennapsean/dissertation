@@ -5,17 +5,17 @@ design. This includes showing students how to make and also characterize the
 decisions that they make when designing and evaluating a visualization encoding,
 user interaction, or data visualization system. While our introduction of a new
 framework for visualization design in [@sec:framework] codifies some of the
-high-level steps of the process for novice visualization designers, the four
-activities lack a breakdown or example of concrete steps to facilitate a novice
-utilizing this framework to walkthrough their own, real-world design process. To
-provide such a framing, we created new teaching materials for the design
-activity framework, such as visualization design worksheet for each design
-activity, a lecture on the design process showcased within a real-world project,
-and resources for learning how to design and sketch visualizations.
+high-level steps of the process for visualization designers, the four activities
+lack a breakdown or example of concrete steps to facilitate a novice utilizing
+this framework to walkthrough their own, real-world design process. To provide
+such a framing, we created new teaching materials for the design activity
+framework, such as visualization design worksheet for each design activity, a
+lecture on the design process showcased within a real-world project, and
+resources for learning how to design and sketch visualizations.
 
 
 These design activity worksheets for visualization novices present a high-level
-summary of each activity with more actionable, guided steps for novices to walk
+summary of each activity with more actionable, guided steps for students to walk
 through the process of designing their own visualization system. Furthermore, we
 validated the effectiveness and use of these worksheets and the overall
 framework in the context of a graduate-level visualization course taught at our
@@ -61,10 +61,10 @@ described in such a way to make the process model more actionable. We found,
 however, that the theoretical framing of the model restricted and limited its
 use and actionability in the classroom or class project settings. To address
 these limitations we crafted a design worksheet for each design activity with
-steps to assist a novice through the visualization design process. Furthermore,
-we sought to validate the use of these worksheets in a graduate-level
-visualization course with students working on their cumulative projects for the
-course.
+steps to assist students walking through the visualization design process for
+the first time. Furthermore, we sought to validate the use of these worksheets
+in a graduate-level visualization course with students working on their
+cumulative projects for the course.
 
 
 
@@ -298,20 +298,19 @@ worksheets, we received a total of 7 responses. Overall, the _ideate_ (6
 students) and _understand_ (4 students) worksheets were selected as the most
 helpful design activity worksheets for their projects. Students stated that the
 _ideate_ worksheet helped them critique their own designs, while _understand_
-helped jumpstart a visualization project. As stated by visualization novices:
-"_ideate_: critique of ones own design was most helpful" and "_Ideate_ is the
-most clear worksheet" and that both _understand_ and _ideate_ worksheets "helped
-to get the project off the ground." On the flip side, the _deploy_ (4 students)
-worksheet was selected as the least helpful because students often did not have
-sufficient time to focus on this activity, as students stated: "we were out of
-time" and "once the projects were off the ground, [_deploy_] didn't seem too
-important." Student feedback highlighted a benefit for the specific steps in an
-activity to organize and record their design process, explaining that for the
-worksheets: "It seemed that the amount of text, guidance, and time taken
-achieved a proper balance." Additional feedback highlighted some drawbacks to
-the worksheets, such as vague terminology or phrasing, creative limitations, and
-not enough structure. To uncover more information, we conducted interviews as a
-follow-up.
+helped jumpstart a visualization project. As stated by students: "_ideate_:
+critique of ones own design was most helpful" and "_Ideate_ is the most clear
+worksheet" and that both _understand_ and _ideate_ worksheets "helped to get the
+project off the ground." On the flip side, the _deploy_ (4 students) worksheet
+was selected as the least helpful because students often did not have sufficient
+time to focus on this activity, as students stated: "we were out of time" and
+"once the projects were off the ground, [_deploy_] didn't seem too important."
+Student feedback highlighted a benefit for the specific steps in an activity to
+organize and record their design process, explaining that for the worksheets:
+"It seemed that the amount of text, guidance, and time taken achieved a proper
+balance." Additional feedback highlighted some drawbacks to the worksheets, such
+as vague terminology or phrasing, creative limitations, and not enough
+structure. To uncover more information, we conducted interviews as a follow-up.
 
 <!--
 \mm{no participant numbers for these quotes? i'd say either use all the time, or not at all.}
@@ -430,7 +429,7 @@ suggested fleshing out that text into more of a template but then providing
 blank boxes on separate design worksheets for each activity to be filled out
 with less clutter overall. Several students noted that having another example
 visualization project using the worksheets, such as a good student project,
-would help steer novices towards knowing what to put onto the design worksheets
+would help steer students towards knowing what to put onto the design worksheets
 and define more clear expectations. We also received recommendations to use a
 date-field rather than a blank number-field to encourage students to simply
 organize their group worksheets over time as the numbers were not often used and
