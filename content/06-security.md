@@ -379,7 +379,7 @@ tool for deployment into an operational environment. These aspects of evaluation
 and deployment will be discussed further.
 
 
-As part of teaching the design activity framework to visualization novices, we
+As part of teaching the design activity framework to visualization students, we
 mocked up our design process using the design worksheets presented previously.
 These design worksheets, shown in [@fig:worksheet-example] served as an example
 which we taught to students in a visualization design lecture. By illustrating
