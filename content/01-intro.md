@@ -104,12 +104,14 @@ visualization systems and tools.
 ## Contributions
 
 The primary contribution of this dissertation is the **design activity
-framework**: a structure for how to teach novices to perform a human-centered
-visualization design process while tracking their design decisions. We introduce
-this framework as a methodology for visualization designers pursuing
-problem-driven work, such as design studies. The key novelty to this framework
-is its specificity for visualization design by connecting steps of the design
-process to the design decisions made and visualization-specific artifacts
+framework**: a structure for how to perform a human-centered, data visualization
+design process while tracking design methods, visualization artifacts, and
+design decisions for each design activity. We introduce this framework as a
+methodology for visualization designers pursuing problem-driven work, such as
+design studies, but we also recognize its potential usefulness for general visualization design, teaching novice
+visualization designers, and visualization design pedagogy. The key novelty to this
+framework is its specificity for visualization design by connecting steps of the
+design process to the design decisions made and visualization-specific artifacts
 obtained. Other novel aspects of this framework include its flexibility for
 iteration, actionability to guide novice visualization designers, and
 connections to existing visualization models. To strengthen the contribution of
@@ -121,18 +123,16 @@ studies and research in the fields of biology [@mckenna2015s], cyber security
 storytelling [@mckenna2017]. For each of these projects, we have employed a
 variety of qualitative and quantitative design methods in order to validate the
 utility of this framework in real-world projects and reflect on their use in
-future visualization design projects. We also include two case studies in
-visualization cyber security datasets that provide examples of how to use this
-framework and showcase rich descriptions behind a variety of different
-visualization design artifacts. To further simplify and validate this
-framework, we created concrete, step-by-step worksheets for each activity that
-we evaluated through a series of qualitative surveys and interviews with novice
-visualization designers. As a result of this evaluation, we discovered that
-novices effectively learned how to design and develop a visualization system
-while justifying their decisions using the design activity worksheets.
-
-<!--\sm{thoughts on we vs i here?}-->
-<!--\sm{miriah suggested we over i, and formal over that if possible. stylistic decision}-->
+future visualization design projects. We describe two case studies for
+visualization of cyber security datasets that illustrate examples of how to use
+this framework and provide rich descriptions behind a variety of different
+visualization design artifacts. To explore teaching and validating this
+framework in the classroom, we created concrete, step-by-step worksheets for
+each activity that we evaluated through a series of qualitative surveys and
+interviews with novice visualization designers. As a result of this evaluation,
+we discovered that novices effectively learned how to design and develop a
+visualization system while justifying their decisions using the design activity
+worksheets.
 
 
 
