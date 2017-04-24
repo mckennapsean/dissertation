@@ -20,6 +20,7 @@ For technique-driven research, we worked with a statistician to develop a new me
 We reflect on this technique with regard to the design activities that lead to the creation of the technique, motivated by an application-driven design study which was not as successful due to the focus on the technique and system development.
 For model and evaluation driven research, we conducted an exploration and categorization of a design space for visual narrative story flow, coupled with some initial studies into a few types of flow like steppers and scrollers [].
 In this work, the design activity framework can be used to frame the contributions of this work, largely in the understand activity with a more formal evaluation than seen in most design studies, along with several ideas and a prototype built to test one such idea for tying transitions to animation via reader input.
+Framed with respect to previous design models, we explore how the 9-stage framework, nested model, and design activity framework fit into these different types of research contributions.
 
 <!--At first, we pursued a design study in the field of biology, working with a research lab studying mouse genetics through correlation. With a statistics researcher, we created a new technique, the s-CorrPlot, to encode correlation of large datasets in a scatterplot [@mckenna2015s]. However, this project did not yield a successful design study, since our collaborators could not go beyond exploration or basic hypothesis generation with the tool. Upon reflection, we realized that we were driven to build this tool for a novel technique, not to support the needs of the researchers.-->
 
@@ -28,6 +29,16 @@ In this work, the design activity framework can be used to frame the contributio
 
 
 ## Designing for a Novel Technique
+
+Overview of technique, some math and figures and related work, all high-level.
+Application of the technique (case study in biology).
+Reflections on designing for a novel technique:
+- 9-stage framework: did not have a complete design study, initial analysis was with this tool but next steps and more details were needed, not solving the full problem but only part of it.
+- Nested model: encoding & algorithm contributions were strongest.
+- DAF: We were building a tool using this new idea, new technique. Saw a potential application area, deployed in lab, feedback, multiple iterations. Still achieved a visualization tool, even if the design study was not complete or finished. Some successes. DAF supports such a process, to build a new technique, and combine multiple ideas into the vis tool. Artifacts such as the tool and algorithm for the encoding were publishable, not about the guidelines or reflection for the project [DSM]. bit of a focus on PF-17 (and possibly PF-15 too, missing successful parts, plus PF-18, less focus on domain), but ultimately didn't think broadly enough about the problem, new type of pitfall? research can be about more than that but application-driven work might need more framing of the problem, DAF focuses heavily on iterating on the understanding and problem. Came to the project mid-way through, missed some of Discover/Understand, no good way to frame the problems and lead to a less successful design study. Many more methods for discover/understand, and pitfalls associated with them. What and how do you define this real-world problem? The framing can be too general and less design study-y.
+
+<!-- outline -->
+
 
 In collaboration with a statistician and biology researcher, we created a new
 scatterplot for encoding correlation, the s-CorrPlot [@mckenna2015s]. As shown
@@ -107,6 +118,10 @@ with another researcher led to different contributions and a less useful tool
 for our collaborators.
 
 ## Case Study: Data Storytelling Authoring Tool {#sec:story}
+
+
+
+<!-- outline -->
 
 For this investigation, we have begun to analyze various techniques used by
 authors on the web to convey data in a storytelling fashion using visualization.
