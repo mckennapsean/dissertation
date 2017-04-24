@@ -105,6 +105,8 @@ strategies for design, but they do not capture the specific decisions that
 visualization designers face when representing and encoding data in an
 interactive visualization system.
 
+<!-- TODO dig into decision models definition from NM2 reference -->
+
 
 Within the visualization community, the well-cited nested model [@Munzner2009]
 is the de facto design decision model. This model characterizes visualization
