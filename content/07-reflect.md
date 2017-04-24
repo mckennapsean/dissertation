@@ -33,8 +33,8 @@ Framed with respect to previous design models, we explore how the 9-stage framew
 Overview of technique, some math and figures and related work, all high-level.
 Application of the technique (case study in biology).
 Reflections on designing for a novel technique:
-- 9-stage framework: did not have a complete design study, initial analysis was with this tool but next steps and more details were needed, not solving the full problem but only part of it.
-- Nested model: encoding & algorithm contributions were strongest.
+- 9-stage framework: did not have a complete design study, initial analysis was with this tool but next steps and more details were needed, not solving the full problem but only part of it. Walked line of application and technique driven work.
+- Nested model: encoding & algorithm contributions were strongest. wrong problem, not exactly, but close.
 - DAF: We were building a tool using this new idea, new technique. Saw a potential application area, deployed in lab, feedback, multiple iterations. Still achieved a visualization tool, even if the design study was not complete or finished. Some successes. DAF supports such a process, to build a new technique, and combine multiple ideas into the vis tool. Artifacts such as the tool and algorithm for the encoding were publishable, not about the guidelines or reflection for the project [DSM]. bit of a focus on PF-17 (and possibly PF-15 too, missing successful parts, plus PF-18, less focus on domain), but ultimately didn't think broadly enough about the problem, new type of pitfall? research can be about more than that but application-driven work might need more framing of the problem, DAF focuses heavily on iterating on the understanding and problem. Came to the project mid-way through, missed some of Discover/Understand, no good way to frame the problems and lead to a less successful design study. Many more methods for discover/understand, and pitfalls associated with them. What and how do you define this real-world problem? The framing can be too general and less design study-y.
 
 <!-- outline -->
@@ -117,9 +117,18 @@ needs were being fed back into the design of this tool, and that collaboration
 with another researcher led to different contributions and a less useful tool
 for our collaborators.
 
+
+
+
+
 ## Case Study: Data Storytelling Authoring Tool {#sec:story}
 
-
+Overview of design space, terminology, and pilot work.
+Details of the full study we performed.
+Reflections on designing studies and where it fits for design:
+- 9-stage framework: this was not a design study, no clear set of domain experts, broad set of problems, so problem-driven but not about what we learned for guidelines but about evaluation/validation with user studies for these guidelines.
+- nested model: model presented abstractions and some characterizations (tying to story corpus), but the evaluation was about validating specific interaction techniques. measuring something different, human subjective quantities, to see effectiveness of various techniques to inform future design. initial pilots incorporated usability aspects to validate them. (plus use of validation over evaluation) and studies can be about guidelines for avoiding such threats, but may have limited broad applicability in this work (remember: stacks of blocks!) but they do highlight the importance of formative work.
+- daf: formative work still has a place in the design process, even designing studies. e.g. the problem was about how to test aspects of flow, creating a system and testing its usability to get a deployable version (lots of tricky aspects and SWE things). role of pilots during this as prototypes, etc. additional aspects not capture from daf include developing questionnaires, and this model isn't a 100% perfect fit but a way to capture the process. and, unlike the 9-sf, reproducibility is important here, need to allow others to take this evaluation approach and apply it in the future, to validate/broaden or refute the guidelines established here.
 
 <!-- outline -->
 
