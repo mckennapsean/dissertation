@@ -7,8 +7,19 @@
 \sm{add these details, as needed, into appendix}
 \sm{focus on why DAF won't work / why it didn't}
 \sm{how could you improve other projects with what we learned?}
-
 \sm{Need intro...}
+
+
+Role of design and research (cite some papers here), design can be conducted with research, overlapping nature (better wording).
+Research is not just about papers, but about broader activities.
+DSM, as a model for activities in a research process, and reflection and learning from ADR.
+In data and infovis research projects, a primary goal and driver is the desired outcome, a specific paper type, of which Munzner identifies five: technique, design study, systems, evaluation, and model [Process and pitfalls].
+In this dissertation, the primary type of research focused on is design study, application-driven work, designing and building tools for cyber security developers, analysts, and managers [].
+In this chapter, we focus on other types of research, specifically technique, model, and evaluation research.
+For technique-driven research, we worked with a statistician to develop a new method for encoding correlation data in a projection coupled with an interactive system to explore these correlation projections [].
+We reflect on this technique with regard to the design activities that lead to the creation of the technique, motivated by an application-driven design study which was not as successful due to the focus on the technique and system development.
+For model and evaluation driven research, we conducted an exploration and categorization of a design space for visual narrative story flow, coupled with some initial studies into a few types of flow like steppers and scrollers [].
+In this work, the design activity framework can be used to frame the contributions of this work, largely in the understand activity with a more formal evaluation than seen in most design studies, along with several ideas and a prototype built to test one such idea for tying transitions to animation via reader input.
 
 <!--At first, we pursued a design study in the field of biology, working with a research lab studying mouse genetics through correlation. With a statistics researcher, we created a new technique, the s-CorrPlot, to encode correlation of large datasets in a scatterplot [@mckenna2015s]. However, this project did not yield a successful design study, since our collaborators could not go beyond exploration or basic hypothesis generation with the tool. Upon reflection, we realized that we were driven to build this tool for a novel technique, not to support the needs of the researchers.-->
 
