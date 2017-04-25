@@ -32,41 +32,98 @@ Framed with respect to previous design models, we explore how the 9-stage framew
 
 Although the s-CorrPlot technique was created for a biology collaborator, this
 project was not a typical visualization design study. Via the definition from
-Sedlmair et al. [@Sedlmair2012b], visualization design studies focus on solving
-real-world problems that collaborators face, and the contributions that come out
-of such projects can stem from the problem characterization, abstraction,
-validated tool that solves the problem, or reflections on the design process.
+Sedlmair et al., visualization design studies focus on solving real-world
+problems that collaborators face, and the contributions that come out of such
+projects can stem from the problem characterization, abstraction, validated tool
+that solves the problem, or reflections on the design process [@Sedlmair2012b].
+However, the final design study outcome for the s-CorrPlot research project was
+a contribution solely in the validation of the tool, primarily since this was a
+novel technique with potential benefit to many other domains. Looking back on
+this project, the final, validated tool did solve a problem our collaborators
+faced, to better visualize and explore high-level features of their
+multidimensional datasets. However, as a design study, this work did not really
+solve a complete problem --- after finding interesting patterns in the tool, our
+collaborators just had more questions and needed to run further lab studies to
+find out more. As a result, while we followed a design process, joining
+mid-project with an already fleshed out prototype limited the problem-finding
+and potential solutions that were focused on.
+
+
+With regard to the nested model, the contributions of the s-CorrPlot are in the
+encoding, interaction, and algorithm levels. The nested model is useful when
+determining which forms of validation are necessary to evaluate a visualization
+system, and the types of evaluation we employed on the s-CorrPlot match these
+levels: complexity analysis, interactive framerates with large datasets,
+qualitative image analysis, and case studies with our collaborators. On the
+other hand, with respect to a design study, there was a threat we squarely fell
+upon at the problem characterization level: "wrong problem" [@Munzner2009].
+Although this threat is characterized as "target users do not in fact have these
+problems" [@Munzner2009], the real threat we faced was more that the problem on
+its own was not the complete picture. The narrow focus to visualizing only one
+type of dataset and one visualization technique did not capture the greater
+problems that our domain experts were tackling. Although the s-CorrPlot tool did
+solve one of these problems quite well, it left future questions and work for
+domain experts. By failing to identify the appropriate set of problems and
+challenges faced by domain experts, the project was less successful as a design
+study. Thus, the "incomplete problem" threat we faced was not fully captured by
+the nested model, and the design study could have been improved by fleshing out
+the situation blocks more completely [@Meyer].
+
+
+The design activity framework, as a process model, is able to capture multiple
+aspects of the s-CorrPlot project more completely. For example, one focus of
+this project was technique-driven: a new approach for visualization
+multidimensional correlation. Unlike the 9-stage framework, the design activity
+framework can apply to general visualization design, including technique-driven
+work. For example, this project focused on the problem of visualizing
+correlation in many dimensions where current techniques such as scatterplots,
+scatterplot matrices, and heatmaps do not scale beyond the size of pixels in a
+screen well and require a good clustering or order of variables. As a solution,
+the s-CorrPlot visualizes variables as points and projects them down into 2-D,
+supporting a compact representation of correlation that couples well with
+interactive techniques. This approach requires interaction and exploration, but
+it is one idea and implementation that was realized in a visualization system,
+the s-CorrPlot tool built in R and OpenGL. It was then deployed to
+collaborators, and successful case studies illustrate its utility for completely
+visualizing large datasets. From the perspective of a design activity, this
+technique and tool was built and deployed to solve this generalized problem
+faced across various large datasets with 100k variables and 100's of dimensions.
+
+
+The key research contributions of the s-CorrPlot project were the visualization
+artifacts: the algorithm, encoding, interaction, and visualization tool which
+realized these components. These stem from ideas that were built into a
+prototype and then final visualization system, and decisions were made to
+validate each over time. These concepts are all captured succinctly by the
+design activity framework, and they overlap well with concepts from the nested
+model. Lastly, this does highlight a difference with the design activity
+framework, since ideas  can also involve algorithmic level decisions
+[@Munzner2009] when performing technique-driven work.
+
+
+By turning to the design activity framework, insights are formed about the
+design process and application of the s-CorrPlot techinque to design study work.
 For the s-CorrPlot project, I joined the team after an initial prototype for an
-idea was developed, and the 9-stage framework would classify this as the
-"implement" step or the _make_ design activity. To improve the tool to meet our
-collaborators' needs, I visited their lab weekly to observe the types of
-research problems they faced, how they utilized the prototype, and better
-understand the problem domain, going back to the "discover" stage or
-_understand_ activity. However, the final outcome for the s-CorrPlot research
-project was a contribution solely in the validation of the tool, primarily since
-this was a novel technique with potential benefit to many other domains. Looking
-back on this project, the final, validated tool did solve a problem our
-collaborators faced, to better visualize and explore high-level features of
-their multidimensional datasets. However, as a design study, this work did not
-really solve a complete problem --- after finding interesting patterns in the
-tool, our collaborators just had more questions and needed to run further lab
-studies to find out more. As a result, while we followed a design process,
-joining mid-project with an already fleshed out prototype limited the
-problem-finding and potential solutions that were focused on. By following the
-9-stage framework for design studies, this project was not as successful as a
-design study, and our reflections contribute new pitfalls for design studies
-[@Sedlmair2012b] in the discover stage or _understand_ activities:
+idea was developed, and the 9-stage framework [@Sedlmair2012b] would classify
+this as the "implement" step or the _make_ design activity. To improve the tool
+to meet our collaborators' needs, I visited their lab weekly to observe the
+types of research problems they faced, better understand the problem domain, and
+see how they utilized the prototype, going back to the "discover" stage or
+_understand_ activity. When we followed the 9-stage framework for design
+studies, this project was not as successful as a design study. While this
+project hit several pitfalls in the "design" stage [@Sedlmair2012b], the design
+activities, specifically the _understand_ design worksheet, pinpoint several
+missing factors from our design process: thinking about users' large-scale
+problems or challenges, different types of datasets to solve this, and tasks to
+perform on the data. Our design process focused on talking with and observing
+users, and the prototype that we had deployed early on impacted the focus of
+these interviews greatly. Thus, our reflections on the design activity framework
+contribute new pitfalls for design studies:
 
-- PF-33. not communicating information across teammates on the problem characterization and abstraction
-- PF-34. identifying the wrong problem: solving small problems may not be useful or impactful enough for domain experts
-- PF-35. not tailoring tool for domain experts but focusing on designing novel solutions
-
-
-Reflections on designing for a novel technique:
-- Nested model: encoding & algorithm contributions were strongest. wrong problem, not exactly, but close.
-- DAF: We were building a tool using this new idea, new technique. Saw a potential application area, deployed in lab, feedback, multiple iterations. Still achieved a visualization tool, even if the design study was not complete or finished. Some successes. DAF supports such a process, to build a new technique, and combine multiple ideas into the vis tool. Artifacts such as the tool and algorithm for the encoding were publishable, not about the guidelines or reflection for the project [DSM]. bit of a focus on PF-17 (and possibly PF-15 too, missing successful parts, plus PF-18, less focus on domain), but ultimately didn't think broadly enough about the problem, new type of pitfall? research can be about more than that but application-driven work might need more framing of the problem, DAF focuses heavily on iterating on the understanding and problem. Came to the project mid-way through, missed some of Discover/Understand, no good way to frame the problems and lead to a less successful design study. Many more methods for discover/understand, and pitfalls associated with them. What and how do you define this real-world problem? The framing can be too general and less design study-y.
-
-<!-- outline -->
+- PF-33. not communicating information across teammates on the problem characterization and abstraction (discover / _understand_)
+- PF-34. failing to identify the broad problem: solving small, specific problems may not be useful or impactful enough for domain experts (discover / _understand_)
+- PF-35. not tailoring the system for domain experts but focusing on designing novel solutions (discover / _understand_)
+- PF-36. deploying a prototype too early, thus limiting the problem and design focus (_deploy_)
 
 
 <!-- previous sections... -->
