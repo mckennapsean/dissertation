@@ -215,18 +215,91 @@ for our collaborators.
 
 
 
-## Case Study: Data Storytelling Authoring Tool {#sec:story}
+## Designing for Experiments and Evaluation
 
-Overview of design space, terminology, and pilot work.
-Details of the full study we performed.
-Reflections on designing studies and where it fits for design:
-- 9-stage framework: this was not a design study, no clear set of domain experts, broad set of problems, so problem-driven but not about what we learned for guidelines but about evaluation/validation with user studies for these guidelines.
-- nested model: model presented abstractions and some characterizations (tying to story corpus), but the evaluation was about validating specific interaction techniques. measuring something different, human subjective quantities, to see effectiveness of various techniques to inform future design. initial pilots incorporated usability aspects to validate them. (plus use of validation over evaluation) and studies can be about guidelines for avoiding such threats, but may have limited broad applicability in this work (remember: stacks of blocks!) but they do highlight the importance of formative work.
-- daf: formative work still has a place in the design process, even designing studies. e.g. the problem was about how to test aspects of flow, creating a system and testing its usability to get a deployable version (lots of tricky aspects and SWE things). role of pilots during this as prototypes, etc. additional aspects not capture from daf include developing questionnaires, and this model isn't a 100% perfect fit but a way to capture the process. and, unlike the 9-sf, reproducibility is important here, need to allow others to take this evaluation approach and apply it in the future, to validate/broaden or refute the guidelines established here.
+In framing and evaluating this design space for visual narrative flow, the
+9-stage framework was not a good fit for our process because this was not a
+design study. For example, there was no specific set of domain experts who
+create these visualization stories that we worked with. While the motivation
+behind this work was to support the creation of a tool to help these authors
+write, develop, and combine visualizations and animated transitions with text,
+the primary contribution of this project was to explore and better understand
+the various possibilities and common practices in the overall design space.
+Although this work was problem-driven, the user study evaluation method
+produced guidelines, unlike the guidelines which design studies typically
+produce from inner reflection and synthesis of the research and design process
+[@Sedlmair2012b].
+
+
+With regard to the nested model, evaluation and user studies connect to the
+encoding and interaction levels, plus this model highlights one of the
+limitations of this project. For example, the crowdsourced user study described
+previously focused on establishing subjective comparisons of engagement using a
+questionnaire to produce guidelines on different visualization encoding and
+interaction techniques, coined visual narrative flows in the study. Various
+iterations of the study occurred, some which tested usability and others which
+more formally test other aspects such as reader-reported engagement. These forms
+of validation match the given level, and they also correspond to some of the
+contributions of this work, guidelines to utilize animation and visuals to
+increase engagement of visual data stories. However, the nested model extension
+[@Meyer] emphasizes that these visualization stories are built off of a series
+of stacks of blocks, and that the guidelines are established and scoped to the
+given set of blocks presented. As such, this model pinpoints a lack of
+generalizibility in the reported study, since the findings and guidelines may be
+localized to the given story.
+
+
+On the other hand, the design activity framework can be utilized to model and
+describe this experimental design process. As before, the experimental designer
+must first approach a given problem to identify potential tasks, datasets to
+utilize, what users to test, and then establish hypotheses for the research
+problem. For example, this study explored aspects of visual narrative flow for a
+single dataset and focused on reading and comprehension tasks to measure
+engagement using a questionnaire. Many of these components correlate with
+actions and visualization artifacts of the _understand_ activity. A similar
+design process can be followed to create visualization artifacts used as
+materials in a study, such as tools, techniques, systems, and instantiations of
+a given encoding or interaction. This process will involve testing for usability
+and feasibility, such as through the use of pilots, kind of like prototypes, in
+the _make_ activity. The process may not perfectly overlap, but it shows that
+the design activity framework can map to this style of formative or evaluative
+work in ways that the 9-stage framework cannot. Additionally, the lack of
+generalizability of these studies could be uncovered by reflecting on
+assumptions and artifacts generated when forming the study, such as the single
+story, one dataset, and subset of visualizations which is fixed throughout all
+of the conditions.
+
+
+Lastly, the design activity framework worksheets emphasize an importance to
+documenting and recording the design process, and this overlaps with the
+importance of reproducibility in experimental design. By recording visualization
+artifacts and design decisions, a visualization designer can justify why
+specific tasks, encodings, or interactions were selected or modified. In a
+design study, this notion of reproducibility is not the goal, and Sedlmair et
+al. promote the goal of transferability instead [@Sedlmair2012b] due to the
+subjective nature of field work and based on methodologies of ethnography and
+action research. However, in other types of design work, such as experimental
+evaluation, it is of vital importance to include materials and decisions to
+enable effective reproduction of the evaluation that is performed to validate,
+or invalidate, its results. Providing enough of the materials and procedures
+used in an experimental design allows others to build off of, refute, or refine
+the guidelines established as a result of an evaluation approach. By capturing
+more design decisions and visualization artifacts throughout the process, the
+design activity framework can assist by increasing the reproducibility of a
+project, and this can even provide benefit for application or problem-driven
+work for others with similar challenges that want to build off of the
+requirements, ideas, prototypes, and systems that been built and shared with the
+research community.
 
 <!-- TODO from Sam: sees the generalization from design to experimental design easily. metric for comparison of studies, and that this is a part of the process. could be that artifacts may be something else, like stories we had, or maybe tasks, but that they may be different for exp. design, or artifacts of that process, still a design process. and agrees that all this makes sense, including reproduc. stuff. -->
 
-<!-- outline -->
+
+<!-- previous sections... -->
+
+Overview of design space, terminology, and pilot work.
+Details of the full study we performed.
+
+<!--##Case Study: Data Storytelling Authoring Tool {#sec:story}-->
 
 For this investigation, we have begun to analyze various techniques used by
 authors on the web to convey data in a storytelling fashion using visualization.
