@@ -125,6 +125,7 @@ contribute new pitfalls for design studies:
 - PF-35. not tailoring the system for domain experts but focusing on designing novel solutions (discover / _understand_)
 - PF-36. deploying a prototype too early, thus limiting the problem and design focus (_deploy_)
 
+<!-- TODO from Sam: NM is limited by low-level tasks. posits that iteration with DAF as a process model and diff. charac. and story, but think0-through reflection, as a research process, another iterative approach, is DAF for that? I explained no and that made sense to him. and then lack of pivot to non-design study work in NM/9SF, but type of reflection and evaluation shoudl change in this style of work. and then think of his weaver paper, hit a similar snag, related to the problem formulation (too general, so solution was not right for evaluation). thinks 34/35 are tied together. 36, may fall into wicked problems space. paper on fleshed out prototype may be worth citing here as well (ninas work?) and how do you provide solutions for htese pitfalls? worth thinking about! -->
 
 <!-- previous sections... -->
 
@@ -222,6 +223,8 @@ Reflections on designing studies and where it fits for design:
 - 9-stage framework: this was not a design study, no clear set of domain experts, broad set of problems, so problem-driven but not about what we learned for guidelines but about evaluation/validation with user studies for these guidelines.
 - nested model: model presented abstractions and some characterizations (tying to story corpus), but the evaluation was about validating specific interaction techniques. measuring something different, human subjective quantities, to see effectiveness of various techniques to inform future design. initial pilots incorporated usability aspects to validate them. (plus use of validation over evaluation) and studies can be about guidelines for avoiding such threats, but may have limited broad applicability in this work (remember: stacks of blocks!) but they do highlight the importance of formative work.
 - daf: formative work still has a place in the design process, even designing studies. e.g. the problem was about how to test aspects of flow, creating a system and testing its usability to get a deployable version (lots of tricky aspects and SWE things). role of pilots during this as prototypes, etc. additional aspects not capture from daf include developing questionnaires, and this model isn't a 100% perfect fit but a way to capture the process. and, unlike the 9-sf, reproducibility is important here, need to allow others to take this evaluation approach and apply it in the future, to validate/broaden or refute the guidelines established here.
+
+<!-- TODO from Sam: sees the generalization from design to experimental design easily. metric for comparison of studies, and that this is a part of the process. could be that artifacts may be something else, like stories we had, or maybe tasks, but that they may be different for exp. design, or artifacts of that process, still a design process. and agrees that all this makes sense, including reproduc. stuff. -->
 
 <!-- outline -->
 
