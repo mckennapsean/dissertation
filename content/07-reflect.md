@@ -1,14 +1,9 @@
 # Reflecting on the Types of Research for the Framework {#sec:reflections}
 
-\sm{focus on this for the implications or scoping of this work, role of projects}
 \sm{include technique work, s-corrplot and failure of applied work}
 \sm{include evaluative / formative work, the storytelling project}
 \sm{scope out the details of these works}
 \sm{add these details, as needed, into appendix}
-\sm{focus on why DAF won't work / why it didn't}
-\sm{how could you improve other projects with what we learned?}
-\sm{Need intro...}
-
 
 Role of design and research (cite some papers here), design can be conducted with research, overlapping nature (better wording).
 Research is not just about papers, but about broader activities.
