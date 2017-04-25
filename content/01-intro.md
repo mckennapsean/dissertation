@@ -20,28 +20,27 @@ design process and all three aspects to visualization design novices.
 <!-- TODO clean up one reference here! -->
 
 
-\mm{Although several proposed process models...}
-Many visualization designers propose models to capture the steps of the design
-process for creating and building novel and useful visualizations
-[@Sedlmair2012b; @Lloyd2011; @Wassink2009; @Chee2011], but the novelty of the
-design activity framework is how it describes these steps as overlapping,
-iterative, and even nested _design activities_.
-\mm{why is this important?}
-Many different design process
-models have been developed, some by the design or human-computer interaction
-(HCI) communities, and several within the visualization community as well, and
-the design activity framework pulls in useful aspects from these models.
-\mm{these sentences seem out of place with the beginning sentences of this paragraph. what exactly is this paragraph about? you may want to pull out the novice/pedilogical arguments to separate paragraph that stresses that the design process is particularly difficult for this class of vis folks, and that the DAF was designed with actionability in mind, unlike previous models….}
-In the
-field of visualization, problem-driven research often involves design studies,
-in which visualization experts create visualization systems to support solving a
-real-world problem [@Sedlmair2012b]. It can be helpful to provide guidance to
-both novice and even expert visualization designers on how to achieve success in
-their visualization design projects and avoid common pitfalls [@Sedlmair2012b]
-that can lead to wasted time, less effective solutions, or even failure.
-Additionally, the design activity framework contains worksheets with such
-guidance in the form of actionable steps for visualization designers to follow
-within a given design activity.
+Although several proposed visualization models capture the steps of the design
+process for creating and building new and useful visualizations [@Sedlmair2012b;
+@Lloyd2011; @Wassink2009; @Chee2011], the novelty of the design activity
+framework is how it describes these steps as overlapping, iterative, and even
+nested _design activities_. As a result, the design activity framework captures
+the complex, iterative, and occasionally messy nature [@Sedlmair2012b; @DIS2010;
+@Tory2004; @Wassink2009; @Chee2011; @Moere2011] of visualization design which
+supports greater reflection on a project's progress and can facilitate more
+complete and richer descriptions of the visualization design process. In
+visualization design projects, problem-driven research often involves design
+studies, in which visualization experts create visualization systems to support
+solving a real-world problem [@Sedlmair2012b]. It can be helpful to provide
+guidance to visualization designers on how to achieve success in their
+visualization design projects and avoid common pitfalls [@Sedlmair2012b] that
+can lead to wasted time, less effective solutions, or even failure. To help
+guide design projects, many different design process models have been developed,
+some by the design or human-computer interaction (HCI) communities, and several
+within the visualization community as well, and the design activity framework
+pulls in useful aspects from these models and tailors its terminology and
+connections to increase its usefulness and actionability as a visualization
+design process model.
 
 
 Visualization practitioners constantly make _design decisions_ throughout the
@@ -85,26 +84,29 @@ artifacts and, by capturing this design knowledge, encourages the reuse of these
 design artifacts across the visualization community.
 
 
-By prescribing activities, artifacts, and their associated design decisions, the
-design activity framework could also have a pedagogical benefit by guiding
-novice visualization designers through the data visualization design process.
-Although existing design theories and models for the visualization design
-process largely address _how_ designers create a visualization, none of these
-models trace designers' actions back to _why_ they make specific decisions, such
-as relying on preexisting visualization guidelines, or selecting certain
-evaluation methods. Without this connection, it is much harder for visualization
-designers, both experts and novices, to answer the _how_ and _why_ questions of
-design using existing visualization models. On the other hand, design activity
-worksheets break apart high-level activities into succinct definitions and
-descriptive step-by-step actions for novice visualization designers to follow.
-Furthermore, worksheet examples of a real-world design process can illustrate
-how to generate and evaluate visualization artifacts along with the complex,
-iterative, and occasionally messy nature [@Sedlmair2012b; @DIS2010; @Tory2004;
-@Wassink2009; @Chee2011; @Moere2011] of design. The design activity worksheets
-are a new approach to teach the next generation of visualization designers about
-the data visualization design process, by equipping them with not only the
-theoretical knowledge but also the practical skills for building better
-visualization systems and tools.
+One class of visualization designer is composed of novices, who may struggle to
+grasp the complexities of the visualization design process. Unlike previous
+design models, the design activity framework contains worksheets that guide
+novices with a series of actionable steps toward generating visualization
+artifacts and making design decisions. By prescribing activities, artifacts, and
+their associated design decisions, the design activity worksheets could present
+a pedagogical benefit for teaching visualization novices. Although existing
+design theories and models for the visualization design process largely address
+_how_ designers create a visualization, none of these models trace designers'
+actions back to _why_ they make specific decisions, such as relying on
+preexisting visualization guidelines, or selecting certain evaluation methods.
+Without this connection, it is much harder for visualization designers, both
+experts and novices, to answer the _how_ and _why_ questions of design using
+existing visualization models. The design activity worksheets break apart
+high-level activities into succinct definitions and descriptive step-by-step
+actions for novice visualization designers to follow which bridges the created
+artifacts to the decisions that get made about them. Furthermore, worksheet
+examples of an iterative, real-world design process can illustrate how to
+generate and evaluate visualization artifacts across design activities. The
+design activity worksheets are one new approach to teach the next generation of
+visualization designers about the data visualization design process, by
+equipping them with not only the theoretical knowledge but also the practical
+skills for building better visualization systems and tools.
 
 
 
