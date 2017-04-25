@@ -10,11 +10,14 @@ system. The _data visualization design process_ takes place in a series of
 or interaction. These artifacts are produced as a result of **decisions** that
 are made by a visualization designer, such as guidelines that are established
 through evaluating a system. No previous work exists that connects all three of
-these aspects and describes the interplay among them for visualization design.
-\mm{and why is this important?}
-Moreover, existing visualization design models have not explored pedagogical
-approaches for teaching the process and these three aspects to visualization
-design novices.
+these aspects and describes the interplay among them for visualization design,
+and bridging these concepts in a design model increases not only its
+actionability and applicability across projects but the model's descriptive,
+evaluative, and generative power [@Beaudouin-Lafon2004]. Moreover, existing
+visualization models have not explored pedagogical approaches for teaching the
+design process and all three aspects to visualization design novices.
+
+<!-- TODO clean up one reference here! -->
 
 
 \mm{Although several proposed process models...}
@@ -121,24 +124,27 @@ visualization design by connecting steps of the design process to the design
 decisions made and visualization-specific artifacts obtained. Other novel
 aspects of this framework include its flexibility for iteration, actionability
 to guide novice visualization designers, and connections to existing
-visualization models. \mm{paragraph break} To strengthen the contribution of this framework, we have
-evaluated its use and application across several different visualization design
-projects. Specifically, we have utilized this framework to formulate, guide, and
-reflect on the design process of design studies and research in the fields of
-biology [@mckenna2015s], cyber security [@McKenna2014; @Staheli2014;
-@McKenna2015; @mckenna2016], and data visualization storytelling [@mckenna2017].
-For each of these projects, we have employed a variety of qualitative and
-quantitative design methods in order to validate the utility of this framework
-in real-world projects and reflect on their use in future visualization design
-projects. We describe two case studies for visualization of cyber security
-datasets that illustrate examples of how to use this framework and provide rich
-descriptions behind a variety of different visualization design artifacts. To
-explore teaching and validating this framework in the classroom, we created
-concrete, step-by-step worksheets for each activity that we evaluated through a
-series of qualitative surveys and interviews with novice visualization
-designers. As a result of this evaluation, we discovered that novices
-effectively learned how to design and develop a visualization system while
-justifying their decisions using the design activity worksheets.
+visualization models.
+
+
+To strengthen the contribution of this framework, we have evaluated its use and
+application across several different visualization design projects.
+Specifically, we have utilized this framework to formulate, guide, and reflect
+on the design process of design studies and research in the fields of biology
+[@mckenna2015s], cyber security [@McKenna2014; @Staheli2014; @McKenna2015;
+@mckenna2016], and data visualization storytelling [@mckenna2017]. For each of
+these projects, we have employed a variety of qualitative and quantitative
+design methods in order to validate the utility of this framework in real-world
+projects and reflect on their use in future visualization design projects. We
+describe two case studies for visualization of cyber security datasets that
+illustrate examples of how to use this framework and provide rich descriptions
+behind a variety of different visualization design artifacts. To explore
+teaching and validating this framework in the classroom, we created concrete,
+step-by-step worksheets for each activity that we evaluated through a series of
+qualitative surveys and interviews with novice visualization designers. As a
+result of this evaluation, we discovered that novices effectively learned how to
+design and develop a visualization system while justifying their decisions using
+the design activity worksheets.
 
 
 
