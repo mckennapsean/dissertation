@@ -30,14 +30,50 @@ Framed with respect to previous design models, we explore how the 9-stage framew
 
 ## Designing for a Novel Technique
 
-Overview of technique, some math and figures and related work, all high-level.
-Application of the technique (case study in biology).
+Although the s-CorrPlot technique was created for a biology collaborator, this
+project was not a typical visualization design study. Via the definition from
+Sedlmair et al. [@Sedlmair2012b], visualization design studies focus on solving
+real-world problems that collaborators face, and the contributions that come out
+of such projects can stem from the problem characterization, abstraction,
+validated tool that solves the problem, or reflections on the design process.
+For the s-CorrPlot project, I joined the team after an initial prototype for an
+idea was developed, and the 9-stage framework would classify this as the
+"implement" step or the _make_ design activity. To improve the tool to meet our
+collaborators' needs, I visited their lab weekly to observe the types of
+research problems they faced, how they utilized the prototype, and better
+understand the problem domain, going back to the "discover" stage or
+_understand_ activity. However, the final outcome for the s-CorrPlot research
+project was a contribution solely in the validation of the tool, primarily since
+this was a novel technique with potential benefit to many other domains. Looking
+back on this project, the final, validated tool did solve a problem our
+collaborators faced, to better visualize and explore high-level features of
+their multidimensional datasets. However, as a design study, this work did not
+really solve a complete problem --- after finding interesting patterns in the
+tool, our collaborators just had more questions and needed to run further lab
+studies to find out more. As a result, while we followed a design process,
+joining mid-project with an already fleshed out prototype limited the
+problem-finding and potential solutions that were focused on. By following the
+9-stage framework for design studies, this project was not as successful as a
+design study, and our reflections contribute new pitfalls for design studies
+[@Sedlmair2012b] in the discover stage or _understand_ activities:
+
+- PF-33. not communicating information across teammates on the problem characterization and abstraction
+- PF-34. identifying the wrong problem: solving small problems may not be useful or impactful enough for domain experts
+- PF-35. not tailoring tool for domain experts but focusing on designing novel solutions
+
+
 Reflections on designing for a novel technique:
-- 9-stage framework: did not have a complete design study, initial analysis was with this tool but next steps and more details were needed, not solving the full problem but only part of it. Walked line of application and technique driven work.
 - Nested model: encoding & algorithm contributions were strongest. wrong problem, not exactly, but close.
 - DAF: We were building a tool using this new idea, new technique. Saw a potential application area, deployed in lab, feedback, multiple iterations. Still achieved a visualization tool, even if the design study was not complete or finished. Some successes. DAF supports such a process, to build a new technique, and combine multiple ideas into the vis tool. Artifacts such as the tool and algorithm for the encoding were publishable, not about the guidelines or reflection for the project [DSM]. bit of a focus on PF-17 (and possibly PF-15 too, missing successful parts, plus PF-18, less focus on domain), but ultimately didn't think broadly enough about the problem, new type of pitfall? research can be about more than that but application-driven work might need more framing of the problem, DAF focuses heavily on iterating on the understanding and problem. Came to the project mid-way through, missed some of Discover/Understand, no good way to frame the problems and lead to a less successful design study. Many more methods for discover/understand, and pitfalls associated with them. What and how do you define this real-world problem? The framing can be too general and less design study-y.
 
 <!-- outline -->
+
+
+<!-- previous sections... -->
+
+Overview of technique, some math and figures and related work, all high-level.
+Application of the technique (case study in biology).
+- While creating the s-CorrPlot visualization technique, we worked in tandem with a biology collaborator to customize and tailor aspects of the data visualization tool for their problem: exploring correlation of gene expression datasets.
 
 
 In collaboration with a statistician and biology researcher, we created a new
