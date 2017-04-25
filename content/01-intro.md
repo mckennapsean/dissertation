@@ -11,19 +11,25 @@ or interaction. These artifacts are produced as a result of **decisions** that
 are made by a visualization designer, such as guidelines that are established
 through evaluating a system. No previous work exists that connects all three of
 these aspects and describes the interplay among them for visualization design.
+\mm{and why is this important?}
 Moreover, existing visualization design models have not explored pedagogical
 approaches for teaching the process and these three aspects to visualization
 design novices.
 
 
+\mm{Although several proposed process models...}
 Many visualization designers propose models to capture the steps of the design
 process for creating and building novel and useful visualizations
 [@Sedlmair2012b; @Lloyd2011; @Wassink2009; @Chee2011], but the novelty of the
 design activity framework is how it describes these steps as overlapping,
-iterative, and even nested _design activities_. Many different design process
+iterative, and even nested _design activities_.
+\mm{why is this important?}
+Many different design process
 models have been developed, some by the design or human-computer interaction
 (HCI) communities, and several within the visualization community as well, and
-the design activity framework pulls in useful aspects from these models. In the
+the design activity framework pulls in useful aspects from these models.
+\mm{these sentences seem out of place with the beginning sentences of this paragraph. what exactly is this paragraph about? you may want to pull out the novice/pedilogical arguments to separate paragraph that stresses that the design process is particularly difficult for this class of vis folks, and that the DAF was designed with actionability in mind, unlike previous models….}
+In the
 field of visualization, problem-driven research often involves design studies,
 in which visualization experts create visualization systems to support solving a
 real-world problem [@Sedlmair2012b]. It can be helpful to provide guidance to
@@ -115,7 +121,7 @@ visualization design by connecting steps of the design process to the design
 decisions made and visualization-specific artifacts obtained. Other novel
 aspects of this framework include its flexibility for iteration, actionability
 to guide novice visualization designers, and connections to existing
-visualization models. To strengthen the contribution of this framework, we have
+visualization models. \mm{paragraph break} To strengthen the contribution of this framework, we have
 evaluated its use and application across several different visualization design
 projects. Specifically, we have utilized this framework to formulate, guide, and
 reflect on the design process of design studies and research in the fields of
