@@ -25,6 +25,11 @@ framework can help successfully shape a real-world visualization design study.
 <!--\sm{focus to f/w, explain its role and purpose and use}-->
 <!--\sm{do this simply, match to the story, connect to activities throughout}-->
 
+<!-- TODO \td{why did existing models fail?} -->
+<!-- TODO \ja{more on 9-stage framework} -->
+<!-- TODO \ja{tie in framework better} -->
+<!-- TODO \ja{tie into the overcoming limitations with each of these case studies too!} -->
+
 
 
 
@@ -292,6 +297,8 @@ together and led to successful visualization artifacts as a result.
   design and deployments all occurred due to the interaction of artifacts and
   user feedback across all of these channels.
 ](figures/bubble-net/process-daf.pdf){#fig:process width="100%"}
+
+<!-- TODO committee: too many colors on design process figure? reorient? -->
 
 
 We present an overview of our design process in [@fig:process]. Each row and

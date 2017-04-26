@@ -55,6 +55,9 @@ projects.
   different visualization artifacts.
 ](figures/daf/design-methods.pdf){#fig:genoreval width="100%"}
 
+<!-- TODO \ja{have materials online/accessible!} -->
+<!-- TODO \ja{more on 9-stage framework} -->
+
 
 
 
@@ -505,6 +508,9 @@ process in a similar way.
 
 <!-- \sm{nice start, but I feel like we could talk more about the timelines I show here too, perhaps flesh out some more detail. makes me wonder if it wouldn't be better to put in its own chapter though.} -->
 
+<!-- TODO \al{interactive timeline building?} -->
+<!-- TODO \jm{can you see a meta view as you go?} -->
+
 
 
 
@@ -589,6 +595,8 @@ within their visualization project by reflecting on these two questions:
 }\tabularnewline
 \includegraphics[width=1.00000\textwidth]{figures/daf/table.pdf}
 \end{longtable}
+
+<!-- TODO \al{interactive guidance on table?} -->
 
 <!-- CANNOT have a table be shown in a figure or a figure in a table. embed manually via latex.
 ![

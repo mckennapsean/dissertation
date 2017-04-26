@@ -80,6 +80,8 @@ This link is highlighted by Sch\mbox{\"{o}}n's reflection-in-action concept
 complementary to each other; thus, the design process and its many design
 decisions are intricately interconnected.
 
+<!-- TODO \ja{systematic way to address each of these models, papers to support each} -->
+
 <!-- TODO from Sam: what is the utility of a decision model? why have it? why bother tracking decisions? can be useful to know context, transferrability of knowledge, etc. and in the space of thick descriptions, stacks/blocks may help you figure out which decisions/guidelines are best, but not always, don't blindly follow them either. -->
 
 

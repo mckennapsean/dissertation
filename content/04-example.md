@@ -17,6 +17,9 @@ utilized with other visualization novices played a significant role in the
 success of this project. Lastly, we reflected on our team's overall design
 process by incorporating and summarizing these aspects into a design timeline.
 
+<!-- TODO \td{why did existing models fail?} -->
+<!-- TODO \ja{more on 9-stage framework} -->
+
 
 
 
