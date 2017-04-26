@@ -29,6 +29,8 @@ framework can help successfully shape a real-world visualization design study.
 <!-- TODO \ja{more on 9-stage framework} -->
 <!-- TODO \ja{tie in framework better} -->
 <!-- TODO \ja{tie into the overcoming limitations with each of these case studies too!} -->
+<!-- TODO committee: for bubble-net design study, clearly walk through the project within the framework and reflect on its use -->
+<!-- TODO committee: what does this framework provide over previous work? -->
 
 
 

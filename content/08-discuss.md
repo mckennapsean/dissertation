@@ -11,6 +11,8 @@ ideas from vizit cards paper:
   may need feedback, like eval, from others to help teach
 -->
 
+<!-- TODO emphasize several key visualization-theory components, like the nested model and extension of the 9-stage framework for design studies -->
+
 
 ## Discussion and Future Work
 

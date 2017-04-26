@@ -25,6 +25,8 @@ conducted a series of interviews to garner additional open-ended feedback and
 suggestions that highlight the strengths and limitations of these teaching
 materials.
 
+<!-- TODO emphasize several key visualization-theory components, like the nested model and extension of the 9-stage framework for design studies -->
+
 
 
 

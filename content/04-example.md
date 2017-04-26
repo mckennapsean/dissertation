@@ -19,6 +19,8 @@ process by incorporating and summarizing these aspects into a design timeline.
 
 <!-- TODO \td{why did existing models fail?} -->
 <!-- TODO \ja{more on 9-stage framework} -->
+<!-- TODO committee: for formative project, add descriptions of what was missing in existing design models that held back these projects -->
+<!-- TODO committee: what does this framework provide over previous work? -->
 
 
 

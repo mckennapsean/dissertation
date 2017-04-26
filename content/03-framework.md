@@ -57,6 +57,7 @@ projects.
 
 <!-- TODO \ja{have materials online/accessible!} -->
 <!-- TODO \ja{more on 9-stage framework} -->
+<!-- TODO committee: detailed comparison with what the 9-stage framework is missing -->
 
 
 
