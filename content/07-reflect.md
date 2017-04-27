@@ -161,10 +161,6 @@ containing any two noncollinear variables $\mathbf{p}$ and $\mathbf{s}$.
 Any standardized variable, $\mathbf{x}$, can be projected onto the plane $U$,
 producing the 2D coordinates of the s-CorrPlot, shown in [@fig:corr-plot](b).
 
-|     |     |     |     |
-| --- | --- | --- | --- |
-| ![](figures/scorrplot/correlation-sphere-projection.pdf){width="22%"} | ![](figures/scorrplot/projection-plane.pdf){width="22%"} | ![](figures/scorrplot/gridlines-p.pdf){width="22%"} | ![](figures/scorrplot/gridlines-s.pdf){width="26.5%"} |
-| (a) | (b) | (c) | (d) |
 
 ![
   As an example, we show how three variables ($\mathbf{p}$, $\mathbf{s}$, and
@@ -181,9 +177,7 @@ producing the 2D coordinates of the s-CorrPlot, shown in [@fig:corr-plot](b).
   correlation to $\mathbf{p}$. As such, (c) these vertical lines can be
   generalized as grid lines along $U$, denoting sets of equidistant correlation
   values to $\mathbf{p}$. Similarly, (d) grid lines to $\mathbf{s}$ can be shown.
-](){#fig:corr-plot}
-
-<!-- TODO check figure and turn into a single one? -->
+](figures/scorrplot/s-corrplot.pdf){#fig:corr-plot width="100%"}
 
 
 Based on [@eq:geom], the correlation coefficient for two variables
@@ -312,12 +306,6 @@ was designed to support only 10,000 to 20,000 genes so does not scale to the
 size of datasets that our collaborator struggles to analyze.
 
 
-|     |     |     |     |
-| :-- | :-: | :-: | :-: |
-|     | brain region #1 | brain region #2 | overlay |
-| genes | ![](figures/scorrplot/gene-case-study-0.pdf){width="29%"} | ![](figures/scorrplot/gene-case-study-1.pdf){width="32%"} | ![](figures/scorrplot/gene-case-study-2.pdf){width="29%"} |
-| exons | ![](figures/scorrplot/exon-case-study-0.pdf){width="29%"} | ![](figures/scorrplot/exon-case-study-1.pdf){width="31%"} | ![](figures/scorrplot/exon-case-study-2.pdf){width="29%"} |
-
 ![
   Two different biological datasets containing 76,730 (genes) and 120,000
   (exons) variables, with 22 and 37 observations, respectively. For each
@@ -326,9 +314,7 @@ size of datasets that our collaborator struggles to analyze.
   separate and combined overlay visualizations. The s-CorrPlot highlights different
   patterns of correlation in each of these brain regions, indicating
   potentially significant differences in their biological processes.
-](){#fig:gene-case-study}
-
-<!-- TODO convert table into one figure? or multiple? -->
+](figures/scorrplot/case-studies.pdf){#fig:gene-case-study width="100%"}
 
 
 At first, our collaborator explored 38,365 genes in two regions of the brain,
