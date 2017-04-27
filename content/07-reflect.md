@@ -22,7 +22,254 @@ Overall, we found that the design activity framework can support thinking about 
 
 ## Overview of s-CorrPlot Technique
 
-Overview of technique, some math and figures and related work, all high-level.
+The degree of correlation between variables is used in many data analysis
+applications as a key measure of interdependence. The most common techniques
+for exploratory analysis of pairwise correlation in multivariate datasets,
+like scatterplot matrices and clustered heatmaps, however, do not scale well
+to large datasets, either computationally or visually.  We present a new
+visualization that is capable of encoding pairwise correlation between
+hundreds of thousands variables, called the s-CorrPlot.  The s-CorrPlot 
+encodes correlation spatially between variables as points on scatterplot
+using the geometric structure underlying Pearson's correlation.
+Furthermore, we extend the s-CorrPlot with interactive techniques
+that enable animation of the scatterplot to new projections of the correlation
+space, as illustrated in the companion video in Supplemental Materials. We
+provide the s-CorrPlot technique and tool as an open-source R-package.
+
+<!-- TODO links to video or tool? -->
+
+
+### Visualizing Correlation
+
+A standard approach to visualize correlation among many variables
+are clustered heatmaps [@wilkinson2009history; @seo2002interactively].
+Heatmaps directly visualize correlation between each
+pair of variables using a color encoding and can highlight clusters of
+variables reasonably well, but they also have a number of limitations: pairwise
+correlation computations grow quadratically with the number of variables;
+clustering is necessary for pattern detection, but the visual results are
+highly variable based on the clustering technique [@seo2002interactively];
+and accurate evaluation of correlation values is difficult due to the relative
+nature of color perception [@Albers06Interaction; @Wong10Color].
+
+
+As an alternative to heatmaps, the s-CorrPlot encodes correlation
+structure spatially among many variables as points in a scatterplot. This encoding scales
+to large datasets containing hundreds of thousands of variables and thousands of
+observations, both computationally and visually. The visual encoding of the
+s-CorrPlot  is based on an 2D orthogonal projection of standardized variables. The
+observation that standardized variables lie on a unit hypersphere leads to a
+derivation of a new exact spatial encoding of correlation through orthogonal
+projection. The derivation of this new spatial encoding is described in
+detail by McKenna et al. [], where the encoding is precise for a subset of all
+pairwise correlations with error bounds for the rest.
+
+<!-- TODO link in paper -->
+
+
+### Statistical Correlation
+
+This work focuses on Pearson's and Spearman's correlation coefficients, which
+measure the strength of linear and monotonic relationships between two
+variables, respectively.
+Spearman's correlation coefficient is Pearson's correlation but on ranked
+observations.
+The s-CorrPlot can apply to either measure of correlation.
+
+
+The s-CorrPlot is built off of a geometrical interpretation of correlation [@dempster1969elements; @rodgers1984linearly] where datasets are represented with a
+**variable** as a vector in $\mathbb{R}^n$, where $n$ is the number of
+**observations** per variable. In this interpretation, Pearson's correlation
+is the cosine of the angle between the mean centered variables. Thus,
+correlation can be spatially represented as $p$ points on
+a $(n-2)$-sphere. In statistical language, the points on this sphere are termed
+standardized variables.
+
+
+Pearson's correlation coefficient, $\hat{r}$, for any two variables $\mathbf{x} =
+\{x_1, \; \ldots \;, x_n\}$ and $\mathbf{y} = \{ y_1, \;
+\ldots \;, y_n\}$ is
+$$
+\hat{r}(\mathbf{x}, \mathbf{y}) = \frac{ \sum_{i=1}^n (x_i
+- \overline{x} ) (y_i - \overline{y} ) }{ \sqrt{\sum_{i=1}^n (x_i -
+\overline{x} )^2} \sqrt{\sum_{i=1}^n (y_i - \overline{y} )^2} }
+$$ {#eq:pearson}
+where $\overline{x} = \frac{1}{n}\sum_{i=1}^{n} x_i$
+and $\overline{y} = \frac{1}{n}\sum_{i=1}^{n} y_i$ are the means of $\mathbf{x}$
+and $\mathbf{y}$, respectively.
+
+By letting $\tilde{\mathbf{x}} = \{(x_1 -\overline{x}), \; \ldots \;, (x_n
+-\overline{x})\}$ and $\tilde{\mathbf{y}} = \{(y_1 -\overline{y}), \; \ldots \;, (y_n
+-\overline{y})\}$, [@eq:pearson] can be written as 
+$$
+  \hat{r}(\mathbf{x}, \mathbf{y}) = 
+  \frac{
+    \tilde{\mathbf{x}} \cdot \tilde{\mathbf{y}}
+  }
+  {
+    \lVert \tilde{\mathbf{x}} \rVert \;\, \lVert \tilde{\mathbf{y}} \rVert 
+  }
+  \, ,
+$$ {#eq:geom}
+which highlights the geometrical nature of the correlation coefficient.
+
+
+In this geometric interpretation, the standardization of a variable can be viewed as a
+projection onto the **correlation sphere** --- a specific, $(n-2)$-sphere
+embedded in $\mathbb{R}^n$.  To standardize a variable, first, the mean of the
+variable is subtracted from each observation, and second, the variable is
+scaled to unit length. For any two variables, their correlation is now directly
+encoded through the relative positions of their **standardized variables**.
+For any two standardized variables close to each other on the sphere, their dot
+product, and thus their correlation coefficient, is close to $1$, and, for those
+that lie on opposite sides, it will be $-1$.
+
+
+### The s-CorrPlot Encoding
+
+The s-CorrPlot represents each variable as a point on a
+scatterplot as a novel way to encode and read correlation. The scatterplot results from an orthogonal projection of the standardized variables on the
+multidimensional correlation sphere.
+We
+can project the standardized variables that lie on the correlation sphere onto a
+plane through the origin. After this projection step, the variables can be
+displayed as points on a scatterplot, the **s-CorrPlot**.
+
+
+By
+selecting two noncollinear standardized variables, $\mathbf{p}$ and $\mathbf{s}$ on
+the correlation sphere, as illustrated by $U$ in [@fig:corr-plot], we can define such a plane through the origin.
+Projecting all variables onto this plane collapses them to points on the s-CorrPlot.
+The projection plane forms a circular intersection with the
+selected points due to standardization. For any variable on this circular boundary, the correlation
+to any other projected variable in the plane is encoded exactly.
+Furthermore, error bounds exist to show that the approximation error increases slowly
+as one moves away from the boundary [].
+
+<!-- include link to paper -->
+
+
+To graphically illustrate how the s-CorrPlot encodes correlation coefficients, we will
+use a simple example of three variables with four observations.
+Thus, the variables can be represented as vectors in $\mathbb{R}^4$, as with the
+three standardized variables: $\mathbf{p}$, $\mathbf{s}$, and $\mathbf{x}$.
+Because these standardized variables effectively reside in a 3D subspace of
+$\mathbb{R}^4$, we can directly illustrate them in
+[@fig:corr-plot](a). Next, the correlation sphere is intersected with a
+projection plane, $U$, which is defined as going through the origin and
+containing any two noncollinear variables $\mathbf{p}$ and $\mathbf{s}$.
+Any standardized variable, $\mathbf{x}$, can be projected onto the plane $U$,
+producing the 2D coordinates of the s-CorrPlot, shown in [@fig:corr-plot](b).
+
+|     |     |     |     |
+| --- | --- | --- | --- |
+| ![](figures/scorrplot/correlation-sphere-projection.pdf){width="22%"} | ![](figures/scorrplot/projection-plane.pdf){width="22%"} | ![](figures/scorrplot/gridlines-p.pdf){width="22%"} | ![](figures/scorrplot/gridlines-s.pdf){width="26.5%"} |
+| (a) | (b) | (c) | (d) |
+
+![
+  As an example, we show how three variables ($\mathbf{p}$, $\mathbf{s}$, and
+  $\mathbf{x}$) with four observations each project onto the
+  s-CorrPlot. For (a), we can illustrate our variables as standardized
+  vectors on the correlation sphere, directly shown in 3D here.
+  The correlation coefficient between any two variables is the dot product
+  between their standardized vectors, such as with $\mathbf{p}$ and $\mathbf{x}$.
+  With these two standardized variables, a $(n-2)$-flat $V$ is defined.
+  The s-CorrPlot is defined by the projection plane $U$, containing both
+  $\mathbf{p}$ and $\mathbf{s}$. Projection onto $U$ results in the s-CorrPlot as shown
+  in (b), preserving correlation coefficients to both $\mathbf{p}$ and $\mathbf{s}$.
+  In the s-CorrPlot, $V$ projects to a vertical line $V_U$ of equal
+  correlation to $\mathbf{p}$. As such, (c) these vertical lines can be
+  generalized as grid lines along $U$, denoting sets of equidistant correlation
+  values to $\mathbf{p}$. Similarly, (d) grid lines to $\mathbf{s}$ can be shown.
+](){#fig:corr-plot}
+
+<!-- TODO check figure and turn into a single one? -->
+
+
+Based on [@eq:geom], the correlation coefficient for two variables
+is equal to the dot product between their vectors, such as for $\mathbf{p}$ and
+$\mathbf{x}$ as illustrated in [@fig:corr-plot](a) and reflected in 
+[@fig:corr-plot](b).
+The vertical
+grid lines in the s-CorrPlot, as in [@fig:corr-plot](c), specify values of equal correlation to $\mathbf{p}$ for any location in
+the scatterplot.
+Thus since $\mathbf{x}_U = U \, \mathbf{x}$, it
+follows that, for any vector $\mathbf{x}$, the correlation to $\mathbf{p}$ is
+directly encoded in the first component of the vector $\mathbf{x}_U$. In fact, any
+vector that projects onto the line $V_U$, shown in
+[@fig:corr-plot](b), has the same first component value, and thus the same
+correlation to $\mathbf{p}$. The line $V_U$ corresponds to the projection of a
+$(n-2)$-flat, $V$, onto $U$, where $V$ is orthogonal to $\mathbf{p}$ and contains
+$\mathbf{x}$.  Thus, any vector that lies on $V$ is at the same distance from
+$\mathbf{p}$, and thus has the same correlation value.  We illustrate this
+$(n-2)$-flat $V$ in [@fig:corr-plot](a).  Moving $V$ along the vector
+$\mathbf{p}$ produces grid lines as shown in [@fig:corr-plot](c).
+
+
+This spatial encoding of correlation affords several
+advantages. First, the geometric interpretation of correlation underlying the
+s-CorrPlot enables multidimensional exploration techniques. Also, categorical
+information for groups of variables can be encoded using color
+or shape.
+The projection, for $p$ variables, results in a $O(p)$ algorithm for
+generating any single projection on the s-CorrPlot.
+This linear computation for each scatterplot enables scaling to
+large datasets at interactive frame rates.
+
+<!-- TODO should I mention what is cut here and where to look for it? or include in Appendix? -->
+
+
+### Interactive Exploration with the s-CorrPlot
+
+We designed the s-CorrPlot
+to incorporate both interaction and animation, unlike previous static
+correlation encodings [@corsten:biometrics76; @trosset:jcgs05; @falissard:jcgs99].
+In doing so, we illustrate how the s-CorrPlot can be paired with
+multidimensional exploration techniques,
+in the spirit of existing systems that employ user-driven
+exploration [@swayne1998xgobi; @swayne2003ggobi; @Elmqvist08Rolling]. 
+We encourage our readers to watch the short companion video in
+Supplemental Materials to more easily understand the interactive
+exploration aspect.
+
+<!-- TODO link in video? -->
+
+
+To better grasp multidimensional spaces, methods such as projection pursuit
+[@huber1985projection; @Friedman87Exploratory], the grand tour method
+[@Asimov85Grand], and combinations of both [@cook1995grand], explore
+multidimensional space through sequences of 2D projections.
+Several mature systems that implement these techniques include
+xgobi [@swayne1998xgobi] and ggobi [@swayne2003ggobi], which provide
+animations and interactions to let the user explore the complete space of
+projections. The spatial encoding of correlation in the s-CorrPlot is also applicable
+within any of these existing systems. Our implementation of the s-CorrPlot was
+motivated by these exploratory techniques in order to create simple user-guided
+tours, or animations between projections.
+
+
+The s-CorrPlot
+employs several simple
+aspects of user-driven exploration to help examine the space of possible
+projections. These interactions increase the effectiveness of the underlying
+spatial encoding of the s-CorrPlot.
+Users drive the exploration of the multidimensional correlation
+sphere by selecting the variables $\mathbf{p}$ and $\mathbf{s}$ of interest. After
+selecting a new variable, the s-CorrPlot is re-oriented through a
+continuous animation of a rotation between the current projection and a
+newly selected one, by interpolating across the vectors chosen for the
+projection. In addition, we orient the viewer by projecting the primary vector
+to a fixed location on the far-right of the s-CorrPlot and draw the gridlines
+vertically with respect to this primary vector in order to preserve the
+spatial encoding throughout the animation.
+
+
+As with multidimensional exploration between projections, animating between
+planes results in structures, such as clusters of correlated variables, moving
+together (or apart) in 3D, giving the user a partial sense of the relationship
+of the standardized variables in the multidimensional space. Perceptually,
+the animation results in seeing "shape from
+motion" [@ullman:visualMotion].
 
 
 
@@ -30,88 +277,116 @@ Overview of technique, some math and figures and related work, all high-level.
 
 ## Applying the s-CorrPlot Technique
 
-Application of the technique (case study in biology).
-- While creating the s-CorrPlot visualization technique, we worked in tandem with a biology collaborator to customize and tailor aspects of the data visualization tool for their problem: exploring correlation of gene expression datasets.
+<!-- TODO address Alex's comments throughout! -->
 
-<!-- previous sections... check for comments / overlap?
-
-In collaboration with a statistician and biology researcher, we created a new
-scatterplot for encoding correlation, the s-CorrPlot [@mckenna2015s]. As shown
-in [@fig:scorrplot], the s-CorrPlot in (b) encodes as points different patches
-of the two images in (a) to enable measure of correlation exactly to a single
-variable of interest, as opposed to the challenges brought by a cluttered
-parallel coordinates plot (c) or clustered heatmap (d) for reading off these
-values. The s-CorrPlot works by projecting the large data space into two
-dimensions for a variable of interest, and further details can be found in the
-discussion of the technique [@mckenna2015s]. The scatterplot approach enabled
-useful interactions for exploring the plot and animating between projections of
-the data. Several coordinated views were linked with the s-CorrPlot to
-illustrate its utility and released open-source as an R-package.
+While creating the s-CorrPlot visualization technique, we worked in tandem with a biology collaborator to customize and tailor aspects of the data visualization tool for their problem: exploring correlation of gene expression datasets [@mckenna2015s].
+Biologists often analyze the correlation of **gene expression** --- how much a
+gene is turned on or off in a cell --- across datasets to gain
+insights into gene functions and to infer novel relationships between genes
+[@seo2002interactively]. This analysis seeks to answer questions pertaining
+to the relationship of correlation between genes, especially how these
+relationships change over time, across species, or in the presence of disease.
 
 
-![
-  Multiple correlation visualizations for two datasets containing a total of
-  over 130,000 variables, $9 \times 9$ patches of two images (a), with 81
-  observations (pixels) each. The proposed s-CorrPlot (b) reveals correlation
-  structures between variables such as the highly correlated image patches shown
-  at the bottom corresponding to a horizontal shift of a vertical edge. These
-  continuous variations visible in the s-CorrPlot are not emphasized in a
-  parallel coordinates plot (c) or a clustered heatmap of pairwise correlation
-  coefficients (d). In (b) and (c), color indicates membership of the displayed
-  variable from the images in (a). In (d), purple indicates strong positive
-  correlation and orange strong negative correlation. Only the s-CorrPlot can
-  plot all variables, due to computational and screen-space limitations of (c)
-  and (d).
-](figures/scorrplot/corr-house.pdf){#fig:scorrplot width="100%"}
-\al{explain more about it - what does position mean? example is not clear!}
+We worked with a biologist at the University of Utah
+who is tackling similar questions, by studying genes that work together
+in the brain in order to uncover genetic influences on brain
+function, behavior, and disease. Using high-throughput sequencing, he
+measures the expression level of genes in specific brain regions, even
+to the detail of expression of **exons**, which are subparts of genes.
+These measurements are taken in different strains of mice, which form
+the observations in his dataset. The genes and exons are the variables
+he wants to correlate and study.
 
 
-We worked with a biologist at the University of Utah who analyzes the
-correlation of **gene expression** --- how much a gene is turned on or off in a
-cell --- across datasets to gain insights into gene functions and to infer novel
-relationships between genes [@seo2002interactively]. However, state-of-the-art
-approaches only support 10,000 to 20,000 genes [@langfelder2008wgcna;
-@oldham2008functional; @winden2009organization] so they did not scale to the
+His typical study involves several dozen observations, and approximately 10,000
+to 100,000 variables.
+\al{why so many? need to explain brain regions x genes}
+The state-of-the-art approach for studying the
+correlation of gene expression is weighted gene co-expression network analysis
+(WGCNA) [@langfelder2008wgcna; @oldham2008functional; @winden2009organization].
+WGCNA uses the correlation or similarity of genes to construct a weighted
+network among all genes, and, using this network, genes that have a high degree
+of topological overlap are grouped together into gene modules.  However, WGCNA
+was designed to support only 10,000 to 20,000 genes so does not scale to the
 size of datasets that our collaborator struggles to analyze.
 
 
-Using the s-CorrPlot tool, we enabled our collaborator to analyze the
-correlation of over 75,000 genes at once. \al{why so many? need to explain brain
-regions x genes} This enabled quick insights into the general correlation
-structure, such as that strong clusters emerged for one region of genes in the
-brain. He anticipated that this data could reflect differences in the cell types
-and mechanisms that regulate gene expression and the function of those two brain
-regions. \al{how many samples? why many samples? what are they?} \al{what is the
+|     |     |     |     |
+| :-- | :-: | :-: | :-: |
+|     | brain region #1 | brain region #2 | overlay |
+| genes | ![](figures/scorrplot/gene-case-study-0.pdf){width="29%"} | ![](figures/scorrplot/gene-case-study-1.pdf){width="32%"} | ![](figures/scorrplot/gene-case-study-2.pdf){width="29%"} |
+| exons | ![](figures/scorrplot/exon-case-study-0.pdf){width="29%"} | ![](figures/scorrplot/exon-case-study-1.pdf){width="31%"} | ![](figures/scorrplot/exon-case-study-2.pdf){width="29%"} |
+
+![
+  Two different biological datasets containing 76,730 (genes) and 120,000
+  (exons) variables, with 22 and 37 observations, respectively. For each
+  dataset, genes and exons have been colored according to two different
+  brain regions in which the expression levels were measured, resulting in
+  separate and combined overlay visualizations. The s-CorrPlot highlights different
+  patterns of correlation in each of these brain regions, indicating
+  potentially significant differences in their biological processes.
+](){#fig:gene-case-study}
+
+<!-- TODO convert table into one figure? or multiple? -->
+
+
+At first, our collaborator explored 38,365 genes in two regions of the brain,
+with 22 observations,
+using the s-CorrPlot, shown in the top of [@fig:gene-case-study].
+Since each gene can exist in either brain region, this results in a
+combined total of 76,730 variables.
+The gene expression levels measured in brain
+region 1 are shown in red, and those in brain region 2 are shown in
+blue. 
+He first looked at just brain region 1 (red), orienting the
+s-CorrPlot using the first principal component for these variables ---
+he noted that no strong clusters emerged. He then did the same for just
+brain region 2 (blue), and saw a significant grouping of correlated and
+anticorrelated points, shown in the dashed ovals. Overlaying the two
+brain regions confirmed interesting differences across the
+correlation of all genes between these two regions. 
+The differences in the correlation structure of the
+data are anticipated to reflect differences in the cell types
+and mechanisms that regulate
+gene expression and the function of the two brain regions.
+
+
+Using a different dataset, our collaborator visualized
+the expression levels of different exons in the same two brain
+regions, as shown in the bottom-half of
+[@fig:gene-case-study].
+\al{how many samples? why many samples? what are they?} \al{what is the
 data? why do exon level comparison?} \al{is exon level useful, why?} \al{are you
-comparing exons from different genes?} With a second dataset of 120,000 exons,
-or subparts of genes, our collaborator performed the first exon-level
-correlation analysis that he is aware of, noting that patterns in the exon data
-are significantly different than that for the data at the gene-level. This
-implies that differences in these brain regions could be described at a smaller
-scale than genes. These insights are completely unknown and unexplored in our
-collaborator's field. He commented:
-*"This is revealing new brain-region specific patterns in the data
+comparing exons from different genes?}
+This particular dataset contains
+60,000 exons in each brain region, for a total of 120,000
+variables, with each variable containing
+37 observations. This is the first analysis of
+correlation at the exon level that our collaborator is aware of,
+perhaps due in part to the inability of existing tools to handle
+these large datasets. With the s-CorrPlot,
+our collaborator was able to interactively explore the many exons and
+deduce that there are also region specific patterns at the exon level.
+He noted that the patterns in the exon data are significantly
+different than that for the data at the gene-level, indicating that
+differences in these brain regions could be described at a smaller
+scale than genes.
+
+
+Taken as a whole,
+the differences in the patterns between the two
+regions of the brain are completely unknown and unexplored in our collaborator's
+field. These observations have prompted him to design follow-up
+computational studies and wet-lab experiments,
+fueled by hypotheses, which are formed by his use
+of the s-CorrPlot for correlation analysis.
+He commented:
+_"This is revealing new brain-region specific patterns in the data
   that we were completely unaware of. It offers the potential for deriving
   entirely new hypotheses about the functional relationships between genes
-  in different brain regions that we can test experimentally."*
+  in different brain regions that we can test experimentally."_
 \al{clarify on what BR-specific patterns are?}
-
-
-While this is very promising work for a novel technique, the s-CorrPlot also
-failed our collaborator. When publishing this work, we had to focus on the novel
-components and the mathematical description of why it worked. Even when sharing
-this with our biology researchers in our collaborator's lab, we had difficulty
-in explaining what any particular scatterplot meant. \al{neither do I!}
-\sm{clearly, need to clean up this section. tough...} There were significant
-barriers to others using this tool for exploring their large datasets, and even
-when they could use the tool it still limited them by what features were
-supported. This is because the tool was designed as a general-purpose
-proof-of-concept of this novel projection technique. When reflecting on this
-project, we realize that we had no formalized design process to ensure that user
-needs were being fed back into the design of this tool, and that collaboration
-with another researcher led to different contributions and a less useful tool
-for our collaborators.
--->
 
 
 
@@ -191,7 +466,7 @@ framework, since ideas  can also involve algorithmic level decisions
 
 
 By turning to the design activity framework, insights are formed about the
-design process and application of the s-CorrPlot techinque to design study work.
+design process and application of the s-CorrPlot technique to design study work.
 For the s-CorrPlot project, I joined the team after an initial prototype for an
 idea was developed, and the 9-stage framework [@Sedlmair2012b] would classify
 this as the "implement" step or the _make_ design activity. To improve the tool
