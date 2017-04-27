@@ -819,7 +819,7 @@ motivated by these exploratory techniques in order to create simple user-guided
 tours, or animations between projections.
 
 
-\subsection{User-Driven Exploration}
+### User-Driven Exploration
 
 The error bounds in [@sec:uncertainty] show that getting a complete
 and exact view of all pairwise correlation measures requires multiple
