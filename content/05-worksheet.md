@@ -497,4 +497,4 @@ visualization novices to experts could provide support for the visualization
 design worksheets to grow and expand for more advanced, creative, and flexible
 use.
 
-<!-- \sm{TODO feels a bit more conclusion-y/discussion-y, perhaps move last paragraph to later chapter} -->
+<!-- \sm{TODO feels a bit more conclusion-y/discussion-y, perhaps move last 2 paragraphs to later chapter} -->

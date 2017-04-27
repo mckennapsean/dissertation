@@ -1,20 +1,27 @@
 # Discussion and Future Work {#sec:discussion}
 
-\sm{address and bring up notions from committee members in proposal meeting}
+<!--
+TODO concerns from committee:
+
+- specificity to vis, audience
+- emphasize key vis-theory components, list nested model and extension of the 9-stage framework for design studies
+- interactive method or timeline guidance
+- web accessibility
+- validation, dependence on you
+- freedom of the framework/worksheets
+- how do you coordinate with teams? development, etc.
+- with other designers / product teams, how does this apply?
+
+-->
 
 <!--
-ideas from vizit cards paper:
+TODO ideas from vizit cards paper:
   include discussion on tangibility of sketching, alternative approaches
   scalability to classroom size?
   justification of linear
   workshop, constraints, time
   may need feedback, like eval, from others to help teach
 -->
-
-<!-- TODO emphasize several key visualization-theory components, like the nested model and extension of the 9-stage framework for design studies -->
-
-
-## Discussion and Future Work
 
 The design activity framework lays ground work for further research into the
 space connecting creative design with engineering design.
