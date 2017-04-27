@@ -325,7 +325,7 @@ dashboard visualization system.
 The first portion of this design study was informed by a previous domain
 analysis: a qualitative coding of cognitive task analysis papers [@McKenna2015].
 In order to establish specific user needs, we performed a series of contextual
-semi-structured interviews at a research organization. As a result, four key
+semistructured interviews at a research organization. As a result, four key
 user personas were identified for dashboard design [@McKenna2015]. By evaluating
 project constraints, the project was further focused into two specific user
 personas: network analysts and managers.
@@ -478,7 +478,7 @@ tailor our personas to the field of cyber security by incorporating key aspects
 of cyber situational awareness.
 
 
-We developed the personas based on a dozen semi-structured interviews conducted
+We developed the personas based on a dozen semistructured interviews conducted
 over six weeks with various stakeholders: network analysts, managers,
 researchers embedded in cyber operations, and various other cyber security and
 business-focused users. Reflecting on the data gathered during these interviews
@@ -915,7 +915,7 @@ see if the prototype met the needs of both analysts and managers. Nine cyber
 security professionals participated in the study: five analysts, four managers.
 Each participant took part in a one-hour long think-aloud session, conducted by
 one moderator with an observer taking notes, both of whom are co-authors on this
-paper. Each session contained a scripted walkthrough of the prototype, several
+paper. Each session contained a scripted walk through of the prototype, several
 prescribed tasks to complete, open-ended questions about how users would use the
 prototype, and distribution of a system usability scale [@brooke1996sus].
 
