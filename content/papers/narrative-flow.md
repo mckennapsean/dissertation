@@ -118,7 +118,7 @@ animation of text down the page when readers scroll; they read the document
 faster and with fewer errors [@Klein2005]. Similarly, direct
 manipulation [@Shneiderman1981] and fluid interaction [@Elmqvist2011]
 highlight the benefit of input which is rapid, reversible, and incremental. For
-steppers, Boy et. al showed that readers engage with all sections on a page but
+steppers, Boy et al. showed that readers engage with all sections on a page but
 that this may not occur linearly [@Boy2015], whereas scrolling linearly
 confines navigation. Graphics editors from The New York Times have advocated for
 flows that use scrolling input since readers did not reach all of their content
@@ -152,9 +152,9 @@ storytelling [@Chevalier2016], and animated transitions help show state
 changes between two different graphics, such as changing the viewport and
 showing dynamic timesteps [@Heer2007]. In studies on animated transitions,
 Heer and Robertson show animation's effectiveness for tracking
-objects [@Heer2007], Feng et. al highlight how motion changes a person's
+objects [@Heer2007], Feng et al. highlight how motion changes a person's
 affect [@Feng2014], Chang and Ungar argue that animation can increase user
-engagement for interfaces [@Chang1995], and Chevalier et. al found that
+engagement for interfaces [@Chang1995], and Chevalier et al. found that
 animating text vertically helps with reading more than page-flipping
 animations [@Chevalier2010]. Animations can fail due to the apprehension
 principle [@Tversky2002], and these detriments may be offset using
