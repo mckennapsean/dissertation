@@ -271,8 +271,6 @@ motion" [@ullman:visualMotion].
 
 ## Applying the s-CorrPlot Technique
 
-<!-- TODO address Alex's comments throughout! -->
-
 While creating the s-CorrPlot visualization technique, we worked in tandem with a biology collaborator to customize and tailor aspects of the data visualization tool for their problem: exploring correlation of gene expression datasets [@mckenna2015s].
 Biologists often analyze the correlation of **gene expression** --- how much a
 gene is turned on or off in a cell --- across datasets to gain
@@ -294,8 +292,7 @@ he wants to correlate and study.
 
 
 His typical study involves several dozen observations, and approximately 10,000
-to 100,000 variables.
-\al{why so many? need to explain brain regions x genes}
+to 100,000 variables, where each variable is a measurement of expression from a gene or exon and observations across different brain regions and subjects.
 The state-of-the-art approach for studying the
 correlation of gene expression is weighted gene co-expression network analysis
 (WGCNA) [@langfelder2008wgcna; @oldham2008functional; @winden2009organization].
@@ -312,7 +309,11 @@ size of datasets that our collaborator struggles to analyze.
   dataset, genes and exons have been colored according to two different
   brain regions in which the expression levels were measured, resulting in
   separate and combined overlay visualizations. The s-CorrPlot highlights different
-  patterns of correlation in each of these brain regions, indicating
+  patterns of correlation in each of these brain regions due to the
+  gene and exon expression patterns varying on a global scale, i.e., the blue
+  and red regions of these plots show different patterns, distributions, and
+  clusters across the two regions.
+  This indicates
   potentially significant differences in their biological processes.
 ](figures/scorrplot/case-studies.pdf){#fig:gene-case-study width="100%"}
 
@@ -339,12 +340,9 @@ gene expression and the function of the two brain regions.
 
 
 Using a different dataset, our collaborator visualized
-the expression levels of different exons in the same two brain
+the expression levels of 120,000 exons across the same two brain
 regions, as shown in the bottom-half of
 [@fig:gene-case-study].
-\al{how many samples? why many samples? what are they?} \al{what is the
-data? why do exon level comparison?} \al{is exon level useful, why?} \al{are you
-comparing exons from different genes?}
 This particular dataset contains
 60,000 exons in each brain region, for a total of 120,000
 variables, with each variable containing
@@ -367,12 +365,11 @@ field. These observations have prompted him to design follow-up
 computational studies and wet-lab experiments,
 fueled by hypotheses, which are formed by his use
 of the s-CorrPlot for correlation analysis.
-He commented:
+Based on [@fig:gene-case-study], he commented:
 _"This is revealing new brain-region specific patterns in the data
   that we were completely unaware of. It offers the potential for deriving
   entirely new hypotheses about the functional relationships between genes
   in different brain regions that we can test experimentally."_
-\al{clarify on what BR-specific patterns are?}
 
 
 
