@@ -56,18 +56,9 @@ notion.
 
 
 
-## Design Activity Framework
+## Scoping the Design Activity Framework
 
-Throughout our redesign project, we worked closely as a design team composed of
-designers, a psychologist, and visualization experts. Our different perspectives
-and experience led to a richer and more informed design process. When working
-together, we found that having common terms and definitions for design was
-critical in promoting effective and efficient communication among all members
---- as such, we spent significant time and effort learning from each other to
-better understand, and speak in, each other's domain languages [@Kirby2013].
-This effort allowed us to synthesize the ideas and perspectives on the design
-process from several different fields into the design activity framework.
-
+(specificity to vis? audience? vis theory components?)
 
 As a process model, the main goal of the design activity framework is to guide
 visualization designers through a design process. We believe that the framework
@@ -149,6 +140,53 @@ to further explore the role of design for visualization.
 
 
 
+
+
+## Case Study: Working in Design Teams
+
+Throughout our redesign project, we worked closely as a design team composed of
+designers, a psychologist, and visualization experts. Our different perspectives
+and experience led to a richer and more informed design process. When working
+together, we found that having common terms and definitions for design was
+critical in promoting effective and efficient communication among all members
+--- as such, we spent significant time and effort learning from each other to
+better understand, and speak in, each other's domain languages [@Kirby2013].
+This effort allowed us to synthesize the ideas and perspectives on the design
+process from several different fields into the design activity framework.
+
+Development, working in teams, challenges, (mention agile stuff again?).
+
+
+
+
+
+
+
+
+## Case Study: Role of Multiple Design Channels
+
+(pull in discussion from paper...)
+
+
+
+
+
+## Evaluating with Design Activity Worksheets
+
+(pull in content from chapter ...)
+
+First iteration on the worksheets, needs to be used more times, incorporated in the class more, workshops, and realize some of the changes that students identified. More guidance on SWE and team-work. Is it tied to having a good mentor? Is a mentor the most critical part? Could analyze more quantitatively over time.
+
+Worksheet accessibility, on the web, ideas for future work include interactive guidance on methods, building timelines. Good to give meta-view of project, and provide guidance for students picking own methods rather than just following checklist alone. Need to spread their wings.
+
+Validation, evaluation, with worksheets, with someone/me as a mentor, limitations. Important to find best ways to teach many students. Future work.
+
+Additional challenges to teaching this in a classroom... Tangibility of sketching, alternative approaches to help students learn how to do this well. Scaling to classroom size (critique, feedback, mentorship). Justification for linearization of approaches. Workshops in classroom, constraints, time, etc.
+
+
+
+
+
 ## User-Centered Design Methods
 
 In our case studies, we demonstrated how user-centered design methods can be
@@ -169,4 +207,13 @@ effective visualization tools across domains, users, data, and tasks.
 
 
 
-## Design Activity Worksheets
+
+
+## Reflections on Types of Research
+
+DAF can extend certain aspects to tech. and eval. work. Can formalize these adaptations to see if there is a way to reshape the DAF as needed.
+
+Not all research in vis is design studies. Need to think about the role vis design plays in other aspects as well. Still important to teach, guide, and solidify common terms/names for things when working with teams. Importance of interdiscp. work.
+
+Import to reflect and work with others, validate outside of just academic vis, consider vis in industry, other academic environments, beyond just infovis but scivis, etc. Checking in with product teams to see impact of SWE on the process? Overlap, etc.
+
