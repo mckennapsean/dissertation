@@ -375,9 +375,35 @@ effective visualization tools across domains, users, data, and tasks.
 
 ## Reflections on Types of Research
 
-DAF can extend certain aspects to tech. and eval. work. Can formalize these adaptations to see if there is a way to reshape the DAF as needed.
+As illustrated in [@sec:reflections], the design activity framework has the ability
+to encompass and represent other types of research beyond application-driven work,
+such as technique-driven or evaluative research projects. These projects are just
+the beginning toward formalizing adaptations of the design activity framework
+for these styles of research. For example, custom worksheets for research activities
+within these approaches, with varying artifacts and suggested methods, could be
+created, utilized, and validated.
+It may be necessary to reshape the design activity framework and concepts within
+for these different research modes.
+This is an interesting avenue for future work
+to explore and shed further light on the connection of research activities, such as
+reflection, learning, and writing [@Sedlmair2012b; @McCurdy2016], and where they fit in the broader
+context of visualization design.
 
-Not all research in vis is design studies. Need to think about the role vis design plays in other aspects as well. Still important to teach, guide, and solidify common terms/names for things when working with teams. Importance of interdiscp. work.
 
-Import to reflect and work with others, validate outside of just academic vis, consider vis in industry, other academic environments, beyond just infovis but scivis, etc. Checking in with product teams to see impact of SWE on the process? Overlap, etc.
+Visualization design, from experiments to systems to encoding or interaction techniques, plays a role
+in visualization research beyond just that of design studies. Researchers may often still
+work in teams and receive benefit from common terminologies for the research
+activities they perform. However, it is also unclear if the design activity framework
+is the appropriate model for all these kinds of work, so new models or extensions may be needed.
+Future work should explore these facets and consider how to best teach, guide, and support
+visualization novices in all aspects of visualization design.
+
+
+It is also important to adapt this framework and process beyond academia and pedagogy,
+to better understand how visualization designers
+work in industry and on product teams to build visualization tools and systems.
+It may be necessary to adopt more applicable or succinct terminology for such
+applications, and these modifications could benefit the design activity framework
+as a process model for a whole variety of interdisciplinary visualization projects engaging
+members like visual designers, data visualization experts, and software engineers.
 
