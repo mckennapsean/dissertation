@@ -1,7 +1,5 @@
 # Reflecting on the Types of Research for the Framework {#sec:reflections}
 
-<!-- TODO \sm{add details from these works, as needed, into appendix: derivations, design space?} -->
-
 Role of design and research (cite some papers here), design can be conducted with research, overlapping nature (better wording).
 Research is not just about papers, but about broader activities.
 DSM, as a model for activities in a research process, and reflection and learning from ADR.
@@ -15,6 +13,11 @@ In this work, the design activity framework can be used to frame the steps of ex
 Overall, we found that the design activity framework can support thinking about other types of research beyond just design studies and problem-driven work that existing design models supported.
 
 <!--At first, we pursued a design study in the field of biology, working with a research lab studying mouse genetics through correlation. With a statistics researcher, we created a new technique, the s-CorrPlot, to encode correlation of large datasets in a scatterplot [@mckenna2015s]. However, this project did not yield a successful design study, since our collaborators could not go beyond exploration or basic hypothesis generation with the tool. Upon reflection, we realized that we were driven to build this tool for a novel technique, not to support the needs of the researchers.-->
+
+<!-- TODO check and clean all refs from this chapter! -->
+<!-- TODO fix figure placement? all at the end, wtf? -->
+<!-- TODO how many details or things should I include in the appendix? derivatives? corpus table? etc? -->
+
 
 
 
@@ -561,7 +564,7 @@ with technology.
 ### Design Space for Visual Narrative Flow
 
 Here we introduce seven factors that contribute to visual narrative flow along
-with illustrations of the various properties for each flow-factor.
+with illustrations of the various properties for each flow-factor as in [@fig:design-space].
 These factors were identified through a series of individual consumption sessions, group discussions, and informal coding of a corpus containing 80 stories, referred to with _S-#_ [@mckenna2017].
 This design
 space framework captures aspects of flow like a reader's input, connection of
@@ -571,13 +574,17 @@ story genres and narrative approaches [@Segel2010]. However, these flow-factors 
 otherwise initially possible.
 
 
-![](figures/narrative-flow/ds-input.pdf){width="100%"}
+![
+  The seven flow-factors for visual narrative flow, identified by analyzing
+  and coding a corpus of 80 visual data stories. Each flow-factor contains
+  multiple properties which are not necessarily mutually exclusive and hybrids
+  can and often do occur in data visualization stories created by authors.
+](figures/narrative-flow/design-space.pdf){#fig:design-space width="100%"}
 
-<!-- TODO check, can we include just figures without a caption or is that not allowed? -->
 
 **Navigation input** is how a reader interacts to progress through a
 narrative visualization. For example, an author can choose to use scrolling
-input to move down a document, like in _S-51_ in [@tab:corpus].
+input to move down a document, like in _S-51_ in the story corpus [@mckenna2017].
 Another input mechanism is a button, which corresponds to a click, tap, or
 keyboard press e.g., _S-4_. Another element, though rare, is a slider,
 where a reader can select and drag to choose where they wish to be in the story.
@@ -586,8 +593,6 @@ combined in a story. For example, _S-79_ combines both buttons with a
 slider in a timeline chart. Such a hybrid approach shows how the line between a
 stepper and scroller does not need to be rigid in terms of reader input.
 
-
-![](figures/narrative-flow/ds-control.pdf){width="100%"}
 
 **Level of control** corresponds to how much control a reader has over
 the motion or animated transitions of story components. For these levels of
@@ -605,8 +610,6 @@ as more specific, data-relevant motion that preserves data context across or
 within visualizations.
 
 
-![](figures/narrative-flow/ds-progress.pdf){width="100%"}
-
 **Navigation progress** describes how the reader perceives their placement
 within the entire story. Not all stories may show navigation progress, relying
 on the implied progress of a scrollbar. Otherwise, stories may showcase this
@@ -617,8 +620,6 @@ progress, such as a path on a small multiple map as utilized in _S-18_.
 These progress widgets can also be combined with button input for navigation.
 
 
-![](figures/narrative-flow/ds-layout.pdf){width="100%"}
-
 **Story layout** captures both the type of layout model and the number of
 columns used in the story. Stories commonly utilize a single- or two-column
 approach, but these can be mixed as in _S-44_, which changes the layout
@@ -628,8 +629,6 @@ where this example looks like a slideshow stepper but uses different
 animations and scrolling for input. These layout models are similar to steppers
 and scrollers.
 
-
-![](figures/narrative-flow/ds-role.pdf){width="100%"}
 
 **Role of visualization** examines the purpose and the part that
 visualizations serve with respect to the entire story. There are aspects of this
@@ -645,8 +644,6 @@ telling a story, with text primarily annotating the visual story, such as the
 animated chart in _S-16_.
 
 
-![](figures/narrative-flow/ds-progression.pdf){width="100%"}
-
 **Story progression** categorizes the possible story paths which can occur
 in a story, such as linear story points, skipping between, or more complex
 paths. The most common story type we observed is linear, where a reader is
@@ -657,8 +654,6 @@ stepper in _S-9_. A story can also contain more complex story paths, such
 as a tree style or graph to include cycles or loops, and a good example is
 _S-29_, a visual, interactive story about how neurons work.
 
-
-![](figures/narrative-flow/ds-feedback.pdf){width="100%"}
 
 **Navigation feedback** combines animated transitions with additional
 animations of story text or other components, such as fading or movement. This
