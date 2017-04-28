@@ -1,19 +1,5 @@
 # Discussion and Future Work {#sec:discussion}
 
-<!--
-TODO concerns from committee:
-
-- specificity to vis, audience
-- emphasize key vis-theory components, list nested model and extension of the 9-stage framework for design studies
-- interactive method or timeline guidance
-- web accessibility
-- validation, dependence on you
-- freedom of the framework/worksheets
-- how do you coordinate with teams? development, etc.
-- with other designers / product teams, how does this apply?
-
--->
-
 The design activity framework lays ground work for further research into the
 space connecting creative design with engineering design.
 ...
@@ -188,10 +174,12 @@ grades across the course [@Roberts2015]. The design worksheets could also be
 integrated more tightly with course content, through the use of design workshops
 or other assignments. By implementing some of the requested changes to the
 worksheets, their pedagogical value could increase by enabling students to more
-effectively find and assess datasets, work more effectively in a team, or better outline and develop code. Lastly,
-a key factor would be to measure the performance of the worksheets with more
-students over time to assess their validity and use for more types of students
-beyond those that volunteer to participate.
+effectively find and assess datasets, work more effectively in a team, or better outline and develop code.
+Another core aspect to design is its iterative nature, and more study could be
+conducted on iteration and its use, benefits, and limitations in visualization
+design projects. Lastly,
+another key factor would be to measure the performance of the worksheets with more
+students over time to assess their validity and use for more types of students.
 
 
 Additional future work involves increasing accessibility of the design worksheets
@@ -216,7 +204,10 @@ One limitation of the evaluation for the design worksheets is the role of the
 mentor that coincided as the evaluator for the interviews. Due to limitations of
 time and availability throughout the project and to perform the evaluation, this
 was necessary, but we acknowledge that more robust evaluation would involve
-additional mentors or evaluators. One challenge is separating out the role of
+additional mentors or evaluators.
+Another future evaluation method is to interview visual designers on product
+teams in industry to assess with heuristics or gather feedback on the utility, usefulness, and impact of the design worksheets.
+One challenge is separating out the role of
 the mentor, would student groups have been as successful or confident going
 through their visualization design process? We determined that this interference
 was critical to maximize the potential knowledge we could obtain from utilizing
