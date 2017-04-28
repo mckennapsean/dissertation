@@ -1,18 +1,45 @@
 # Reflecting on the Types of Research for the Framework {#sec:reflections}
 
-Role of design and research (cite some papers here), design can be conducted with research, overlapping nature (better wording).
-Research is not just about papers, but about broader activities.
-DSM, as a model for activities in a research process, and reflection and learning from ADR.
-In data and infovis research projects, a primary goal and driver is the desired outcome, a specific paper type, of which Munzner identifies five: technique, design study, systems, evaluation, and model [Process and pitfalls].
-In this dissertation, the primary type of research focused on is design study, application-driven work, designing and building tools for cyber security developers, analysts, and managers [].
-In this chapter, we focus on other types of research, specifically technique and evaluation research.
-For technique-driven research, we worked with a statistician to develop a new method for encoding correlation data in a projection coupled with an interactive system to explore these correlation projections [@mckenna2015s].
-We reflect on this technique with regard to the design activities that lead to the creation of the technique, and we pinpoint some of the failures found in our application of existing design models at the time.
-For evaluation driven research, we conducted an exploration into a design space for visual narrative story flow, coupled with some initial studies into a few types of flow like steppers and scrollers [@mckenna2017].
-In this work, the design activity framework can be used to frame the steps of experimental design, despite the inability of existing process models, such as the 9-stage framework for design studies, to map to this same process.
-Overall, we found that the design activity framework can support thinking about other types of research beyond just design studies and problem-driven work that existing design models supported.
+In practice, visualization design can have implications for research and be a
+research activity in itself, such as multiple approaches to conduct research
+through design in HCI [@Gaver2012; @Obrenovic2011] or the application of action
+design research to the process of creating visualization systems [@McCurdy2016].
+For example, the design study methodology model includes research aspects, such
+as reflection and writing publications [@Sedlmair2012b], and action design
+research would similarly emphasize such reflection and learning throughout the
+visualization design process [@McCurdy2016]. It is important to think about
+other types of research and design, beyond design studies or application-driven
+work. Munzner identified a series of publication types for the field of data
+visualization: technique, design study, systems, evaluation, and model
+[@Munzner2008], which is similar to different kinds of research contributions as
+in the field of HCI [@Wobbrock2012]. Throughout this dissertation, the primary
+type of research explored is a design study or application-driven work, where we
+designed and built tools for cyber security developers, analysts, and managers
+[@McKenna2014; @McKenna2015; @mckenna2016].
 
-<!--At first, we pursued a design study in the field of biology, working with a research lab studying mouse genetics through correlation. With a statistics researcher, we created a new technique, the s-CorrPlot, to encode correlation of large datasets in a scatterplot [@mckenna2015s]. However, this project did not yield a successful design study, since our collaborators could not go beyond exploration or basic hypothesis generation with the tool. Upon reflection, we realized that we were driven to build this tool for a novel technique, not to support the needs of the researchers.-->
+
+In this chapter, we focus on the implications of the design activity framework
+other types of visualization research, specifically technique and evaluation
+research. For technique-driven research, we worked with a statistician and
+biology collaborators to develop a new method for encoding correlation data in a
+projection coupled with an interactive system to explore these correlation
+projections [@mckenna2015s]. We reflect on the application of this technique to
+our biology collaborators' challenges, to explore large datasets which current
+visualization methods for correlation did not scale appropriately. As a result
+of analyzing this project through the design activity framework, we pinpoint
+some of the pitfalls we fell into that previous visualization design models
+failed to effectively capture.
+
+
+For evaluation-driven research, we conducted an exploration and evaluation into
+a design space for visual narrative story flow, coupled with some initial
+studies into a few types of flow like steppers and scrollers [@mckenna2017]. In
+this work, the design activity framework can be used to frame the steps of
+experimental design, despite the inability of existing process models, such as
+the 9-stage framework for design studies [@Sedlmair2012b], to map to this same
+process. Overall, we found that the design activity framework can support
+thinking about other types of research beyond just design studies and
+problem-driven work unlike existing visualization design models.
 
 <!-- TODO check and clean all refs from this chapter! -->
 <!-- TODO fix figure placement? all at the end, wtf? -->
