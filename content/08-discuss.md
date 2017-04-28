@@ -132,7 +132,7 @@ to further explore the role of the design activity framework for visualization d
 
 ## Redesign Case Study: Working in Design Teams
 
-Throughout our redesign project, we worked closely as a design team composed of
+Throughout our redesign project in [@sec:formulation], we worked closely as a design team composed of
 designers, a psychologist, and visualization experts. Our different perspectives
 and experience led to a richer and more informed design process. When working
 together, we found that having common terms and definitions for design was
@@ -141,8 +141,28 @@ critical in promoting effective and efficient communication among all members
 better understand, and speak in, each other's domain languages [@Kirby2013].
 This effort allowed us to synthesize the ideas and perspectives on the design
 process from several different fields into the design activity framework.
+Conversely, we coined these terms to help future visualization design teams with
+a common set of definitions and terminology that can be used for communicating
+specific aspects as well as an overview of their design process, as in the form
+of design timelines.
 
-Development, working in teams, challenges, (mention agile stuff again?).
+
+Working in design teams can provide its own set of challenges and obstacles.
+For example, this project involved an entirely separate developer role that had
+limited communication with the design team, so the decisions and changes to the
+tool and code were made entirely by the company. By reflecting on how industry
+and product teams conduct similar processes, say with agile methodologies [@Abran2001; @AgileManifesto2001],
+this is clearly a very different approach. In these teams, the designers will often
+work hand-in-hand with the developers to identify potential areas for improvement
+and features for a sprint or development cycle. This redesign project was a
+special case, since we were invited to partake in the project specifically for our outside
+experience and knowledge, but integration of design and development teams can increase
+communication and realization of ideas and potentially address more user needs
+than if these teams work separately and with little communication. By having teams
+work together or comprehend the design activities and visualization artifacts
+more completely, this approach could possibly increase the level of communication across
+teams and have a higher rate of impact when utilizing a common framework to discuss and present
+aspects of visualization design.
 
 
 
