@@ -14,15 +14,6 @@ TODO concerns from committee:
 
 -->
 
-<!--
-TODO ideas from vizit cards paper:
-  include discussion on tangibility of sketching, alternative approaches
-  scalability to classroom size?
-  justification of linear
-  workshop, constraints, time
-  may need feedback, like eval, from others to help teach
--->
-
 The design activity framework lays ground work for further research into the
 space connecting creative design with engineering design.
 ...
@@ -58,9 +49,18 @@ notion.
 
 ## Scoping the Design Activity Framework
 
-(specificity to vis? audience? vis theory components?)
+The design activity framework is one approach to capture steps of the visualization
+design process, and we have argued that one of its benefits over existing models
+is not only its increased actionability in a wide array of projects but its
+ability to teach and comprehensibility for visualization design novices. By
+extending the core design phases of the 9-stage framework for visualization
+design studies, the design activity framework inherits many of the connections
+to existing design study projects, while also considering the broader applications
+of visualization design. Another key component is its connection to the _what_ and _why_ of visualization design: design decisions.
+By highlighting connections to the nested model, the design activity framework supports visualization designers to carefully and methodically identify appropriate methods for validating and evaluating visualization artifacts in any activity.
 
-As a process model, the main goal of the design activity framework is to guide
+
+As a process model, the primary goal of the design activity framework is to guide
 visualization designers through a design process. We believe that the framework
 will be useful to those with a broad range of expertise. The actionability of
 the framework stems from the inclusion of more than just activities and methods,
@@ -75,8 +75,10 @@ visualization work, we could not identify a concrete reason why it could not be
 useful for technique-driven work as well; this extension presents interesting,
 future work.
 
+<!-- TODO is it 9-stage or nine-stage? consistency... -->
 
-The framework supports a large amount of flexibility by enabling and emphasizing
+
+The framework promotes increased design process flexibility by enabling and emphasizing
 a workflow that includes both the nesting of activities and activities occurring
 in parallel. As shown in [@fig:timeline], the design activity framework can
 represent a process where many activities are pieced together in different ways
@@ -114,7 +116,7 @@ apart specific activities, adding new activities, or making the connection to a
 different design decision model.
 
 
-We present a novel visualization design process model, the design activity
+In this dissertation, we have presented a novel visualization design process model, the design activity
 framework, which begins to address the messy, iterative, and multilinear process
 of real-world visualization design. The overall goal of this work is to help
 guide visualization designers through the design process, encourage
@@ -122,21 +124,21 @@ visualization designers to consider new design methods for generation or
 evaluation, and assist the compact communication of a design process, as in
 [@fig:timeline]. We consider all design models to be a work-in-progress, and the
 design activity framework is by no means excluded. Further validating this
-framework against additional visualization design projects remains an
+framework against additional visualization design projects and in more pedagogical settings remains an
 interesting avenue for future work.
 
 
 There are a number of additional open questions for future work. For example, we
 established this framework from a problem-driven methodology, and it would be
-useful to rigorously, but cautiously, validate the use of the framework for a
-technique-driven approach. Furthermore, in the list of exemplar methods we
+useful to rigorously, but cautiously, validate the use of the framework for more
+technique-driven projects. Furthermore, in the list of exemplar methods we
 include novel methods for visualization design, but the utility and
 effectiveness of these methods for designing a visualization system have yet to
 be tested and verified. There are also a series of challenges yet to be
 addressed by most visualization process models: Where should I go next in the
 process? What method is the best for my situation? When do I know my design is
 effective enough? We believe these future directions provide rich opportunities
-to further explore the role of design for visualization.
+to further explore the role of the design activity framework for visualization designers.
 
 
 
