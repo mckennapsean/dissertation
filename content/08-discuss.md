@@ -335,15 +335,24 @@ In our case studies, we demonstrated how user-centered design methods can be
 both efficient and effective for visualization design. Specifically, we
 highlighted the projects' visualization artifacts, guiding motivations, and
 final results as a result of each method: qualitative coding, personas, and data
-sketches.
+sketches. When performing these methods, we noted that the motivations and
+visualization artifacts aligned well with the activities of the design activity
+framework, both _understand_ and _ideate_. We note that these methods can also
+be used in other activities, e.g., qualitative coding can be used as an
+evaluative method paired with other techniques in any activity and data sketches
+could also be utilized in the _make_ activity when parallel prototypes are being
+built and tested using this approach.
 
 
 User-centered design methods can help a designer establish user needs, uncover
-design opportunities, and evaluate ideas. The three design methods discussed in
-this paper can incorporate any varied number of users. We encourage future
+design opportunities, and evaluate ideas,
+and these types of design methods can be particularly useful in the early stages
+of _understand_ and _ideate_ for the visualization design process.
+The three design methods discussed in
+[@sec:formulation; @sec:security] can involve any varied number of users. We encourage future
 visualization design projects to broaden the methodologies, methods, and
 techniques at their disposal in order to more completely explore the design
-space. Ultimately, embracing user-centered design methods and the importance of
+space for visualization. Ultimately, embracing user-centered design methods and the importance of
 the design process will help us as a community be more efficient at building
 effective visualization tools across domains, users, data, and tasks.
 
