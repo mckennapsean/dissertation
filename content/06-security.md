@@ -1051,7 +1051,7 @@ remain important for continuing operational deployment.
 
 
 
-## Reflections
+## Reflections on the BubbleNet Dashboard
 
 We uncovered a set of implications for dashboard visualization of cyber security
 data which others can use. First, analysts want details of the data whereas
@@ -1064,52 +1064,6 @@ and pivot data to find novel insights, and a map is one way to scaffold a
 visualization into other kinds [@Marai2015]. Fourth, fast hover-over
 interactions are very appropriate to reduce the number of required clicks to
 pivot visualizations using animation and provide quick details-on-demand.
-
-
-Upon reflecting on this design study, we realized that winnowing and casting of
-user roles[@Sedlmair2012b] occurred later in the user-centered design process
-highlighted in [@fig:process]. Unlike a typical design study, there was very
-limited time from a single set of domain experts. By reviewing previous detailed
-cognitive studies of users and through interviews, personas were crafted to
-identify different potential users [@McKenna2015]. As a result, users were
-winnowed into two types, analysts and managers. This approach was motivated by
-domain constraints: limited access to users and data.
-
-
-Another reason behind this unique design process is due to the task of
-presentation. Presentation inherently involves two or more parties, so it could
-involve users beyond a data analyst. In a design study methodology, Sedlmair et
-al. describe several different kind of collaborator roles, such as front-line
-analysts and gatekeepers [@Sedlmair2012b]. Alternative collaborator roles have
-been identified, such as liaisons [@Bertini2015] which bridge visualization
-research to complex domains. While we worked with several liaisons, the user
-personas identified four kinds of users where only one, the network analyst, is
-a domain expert in cyber security. Other users, such as network managers, have
-some domain knowledge, but there was clearly another domain at work here: an
-organizational domain. Large organizations need to disseminate information up a
-chain of command in order for decisions to be made and passed down
-[@McKenna2015]. With multiple domains and types of users, this work challenges
-the role of a single domain expert as the optimum collaborator. It is important
-to identify these different user roles and design tools which adapt to their
-needs.
-
-
-Lastly, working in the cyber security domain has benefited from the multiple
-discourse channel approach [@Wood2014] as highlighted in [@fig:process]. By
-reflecting on our design process, this multiple channel approach is particularly
-beneficial with the unique design constraints we faced: limited access to users
-and data, multiple types of users, and balancing trade-offs to deploy tools. The
-design of BubbleNet occurred within the second channel at a research
-organization, but this design would not have been as successful without the
-design methods and knowledge gained from the other channels. For example, the
-third channel represents a collaboration with a university network analyst which
-enabled us to validate abstractions of network security data and critically
-changed BubbleNet's location view. By working at an operational organization in
-the fourth channel, BubbleNet's design influenced and inspired new encodings to
-be implemented by a team of developers, leading to operational tool deployments.
-As discussed in [@sec:eval], deploying a tool is a complex process which
-involves further design trade-offs, but it is important to discuss these aspects
-to help further the field of visualization and get tools in the hands of users.
 
 
 However, the BubbleNet dashboard is not the end of research or development into

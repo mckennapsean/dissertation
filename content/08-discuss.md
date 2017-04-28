@@ -142,7 +142,7 @@ to further explore the role of design for visualization.
 
 
 
-## Case Study: Working in Design Teams
+## Redesign Case Study: Working in Design Teams
 
 Throughout our redesign project, we worked closely as a design team composed of
 designers, a psychologist, and visualization experts. Our different perspectives
@@ -163,9 +163,59 @@ Development, working in teams, challenges, (mention agile stuff again?).
 
 
 
-## Case Study: Role of Multiple Design Channels
+## BubbleNet Case Study: Casting, Collaborator Roles, and Discourse Channels
 
-(pull in discussion from paper...)
+Upon reflecting on the BubbleNet design study in [@sec:security], we realized that winnowing and casting of
+user roles[@Sedlmair2012b] occurred later in the user-centered design process
+highlighted in [@fig:process]. Unlike a typical design study, there was very
+limited time from a single set of domain experts. By reviewing previous detailed
+cognitive studies of users and through interviews, personas were crafted to
+identify different potential users [@McKenna2015]. As a result, users were
+winnowed into two types, analysts and managers. This approach was motivated by
+domain constraints: limited access to users and data. Furthermore, the design
+activity framework highlights where the winnowing and casting of user roles
+occurred, when revisiting personas in the _understand_ activity, and these same
+users were incorporated when evaluating the dashboard in _make_ with a usability
+study. The design process figure, when incorporating these multiple channels
+succinctly show where and how users were involved with different generative or
+evaluative methods as well as deployments.
+
+
+Another reason that led this project to its own unique design process is due to the task of
+presentation. Presentation inherently involves two or more parties, so it could
+involve users beyond a data analyst. In a design study methodology, Sedlmair et
+al. describe several different kind of collaborator roles, such as front-line
+analysts and gatekeepers [@Sedlmair2012b]. Alternative collaborator roles have
+been identified, such as liaisons [@Bertini2015] which bridge visualization
+research to complex domains. While we worked with several liaisons, the user
+personas identified four kinds of users where only one, the network analyst, is
+a domain expert in cyber security. Other users, such as network managers, have
+some domain knowledge, but there was clearly another domain at work here: an
+organizational domain. Large organizations need to disseminate information up a
+chain of command in order for decisions to be made and passed down
+[@McKenna2015]. With multiple domains and types of users, this work challenges
+the role of a single domain expert as the optimum collaborator. It is important
+to identify these different user roles and design tools which adapt to their
+needs, and the design activity framework, especially the _understand_ worksheets,
+pushes on these concepts.
+
+
+Lastly, working in the cyber security domain benefited from the multiple
+discourse channel approach [@Wood2014] as highlighted in [@fig:process]. By
+reflecting on our design process, this multiple channel approach is particularly
+beneficial with the unique design constraints we faced: limited access to users
+and data, multiple types of users, and balancing trade-offs to deploy tools. The
+design of BubbleNet occurred within the second channel at a research
+organization, but this design would not have been as successful without the
+design methods and knowledge gained from the other channels. For example, the
+third channel represents a collaboration with a university network analyst which
+enabled us to validate abstractions of network security data and critically
+changed BubbleNet's location view. By working at an operational organization in
+the fourth channel, BubbleNet's design influenced and inspired new encodings to
+be implemented by a team of developers, leading to operational tool deployments.
+As discussed in [@sec:eval], deploying a tool is a complex process which
+involves further design trade-offs, but it is important to discuss these aspects
+to help further the field of visualization and get tools in the hands of users.
 
 
 
