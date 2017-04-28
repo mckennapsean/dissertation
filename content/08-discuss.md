@@ -1,35 +1,33 @@
 # Discussion and Future Work {#sec:discussion}
 
 The design activity framework lays ground work for further research into the
-space connecting creative design with engineering design.
-...
-
-
+space connecting creative and engineering processes [@Lowgren1995; @Howard2008; @Wolf2006; @Moere2011] for visualization design.
+By building off of existing models in the field [@Sedlmair2012b; @Munzner2009; @Meyer], the design activity framework
+retains the application and benefits from these existing models while also extending its
+scope to other kinds of situations and visualization projects.
 The design activity framework is by no means complete. Future projects may
-reveal subtle aspects and new meanings to what visualization artifacts can mean
-for a project.
-...
-The design activity can and should evolve over time to adapt to more kinds of
-visualization design projects to keep its use valid with how systems are
+reveal new aspects such as crucial activities for visualization design or different kinds of visualization artifacts.
+The design activity framework can and should evolve over time to adapt to more kinds of
+visualization design projects to keep its use valid with how visualization systems are
 designed for users.
 
 
-More work still needs to be done to continue the validation of this framework.
-While this dissertation presents several case studies to support the design
-activity framework, there are still other models out there to be considered and
-validated as well. Different people may work better with other models or by
-adapting existing ones, from the visualization field or otherwise.
-...
+In this chapter, we first explore the necessary scoping, limitations, and avenues for future work
+based on the design activity framework. Next, we discuss implications from
+the first case study, a cyber security redesign project.
+More work still needs to be done to continue the validation of this framework,
+and we explore the limitations of the evaluation techniques used for design worksheets in the classroom.
+Following this discussion, we focus on insights gained in our second
+case study for cyber security on the topics of winnowing users,
+casting roles for collaborators, and utilizing multiple discourse
+channels for visualization design.
+Throughout both case studies, the use of user-centered design methods impacted
+both projects positively and connect back to the design activity framework.
+Lastly, while the design activity framework could apply to other
+types of research beyond application-driven design study projects,
+more examination and validation is required to investigate this notion.
 
 
-Lastly, the distinction between technique-driven work and problem-driven work
-provides another interesting challenge for design models. This work focused
-heavily on problem-driven work, with a few case studies where techniques did
-come out of them.
-...
-While we believe the design activity framework can have connections with
-technique-driven work, more study and validation is required to investigate this
-notion.
 
 
 
