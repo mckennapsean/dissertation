@@ -160,6 +160,114 @@ Development, working in teams, challenges, (mention agile stuff again?).
 
 
 
+## Evaluating with Design Activity Worksheets
+
+When using the design activity worksheets in the classroom, we observed how these materials taught students how to perform visualization
+design, guiding them through actionable steps, and facilitating effective
+visualization design discussions both within a group and with their mentor. As
+students highlighted: "In having that methodically prescribed ... you break down
+the process into those clear steps, ... it is an intuitive flow", "This was
+really good guidance for us ... well categorized for the beginner", "It was
+my first time doing something at this scale, and I didn't know where to start.
+It was nice to have steps along the way", and "We considered more options
+than we would have", which demonstrated the benefit of generating ideas.
+Despite the many improvements that can be made, we see the use of these design
+worksheets as a success for teaching the visualization design process to
+students in their cumulative projects.
+
+
+This work explored utilizing the worksheets in a visualization course for the
+first time, and plenty of work lies ahead in their use as a teaching methodology
+for visualization design. For example, one avenue of future work is to continue
+improving and using the worksheets each year in the visualization course.
+Additionally, more methods for evaluating the usefulness of the materials could
+be made, such as performing a grading analysis across students' worksheets and
+grades across the course [@Roberts2015]. The design worksheets could also be
+integrated more tightly with course content, through the use of design workshops
+or other assignments. By implementing some of the requested changes to the
+worksheets, their pedagogical value could increase by enabling students to more
+effectively find and assess datasets, work more effectively in a team, or better outline and develop code. Lastly,
+a key factor would be to measure the performance of the worksheets with more
+students over time to assess their validity and use for more types of students
+beyond those that volunteer to participate.
+
+
+Additional future work involves increasing accessibility of the design worksheets
+as a pedagogical material. While the existing materials have been deployed online,
+the resources, worksheets, and timelines are only presented as static materials
+or examples. By building these materials into an interactive system, a team could
+more effectively plan and coordinate their work on a visualization project. For
+example, the checklist or worksheets could provide questions or hints on demand,
+when someone fills in their answers into a system, and this system could even
+dynamically interact and suggest new generative or evaluative methods based on
+the students' input. On the other hand, this system could provide automatic
+generation of project timelines using the design activity framework, to support
+actionability of using this framework to judge where you are and where you should be.
+This meta-view of a project could help guide students by asking additional questions
+on their status and success, to suggest activities to pursue next. These accessible,
+interactive visualization design process systems could help train visualization
+designers and possibly scaffold this process with new design methods as students
+learn and grow.
+
+
+One limitation of the evaluation for the design worksheets is the role of the
+mentor that coincided as the evaluator for the interviews. Due to limitations of
+time and availability throughout the project and to perform the evaluation, this
+was necessary, but we acknowledge that more robust evaluation would involve
+additional mentors or evaluators. One challenge is separating out the role of
+the mentor, would student groups have been as successful or confident going
+through their visualization design process? We determined that this interference
+was critical to maximize the potential knowledge we could obtain from utilizing
+the design worksheets. By observing and clarifying aspects on the worksheets,
+we learned a lot about both the benefits and limitations of these design
+worksheets for a visualization project, and this spurred numerous insights
+and improvements to be made on future iterations of the worksheets. Without
+these connections to each student project, the qualitative evaluation at the end
+of the course would have been significantly limited as a result, and any
+confusing aspects would have further hindered the teaching impact of the
+worksheets. Educators recognize the importance of providing students with
+solutions along the way for the steps of a project to avoid pitfalls at early stages causing
+later failures [@Zoss2016], i.e., do not punish students for failing to understand an earlier
+assignment in a later one.
+Nevertheless,
+we acknowledge that further evaluation may necessitate a separation of these
+roles to reduce potential bias and impact.
+
+
+There are many challenges when incorporating visualization design worksheets
+and exercises in the classroom. For example, some students may struggle or feel
+intimidated by being asked to sketch, especially given a time restriction.
+Unfortunately, many classrooms have designated schedules and limited time slots,
+so the workshops or exercises must be completed in the time allotted, but many
+visualization exercises take longer than expected to execute [@Rheingans2016].
+Another element to consider is the role of tangibility in sketching visualization designs,
+and incorporation of these tangible visualization principles could be used within
+the design activity worksheets. As classroom sizes increase, it is important to
+reconsider how design critiques, feedback, and mentorship are conducted [@Beyer2016; @VonLandesberger2016; @Hearst2016].
+For example, with online learners in the hundreds or thousands, peer review, critique, and feedback
+can help mitigate some of these challenges [@Beyer2016], while also pushing students to practice
+the learned concepts in a structured fashion. As the pedagogy of data visualization design changes,
+so too must the exercises, workshops, and materials we utilize to teach these concepts.
+
+
+These visualization design worksheets are one step toward building more
+effective teaching tools for data visualization and design, but plenty of work
+lies ahead. One clear area for future work involves materials for design
+inspiration: brainstorm visualization encodings, abstractions, and tasks.
+Initial work shared by He and Adar in VizItCards [@He2017] is a step in this
+direction, and we encourage the community to continue this line of work. While
+one student used VizItCards, she would have liked to see the cards generalized
+for other visualization challenges. Furthermore, the visualization design
+process, steps, and guidance can always be improved to be more descriptive, more
+clear, and sufficiently succinct, and to encompass other design methods and
+methodologies. Other common methods for teaching are design studios [@He2017]
+and exercises [@Bertini2017], and it would be worthwhile to adapt design
+worksheets for these settings. Lastly, scaffolding these design materials from
+visualization novices to experts could provide support for the visualization
+design worksheets to grow and expand for more advanced, creative, and flexible
+use.
+
+
 
 
 
@@ -216,22 +324,6 @@ be implemented by a team of developers, leading to operational tool deployments.
 As discussed in [@sec:eval], deploying a tool is a complex process which
 involves further design trade-offs, but it is important to discuss these aspects
 to help further the field of visualization and get tools in the hands of users.
-
-
-
-
-
-## Evaluating with Design Activity Worksheets
-
-(pull in content from chapter ...)
-
-First iteration on the worksheets, needs to be used more times, incorporated in the class more, workshops, and realize some of the changes that students identified. More guidance on SWE and team-work. Is it tied to having a good mentor? Is a mentor the most critical part? Could analyze more quantitatively over time.
-
-Worksheet accessibility, on the web, ideas for future work include interactive guidance on methods, building timelines. Good to give meta-view of project, and provide guidance for students picking own methods rather than just following checklist alone. Need to spread their wings.
-
-Validation, evaluation, with worksheets, with someone/me as a mentor, limitations. Important to find best ways to teach many students. Future work.
-
-Additional challenges to teaching this in a classroom... Tangibility of sketching, alternative approaches to help students learn how to do this well. Scaling to classroom size (critique, feedback, mentorship). Justification for linearization of approaches. Workshops in classroom, constraints, time, etc.
 
 
 

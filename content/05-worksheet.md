@@ -397,7 +397,7 @@ feedback, which we explore next.
 
 
 
-## Discussion: Benefits and Limitations
+## Feedback for Improving the Worksheets
 
 To address restrictions on creativity mentioned by that last student, a key
 improvement recommended by five students was to convert the visualization design
@@ -463,38 +463,3 @@ advisor] then we had time carved out [for] doing the worksheets" (P5).
 <!-- \sm{TODO can you quantify 'several' into actual numbers?} -->
 <!-- TODO are we using the (P#?) at all here or no? a little confused here, more than one -->
 
-
-Nevertheless, the design worksheets taught students how to perform visualization
-design, guided them through actionable steps, and facilitated effective
-visualization design discussions both within a group and with their mentor. As
-students highlighted: "In having that methodically prescribed ... you break down
-the process into those clear steps, ... it is an intuitive flow" (P2), "This was
-really good guidance for us ... well categorized for the beginner" (P3), "It was
-my first time doing something at this scale, and I didn't know where to start.
-It was nice to have steps along the way" (P4), and "We considered more options
-than we would have" (P1), which demonstrated the benefit of generating ideas.
-Despite the many improvements that can be made, we see the use of these design
-worksheets as a success for teaching the visualization design process to
-students in their cumulative projects.
-
-<!-- TODO are we using the (P#?) at all here or no? a little confused here, more than one -->
-
-
-These visualization design worksheets are one step toward building more
-effective teaching tools for data visualization and design, but plenty of work
-lies ahead. One clear area for future work involves materials for design
-inspiration: brainstorm visualization encodings, abstractions, and tasks.
-Initial work shared by He and Adar in VizItCards [@He2017] is a step in this
-direction, and we encourage the community to continue this line of work. While
-one student used VizItCards, she would have liked to see the cards generalized
-for other visualization challenges. Furthermore, the visualization design
-process, steps, and guidance can always be improved to be more descriptive, more
-clear, and sufficiently succinct, and to encompass other design methods and
-methodologies. Other common methods for teaching are design studios [@He2017]
-and exercises [@Bertini2017], and it would be worthwhile to adapt design
-worksheets for these settings. Lastly, scaffolding these design materials from
-visualization novices to experts could provide support for the visualization
-design worksheets to grow and expand for more advanced, creative, and flexible
-use.
-
-<!-- \sm{TODO feels a bit more conclusion-y/discussion-y, perhaps move last 2 paragraphs to later chapter} -->
