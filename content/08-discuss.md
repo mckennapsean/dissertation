@@ -240,7 +240,7 @@ intimidated by being asked to sketch, especially given a time restriction.
 Unfortunately, many classrooms have designated schedules and limited time slots,
 so the workshops or exercises must be completed in the time allotted, but many
 visualization exercises take longer than expected to execute [@Rheingans2016].
-Another element to consider is the role of tangibility in sketching visualization designs,
+Another element to consider is the role of tangibility in sketching visualization designs [@Huron2016; @Willett2016],
 and incorporation of these tangible visualization principles could be used within
 the design activity worksheets. As classroom sizes increase, it is important to
 reconsider how design critiques, feedback, and mentorship are conducted [@Beyer2016; @VonLandesberger2016; @Hearst2016].
