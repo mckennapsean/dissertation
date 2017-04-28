@@ -54,10 +54,10 @@ design process, and we have argued that one of its benefits over existing models
 is not only its increased actionability in a wide array of projects but its
 ability to teach and comprehensibility for visualization design novices. By
 extending the core design phases of the 9-stage framework for visualization
-design studies, the design activity framework inherits many of the connections
+design studies [@Sedlmair2012b], the design activity framework inherits many of the connections
 to existing design study projects, while also considering the broader applications
 of visualization design. Another key component is its connection to the _what_ and _why_ of visualization design: design decisions.
-By highlighting connections to the nested model, the design activity framework supports visualization designers to carefully and methodically identify appropriate methods for validating and evaluating visualization artifacts in any activity.
+By highlighting connections to the nested model [@Munzner2009], the design activity framework supports visualization designers to carefully and methodically identify appropriate methods for validating and evaluating visualization artifacts in any activity.
 
 
 As a process model, the primary goal of the design activity framework is to guide
