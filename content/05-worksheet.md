@@ -346,10 +346,10 @@ One group that conducted their own visualization design process acknowledged
 that their design process, although different, still adhered to the steps
 provided in each visualization design activity. Another student recognized the
 flexibility of the visualization design worksheets: "If I had a different
-project, I would use each box in different ways depending on the context" (P8).
+project, I would use each box in different ways depending on the context"
+(participant #8, or P8).
 
 <!-- \sm{TODO check if more to that last quote?} -->
-<!-- TODO are we using the (P#?) at all here or no? a little confused here -->
 
 
 All students agreed that evaluation was a necessary and important step for
@@ -371,7 +371,6 @@ me focused on what I was doing and trying to get more ideas or more [encodings]"
 (P8).
 
 <!-- \sm{TODO check if more than that last quote?} -->
-<!-- TODO are we using the (P#?) at all here or no? a little confused here, two of them present here -->
 
 
 An intriguing finding was that four students employed the worksheets in
@@ -390,8 +389,6 @@ helpful in the worksheets .... [but] for a free form thinker ... if you box it
 in then it is sort of restricting your creativity, as it tells you how much you
 have to fit into where" (P9). Students suggested improvements and other
 feedback, which we explore next.
-
-<!-- TODO are we using the (P#?) at all here or no? a little confused here -->
 
 
 
@@ -416,8 +413,6 @@ Another recommendation was to transform the worksheets into an app: "a
 clickable, interactive worksheet, where you click on this [and] it will connect
 you with the other worksheet and have a screenshot" (P8).
 
-<!-- TODO are we using the (P#?) at all here or no? a little confused here, more than one -->
-
 
 Students also suggested adding more worksheets to the materials. Six students
 felt that "those activities frame the process well" (P2). However, two students
@@ -437,8 +432,6 @@ structure classes in their code, especially for building data visualization
 systems. Specific guidelines for particular languages, such as designing
 visualizations for the web in Javascript, could be useful even for more
 experienced student programmers.
-
-<!-- TODO are we using the (P#?) at all here or no? a little confused here, more than one -->
 
 
 Furthermore, some minor tweaks can be made to improve the visualization design
@@ -461,5 +454,4 @@ students' confidence in visualization design: "because we got to meet with [an
 advisor] then we had time carved out [for] doing the worksheets" (P5).
 
 <!-- \sm{TODO can you quantify 'several' into actual numbers?} -->
-<!-- TODO are we using the (P#?) at all here or no? a little confused here, more than one -->
 
