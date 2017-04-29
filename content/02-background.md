@@ -17,8 +17,8 @@ communities. Lastly, we relate these design processes to those used in
 development and software engineering, within the context of building data
 visualization systems. Specifically, agile methodologies are a popular choice
 for software engineering processes that have begun to combine engineering and
-creative approaches together. In the next chapter, we will introduce the design
-activity framework as a way to bridge design activities with the decisions a
+creative approaches. In the next chapter, we will introduce the design activity
+framework as a way to bridge design activities with the decisions a
 visualization designer might make, supporting both an engineering and creative
 approach for data visualization design.
 
@@ -28,7 +28,7 @@ approach for data visualization design.
 
 
 
-## Bridging Flexibility into Visualization Design
+## Incorporating Flexibility in Visualization Design
 
 In a visualization design project where we worked with other types of designers
 (discussed in [@sec:formulation]), we discovered a disparity with how other
@@ -220,20 +220,20 @@ visualization tools. By focusing on users' needs, wants, and limitations,
 user-centered design can result in more useful, usable, and enjoyable tools that
 enable users to achieve their goals more effectively, efficiently, and with
 increased satisfaction, thus providing benefits such as increased productivity,
-better accessibility, reduced stress and risk of harm, and an improved
+better accessibility, reduced stress and risk of harm, and an improved sense of
 well-being [@DIS2010]. User-centered design has become widely accepted within
 the HCI community [@Tory2004] and has become more popular and accepted within
 the visualization community as well. Many different visualization practitioners
 have illustrated potential phases of a user-design process [@Chee2011;
-@Tory2004; @Wassink2009; @Lloyd2011], but each of these lacks the connection to
-design decisions and potential design methods. Many of these visualization
-models contain differing phases, and researchers have even reflected on existing
-models and extended them, such as adding a deployment phase as a result of
-utilizing Lloyd and Dyke's user-centered design model in a design study with
-investigative journalists [@Brehmer2014]. For visualization, user-centered
-design plays a vital role in capturing elements of the design process, but there
-is no clear definition of the phases of this process or how these phases connect
-to design decisions or methods.
+@Tory2004; @Wassink2009; @Lloyd2011], but each lacks the connection to design
+decisions and potential design methods. Many of these visualization models
+contain differing phases, and researchers have even reflected on existing models
+and extended them, such as adding a deployment phase as a result of utilizing
+Lloyd and Dyke's user-centered design model in a design study with investigative
+journalists [@Brehmer2014]. For visualization, user-centered design plays a
+vital role in capturing elements of the design process, but there is no clear
+definition of the phases of this process or how these phases connect to design
+decisions or methods.
 
 
 For visualization design, many publications report the use and benefit of
@@ -254,7 +254,7 @@ However, design methods can be evaluative at any step or phase, to limit or
 narrow the choice of potential artifacts going forward. This gap stems from a
 lack of emphasis on evaluative methods in existing visualization design process
 models, but there exist a plethora of design methods that get utilized in
-real-world projects and which could be taught to novices.
+real-world projects and that could be taught to novices.
 
 
 
@@ -335,19 +335,19 @@ visualization. Over several years, 53 students completed these design sheets
 over the span of 2 hours to come up with different ways to visualize their own
 chosen dataset, after which they received feedback and additional time to
 finalize their designs [@Roberts2015]. After grading the sheets, the researchers
-compared grades of the design sheets to the rest of the class with students'
-final tool or project grade and whole grade, as well as an anonymous survey to
-gather feedback on the entire course including the design sheets. Generally,
-they found that the design sheets aided students in planning and organizing a
-design section for the project write-up, and it also encouraged students to
-think divergently, which is a skill not often taught in computer science.
-However, in a workshop at the 2016 IEEE VIS conference that used these
-worksheets, we experienced a limitation by using this approach too soon: many
-steps must occur first, such as data collection, identifying the challenge,
-focusing on a target user, and finding tasks. Roberts et al. elude to this with
-different preparation steps [@Roberts2015], but these steps can be nontrivial
-and tricky for novices. Thus, it would be beneficial to establish and evaluate
-more worksheets beyond just ideation for data visualization design pedagogy.
+compared these grades with the students' project and final course grades, as
+well as an anonymous survey, to gather feedback on the entire course including
+the design sheets. Generally, they found that the design sheets aided students
+in planning and organizing a design section for the project write-up, and it
+also encouraged students to think divergently, which is a skill not often taught
+in computer science. However, in a workshop at the 2016 IEEE VIS conference that
+used these worksheets, we experienced a limitation by using this approach too
+soon: many steps must occur first, such as data collection, identifying the
+challenge, focusing on a target user, and finding tasks. Roberts et al. elude to
+this limitation with different preparation steps [@Roberts2015], but these steps
+can be nontrivial and tricky for novices. Thus, it would be beneficial to
+establish and evaluate more worksheets beyond just ideation for data
+visualization design pedagogy.
 
 
 Educators also face several unique challenges, such as visualization
@@ -359,8 +359,8 @@ concept of visualization literacy can be traced back to how we introduce, teach,
 and incorporate visualizations throughout schooling, from elementary school
 [@Alper2017] and beyond. In college-level courses, a key challenge can be tight
 deadlines and schedules [@He2017; @Rheingans2016], with limited course time for
-practical exercises, design studios, and cumulative projects, which often only
-last a month or two and may include noncolocated learners [@Beyer2016]. As
+practical exercises, design studios, and cumulative projects, which often last
+only a month or two and may include noncolocated learners [@Beyer2016]. As
 course enrollments grow, it is important to think of how to scale visualization
 design feedback and evaluation; one recommended approach is to utilize peers to
 help scale this process and provide students with more practice on visualization
@@ -390,11 +390,11 @@ design when designers have to develop something into a system or tool, and as
 such the methods and recommendations may overlap across fields. The body of
 software engineering research is vast, with core components such as how to
 generate requirements (necessary properties for something to solve real-world
-problems), general design principles such as managing data and events to
-function or object-oriented code, and testing, management, maintenance, and
+problems); general design principles such as managing data and events to
+function or object-oriented code; and testing, management, maintenance, and
 associated economics for software engineering [@Abran2001]. In other words,
 software engineering involves many aspects from how to write good, effective
-code to managing teams, business practices, and working with clients or
+code to managing teams; business practices; and working with clients or
 customers. All these concepts and associated methods can often relate to the
 field of visualization design, and software engineering can incorporate design
 and research methods into their processes as well [@Peffers2007]. However, the
@@ -406,7 +406,7 @@ of knowledge.
 Agile development started in the 1990s with a series of methods aimed at
 revolutionizing and adapting software engineering processes with lightweight
 alternatives that quickly adapt to user needs in a changing workplace
-[@Abran2001]. In 2001, 17 software developers, e.g., Jeff Sutherland and
+[@Abran2001]. In 2001, 17 software developers, including Jeff Sutherland and
 Alistair Cockburn, sat down at the Snowbird Mountain Resort in Utah to discuss
 publication of their thoughts and insights as the _Manifesto for Agile Software
 Development_ [@AgileManifesto2001]. Traditional software engineering process

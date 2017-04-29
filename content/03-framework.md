@@ -65,9 +65,10 @@ projects.
 
 ## A Design Activity
 
+
 At the core of the design activity framework is the concept of a design
 **activity**, a group of actions a visualization designer takes to work toward a
-specific artifact, or set of artifacts. Many creative process models tend to
+specific artifact or set of artifacts. Many creative process models tend to
 avoid breaking a process into sequential steps, stages, or phases but, rather,
 use the term activities [@Wu2011; @Atman2009; @Cardella2008; @Rudisill1995;
 @Snider2013; @Wodehouse2010a], which are not necessarily linear, and they are
@@ -145,6 +146,8 @@ artifacts for all four design activities of the design activity framework.
   activity.
 ](figures/daf/activities.pdf){#fig:framework width="100%"}
 
+<!-- TODO from Chris: move Fig. 3.3 to the page following its reference. You can place two figs together as you have them, but only if the ref to the first fig is no more than three pages before the placement -->
+
 
 
 
@@ -178,7 +181,7 @@ the  target users. It is important to uncover data and task abstractions that
 cannot or cannot easily be solved using existing visualization tools. These
 opportunities may also include higher level themes discovered through the domain
 characterization, such as workflow inefficiencies when a collaborator may use
-static visualization tools in a pipeline that is slow and not interactive thus
+static visualization tools in a pipeline that is slow and not interactive, thus
 making comparison tasks more difficult. Design **constraints** are rigid
 limitations from the project that the visualization designer must work with,
 such as rigid deadlines, limited hardware or computing systems, and access to
@@ -186,10 +189,10 @@ expert users and their time. **Considerations**, however, are a looser, more
 flexible form of constraints that a designer should strive to consider, such as
 the importance of a final visualization tool's aesthetics, usability, or
 adherence to a set of domain visualization standards. These considerations may
-and sometimes should be broken, but careful analysis and justification needs to
-underlie such design decisions. Together, these three classes of visualization
-artifacts for the _understand_ activity play a crucial role in all following
-activities, and they often get reconsidered, adjusted, and prioritized
+and sometimes should be discounted, but careful analysis and justification need
+to underlie such design decisions. Together, these three classes of
+visualization artifacts for the _understand_ activity play a crucial role in all
+following activities, and they often get reconsidered, adjusted, and prioritized
 throughout the design process. For example, data and task abstractions can be
 changed based on new data needed by a collaborator or a user expressing a need
 for a new type of task not previously considered when performing an evaluation
@@ -219,7 +222,7 @@ algorithms are created.
 
 Beyond the creation of ideas, it is also important to compare, evaluate, and
 winnow the broad set of ideas into ones that have a greater potential for impact
-of a visualization tool. For example, a common choice faced by visualization
+on a visualization tool. For example, a common choice faced by visualization
 designers is whether to encode a network graph as a set of nodes and links drawn
 between them or as a matrix to organize and restrict their position. Commonly,
 this decision can be motivated by the types of tasks a user wants to perform,
@@ -301,17 +304,17 @@ use the produced visualization tool for their set of tasks.
 
 Another important step in the _deploy_ activity is to consider optimizations
 that are needed by users to use a tool to solve their problems. As an example,
-imagine domain collaborators who generate their data using an industry standard
-tool and want to be able to use that specific data format inside of a newly
-designed visualization system. For building an initial prototype of the system,
-visualization designers may just require the collaborators to export their data
-or use a script to get it into a standard format and provide feedback for
-evaluation. However, for daily tasks, this would be cumbersome, require
-significant training, and limit the ability of the collaborators to use the
-tool. A key aspect of deploying a visualization system is improving these little
-annoyances, by having the system support domain collaborators' native data
-formats once the tool is deployed, so that no special steps are needed for them
-to use the visualization tool to solve their domain tasks.
+imagine domain collaborators generate their data using an industry standard tool
+and want to be able to use that specific data format inside a newly designed
+visualization system. For building an initial prototype of the system,
+visualization designers may require the collaborators to export their data or
+use a script to get it into a standard format and provide feedback for
+evaluation. However, for daily tasks, this data process would be cumbersome,
+require significant training, and limit the ability of the collaborators to use
+the tool. A key aspect of deploying a visualization system is improving these
+little annoyances by having the system support domain collaborators' native
+data formats once the tool is deployed, so that no special steps are needed for
+them to use the visualization tool to solve their domain tasks.
 
 <!--\sm{is there a good example of this in the real world/papers?}-->
 
@@ -532,6 +535,41 @@ methods for visualization design.
 <!-- \sm{TODO: add appendix and link here?} -->
 
 
+\newpage
+\begin{longtable}[]{@{}llll@{}}
+\caption{\label{tbl:methods}
+  Several exemplar methods and where they fit within the framework; a more
+  extensive list of 100 methods is in the Appendix. We coded each method into
+  one or more of the four design activities: \emph{understand}
+  (\textbf{\emph{u}}), \emph{ideate} (\textbf{\emph{i}}), \emph{make}
+  (\textbf{\emph{m}}), and \emph{deploy} (\textbf{\emph{d}}). Additionally, we
+  tagged whether each method was largely generative (\textbf{\emph{g}}) or
+  evaluative (\textbf{\emph{e}}), or both. Lastly, we categorized the methods we
+  have seen commonly reported within the visualization community
+  (\textbf{\emph{v}}) and also present succinct definitions for each method to
+  assist designers in trying each method out.
+}\tabularnewline
+\includegraphics[width=1.00000\textwidth]{figures/daf/table.pdf}
+\end{longtable}
+\newpage
+
+<!-- TODO from Chris: insert table after reference. include caption at top on one page, table on the next. -->
+<!-- TODO \al{interactive guidance on table?} -->
+
+<!-- CANNOT have a table be shown in a figure or a figure in a table. embed manually via latex.
+![
+  Several exemplar methods and where they fit within the framework; a more
+  extensive list of 100 methods is in the Appendix. We coded each method into
+  one or more of the four design activities: _understand_ (**_u_**), _ideate_
+  (**_i_**), _make_ (**_m_**), and _deploy_ (**_d_**). Additionally, we tagged
+  whether each method was largely generative (**_g_**) or evaluative (**_e_**),
+  or both. Lastly, we categorized the methods we have seen commonly reported
+  within the visualization community (**_v_**) and also present succinct
+  definitions for each method to assist designers in trying each method out.
+](figures/daf/table.pdf){width="100%"}
+-->
+
+
 Each method is characterized by the activities of the design activity framework
 in which it can be used --- _understand_ (**_u_**), _ideate_ (**_i_**), _make_
 (**_m_**), and _deploy_ (**_d_**). It is important to note that many methods can
@@ -579,36 +617,4 @@ within their visualization project by reflecting on these two questions:
 
 1. Did you achieve your desired visualization artifacts?
 1. Did you successfully deploy a visualization tool to users as a result of this method?
-
-
-\begin{longtable}[]{@{}llll@{}}
-\caption{\label{tbl:methods}
-  Several exemplar methods and where they fit within the framework; a more
-  extensive list of 100 methods is in the Appendix. We coded each method into
-  one or more of the four design activities: \emph{understand}
-  (\textbf{\emph{u}}), \emph{ideate} (\textbf{\emph{i}}), \emph{make}
-  (\textbf{\emph{m}}), and \emph{deploy} (\textbf{\emph{d}}). Additionally, we
-  tagged whether each method was largely generative (\textbf{\emph{g}}) or
-  evaluative (\textbf{\emph{e}}), or both. Lastly, we categorized the methods we
-  have seen commonly reported within the visualization community
-  (\textbf{\emph{v}}) and also present succinct definitions for each method to
-  assist designers in trying each method out.
-}\tabularnewline
-\includegraphics[width=1.00000\textwidth]{figures/daf/table.pdf}
-\end{longtable}
-
-<!-- TODO \al{interactive guidance on table?} -->
-
-<!-- CANNOT have a table be shown in a figure or a figure in a table. embed manually via latex.
-![
-  Several exemplar methods and where they fit within the framework; a more
-  extensive list of 100 methods is in the Appendix. We coded each method into
-  one or more of the four design activities: _understand_ (**_u_**), _ideate_
-  (**_i_**), _make_ (**_m_**), and _deploy_ (**_d_**). Additionally, we tagged
-  whether each method was largely generative (**_g_**) or evaluative (**_e_**),
-  or both. Lastly, we categorized the methods we have seen commonly reported
-  within the visualization community (**_v_**) and also present succinct
-  definitions for each method to assist designers in trying each method out.
-](figures/daf/table.pdf){width="100%"}
--->
 
