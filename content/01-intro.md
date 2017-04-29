@@ -17,8 +17,6 @@ and generative power [@Beaudouin-Lafon2004]. Moreover, existing visualization
 models have not explored pedagogical approaches for teaching the design process
 and all three aspects to visualization design novices.
 
-<!-- TODO clean up one reference here! -->
-
 
 Although several proposed visualization models capture the steps of the design
 process for creating and building new and useful visualizations [@Sedlmair2012b;

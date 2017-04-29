@@ -22,8 +22,6 @@ framework as a way to bridge design activities with the decisions a
 visualization designer might make, supporting both an engineering and creative
 approach for data visualization design.
 
-<!-- \sm{TODO add a few figures from presentations? if needed?} -->
-
 
 
 
@@ -72,18 +70,16 @@ been adapted, used, and taught by visualization designers. In this work, we
 focus on two kinds of models for visualization design: decision models and
 process models [@Meyer]. **Decision models** capture the _what_ and _why_ of
 design by characterizing the rationale behind the decisions that a designer
-makes. **Process models**, on the other hand, capture the _how_ of design,
-characterizing the actions that a designer takes as a series of steps. Linking a
-process model to a decision model enables visualization designers to verify and
-validate the design decisions they make along each step of the design process.
-This link is highlighted by Sch\mbox{\"{o}}n's reflection-in-action concept
-[@Schon1983], which emphasizes that the processes of doing and thinking are
-complementary to each other; thus, the design process and its many design
-decisions are intricately interconnected.
-
-<!-- TODO \ja{systematic way to address each of these models, papers to support each} -->
-
-<!-- TODO from Sam: what is the utility of a decision model? why have it? why bother tracking decisions? can be useful to know context, transferrability of knowledge, etc. and in the space of thick descriptions, stacks/blocks may help you figure out which decisions/guidelines are best, but not always, don't blindly follow them either. -->
+makes. This rationale can be useful for tracking decisions with respect the
+project's context and for transferring design knowledge and guidelines to other
+visualization projects. **Process models**, on the other hand, capture the _how_
+of design, characterizing the actions that a designer takes as a series of
+steps. Linking a process model to a decision model enables visualization
+designers to verify and validate the design decisions they make along each step
+of the design process. This link is highlighted by Sch\mbox{\"{o}}n's
+reflection-in-action concept [@Schon1983], which emphasizes that the processes
+of doing and thinking are complementary to each other; thus, the design process
+and its many design decisions are intricately interconnected.
 
 
 ### Design Decision Models
@@ -109,8 +105,6 @@ models are useful for analyzing and comparing general decisions and strategies
 for design, but they do not capture the specific decisions that visualization
 designers face when representing and encoding data in an interactive
 visualization system.
-
-<!-- TODO dig into decision models definition from NM2 reference -->
 
 
 Within the visualization community, the well-cited nested model [@Munzner2009]
@@ -153,8 +147,6 @@ visualization [@Moere2011] communities, the combination and balanced mixture of
 these two types of process models is useful for characterizing the design
 process for visualization designers.
 
-<!-- TODO I like the new design funnel connection, probably link in DAF chapter? -->
-
 
 Visualization-specific design process models describe unique aspects for
 designing and evaluating visualization systems; however, they largely do not
@@ -182,8 +174,6 @@ the final visualization design and how they reflected and learned throughout
 this process [@McCurdy2016]. Although the visualization community is beginning
 to embrace aspects of a creative design process, none of these process models
 explicitly link back to visualization design decisions.
-
-<!-- TODO more discussion of reflection & learning later on -->
 
 
 The model closest to the design activity framework is the nine-stage framework

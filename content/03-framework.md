@@ -106,11 +106,13 @@ convergent and filter artifacts, such as methods that elicit feedback from
 domain experts [@Beyer1997; @Lam2011a] or user studies [@Cairns2008;
 @Lazar2010]. This distinction between generation and evaluation is common within
 the design community [@Brown2009; @Hevner2008; @Hanington2003; @Christiaans2010;
-@Hevner2008]. Interestingly, some methods can be both generative and evaluative,
-such as observation and interviewing. In the design activity framework, we
-consider generative and evaluative design methods as vital components of each
-activity, unlike process models that capture evaluation as a single, unique
-stage in the design process [@Chee2011; @Tory2004; @Wassink2009; @Lloyd2011;
+@Hevner2008], such as Pugh's design funnel that includes both concept
+generation and controlled convergence [@pugh1991total]. Interestingly, some
+methods can be both generative and evaluative, such as observation and
+interviewing. In the design activity framework, we consider generative and
+evaluative design methods as vital components of each activity, unlike process
+models that capture evaluation as a single, unique stage in the design process
+[@Chee2011; @Tory2004; @Wassink2009; @Lloyd2011;
 @Goodwin2013a; @DIS2010]. This emphasis on evaluation methods encourages
 visualization designers to consider evaluation early, and often, for each design
 activity.
