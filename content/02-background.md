@@ -70,7 +70,7 @@ been adapted, used, and taught by visualization designers. In this work, we
 focus on two kinds of models for visualization design: decision models and
 process models [@Meyer]. **Decision models** capture the _what_ and _why_ of
 design by characterizing the rationale behind the decisions that a designer
-makes. This rationale can be useful for tracking decisions with respect the
+makes. This rationale can be useful for tracking decisions with respect to the
 project's context and for transferring design knowledge and guidelines to other
 visualization projects. **Process models**, on the other hand, capture the _how_
 of design, characterizing the actions that a designer takes as a series of
@@ -244,7 +244,7 @@ However, design methods can be evaluative at any step or phase, to limit or
 narrow the choice of potential artifacts going forward. This gap stems from a
 lack of emphasis on evaluative methods in existing visualization design process
 models, but there exist a plethora of design methods that get utilized in
-real-world projects and that could be taught to novices.
+real-world projects and that could be taught to visualization designers.
 
 
 
@@ -264,7 +264,7 @@ active learning [@Beyer2016; @Godwin2016; @Hearst2016b], where techniques and
 methods are used to encourage deeper analysis and synthesis as opposed to just
 passively observing a lecture [@Beyer2016]. For example, a common approach
 observed in most classroom settings is practical data visualization exercises,
-to give novices opportunities to critically analyze a data visualization or
+to give students opportunities to critically analyze a data visualization or
 existing visualization tool and work with their peers to analyze the outcomes
 [@Kerren2008; @He2017].
 
