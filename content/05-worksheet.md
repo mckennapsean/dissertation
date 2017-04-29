@@ -105,6 +105,7 @@ are akin to design methods that can be generative or evaluative in nature.
 
 <!-- TODO remove the tbl:steps text on page? -->
 <!-- TODO move table to bottom of page? is that possible? -->
+<!-- TODO from Chris: end of page with all text above -->
 
 | _**understand**_ | _**ideate**_ | _**make**_ | _**deploy**_ |
 | :--------------- | :--------------- | :--------------- | :--------------- |
@@ -291,17 +292,17 @@ high-level concepts of the framework and worksheets.
 
 ## Results of the Evaluation
 
-For the full-class survey, we received 25 responses. 23 students showed an
-improvement in their comfort level for visualization design, on average 2 out of
-5 points higher by the end of the course. Students ranked these improvements
-based on where they learned how to design, which was primarily through the
-lectures, projects, and class exercises. The design worksheets received a
-significantly larger portion of neutral responses for helping students learn,
-possibly because only some students used them in their projects. We compared the
-ratio of agreement to disagreement of these materials helping students learn.
-The design worksheets were on the level of other methods utilized in the
-course: design worksheets (13:1), lectures (23:1), exercises (20:2), and
-projects (18:2).
+For the full-class survey, we received 25 responses. Twenty-three students
+showed an improvement in their comfort level for visualization design, on
+average two out of five points higher by the end of the course. Students ranked
+these improvements based on where they learned how to design, which was
+primarily through the lectures, projects, and class exercises. The design
+worksheets received a significantly larger portion of neutral responses for
+helping students learn, possibly because only some students used them in their
+projects. We compared the ratio of agreement to disagreement of these materials
+helping students learn. The design worksheets were on the level of other methods
+utilized in the course: design worksheets (13:1), lectures (23:1), exercises
+(20:2), and projects (18:2).
 
 
 For the survey sent to the students who used the visualization design

@@ -138,14 +138,14 @@ cyber security data.
 
 
 Next, for these three articles, each member of our team did an informal open
-coding of the papers (_M-16_) to pull out salient themes. As individuals, we
-tagged information broadly, and we then adjusted these tags as a team over a
-series of meetings to organize and consolidate the key insights we pulled from
-the papers. These insights formed our initial set of visualization artifacts,
-which pointed to a number of unmet needs and opportunities for visualization
-research. Some of these artifacts included design _opportunities_ such as
-supporting provenance-based tasks, increasing the scalability of visualizations
-to real-world datasets, preserving data context as it is filtered across many
+coding of the papers (_M-16_) to pull out salient themes. We each tagged
+information broadly and then adjusted these tags as a team over a series of
+meetings to organize and consolidate the key insights we pulled from the papers.
+These insights formed our initial set of visualization artifacts, which pointed
+to a number of unmet needs and opportunities for visualization research. Some of
+these artifacts included design _opportunities_, such as supporting
+provenance-based tasks, increasing the scalability of visualizations to
+real-world datasets, preserving data context as it is filtered across many
 different visualizations, and optimizing the representations of temporal data.
 
 
@@ -255,12 +255,12 @@ what RVS _could_ be even though a complete software implementation was beyond
 what our visualization could perform given our constraint of time. We considered
 real-world datasets and user workflows when creating and formulating both the
 digital mockups and detailed wireframes, which are the visualization artifacts
-we created in the _make_ activity. Even though some may consider these as ideas
-and not prototypes, our visualization team had finalized making decisions at the
-abstraction level and focused not on new ideas but on encodings and interaction
-techniques in these artifacts, so we argue that this goes beyond the _ideate_
-activity and resulted in visualization prototypes that could be tested with
-users.
+we created in the _make_ activity. Even though some may consider these artifacts
+as ideas and not prototypes, our visualization team had finalized making
+decisions at the abstraction level and focused not on new ideas but on encodings
+and interaction techniques in these artifacts, so we argue that this goes beyond
+the _ideate_ activity and resulted in visualization prototypes that could be
+tested with users.
 
 <!--\al{where is the line between ideate and make?}-->
 <!--\sm{how does this help? I agree it was vague before, I added some clarifications}-->
@@ -389,7 +389,7 @@ table, and we met several times over a month to better organize, iterate on, and
 consistently tag this information across all three papers. These meetings and
 iterative coding process were crucial to allow the design team to come to an
 agreement on our final codes. After a month of open coding the three papers, we
-consolidated the data together in a final meeting.
+consolidated the data in a final meeting.
 
 
 ### Visualization Artifacts: Qualitative Coding
