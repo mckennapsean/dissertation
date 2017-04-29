@@ -9,13 +9,13 @@ system. The _data visualization design process_ takes place in a series of
 **activities** that produce visualization **artifacts**, such as a new encoding
 or interaction. These artifacts are produced as a result of **decisions** that
 are made by a visualization designer, such as guidelines that are established
-through evaluating a system. No previous work exists that connects all three of
-these aspects and describes the interplay among them for visualization design,
-and bridging these concepts in a design model increases not only its
-actionability and applicability across projects but the model's descriptive,
-evaluative, and generative power [@Beaudouin-Lafon2004]. Moreover, existing
-visualization models have not explored pedagogical approaches for teaching the
-design process and all three aspects to visualization design novices.
+through evaluating a system. No previous work exists that connects all three
+aspects and describes the interplay among them for visualization design, and
+bridging these concepts in a design model increases not only its actionability
+and applicability across projects but also the model's descriptive, evaluative,
+and generative power [@Beaudouin-Lafon2004]. Moreover, existing visualization
+models have not explored pedagogical approaches for teaching the design process
+and all three aspects to visualization design novices.
 
 <!-- TODO clean up one reference here! -->
 
@@ -26,7 +26,7 @@ process for creating and building new and useful visualizations [@Sedlmair2012b;
 framework is how it describes these steps as overlapping, iterative, and even
 nested _design activities_. As a result, the design activity framework captures
 the complex, iterative, and occasionally messy nature [@Sedlmair2012b; @DIS2010;
-@Tory2004; @Wassink2009; @Chee2011; @Moere2011] of visualization design which
+@Tory2004; @Wassink2009; @Chee2011; @Moere2011] of visualization design, which
 supports greater reflection on a project's progress and can facilitate more
 complete and richer descriptions of the visualization design process. In
 visualization design projects, problem-driven research often involves design
@@ -76,7 +76,7 @@ design artifacts, largely due to how existing models consider evaluation as a
 separate stage of the design process [@Lloyd2011; @Wassink2009; @Chee2011]
 rather than a part of every activity. Artifacts for visualization design can
 serve many purposes, from measuring success to being reused in future projects;
-thus, it is often both beneficial and time-saving to capture and report on a
+thus, it is often both beneficial and timesaving to capture and report on a
 variety of design artifacts and link them back to the design decisions or
 guidelines that motivated their selection. The design activity framework can
 support visualization designers in identifying new kinds of visualization design
@@ -99,7 +99,7 @@ Without this connection, it is much harder for visualization designers, both
 experts and novices, to answer the _how_ and _why_ questions of design using
 existing visualization models. The design activity worksheets break apart
 high-level activities into succinct definitions and descriptive step-by-step
-actions for novice visualization designers to follow which bridges the created
+actions for novice visualization designers to follow, which bridges the created
 artifacts to the decisions that get made about them. Furthermore, worksheet
 examples of an iterative, real-world design process can illustrate how to
 generate and evaluate visualization artifacts across design activities. The
@@ -129,14 +129,14 @@ to guide novice visualization designers, and connections to existing
 visualization models.
 
 
-To strengthen the contribution of this framework, we have evaluated its use and
+To strengthen the contribution of this framework, we evaluated its use and
 application across several different visualization design projects.
-Specifically, we have utilized this framework to formulate, guide, and reflect
-on the design process of design studies and research in the fields of biology
+Specifically, we utilized this framework to formulate, guide, and reflect on the
+design process of design studies and research in the fields of biology
 [@mckenna2015s], cyber security [@McKenna2014; @Staheli2014; @McKenna2015;
 @mckenna2016], and data visualization storytelling [@mckenna2017]. For each of
-these projects, we have employed a variety of qualitative and quantitative
-design methods in order to validate the utility of this framework in real-world
+these projects, we employed a variety of qualitative and quantitative design
+methods in order to validate the utility of this framework in real-world
 projects and reflect on their use in future visualization design projects. We
 describe two case studies for visualization of cyber security datasets that
 illustrate examples of how to use this framework and provide rich descriptions
@@ -183,7 +183,7 @@ illustrates how to track and report on activities with their associated
 artifacts.
 
 
-The design activity framework came out of reflections of a successful design
+The design activity framework came out of reflections of the successful design
 project explained in [@sec:formulation]. This project focused on redesigning a
 cyber security tool, resulting in updates to the underlying system as a result
 of this separate design process. This isolation of the design and development
@@ -195,11 +195,11 @@ visualization artifacts, and a design timeline.
 
 
 To tailor the design activity framework to visualization novices, we created
-concise design worksheets for the framework, in [@sec:worksheets]. By reflecting
-on our own experience using a variety of design methods, we identified
-descriptive steps for each design activity of visualization design. These steps
-served as a checklist that we taught and utilized in a visualization course with
-students. We performed a qualitative evaluation of the use of these
+concise design worksheets for the framework, described in [@sec:worksheets]. By
+reflecting on our own experience using a variety of design methods, we
+identified descriptive steps for each design activity of visualization design.
+These steps served as a checklist that we taught and utilized in a visualization
+course with students. We performed a qualitative evaluation of the use of these
 visualization design worksheets in a cumulative project for which students had
 to design and develop their own web-based visualization system from scratch.
 This qualitative evaluation included survey feedback from 32 students and 11
@@ -207,7 +207,7 @@ in-depth, semistructured interviews.
 
 
 In [@sec:security], we conducted a successful design study to create a cyber
-security visualization dashboard using this framework. This design study
+security visualization dashboard using our framework. This design study
 highlights significant challenges for user-centered design, such as limited
 access to end users and data. We present several design methods that we used to
 overcome these challenges and produce useful visualization design artifacts. We
@@ -220,23 +220,24 @@ the design activity framework.
 framework for visualization through a perspective on the role of design and the
 process across different kinds of visualization research. For example, a project
 we encountered before we had the knowledge of this framework involved the
-creation of a novel technique for exploring correlation, but the resulting tool
-we designed strayed away from solving real-world problems of our biology
-collaborators due to its novelty. Another project we conducted was an
+creation of a novel technique for exploring correlation, but the resulting
+technique and tool failed to adequately solve the larger real-world problems
+faced by our biology collaborators. Another project we conducted was an
 exploration and evaluation of a design space for interactive, visual data
 stories, and through this project we designed a tool to explore the design space
 that helped create conditions for our user studies. Even though this research
 was less driven by a visualization design process, we recognize that this work
-was very formative and exploratory, beginning to shape an understanding and
-setting guidelines for future decisions made by visualization designers in this
-space. Our reflections on these two projects demonstrate how design can play a
-subtle yet pivotal role in both technique-driven and evaluation-driven research.
+was very formative and exploratory, the beginning step in shaping an
+understanding and setting guidelines for future decisions made by visualization
+designers in this space. Our reflections on these two projects demonstrate how
+design can play a subtle yet pivotal role in both technique-driven and
+evaluation-driven research.
 
 
 We provide a discussion of the design activity framework for visualization
 design and outline future work in [@sec:discussion]. In this discussion, we
 include a call for more pedagogical work and materials for novice visualization
-designers, based on results of our framework and worksheet evaluations.
+designers, based on the results of our framework and worksheet evaluations.
 Additionally, we explore the notion of broader process models, for both research
 and development, as ways to extend and connect these design models to more
 effectively guide novices to build better visualization tools and systems.

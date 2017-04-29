@@ -1,5 +1,5 @@
-This dissertation introduces a new visualization design process model devised to
-guide visualization designers in building more effective and useful
+This dissertation establishes a new visualization design process model devised
+to guide visualization designers in building more effective and useful
 visualization systems and tools. Some of the key novel aspects of this framework
 includes its flexibility for iteration, actionability for guiding visualization
 designers with concrete steps and concise yet methodical definitions, and
