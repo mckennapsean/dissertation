@@ -175,10 +175,10 @@ _understand_, _ideate_, _make_, and _deploy_. Each activity contains a
 motivation or goal, a list of methods, and target visualization artifacts. These
 concise definitions support novice designers in learning and utilizing the
 framework to connect their design decisions to visualization artifacts. We
-include a table of possible design methods that novices can employ to generate
-and evaluate visualization artifacts. Lastly, a showcase of design timelines
-illustrates how to track and report on activities with their associated
-artifacts.
+include a table of possible design methods that visualization designers can
+employ to generate and evaluate visualization artifacts. Lastly, a showcase of
+design timelines illustrates how to track and report on activities with their
+associated artifacts.
 
 
 The design activity framework came out of reflections of the successful design
@@ -186,10 +186,10 @@ project explained in [@sec:formulation]. This project focused on redesigning a
 cyber security tool, resulting in updates to the underlying system as a result
 of this separate design process. This isolation of the design and development
 enabled us to reflect on how to best describe and explain our visualization
-design process to other collaborators who had novice visualization experience.
-As a result, we describe this project as a case study for how to use the design
-activity framework, and this chapter presents a variety of design methods,
-visualization artifacts, and a design timeline.
+design process to collaborators from different fields. As a result, we describe
+this project as a case study for how to use the design activity framework, and
+this chapter presents a variety of design methods, visualization artifacts, and
+a design timeline.
 
 
 To tailor the design activity framework to visualization novices, we created
@@ -222,10 +222,9 @@ creation of a novel technique for exploring correlation, but the resulting
 technique and tool failed to adequately solve the larger real-world problems
 faced by our biology collaborators. Another project we conducted was an
 exploration and evaluation of a design space for interactive, visual data
-stories, and through this project we designed a tool to explore the design space
-that helped create conditions for our user studies. Even though this research
-was less driven by a visualization design process, we recognize that this work
-was very formative and exploratory, the beginning step in shaping an
+stories, and through this project we tested how readers interact with these
+stories by building different visual experiences to compare. We recognize that
+this work was very formative and exploratory, the beginning step in shaping an
 understanding and setting guidelines for future decisions made by visualization
 designers in this space. Our reflections on these two projects demonstrate how
 design can play a subtle yet pivotal role in both technique-driven and
@@ -238,6 +237,6 @@ include a call for more pedagogical work and materials for novice visualization
 designers, based on the results of our framework and worksheet evaluations.
 Additionally, we explore the notion of broader process models, for both research
 and development, as ways to extend and connect these design models to more
-effectively guide novices to build better visualization tools and systems.
-Lastly, we conclude this dissertation in [@sec:conclusion] with a summary of our
-contributions, findings, and recommendations.
+effectively guide and support building better visualization tools and systems.
+Lastly, we conclude this dissertation in [@sec:conclusion] with a summary of the
+work.

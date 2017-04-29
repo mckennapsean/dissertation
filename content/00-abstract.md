@@ -1,10 +1,10 @@
 This dissertation establishes a new visualization design process model devised
 to guide visualization designers in building more effective and useful
-visualization systems and tools. Some of the key novel aspects of this framework
-includes its flexibility for iteration, actionability for guiding visualization
-designers with concrete steps and concise yet methodical definitions, and
-connections to other visualization design models commonly used in the field of
-data visualization. In summary, the design activity framework breaks down the
+visualization systems and tools. The novelty of this framework includes its
+flexibility for iteration, actionability for guiding visualization designers
+with concrete steps and concise yet methodical definitions, and connections to
+other visualization design models commonly used in the field of data
+visualization. In summary, the design activity framework breaks down the
 visualization design process into a series of four design activities:
 _understand_, _ideate_, _make_, and _deploy_. For each activity, the framework
 prescribes a descriptive motivation, list of design methods, and expected
