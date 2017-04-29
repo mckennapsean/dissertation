@@ -22,6 +22,8 @@ process by incorporating and summarizing these aspects into a design timeline.
 <!-- TODO committee: for formative project, add descriptions of what was missing in existing design models that held back these projects -->
 <!-- TODO committee: what does this framework provide over previous work? -->
 
+<!-- TODO from Chris: but 4.1, 4.2, 4.4, 4.5 not full sentences (captions) -->
+
 
 
 

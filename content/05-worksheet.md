@@ -27,13 +27,14 @@ materials.
 
 <!-- TODO emphasize several key visualization-theory components, like the nested model and extension of the 9-stage framework for design studies -->
 
+<!-- TODO from Chris: full sentence or not captions? -->
 
 
 
 
-## Motivation: Increasing Actionability of the Framework
 
-<!-- TODO Chris: move Framework to its own line? -->
+\section{Motivation: Increasing Actionability of the \\ Framework}
+<!-- ## Motivation: Increasing Actionability of the Framework -->
 
 To teach design in data visualization, educators combine many foundational
 components, from user interface principles [@Shneiderman2004] to data and
