@@ -1,7 +1,5 @@
 # Design Activity Framework {#sec:framework}
 
-<!-- \sm{would be nice to have a concise macro-level fig. of the framework} -->
-
 A design process consists of _activities_ or steps taken to achieve a given
 outcome, such as a visualization system. Design _decisions_ are the reasons and
 justification behind a choice made for a visualization, such as encoding with
@@ -55,9 +53,8 @@ projects.
   different visualization artifacts.
 ](figures/daf/design-methods.pdf){#fig:genoreval width="100%"}
 
-<!-- TODO \ja{have materials online/accessible!} -->
-<!-- TODO \ja{more on 9-stage framework} -->
-<!-- TODO committee: detailed comparison with what the 9-stage framework is missing -->
+<!-- CONCERNS: \ja{have materials online/accessible!} how should we do that? -->
+<!-- CONCERNS: \ja{more on 9-stage framework} miriah: what do you think? -->
 
 
 
@@ -156,8 +153,6 @@ artifacts for all four design activities of the design activity framework.
 
 ## Understand Design Activity
 
-<!--\sm{keep fleshing out each of these activities with more detail?}-->
-
 The first activity in the design activity framework for visualization projects
 is to **understand** the problem domain and target users. The motivation for
 this activity is _to gather, observe, and research available information to find
@@ -171,8 +166,6 @@ preexisting visualization tools such as Microsoft Excel or Tableau can help
 solve certain problems. In a visualization project, it is important for a
 visualization designer to identify early on if there is a need and a set of
 design requirements that cannot easily be solved using existing tools.
-
-<!--\sm{perhaps include a few examples or citations here? I like some of this though}-->
 
 
 These visualization design requirements of the _understand_ activity can be
@@ -219,8 +212,6 @@ recommended here, especially with visualization design, because such thinking is
 where innovation occurs and new visualization designs, techniques, and
 algorithms are created.
 
-<!--\sm{add a few citations here?}-->
-
 
 Beyond the creation of ideas, it is also important to compare, evaluate, and
 winnow the broad set of ideas into ones that have a greater potential for impact
@@ -243,8 +234,6 @@ is also possible that more ideas may spin out of this process, as a variation
 upon an existing idea or new idea combining several together, so it is often
 recommended for visualization designers to externalize their ideas early and
 often to help them generate more and better ideas.
-
-<!--\sm{add references here as well-wait are data sketches here or make?}-->
 
 
 
@@ -318,15 +307,13 @@ little annoyances by having the system support domain collaborators' native
 data formats once the tool is deployed, so that no special steps are needed for
 them to use the visualization tool to solve their domain tasks.
 
-<!--\sm{is there a good example of this in the real world/papers?}-->
 
 
 
 
-
-## Visualization Artifacts and the Nested Model
-
-<!-- TODO check length of line, Chris suggested moving model to second line! -->
+<!--## Visualization Artifacts and the Nested Model-->
+\section{Visualization Artifacts and the Nested \\ Model}
+<!-- ThesisOffice: header adjustment -->
 
 The design activity framework can be utilized by both novice and expert
 visualization designers to reflect on the design decisions they made by tracking
@@ -480,8 +467,6 @@ discussion and annotation of the bottom timeline in [@sec:formulation]. These
 timelines show the flow of a project across multiple activities, from nested and
 parallel activities to backward movement.
 
-<!-- \sm{is this the right timeline here? perhaps link to later chapter?} -->
-
 
 ![
   To illustrate the complex, iterative, and multilinear nature of the
@@ -494,8 +479,7 @@ parallel activities to backward movement.
   and expert visualization designers track the progress of a project.
 ](figures/daf/timelines.pdf){#fig:timelines width="100%"}
 
-<!-- \sm{could clean up these timeline figures, perhaps include some aspects of building or tools to create these in supplemental materials as well?} -->
-<!-- \sm{note to self: you could reuse arrow from bubblenet project instead, cleaner...} -->
+<!-- TODO could clean up figure with arrows from bubblenet project -->
 
 
 Other researchers have shown the feasibility and usefulness of a design process
@@ -511,11 +495,6 @@ widely used to communicate design decisions made over the course of a
 visualization process, and we advocate for the design activity framework as a
 way to structure the communication and reporting of a visualization design
 process in a similar way.
-
-<!-- \sm{nice start, but I feel like we could talk more about the timelines I show here too, perhaps flesh out some more detail. makes me wonder if it wouldn't be better to put in its own chapter though.} -->
-
-<!-- TODO \al{interactive timeline building?} -->
-<!-- TODO \jm{can you see a meta view as you go?} -->
 
 
 
@@ -534,7 +513,7 @@ mentioned within the framework and redesign project we present in the next
 chapter, along with both commonly used and potentially novel or interesting
 methods for visualization design.
 
-<!-- \sm{TODO: add appendix and link here?} -->
+<!-- APPENDIX: add to and link -->
 
 
 \newpage
@@ -555,8 +534,6 @@ methods for visualization design.
 \end{longtable}
 \newpage
 
-<!-- TODO from Chris: insert table after reference. include caption at top on one page, table on the next. -->
-<!-- TODO \al{interactive guidance on table?} -->
 
 <!-- CANNOT have a table be shown in a figure or a figure in a table. embed manually via latex.
 ![
@@ -572,22 +549,24 @@ methods for visualization design.
 -->
 
 
-Each method is characterized by the activities of the design activity framework
-in which it can be used --- _understand_ (**_u_**), _ideate_ (**_i_**), _make_
-(**_m_**), and _deploy_ (**_d_**). It is important to note that many methods can
-and often are used in different design activities. The methods are also
-categorized as being generative (**_g_**), evaluative (**_e_**), or both in
-nature. Several methods, e.g., graffiti walls (_M-43_), interviewing (_M-51_),
-and observation (_M-58_), have more complex characterizations than presented in
-this table; please see the Appendix for a more complete and detailed
-characterization. Some methods are also marked as appearing within the
-visualization literature (**_v_**). Finally, each method includes a definition
-and reference to aid visualization designers in bringing these methods into
-practice. As the design activity framework targets designers performing
-problem-driven visualization work, it is worth noting that many of the listed
-methods involve collaboration with domain experts, such as bull's-eye
+Each method was informally coded and characterized by the activities of the
+design activity framework in which it can be used --- _understand_ (**_u_**),
+_ideate_ (**_i_**), _make_ (**_m_**), and _deploy_ (**_d_**). It is important to
+note that many methods can and often are used in different design activities.
+The methods are also categorized as being generative (**_g_**), evaluative
+(**_e_**), or both in nature. Several methods, e.g., graffiti walls (_M-43_),
+interviewing (_M-51_), and observation (_M-58_), have more complex
+characterizations than presented in this table; please see the Appendix for a
+more complete and detailed characterization. Some methods are also marked as
+appearing within the visualization literature (**_v_**). Finally, each method
+includes a definition and reference to aid visualization designers in bringing
+these methods into practice. As the design activity framework targets designers
+performing problem-driven visualization work, it is worth noting that many of
+the listed methods involve collaboration with domain experts, such as bull's-eye
 diagramming (_M-12_), contextual inquiry (_M-27_), paper prototyping (_M-61_),
 and speed dating (_M-80_).
+
+<!-- APPENDIX: add to and link -->
 
 
 The list is by no means a complete compendium of methods for visualization
@@ -602,8 +581,6 @@ experienced visualization designers could utilize to potentially enhance their
 design process. For example, Goodwin et al. introduce several novel creativity
 techniques for visualization design such as generating ideas using the method of
 constraint removal (_M-26_) [@Goodwin2013a].
-
-<!-- \sm{we should probably explain a bit more about this coding process in the text somewhere?} -->
 
 
 We can use the framing of a design activity to help visualization designers find
