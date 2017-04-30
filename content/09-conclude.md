@@ -36,12 +36,12 @@ visualization design activities spanning across multiple discourse channels.
 
 A potential benefit of the design activity framework is its actionability for
 teaching novices how to conduct a visualization design process. We investigated
-this aspect in a graduate visualization course with student cumulative projects.
-To more effectively teach the visualization design process, we created teaching
-materials for the course: lecture on visualization design, introduction to the
-design activity framework worksheets, resources on sketching, and four design
-activity worksheets. Each of these design worksheets was tailored to the four
-activities for visualization design, and they included step-by-step
+this aspect in a graduate visualization course with student cumulative projects
+[@mckenna2017a]. To more effectively teach the visualization design process, we
+created teaching materials for the course: a lecture on visualization design, an
+introduction to the design activity framework, resources on sketching, and four
+design activity worksheets. Each of these design worksheets was tailored to the
+four activities for visualization design, and they included step-by-step
 instructions, guidance, tips, and hints to guide students through their first
 visualization project. We worked with 13 students throughout the course, to
 mentor their projects and teams, and evaluated the worksheets and this process
