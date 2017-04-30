@@ -1,26 +1,23 @@
 # Case Study: Redesigning a Visualization System {#sec:formulation}
 
-<!--\sm{to help this section, we should better highlight stuff from the nested model and 9-stage framework. what was missing? how did this help?}-->
-
-The design activity framework was initially formulated based on my reflections
-on a previous project where I was very much a novice visualization designer. For
-this project, visualization researchers worked with a team of designers, a
-psychologist, and a cyber security firm to tackle a redesign of that firm's
-visualization system [@McKenna2014]. We focused our redesign to create a series
-of sketches, wireframes, and mockups that visually communicated our
-visualization and interface ideas to the company's development team in order to
-improve their tool. Although the final changes to the system were limited by the
-company's development budget and time, we found that a reflection on this
+The design activity framework was initially formulated based on our reflections
+on a previous project where I was starting out as a novice visualization
+designer. For this project, visualization researchers worked with a team of
+designers, a psychologist, and a cyber security firm to tackle a redesign of
+that firm's visualization system [@McKenna2014]. We focused our redesign to
+create a series of sketches, wireframes, and mockups that visually communicated
+our visualization and interface ideas to the company's development team in order
+to improve their tool. Although the final changes to the system were limited by
+the company's development budget and time, we found that a reflection on this
 project yielded useful insights that we used to create the design activity
 framework. In particular, the visualization design artifacts and methods we
-utilized with other visualization novices played a significant role in the
-success of this project. Lastly, we reflected on our team's overall design
+utilized with other designers played a significant role in the success of this
+project. Previous models, such as the nested model and nine-stage framework, did
+not describe these artifacts, our decisions, and the process as completely as
+the design activity framework. Lastly, we reflected on our team's overall design
 process by incorporating and summarizing these aspects into a design timeline.
 
-<!-- TODO \td{why did existing models fail?} -->
-<!-- TODO \ja{more on 9-stage framework} -->
-<!-- TODO committee: for formative project, add descriptions of what was missing in existing design models that held back these projects -->
-<!-- TODO committee: what does this framework provide over previous work? -->
+<!-- CONCERN: should we better highlight stuff from the nested model and 9-stage framework? what was missing, why did these models fail? what held you back? how did DAF help? -->
 
 <!-- TODO from Chris: but 4.1, 4.2, 4.4, 4.5 not full sentences (captions) -->
 
@@ -30,21 +27,22 @@ process by incorporating and summarizing these aspects into a design timeline.
 
 ## Overview of the Redesign Project
 
-I encountered the insufficiencies of current visualization process models while
+We encountered the insufficiencies of current visualization process models while
 working on a project with a multidisciplinary design team consisting of a
 visualization expert, two designers, and one psychologist. I was a novice
 visualization designer at the time, one year into my PhD and still learning
 about data visualization. Our team tackled the challenge of redesigning an
 existing visualization tool in the area of cyber security. As our team attempted
 to adopt the nine-stage framework for conducting design studies
-[@Sedlmair2012b], I noted that we struggled to answer questions such as: If I'm
-not starting from the beginning, where exactly am I in the design process? What
-are the range of design methods that are useful at any given point? What types
-of visualization artifacts should I be working toward along the way? How do I
-know my artifacts are good, or even just good enough, when balanced against
+[@Sedlmair2012b], we struggled to answer questions such as: If I'm not starting
+from the beginning, where exactly am I in the design process? What are the range
+of design methods that are useful at any given point? What types of
+visualization artifacts should I be working toward along the way? How do I know
+my artifacts are good, or even just good enough, when balanced against
 real-world constraints? We believe that these questions point to a lack of
-_actionability_ in current visualization process models, or a lack of
-implementable and immediately usable guidance that helps a visualization novice
+_actionability_ in current visualization process models, namely the nine-stage
+framework for design studies. In other words, this model lacked implementable
+and immediately usable guidance that could help visualization designers
 explicitly navigate a real-world visualization design process.
 
 
@@ -66,21 +64,28 @@ Utah. This redesign project included several real-world constraints for our
 design team, namely a strict time frame for producing redesign ideas, limited
 funding available for implementing our ideas by software developers,
 confidentiality issues surrounding cyber security data, and the engineering
-realities of working within a large software system.
+realities of working within a large software system. The nine-stage framework
+and also the nested model both failed to as clearly capture and track these
+design constraints and the complex, collaborative process stemming from multiple
+team coordination.
 
 
-From our own teaching experience, we have found that showing off a real-world
-visualization project is an effective way to initially teach visualization
-design to novices. For this case study, we will describe our redesign project
-and design process using the design activity framework. We will focus on a
-single design activity at a time. We present this discussion in rough,
+When we started this project, our design team was stuck and had no clear
+guidance from the nine-stage framework on what our next step should be. We
+turned to other designers for this guidance, and this process and reflections
+resulted in the creation of the design activity framework. This new data
+visualization process model generalizes to visualization design, not just design
+studies, and the guidance and terminology better match the collaborative
+activities we underwent. For this case study, we will describe our redesign
+project and design process using the design activity framework. We will focus on
+a single design activity at a time. We present this discussion in rough,
 chronological order. In this discussion, we incorporate the methods we utilized
 and the visualization artifacts that were achieved. Each method number we
 reference stems from the collection of example methods in [@tbl:methods] and the
 full list of 100 methods included in the Appendix, such as the method of
 controlled experiments (_M-28_).
 
-<!--\sm{TODO another reference to the appendix}-->
+<!-- APPENDIX: add to and link -->
 
 
 
@@ -182,7 +187,7 @@ artifacts, such as a detailed data and task abstraction.
   An overview of the visualization artifacts for our redesign project, starting
   from our a) software analysis, which resulted in b) initial concept sketches
   and c) wireframes. As we focused on more of the details, we moved into the
-  _make_ activity with and d) laying out interface components.
+  _make_ activity and began d) laying out interface components.
 ](figures/daf/redesign/process.pdf){#fig:redesign width="100%"}
 
 
@@ -385,7 +390,7 @@ for cyber security.
 
 After half a month of extensive literature review, four members of our design
 team identified and performed a deep reading on three cognitive task analysis
-papers [@DAmico2008; @Erbacher2010a; @Fink2009], pulling out key quotes,
+(CTA) papers [@DAmico2008; @Erbacher2010a; @Fink2009], pulling out key quotes,
 paraphrases, and models. Each piece of data corresponds to rows of our coding
 table, and we met several times over a month to better organize, iterate on, and
 consistently tag this information across all three papers. These meetings and
@@ -403,7 +408,7 @@ categories such as data, design guidelines, phases, roles, responsibilities,
 tasks, terminology, tools, and workflows. Additionally, we tagged information
 with subcategories on a finer scale.
 
-<!-- TODO where to put additional materials? -->
+<!-- APPENDIX: add to and link, or online link? -->
 <!-- ; a more complete table of all the data is included in Supplemental Materials.[^1] -->
 
 
@@ -412,7 +417,7 @@ with subcategories on a finer scale.
 ](figures/methods/coding.pdf){#fig:coding width="100%"}
 
 <!-- For more details, please see the Appendix. Supplemental Materials.[^1]-->
-<!-- TODO do we want this extra detail? where to include? or just a URL? -->
+<!-- APPENDIX: add to and link, or online link? -->
 
 
 Focusing on the data from these three CTAs enabled us to identify user needs
@@ -476,16 +481,15 @@ this field. Furthermore, one caveat to this approach is that published research
 may not reflect all the nuances of an operational environment. Thus, this method
 should not simply be used to replace access to real users.
 
-<!-- TODO again, where to link full table of coding methods? e.g. [^1] -->
+<!-- APPENDIX: add to and link, or just online link? e.g. [^1] -->
 
 
 ### Qualitative Coding Recommendations for Visualization Design
 
-- Start your coding method on a few papers to develop an initial set of codes; select papers from appropriate venues: e.g., VizSec, VIS, CHI, HFES, Behavior & Information Technology, Computers & Security, FIRST, HST, AMCIS, SAM, CyCon, FloCon, CogSIMA, DHS CATCH, HCI HAS, CTS SECOTS.
-- On the first pass, highlight and tag key pieces of information; we suggest starting with the categories we identified.
+- Start your coding method on a few papers to develop an initial set of codes; select papers from appropriate venues: e.g., in the field of cyber security visualization consider venues such as VizSec, VIS, CHI, HFES, Behavior & Information Technology, Computers & Security, FIRST, HST, AMCIS, SAM, CyCon, FloCon, CogSIMA, DHS CATCH, HCI HAS, CTS SECOTS.
+- On the first pass, highlight and tag key pieces of information; we suggest starting with the categories we identified for cyber security visualization.
 - Limit the time and scope on your first pass of coding; spend more time to meet as a team and agree on codes.
 - Once you reach a consensus on codes, expand to more papers and divide up the work, allowing some overlap in coverage for consistency.
 
-<!-- TODO have to change these lists to 1), 2), etc? -->
-
+<!-- APPENDIX: add to and link, or just online link? -->
 <!-- categories we identified [^1] -->
