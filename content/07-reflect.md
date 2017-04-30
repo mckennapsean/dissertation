@@ -1,4 +1,4 @@
-# Reflecting on the Types of Research for the Framework {#sec:reflections}
+# Reflecting on Types of Visualization Research {#sec:reflections}
 
 In practice, visualization design can have implications for research and be a
 research activity in itself, such as multiple approaches to conduct research
