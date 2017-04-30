@@ -24,6 +24,7 @@ framework can help successfully shape a real-world visualization design study.
 
 <!-- CONCERN: is the focus on the f/w enough? role, purpose, use of activities throughout -->
 <!-- CONCERN: where did existing models fail? more on 9-sf? what does DAF provide over them? -->
+<!-- TODO clean references in this chapter??? -->
 
 
 
