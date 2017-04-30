@@ -53,8 +53,8 @@ projects.
   different visualization artifacts.
 ](figures/daf/design-methods.pdf){#fig:genoreval width="100%"}
 
-<!-- CONCERNS: \ja{have materials online/accessible!} how should we do that? -->
-<!-- CONCERNS: \ja{more on nine-stage framework} miriah: what do you think? -->
+<!-- CONCERN: \ja{have materials online/accessible!} how should we do that? -->
+<!-- CONCERN: \ja{more on nine-stage framework} miriah: what do you think? -->
 
 
 
