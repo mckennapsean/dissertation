@@ -54,7 +54,7 @@ projects.
 ](figures/daf/design-methods.pdf){#fig:genoreval width="100%"}
 
 <!-- CONCERNS: \ja{have materials online/accessible!} how should we do that? -->
-<!-- CONCERNS: \ja{more on 9-stage framework} miriah: what do you think? -->
+<!-- CONCERNS: \ja{more on nine-stage framework} miriah: what do you think? -->
 
 
 

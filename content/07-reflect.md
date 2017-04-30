@@ -36,8 +36,8 @@ a design space for visual narrative story flow, coupled with some initial
 studies into a few types of flow like steppers and scrollers [@mckenna2017]. In
 this work, the design activity framework can be used to frame the steps of
 experimental design, despite the inability of existing process models, such as
-the 9-stage framework for design studies [@Sedlmair2012b], to map to this same
-process. Overall, we found that the design activity framework can support
+the nine-stage framework for design studies [@Sedlmair2012b], to map to this
+same process. Overall, we found that the design activity framework can support
 thinking about other types of research beyond just design studies and
 problem-driven work unlike existing visualization design models.
 
@@ -446,17 +446,17 @@ the situation blocks more completely [@Meyer].
 The design activity framework, as a process model, is able to capture multiple
 aspects of the s-CorrPlot project more completely. For example, one focus of
 this project was technique-driven: a new approach for visualization
-multidimensional correlation. Unlike the 9-stage framework, the design activity
-framework can apply to general visualization design, including technique-driven
-work. For example, this project focused on the problem of visualizing
-correlation in many dimensions where current techniques such as scatterplots,
-scatterplot matrices, and heatmaps do not scale beyond the size of pixels in a
-screen well and require a good clustering or order of variables. As a solution,
-the s-CorrPlot visualizes variables as points and projects them down into 2-D,
-supporting a compact representation of correlation that couples well with
-interactive techniques. This approach requires interaction and exploration, but
-it is one idea and implementation that was realized in a visualization system,
-the s-CorrPlot tool built in R and OpenGL. It was then deployed to
+multidimensional correlation. Unlike the nine-stage framework, the design
+activity framework can apply to general visualization design, including
+technique-driven work. For example, this project focused on the problem of
+visualizing correlation in many dimensions where current techniques such as
+scatterplots, scatterplot matrices, and heatmaps do not scale beyond the size of
+pixels in a screen well and require a good clustering or order of variables. As
+a solution, the s-CorrPlot visualizes variables as points and projects them down
+into 2-D, supporting a compact representation of correlation that couples well
+with interactive techniques. This approach requires interaction and exploration,
+but it is one idea and implementation that was realized in a visualization
+system, the s-CorrPlot tool built in R and OpenGL. It was then deployed to
 collaborators, and successful case studies illustrate its utility for completely
 visualizing large datasets. From the perspective of a design activity, this
 technique and tool was built and deployed to solve this generalized problem
@@ -477,12 +477,12 @@ framework, since ideas  can also involve algorithmic level decisions
 By turning to the design activity framework, insights are formed about the
 design process and application of the s-CorrPlot technique to design study work.
 For the s-CorrPlot project, I joined the team after an initial prototype for an
-idea was developed, and the 9-stage framework [@Sedlmair2012b] would classify
+idea was developed, and the nine-stage framework [@Sedlmair2012b] would classify
 this as the "implement" step or the _make_ design activity. To improve the tool
 to meet our collaborators' needs, I visited their lab weekly to observe the
 types of research problems they faced, better understand the problem domain, and
 see how they utilized the prototype, going back to the "discover" stage or
-_understand_ activity. When we followed the 9-stage framework for design
+_understand_ activity. When we followed the nine-stage framework for design
 studies, this project was not as successful as a design study. While this
 project hit several pitfalls in the "design" stage [@Sedlmair2012b], the design
 activities, specifically the _understand_ design worksheet, pinpoint several
@@ -1023,7 +1023,7 @@ did not find any major differences in comprehension across condition pairs.
 ## Designing for Experiments and Evaluation
 
 In framing and evaluating this design space for visual narrative flow, the
-9-stage framework was not a good fit for our process because this was not a
+nine-stage framework was not a good fit for our process because this was not a
 design study. For example, there was no specific set of domain experts who
 create these visualization stories that we worked with. While the motivation
 behind this work was to support the creation of a tool to help these authors
@@ -1068,7 +1068,7 @@ a given encoding or interaction. This process will involve testing for usability
 and feasibility, such as through the use of pilots, kind of like prototypes, in
 the _make_ activity. The process may not perfectly overlap, but it shows that
 the design activity framework can map to this style of formative or evaluative
-work in ways that the 9-stage framework cannot. Additionally, the lack of
+work in ways that the nine-stage framework cannot. Additionally, the lack of
 generalizability of these studies could be uncovered by reflecting on
 assumptions and artifacts generated when forming the study, such as the single
 story, one dataset, and subset of visualizations which is fixed throughout all

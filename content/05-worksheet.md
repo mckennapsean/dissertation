@@ -25,7 +25,7 @@ projects. We conducted a series of interviews to garner additional open-ended
 feedback and suggestions that highlight the strengths and limitations of these
 worksheets as teaching materials.
 
-<!-- CONCERN emphasize several key visualization-theory components, like the nested model and extension of the 9-stage framework for design studies -->
+<!-- CONCERN emphasize several key visualization-theory components, like the nested model and extension of the nine-stage framework for design studies -->
 
 <!-- TODO from Chris: full sentence or not captions? -->
 
