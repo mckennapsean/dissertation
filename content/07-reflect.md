@@ -203,7 +203,7 @@ producing the 2D coordinates of the s-CorrPlot, shown in [@fig:corr-plot](b).
   correlation to $\mathbf{p}$. As such, (c) these vertical lines can be
   generalized as grid lines along $U$, denoting sets of equidistant correlation
   values to $\mathbf{p}$. Similarly, (d) grid lines to $\mathbf{s}$ can be shown.
-](figures/scorrplot/s-corrplot.pdf){#fig:corr-plot width="100%"}
+](figures/scorrplot/s-corrplot.pdf){#fig:corr-plot width="95%"}
 
 
 Based on [@eq:geom], the correlation coefficient for two variables
@@ -341,7 +341,7 @@ size of datasets that our collaborator struggles to analyze.
   clusters across the two regions.
   This indicates
   potentially significant differences in their biological processes.
-](figures/scorrplot/case-studies.pdf){#fig:gene-case-study width="100%"}
+](figures/scorrplot/case-studies.pdf){#fig:gene-case-study width="95%"}
 
 
 At first, our collaborator explored 38,365 genes in two regions of the brain,
