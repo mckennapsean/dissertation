@@ -9,7 +9,7 @@ steps of the process for visualization designers, but the four activities lack a
 breakdown or example of concrete steps to facilitate novices utilizing this
 framework to walk through their own real-world design process. To provide such a
 framing, we created new teaching materials for the design activity framework,
-such as visualization design worksheet for each design activity, a lecture on
+such as visualization design worksheets for each design activity, a lecture on
 the design process showcased within a real-world project, and resources for
 learning how to design and sketch visualizations.
 
@@ -19,11 +19,11 @@ summary of each activity with more actionable, guided steps for students to walk
 through the process of designing their own visualization system. Furthermore, we
 validated the effectiveness and use of these worksheets and the overall
 framework in the context of a graduate-level visualization course taught at our
-university. For this evaluation, we surveyed the class and 13 students who
-voluntarily utilized these design worksheets for their cumulative projects. We
-conducted a series of interviews to garner additional open-ended feedback and
-suggestions that highlight the strengths and limitations of these teaching
-materials.
+university. For this evaluation, we surveyed the class and worked with 13
+students who voluntarily utilized these design worksheets for their cumulative
+projects. We conducted a series of interviews to garner additional open-ended
+feedback and suggestions that highlight the strengths and limitations of these
+worksheets as teaching materials.
 
 <!-- CONCERN emphasize several key visualization-theory components, like the nested model and extension of the 9-stage framework for design studies -->
 
@@ -308,17 +308,19 @@ with related worksheets used by a colleague running design studios in our
 university's architecture and design department, resulting in the five steps for
 each visualization design activity, shown in [@tbl:steps]. Knowing that
 engineering students could benefit from focusing on creating many types of
-visualization artifacts, we utilized four of the steps for generation, and the
-_ideate_ sheet used three sketches like the five-design sheet methodology. We
-targeted each step's instructions for a single visualization project based on
-our own experience building visualization systems. After our first iteration, we
-presented the worksheets to our visualization research group and received a
-series of recommendations for improvements, including to place more of a focus
-on the users earlier in the process and to simplify complex, theoretical
-terminology. For example, the terminology of the nested model [@Munzner2009;
-@Meyer] was included in the original design, but it was determined that the
-worksheets were less novice friendly due to this terminology, so we simplified
-the worksheets and recommendations or hints for each step. We also walked
+visualization artifacts, we utilized four of the steps for generation. For
+example, the _ideate_ sheet used three sketches as in the five-design sheet
+methodology. We targeted each step's instructions for a single visualization
+project based on our own experience building visualization systems. After our
+first iteration, we presented the worksheets to our visualization research group
+and received a series of recommendations for improvements, including to place
+more of a focus on the users earlier in the process and to simplify complex,
+theoretical terminology. For example, the terminology of the nested model
+[@Munzner2009; @Meyer] was included in the original design, but it was
+determined that the worksheets were less novice friendly due to this
+terminology, so we simplified the worksheets and recommendations or hints for
+each step. Still, we focused on capturing visualization artifacts and the
+evaluative decisions that get made by visualization designers. We also walked
 through one of our projects using the worksheets to identify further elements to
 add: more helper text, warning icons, expected results for each step, and a
 label at the top for attachments.
