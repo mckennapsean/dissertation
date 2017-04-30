@@ -22,15 +22,8 @@ visualization design artifacts played a crucial role in communicating and
 reporting on the design process, and we have observed how the design activity
 framework can help successfully shape a real-world visualization design study.
 
-<!--\sm{focus to f/w, explain its role and purpose and use}-->
-<!--\sm{do this simply, match to the story, connect to activities throughout}-->
-
-<!-- TODO \td{why did existing models fail?} -->
-<!-- TODO \ja{more on 9-stage framework} -->
-<!-- TODO \ja{tie in framework better} -->
-<!-- TODO \ja{tie into the overcoming limitations with each of these case studies too!} -->
-<!-- TODO committee: for bubble-net design study, clearly walk through the project within the framework and reflect on its use -->
-<!-- TODO committee: what does this framework provide over previous work? -->
+<!-- CONCERN: is the focus on the f/w enough? role, purpose, use of activities throughout -->
+<!-- CONCERN: where did existing models fail? more on 9-sf? what does DAF provide over them? -->
 
 
 
@@ -300,8 +293,6 @@ together and led to successful visualization artifacts as a result.
   user feedback across all of these channels.
 ](figures/bubble-net/process-daf.pdf){#fig:process width="100%"}
 
-<!-- TODO committee: too many colors on design process figure? reorient? -->
-
 
 We present an overview of our design process in [@fig:process]. Each row and
 color corresponds to a different discourse channel. Each of these channels have
@@ -412,7 +403,7 @@ aspects of the design study.
   worksheet and sketches is included in the Appendix.
 ](figures/worksheets/worksheet-example.jpg){#fig:worksheet-example width="100%"}
 
-<!-- TODO include a copy of each worksheet in the Appendix? maybe? -->
+<!-- APPENDIX: add in each copy and link, or url? -->
 
 
 As previously discussed, a number of user-centered design methods have been
@@ -515,7 +506,7 @@ as a basis [@Paul2013a]. Lastly, we identified the general flow of both
 decisions (downward) and information (upwards) between these personas to
 characterize interactions taking place between them.
 
-<!-- TODO add personas to appendix if needed? check content? -->
+<!-- APPENDIX: add to and link, or url? -->
 
 
 ### Results and Implications of Using Personas
@@ -613,7 +604,8 @@ that made use of real-world cyber security data [@Fischer2014; @Koike2005;
   provide a full-page version of each data sketch in the Appendix.
 ](figures/methods/sketches.pdf){#fig:sketches width="100%"}
 
-<!-- TODO superscript / link to other material? or store in Appendix instead? -->
+<!-- APPENDIX: add in and link or url? -->
+
 
 We present an overview of the twenty data sketches we produced in
 [@fig:sketches]; please see the Appendix for a full-page version
@@ -625,7 +617,7 @@ which visual representations were easily understood and potentially most useful.
 These data sketches can be repurposed in future projects for further
 brainstorming.
 
-<!-- TODO superscript / link to other material? or store in Appendix completely? -->
+<!-- APPENDIX: add in and link or url? -->
 
 
 ### Results and Implications of Using Data Sketches
@@ -831,7 +823,7 @@ chart. For example, selecting four different countries results in very different
 patterns in the heatmap, as shown in [@fig:interaction].
 
 <!--We provide a video showcasing all possible interactions in Supplemental Materials.-->
-<!-- TODO should we reference any videos in the dissertation? link to website or youtube? -->
+<!-- APPENDIX: add in video url? -->
 
 
 All interactions with the dashboard require one click or less, meaning a user
@@ -996,7 +988,7 @@ the relatively small sample size. We hypothesize that this user simply rates
 things more strictly since this user still achieved tasks successfully and had
 similar concerns as other analysts.
 
-<!-- TODO should we include the data from the usability survey in appendix? how? or online? -->
+<!-- APPENDIX: add in and link, or online url? -->
 
 
 ### Deployment
