@@ -25,7 +25,7 @@ conducted a series of interviews to garner additional open-ended feedback and
 suggestions that highlight the strengths and limitations of these teaching
 materials.
 
-<!-- TODO emphasize several key visualization-theory components, like the nested model and extension of the 9-stage framework for design studies -->
+<!-- CONCERN emphasize several key visualization-theory components, like the nested model and extension of the 9-stage framework for design studies -->
 
 <!-- TODO from Chris: full sentence or not captions? -->
 
@@ -33,8 +33,9 @@ materials.
 
 
 
-\section{Motivation: Increasing Actionability of the \\ Framework}
 <!-- ## Motivation: Increasing Actionability of the Framework -->
+\section{Motivation: Increasing Actionability of the \\ Framework}
+<!-- ThesisOffice: header adjustment -->
 
 To teach design in data visualization, educators combine many foundational
 components, from user interface principles [@Shneiderman2004] to data and
@@ -86,7 +87,7 @@ their dissemination and use by others, and we encourage feedback and
 improvements to these teaching materials by other visualization educators over
 time.
 
-<!-- TODO how to do a footnote??? or appendix?
+<!-- APPENDIX: add to and link, or URL?
 repository\footnotemark
 \footnotetext{Supplemental Materials can be accessed via:
 \url{https://design-worksheets.github.io}}
@@ -104,10 +105,128 @@ into a series of tangible and generalized steps (see [@tbl:steps]). These steps
 are akin to design methods that can be generative or evaluative in nature.
 
 
-<!-- TODO remove the tbl:steps text on page? -->
-<!-- TODO move table to bottom of page? is that possible? -->
-<!-- TODO from Chris: end of page with all text above -->
+\newpage
+\begin{longtable}[]{@{}llll@{}}
+\caption{\label{tbl:steps}Each visualization design activity broken down
+into five concrete steps. The first four steps of the process are
+generative, to establish design requirements, encoding and interaction
+sketches, visualization prototypes, or visualization systems. The fifth
+step is always evaluative, to compare different visualization artifacts
+in order to justify design decisions and record that reasoning down for
+later use. We presented these five steps to novice visualization
+designers, students, using design worksheets as a template, as in
+Figs.~\ref{fig:u-worksheet}, \ref{fig:i-worksheet}, \ref{fig:m-worksheet}, \ref{fig:d-worksheet}.
+}\tabularnewline
+\toprule
+\begin{minipage}[b]{0.21\columnwidth}\raggedright\strut
+\emph{\textbf{understand}}\strut
+\end{minipage} & \begin{minipage}[b]{0.21\columnwidth}\raggedright\strut
+\emph{\textbf{ideate}}\strut
+\end{minipage} & \begin{minipage}[b]{0.21\columnwidth}\raggedright\strut
+\emph{\textbf{make}}\strut
+\end{minipage} & \begin{minipage}[b]{0.21\columnwidth}\raggedright\strut
+\emph{\textbf{deploy}}\strut
+\end{minipage}\tabularnewline
+\midrule
+\endfirsthead
+\toprule
+\begin{minipage}[b]{0.21\columnwidth}\raggedright\strut
+\emph{\textbf{understand}}\strut
+\end{minipage} & \begin{minipage}[b]{0.21\columnwidth}\raggedright\strut
+\emph{\textbf{ideate}}\strut
+\end{minipage} & \begin{minipage}[b]{0.21\columnwidth}\raggedright\strut
+\emph{\textbf{make}}\strut
+\end{minipage} & \begin{minipage}[b]{0.21\columnwidth}\raggedright\strut
+\emph{\textbf{deploy}}\strut
+\end{minipage}\tabularnewline
+\midrule
+\endhead
+\begin{minipage}[t]{0.21\columnwidth}\raggedright\strut
+identify the challenge \& users\strut
+\end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright\strut
+select a design requirement\strut
+\end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright\strut
+set an achievable goal\strut
+\end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright\strut
+pinpoint a target audience\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.24\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.24\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.24\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.24\columnwidth}\raggedright\strut
+\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.21\columnwidth}\raggedright\strut
+find questions \& tasks\strut
+\end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright\strut
+sketch first idea\strut
+\end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright\strut
+plan encodings \& layouts\strut
+\end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright\strut
+fix usability concerns\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.24\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.24\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.24\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.24\columnwidth}\raggedright\strut
+\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.21\columnwidth}\raggedright\strut
+check with users or explore data\strut
+\end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright\strut
+sketch another idea\strut
+\end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright\strut
+plan support for interactions\strut
+\end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright\strut
+improve points of integration\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.24\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.24\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.24\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.24\columnwidth}\raggedright\strut
+\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.21\columnwidth}\raggedright\strut
+brainstorm design requirements\strut
+\end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright\strut
+sketch final idea\strut
+\end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright\strut
+sketching additional views\strut
+\end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright\strut
+refine the aesthetics\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.24\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.24\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.24\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.24\columnwidth}\raggedright\strut
+\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.21\columnwidth}\raggedright\strut
+compare \& rank design requirements\strut
+\end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright\strut
+compare \& relate your ideas\strut
+\end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright\strut
+build the prototype \& check-in\strut
+\end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright\strut
+consider a method to evaluate\strut
+\end{minipage}\tabularnewline
+\bottomrule
+\end{longtable}
+\newpage
 
+<!-- CANNOT have a table be shown in a figure or a figure in a table. embed manually via latex.
 | _**understand**_ | _**ideate**_ | _**make**_ | _**deploy**_ |
 | :--------------- | :--------------- | :--------------- | :--------------- |
 | identify the challenge \& users | select a design requirement | set an achievable goal | pinpoint a target audience |
@@ -129,9 +248,10 @@ are akin to design methods that can be generative or evaluative in nature.
   novice visualization designers, students, using design worksheets as a
   template, as in [@fig:u-worksheet; @fig:i-worksheet; @fig:m-worksheet;
   @fig:d-worksheet]. {#tbl:steps}
+-->
 
 
-<!-- TODO fbox around graphics? -->
+<!-- CONCERN fbox around graphics? -->
 
 ![
   The _understand_ worksheet, tailored to help students identify
@@ -171,7 +291,7 @@ numbered in the top right for keeping track of order and for planning and
 retrospection. For each worksheet's five steps, we included additional helper
 text to help students find the answer and complete each design worksheet. Please
 find the details for each of the design activity worksheets in
-[@fig:u-worksheet; @fig:i-worksheet; @fig:m-worksheet; @fig:d-worksheet]. We
+[@fig:u-worksheet; @fig:i-worksheet; @fig:m-worksheet; and @fig:d-worksheet]. We
 included warnings about when to jump back to previous boxes or worksheets, and
 icons to illustrate the expected type of answer for each box: a list, a sketch,
 or a table. Lastly, the bottom contains a list of icons pointing to the
@@ -181,8 +301,6 @@ part of visualization designers to verify that their current visualization
 artifacts are sufficient and that they succeed in addressing the desired problem
 or challenge in enough detail. This is why many visualization design processes
 may be iterative and complex to perform.
-
-<!-- TODO can you add an "and" when finishing a list of multiple figure references? -->
 
 
 To create the worksheets, we combined the design activity framework definitions
@@ -220,7 +338,7 @@ iterative design process utilizing the design worksheets. An overview of this
 example is provided in the next chapter. We include a copy of our lecture
 materials in the Appendix.
 
-<!-- \sm{TODO should we include these in the appendix...? perhaps. or include some of it here? could use more detail} -->
+<!-- APPENDIX: add to and link, or URL? -->
 
 
 
@@ -243,9 +361,9 @@ reached out to the teaching staff for further help and guidance for
 visualization design within the context of her project. For details on the
 project expectations, deadlines, and grading criteria, please see the Appendix.
 
-<!-- \footnotemark[\value{footnote}] \sm{this is on a previous page...}-->
-<!-- \sm{TODO note this is use of I here... because it was truly just me for the most part} -->
-<!-- \sm{TODO what to include in appendix? and do so...} -->
+<!-- APPENDIX: add to and link, or URL?
+ \footnotemark[\value{footnote}] \sm{this is on a previous page...}-->
+
 
 
 To evaluate the efficacy of worksheets in supporting the visualization design
@@ -259,7 +377,7 @@ feedback acquired anonymously through the surveys and detailed interviews. The
 questions and prompts used for the surveys and interviews are included in the
 Appendix.
 
-<!-- \sm{TODO include in appendix? if at all?} -->
+<!-- APPENDIX: add to and link, or URL? -->
 
 
 To gather anonymous feedback and assess the utility of the design worksheets for
@@ -351,8 +469,6 @@ flexibility of the visualization design worksheets: "If I had a different
 project, I would use each box in different ways depending on the context"
 (participant #8, or P8).
 
-<!-- \sm{TODO check if more to that last quote?} -->
-
 
 All students agreed that evaluation was a necessary and important step for
 visualization design in order to pinpoint flaws in their understanding of the
@@ -371,8 +487,6 @@ student who used the visualization design worksheets for the first time later in
 the course of the project and stated that "When I used [the] worksheets, it kept
 me focused on what I was doing and trying to get more ideas or more [encodings]"
 (P8).
-
-<!-- \sm{TODO check if more than that last quote?} -->
 
 
 An intriguing finding was that four students employed the worksheets in
@@ -437,23 +551,21 @@ experienced student programmers.
 
 
 Furthermore, some minor tweaks can be made to improve the visualization design
-worksheets. Several students noted that the gray, helper text on the worksheets
+worksheets. Three students noted that the gray, helper text on the worksheets
 confused them at a times, so a low-level editing pass and clarification could
 help the visualization design worksheets. One student even suggested fleshing
 out that text into more of a template but then providing blank boxes on separate
 design worksheets for each activity to be filled out with less clutter overall.
-Several students noted that having another example visualization project using
-the worksheets, such as a good student project, would help steer students toward
+Five students noted that having another example visualization project using the
+worksheets, such as a good student project, would help steer students toward
 knowing what to put onto the design worksheets and define more clear
 expectations. We also received recommendations to use a date-field rather than a
 blank number-field to encourage students to simply organize their group
 worksheets over time as the numbers were not often used and harder to coordinate
-among group members. We also asked several students about the visual result and
-warning icons, and the consensus was that most students did not realize what
-these were for so their use may be superfluous or should be made more clear.
-Additionally, providing weekly advisor feedback was crucial for improving
-students' confidence in visualization design: "because we got to meet with [an
-advisor] then we had time carved out [for] doing the worksheets" (P5).
-
-<!-- \sm{TODO can you quantify 'several' into actual numbers?} -->
+among group members. We also asked students about the visual result and warning
+icons, and the consensus was that most students did not realize what these were
+for so their use may be superfluous or should be made more clear. Additionally,
+providing weekly advisor feedback was crucial for improving students' confidence
+in visualization design: "because we got to meet with [an advisor] then we had
+time carved out [for] doing the worksheets" (P5).
 
