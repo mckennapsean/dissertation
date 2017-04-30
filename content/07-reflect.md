@@ -42,9 +42,6 @@ thinking about other types of research beyond just design studies and
 problem-driven work unlike existing visualization design models.
 
 <!-- TODO check and clean all refs from this chapter! -->
-<!-- TODO fix figure placement? all at the end, wtf? -->
-<!-- TODO how many details or things should I include in the appendix? derivatives? corpus table? etc? -->
-
 
 
 
@@ -63,10 +60,10 @@ encodes correlation spatially between variables as points on scatterplot
 using the geometric structure underlying Pearson's correlation.
 Furthermore, we extend the s-CorrPlot with interactive techniques
 that enable animation of the scatterplot to new projections of the correlation
-space, as illustrated in the companion video in Supplemental Materials. We
+space, as illustrated in the companion video in the Appendix. We
 provide the s-CorrPlot technique and tool as an open-source R-package.
 
-<!-- TODO links to video or tool? -->
+<!-- APPENDIX: add links to video/tool? -->
 
 
 ### Visualizing Correlation
@@ -224,6 +221,9 @@ $\mathbf{x}$.  Thus, any vector that lies on $V$ is at the same distance from
 $\mathbf{p}$, and thus has the same correlation value.  We illustrate this
 $(n-2)$-flat $V$ in [@fig:corr-plot](a).  Moving $V$ along the vector
 $\mathbf{p}$ produces grid lines as shown in [@fig:corr-plot](c).
+For further details about the mathematical derivation of the s-CorrPlot,
+including the uncertainty bounds and density estimation technique, please
+see the original publication [@mckenna2015s].
 
 
 This spatial encoding of correlation affords several
@@ -236,8 +236,6 @@ generating any single projection on the s-CorrPlot.
 This linear computation for each scatterplot enables scaling to
 large datasets at interactive frame rates.
 
-<!-- TODO should I mention what is cut here and where to look for it? or include in Appendix? -->
-
 
 ### Interactive Exploration with the s-CorrPlot
 
@@ -249,10 +247,10 @@ multidimensional exploration techniques,
 in the spirit of existing systems that employ user-driven
 exploration [@swayne1998xgobi; @swayne2003ggobi; @Elmqvist08Rolling].
 We encourage our readers to watch the short companion video in
-Supplemental Materials to more easily understand the interactive
+the Appendix to more easily understand the interactive
 exploration aspect.
 
-<!-- TODO link in video? -->
+<!-- APPENDIX: link in video -->
 
 
 To better grasp multidimensional spaces, methods such as projection pursuit
@@ -496,9 +494,7 @@ contribute new pitfalls for design studies:
 - PF-33. not communicating information across teammates on the problem characterization and abstraction (discover / _understand_)
 - PF-34. failing to identify the broad problem: solving small, specific problems may not be useful or impactful enough for domain experts (discover / _understand_)
 - PF-35. not tailoring the system for domain experts but focusing on designing novel solutions (discover / _understand_)
-- PF-36. deploying a prototype too early, thus limiting the problem and design focus (_deploy_)
-
-<!-- TODO from Sam: NM is limited by low-level tasks. posits that iteration with DAF as a process model and diff. charac. and story, but think0-through reflection, as a research process, another iterative approach, is DAF for that? I explained no and that made sense to him. and then lack of pivot to non-design study work in NM/9SF, but type of reflection and evaluation shoudl change in this style of work. and then think of his weaver paper, hit a similar snag, related to the problem formulation (too general, so solution was not right for evaluation). thinks 34/35 are tied together. 36, may fall into wicked problems space. paper on fleshed out prototype may be worth citing here as well (ninas work?) and how do you provide solutions for htese pitfalls? worth thinking about! -->
+- PF-36. deploying a prototype too early, thus limiting the problem and design focus --- instead aim to develop technology probes [@Hutchinson2003a] to form design requirements, abstractions, and ideas (_deploy_)
 
 
 
@@ -729,9 +725,9 @@ stepper (slideshow) model. This story features technical insights and complex
 data visualizations in a longer format. Thus we hypothesized that the visual
 narrative flow could substantially impact the story usability and reader
 preference. To experience this story and our stepper variant, please see
-Supplemental Materials.
+the Appendix.
 
-<!-- TODO again footnote...
+<!-- APPENDIX: add in link / url?
 \footnotemark[\value{footnote}]
 -->
 
@@ -742,13 +738,13 @@ toggling between the two types of narrative flow. After reading through the
 story, participants answered an online questionnaire on the usability of each
 approach and individual preference questions, selected from the
 system usability survey (SUS) [@brooke1996sus]. Survey materials used are
-included in Supplemental Materials. The
+included in the Appendix. The
 participants all have data visualization knowledge, different operating systems
 (Linux, Mac OS, Windows), various browsers (Firefox, Chromium, Chrome), display
 resolutions (1373x735 to 2560x1464), only three typically read visually animated
 stories, and five had read this story before.
 
-<!-- TODO again footnote...
+<!-- APPENDIX: add in link / url?
 \footnotemark[\value{footnote}]
 -->
 
@@ -783,7 +779,9 @@ author analyzed iteratively with 3-5 passes on the interview notes along with
 informal coding techniques. Participants did not have formal training in data
 visualization, six participants had machine learning knowledge, and three
 participants had seen this story before. Materials used in the study are
-included in Supplemental Materials.
+included in the Appendix.
+
+<!-- APPENDIX: add in link / url? -->
 
 
 The results of this study shed more light on reader preference. For
@@ -896,7 +894,9 @@ participant had read. We randomized the order of questions, but questions per
 chapter were adjacent to support effective comparison. For analysis, several of
 the questions were negative attributes for engagement, so their responses were
 flipped accordingly. All materials and conditions used for the study are
-included in Supplemental Materials.
+included in the Appendix.
+
+<!-- APPENDIX: add in link / url? -->
 
 
 ### Crowdsourced Participants
@@ -945,9 +945,9 @@ important to note that these effects are small, since they are averages of the
 14 questions on engagement. Certain questions had a stronger effect across the
 visual narrative flows, such as visualizations scoring higher on an aesthetics
 question: "This reading experience appealed to my visual senses." We provide
-an engagement model for each question and condition in Supplemental Materials.
+an engagement model for each question and condition in the Appendix.
 
-<!-- TODO check all supp mat. references and appendix materials??? -->
+<!-- APPENDIX: add in link / url? -->
 
 
 ![
@@ -1095,6 +1095,4 @@ project, and this can even provide benefit for application or problem-driven
 work for others with similar challenges that want to build off of the
 requirements, ideas, prototypes, and systems that been built and shared with the
 research community.
-
-<!-- TODO from Sam: sees the generalization from design to experimental design easily. metric for comparison of studies, and that this is a part of the process. could be that artifacts may be something else, like stories we had, or maybe tasks, but that they may be different for exp. design, or artifacts of that process, still a design process. and agrees that all this makes sense, including reproduc. stuff. -->
 
