@@ -227,13 +227,13 @@ ideas by sketching them on paper or through more refined versions such as
 wireframes or low-fidelity prototypes. As a designer externalizes these ideas
 onto some medium such as paper, it is common that more details of an idea must
 be fleshed out and concretized [@Fallman2003a]. Another suggested technique in
-the visualization community is data sketching, which incorporates data into the
-ideation process, to discover the results and limitations encountered when using
-real data to realize an idea. For both concept sketching and data sketching, it
-is also possible that more ideas may spin out of this process, as a variation
-upon an existing idea or new idea combining several together, so it is often
-recommended for visualization designers to externalize their ideas early and
-often to help them generate more and better ideas.
+the visualization community is data sketching [@Lloyd2011], which incorporates
+data into the ideation process, to discover the results and limitations
+encountered when using real data to realize an idea. For both concept sketching
+and data sketching, it is also possible that more ideas may spin out of this
+process, as a variation upon an existing idea or new idea combining several
+together, so it is often recommended for visualization designers to externalize
+their ideas early and often to help them generate more and better ideas.
 
 
 
