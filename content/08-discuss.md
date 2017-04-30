@@ -29,6 +29,8 @@ framework could apply to other types of research beyond application-driven
 design study projects, more examination and validation is required to
 investigate this notion.
 
+<!-- TODO clean up refs in this chap -->
+
 
 
 

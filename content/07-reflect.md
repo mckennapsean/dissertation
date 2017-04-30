@@ -587,6 +587,8 @@ otherwise initially possible.
   can and often do occur in data visualization stories created by authors.
 ](figures/narrative-flow/design-space.pdf){#fig:design-space width="100%"}
 
+<!-- ThesisOffice: check figure placement, should be within 3 pages of ref. -->
+
 
 **Navigation input** is how a reader interacts to progress through a narrative
 visualization. For example, an author can choose to use scrolling input to move
