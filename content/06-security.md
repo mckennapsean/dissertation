@@ -1,24 +1,24 @@
 # Case Study: Design Study in Cyber Security {#sec:security}
 
-In this chapter we discuss successful case study for visualizing cyber security
+In this chapter, we discuss another case study for visualizing cyber security
 data, specifically, building a cyber security dashboard to support visual
 communication across multiple types of cyber users [@McKenna2015;
 @mckenna2016]. One of the challenges in the domain of cyber security is limited
 access to end users. We found certain design methods to be effective with this
-limited access for designing data visualizations, such as personas and data
+design constraint in designing data visualizations, such as personas and data
 sketches [@McKenna2015]. Through a collaboration with cyber security researchers
 and users, we were able to go through a design process with network analysts and
 network managers in order to study how cyber information is communicated and
 created a tool to aid that communication, BubbleNet [@mckenna2016]. Using the
 design activity framework as a backbone for this project, we balanced
-human-centered design methods with an agile development process to produce a
-useful and effective dashboard for domain users. We were also able to build off
-of and repurpose the design opportunities we had identified with existing users
-from our redesign project into this dashboard project [@mckenna2016].
-Furthermore, we conducted a formal usability study with a standardized
-quantitative questionnaire in order to validate the usability of the final
-dashboard tool. By reflecting on this design process, we have found that
-visualization design artifacts played a crucial role in communicating and
+human-centered design methods with an informal agile development process to
+produce a useful and effective dashboard for domain users. We were also able to
+build off of and repurpose the design opportunities we had identified with
+existing users from our redesign project into this dashboard project
+[@mckenna2016]. Furthermore, we conducted a formal usability study with a
+standardized quantitative questionnaire in order to validate the usability of
+the final dashboard tool. By reflecting on this design process, we have found
+that visualization design artifacts played a crucial role in communicating and
 reporting on the design process, and we have observed how the design activity
 framework can help successfully shape a real-world visualization design study.
 
@@ -37,7 +37,7 @@ note-worthy breaches include: Sony Pictures discovered that over one-hundred
 terabytes of data ranging from films to employee information to sensitive
 business documents were copied off of their networks; personal information such
 as names, addresses, phone numbers, and emails were found by hackers with
-administrative access to the US's largest bank, JP Morgan Chase; T-Mobile
+administrative access to the US's largest bank, JP Morgan Chase; and T-Mobile
 customers have had sensitive personal information leaked from a breach within
 the Experian credit agency, everything from names to social security and
 passport numbers.
@@ -45,18 +45,18 @@ passport numbers.
 
 Hacks like these are becoming increasingly prevalent and sophisticated, making
 the maintenance of a safe and secure computer network challenging, yet critical.
-Maintaining security on these computer networks is extremely challenging,
-particularly due to the scale of the data as well as the constantly evolving
-nature of cyber security attacks [@Erbacher2010a; @Best2014]. Often, these
-attacks require a human interpretation in order to uncover, stop, and recover
-from these attacks [@DAmico2008]. Network analysts struggle with a very
-data-intensive task where it is easy to make mistakes, errors, and
-miscalculations [@Erbacher2010a]. Visualization is one way for analysts to both
-explore and present this large data space, but analysts have been known to be
-hesitant about trusting visualizations for their own workflows [@Fink2009].
+Maintaining security on these computer networks is tricky, particularly due to
+the scale of the data as well as the constantly evolving nature of cyber
+security attacks [@Erbacher2010a; @Best2014]. Often, these attacks require a
+human interpretation in order to uncover, stop, and recover from them
+[@DAmico2008]. Network analysts struggle with a very data-intensive task where
+it is easy to make mistakes, errors, and miscalculations [@Erbacher2010a].
+Visualization is one way for analysts to both explore and present this large
+data space, but analysts have been known to be hesitant about trusting
+visualizations for their own workflows [@Fink2009].
 
 
-In this chapter we describe a design study focusing on the domain of cyber
+In this chapter, we describe a design study focusing on the domain of cyber
 security, where we worked with two dozen different cyber security experts over
 the span of two years with the goal of improving how analysts discover and
 present interesting anomalies and patterns within computer network data. To the
@@ -64,15 +64,15 @@ best of our knowledge, this is the first end-to-end design study within this
 domain. Conducting the design study brought about an interesting set of design
 constraints: limited access to the analysts and data, multiple types of
 end-users, and deployment limitations. Some of these challenges go against
-guidelines for conducting design studies, such as arguments for an up-front
-winnowing of users and collection of data [@Sedlmair2012b]. Addressing these
-issues, however, allowed us to validate a number of other guidelines for
-incorporating user-centered design methods into a cyber security project
-[@McKenna2015], as well as for making use of a variety of discourse channels
-[@Wood2014]. By reflecting on the use of these channels and design methods,
-there are explicit connections of this design study to the design activity
-framework based on the different steps, design methods, and visualization
-artifacts.
+guidelines for conducting design studies from the nine-stage framework, such as
+arguments for an up-front winnowing of users and collection of data
+[@Sedlmair2012b]. Addressing these issues, however, allowed us to validate a
+number of other guidelines for incorporating user-centered design methods into a
+cyber security project [@McKenna2015], as well as for making use of a variety of
+discourse channels [@Wood2014]. By reflecting on the use of these channels and
+design methods, there are explicit connections of this design study to the
+design activity framework based on the project's steps, design methods, and
+visualization artifacts.
 
 
 The primary contribution of this design study is the design, evaluation, and
@@ -87,14 +87,14 @@ channels of discourse strategy [@Wood2014].
 
 
 In the first part of this chapter, we compare against related work for cyber
-security visualization and then describe the data and task abstraction in
-[@sec:abst]. Next, we discuss a methodical design process for the unique design
-constraints we encountered along with a detailed discussion of two specific
-design methods useful for data visualization design. The BubbleNet dashboard is
-then described, which we evaluate both as a usability study and through
-deployment to real users. Lastly, we reflect on implications from what we have
-learned and how they apply to both the cyber security and visualization
-communities.
+security visualization and then describe the data and task abstraction. Next, we
+discuss a methodical design process for the unique design constraints we
+encountered along with a detailed discussion of two specific design methods
+useful for data visualization design. The BubbleNet dashboard is then described,
+which we evaluate both as a usability study and through deployment to real
+users. Lastly, we reflect on implications from what we have learned while
+building the dashboard and how this applies to both the cyber security and
+visualization communities.
 
 
 
@@ -182,9 +182,9 @@ must often be conveyed to other people for decisions to be made [@McKenna2015].
 Often, this information to convey and decisions to be made surround a problem or
 an incident [@DAmico2008]. One analyst we spoke with summarized why presentation
 is challenging: _"pictures are great when going up to management because you
-have 60 seconds to make your case"_ (A4). There are many kinds of cyber security
-incidents which can result in negative outcomes, such as information disclosure,
-theft, and denial of service [@howard1998common].
+have 60 seconds to make your case"_ (analyst #4, or A4). There are many kinds of
+cyber security incidents which can result in negative outcomes, such as
+information disclosure, theft, and denial of service [@howard1998common].
 
 
 Cyber security includes a variety of data types such as logs of computer
@@ -268,29 +268,33 @@ two different countries.
 ## Design Process
 
 This design study focused on creating a dashboard for cyber security patterns.
-To present these patterns, sthere was an emphasis on users beyond the network
+To present these patterns, there was an emphasis on users beyond the network
 analyst. As such, it was necessary to incorporate these other users, their
 needs, and workflows into the design process in order to create the final
 BubbleNet dashboard. This design process highlighted key insights into the
 connection, similarities, and differences of user-centered design and a design
 study, and these insights make this work unique compared to past user-centered
-design papers for cyber security. As a result, we reflected on this design
-process and modeled it in the form of Wood et al.'s discourse channels, which
-are _"complex relationship between producers and consumers of a visualization."_
-[@Wood2014] In this work, we utilized four distinct discourse channels: a
-software company, a research organization, university information security, and
-an operational organization. These different discourse channels interacted
-together and led to successful visualization artifacts as a result.
+design papers for cyber security. In particular, we found that the framing of
+the design activity framework succinctly captured, described, and guided our
+design process more effectively than the nine-stage framework process for design
+studies. As a result of using the design activity framework, we reflected on
+this design process and modeled it in the form of Wood et al.'s discourse
+channels, which are _"complex relationship between producers and consumers of a
+visualization."_ [@Wood2014] In this work, we utilized four distinct discourse
+channels: a software company, a research organization, university information
+security, and an operational organization. These different discourse channels
+interacted together in unique ways that led to successful visualization
+artifacts as a result.
 
 
 ![
-  An overview of our design process. Four distinct channels played a role in
-  BubbleNet's design, the first was previous work, and the second and fourth
-  were various users in two distinct settings, both research and operational.
-  The third channel involved a network analyst from a university. Each channel
-  involved different sets of users and data, but the final BubbleNet dashboard
-  design and deployments all occurred due to the interaction of artifacts and
-  user feedback across all of these channels.
+  This is an overview of our design process. Four distinct channels played a
+  role in BubbleNet's design, the first channel was previous work, and the
+  second and fourth channels involved users in two distinct settings, both
+  research and operational. The third channel involved a network analyst from
+  our university. Each channel incorporated different sets of users and data,
+  but the final BubbleNet dashboard design and deployments all occurred due to
+  the interaction of artifacts and user feedback across all of these channels.
 ](figures/bubble-net/process-daf.pdf){#fig:process width="100%"}
 
 
@@ -300,8 +304,23 @@ different users, data sources, and design methods that were employed. The
 primary visualization artifacts of this process are the prototypes and tools,
 with other figures in this chapter showing each. The two prototypes are shown in
 [@fig:dashboard1; @fig:dashboard2], and the final BubbleNet dashboard is
-discussed in [@fig:dashboard]. This final dashboard is linked to deployments in
+presented in [@fig:dashboard]. This final dashboard is linked to deployments in
 two different discourse channels.
+
+
+![
+  This shows the first dashboard prototype, after using the personas design
+  method, to implement our first design for analysts and managers.
+](figures/methods/dashboard1.pdf){#fig:dashboard1 width="100%"}
+
+
+![
+  Here, we show the second dashboard prototype, implemented after conducting the
+  data sketches method to redesign the dashboard and simplify the encoding of
+  geopositioned data, using a map and fewer hierarchical details in the
+  resulting dashboard. The heatmap seen in the previous prototype was rearranged
+  to align with a temporal bar chart and to give it more screenspace.
+](figures/methods/dashboard2.pdf){#fig:dashboard2 width="100%"}
 
 
 Furthermore, at the bottom of [@fig:process], we highlight the different
@@ -309,8 +328,8 @@ activities of the design activity framework, from the perspective of the primary
 visualization designer across the various discourse channels, design methods,
 and resulting visualization artifacts. What is unique is how a previous design
 process, presented in [@sec:formulation], fed into this design study and the
-unique impact of the various visualization artifacts had on the final BubbleNet
-dashboard visualization system.
+unique impact that the previous visualization artifacts had on the final
+BubbleNet dashboard visualization system.
 
 
 The first portion of this design study was informed by a previous domain
@@ -357,13 +376,11 @@ it took significant time to present and explain these to an analyst.
 Furthermore, implementing the spatial treemap algorithm [@Wood2008a] uncovered
 trade-offs between spatial location (topology) versus aspect ratio of each
 element (squarified). In other words, spatially relevant treemaps were more
-challenging to read and to compare size. For further detail on these sketches as
-both design alternatives and for an analysis tailored for the domain of cyber
-security, please see previous work on the data sketches design method
-[@McKenna2015]. However, the feedback received on the data sketches validated
-our initial data abstraction of location-based aggregation since abstractions
-like network graphs are too complex for a simple summary view, whereas
-location-based views required little to no explanation.
+challenging to read and to compare size. We discuss further detail on the data
+sketches design method later in this chapter. However, the feedback received on
+the data sketches validated our initial data abstraction of location-based
+aggregation since abstractions like network graphs are too complex for a simple
+summary view, whereas location-based views required little to no explanation.
 
 
 Thus, we iteratively developed towards a location-based encoding which is
@@ -440,21 +457,6 @@ cyber security to help form the design opportunities for this project. This
 motivation is an ideal fit for the personas design method.
 
 
-![
-  This shows the first dashboard prototype, after using the personas design
-  method to implement our first design for analysts and managers.
-](figures/methods/dashboard1.pdf){#fig:dashboard1 width="100%"}
-
-
-![
-  Here, we show the second dashboard prototype, implemented after conducting the
-  data sketches method to redesign the dashboard and simplify the encoding of
-  geopositioned data, using a map and fewer hierarchical details in the
-  resulting dashboard. The heatmap seen in the previous prototype was rearranged
-  to align with a temporal bar chart and to give it more screenspace.
-](figures/methods/dashboard2.pdf){#fig:dashboard2 width="100%"}
-
-
 The personas method is often utilized within the user-experience, design, and
 HCI communities [@Pruitt2003; @Faily2011; @Chang2008; @McGinn2008; @Martin2012].
 Personas are _documents meant to foster communication within a design team as
@@ -486,8 +488,8 @@ a design team.
 ### Visualization Artifacts: Personas
 
 ![
-  An overview of the four visual personas we identified, showing the role
-  decisions and information play across all users. The personas method was
+  Here is an overview of the four visual personas we identified, showing the
+  role decisions and information play across all users. The personas method was
   particularly effective at narrowing our design focus and facilitating
   consistent communication as a design team.
 ](figures/methods/personas.pdf){#fig:personas height="100%"}
@@ -513,7 +515,7 @@ characterize interactions taking place between them.
 
 Personas played a critical role in helping us to decide which users and needs to
 target in our design process. Narrowing the focus of our dashboard project early
-was crucial due to the time limitations of our project. We decided that the
+was crucial due to the time constraints of our project. We decided that the
 dashboard should not be too high-level for just CEO's nor just another tool for
 analysts. We targeted our dashboard to both cyber analysts and managers by
 combining features for analysts to quickly explore the data with standard
@@ -523,9 +525,9 @@ personas. Furthermore, the narrowed design focus uncovered several key user
 needs for our project. By brainstorming off these needs, we were able to ideate
 upon various dashboard designs and compare how they worked for different users
 based on the personas we created. Some examples of these user needs include:
-intuitive and easy-to-use, communication and presentation, ability to provide
-details-on-demand, simplification and aggregation of data, adaptability, and
-promotion of collaboration between users. The personas continued to aid our
+being intuitive and easy-to-use, communication and presentation, ability to
+provide details-on-demand, simplification and aggregation of data, adaptability,
+and promotion of collaboration between users. The personas continued to aid our
 design team in both communicating and evaluating the dashboard, up until its
 deployment.
 
@@ -596,12 +598,13 @@ that made use of real-world cyber security data [@Fischer2014; @Koike2005;
 ### Visualization Artifacts: Data Sketches
 
 ![
-  An overview of the twenty data sketches we evaluated with a cyber security
-  analyst; this feedback was critical to our redesign of a cyber security
-  dashboard in [@fig:dashboard2]. We categorized each sketch into four groups:
-  network graphs, maps, aggregated charts, and time. Several data sketches we
-  pulled from existing literature [@Fischer2014; @Koike2005; @Taylor2009]. We
-  provide a full-page version of each data sketch in the Appendix.
+  This is an overview of the twenty data sketches we evaluated with a cyber
+  security analyst; this feedback was critical to our redesign of a cyber
+  security dashboard in [@fig:dashboard2]. We categorized each sketch into four
+  groups: network graphs, maps, aggregated charts, and time. Several data
+  sketches we pulled from existing literature [@Fischer2014; @Koike2005;
+  @Taylor2009]. We provide a full-page version of each data sketch in the
+  Appendix.
 ](figures/methods/sketches.pdf){#fig:sketches width="100%"}
 
 <!-- APPENDIX: add in and link or url? -->
@@ -679,7 +682,7 @@ out potential design ideas and focus on a smaller subset of ideas quickly.
 ### Data Sketches Recommendations for Visualization Design
 
   - Incorporate real data whenever possible; if you cannot, use realistic datasets like the VAST challenge datasets.
-  - Repurpose the tools you know, and experiment with new ones (e.g. Python, Tableau, Gephi, D3.js, Processing, Excel, Spotfire, Arcsight, Splunk).
+  - Repurpose the tools you know, and experiment with new ones (e.g., Python, Tableau, Gephi, D3.js, Processing, Excel, Spotfire, Arcsight, Splunk).
   - Utilize real-data examples of visualization tools if a tool is unavailable or requires excessive time to input your data.
   - Explore both interaction and animation in your data sketches.
   - During evaluations, provide users with tasks or prompts if your goals require focusing the user feedback.
@@ -704,9 +707,10 @@ them as well.
 
 
 ![
-  The BubbleNet dashboard labeled by its corresponding encodings: a) location
-  map based on a Dorling cartogram, b) temporal chart and heatmap, c) attribute
-  bullet bar charts, d) record details table, and e) selection overview.
+  We present the BubbleNet dashboard, labeled by its corresponding encodings: a)
+  location map based on a Dorling cartogram, b) temporal chart and heatmap, c)
+  attribute bullet bar charts, d) record details table, and e) selection
+  overview.
 ](figures/bubble-net/dashboard.pdf){#fig:dashboard width="100%"}
 
 
@@ -726,20 +730,20 @@ values, up to hundreds of thousands.
 
 
 After gathering feedback on the initial treemap prototype, we learned that the
-details of the location (e.g. city) were less important and more uncertain to
-visualize in a single view. As discussed in the previous section, there are also
-caveats to utilizing a treemap algorithm since there are trade-offs between
-location and the squarified nature of the treemap. Furthermore, treemaps were
-not desired by us as designers due to aesthetic reasons of whitespace, since
-they are space-filling, unlike a map which has more whitespace. This is why the
-first prototype used hexagons instead of rectangles in the treemap in order to
-provide more whitespace between elements, but this was switched to circles since
-they are simpler and pack effectively on a map which utilizes whitespace more
+details of the location (e.g., city) were less important and more uncertain to
+visualize in a single view. As discussed previously, there are also caveats to
+utilizing a treemap algorithm since there are trade-offs between location and
+the squarified nature of the treemap. Furthermore, treemaps were not desired by
+us as designers due to aesthetic reasons of whitespace, since they are
+space-filling, unlike a map which has more whitespace. This is why the first
+prototype used hexagons instead of rectangles in the treemap in order to provide
+more whitespace between elements, but this was switched to circles since they
+are simpler and pack effectively on a map which utilizes whitespace more
 aesthetically to us.
 
 
 Originally, the dashboard dual-encoded color and size to the number of records
-as in [@fig:dashboard2], but the usability study presented in [@sec:eval]
+as in [@fig:dashboard2], but the usability study introduced in the next section
 obtained requests from users to show change visually on the map. There were
 records which could not be geolocated via MaxMind [@maxmind], so they were
 placed on an empty portion of the map to save space. Interactions with various
@@ -768,7 +772,7 @@ to create an effective temporal pattern filter.
 ### Attributes View
 
 The BubbleNet dashboard also includes bar charts and bullet charts for different
-attributes of the data, e.g. the priority and category for each network record,
+attributes of the data, e.g., the priority and category for each network record,
 shown in [@fig:dashboard]c). Bullet charts are inspired by Stephen Few's bullet
 graphs for dashboards [@few2010bullet]. Bullet graphs encode a value, a
 qualitative ranking, an average, and a projection into a single element, but a
@@ -779,7 +783,7 @@ as in [@fig:dashboard]c). Furthermore, the bullet chart similarly encodes the
 average for an individual country using a thin, dark line.
 
 
-Bullet charts enable showing a subset of a larger value, _i.e._ a country's
+Bullet charts enable showing a subset of a larger value, i.e., a country's
 value with respect to the world's amount. Unlike bullet graphs, bullet charts
 show a quantitative subset, and this subset enables quick comparison through
 interaction. As with previous scales, we incorporated a log scale for these bar
@@ -805,11 +809,11 @@ different records in any selection. This summary includes the quantity,
 user-friendly name, ID or type of record, and the detailed attribute
 information. These details enable analysts to understand what is happening in
 any selected aggregate of network records in the dashboard. As such, this table
-and dataset were created by request of all analysts during the usability study,
-presented in [@sec:eval]. Inclusion of network record details is critical to
-this discovery of patterns. In our evaluation, analysts told us that they were
-able to not only discover patterns using BubbleNet, but that they could envision
-using this dashboard to present what they found.
+and dataset were created by request of all analysts during the usability study.
+Inclusion of network record details is critical to this discovery of patterns.
+In our evaluation, analysts told us that they were able to not only discover
+patterns using BubbleNet, but that they could envision using this dashboard to
+present what they found.
 
 
 ### Selection and Interaction
@@ -847,7 +851,7 @@ to reset back to the default pattern.
 
 One can compare the interaction of each view with our tasks, discussed
 previously. For location, temporal, and attribute views, all of the elements
-were interactive, e.g. hovering or clicking on a country, day, hour, or type of
+were interactive, e.g., hovering or clicking on a country, day, hour, or type of
 attribute. These selections supported pivoting data to identify and compare
 patterns. The records table view supports identification and comparison of
 patterns but not pivoting since analysts often use their own tools for this
@@ -866,18 +870,19 @@ to produce JSON files for the web dashboard, so real-time data is possible but
 currently requires a refresh of the page.
 
 
-The visualizations shown in this paper, in the video, and included in the
-usability study all showcase real data from a large organizational network,
-capturing a summary of a month's worth of data or about a million records. In
-particular, the dataset shown is from an intrusion detection system, which
-automatically flags important network records as alerts for network analysts.
-These alerts can be generated by pre-defined rules, which is most often the
-case, or by more sophisticated machine learning techniques. The BubbleNet
-dashboard is designed in such a way to support visualization of any dataset
-which can be broken into network records and geolocated, so it works best when
-analyzing traffic over the internet. When it comes to scalability, the dashboard
-maintains interactivity with millions of records due to aggregation done on the
-back-end.
+The visualizations shown here, in the video, and included in the usability study
+all showcase real data from a large organizational network, capturing a summary
+of a month's worth of data or about a million records. In particular, the
+dataset shown is from an intrusion detection system, which automatically flags
+important network records as alerts for network analysts. These alerts can be
+generated by pre-defined rules, which is most often the case, or by more
+sophisticated machine learning techniques. The BubbleNet dashboard is designed
+in such a way to support visualization of any dataset which can be broken into
+network records and geolocated, so it works best when analyzing traffic over the
+internet. When it comes to scalability, the dashboard maintains interactivity
+with millions of records due to aggregation done on the back-end.
+
+<!-- APPENDIX: what about the video? -->
 
 
 
@@ -893,8 +898,8 @@ high-fidelity prototype but user needs were also uncovered. The results of this
 study highlight the usability of BubbleNet, and the BubbleNet dashboard in
 [@fig:dashboard] was thus deployed in a research environment. However, this
 study also highlighted missing elements of utility from the BubbleNet dashboard,
-so a final design iteration was required to address these elements and deploy
-the tool in an operational environment.
+so a final design iteration in the _make_ activity was required to address these
+elements before we could _deploy_ the tool in an operational environment.
 
 
 ### Evaluation Methodology
@@ -906,55 +911,57 @@ organizational network. The intent of this study was to improve the design and
 see if the prototype met the needs of both analysts and managers. Nine cyber
 security professionals participated in the study: five analysts, four managers.
 Each participant took part in a one-hour long think-aloud session, conducted by
-one moderator with an observer taking notes, both of whom are co-authors on this
-paper. Each session contained a scripted walk through of the prototype, several
-prescribed tasks to complete, open-ended questions about how users would use the
-prototype, and distribution of a system usability scale [@brooke1996sus].
+one moderator with an observer taking notes, both of whom participated in this
+research. Each session contained a scripted walk through of the prototype,
+several prescribed tasks to complete, open-ended questions about how users would
+use the prototype, and distribution of a system usability scale
+[@brooke1996sus].
 
 
 To analyze data from the think-aloud session, the notes taken by the observer
-were analyzed with a qualitative coding methodology [@Strauss1990]. This coding
-was conducted by the primary author, through an open tagging of two users'
-comments and consolidating tags to all other user comments. Furthermore, the
-system usability scale is a standardized survey technique [@brooke1996sus] used
-to evaluate the prototype's usability, and other researchers have utilized such
-a survey [@Leschke2013]. This usability survey has been used to evaluate the
-usability of systems for 30 years with its set of 10 standardized statements
-rated on a Likert scale, and it works well with a small group of users
-[@sauro2011sus]. By combining this survey with a qualitative coding methodology,
-we sought to increase the analytical rigor of evaluating our prototype to
-determine if it was ready to be deployed to users.
+were analyzed with a qualitative coding methodology [@Strauss1990]. I conducted
+this coding, through an open tagging of two users' comments and consolidating
+tags to all other user comments. Furthermore, the system usability scale is a
+standardized survey technique [@brooke1996sus] used to evaluate the prototype's
+usability, and other researchers have utilized such a survey [@Leschke2013].
+This usability survey has been used to evaluate the usability of systems for 30
+years with its set of 10 standardized statements rated on a Likert scale, and it
+works well with a small group of users [@sauro2011sus]. By combining this survey
+with a qualitative coding methodology, we sought to increase the analytical
+rigor of evaluating our prototype to determine if it was ready to be deployed to
+users.
 
 
 ### Evaluation Results
 
 ![
-  Final results of a system usability survey of nine different users, both
-  network analysts and managers. The average score of the dashboard is 75, above
-  the average usability score of 68 [@sauro2011sus].
+  These are the final scores of a system usability survey of nine different
+  users, both network analysts and managers. The average score of the dashboard
+  is 75, above the average usability score of 68 [@sauro2011sus].
 ](figures/bubble-net/sus.pdf){#fig:sus width="100%"}
 
 
 After coding each of the participants' comments, the following categories of
 tags were formed: desired task, that task's intended target in the dashboard,
 and its artifact. Example tasks include to present, filter, or identify with any
-of the views presented in [@sec:dash], and example artifacts include successes,
-struggles, and failures along with other tags such as feature suggestions. These
-tags provided a unique view on the qualitative data, and a list of features were
-prioritized and implemented for BubbleNet in [@fig:dashboard]. These features
-that were added include: details-on-demand records view, better selection
-feedback, new map color encoding, and keyboard interactions. This analysis
-process gathered the key successes of the BubbleNet dashboard:
+of the views presented in the BubbleNet dashboard, and example artifacts include
+successes, struggles, and failures along with other tags such as feature
+suggestions. These tags provided a unique view on the qualitative data, and a
+list of features were prioritized and implemented for BubbleNet in
+[@fig:dashboard]. These features that were added include: details-on-demand
+records view, better selection feedback, new map color encoding, and keyboard
+interactions. This analysis process gathered the key successes of the BubbleNet
+dashboard:
 
   - Temporal pattern detection was simple and easy using the heatmap: _"I keep getting drawn to the heatmap and these darker areas, because they certainly stand out"_ (A4) & _"[heatmap] helps find those temporal patterns"_ (A1)
   - Users expressed that the dashboard's utility was for discovering patterns and trends in the data: _"the majority of what we are looking for is patterns and this just makes patterns which is faster"_ (A4)
-  - One-click-or-less interactions worked very well: _"it's very responsive and dynamic; the fact that it changes as I narrow [in] is the best"_ (M2)
+  - One-click-or-less interactions worked very well: _"it's very responsive and dynamic; the fact that it changes as I narrow [in] is the best"_ (manager #2, or M2)
   - Most interactions occurred with the bullet charts and heatmap: _"I could write a splunk query to do this, but this is easier"_ (A5)
   - No expressed dislike for animation in the map view: _"best part is the instant visual gratification"_ (A4)
 
 
 Furthermore, this analysis derived a set of design considerations for future
-cyber security dashboards, presented in [@sec:refl]. With the first few
+cyber security dashboards, discussed in the next section. With the first few
 participants of the study, a common usability issue was discovered since the
 bullet charts had two different bars to click on. Along with visual bugs, these
 issues were fixed right away to focus feedback on less obvious issues.
@@ -1024,7 +1031,7 @@ The flat map serves as the background for any geospatial data. There is a
 left-most palette which lists the available data sources. When selecting data
 sources that are not geospatial, a floating visualization palette is placed on
 the screen for the user to select a different visualization for the data. These
-palettes support customization of numerous visualizations: _e.g._ treemap,
+palettes support customization of numerous visualizations: e.g., treemap,
 node-link diagrams, sunburst charts, and timelines, and this customized
 dashboard can be saved and shared.
 
@@ -1058,12 +1065,16 @@ interactions are very appropriate to reduce the number of required clicks to
 pivot visualizations using animation and provide quick details-on-demand.
 
 
-However, the BubbleNet dashboard is not the end of research or development into
-cyber security dashboards. The use of a map does not work for all data, and
-there is more work needed to find more effective encodings such as broader
-impact of cyber security incidents. Nevertheless, the design process of
-BubbleNet shows how other design studies can work with collaborators and users
-beyond just data analysts. When working with these other types of users, it
-becomes more important to balance and prioritize appropriate sets of user needs
-to design, develop, and deploy effective, domain-specific visualization tools.
+We found that the design activity framework more comprehensively captured the
+design process of this project and the multiple discourse channel interactions,
+in ways which the previous nine-stage framework failed to connect visualization
+artifacts and design decisions across projects. However, the BubbleNet dashboard
+is not the end of research or development into cyber security dashboards. The
+use of a map does not work for all data, and there is more work needed to find
+more effective encodings such as broader impact of cyber security incidents.
+Nevertheless, the design process of BubbleNet shows how other design studies can
+work with collaborators and users beyond just data analysts. When working with
+these other types of users, it becomes more important to balance and prioritize
+appropriate sets of user needs to design, develop, and deploy effective,
+domain-specific visualization tools.
 
