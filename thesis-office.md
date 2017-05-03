@@ -12,6 +12,8 @@ questions after you take a look at their rules. That one fig placement you
 mention seemed to be the only problem. The solution is to place the first figure
 on that page in question at the top of the page following the first mention--and
 then do the same for the other fig.
+http://stackoverflow.com/questions/16626462/figure-position-in-markdown-when-converting-to-pdf-with-knitr-and-pandoc/33801326#33801326
+
 
 For tables, no,  you do not want to stop the text before the table. Fill the
 page with the table mention with text; in other words, do not stop the text.
