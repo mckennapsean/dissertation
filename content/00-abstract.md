@@ -37,5 +37,3 @@ capture, and communicate the complex, iterative nature of data visualization
 design throughout research, design, development, and deployment of visualization
 systems and tools.
 
-<!-- ThesisOffice: check margins throughout!
-     1.25 inches on the left and right and 1 inch only on the bottom -->

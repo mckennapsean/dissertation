@@ -32,5 +32,8 @@ what would Chris recommend? Papers have done it differently, and I can clean up
 each to be the same.
 
 
+Check Margins: 1.25 inches on the left and right and 1 inch only on the bottom
+
+
 See "ThesisOffice" mentions for additional, material-specific concerns.
 
