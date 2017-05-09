@@ -80,7 +80,7 @@ For each method, we first discuss our motivation to place that method in the con
   A sample of qualitative codes pulled from three cognitive task analyses papers. For more details, please see Supplemental Materials.[^1]
 ](figures/methods/coding.pdf){#fig:coding width="100%"}
 
-<!-- TODO should we keep? Supplemental Materials footnote -->
+<!-- should we keep? Supplemental Materials footnote -->
 [^1]: [http://mckennapsean.com/vizsec-design-methods/](http://mckennapsean.com/vizsec-design-methods/)
 
 
@@ -257,8 +257,7 @@ User-centered design methods can help a designer establish user needs, uncover d
 
 
 
-<!-- TODO move acknowledgements elsewhere...
-
+<!--
 ## Acknowledgements
 
 The authors wish to thank Jonzy, Dan Bowden, and Tamara Denning for the data sketches method, staff members at MIT Lincoln Laboratory for the personas method, Dominika Mazur, Matthew Parkin, and James Agutter for the qualitative coding method, and the Visualization Design Lab at the University of Utah for their feedback on this work.

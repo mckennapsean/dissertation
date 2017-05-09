@@ -137,7 +137,7 @@ repository\footnotemark for their dissemination and use by
 others, and we encourage feedback and improvements to these teaching materials
 over time.
 
-<!-- TODO how to do a footnote??? or appendix?
+<!-- how to do a footnote??? or appendix?
 \footnotetext{Supplemental Materials can be accessed via:
 \url{https://design-worksheets.github.io}}
 -->
@@ -148,10 +148,10 @@ was to create a worksheet for each of the design activities:
 *understand*, *ideate*, *make*, and *deploy*. To do
 so, we reflected on our combined research and design experiences across each,
 and we broke down each activity into a series of tangible and generalized steps (see [@tab:steps]). These steps are akin to design methods which can be generative or evaluative in nature.
-<!-- TODO change table reference somehow? crossref may support? -->
+<!-- change table reference somehow? crossref may support? -->
 
 
-<!-- TODO check out table! how to underline in markdown?-->
+<!-- check out table! how to underline in markdown?-->
 | *\underline{understand}* | *\underline{ideate}* | *\underline{make}* | *\underline{deploy}* |
 | :-- | :-- | :-- | :-- |
 | identify the challenge \& users | select a design requirement | set an achievable goal | pinpoint a target audience |
@@ -169,7 +169,7 @@ and we broke down each activity into a series of tangible and generalized steps 
 ](){#tab:steps}
 
 
-<!-- TODO fbox around graphic? -->
+<!-- fbox around graphic? -->
 ![
   Here we show the Understand worksheet, tailored to help students identify
   their problem, users, data, and requirements for a data visualization
@@ -332,7 +332,7 @@ structure. To uncover more information, we conducted interviews as a follow-up.
 \sm{removed the quotes, paraphrased instead}
 -->
 
-<!-- TODO should quotes be regular or escaped...? -->
+<!-- should quotes be regular or escaped...? -->
 
 During the follow-up interviews we asked students to describe the design process in their
 own words, and all students were spot on in their descriptions of the
@@ -399,7 +399,7 @@ section.
 
 ## Discussion
 
-<!-- TODO again table ref -->
+<!-- again table ref -->
 To address this constraint on creativity, a key improvement recommended by five
 students was to convert the worksheets into a checklist for each step, as in
 [@tab:steps].

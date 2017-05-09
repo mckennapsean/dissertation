@@ -1316,7 +1316,9 @@ for outlier detection.
 
 
 
-<!-- TODO move acknowledgements to file
+<!--
+## Acknowledgements
+
 The authors wish to thank Kristi Potter, Wei-Chao Huang, Tom Fletcher,
 and Kris Zygmunt for their feedback on this work. This work is
 sponsored in part by the Air Force Research Laboratory, the DARPA
@@ -1329,12 +1331,10 @@ endorsement should be inferred.
 
 
 
-<!-- TODO supplemental materials... ?
-
-### Supplemental Materials 
+<!--
+## Supplemental Materials
 
   - *Code & Data:*
     - An open-source R-package, *scorr*, implementing the s-CorrPlot. Includes the datasets shown in the paper, and a static version of the s-CorrPlot for those unable to compile the interactive tool. For more information, see [http://mckennapsean.com/scorrplot](http://mckennapsean.com/scorrplot).
   - *Video:* Demonstration of exploring correlation with the interactive s-CorrPlot visualization. (.mp4)
-
 -->

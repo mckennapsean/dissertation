@@ -596,7 +596,7 @@ it becomes more important to balance and prioritize appropriate sets of user nee
 
 
 
-<!-- TODO move all acknowledgements into one section?
+<!--
 ## Acknowledgments
 
 The authors wish to thank Jonzy, Dan Bowden, and Tamara Denning for the data sketches method, staff members at MIT Lincoln Laboratory for the personas method, and the Visualization Design Lab at the University of Utah for their feedback on this work.
@@ -604,6 +604,6 @@ This work is sponsored in part by the Air Force Research Laboratory and the DARP
 The Lincoln Laboratory portion of this work was sponsored by the Assistant Secretary of Defense for Research & Engineering under Air Force Contract FA8721-05-C-0002. Opinions, interpretations, conclusions, and recommendations are those of the authors and are not necessarily endorsed by the United States Government.
 -->
 
-<!-- TODO need to update all labels/references per CHAPTER! -->
+<!-- need to update all labels/references per CHAPTER! -->
 
-<!-- TODO store yaml stuff in other file? convenient though. also, is it Section or Chapter? -->
+<!-- store yaml stuff in other file? convenient though. also, is it Section or Chapter? -->

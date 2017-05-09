@@ -539,14 +539,14 @@ and parallel movements.
 Next, we articulate the unique motivations and outcomes for each of
 the four activities in the design activity framework. 
 We present a list of exemplar methods in
-<!-- TODO check table??? -->
+<!-- check table??? -->
 [@tab:methods], and a more extensive list in the Supplemental 
 Materials, with each method characterized by which activities it
 is effective 
 for, and whether it can be used for generation, evaluation, or
 both. We provide a detailed discussion of these
 methods in [@sec:methods].
-<!-- TODO suppl material? appendix? -->
+<!-- suppl material? appendix? -->
 
 
 ![
@@ -794,7 +794,7 @@ our design process using the framework. This section focuses on
 each activity of our redesign, presented 
 in rough, chronological order, and the methods we used and the
 outcomes we achieved. We will refer to
-<!-- TODO table??? -->
+<!-- table??? -->
 methods listed in [@tab:methods] using a prefix, such as the method of
 controlled experiments (*M-28*).
 We note that this description is a
@@ -1364,7 +1364,8 @@ visualization.
 
 
 
-<!-- TODO move acknowledgements
+<!--
+## Acknowledgements
   The authors wish to thank Michael Sedlmair,
   Mike Kirby, Alex Bigelow, Ethan Kerzner, Nina McCurdy, Sam Quinan,
   and Kris Zygmunt for their feedback on this work.

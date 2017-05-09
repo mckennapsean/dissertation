@@ -185,7 +185,7 @@ questionnaire to our domain for the crowdsourced study discussed in
 [@sec:eng].
 
 
-<!-- TODO convert tabular to single figure image/s?
+<!-- convert tabular to single figure image/s?
 \begin{tabular}[]{cc}
   \fbox{\includegraphics[width=0.47\linewidth]{scroller}} &
   \fbox{\includegraphics[width=0.47\linewidth]{ml-stepper}} \\
@@ -267,7 +267,7 @@ adapted these codes into the formalized flow-factors and properties shown in
 and to explore an interactive version of this corpus, please see Supplemental
 Materials at [https://narrative-flow.github.io](https://narrative%2dflow.github.io).
 
-<!-- TODO is this how to handle markdown links for latex? -->
+<!-- is this how to handle markdown links for latex? -->
 
 
 ### Factors of Visual Narrative Flow
@@ -383,7 +383,7 @@ _S-80_ uniquely combines all three kinds of feedback as a reader
 advances.
 
 
-<!-- TODO how to incorporate this as a table rather than a figure? -->
+<!-- how to incorporate this as a table rather than a figure? -->
 
 ![
   To establish the design space of visual narrative flow for data
@@ -427,7 +427,7 @@ certainly be expanded and flow-factors added as novel experiences appear, each
 factor we identified can be studied independently and inform future design.
 
 
-<!-- TODO how to incorporate figures from a table like this?
+<!-- how to incorporate figures from a table like this?
 \begin{tabular}[]{cc}
   \fbox{\includegraphics[width=0.47\linewidth]{hybrid-1}} &
   \fbox{\includegraphics[width=0.47\linewidth]{hybrid-2}} \\
@@ -459,7 +459,7 @@ and implementing variations of specific factors of the visual narrative flow
 such as level of control, we showcase the generative power of the design space
 to create different reading experiences.
 
-<!-- TODO how to incorporate links / footnotes?
+<!-- how to incorporate links / footnotes?
 \footnotemark after Supp Mat...
 \footnotetext{Supplemental Materials can be accessed via:\\
 https://narrative-flow.github.io}
@@ -489,7 +489,7 @@ narrative flow could substantially impact the story usability and reader
 preference. To experience this story and our stepper variant, please see
 Supplemental Materials.
 
-<!-- TODO again footnote...
+<!-- again footnote...
 \footnotemark[\value{footnote}]
 -->
 
@@ -508,7 +508,7 @@ participants all have data visualization knowledge, different operating systems
 resolutions (1373x735 to 2560x1464), only three typically read visually animated
 stories, and five had read this story before.
 
-<!-- TODO again footnote...
+<!-- again footnote...
 \footnotemark[\value{footnote}]
 -->
 
@@ -695,8 +695,6 @@ accepted in several fields to utilize linear models for such ordinal data
 without succumbing to a negative bias as with other approaches [@Bauer2011].
 The $p$-values reported here were obtained through likelihood ratio tests of the
 full effects model to one without the effect of different visual narrative flows.
-
-<!-- TODO is the $ $ notation sufficient? -->
 
 
 [@fig:model] shows the results of the model, which contains the
