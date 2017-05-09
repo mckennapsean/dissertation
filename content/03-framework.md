@@ -5,29 +5,32 @@ outcome, such as a visualization system. Design _decisions_ are the reasons and
 justification behind a choice made for a visualization, such as encoding with
 either a pie or bar chart. Design _artifacts_, like a system prototype, are the
 goal for each step of the design process and result from making design
-decisions. As explored in the previous chapter, no such work exists that
-connects all three of these aspects for visualization design. By connecting
-these components, the design activity framework more completely captures and
-describes the design process, increasing its actionability for use by
-visualization designers.
+decisions. As explained in [@sec:background], no such work exists that connects
+all three of these aspects for visualization design. By connecting these
+components, the design activity framework more completely captures and describes
+the design process with achievability through artifacts, flexibility in
+principles of flow, justifiability by linking to design decisions,
+discoverability of different user-centered design methods, and actionability for
+use by visualization designers.
 
 
-In this chapter, we present an overview of the **design activity framework**, a
-flexible structure meant to guide a visualization designer through the
-real-world, iterative, and multilinear process of developing a visualization for
-a specific problem or application domain. We envision the framework as a lens
-that visualization designers could use to orient themselves within the design
-process, to choose useful methods, to make appropriate design decisions, and to
-analyze and summarize the process itself. The design activity framework makes
-use of the nested model [@Munzner2009] to explicitly link the actions
-visualization designers take with the visualization decisions they make along
-the way, leading to what we believe is a more actionable visualization process
-model than those that currently exist.
+In this chapter, we present an overview of the **design activity framework**
+[@McKenna2014], a flexible structure meant to guide a visualization designer
+through the real-world, iterative, and multilinear process of developing a
+visualization for a specific problem or application domain. We envision the
+framework as a lens that visualization designers could use to orient themselves
+within the design process, to choose useful methods, to make appropriate design
+decisions, and to analyze and summarize the process itself. The design activity
+framework makes use of the nested model [@Munzner2009] to explicitly link the
+actions visualization designers take with the visualization decisions they make
+along the way, leading to what we believe is a more actionable visualization
+process model than those that currently exist.
 
 
 The concepts of this framework have developed over the course of several
-real-world design processes, as a result of reflection on less successful
-projects and more successful case studies. Next, we present the idea of a design
+real-world design processes, as a result of reflection on a previous research
+project ([@sec:reflections]) and more successful case studies
+([@sec:formulation] and [@sec:security]). Next, we present the idea of a design
 activity, which forms the basis of the new framework. Following that, we
 describe the four activities contained in the framework: _understand_, _ideate_,
 _make_, and _deploy_. For each activity, we articulate the motivation, possible
@@ -129,12 +132,14 @@ and 2) for providing a mechanism to thoughtfully incorporate real-world project
 constraints, such as time and budget considerations, into the design process.
 
 
-We have identified four overlapping, critical activities for designing
-visualizations for real-world problems and applications: _understand_, _ideate_,
-_make_, and _deploy_. An overview of these activities, with the unique letter
-and coloring scheme used throughout this dissertation, is shown in
-[@fig:framework]. Next, we articulate these unique motivations and visualization
-artifacts for all four design activities of the design activity framework.
+We identify four overlapping, critical activities for designing visualizations
+for real-world problems and applications: _understand_, _ideate_, _make_, and
+_deploy_. An overview of these activities, with the unique letter and coloring
+scheme used throughout this dissertation, is shown in [@fig:framework]. Next, we
+articulate these unique motivations and visualization artifacts for all four
+design activities of the design activity framework.
+
+<!-- TODO issue of figure order??? -->
 
 
 ![
@@ -168,13 +173,15 @@ visualization designer to identify early on if there is a need and a set of
 design requirements that cannot easily be solved using existing tools.
 
 
-These visualization design requirements of the _understand_ activity can be
-broken down into three classes: _opportunities_, _constraints_, and
-_considerations_. Visualization design **opportunities** encompass the data and
-task abstraction artifacts that have a potential to impact the work and field of
-the  target users. It is important to uncover data and task abstractions that
-cannot or cannot easily be solved using existing visualization tools. These
-opportunities may also include higher level themes discovered through the domain
+<!-- TODO have Chris do a pass for passive voice? -->
+
+We break down visualization design requirements of the _understand_ activity
+into three classes: _opportunities_, _constraints_, and _considerations_.
+Visualization design **opportunities** encompass the data and task abstraction
+artifacts that have a potential to impact the work and field of the  target
+users. It is important to uncover data and task abstractions that cannot or
+cannot easily be solved using existing visualization tools. These opportunities
+may also include higher level themes discovered through the domain
 characterization, such as workflow inefficiencies when a collaborator may use
 static visualization tools in a pipeline that is slow and not interactive, thus
 making comparison tasks more difficult. Design **constraints** are rigid
@@ -303,7 +310,7 @@ use a script to get it into a standard format and provide feedback for
 evaluation. However, for daily tasks, this data process would be cumbersome,
 require significant training, and limit the ability of the collaborators to use
 the tool. A key aspect of deploying a visualization system is improving these
-little annoyances by having the system support domain collaborators' native
+challenging aspects by having the system support domain collaborators' native
 data formats once the tool is deployed, so that no special steps are needed for
 them to use the visualization tool to solve their domain tasks.
 
@@ -315,9 +322,9 @@ them to use the visualization tool to solve their domain tasks.
 \section{Visualization Artifacts and the Nested \\ Model}
 <!-- ThesisOffice: header adjustment -->
 
-The design activity framework can be utilized by both novice and expert
-visualization designers to reflect on the design decisions they made by tracking
-the visualization artifacts they produce in each activity. As shown in
+Both novice and expert visualization designers can utilize the design activity
+framework to reflect on the design decisions they made by tracking the
+visualization artifacts they produce in each activity. As shown in
 [@fig:nm-comparison], three of the four design activities and their associated
 visualization artifacts map to two levels of the nested model, implying that a
 specific visualization artifact can result from different types of visualization
@@ -410,8 +417,8 @@ reuse in their own visualization systems and tools.
 
 ## Timelines of the Design Process {#sec:timelines}
 
-In our experience, a visualization design process never seems to progress
-cleanly through a set of designated stages; this fact motivated our synthesis of
+In our experience, a visualization design process rarely seems to progress
+neatly through a set of designated stages; this fact motivated our synthesis of
 the design activity framework, which can be pieced together by designers in many
 different ways to best suit the needs of their visualization design project.
 This complex motion aligns with creative process models from the design
@@ -479,6 +486,7 @@ parallel activities to backward movement.
   and expert visualization designers track the progress of a project.
 ](figures/daf/timelines.pdf){#fig:timelines width="100%"}
 
+<!-- TODO label each project these timelines reflect, with citations! -->
 <!-- TODO could clean up figure with arrows from bubblenet project -->
 
 
@@ -503,7 +511,7 @@ process in a similar way.
 ## Choosing Effective Design Methods
 
 To help visualization designers tackle a real-world design project, we present a
-list of exemplar methods that can be used throughout the design activity
+list of exemplar methods that designers can use throughout the design activity
 framework. This list contains methods commonly found in the visualization
 literature, as well as many more that come from the design, human-computer
 interaction, software engineering, sociology, and anthropology literature. We
@@ -596,4 +604,28 @@ within their visualization project by reflecting on these two questions:
 
 1. Did you achieve your desired visualization artifacts?
 1. Did you successfully deploy a visualization tool to users as a result of this method?
+
+
+
+
+
+## Summary
+
+In this chapter, we have introduced the design activity framework as a new
+process model for visualization design. This model identifies four activities
+for visualization design: _understand_, _ideate_, _make_, and _deploy_. Within
+each of these activities, we specify succinct definitions, motivations, and
+expected visualization artifacts to be achieved. Furthermore, visualization
+designers can justifiably link design decisions they make with the visualization
+artifacts they produce through the levels of the nested model. This highlights
+potential validation or evaluative methods to perform, and we provide a table of
+user-centered design methods for further discoverability of new methods to
+utilize. Lastly, we showcase the flexibility of the design activity framework
+with generalized flow principles illustrated in several design timelines for
+tracking and documenting the visualization design process. Together, these
+contributions improve upon existing design process models due to the design
+activity framework's overall increased achievability, flexibility,
+justifiability, discoverability, and actionability.
+
+
 

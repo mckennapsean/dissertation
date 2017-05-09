@@ -1,26 +1,25 @@
 # Background and Related Work {#sec:background}
 
 While research in visualization design has explored many facets of design, the
-main goals of the design activity framework originate from shortfalls
-in existing visualization models:
-achievability, flexibility, justifiability, discoverability, and actionability.
-In this chapter, we focus on two types of visualization design models, decision
-and process models [@Meyer]. The nested model [@Munzner2009; @Meyer] is the
-primary model for visualization design decisions, which addresses justifiability
-unlike process models. On the other hand, design process models can be grouped
-into two approaches based on research in the human-computer interaction (HCI)
-community: creative and engineering [@Lowgren1995; @Howard2008; @Wolf2006;
-@Moere2011], and together these two approaches can complement and enrich a
-design process. Next, we investigate how visualization design process models
-fail to capture the complex, actionable, and flexible nature of the creative
-process. Furthermore, we reflect on the role and use of human-centered design
-methods as a way to promote discoverability in visualization design. Following
-this, we explore the achievability and actionability of design process models
-with respect to how design pedagogy is incorporated in the data visualization
-community. In the next chapter, we will introduce the design activity framework
-as a way to bridge design activities with the decisions a visualization designer
-might make, supporting all five goals for an improved data visualization design
-process model.
+main goals of the design activity framework originate from shortfalls in
+existing visualization models: achievability, flexibility, justifiability,
+discoverability, and actionability. In this chapter, we focus on two types of
+visualization design models, decision and process models [@Meyer]. The nested
+model [@Munzner2009; @Meyer] is the primary model for visualization design
+decisions, which addresses justifiability unlike process models. On the other
+hand, design process models can be grouped into two approaches based on research
+in the human-computer interaction (HCI) community: creative and engineering
+[@Lowgren1995; @Howard2008; @Wolf2006; @Moere2011], and together these two
+approaches can complement and enrich a design process. Next, we investigate how
+visualization design process models fail to capture the complex, actionable, and
+flexible nature of the creative process. Furthermore, we reflect on the role and
+use of human-centered design methods as a way to promote discoverability in
+visualization design. Following this, we explore the achievability and
+actionability of design process models with respect to how design pedagogy is
+incorporated in the data visualization community. In the next chapter, we will
+introduce the design activity framework as a way to bridge design activities
+with the decisions a visualization designer might make, supporting all five
+goals for an improved data visualization design process model.
 
 
 
