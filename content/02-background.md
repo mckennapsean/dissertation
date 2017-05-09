@@ -39,12 +39,20 @@ makes. This rationale can be useful for tracking decisions with respect to the
 project's context and for transferring design knowledge and guidelines to other
 visualization projects. **Process models**, on the other hand, capture the _how_
 of design, characterizing the actions that a designer takes as a series of
-steps. Linking a process model to a decision model enables visualization
-designers to verify and validate the design decisions they make along each step
-of the design process. This link is highlighted by Sch\mbox{\"{o}}n's
+steps.
+
+
+Linking a process model to a decision model enables visualization designers to
+verify and validate the design decisions they make along each step of the design
+process, but existing models for visualization design have failed to do so. This
+link between decision and process models is highlighted by Sch\mbox{\"{o}}n's
 reflection-in-action concept [@Schon1983], which emphasizes that the processes
 of doing and thinking are complementary to each other; thus, the design process
-and its many design decisions are intricately interconnected.
+and its many design decisions are intricately interconnected. However, existing
+visualization design process models fail to capture this link and thus do not
+meet a goal of justifiability. Additionally, we encountered limitations from
+existing models in terms of actionability since guidance, descriptions, and
+definitions for steps of the design process are not always outlined.
 
 
 ### Design Decision Models
@@ -75,27 +83,37 @@ visualization system.
 
 
 Within the visualization community, the well-cited nested model [@Munzner2009]
-is the de facto design decision model. This model characterizes visualization
-design decisions as occurring at one of four levels: domain characterization,
-data and task abstraction, visual encoding and interaction, and algorithm. A
-recent extension to the model, called the nested blocks and guidelines model
-[@Meyer], provides a more fine-grained characterization of individual design
-decisions as blocks at each level, with guidelines describing the relationships
-between blocks. Together, blocks and guidelines relate the visualization
-decisions a designer makes, with regard to finding good blocks in the design of
-a visualization. It is important to stress that the nested model, as well as the
-nested blocks and guidelines model, are not process models; they do not describe
-_how_ to design a visualization, only the types of decisions (_what_) and
-rationale (_why_) that a visualization designer formulates along the way
-[@Meyer]. The primary motivation of the nested model is to support effective
-evaluation of the different types of decisions that visualization designers
-might make --- this is why we care about decision models. <!-- TODO more on the role of evaluation and design decisions! -->
+is the de facto design decision model. One of the primary motivations of the
+nested model is to support effective evaluation and validation of different
+types of decisions that visualization designers make. This model characterizes
+visualization design decisions as occurring at one of four levels: domain
+characterization, data and task abstraction, visual encoding and interaction,
+and algorithm. A recent extension to the model, called the nested blocks and
+guidelines model [@Meyer], provides a more fine-grained characterization of
+individual design decisions as blocks at each level, with guidelines describing
+the relationships between blocks. Together, blocks and guidelines relate the
+visualization decisions a designer makes, with regard to finding good blocks in
+the design of a visualization.
+
+
+It is important to stress that the nested model, as well as the nested blocks
+and guidelines model, are not process models; they do not describe _how_ to
+design a visualization, only the types of decisions (_what_) and rationale
+(_why_) that a visualization designer formulates along the way [@Meyer]. Design
+decisions, rationale, and guidelines are formed from employed evaluation
+methods. Existing visualization process models fail to incorporate this
+justifiability without a link to decision models. Moreover, numerous existing
+models capture evaluation as a step of the design process rather than a
+continuing role throughout the process like in design decision models.
 
 
 ### Design Process Models
 
 Unlike a decision model, a design process model focuses on describing the
-specific steps a designer takes over the course of designing a visualization. In
+specific steps a designer takes over the course of designing a visualization.
+Whereas design can mean many things to different people, the **data
+visualization design process** is about the planning, creation, and evaluation
+of a single data visualization or a multiview, robust visualization system. In
 this regard, we consider design as a challenge that combines and mixes both
 engineering and creative design processes [@Lowgren1995; @Howard2008; @Wolf2006;
 @Moere2011], and this balanced mixture is what we sought in the synthesis of the
@@ -104,18 +122,21 @@ problem definition, where the overall process is largely sequential and
 convergent toward a single solution [@Lowgren1995]. On the other hand, a
 **creative design process** begins with more gradual problem scoping, and the
 process has many overlapping activities in which many different possibilities
-are explored before choosing a single solution [@Lowgren1995]. An example of a
-creative model is Pugh's process, a design funnel [@pugh1991total] that begins
-with concept generation and controlled convergence iterating over time until a
-final concept is reached [@buxton2010sketching]. Additionally, ideation and
-design activities often involve sketching as a method which is a crucial aspect
-for creative design processes, as sketching is not simply the act of drawing but
-rather is an activity involving generation, brainstorming, learning, reasoning,
-and design thinking [@buxton2010sketching]. As recognized by researchers in the
-design [@Howard2008], HCI [@Wolf2006; @Lowgren1995], and visualization
-[@Moere2011] communities, the combination and balanced mixture of both creative
-and engineering process models is useful for characterizing the design process
-for visualization designers.
+are explored before choosing a single solution [@Lowgren1995].
+
+
+An example of a creative model is Pugh's process, a design funnel
+[@pugh1991total] that begins with concept generation and controlled convergence
+iterating over time until a final concept is reached [@buxton2010sketching].
+Additionally, ideation and design activities often involve sketching as a method
+which is a crucial aspect for creative design processes, as sketching is not
+simply the act of drawing but rather is an activity involving generation,
+brainstorming, learning, reasoning, and design thinking [@buxton2010sketching].
+As recognized by researchers in the design [@Howard2008], HCI [@Wolf2006;
+@Lowgren1995], and visualization [@Moere2011] communities, the combination and
+balanced mixture of both creative and engineering process models is useful for
+characterizing the design process for visualization designers. Specifically,
+this combination supports goals of flexibility and actionability.
 
 
 Visualization-specific design process models describe unique aspects for
@@ -170,7 +191,8 @@ stage they are in, what kinds of methods to employ, or the specific artifacts
 and decisions they should make. The design activity framework is largely
 inspired by the nine-stage framework but with a focus on providing more
 actionable guidance for visualization designers that is not currently available
-within the nine-stage framework.
+within the nine-stage framework and linking to design decisions to support
+justifiability.
 
 
 
@@ -186,12 +208,13 @@ research methods can elicit creativity in visualization design [@Lloyd2011;
 @Goodwin2013a; @Moere2011], design practitioners explicitly emphasize and
 highlight the complex nature of the design process [@Baker2010;
 @Cao2010] as well as the role of design constraints [@Onarheim2010;
-@Savage1998]. However, it is not clear how visualization design decisions, such
-as those established by the levels of the nested model [@Munzner2009], fit into
-these models presented by the design community. During this project in
-[@sec:formulation], we struggled to reconcile the visualization design decisions
-we wanted to make with these various creative process models used by other types
-of designers.
+@Savage1998]. Design constraints and complex ordering of design activities were
+not explicitly captured in many existing visualization process models, and this
+led to a lack of flexibility when trying to track, describe, and document our
+own design processes. Furthermore, by failing to connect to design decisions or
+levels of the nested model [@Munzner2009], these models did not emphasize the
+importance of design rationale for decision-making which can play a critical
+role in how a complex design process unfolds.
 
 
 By reflecting on our own design process in [@sec:formulation], we identify a
@@ -204,41 +227,44 @@ to overcome shortcomings in existing visualization design process models
 [@Wolf2006; @Vredenburg2002; @Rudisill1995] and design [@Lowgren1995;
 @Howard2008; @Wolf2006; @Cardella2008; @Jones2008; @Brown2009; @Lidwell2010;
 @Ware2010; @Wodehouse2010a; @DaGandra2012; @Teal2010; @Wu2011; @Atman2009;
-@Snider2013].
+@Snider2013]. By providing succinct definitions, activity motivations, and
+desired visualization artifacts, such as design constraints, the design activity
+framework achieves greater actionability and flexibility over existing models.
+Additionally, principles that show a flow of activities that is complex,
+iterative and multilinear increase the flexibility supported by the design
+activity framework.
 
 
 
 
 
-## User-Centered Design for Visualization
+## User-Centered Design Methods
 
-<!-- TODO MOTIVATE this section... why do you have it? -->
-<!-- TODO you use a mix of process and methods, and is this a process model or about methods? what is the point of all this? this is about a motivating goal of the daf, right? importance to incorporate UCD methods into a process model -->
-
-User-centered design is a promising approach to build better and more effective
-visualization tools. By focusing on users' needs, wants, and limitations,
-user-centered design can result in more useful, usable, and enjoyable tools that
-enable users to achieve their goals more effectively, efficiently, and with
-increased satisfaction, thus providing benefits such as increased productivity,
-better accessibility, reduced stress and risk of harm, and an improved sense of
-well-being [@DIS2010]. User-centered design has become widely accepted within
-the HCI community [@Tory2004] and has become more popular and accepted within
-the visualization community as well. Many different visualization practitioners
-have illustrated potential phases of a user-design process [@Chee2011;
+User-centered design methods provide a promising approach to build better and
+more effective visualization tools, and thus promoting the discoverability of
+such design methods can benefit visualization design process models. By focusing
+on users' needs, wants, and limitations, user-centered design methods can result
+in more useful, usable, and enjoyable tools that enable users to achieve their
+goals more effectively, efficiently, and with increased satisfaction, thus
+providing benefits such as increased productivity, better accessibility, reduced
+stress and risk of harm, and an improved sense of well-being [@DIS2010].
+User-centered design and its methods have become widely accepted within the HCI
+community [@Tory2004] and have become more popular and accepted within the
+visualization community as well. Many different visualization practitioners have
+illustrated potential phases and methods of a user-design process [@Chee2011;
 @Tory2004; @Wassink2009; @Lloyd2011], but each lacks the connection to design
-decisions and potential design methods. Many of these visualization models
-contain differing phases, and researchers have even reflected on existing models
-and extended them, such as adding a deployment phase as a result of utilizing
-Lloyd and Dyke's user-centered design model in a design study with investigative
-journalists [@Brehmer2014]. For visualization, user-centered design plays a
-vital role in capturing elements of the design process, but there is no clear
-definition of the phases of this process or how these phases connect to design
-decisions or methods.
+decisions or justifiability. Furthermore, these phases do not list a broad set
+of possible set of design methods to support discoverability of new methods to
+employ. To further complicate matters, many process models contain differing
+phases of visualization design without a clear definition of the phases of this
+process and how they connect to specific design methods for generation or
+evaluation.
 
 
 For visualization design, many publications report the use and benefit of
-user-centered design methods, but a connection to the larger design process is
-not always clear. In many design studies, researchers interview users to derive
+user-centered design methods, but connections to the larger design process is
+not always stated which limits both the discoverability and actionability of
+these methods. In many design studies, researchers interview users to derive
 requirements for a visualization tool [@Goodall2005; @Erbacher2012;
 @Brehmer2014; @McCurdy2015; @Kerzner2015; @Quinan2015]. There are other methods
 for deriving user requirements, such as the personas design method [@Stoll2008a]
@@ -249,12 +275,14 @@ visualization solutions, emphasizing visual concepts before user requirements
 iterative usability studies and user feedback to improve upon the design of a
 visualization prototype [@Komlodi2005; @Hao2013a; @mckenna2016]. Many of the
 visualization models capture more of an engineering design process, with a
-testing or evaluation phase [@Chee2011; @Tory2004; @Wassink2009; @Lloyd2011].
-However, design methods can be evaluative at any step or phase, to limit or
-narrow the choice of potential artifacts going forward. This gap stems from a
-lack of emphasis on evaluative methods in existing visualization design process
-models, but there exist a plethora of design methods that get utilized in
-real-world projects and that could be taught to visualization designers.
+testing or evaluation phase [@Chee2011; @Tory2004; @Wassink2009; @Lloyd2011]
+that does not support the role of evaluation and decisions throughout the
+process. User-centered design methods can be evaluative at any step or phase, to
+limit or narrow the choice of potential artifacts going forward. This gap stems
+from a lack of emphasis on evaluative methods in existing visualization design
+process models, but there exist a plethora of design methods that get utilized
+in real-world projects and that could be introduced to visualization designers
+if a model supported their discoverability.
 
 
 
@@ -262,119 +290,34 @@ real-world projects and that could be taught to visualization designers.
 
 ## Pedagogy of Data Visualization Design
 
-<!-- TODO sections is good but removed from above. can you add a sentence or two that links the idea of pedagogy to vis design models? also, very substantial, perhaps summarize here and move rest to later chapter? give a broad set of motivations and existing work, specific research approach goes to sep chapters -->
-
-For the past few decades, pedagogy for data visualization and human-computer
-interaction has begun to shift from academic or theoretical foundations toward
-including skills for design, critique, and critical analysis [@Reimer2003;
-@Rushmeier2007; @Hearst2016b; @He2017]. Educators have come to realize that they
-must rapidly adapt their teaching methods to the growing body of diverse students
-[@Rheingans2016; @Domik2016], from undergraduates across disciplines to graduate
-students in standard courses, flipped classrooms [@Rheingans2016; @He2017], and
-online environments [@Beyer2016]. A recent approach among educators is to employ
-active learning [@Beyer2016; @Godwin2016; @Hearst2016b], where techniques and
-methods are used to encourage deeper analysis and synthesis as opposed to just
-passively observing a lecture [@Beyer2016]. For example, a common approach
-observed in most classroom settings is practical data visualization exercises,
-to give students opportunities to critically analyze a data visualization or
-existing visualization tool and work with their peers to analyze the outcomes
-[@Kerren2008; @He2017].
+Another crucial aspect for visualization design models is how easily they can be
+introduced, taught, and understood by novice visualization designers. Few
+visualization process models have studied and reported on their use in a
+classroom setting. Existing process models for visualization could be improved
+to more clearly outline the desired, achievable visualization artifacts.
+Furthermore, the actionability of such models has not been studied or explored.
+For example, actionable guidance might provide a more step-by-step walk through
+for the design process, and illustrative examples of the design process can
+further add to the actionability of a model.
 
 
-When it comes to data visualization design, the core concepts of active learning
-can help overcome some of the challenges faced by educators when teaching
-concepts surrounding design thinking [@He2017], from considering broad divergent
-visualization ideas [@Roberts2015], to evaluating based on visualization
-principles, and leveraging existing designs to create something new. An
-effective pedagogical methodology is the use of design studios incorporated into
-the classroom setting [@Greenberg2009; @Reimer2003; @He2017], inspired by its
-use in fields such as architecture, design, and art. For visualization,
-educators often incorporate these studios as workshops or practical exercises
-and also through real-world projects for students to learn about design outside
-the classroom [@Kerren2008]. For example, VizItCards [@He2017] was created to
-help novices practice, and it is used to reinforce visualization concepts during
-workshops. Human-computer interaction educators have noted that computer science
-students in a design studio tend to focus more on idea refinement rather than
-broad idea generation and innovation [@Cennamo2011]. Other active learning
-approaches include the use of design workshops [@He2017; @Huron2016; @Zoss2016],
-rich discussions [@Johnson2016; @Craft2016], and design games [@Godwin2016].
-
-
-Within the data visualization pedagogy, guidance for how to design data
-visualizations, both generating and evaluating visualization artifacts, is
-missing clear steps for novices. When teaching data visualization design,
-educators often incorporate user interface principles [@Shneiderman2004], teach
-taxonomies of data and encoding [@Munzner2014], illustrate ideal visual
-principles [@Tufte1986; @cairo2012], explain perceptual principles [@Ware2010],
-and generally empower students with the ability to evaluate, criticize, and
-judge data visualizations. These principles and concepts often get applied in
-courses through design critiques or encased within a cumulative project
-[@Eggermont2016]. These cumulative projects are an alternative to in-class
-design studios, where students must acquire their own datasets, come up with
-ideas to visualize data for different tasks, and build an interactive, multiview
-visualization system to support these tasks in the data. By providing novices
-with realistic, hands-on experience, students can reapply these skills in their
-own future projects. However, novices may struggle to conduct their own design
-process, perhaps referring to textbooks that include their own design process
-methodologies [@Ware2010; @Shneiderman2004] or research papers that detail the
-design process or design decisions [@Munzner2014; @Sedlmair2012b], but often
-these models are high level, terminology heavy, less actionable, and theoretical
-in nature. For novices, it is often useful to have a clear set of guidelines or
-instructions to walk through this process for the first time. However, no such
-step-by-step guidance currently exists for the data visualization design
-process.
-
-
-Educators have worked on concretizing steps for the ideation process.
-Specifically, the five design-sheet methodology [@Roberts2015] utilizes
-worksheets to structure and guide visualization students through the ideation
-process. This approach by Roberts et al. encourages engineering students to
-think divergently and creatively and sketch out ideas on paper when first
-designing a visualization. Their approach begins with brainstorming, followed by
-three unique designs and a realization sheet for the final tool. The authors
-evaluated this teaching methodology with master's-level students in information
-visualization. Over several years, 53 students completed these design sheets
-over the span of 2 hours to come up with different ways to visualize their own
-chosen dataset, after which they received feedback and additional time to
-finalize their designs [@Roberts2015]. After grading the sheets, the researchers
-compared these grades with the students' project and final course grades, as
-well as an anonymous survey, to gather feedback on the entire course including
-the design sheets. Generally, they found that the design sheets aided students
-in planning and organizing a design section for the project write-up, and it
-also encouraged students to think divergently, which is a skill not often taught
-in computer science. However, in a workshop at the 2016 IEEE VIS conference that
-used these worksheets, we experienced a limitation by using this approach too
-soon: many steps must occur first, such as data collection, identifying the
-challenge, focusing on a target user, and finding tasks. Roberts et al. elude to
-this limitation with different preparation steps [@Roberts2015], but these steps
-can be nontrivial and tricky for novices. Thus, it would be beneficial to
-establish and evaluate more worksheets beyond just ideation for data
-visualization design pedagogy.
-
-
-Educators also face several unique challenges, such as visualization
-preconceptions, visual literacy, classroom time limits, and increasing class
-sizes. First, students may have preconceived notions about data visualization
-and principles that can affect the learning process and how they evaluate a
-given data visualization [@Hearst2016b; @Mustafaraj2016]. Furthermore, the
-concept of visualization literacy can be traced back to how we introduce, teach,
-and incorporate visualizations throughout schooling, from elementary school
-[@Alper2017] and beyond. In college-level courses, a key challenge can be tight
-deadlines and schedules [@He2017; @Rheingans2016], with limited course time for
-practical exercises, design studios, and cumulative projects, which often last
-only a month or two and may include noncolocated learners [@Beyer2016]. As
-course enrollments grow, it is important to think of how to scale visualization
-design feedback and evaluation; one recommended approach is to utilize peers to
-help scale this process and provide students with more practice on visualization
-evaluation and critique in order to apply principles and concepts taught
-throughout a course [@Willett2016; @Hearst2016b; @Johnson2016]. Additionally,
-concepts that are heavily theoretical or mathematical in nature may be more
-challenging to teach to novices. Instead, it may be ideal to simplify
-terminology and focus on simpler, comprehensive aspects of the theory
-[@Kindlmann2016] so that students can more readily grasp, apply, and build upon
-these theoretical constructs. In our own experience, we have observed the
-challenges of teaching theoretical design aspects such as the nested model
-[@Munzner2009] to visualization novices. By simplifying these aspects into a
-more step-driven process, students may be able to apply and learn these
-visualization design concepts on their own more effectively.
+Over time, pedagogy for data visualization has shifted from more theoretical
+concepts to emphasizing more actionable skills, such as design critique and
+critical analysis [@Rushmeier2007; @Hearst2016b; @He2017]. As educators
+incorporate aspects such as active learning [@Beyer2016; @Godwin2016;
+@Hearst2016b] and design workshops [@He2017; @Huron2016; @Zoss2016] into the
+classroom, it is important to teach concepts like design thinking to students
+[@He2017]. These concepts would emphasize and teach students how to generate
+ideas broadly and avoid refining ideas too early [@Roberts2015]. However,
+novices may struggle in visualization design projects since existing design
+models outlined in textbooks [@Ware2010; @Shneiderman2004] or research papers
+[@Munzner2014; @Sedlmair2012b] utilize high-level terminology that is often
+theory-based and less actionable out of context. Simplifying such terminology
+and focusing on comprehensive aspects [@Kindlmann2016] can aid students to
+understand and apply concepts more readily. Furthermore, steps for the ideation
+process have been outlined by the five design-sheet methodology [@Roberts2015],
+but this methodology does not outline steps beyond ideation which would be
+beneficial for visualization design pedagogy. The design activity framework and
+worksheets provide such a step-by-step description that increases not only its
+achievability but actionability as a visualization design process model.
 

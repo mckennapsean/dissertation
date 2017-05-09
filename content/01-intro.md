@@ -119,12 +119,6 @@ using these worksheets for real-world visualization projects. Moreover, existing
 visualization models have not explored pedagogical approaches for teaching the
 design process to visualization design novices.
 
-<!-- TODO pull in definition elsewhere?
-Whereas design can mean many things to different people,
-the **data visualization design process** is about the planning, creation, and
-evaluation of a single data visualization or a multiview, robust visualization
-system.-->
-
 
 
 
