@@ -178,11 +178,10 @@ have become more prevalent, from evaluation strategies [@Plaisant2004;
 process itself [@Tory2004; @Sedlmair2012b; @Lloyd2011; @Shneiderman2006;
 @Wassink2009; @Chee2011]. We discuss these different theoretical design models
 across communities, including models for visualization that focus separately on
-either the design process or decisions. Next, we investigate various pedagogical
-approaches for teaching the visualization design process [@cairo2012;
-@Munzner2014; @Shneiderman2004; @Ware2010; @Sedlmair2012b; @Munzner2009].
-Lastly, we explore the connection between visualization design and development
-through an exploration on agile software engineering approaches.
+either the design process or decisions. Lastly, we investigate various
+pedagogical approaches for teaching the visualization design process
+[@cairo2012; @Munzner2014; @Shneiderman2004; @Ware2010; @Sedlmair2012b;
+@Munzner2009].
 
 
 A core contribution of this dissertation is the design activity framework; we
@@ -261,5 +260,6 @@ designers, based on the results of our framework and worksheet evaluations.
 Additionally, we explore the notion of broader process models, for both research
 and development, as ways to extend and connect these design models to more
 effectively guide and support building better visualization tools and systems.
-Lastly, we conclude this dissertation in [@sec:conclusion] with a summary of the
-work.
+We also explore the connection between visualization design and development,
+specifically agile software engineering approaches. Lastly, we conclude this
+dissertation in [@sec:conclusion] with a summary of the work.

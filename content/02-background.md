@@ -13,48 +13,10 @@ approaches to the design process: creative and engineering [@Lowgren1995;
 and enrich a design process. Furthermore, we reflect on the role and use of
 human-centered design methods throughout visualization design. Following this,
 we explore the role of design in the pedagogy of the data visualization and HCI
-communities. Lastly, we relate these design processes to those used in
-development and software engineering, within the context of building data
-visualization systems. Specifically, agile methodologies are a popular choice
-for software engineering processes that have begun to combine engineering and
-creative approaches. In the next chapter, we will introduce the design activity
+communities. In the next chapter, we will introduce the design activity
 framework as a way to bridge design activities with the decisions a
 visualization designer might make, supporting both an engineering and creative
 approach for data visualization design.
-
-
-
-
-
-## Incorporating Flexibility in Visualization Design
-
-In a visualization design project where we worked with other types of designers
-(discussed in [@sec:formulation]), we discovered a disparity with how other
-visualization design models incorporate flexibility into the design process.
-Although some visualization researchers argue that design and research methods
-can elicit creativity in visualization design [@Lloyd2011; @Goodwin2013a;
-@Moere2011], design research also tends to more explicitly emphasize and
-highlight the complex nature of the design process [@Baker2010; @Cao2010] as
-well as the role of design constraints [@Onarheim2010; @Savage1998]. It is not
-clear, however, how this design research explicitly addresses or captures
-well-established visualization design decisions, namely those described by the
-levels of the nested model [@Munzner2009]. During this project, we struggled to
-reconcile the visualization design decisions we wanted to make with these
-various creative process models used by other types of designers.
-
-
-By reflecting on our own design process in [@sec:formulation], we identify a
-need for a process framework that balances the flexibility and actionability of
-models from the design community with the explicit artifacts and decisions
-necessary for visualization design. We developed the design activity framework
-to overcome shortcomings in existing visualization design process models
-[@Chee2011; @Tory2004; @Wassink2009; @Lloyd2011; @Goodwin2013a; @DIS2010;
-@Sedlmair2012b] and to incorporate ideas from a broad range of models in HCI
-[@Wolf2006; @Vredenburg2002; @Rudisill1995] and design [@Lowgren1995;
-@Howard2008; @Wolf2006; @Cardella2008; @Jones2008; @Brown2009; @Lidwell2010;
-@Ware2010; @Wodehouse2010a; @DaGandra2012; @Teal2010; @Wu2011; @Atman2009;
-@Snider2013].
-
 
 
 
@@ -198,6 +160,39 @@ and decisions they should make. The design activity framework is largely
 inspired by the nine-stage framework but with a focus on providing more
 actionable guidance for visualization designers that is not currently available
 within the nine-stage framework.
+
+
+
+
+
+## Incorporating Flexibility in Visualization Design
+
+In a visualization design project where we worked with other types of designers
+(discussed in [@sec:formulation]), we discovered a disparity with how other
+visualization design models incorporate flexibility into the design process.
+Although some visualization researchers argue that design and research methods
+can elicit creativity in visualization design [@Lloyd2011; @Goodwin2013a;
+@Moere2011], design research also tends to more explicitly emphasize and
+highlight the complex nature of the design process [@Baker2010; @Cao2010] as
+well as the role of design constraints [@Onarheim2010; @Savage1998]. It is not
+clear, however, how this design research explicitly addresses or captures
+well-established visualization design decisions, namely those described by the
+levels of the nested model [@Munzner2009]. During this project, we struggled to
+reconcile the visualization design decisions we wanted to make with these
+various creative process models used by other types of designers.
+
+
+By reflecting on our own design process in [@sec:formulation], we identify a
+need for a process framework that balances the flexibility and actionability of
+models from the design community with the explicit artifacts and decisions
+necessary for visualization design. We developed the design activity framework
+to overcome shortcomings in existing visualization design process models
+[@Chee2011; @Tory2004; @Wassink2009; @Lloyd2011; @Goodwin2013a; @DIS2010;
+@Sedlmair2012b] and to incorporate ideas from a broad range of models in HCI
+[@Wolf2006; @Vredenburg2002; @Rudisill1995] and design [@Lowgren1995;
+@Howard2008; @Wolf2006; @Cardella2008; @Jones2008; @Brown2009; @Lidwell2010;
+@Ware2010; @Wodehouse2010a; @DaGandra2012; @Teal2010; @Wu2011; @Atman2009;
+@Snider2013].
 
 
 
@@ -365,81 +360,4 @@ challenges of teaching theoretical design aspects such as the nested model
 [@Munzner2009] to visualization novices. By simplifying these aspects into a
 more step-driven process, students may be able to apply and learn these
 visualization design concepts on their own more effectively.
-
-
-
-
-
-## Software Engineering and Agile Development
-
-A field related to the design of data visualization tools is software
-engineering or how people develop tools and systems. The field of software
-engineering is about how programmers design, implement, test, and document the
-creation of software [@SWEVocab2010]. These concepts overlap with visualization
-design when designers have to develop something into a system or tool, and as
-such the methods and recommendations may overlap across fields. The body of
-software engineering research is vast, with core components such as how to
-generate requirements (necessary properties for something to solve real-world
-problems); general design principles such as managing data and events to
-function or object-oriented code; and testing, management, maintenance, and
-associated economics for software engineering [@Abran2001]. In other words,
-software engineering involves many aspects from how to write good, effective
-code to managing teams; business practices; and working with clients or
-customers. All these concepts and associated methods can often relate to the
-field of visualization design, and software engineering can incorporate design
-and research methods into their processes as well [@Peffers2007]. However, the
-majority of this dissertation focuses on the design and theoretical
-visualization components rather than on those from software engineering bodies
-of knowledge.
-
-
-Agile development started in the 1990s with a series of methods aimed at
-revolutionizing and adapting software engineering processes with lightweight
-alternatives that quickly adapt to user needs in a changing workplace
-[@Abran2001]. In 2001, 17 software developers, including Jeff Sutherland and
-Alistair Cockburn, sat down at the Snowbird Mountain Resort in Utah to discuss
-publication of their thoughts and insights as the _Manifesto for Agile Software
-Development_ [@AgileManifesto2001]. Traditional software engineering process
-models were very much incremental before agile approaches, and agile approaches
-are in principle about promoting customer satisfaction, adapting to clients'
-changing requirements, working software releases with the best technology on the
-order of weeks, forming co-located and cross-functional teams, implementing
-test-driven development, and reflecting on how to make the product more
-effective [@AgileManifesto2001]. Various realizations of agile approaches have
-emerged over the years, from Scrum to Rapid Application Development (RAD) and
-eXtreme Programming (XP) [@Abran2001], which all utilize a variety of software
-engineering methods such as pair programming, daily stand-ups, scrum boards, and
-sprint planning exercises. A key cornerstone of these approaches is how success
-is measured in terms of how well the software works [@AgileManifesto2001].
-Straying from more complex methods that focus on incremental changes, agile
-methodologies are designed to be iterative in nature, with teams adapting
-requirements to the software over time [@Abran2001].
-
-
-These agile approaches cross aspects of design for an engineering process with
-creative processes, but their focus is largely on software development, and they
-are not tailored to visualization specifically. For example, the notion of a
-sprint is at the core of the agile Scrum approach, where a sprint manages and
-timeboxes activities and development work into a concrete time frame for
-tackling backlog items, daily updates, and progress reviews [@Abran2001]. This
-set deadline provides a clear goal for developing a working prototype to test
-with clients or customers. An example is the Google Ventures sprint, a five-day
-process that breaks apart the software engineering and design process into five
-big steps: mapping out the problem space and finding a focus, sketching out
-ideas, comparing and evaluating the ideas to find the best, building the
-software or other prototype, and testing with the clients or customers
-[@Knapp2016]. The goal of this sprint is to determine if an idea or potential
-product has a measurable impact on the clients or customers. Such an impact can
-shave months off building a fully working tool or system. By preparing for
-sprints with tools such as whiteboards, timers, and paper along with electronic
-device limitations, open schedules, and an appropriate team of experts, a
-facilitator, and a decider, a sprint process can focus a team to be very
-productive in a short amount of time [@Knapp2016]. As a result, this agile
-sprint method combines software engineering and development with project
-management [@Abran2001] and business ideas [@Knapp2016]. Designing visualization
-software systems, tools, and techniques can incorporate aspects of these agile
-approaches, such as sprints. While the focus of this dissertation is less on
-general principles of software engineering or agile development, many aspects
-and methods from these methodologies can be applied and can fit into the context
-of the design activity framework for visualization design.
 

@@ -24,10 +24,14 @@ insights gained in our second case study for cyber security on the topics of
 winnowing users, casting roles for collaborators, and utilizing multiple
 discourse channels for visualization design. Throughout both case studies, the
 use of user-centered design methods impacted both projects positively and
-connect back to the design activity framework. Lastly, while the design activity
-framework could apply to other types of research beyond application-driven
-design study projects, more examination and validation is required to
-investigate this notion.
+connect back to the design activity framework. Next, we relate these design
+processes to those used in development and software engineering, within the
+context of building data visualization systems. Specifically, agile
+methodologies are a popular choice for software engineering processes that have
+begun to combine engineering and creative approaches. Lastly, while the design
+activity framework could apply to other types of research beyond
+application-driven design study projects, more examination and validation is
+required to investigate this notion.
 
 <!-- TODO clean up refs in this chap -->
 
@@ -379,6 +383,83 @@ space for data visualization in a given domain. Ultimately, embracing
 user-centered design methods and the importance of the design process will help
 us as a community be more efficient at building effective visualization tools
 across domains, users, data, and tasks.
+
+
+
+
+
+## Software Engineering and Agile Development
+
+A field related to the design of data visualization tools is software
+engineering or how people develop tools and systems. The field of software
+engineering is about how programmers design, implement, test, and document the
+creation of software [@SWEVocab2010]. These concepts overlap with visualization
+design when designers have to develop something into a system or tool, and as
+such the methods and recommendations may overlap across fields. The body of
+software engineering research is vast, with core components such as how to
+generate requirements (necessary properties for something to solve real-world
+problems); general design principles such as managing data and events to
+function or object-oriented code; and testing, management, maintenance, and
+associated economics for software engineering [@Abran2001]. In other words,
+software engineering involves many aspects from how to write good, effective
+code to managing teams; business practices; and working with clients or
+customers. All these concepts and associated methods can often relate to the
+field of visualization design, and software engineering can incorporate design
+and research methods into their processes as well [@Peffers2007]. However, the
+majority of this dissertation focuses on the design and theoretical
+visualization components rather than on those from software engineering bodies
+of knowledge.
+
+
+Agile development started in the 1990s with a series of methods aimed at
+revolutionizing and adapting software engineering processes with lightweight
+alternatives that quickly adapt to user needs in a changing workplace
+[@Abran2001]. In 2001, 17 software developers, including Jeff Sutherland and
+Alistair Cockburn, sat down at the Snowbird Mountain Resort in Utah to discuss
+publication of their thoughts and insights as the _Manifesto for Agile Software
+Development_ [@AgileManifesto2001]. Traditional software engineering process
+models were very much incremental before agile approaches, and agile approaches
+are in principle about promoting customer satisfaction, adapting to clients'
+changing requirements, working software releases with the best technology on the
+order of weeks, forming co-located and cross-functional teams, implementing
+test-driven development, and reflecting on how to make the product more
+effective [@AgileManifesto2001]. Various realizations of agile approaches have
+emerged over the years, from Scrum to Rapid Application Development (RAD) and
+eXtreme Programming (XP) [@Abran2001], which all utilize a variety of software
+engineering methods such as pair programming, daily stand-ups, scrum boards, and
+sprint planning exercises. A key cornerstone of these approaches is how success
+is measured in terms of how well the software works [@AgileManifesto2001].
+Straying from more complex methods that focus on incremental changes, agile
+methodologies are designed to be iterative in nature, with teams adapting
+requirements to the software over time [@Abran2001].
+
+
+These agile approaches cross aspects of design for an engineering process with
+creative processes, but their focus is largely on software development, and they
+are not tailored to visualization specifically. For example, the notion of a
+sprint is at the core of the agile Scrum approach, where a sprint manages and
+timeboxes activities and development work into a concrete time frame for
+tackling backlog items, daily updates, and progress reviews [@Abran2001]. This
+set deadline provides a clear goal for developing a working prototype to test
+with clients or customers. An example is the Google Ventures sprint, a five-day
+process that breaks apart the software engineering and design process into five
+big steps: mapping out the problem space and finding a focus, sketching out
+ideas, comparing and evaluating the ideas to find the best, building the
+software or other prototype, and testing with the clients or customers
+[@Knapp2016]. The goal of this sprint is to determine if an idea or potential
+product has a measurable impact on the clients or customers. Such an impact can
+shave months off building a fully working tool or system. By preparing for
+sprints with tools such as whiteboards, timers, and paper along with electronic
+device limitations, open schedules, and an appropriate team of experts, a
+facilitator, and a decider, a sprint process can focus a team to be very
+productive in a short amount of time [@Knapp2016]. As a result, this agile
+sprint method combines software engineering and development with project
+management [@Abran2001] and business ideas [@Knapp2016]. Designing visualization
+software systems, tools, and techniques can incorporate aspects of these agile
+approaches, such as sprints. While the focus of this dissertation is less on
+general principles of software engineering or agile development, many aspects
+and methods from these methodologies can be applied and can fit into the context
+of the design activity framework for visualization design.
 
 
 
