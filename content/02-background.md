@@ -1,7 +1,8 @@
 # Background and Related Work {#sec:background}
 
 While research in visualization design has explored many facets of design, the
-main goals of the design activity framework are lacking in existing models:
+main goals of the design activity framework originate from shortfalls
+in existing visualization models:
 achievability, flexibility, justifiability, discoverability, and actionability.
 In this chapter, we focus on two types of visualization design models, decision
 and process models [@Meyer]. The nested model [@Munzner2009; @Meyer] is the
@@ -103,8 +104,9 @@ design a visualization, only the types of decisions (_what_) and rationale
 decisions, rationale, and guidelines are formed from employed evaluation
 methods. Existing visualization process models fail to incorporate this
 justifiability without a link to decision models. Moreover, numerous existing
-models capture evaluation as a step of the design process rather than a
-continuing role throughout the process like in design decision models.
+models capture evaluation as only a step of the design process [@Chee2011;
+@Tory2004; @Wassink2009; @Lloyd2011] rather than a continuing role throughout
+the process like in design decision models.
 
 
 ### Design Process Models
@@ -292,13 +294,13 @@ if a model supported their discoverability.
 
 Another crucial aspect for visualization design models is how easily they can be
 introduced, taught, and understood by novice visualization designers. Few
-visualization process models have studied and reported on their use in a
+visualization process models have been studied and reported on their use in a
 classroom setting. Existing process models for visualization could be improved
 to more clearly outline the desired, achievable visualization artifacts.
 Furthermore, the actionability of such models has not been studied or explored.
 For example, actionable guidance might provide a more step-by-step walk through
-for the design process, and illustrative examples of the design process can
-further add to the actionability of a model.
+[@Roberts2015] for the design process, and illustrative examples of the design
+process can further add to the actionability of a model.
 
 
 Over time, pedagogy for data visualization has shifted from more theoretical
@@ -307,17 +309,17 @@ critical analysis [@Rushmeier2007; @Hearst2016b; @He2017]. As educators
 incorporate aspects such as active learning [@Beyer2016; @Godwin2016;
 @Hearst2016b] and design workshops [@He2017; @Huron2016; @Zoss2016] into the
 classroom, it is important to teach concepts like design thinking to students
-[@He2017]. These concepts would emphasize and teach students how to generate
-ideas broadly and avoid refining ideas too early [@Roberts2015]. However,
-novices may struggle in visualization design projects since existing design
-models outlined in textbooks [@Ware2010; @Shneiderman2004] or research papers
-[@Munzner2014; @Sedlmair2012b] utilize high-level terminology that is often
-theory-based and less actionable out of context. Simplifying such terminology
-and focusing on comprehensive aspects [@Kindlmann2016] can aid students to
-understand and apply concepts more readily. Furthermore, steps for the ideation
-process have been outlined by the five design-sheet methodology [@Roberts2015],
-but this methodology does not outline steps beyond ideation which would be
-beneficial for visualization design pedagogy. The design activity framework and
-worksheets provide such a step-by-step description that increases not only its
-achievability but actionability as a visualization design process model.
+[@He2017]. These concepts teach and emphasize how to generate ideas broadly and
+how to avoid refining ideas too early [@Roberts2015]. However, novices may
+struggle in visualization design projects since existing design models outlined
+in textbooks [@Ware2010; @Shneiderman2004] and research papers [@Munzner2014;
+@Sedlmair2012b] utilize high-level terminology that is often theory-based and
+less actionable out of context. Simplifying such terminology and focusing on
+comprehensive aspects [@Kindlmann2016] can aid students to understand and apply
+concepts more readily. Furthermore, steps for the ideation process have been
+outlined by the five design-sheet methodology [@Roberts2015], but broader steps
+beyond just ideation would be beneficial for visualization design pedagogy. The
+design activity framework and worksheets provide such a step-by-step description
+that increases not only its achievability but actionability as a visualization
+design process model.
 
