@@ -167,7 +167,7 @@ to illustrate how intervention with collaborators shaped the final visualization
 design and how they reflected and learned throughout this process
 [@McCurdy2016]. Although the visualization community recognizes that creative
 aspects and design decisions are important, none of the visualization process
-models explicitly incorporate creative aspects nor link back to visualization
+models explicitly incorporate creative aspects or link back to visualization
 design decisions.
 
 
