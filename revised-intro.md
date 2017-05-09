@@ -1,29 +1,36 @@
 # Introduction
 
-This dissertation introduces a new design process model for data visualization
-design that was created to better guide and support visualization designers
-through the act of creating effective, useful, and usable visualization systems.
-While existing visualization design process models have a similar purpose, we
-encountered limitations and discovered missing components of these models when
-conducting our own visualization design process. To this purpose, we identify
-five high-level goals that, if met, could produce a visualization design process
-model that addresses these concerns: **achievability**, **flexibility**,
-**justifiability**, **discoverability**, and **actionability**.
+\mm{add citations throughout intro!}
+
+This dissertation introduces a new data visualization design process model to
+guide and support visualization designers through the act of creating effective,
+useful, and usable visualization systems. Existing visualization design process
+models proved difficult to use in practice due to a disconnect with our design
+decisions, evaluation methods, design artifacts, and which step we were in. We
+propose the design activity framework to more effectively guide visualization
+designers through a series of design activities. Each design activity has a
+descriptive motivation, a collection of generative or evaluative design methods,
+and the goal of visualization artifacts, such as design requirements, ideas,
+prototypes, and systems. The design activity framework is grounded in a series
+of formative and summative data visualization projects, where we encountered
+limitations of existing models and utilized this framework as a solution. This
+framework is validated through series of case studies in the fields of biology,
+cyber security, and data storytelling and also by an evaluation of design
+activity worksheets taught in a data visualization classroom for use in a
+cumulative project.
 
 
-When performing our own data visualization projects, we learned that these
-existing models failed to completely capture our design decisions, to highlight
-the visualization artifacts achieved, and to guide us as visualization designers
-to incorporate new design methods for generating and evaluating these artifacts.
-Together, these aspects led to these five goals. In visualization research, both
-application-driven and technique-driven work are key approaches for contributing
-new knowledge to the field, and this dissertation largely focuses on the data
-visualization design process for application-driven work, such as design
-studies. Specifically, this dissertation is built upon a series of formative and
-summative research projects in the fields of biology, cyber security, and data
-storytelling, by reflecting on our experiences for applied research projects in
-data visualization including the steps we took to the artifacts acquired to the
-methods employed.
+As motivation, we identify five high-level goals that, if met, could improve
+upon existing visualization design process models: **achievability**,
+**flexibility**, **justifiability**, **discoverability**, and **actionability**.
+Specifically, existing models failed to clearly lay out goals for steps of the
+design process, while the design activity framework includes achievable
+artifacts and connections to justifiable design decisions. With an activity's
+clear motivation, list of discoverable design methods, and flexible flow
+principles, the design activity framework is also more actionable and could help
+guide visualization designers effectively through the process. By working to
+capture these five goals, the design activity framework is a significant
+contribution and improvement upon previous models for data visualization design.
 
 
 To be _achievable_, a design process model should clearly highlight the desired
