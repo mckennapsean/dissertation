@@ -2,21 +2,21 @@
 
 Research in visualization design has explored many facets of design, from the
 process and its steps to the design decisions made throughout. In this chapter,
-we first investigate how visualization research on design utilizes the complex
-and flexible nature of the creative process. On the theoretical side, we focus
-on two types of visualization design models, process and decision models
-[@Meyer]. For visualization design, we discuss the primary decision model used
-in the field, the nested model [@Munzner2009; @Meyer]. For process models, the
-human-computer interaction (HCI) community has identified two differing
-approaches to the design process: creative and engineering [@Lowgren1995;
-@Howard2008; @Wolf2006; @Moere2011]. Together, these approaches can complement
-and enrich a design process. Furthermore, we reflect on the role and use of
-human-centered design methods throughout visualization design. Following this,
-we explore the role of design in the pedagogy of the data visualization and HCI
-communities. In the next chapter, we will introduce the design activity
-framework as a way to bridge design activities with the decisions a
-visualization designer might make, supporting both an engineering and creative
-approach for data visualization design.
+we focus on two types of visualization design models, decision and process
+models [@Meyer]. The nested model [@Munzner2009; @Meyer] is the primary model
+for visualization design decisions. On the other hand, design process models can
+be grouped into two approaches based on research in the human-computer
+interaction (HCI) community: creative and engineering [@Lowgren1995;
+@Howard2008; @Wolf2006; @Moere2011], and together these two approaches can
+complement and enrich a design process. Next, we investigate how visualization
+research on design captures the complex and flexible nature of the creative
+process. Furthermore, we reflect on the role and use of human-centered design
+methods throughout visualization design. Following this, we explore the role of
+design in the pedagogy of the data visualization and HCI communities. In the
+next chapter, we will introduce the design activity framework as a way to bridge
+design activities with the decisions a visualization designer might make,
+supporting both an engineering and creative approach for data visualization
+design.
 
 
 
@@ -45,6 +45,8 @@ and its many design decisions are intricately interconnected.
 
 
 ### Design Decision Models
+
+<!-- TODO add in figures for this section? just not for thesis office... e.g. nested model, design funnel,  -->
 
 Many researchers have explored the general act of decision-making in design. A
 detailed model by Christiaans and Almendra captures both the mindset and
@@ -82,7 +84,9 @@ a visualization. It is important to stress that the nested model, as well as the
 nested blocks and guidelines model, are not process models; they do not describe
 _how_ to design a visualization, only the types of decisions (_what_) and
 rationale (_why_) that a visualization designer formulates along the way
-[@Meyer].
+[@Meyer]. The primary motivation of the nested model is to support effective
+evaluation of the different types of decisions that visualization designers
+might make --- this is why we care about decision models. <!-- TODO more on the role of evaluation and design decisions! -->
 
 
 ### Design Process Models
@@ -100,42 +104,46 @@ process has many overlapping activities in which many different possibilities
 are explored before choosing a single solution [@Lowgren1995]. An example of a
 creative model is Pugh's process, a design funnel [@pugh1991total] that begins
 with concept generation and controlled convergence iterating over time until a
-final concept is reached [@buxton2010sketching]. Additionally, sketching is a
-crucial aspect for creative design processes, as sketching is not about the
-drawing but rather is an activity involving generation, brainstorming, learning,
-reasoning, and design thinking [@buxton2010sketching]. As recognized by
-researchers in the design [@Howard2008], HCI [@Wolf2006; @Lowgren1995], and
-visualization [@Moere2011] communities, the combination and balanced mixture of
-these two types of process models is useful for characterizing the design
-process for visualization designers.
+final concept is reached [@buxton2010sketching]. Additionally, ideation and
+design activities often involve sketching as a method which is a crucial aspect
+for creative design processes, as sketching is not simply the act of drawing but
+rather is an activity involving generation, brainstorming, learning, reasoning,
+and design thinking [@buxton2010sketching]. As recognized by researchers in the
+design [@Howard2008], HCI [@Wolf2006; @Lowgren1995], and visualization
+[@Moere2011] communities, the combination and balanced mixture of both creative
+and engineering process models is useful for characterizing the design process
+for visualization designers.
 
 
 Visualization-specific design process models describe unique aspects for
 designing and evaluating visualization systems; however, they largely do not
 connect to visualization design decisions and do not explicitly incorporate
-aspects of a creative design process. The seminal research method of
-multidimensional longitudinal case studies [@Shneiderman2006] proposes a process
-and specific methods for assessing and evaluating visualization systems deployed
-in the wild. This model, however, does not cover the creation and development of
-a visualization system. More abstracted design process models for visualization
-have also been proposed in a variety of forms --- waterfall, cyclical, and
-spiral --- to perform user-centered design [@Chee2011; @Tory2004; @Wassink2009],
-but they emphasize convergence as in an engineering design process model. The
-design process model used by both Lloyd et al. [@Lloyd2011] and Goodwin et al.
-[@Goodwin2013a] is drawn from an international standard on human-centered
-design, ISO13407, which has recently been updated, ISO9241-210 [@DIS2010]. This
-standard's model describes different design activities as a cycle, emphasizing
-an engineering approach. Goodwin et al. accompany this engineering process model
-with specific methods for eliciting creativity from end users [@Goodwin2013a], a
-step toward including aspects of a creative design process. Vande Moere and
-Purchase further characterize the role of design in visualization, arguing for a
-balanced approach that mixes both creative and engineering aspects [@Moere2011].
-By embracing concepts from action design research (ADR), McCurdy et al. applied
-ADR to a design study to illustrate how intervention with collaborators shaped
-the final visualization design and how they reflected and learned throughout
-this process [@McCurdy2016]. Although the visualization community is beginning
-to embrace aspects of a creative design process, none of these process models
-explicitly link back to visualization design decisions.
+aspects of a creative design process, such as the goals of flexibility and
+discoverability. The seminal research method of multidimensional longitudinal
+case studies [@Shneiderman2006] proposes a process and specific methods for
+assessing and evaluating visualization systems deployed in the wild. This model,
+however, does not cover the creation and development of a visualization system.
+More abstracted design process models for visualization have also been proposed
+in a variety of forms --- waterfall, cyclical, and spiral --- to perform
+user-centered design [@Chee2011; @Tory2004; @Wassink2009], but they emphasize
+convergence as in an engineering design process model. The design process model
+used by both Lloyd et al. [@Lloyd2011] and Goodwin et al. [@Goodwin2013a] is
+drawn from an international standard on human-centered design, ISO13407, which
+has recently been updated, ISO9241-210 [@DIS2010]. This standard's model
+describes different design activities as a cycle, emphasizing an engineering
+approach. Goodwin et al. accompany this engineering process model with specific
+methods for eliciting creativity from end users [@Goodwin2013a], a step toward
+including aspects of a creative design process. Vande Moere and Purchase further
+characterize the role of design in visualization [@Moere2011], and, while no
+design process model is outlined, their assertions on design emphasize the
+importance of creative aspects for visualization design. By embracing concepts
+from action design research (ADR), McCurdy et al. applied ADR to a design study
+to illustrate how intervention with collaborators shaped the final visualization
+design and how they reflected and learned throughout this process
+[@McCurdy2016]. Although the visualization community recognizes that creative
+aspects and design decisions are important, none of the visualization process
+models explicitly incorporate creative aspects nor link back to visualization
+design decisions.
 
 
 The model closest to the design activity framework is the nine-stage framework
@@ -167,19 +175,20 @@ within the nine-stage framework.
 
 ## Incorporating Flexibility in Visualization Design
 
-In a visualization design project where we worked with other types of designers
-(discussed in [@sec:formulation]), we discovered a disparity with how other
-visualization design models incorporate flexibility into the design process.
-Although some visualization researchers argue that design and research methods
-can elicit creativity in visualization design [@Lloyd2011; @Goodwin2013a;
-@Moere2011], design research also tends to more explicitly emphasize and
-highlight the complex nature of the design process [@Baker2010; @Cao2010] as
-well as the role of design constraints [@Onarheim2010; @Savage1998]. It is not
-clear, however, how this design research explicitly addresses or captures
-well-established visualization design decisions, namely those described by the
-levels of the nested model [@Munzner2009]. During this project, we struggled to
-reconcile the visualization design decisions we wanted to make with these
-various creative process models used by other types of designers.
+In a visualization design project where we worked with two general designers and
+a psychologist (discussed in [@sec:formulation]), we discovered a disparity with
+how existing visualization design models support flexibility throughout the
+design process. Although some visualization researchers argue that design and
+research methods can elicit creativity in visualization design [@Lloyd2011;
+@Goodwin2013a; @Moere2011], design practitioners explicitly emphasize and
+highlight the complex nature of the design process [@Baker2010;
+@Cao2010] as well as the role of design constraints [@Onarheim2010;
+@Savage1998]. However, it is not clear how visualization design decisions, such
+as those established by the levels of the nested model [@Munzner2009], fit into
+these models presented by the design community. During this project in
+[@sec:formulation], we struggled to reconcile the visualization design decisions
+we wanted to make with these various creative process models used by other types
+of designers.
 
 
 By reflecting on our own design process in [@sec:formulation], we identify a
@@ -199,6 +208,9 @@ to overcome shortcomings in existing visualization design process models
 
 
 ## User-Centered Design for Visualization
+
+<!-- TODO MOTIVATE this section... why do you have it? -->
+<!-- TODO you use a mix of process and methods, and is this a process model or about methods? what is the point of all this? this is about a motivating goal of the daf, right? importance to incorporate UCD methods into a process model -->
 
 User-centered design is a promising approach to build better and more effective
 visualization tools. By focusing on users' needs, wants, and limitations,
@@ -246,6 +258,8 @@ real-world projects and that could be taught to visualization designers.
 
 
 ## Pedagogy of Data Visualization Design
+
+<!-- TODO sections is good but removed from above. can you add a sentence or two that links the idea of pedagogy to vis design models? also, very substantial, perhaps summarize here and move rest to later chapter? give a broad set of motivations and existing work, specific research approach goes to sep chapters -->
 
 For the past few decades, pedagogy for data visualization and human-computer
 interaction has begun to shift from academic or theoretical foundations toward

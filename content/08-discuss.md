@@ -404,11 +404,10 @@ associated economics for software engineering [@Abran2001]. In other words,
 software engineering involves many aspects from how to write good, effective
 code to managing teams; business practices; and working with clients or
 customers. All these concepts and associated methods can often relate to the
-field of visualization design, and software engineering can incorporate design
-and research methods into their processes as well [@Peffers2007]. However, the
-majority of this dissertation focuses on the design and theoretical
-visualization components rather than on those from software engineering bodies
-of knowledge.
+field of visualization design just like how software engineering can incorporate
+design methods as well [@Peffers2007]. However, the majority of this
+dissertation focuses on the design and theoretical visualization components
+rather than on those from software engineering bodies of knowledge.
 
 
 Agile development started in the 1990s with a series of methods aimed at
