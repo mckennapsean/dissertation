@@ -29,7 +29,12 @@ have no source text to edit easily...
 
 When referring to figure sub-parts, use Fig 2.1a, Fig. 2.1a) or Fig. 2.1(a),
 what would Chris recommend? Papers have done it differently, and I can clean up
-each to be the same.
+each to be the same. IEEE style says to use (a), but can also use left, right,
+top, bottom, etc. if that is simpler / easier.
+
+
+Titles/headers: simplify/shorten so that they are not as long. Depending on the
+hierarchy is perfectly reasonable.
 
 
 Check Margins: 1.25 inches on the left and right and 1 inch only on the bottom
