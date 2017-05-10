@@ -24,7 +24,6 @@ framework can help successfully shape a real-world visualization design study.
 
 <!-- CONCERN: is the focus on the f/w enough? role, purpose, use of activities throughout -->
 <!-- CONCERN: where did existing models fail? more on 9-sf? what does DAF provide over them? -->
-<!-- TODO clean references in this chapter??? -->
 
 
 
@@ -294,8 +293,6 @@ result.
   artifacts and user feedback across all channels.
 ](figures/bubble-net/process-daf.pdf){#fig:process width="100%"}
 
-<!-- TODO better caption starter than "This is..." -->
-
 
 We present an overview of our design process in [@fig:process]. Each row and
 color corresponds to a different discourse channel. Each channel has different
@@ -314,9 +311,6 @@ two discourse channels.
   method, to implement our first design for analysts and managers.
 ](figures/methods/dashboard1.pdf){#fig:dashboard1 width="100%"}
 
-<!-- TODO better caption starter than "This is..." -->
-<!-- ThesisOffice: make sure print in fig is at least 2mm -->
-
 
 ![
   Here, we show the second dashboard prototype, implemented after conducting the
@@ -325,8 +319,6 @@ two discourse channels.
   resulting dashboard. The heatmap seen in the previous prototype was rearranged
   to align with a temporal bar chart and to give it more screenspace.
 ](figures/methods/dashboard2.pdf){#fig:dashboard2 width="100%"}
-
-<!-- ThesisOffice: make sure print in fig is at least 2mm -->
 
 
 Furthermore, at the bottom of [@fig:process], we highlight the different
@@ -426,7 +418,6 @@ aspects of the design study.
 ](figures/worksheets/worksheet-example.jpg){#fig:worksheet-example width="100%"}
 
 <!-- APPENDIX: add in each copy and link, or url? -->
-<!-- ThesisOffice: MOVE to follow first reference?? -->
 
 
 As previously discussed, a number of user-centered design methods have been
@@ -499,8 +490,6 @@ team.
   particularly effective at narrowing our design focus and facilitating
   consistent communication as a design team.
 ](figures/methods/personas.pdf){#fig:personas height="100%"}
-
-<!-- TODO: not a great caption starter -->
 
 
 We present the resulting personas from our design study in [@fig:personas] and
@@ -615,8 +604,6 @@ that made use of real-world cyber security data [@Fischer2014; @Koike2005;
 ](figures/methods/sketches.pdf){#fig:sketches width="100%"}
 
 <!-- APPENDIX: add in and link or url? -->
-<!-- TODO better caption starter than "This is..." -->
-<!-- ThesisOffice: make sure print in fig is at least 2mm -->
 
 
 We present an overview of the 20 data sketches we produced in [@fig:sketches];
@@ -725,8 +712,7 @@ them as well.
   overview.
 ](figures/bubble-net/dashboard.pdf){#fig:dashboard width="100%"}
 
-<!-- ThesisOffice: make sure print in fig is at least 2mm -->
-<!-- TODO how to refer to the subparts here? -->
+<!-- TODO how to refer to the subparts here? and all refs? -->
 
 
 ### Location View
@@ -742,8 +728,6 @@ deviations from an average are encoded using color where red is more records
 than average and blue is less. Size is encoded on a log scale due to both the
 importance of visualizing a single record as well as the large range of record
 values, up to hundreds of thousands.
-
-<!-- TODO check how to handle figures and sub-parts, one or two parantheses? Chris felt that one looked like an error -->
 
 
 After gathering feedback on the initial treemap prototype, we learned that the
@@ -817,9 +801,6 @@ using text.
   views accordingly. For example, selecting four countries shows significantly
   different patterns in the hourly heatmap.
 ](figures/bubble-net/bubble-combine.pdf){#fig:interaction width="100%"}
-
-<!-- ThesisOffice: make sure print in fig is at least 2mm -->
-<!-- ThesisOffice: make figure follow first reference in text! -->
 
 
 ### Records View
@@ -959,9 +940,6 @@ users.
   users, both network analysts and managers. The average score of the dashboard
   is 75, above the average usability score of 68 [@sauro2011sus].
 ](figures/bubble-net/sus.pdf){#fig:sus width="100%"}
-
-<!-- TODO better caption starter than "These are..." -->
-<!-- ThesisOffice: move this figure to follow textual reference! -->
 
 
 After coding each of the participants' comments, the following categories of

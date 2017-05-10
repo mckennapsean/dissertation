@@ -19,8 +19,6 @@ process by incorporating and summarizing these aspects into a design timeline.
 
 <!-- CONCERN: should we better highlight stuff from the nested model and nine-stage framework? what was missing, why did these models fail? what held you back? how did DAF help? -->
 
-<!-- TODO from Chris: but 4.1, 4.2, 4.4, 4.5 not full sentences (captions) -->
-
 
 
 

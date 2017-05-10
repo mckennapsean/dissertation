@@ -56,7 +56,6 @@ projects.
   different visualization artifacts.
 ](figures/daf/design-methods.pdf){#fig:genoreval width="100%"}
 
-<!-- CONCERN: \ja{have materials online/accessible!} how should we do that? -->
 <!-- CONCERN: \ja{more on nine-stage framework} miriah: what do you think? -->
 
 
@@ -139,8 +138,6 @@ scheme used throughout this dissertation, is shown in [@fig:framework]. Next, we
 articulate these unique motivations and visualization artifacts for all four
 design activities of the design activity framework.
 
-<!-- TODO issue of figure order??? -->
-
 
 ![
   Here, we present the design activity framework's four core design activities
@@ -149,8 +146,6 @@ design activities of the design activity framework.
   color. We also include the motivation and expected artifacts for each
   activity.
 ](figures/daf/activities.pdf){#fig:framework width="100%"}
-
-<!-- TODO from Chris: move Fig. 3.3 to the page following its reference. You can place two figs together as you have them, but only if the ref to the first fig is no more than three pages before the placement -->
 
 
 
@@ -172,8 +167,6 @@ solve certain problems. In a visualization project, it is important for a
 visualization designer to identify early on if there is a need and a set of
 design requirements that cannot easily be solved using existing tools.
 
-
-<!-- TODO have Chris do a pass for passive voice? -->
 
 We break down visualization design requirements of the _understand_ activity
 into three classes: _opportunities_, _constraints_, and _considerations_.

@@ -41,8 +41,6 @@ same process. Overall, we found that the design activity framework can support
 thinking about other types of research beyond just design studies and
 problem-driven work unlike existing visualization design models.
 
-<!-- TODO check and clean all refs from this chapter! -->
-
 
 
 
@@ -586,8 +584,6 @@ otherwise initially possible.
   multiple properties which are not necessarily mutually exclusive and hybrids
   can and often do occur in data visualization stories created by authors.
 ](figures/narrative-flow/design-space.pdf){#fig:design-space width="100%"}
-
-<!-- ThesisOffice: check figure placement, should be within 3 pages of ref. -->
 
 
 **Navigation input** is how a reader interacts to progress through a narrative

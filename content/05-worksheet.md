@@ -25,10 +25,6 @@ projects. We conducted a series of interviews to garner additional open-ended
 feedback and suggestions that highlight the strengths and limitations of these
 worksheets as teaching materials.
 
-<!-- CONCERN emphasize several key visualization-theory components, like the nested model and extension of the nine-stage framework for design studies -->
-
-<!-- TODO from Chris: full sentence or not captions? -->
-
 
 
 
@@ -371,7 +367,7 @@ consider a method to evaluate\strut
 -->
 
 
-<!-- CONCERN fbox around graphics? -->
+<!-- TODO fbox around graphics? -->
 
 ![
   The _understand_ worksheet, tailored to help students identify
@@ -385,8 +381,6 @@ consider a method to evaluate\strut
   specific design opportunity or requirement in order to draw and compare three
   sketches.
 ](figures/worksheets/worksheet-ideate.pdf){#fig:i-worksheet width="90%"}
-
-<!-- TODO from Chris: Here, too, you may want a more traditional caption rather than a descriptive sentence -->
 
 
 ![
