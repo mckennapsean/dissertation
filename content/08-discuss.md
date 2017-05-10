@@ -33,8 +33,6 @@ activity framework could apply to other types of research beyond
 application-driven design study projects, more examination and validation is
 required to investigate this notion.
 
-<!-- TODO clean up refs in this chap -->
-
 
 
 
@@ -142,7 +140,7 @@ designers.
 
 
 
-## Redesign Case Study: Working in Design Teams
+## Working in Design Teams
 
 Throughout our redesign project in [@sec:formulation], we worked closely as a
 design team composed of designers, a psychologist, and visualization experts.
@@ -181,7 +179,7 @@ common framework to discuss and present aspects of visualization design.
 
 
 
-## Evaluating with Design Activity Worksheets
+## Design Worksheet Evaluation
 
 When using the design activity worksheets in the classroom, we observed how
 these materials taught students how to perform visualization design, guiding
@@ -299,7 +297,7 @@ use.
 
 
 
-## BubbleNet Case Study: Casting, Collaborator Roles, and Discourse Channels
+## Casting, Collaborators, and Discourse Channels
 
 Upon reflecting on the BubbleNet design study in [@sec:security], we realized
 that winnowing and casting of user roles[@Sedlmair2012b] occurred later in the
@@ -464,7 +462,7 @@ of the design activity framework for visualization design.
 
 
 
-## Reflections on Types of Research
+## Additional Types of Research
 
 As illustrated in [@sec:reflections], the design activity framework has the
 ability to encompass and represent other types of research beyond

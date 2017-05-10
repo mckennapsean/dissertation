@@ -1,4 +1,4 @@
-# Worksheets for the Design Activity Framework {#sec:worksheets}
+# Design Activity Worksheets {#sec:worksheets}
 
 For visualization pedagogy, an important but challenging notion to teach is
 design, including showing students how to make and also characterize their
@@ -29,9 +29,7 @@ worksheets as teaching materials.
 
 
 
-<!-- ## Motivation: Increasing Actionability of the Framework -->
-\section{Motivation: Increasing Actionability of the \\ Framework}
-<!-- ThesisOffice: header adjustment -->
+## Increasing Actionability of the Framework
 
 To teach design in data visualization, educators combine many foundational
 components, from user interface principles [@Shneiderman2004] to data and
@@ -223,13 +221,14 @@ are akin to design methods that can be generative or evaluative in nature.
 
 \newpage
 \begin{longtable}[]{@{}llll@{}}
-\caption{\label{tbl:steps}Each visualization design activity broken down
-into five concrete steps. The first four steps of the process are
+\caption{\label{tbl:steps} Five steps for each design activity. We
+break down each visualization design activity into five concrete steps.
+The first four steps of the process are
 generative, to establish design requirements, encoding and interaction
 sketches, visualization prototypes, or visualization systems. The fifth
 step is always evaluative, to compare different visualization artifacts
 in order to justify design decisions and record that reasoning down for
-later use. We presented these five steps to novice visualization
+later use. We shared these five steps with novice visualization
 designers, students, using design worksheets as a template, as in
 Figs.~\ref{fig:u-worksheet}, \ref{fig:i-worksheet}, \ref{fig:m-worksheet}, \ref{fig:d-worksheet}.
 }\tabularnewline
@@ -355,47 +354,18 @@ consider a method to evaluate\strut
 | | | | |
 | compare \& rank design requirements | compare \& relate your ideas | build the prototype \& check-in | consider a method to evaluate |
 
-: Each visualization design activity broken down into five concrete steps.
+: 
+  Five steps for each design activity.
+  We break down each visualization design activity into five concrete steps.
   The first four steps of the process are generative, to establish design
   requirements, encoding and interaction sketches, visualization prototypes, or
   visualization systems. The fifth step is always evaluative, to compare
   different visualization artifacts in order to justify design decisions and
-  record that reasoning down for later use. We presented these five steps to
+  record that reasoning down for later use. We shared these five steps with
   novice visualization designers, students, using design worksheets as a
   template, as in [@fig:u-worksheet; @fig:i-worksheet; @fig:m-worksheet;
   @fig:d-worksheet]. {#tbl:steps}
 -->
-
-
-<!-- TODO fbox around graphics? -->
-
-![
-  The _understand_ worksheet, tailored to help students identify
-  their problem, users, data, and requirements for a data visualization
-  system.
-](figures/worksheets/worksheet-understand.pdf){#fig:u-worksheet width="90%"}
-
-
-![
-  For the _ideate_ worksheet, a novice visualization designer must target a
-  specific design opportunity or requirement in order to draw and compare three
-  sketches.
-](figures/worksheets/worksheet-ideate.pdf){#fig:i-worksheet width="90%"}
-
-
-![
-  The _make_ worksheet to help visualization novices create a prototype system,
-  by planning out their encodings, layouts, and interactions, along with coding
-  it all together.
-](figures/worksheets/worksheet-make.pdf){#fig:m-worksheet width="90%"}
-
-
-![
-  The final _deploy_ worksheet involving making prototypes more useful as a
-  polished visualization system that gets in the hands of the appropriate
-  audience, along with fixing problems, speeding up the tool, and improving the
-  aesthetics.
-](figures/worksheets/worksheet-deploy.pdf){#fig:d-worksheet width="90%"}
 
 
 We introduce the first design worksheet for the _understand_ activity in
@@ -415,6 +385,40 @@ part of visualization designers to verify that their current visualization
 artifacts are sufficient and that they succeed in addressing the desired problem
 or challenge in enough detail. This is why many visualization design processes
 may be iterative and complex to perform.
+
+
+<!-- TODO fbox around graphics? -->
+
+![
+  The _understand_ worksheet.
+  We tailored this worksheet to help students identify their problem, users,
+  data, and requirements for a data visualization system.
+](figures/worksheets/worksheet-understand.pdf){#fig:u-worksheet width="90%"}
+
+
+![
+  The _ideate_ worksheet.
+  In this activity, novice visualization designers must target a specific design
+  opportunity or requirement in order to draw and compare three sketches.
+](figures/worksheets/worksheet-ideate.pdf){#fig:i-worksheet width="90%"}
+
+
+![
+  The _make_ worksheet.
+  Visualization novices use this worksheet to create a prototype system, by
+  planning out their encodings, layouts, and interactions, along with coding it
+  all together.
+](figures/worksheets/worksheet-make.pdf){#fig:m-worksheet width="90%"}
+
+
+![
+  The _deploy_ worksheet.
+  In the final activity, visualization designers seek to make prototypes more
+  useful and evolve them into a polished visualization system. As part of this
+  process, deployment must get the system into the hands of the appropriate
+  audience, and the system must address key points of integration, speed up
+  necessary processes, and improve the tool's aesthetics.
+](figures/worksheets/worksheet-deploy.pdf){#fig:d-worksheet width="90%"}
 
 
 To create the worksheets, we combined the design activity framework definitions
@@ -525,7 +529,7 @@ high-level concepts of the framework and worksheets.
 
 
 
-## Results of the Evaluation
+## Evaluation Results
 
 For the full-class survey, we received 25 responses. Twenty-three students
 showed an improvement in their comfort level for visualization design, on
@@ -559,10 +563,7 @@ Additional feedback highlighted some drawbacks to the worksheets, such as vague
 terminology or phrasing, creative limitations, and not enough structure. To
 uncover more information, we conducted interviews as a follow-up.
 
-<!--
-\mm{no participant numbers for these quotes? i'd say either use all the time, or not at all.}
-\sm{perhaps start labeling at P-12 onwards? possibly some overlap but it is more consistent?}
--->
+<!-- TODO check labels here. should we have participant numbers? either use all the time or not at all? maybe some overlap, could start label P-12 onwards? -->
 
 
 During the follow-up interviews, we asked students to describe the design
@@ -626,7 +627,7 @@ feedback, which we explore next.
 
 
 
-## Feedback for Improving the Worksheets
+## Improving the Worksheets
 
 To address restrictions on creativity mentioned by that last student, a key
 improvement recommended by five students was to convert the visualization design

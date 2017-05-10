@@ -199,7 +199,7 @@ justifiability.
 
 
 
-## Incorporating Flexibility in Visualization Design
+## Flexibility in Visualization Design
 
 In a visualization design project where we worked with two general designers and
 a psychologist (discussed in [@sec:formulation]), we discovered a disparity with

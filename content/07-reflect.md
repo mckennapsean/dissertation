@@ -1,21 +1,21 @@
-# Reflecting on Types of Visualization Research {#sec:reflections}
+# Reflections on Types of Research {#sec:reflections}
 
-In practice, visualization design can have implications for research and be a
-research activity in itself, such as multiple approaches to conduct research
-through design in HCI [@Gaver2012; @Obrenovic2011] or the application of action
-design research to the process of creating visualization systems [@McCurdy2016].
-For example, the design study methodology model includes research aspects, such
-as reflection and writing publications [@Sedlmair2012b], and action design
-research would similarly emphasize such reflection and learning throughout the
-visualization design process [@McCurdy2016]. It is important to think about
-other types of research and design, beyond design studies or application-driven
-work. Munzner identified a series of publication types for the field of data
-visualization: technique, design study, systems, evaluation, and model
-[@Munzner2008], which is similar to different kinds of research contributions as
-in the field of HCI [@Wobbrock2012]. Throughout this dissertation, the primary
-type of research explored is a design study or application-driven work, where we
-designed and built tools for cyber security developers, analysts, and managers
-[@McKenna2014; @McKenna2015; @mckenna2016].
+In practice, visualization design can have implications for visualization
+research and be a research activity in itself, such as multiple approaches to
+conduct research through design in HCI [@Gaver2012; @Obrenovic2011] or the
+application of action design research to the process of creating visualization
+systems [@McCurdy2016]. For example, the design study methodology model includes
+research aspects, such as reflection and writing publications [@Sedlmair2012b],
+and action design research would similarly emphasize such reflection and
+learning throughout the visualization design process [@McCurdy2016]. It is
+important to think about other types of research and design, beyond design
+studies or application-driven work. Munzner identified a series of publication
+types for the field of data visualization: technique, design study, systems,
+evaluation, and model [@Munzner2008], which is similar to different kinds of
+research contributions as in the field of HCI [@Wobbrock2012]. Throughout this
+dissertation, the primary type of research explored is a design study or
+application-driven work, where we designed and built tools for cyber security
+developers, analysts, and managers [@McKenna2014; @McKenna2015; @mckenna2016].
 
 
 In this chapter, we focus on the implications of the design activity framework
@@ -183,20 +183,20 @@ of the s-CorrPlot, shown in [@fig:corr-plot](b).
 
 
 ![
-  As an example, we show how three variables ($\mathbf{p}$, $\mathbf{s}$, and
-  $\mathbf{x}$) with four observations each project onto the s-CorrPlot. For
-  (a), we can illustrate our variables as standardized vectors on the
-  correlation sphere, directly shown in 3D here. The correlation coefficient
-  between any two variables is the dot product between their standardized
-  vectors, such as with $\mathbf{p}$ and $\mathbf{x}$. With these two
-  standardized variables, a $(n-2)$-flat $V$ is defined. The s-CorrPlot is
-  defined by the projection plane $U$, containing both $\mathbf{p}$ and
-  $\mathbf{s}$. Projection onto $U$ results in the s-CorrPlot as shown in (b),
-  preserving correlation coefficients to both $\mathbf{p}$ and $\mathbf{s}$. In
-  the s-CorrPlot, $V$ projects to a vertical line $V_U$ of equal correlation to
-  $\mathbf{p}$. As such, (c) these vertical lines can be generalized as grid
-  lines along $U$, denoting sets of equidistant correlation values to
-  $\mathbf{p}$. Similarly, (d) grid lines to $\mathbf{s}$ can be shown.
+  Three variables ($\mathbf{p}$, $\mathbf{s}$, and $\mathbf{x}$) with four
+  observations each projected onto the s-CorrPlot.
+  We can illustrate our variables as standardized vectors on (a) the correlation
+  sphere, directly in 3D. The correlation coefficient between any two variables
+  is the dot product between their standardized vectors, such as with
+  $\mathbf{p}$ and $\mathbf{x}$. With these two standardized variables, a
+  $(n-2)$-flat $V$ is defined. The s-CorrPlot is defined by the projection plane
+  $U$, containing both $\mathbf{p}$ and $\mathbf{s}$. Projection onto $U$
+  results in (b) the s-CorrPlot, preserving correlation coefficients to both
+  $\mathbf{p}$ and $\mathbf{s}$. In the s-CorrPlot, $V$ projects to a vertical
+  line $V_U$ of equal correlation to $\mathbf{p}$. As such, these vertical lines
+  can be generalized (c) as grid lines along $U$, denoting sets of equidistant
+  correlation values to $\mathbf{p}$. Similarly, (d) grid lines to $\mathbf{s}$
+  can be shown.
 ](figures/scorrplot/s-corrplot.pdf){#fig:corr-plot width="95%"}
 
 
@@ -229,7 +229,7 @@ the s-CorrPlot. This linear computation for each scatterplot enables scaling to
 large datasets at interactive frame rates.
 
 
-### Interactive Exploration with the s-CorrPlot
+### Interactive Exploration
 
 We designed the s-CorrPlot to incorporate both interaction and animation, unlike
 previous static correlation encodings [@corsten:biometrics76; @trosset:jcgs05;
@@ -280,7 +280,7 @@ motion" [@ullman:visualMotion].
 
 
 
-## Applying the s-CorrPlot Technique
+## Application of the s-CorrPlot Technique
 
 While creating the s-CorrPlot visualization technique, we worked in tandem with
 a biology collaborator to customize and tailor aspects of the data visualization
@@ -316,20 +316,6 @@ to 20,000 genes so does not scale to the size of datasets that our collaborator
 struggles to analyze.
 
 
-![
-  Two different biological datasets containing 76,730 (genes) and 120,000
-  (exons) variables, with 22 and 37 observations, respectively. For each
-  dataset, genes and exons have been colored according to two different brain
-  regions in which the expression levels were measured, resulting in separate
-  and combined overlay visualizations. The s-CorrPlot highlights different
-  patterns of correlation in each of these brain regions due to the gene and
-  exon expression patterns varying on a global scale, i.e., the blue and red
-  regions of these plots show different patterns, distributions, and clusters
-  across the two regions. This indicates potentially significant differences in
-  their biological processes.
-](figures/scorrplot/case-studies.pdf){#fig:gene-case-study width="95%"}
-
-
 At first, our collaborator explored 38,365 genes in two regions of the brain,
 with 22 observations, using the s-CorrPlot, shown in the top of
 [@fig:gene-case-study]. Since each gene can exist in either brain region, this
@@ -344,6 +330,20 @@ interesting differences across the correlation of all genes between these two
 regions. The differences in the correlation structure of the data are
 anticipated to reflect differences in the cell types and mechanisms that
 regulate gene expression and the function of the two brain regions.
+
+
+![
+  Two biological datasets visualized in the s-CorrPlot.
+  Each dataset contains 76,730 (genes) and 120,000 (exons) variables, with 22
+  and 37 observations, respectively. For each dataset, genes and exons have been
+  colored according to two brain regions in which the expression levels were
+  measured, resulting in separate and combined overlay visualizations. The
+  s-CorrPlot highlights different patterns of correlation in each of these brain
+  regions due to the gene and exon expression patterns varying on a global
+  scale, i.e., the blue and red regions of these plots show different patterns,
+  distributions, and clusters across the two regions. This indicates potentially
+  significant differences in their biological processes.
+](figures/scorrplot/case-studies.pdf){#fig:gene-case-study width="95%"}
 
 
 Using a different dataset, our collaborator visualized the expression levels of
@@ -375,7 +375,7 @@ _"This is revealing new brain-region specific patterns in the data
 
 
 
-## Designing for a Novel Technique
+## On Designing for a Novel Technique
 
 Although the s-CorrPlot technique was created for a biology collaborator, this
 project was not a typical visualization design study. Via the definition from
@@ -478,7 +478,7 @@ the design activity framework contribute new pitfalls for design studies:
 
 
 
-## Exploring and Evaluating Visual Narrative Flow
+## Overview of Visual Narrative Flow
 
 Next, we explore an application of evaluation research for comparing different
 visualizations in the space of visual data stories. Many factors can shape the
@@ -500,7 +500,7 @@ readers' engagement, while level of control (e.g., discrete vs. continuous) may
 not.
 
 
-### Visual Narrative Flow Motivation
+### Project Motivation
 
 Data-driven stories that tightly integrate visualizations have become a popular
 communication device in a variety of fields [@Segel2010]. This has led the
@@ -512,6 +512,15 @@ is still little understanding of which are predominant for, and how they may be
 combined to create effective **_visual narrative flows_** --- which combine a
 reader's input with story components and congruent visual feedback that tell the
 story matching the author's intent and voice ([@fig:flow]).
+
+
+![
+  Characteristics impacting narrative flow.
+  We illustrate high-level aspects that affect visual narrative flow: a reader's
+  interactions with the story, the mechanisms tying the story components into a
+  narrative, and the different forms of visual feedback perceived by the reader
+  as they navigate, read, and interact with the visual data-driven story.
+](figures/narrative-flow/narrative-flow.pdf){#fig:flow width="80%"}
 
 
 An ongoing informal debate on visual narrative flow centers around the effects
@@ -527,12 +536,15 @@ potential issues pertaining to the use of scrolling (e.g., "scrolljacking")
 
 
 ![
-  Here we illustrate high-level characteristics impacting visual narrative
-  flow: a reader's interactions with the story, the mechanisms tying the story
-  components into a narrative, and the different forms of visual feedback
-  perceived by the reader as they navigate, read, and interact with the visual
-  data-driven story.
-](figures/narrative-flow/narrative-flow.pdf){#fig:flow width="80%"}
+  Two examples of visual narrative flow.
+  These two examples highlight differences within a data visualization story.
+  The scroller, by Yee and Chu, walks through (a) a story to teach a basic
+  concept of machine learning [@ml], where scrolling not only moves down the
+  page but moves visualizations and continuously controls their linked animated
+  transitions. We transformed this into (b) a stepper narrative flow that uses
+  buttons for navigating the story across the story text with timed animated
+  transitions.
+](figures/narrative-flow/scroller-stepper.pdf){#fig:ml width="100%"}
 
 
 While navigation input may influence the flow and reading experience of a
@@ -551,18 +563,7 @@ data-driven story because these aspects are important and known outcomes of
 readers' experiences with technology.
 
 
-![
-  These two examples highlight different visual narrative flow in a data
-  visualization story. The scroller shown in (a), by Yee and Chu, walks through
-  a story to teach a basic concept of machine learning [@ml], where scrolling
-  not only moves down the page but moves visualizations and continuously
-  controls their linked animated transitions. We transformed this into a stepper
-  narrative flow, shown in (b) which uses buttons for navigating the story
-  across the story text with timed animated transitions.
-](figures/narrative-flow/scroller-stepper.pdf){#fig:ml width="100%"}
-
-
-### Design Space for Visual Narrative Flow
+### Design Space
 
 Here we introduce seven factors that contribute to visual narrative flow along
 with illustrations of the various properties for each flow-factor as in
@@ -579,10 +580,11 @@ otherwise initially possible.
 
 
 ![
-  The seven flow-factors for visual narrative flow were identified by analyzing
-  and coding a corpus of 80 visual data stories. Each flow-factor contains
-  multiple properties which are not necessarily mutually exclusive and hybrids
-  can and often do occur in data visualization stories created by authors.
+  Seven factors for visual narrative flow.
+  We identified these flow-factors by analyzing and coding a corpus of 80 visual
+  data stories. Each flow-factor contains multiple properties which are not
+  necessarily mutually exclusive and hybrids can and often do occur in data
+  visualization stories created by authors.
 ](figures/narrative-flow/design-space.pdf){#fig:design-space width="100%"}
 
 
@@ -684,7 +686,7 @@ called one category in the community, demonstrating the framework's descriptive
 power.
 
 
-### Exploratory Studies into Visual Narrative Flow
+### Exploratory Studies
 
 We conducted two exploratory studies to understand how visual narrative flow
 impacts the reader experience as well as to investigate how to capture this
@@ -794,7 +796,7 @@ though this could be an effect of novelty or self-reporting on engagement.
 
 
 
-## Crowdsourced Evaluation for Visual Narrative Flow
+## Evaluation for Visual Narrative Flow
 
 To study how different flow-factors of visual narrative flow affect readers'
 engagement, we conducted a larger scale crowdsourced study with 240 participants
@@ -833,7 +835,7 @@ algorithm. Thus our hypotheses were:
 - **_H3_**: Pairing dynamic transitions with continuous control contributes to make the data-driven story more engaging.
 
 
-### Study Design
+### Crowdsourced Study Design
 
 We selected the machine learning story [@ml] as in previous studies because of
 its length and the various types of visualizations and transitions it included.
@@ -869,7 +871,7 @@ included in the Appendix.
 <!-- APPENDIX: add in link / url? -->
 
 
-### Crowdsourced Participants
+### Participants
 
 In total, 240 participants read through the story, and they were compensated
 $2.31 for their time. There were 20 participants per pair of conditions, or 40
@@ -887,7 +889,7 @@ used a variety of input devices (75.4% mouse, 22.9% trackpad, 2 touch devices, 1
 pen, and 1 trackball).
 
 
-### Crowdsourced Study Results
+### Study Results
 
 We performed a linear mixed effects analysis using R [@rlang] and lme4 [@lme4]
 to study the relationship between different types of narrative flows and
@@ -922,12 +924,13 @@ condition in the Appendix.
 
 
 ![
-  This mixed-effects model represents the average engagement score and 95%
-  confidence interval of all 14 questions for 240 participants across the
-  conditions. The model shows increased engagement when using visuals and
-  especially when using animated transitions, but the effect of the other
-  visual narrative flows, stepper and scroller, were not significantly
-  different.
+  Average engagement score across conditions.
+  These scores stem from a mixed-effects model which represents the average
+  engagement score and 95% confidence interval of all 14 questions for 240
+  participants across the four conditions. The model shows increased engagement
+  when using visuals and especially when using animated transitions, but the
+  effect of the other visual narrative flows, stepper and scroller, were not
+  significantly different.
 ](figures/narrative-flow/study-analysis.pdf){#fig:model width="100%"}
 
 
@@ -970,8 +973,9 @@ animated transitions and scrollers for the second chapter of the story.
 
 
 ![
-  Participant preferences were recorded across all of the pairs of conditions
-  ($N = 240$). There were 20 participants per pair, and balanced based on which
+  Participant preferences across conditions.
+  We recorded readers' preferences between their two selected conditions ($N =
+  240$). There were 20 participants per pair, and balanced based on which
   condition was first or second. On the left, preference totals across all
   conditions emphasize that participants largely preferred conditions with
   visualizations and animation (stepper, scroller), otherwise they had no
@@ -989,7 +993,7 @@ not find any major differences in comprehension across condition pairs.
 
 
 
-## Designing for Experiments and Evaluation
+## On Designing for Evaluation
 
 In framing and evaluating this design space for visual narrative flow, the
 nine-stage framework was not a good fit for our process because this was not a

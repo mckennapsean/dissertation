@@ -1,4 +1,4 @@
-# Case Study: Design Study in Cyber Security {#sec:security}
+# Case Study: Cyber Security Dashboard {#sec:security}
 
 In this chapter, we discuss another case study for visualizing cyber security
 data, specifically, building a cyber security dashboard to support visual
@@ -29,7 +29,7 @@ framework can help successfully shape a real-world visualization design study.
 
 
 
-## Motivation for a Cyber Security Design Study
+## Design Study Motivation
 
 Over the past 10 years, roughly two _billion_ pieces of digitized personal
 information have been lost or stolen, largely by hackers [@Kashan2015]. Several
@@ -157,7 +157,7 @@ found no end-to-end design study in this space, from abstraction to deployment.
 
 
 
-## Problem Characterization and Abstraction {#sec:abst}
+## Problem Characterization and Abstraction
 
 The outer two levels of the nested model focus on the definition of a specific
 problem domain and the types of data and tasks that users perform at an abstract
@@ -283,17 +283,6 @@ together in unique ways that led to successful visualization artifacts as a
 result.
 
 
-![
-  This is an overview of our design process. Four distinct channels played a
-  role in BubbleNet's design. The first channel was previous work, and the
-  second and fourth channels involved users in two distinct settings, both
-  research and operational. The third channel involved a network analyst from
-  our university. Each channel incorporated different sets of users and data,
-  but the final design and deployment occurred due to the interaction of
-  artifacts and user feedback across all channels.
-](figures/bubble-net/process-daf.pdf){#fig:process width="100%"}
-
-
 We present an overview of our design process in [@fig:process]. Each row and
 color corresponds to a different discourse channel. Each channel has different
 users, data sources, and design methods that were employed. The primary
@@ -303,21 +292,41 @@ figures in this chapter showing each. The two prototypes are shown in
 presented in [@fig:dashboard]. This final dashboard is linked to deployments in
 two discourse channels.
 
+
+![
+  Overview of our design process.
+  Four distinct channels played a role in BubbleNet's design. The first
+  (top-most) channel was previous work, and the second and fourth channels
+  involved users in two distinct settings, both research and operational. The
+  third channel involved a network analyst from our university. Each channel
+  incorporated different sets of users and data, but the final design and
+  deployment occurred due to the interaction of artifacts and user feedback
+  across all channels. We highlight the various design activities conducted
+  below the main timeline.
+](figures/bubble-net/process-daf.pdf){#fig:process width="100%"}
+
 <!-- ThesisOffice: DO NOT refer to 6.7 before previous figures, just reorder the figure accordingly -->
 
 
 ![
-  This shows the first dashboard prototype, after using the personas design
-  method, to implement our first design for analysts and managers.
+  The first dashboard prototype.
+  We created this initial prototype after using the personas design method,
+  targeting our first design for analysts and managers. The primary encoding
+  of this prototype is a treemap of countries around the world, sized and
+  colored by the number of alerts or network records. The individual hexagons
+  show a hierarchy of the treemap with individual cities of a country. The
+  dashboard also incorporated report datasets, overlaying critical information
+  onto the treemap.
 ](figures/methods/dashboard1.pdf){#fig:dashboard1 width="100%"}
 
 
 ![
-  Here, we show the second dashboard prototype, implemented after conducting the
-  data sketches method to redesign the dashboard and simplify the encoding of
-  geopositioned data, using a map and fewer hierarchical details in the
-  resulting dashboard. The heatmap seen in the previous prototype was rearranged
-  to align with a temporal bar chart and to give it more screenspace.
+  The second dashboard prototype.
+  We implemented this design after conducting the data sketches method to
+  redesign the dashboard and simplify the encoding of geopositioned data,
+  removing the hierarchy of a treemap and instead using a map. The heatmap seen
+  in the previous prototype was rearranged to align with a temporal bar chart
+  and to give it more screenspace and link the two views.
 ](figures/methods/dashboard2.pdf){#fig:dashboard2 width="100%"}
 
 
@@ -410,6 +419,7 @@ aspects of the design study.
 
 
 ![
+  Design activity worksheet example.
   We showed how to use the design worksheets with linked sketches, summarizing
   our design process to create the BubbleNet dashboard [@mckenna2016]. This
   real-world project showcases how to utilize the worksheets and highlights how
@@ -482,15 +492,7 @@ became the key motivation to justify and balance all our decisions as a design
 team.
 
 
-### Visualization Artifacts: Personas
-
-![
-  Here is an overview of the four visual personas we identified, showing the
-  role decisions and information play across all users. The personas method was
-  particularly effective at narrowing our design focus and facilitating
-  consistent communication as a design team.
-](figures/methods/personas.pdf){#fig:personas height="100%"}
-
+### Visualization Artifacts
 
 We present the resulting personas from our design study in [@fig:personas] and
 provide them in the Appendix. The four personas are a cyber analyst, a network
@@ -508,7 +510,16 @@ interactions taking place between them.
 <!-- APPENDIX: add to and link, or url? -->
 
 
-### Results and Implications of Using Personas
+![
+  Cyber security personas for visual communication.
+  Here is an overview of the four visual personas we identified, showing the
+  role decisions and information play across all users. The personas method was
+  particularly effective at narrowing our design focus and facilitating
+  consistent communication as a design team.
+](figures/methods/personas.pdf){#fig:personas height="100%"}
+
+
+### Results and Implications
 
 Personas played a critical role in helping us to decide which users and needs to
 target in our design process. Narrowing the focus of our dashboard project early
@@ -529,7 +540,7 @@ design team in both communicating and evaluating the dashboard, up until its
 deployment.
 
 
-### Discussion of Personas Design Method
+### Discussion of the Method
 
 The personas presented in [@fig:personas] can be used as a starting point or
 tailored by others in future visualization design projects for cyber security.
@@ -543,7 +554,7 @@ data-driven, where personas are built and evaluated against data directly
 captured from users [@McGinn2008].
 
 
-### Persona Recommendations for Visualization Design
+### Recommendations
 
   - Use personas to target the right users for a design or to evaluate a design with your users in mind.
   - Talk with real users to build personas; if you cannot, use existing research or qualitative coding of the literature.
@@ -591,20 +602,7 @@ that made use of real-world cyber security data [@Fischer2014; @Koike2005;
 @Taylor2009].
 
 
-### Visualization Artifacts: Data Sketches
-
-![
-  This is an overview of the 20 data sketches we evaluated with a cyber
-  security analyst; this feedback was critical to our redesign of a cyber
-  security dashboard in [@fig:dashboard2]. We categorized each sketch into four
-  groups: network graphs, maps, aggregated charts, and time. Several data
-  sketches we pulled from existing literature [@Fischer2014; @Koike2005;
-  @Taylor2009]. We provide a full-page version of each data sketch in the
-  Appendix.
-](figures/methods/sketches.pdf){#fig:sketches width="100%"}
-
-<!-- APPENDIX: add in and link or url? -->
-
+### Visualization Artifacts
 
 We present an overview of the 20 data sketches we produced in [@fig:sketches];
 please see the Appendix for a full-page version of each data sketch. We
@@ -618,7 +616,20 @@ future projects for further brainstorming.
 <!-- APPENDIX: add in and link or url? -->
 
 
-### Results and Implications of Using Data Sketches
+![
+  Overview of the 20 data sketches.
+  We evaluated these data sketches with a cyber security analyst; this feedback
+  was critical to our redesign of a cyber security dashboard in
+  [@fig:dashboard2]. We categorized each sketch into four groups: network
+  graphs, maps, aggregated charts, and time. We pulled several data sketches
+  from existing literature [@Fischer2014; @Koike2005; @Taylor2009]. We provide a
+  full-page version of each data sketch in the Appendix.
+](figures/methods/sketches.pdf){#fig:sketches width="100%"}
+
+<!-- APPENDIX: add in and link or url? -->
+
+
+### Results and Implications
 
 We showed each data sketch to our analyst; here we summarize the analyst's
 feedback for each kind of data sketch.
@@ -651,7 +662,7 @@ data sketches method, which showed the potential of aggregation and map-based
 views for discovering and communicating cyber data.
 
 
-### Discussion of Data Sketches Design Method
+### Discussion of the Method
 
 We found that data sketches were very time efficient; the entire process took
 about two months to set up, perform, evaluate, and analyze. Furthermore, these
@@ -677,9 +688,7 @@ would be preferable, the feedback we did receive was helpful for allowing us to
 cull potential design ideas and focus on a smaller subset of ideas quickly.
 
 
-<!-- ### Data Sketches Recommendations for Visualization Design -->
-\section{Data Sketches Recommendations for Visualization \\ Design}
-<!-- ThesisOffice: header adjustment -->
+### Recommendations
 
   - Incorporate real data whenever possible; if you cannot, use realistic datasets like the VAST challenge datasets.
   - Repurpose the tools you know, and experiment with new ones (e.g., Python, Tableau, Gephi, D3.js, Processing, Excel, Spotfire, Arcsight, Splunk).
@@ -693,7 +702,7 @@ cull potential design ideas and focus on a smaller subset of ideas quickly.
 
 
 
-## BubbleNet Dashboard {#sec:dash}
+## BubbleNet Dashboard
 
 As a result of the various design methods and visualization design process, we
 created BubbleNet, a novel dashboard to visualize and communicate patterns in
@@ -706,19 +715,18 @@ them as well.
 
 
 ![
-  We present the BubbleNet dashboard, labeled by its corresponding encodings: a)
-  location map based on a Dorling cartogram, b) temporal chart and heatmap, c)
-  attribute bullet bar charts, d) record details table, and e) selection
-  overview.
+  The BubbleNet dashboard.
+  This dashboard consists of multiple, interactive views, labeled by its
+  corresponding encodings: (a) location map based on a Dorling cartogram, (b)
+  temporal chart and heatmap, (c) attribute bullet bar charts, (d) record
+  details table, and (e) selection overview.
 ](figures/bubble-net/dashboard.pdf){#fig:dashboard width="100%"}
-
-<!-- TODO how to refer to the subparts here? and all refs? -->
 
 
 ### Location View
 
 BubbleNet's primary view is a location-based map view shown in
-[@fig:dashboard]a). This encoding is a Dorling-like cartogram [@d3dorling] that
+[@fig:dashboard](a). This encoding is a Dorling-like cartogram [@d3dorling] that
 animates circles to preserve spatial location. The implementation here is a
 simplification of the Dorling cartogram algorithm [@Dodge2011]. Each circle
 represents an aggregation of network records by country, and the Dorling-like
@@ -757,7 +765,7 @@ location due to trade-offs of the underlying algorithms.
 
 ### Temporal View
 
-Two views in [@fig:dashboard]b) encode time: a bar chart of network records per
+Two views in [@fig:dashboard](b) encode time: a bar chart of network records per
 day with a common horizontal axis of days that aligns with a temporal heatmap
 beneath it where its vertical axis is by hour. The bar chart provides a quick
 overview of each day, and the heatmap provides details by the hour to support
@@ -774,13 +782,13 @@ effective temporal pattern filter.
 
 The BubbleNet dashboard also includes bar charts and bullet charts for different
 attributes of the data, e.g., the priority and category for each network record,
-shown in [@fig:dashboard]c). Bullet charts are inspired by Stephen Few's bullet
+shown in [@fig:dashboard](c). Bullet charts are inspired by Stephen Few's bullet
 graphs for dashboards [@few2010bullet]. Bullet graphs encode a value, a
 qualitative ranking, an average, and a projection into a single element, but a
 _bullet chart_ is simplified: an inner bullet represents a subset of the full
 bar. In other words, the entire world's value is represented as a lighter bar,
 and the value of a selected country is the smaller, darker bullet inside it, as
-in [@fig:dashboard]c). Furthermore, the bullet chart similarly encodes the
+in [@fig:dashboard](c). Furthermore, the bullet chart similarly encodes the
 average for an individual country using a thin, dark line.
 
 
@@ -796,16 +804,9 @@ comparing values precisely, but interaction supports comparing precise values
 using text.
 
 
-![
-  Most elements of the BubbleNet dashboard are interactive and update all other
-  views accordingly. For example, selecting four countries shows significantly
-  different patterns in the hourly heatmap.
-](figures/bubble-net/bubble-combine.pdf){#fig:interaction width="100%"}
-
-
 ### Records View
 
-A details-on-demand table view in [@fig:dashboard]d) provides a summary of the
+A details-on-demand table view in [@fig:dashboard](d) provides a summary of the
 different records in any selection. This summary includes the quantity,
 user-friendly name, ID or type of record, and the detailed attribute
 information. These details enable analysts to understand what is happening in
@@ -821,7 +822,7 @@ they found.
 
 Interaction is a crucial component of most elements on the BubbleNet dashboard.
 Most interactions involve a selection that specifies some pattern, which updates
-the selection window in [@fig:dashboard]e) with details such as the date, time,
+the selection window in [@fig:dashboard](e) with details such as the date, time,
 country, number of records, and the deviation from average. Furthermore, a
 visual summary of the pattern's total records is shown in a horizontal bullet
 chart. For example, selecting four countries results in very different patterns
@@ -831,23 +832,31 @@ in the heatmap, as shown in [@fig:interaction].
 <!-- APPENDIX: add in video url? -->
 
 
+![
+  Visible patterns in the dashboard.
+  Most elements of the BubbleNet dashboard are interactive and update all other
+  views accordingly. For example, selecting four countries shows significantly
+  different patterns in the hourly heatmap for each of these views.
+](figures/bubble-net/bubble-combine.pdf){#fig:interaction width="100%"}
+
+
 All interactions with the dashboard require one click or fewer, meaning a user
 can hover over any element for an updated view of the patterns in BubbleNet.
 This hover over affects all other views, and BubbleNet also provides a pop-up of
-this selection as in [@fig:dashboard]a). By clicking on any element, that
+this selection as in [@fig:dashboard](a). By clicking on any element, that
 selection becomes locked in place and updates the selection window in
-[@fig:dashboard]e). Otherwise, when a user hovers off an item, its previous
+[@fig:dashboard](e). Otherwise, when a user hovers off an item, its previous
 selection is reset.
 
 
 By default, the initial pattern is the most recent day and the entire world. As
-such, the bullet charts in [@fig:dashboard]c) look like regular bar charts until
-a country is selected to show this country as a subset of the world's pattern.
-Through feedback from users, we found that reducing clicks for selection was
-desired in a dashboard setting and enabled fast comparison of two selections, by
-selecting one element and hovering on and off another element. We also added
-keyboard interactions to more easily navigate selections through time and to
-reset back to the default pattern.
+such, the bullet charts in [@fig:dashboard](c) look like regular bar charts
+until a country is selected to show this country as a subset of the world's
+pattern. Through feedback from users, we found that reducing clicks for
+selection was desired in a dashboard setting and enabled fast comparison of two
+selections, by selecting one element and hovering on and off another element. We
+also added keyboard interactions to more easily navigate selections through time
+and to reset back to the default pattern.
 
 
 One can compare the interaction of each view with our tasks, discussed
@@ -889,7 +898,7 @@ records due to aggregation done on the back-end.
 
 
 
-## Evaluation and Deployment {#sec:eval}
+## Evaluation and Deployment
 
 Evaluation is undoubtedly an important aspect to designing tools for users, both
 for cyber security [@Staheli2014] but more broadly as well. First, we discuss
@@ -934,13 +943,6 @@ users.
 
 
 ### Evaluation Results
-
-![
-  These are the final scores of a system usability survey of nine different
-  users, both network analysts and managers. The average score of the dashboard
-  is 75, above the average usability score of 68 [@sauro2011sus].
-](figures/bubble-net/sus.pdf){#fig:sus width="100%"}
-
 
 After coding each of the participants' comments, the following categories of
 tags were formed: desired task, that task's intended target in the dashboard,
@@ -999,6 +1001,14 @@ similar concerns as other analysts.
 <!-- APPENDIX: add in and link, or online url? -->
 
 
+![
+  Dashboard usability scores as rated by analysts and managers.
+  These are the final scores of a system usability survey of nine different
+  users, both network analysts and managers. The average score of the dashboard
+  is 75, above the average usability score of 68 [@sauro2011sus].
+](figures/bubble-net/sus.pdf){#fig:sus width="100%"}
+
+
 ### Deployment
 
 After the usability study, further development led to the final BubbleNet
@@ -1051,7 +1061,7 @@ these considerations remain important for continuing operational deployment.
 
 
 
-## Reflections on the BubbleNet Dashboard
+## Project Reflections
 
 We uncovered a set of implications for dashboard visualization of cyber security
 data that others can use. First, analysts sought details of the data whereas

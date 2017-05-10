@@ -42,20 +42,6 @@ guidance on how to choose effective design methods with a table of 40 selected
 design methods of interest to visualization designers to employ in their own
 projects.
 
-
-![
-  We present the framework's breakdown of a _design activity_ --- motivation,
-  artifacts, and methods --- where methods can be generative or evaluative.
-](figures/daf/design-activity.pdf){#fig:activity width="100%"}
-
-
-![
-  Design methods for visualization design are typically generative (divergent)
-  or evaluative (convergent) in nature as artifacts get created and justified.
-  Design decisions play a critical role in this process to select and winnow
-  different visualization artifacts.
-](figures/daf/design-methods.pdf){#fig:genoreval width="100%"}
-
 <!-- CONCERN: \ja{more on nine-stage framework} miriah: what do you think? -->
 
 
@@ -75,6 +61,15 @@ often overlapping. We characterize the composition of each activity using
 several key components: a _motivation_; clear, tangible visualization
 _artifacts_ related to design decisions; and a collection of design _methods_.
 We illustrate an overview of a design activity in [@fig:activity].
+
+
+![
+  Breakdown of a _design activity_.
+  The design activity framework is composed of a series of design activities,
+  each with a motivation, visualization artifacts, and design methods. We
+  characterize these three components to answer high-level questions about the
+  design process, thus increasing the actionability of the framework.
+](figures/daf/design-activity.pdf){#fig:activity width="100%"}
 
 
 The **motivation** of an activity is the specific purpose behind the methods and
@@ -117,6 +112,15 @@ visualization designers to consider evaluation early, and often, for each design
 activity.
 
 
+![
+  Two types of design methods.
+  For visualization design, these methods are typically generative (divergent)
+  or evaluative (convergent) in nature as visualization artifacts get created
+  and justified. Design decisions play a critical role in this process to select
+  and winnow different visualization artifacts.
+](figures/daf/design-methods.pdf){#fig:genoreval width="100%"}
+
+
 The design activity framework further characterizes the methods based on two
 spectrums. First, generative methods can be used _narrowly to broadly_. For
 example, a novice visualization designer may narrowly consider only a single
@@ -140,18 +144,19 @@ design activities of the design activity framework.
 
 
 ![
-  Here, we present the design activity framework's four core design activities
-  --- _understand_, _ideate_, _make_, and _deploy_ --- which we refer to in
-  following figures as the first initial of each activity and its associated
-  color. We also include the motivation and expected artifacts for each
-  activity.
+  The four core design activities.
+  We identified four visualization design activities: _understand_, _ideate_,
+  _make_, and _deploy_. Additionally, we detail the motivation and expected
+  visualization artifacts within each activity. Throughout this dissertation, we
+  refer activities using the first initial of each activity and its associated
+  color.
 ](figures/daf/activities.pdf){#fig:framework width="100%"}
 
 
 
 
 
-## Understand Design Activity
+## Understand Activity
 
 The first activity in the design activity framework for visualization projects
 is to **understand** the problem domain and target users. The motivation for
@@ -197,7 +202,7 @@ of a deployed visualization system.
 
 
 
-## Ideate Design Activity
+## Ideate Activity
 
 The second activity in the framework is the **ideate** activity, which has the
 motivation _to generate a plethora of concepts and then winnow these into good
@@ -239,7 +244,7 @@ their ideas early and often to help them generate more and better ideas.
 
 
 
-## Make Design Activity
+## Make Activity
 
 Next, a visualization designer must start to build a visualization system in the
 **make** activity. This activity's motivation is _to concretize ideas into
@@ -277,7 +282,7 @@ algorithms to utilize.
 
 
 
-## Deploy Design Activity
+## Deploy Activity
 
 The final design activity in the visualization framework is the **deploy**
 activity, with the motivation _to construct a visualization system and bring it
@@ -311,9 +316,7 @@ them to use the visualization tool to solve their domain tasks.
 
 
 
-<!--## Visualization Artifacts and the Nested Model-->
-\section{Visualization Artifacts and the Nested \\ Model}
-<!-- ThesisOffice: header adjustment -->
+## Justifying Design Decisions
 
 Both novice and expert visualization designers can utilize the design activity
 framework to reflect on the design decisions they made by tracking the
@@ -332,12 +335,12 @@ section.
 
 
 ![
-  Here, we illustrate the overlap of the design activity framework with respect
-  to the levels of the nested model [@Munzner2009]. It is important to note that
-  each of the three inner levels of the nested model exists across two
-  activities in the framework; thus, a visualization designer must think
-  carefully about with which levels of the nested model any process artifact
-  corresponds.
+  Connections to the nested model.
+  We illustrate the overlap of the design activity framework with respect to the
+  levels of the nested model [@Munzner2009]. It is important to note that each
+  of the three inner levels of the nested model exists across two activities in
+  the framework; thus, a visualization designer must think carefully about with
+  which levels of the nested model any process artifact corresponds.
 ](figures/daf/nm-comparison.pdf){#fig:nm-comparison width="100%"}
 
 
@@ -408,7 +411,7 @@ reuse in their own visualization systems and tools.
 
 
 
-## Timelines of the Design Process {#sec:timelines}
+## Timelines of the Design Process
 
 In our experience, a visualization design process rarely seems to progress
 neatly through a set of designated stages; this fact motivated our synthesis of
@@ -419,18 +422,6 @@ community that already emphasize that design is messy, iterative, and
 multilinear [@Kumar2012; @Teal2010; @Gandra2013a]. These creative process models
 advocate that there is no one right way in which to engage in the design
 activities of a framework.
-
-
-![
-  For conducting the design activity framework in real-world visualization
-  projects, we have synthesized two basic movement ordering principles for
-  design activities. The first principle is that moving forward must advance only
-  to the adjacent activity (backward movement is unrestricted), and the second
-  principle is that activities may be conducted in parallel or in a hierarchical
-  fashion based on the design team's focus and division of work. These
-  principles support flexible, iterative, and multilinear design across each of
-  the different activities.
-](figures/daf/activity-timeline.pdf){#fig:order width="100%"}
 
 
 We identified two basic principles for the design activity framework when it
@@ -446,6 +437,19 @@ within an activity, such as revisiting an understanding while brainstorming new
 ideas, or two activities that occur concurrently across a visualization design
 team. Taken together, these two movement principles support both iteration and
 multilinearity. We illustrate these principles in [@fig:order].
+
+
+![
+  Two movement principles for visualization design.
+  For conducting the design activity framework in real-world visualization
+  projects, we have synthesized two ordering principles for design activities.
+  The first principle is that moving forward must advance only to the adjacent
+  activity (backward movement is unrestricted), and the second principle is that
+  activities may be conducted in parallel or in a hierarchical fashion based on
+  the design team's focus and division of work. These principles support
+  flexible, iterative, and multilinear design across each of the different
+  activities.
+](figures/daf/activity-timeline.pdf){#fig:order width="100%"}
 
 
 Other visualization process models are also characterized in similar ways,
@@ -469,6 +473,7 @@ parallel activities to backward movement.
 
 
 ![
+  Examples of real-world design timelines.
   To illustrate the complex, iterative, and multilinear nature of the
   visualization design process, we constructed several different timelines
   from real-world visualization projects. Each colored box corresponds to an
@@ -501,7 +506,7 @@ process in a similar way.
 
 
 
-## Choosing Effective Design Methods
+## Discovering Design Methods
 
 To help visualization designers tackle a real-world design project, we present a
 list of exemplar methods that designers can use throughout the design activity
@@ -520,7 +525,7 @@ methods for visualization design.
 \newpage
 \begin{longtable}[]{@{}llll@{}}
 \caption{\label{tbl:methods}
-  Several exemplar methods and where they fit within the framework; a more
+  Numerous exemplar methods and where they fit within the framework. A more
   extensive list of 100 methods is in the Appendix. We coded each method into
   one or more of the four design activities: \emph{understand}
   (\textbf{\emph{u}}), \emph{ideate} (\textbf{\emph{i}}), \emph{make}
@@ -538,15 +543,16 @@ methods for visualization design.
 
 <!-- CANNOT have a table be shown in a figure or a figure in a table. embed manually via latex.
 ![
-  Several exemplar methods and where they fit within the framework; a more
-  extensive list of 100 methods is in the Appendix. We coded each method into
-  one or more of the four design activities: _understand_ (**_u_**), _ideate_
-  (**_i_**), _make_ (**_m_**), and _deploy_ (**_d_**). Additionally, we tagged
-  whether each method was largely generative (**_g_**) or evaluative (**_e_**),
-  or both. Lastly, we categorized the methods we have seen commonly reported
-  within the visualization community (**_v_**) and also present succinct
-  definitions for each method to assist designers in trying each method out.
-](figures/daf/table.pdf){width="100%"}
+  Numerous exemplar methods and where they fit within the framework.
+  A more extensive list of 100 methods is in the Appendix. We coded each method
+  into one or more of the four design activities: _understand_ (**_u_**),
+  _ideate_ (**_i_**), _make_ (**_m_**), and _deploy_ (**_d_**). Additionally, we
+  tagged whether each method was largely generative (**_g_**) or evaluative
+  (**_e_**), or both. Lastly, we categorized the methods we have seen commonly
+  reported within the visualization community (**_v_**) and also present
+  succinct definitions for each method to assist designers in trying each method
+  out.
+](figures/daf/table.pdf){#tbl:methods width="100%"}
 -->
 
 

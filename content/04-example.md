@@ -1,4 +1,4 @@
-# Case Study: Redesigning a Visualization System {#sec:formulation}
+# Case Study: Redesigning a System {#sec:formulation}
 
 The design activity framework was initially formulated based on our reflections
 on a previous project where I was starting out as a novice visualization
@@ -23,7 +23,7 @@ process by incorporating and summarizing these aspects into a design timeline.
 
 
 
-## Overview of the Redesign Project
+## Project Overview
 
 We encountered the insufficiencies of current visualization process models while
 working on a project with a multidisciplinary design team consisting of a
@@ -89,7 +89,7 @@ controlled experiments (_M-28_).
 
 
 
-## Redesign Project: Deploy Activity
+## Deploy Activity
 
 Since our redesign project focused on analyzing an existing visualization
 system, the RVS, we started our design process in the _deploy_ activity. Rather
@@ -124,7 +124,7 @@ possible encodings and techniques to improve the existing visualization system.
 
 
 
-## Redesign Project: Understand Activity
+## Understand Activity
 
 The field of cyber security analysis has many types of users, from those within
 companies who maintain their own networks, to the military, which maintains and
@@ -157,7 +157,7 @@ different visualizations, and optimizing the representations of temporal data.
 We revisited the RVS system with these design opportunities in mind. Since we
 were working with an existing, deployed version of the RVS software, we
 performed a broad artifact analysis (_M-8_) on the current software
-architecture, illustrated in [@fig:redesign]a. By examining the workflow
+architecture, illustrated in [@fig:redesign](a). By examining the workflow
 supported by RVS, we identified which opportunities the tool already supported
 and which aspects of the tool could be improved, and then evaluated these
 against our initial list of design opportunities. These findings were combined
@@ -165,6 +165,15 @@ with our project-specific _constraints_ and _considerations_, which included
 four months of the visualization team's time, one month of a developer's time,
 and existing visual conventions in the field of cyber security such as
 highlighting critical alerts in red.
+
+
+![
+  Visualization artifacts for the redesign project.
+  This overview of the project illustrates our team's (a) software analysis,
+  which resulted in (b) initial concept sketches and (c) wireframes. With a
+  greater focus on the details, we moved into the _make_ activity and began (d)
+  laying out interface components.
+](figures/daf/redesign/process.pdf){#fig:redesign width="100%"}
 
 
 Lastly, we conducted a series of semistructured interviews with different
@@ -181,18 +190,10 @@ representation. We also developed a more low-level list of all visualization
 artifacts, such as a detailed data and task abstraction.
 
 
-![
-  An overview of the visualization artifacts for our redesign project, starting
-  from our a) software analysis, which resulted in b) initial concept sketches
-  and c) wireframes. As we focused on more of the details, we moved into the
-  _make_ activity and began d) laying out interface components.
-](figures/daf/redesign/process.pdf){#fig:redesign width="100%"}
 
 
 
-
-
-## Redesign Project: Ideate Activity
+## Ideate Activity
 
 After our design team had identified the specific design opportunities,
 constraints, and considerations for our visualization redesign, we were ready to
@@ -200,7 +201,7 @@ come up with ideas to meet user needs. The _ideate_ activity took several months
 as we sketched out a series of possible ideas for modifying the current design
 of RVS. First, each member of our team began to develop separate concept
 sketches (_M-23_) tackling a specific design opportunity, as illustrated in
-[@fig:redesign]b. We chose this first method based on the experience of the
+[@fig:redesign](b). We chose this first method based on the experience of the
 designers in our group as they were used to sketching out possible concepts. We
 then came together as a team to review these sketches and evaluate them based on
 which ones possessed the most potential for impacting a redesign of RVS. This
@@ -231,25 +232,25 @@ wanted to explore some of these ideas in more depth and detail. Thus, we
 synthesized the paper concept sketches into very low-fidelity paper prototypes
 (_M-61_) that highlighted interactions inside the tool. These ideas were
 eventually finalized into more concrete wireframes (_M-98_), shown in
-[@fig:redesign]c, to mimic the look and feel of a real tool. Again, we evaluated
-these wireframes very informally, internally as a visualization team and showed
-our ideas to different members of the RVS company, to check that our _ideate_
-visualization artifacts (sketches, paper prototypes, and wireframes) were on
-track for meeting the analysts' needs. Due to the main constraint of time within
-the project, we were unable to evaluate these wireframes more formally with
-the cyber security analysts.
+[@fig:redesign](c), to mimic the look and feel of a real tool. Again, we
+evaluated these wireframes very informally, internally as a visualization team
+and showed our ideas to different members of the RVS company, to check that our
+_ideate_ visualization artifacts (sketches, paper prototypes, and wireframes)
+were on track for meeting the analysts' needs. Due to the main constraint of
+time within the project, we were unable to evaluate these wireframes more
+formally with the cyber security analysts.
 
 
 
 
 
-## Redesign Project: Make Activity
+## Make Activity
 
 The _make_ activity was conducted in small part by our visualization team and
 also in part by the RVS development team. As a design team, we generated a
 number of digital mockups; several of these were detailed wireframes (_M-98_)
 that focused on the layout of different visualizations and interaction
-mechanisms, as shown in [@fig:redesign]d.
+mechanisms, as shown in [@fig:redesign](d).
 
 
 In addition, we also mocked up more detailed prototypes (_M-67_) that showed how
@@ -267,14 +268,14 @@ and interaction techniques in these artifacts, so we argue that this goes beyond
 the _ideate_ activity and resulted in visualization prototypes that could be
 tested with users.
 
-<!--\al{where is the line between ideate and make?}-->
-<!--\sm{how does this help? I agree it was vague before, I added some clarifications}-->
-
 
 ![
-  The visualization artifact created as part of the _make_ activity for the
-  redesign project: the design of a fully detailed revised digital mockup
-  interface.
+  Final visualization redesign artifact.
+  Our team created this artifact as part of the _make_ activity for the redesign
+  project: the design of a fully detailed revised digital mockup interface. This
+  artifact contains significant changes for the final visualization system from
+  a new timeline visualization to a more comprehensive overview and detail view
+  of the network alerts.
 ](figures/daf/redesign/5-interface.pdf){#fig:redesign2 width="100%"}
 
 
@@ -299,7 +300,7 @@ and development process.
 
 
 
-## Timeline of the Redesign Project
+## Project Timeline
 
 We provide a timeline for our redesign project in [@fig:redesignTimeline], where
 design activities are represented in the timeline as described in the previous
@@ -314,16 +315,16 @@ outline.
 
 
 ![
+  Redesign project timeline.
   This timeline provides a concise overview of our redesign project. Key design
   activities are located in the middle, highlighting both backward movement and
-  activities nesting within each other when team members worked separately. Our
-  redesign project contained several key time constraints, or deadlines, listed
-  at the top. Toward the bottom, we highlight numerous design methods and
-  visualization artifacts utilized throughout our project.
+  activities nesting within each other when team members worked separately. We
+  encountered several key time constraints, or deadlines, listed at the top.
+  Toward the bottom, we highlight numerous design methods and visualization
+  artifacts utilized throughout our project.
 ](figures/daf/timeline.pdf){#fig:redesignTimeline width="100%"}
 
-<!--\al{why is there a separation/gap between activities? }-->
-<!--\sm{revisit timeline, clean up any strange gaps that exist?}-->
+<!-- TODO revisit and clean timeline, clean up any strange gaps that exist?}-->
 
 
 We show this timeline in more detail in [@fig:redesignTimeline] than previously
@@ -397,7 +398,7 @@ agreement on our final codes. After a month of open coding the three papers, we
 consolidated the data in a final meeting.
 
 
-### Visualization Artifacts: Qualitative Coding
+### Visualization Artifacts
 
 We present a sample visualization artifact resulting from our coding method in
 [@fig:coding]. Each piece of information is organized across one or more papers
@@ -411,7 +412,14 @@ with subcategories on a finer scale.
 
 
 ![
-  A sample of qualitative codes pulled from three cognitive task analyses papers.
+  A sample of qualitative codes.
+  We generated these codes over a month of consuming three cognitive task
+  analysis research papers, and iterated over the codes until the final version.
+  We established these codes based on a series of evidence, both quotes and
+  paraphrases, from the source papers. Some example categories include the cyber
+  security data, general design guidelines, phases, roles, responsibilities,
+  tools, and workflows. As a result of this design method, our team pinpointed a
+  series of user needs to consider for redesigning a cyber security tool.
 ](figures/methods/coding.pdf){#fig:coding width="100%"}
 
 <!-- For more details, please see the Appendix. Supplemental Materials.[^1]-->
@@ -430,7 +438,7 @@ improvements to the existing tool: usability, workflow improvements,
 desirability, and temporal data representation.
 
 
-### Results and Implications of Using Qualitative Coding
+### Results and Implications
 
 After identifying key design opportunities, our design team iterated a series of
 ideas for the company to improve their tool. We sketched out and detailed a more
@@ -454,15 +462,17 @@ loop, and provides identification of tasks for filtering the data across levels.
 
 
 ![
-  An extension to the data hierarchy model presented by D'Amico et al.
-  [@DAmico2008], highlighting how various results feed back to raw data, while
-  also pinpointing several key tasks. We established this extension as part of
-  the qualitative coding method, which we used to motivate the redesign of a
-  software tool.
-](figures/methods/model.pdf){#fig:model width="100%"}
+  An extended data hierarchy model.
+  We created an extension to the data hierarchy model presented by D'Amico et
+  al. [@DAmico2008], highlighting how various results feed back to raw data,
+  while also pinpointing several key tasks. We established this extension as
+  part of the qualitative coding method, which we used to motivate the redesign
+  of a software tool. This high-level model enabled our team to consider and
+  target specific stages in our redesign.
+](figures/methods/model.pdf){#fig:model width="70%"}
 
 
-### Discussion on Qualitative Coding Design Method
+### Discussion of the Method
 
 The qualitative coding method was efficient as compared to more complex methods,
 such as a multiple-analyst cognitive task analysis; we conducted the qualitative
@@ -482,7 +492,7 @@ should not simply be used to replace access to real users.
 <!-- APPENDIX: add to and link, or just online link? e.g. [^1] -->
 
 
-### Qualitative Coding Recommendations for Visualization Design
+### Recommendations
 
 - Start your coding method on a few papers to develop an initial set of codes; select papers from appropriate venues: e.g., in the field of cyber security visualization consider venues such as VizSec, VIS, CHI, HFES, Behavior & Information Technology, Computers & Security, FIRST, HST, AMCIS, SAM, CyCon, FloCon, CogSIMA, DHS CATCH, HCI HAS, CTS SECOTS.
 - On the first pass, highlight and tag key pieces of information; we suggest starting with the categories we identified for cyber security visualization.
