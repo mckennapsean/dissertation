@@ -73,7 +73,7 @@ presents interesting, future work.
 
 The framework promotes increased design process flexibility by enabling and
 emphasizing a workflow that includes both the nesting of activities and
-activities occurring in parallel. As shown in [@fig:timeline], the design
+activities occurring in parallel. As shown in [@fig:timelines], the design
 activity framework can represent a process where many activities are pieced
 together in different ways according to the motivation of the project at any
 given time. We feel that this flexibility enables the framework to more
@@ -99,7 +99,7 @@ as those shown in [@fig:nm-comparison]. We were able to identify several corner
 cases where visualization artifacts could begin to overlap onto an additional
 level of the nested model. Furthermore, the framework does not include a
 planning activity, which is present in other process models [@Sedlmair2012b;
-DIS2010]. Although important for design, we feel that planning is unique and
+@DIS2010]. Although important for design, we feel that planning is unique and
 complementary to the design activity framework. For example, the _precondition
 stages_ of the nine-stage framework [@Sedlmair2012b] could be combined with the
 design activity framework to serve as the planning activity. Lastly, we believe
@@ -116,7 +116,7 @@ iterative, and multilinear process of real-world visualization design. The
 overall goal of this work is to help guide visualization designers through the
 design process, encourage visualization designers to consider new design methods
 for generation or evaluation, and assist the compact communication of a design
-process, as in [@fig:timeline]. We consider all design models to be a
+process, as in [@fig:timelines]. We consider all design models to be a
 work-in-progress, and the design activity framework is by no means excluded.
 Further validating this framework against additional visualization design
 projects and in more pedagogical settings remains an interesting avenue for
@@ -347,7 +347,7 @@ enabled us to validate abstractions of network security data and critically
 changed BubbleNet's location view. By working at an operational organization in
 the fourth channel, BubbleNet's design influenced and inspired new encodings to
 be implemented by a team of developers, leading to operational tool deployments.
-As discussed in [@sec:eval], deploying a tool is a complex process which
+As discussed in [@sec:security], deploying a tool is a complex process which
 involves further design trade-offs, but it is important to discuss these aspects
 to help further the field of visualization and get tools in the hands of users.
 

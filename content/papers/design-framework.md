@@ -1297,7 +1297,7 @@ several corner cases where outcomes of a process could begin
 to overlap onto an additional level of the nested model.
 Furthermore, the framework does not include a planning
 activity, which is present in other process models
-[@Sedlmair2012b; DIS2010]. Although important for design, we
+[@Sedlmair2012b; @DIS2010]. Although important for design, we
 feel that planning is unique and complementary to the design activity
 framework. For example, the *precondition stages* of the nine-stage
 framework [@Sedlmair2012b] could be combined with the design
