@@ -324,8 +324,6 @@ outline.
   artifacts utilized throughout our project.
 ](figures/daf/timeline.pdf){#fig:redesignTimeline width="100%"}
 
-<!-- TODO revisit and clean timeline, clean up any strange gaps that exist?}-->
-
 
 We show this timeline in more detail in [@fig:redesignTimeline] than previously
 shown in the bottom of [@fig:timelines]. The difference of these two timelines

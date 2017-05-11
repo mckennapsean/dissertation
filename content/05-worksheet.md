@@ -387,8 +387,6 @@ or challenge in enough detail. This is why many visualization design processes
 may be iterative and complex to perform.
 
 
-<!-- TODO fbox around graphics? -->
-
 ![
   The _understand_ worksheet.
   We tailored this worksheet to help students identify their problem, users,
@@ -562,8 +560,6 @@ that the amount of text, guidance, and time taken achieved a proper balance."
 Additional feedback highlighted some drawbacks to the worksheets, such as vague
 terminology or phrasing, creative limitations, and not enough structure. To
 uncover more information, we conducted interviews as a follow-up.
-
-<!-- TODO check labels here. should we have participant numbers? either use all the time or not at all? maybe some overlap, could start label P-12 onwards? -->
 
 
 During the follow-up interviews, we asked students to describe the design

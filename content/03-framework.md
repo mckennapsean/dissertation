@@ -441,10 +441,9 @@ multilinearity. We illustrate these principles in [@fig:order].
 
 ![
   Two movement principles for visualization design.
-  For conducting the design activity framework in real-world visualization
-  projects, we have synthesized two ordering principles for design activities.
-  The first principle is that moving forward must advance only to the adjacent
-  activity (backward movement is unrestricted), and the second principle is that
+  We synthesized two ordering principles for design activities. The first
+  principle is that moving forward must advance only to the adjacent activity
+  (backward movement is unrestricted), and the second principle is that
   activities may be conducted in parallel or in a hierarchical fashion based on
   the design team's focus and division of work. These principles support
   flexible, iterative, and multilinear design across each of the different
@@ -464,28 +463,30 @@ ensure flexibility of this framework to maximize its utility for a wide variety
 of visualization designers.
 
 
-To further showcase these two movement principles, we provide several design
-process timelines from different visualization projects in [@fig:timelines],
-where design activities are represented as colored boxes. We include a detailed
-discussion and annotation of the bottom timeline in [@sec:formulation]. These
-timelines show the flow of a project across multiple activities, from nested and
-parallel activities to backward movement.
+To establish and showcase these two movement principles, we provide several
+design process timelines from different visualization projects and design
+studies [@Ferstay2013; @Kerzner2015; @McKenna2014] in [@fig:timelines]. In these
+timelines, design activities are represented with color boxes as in
+[@fig:framework]. We created the top-most timeline in [@fig:timelines] from the
+Variant View design study using the researchers' description of their design
+process [@Ferstay2013]. We constructed the middle timeline with the creator of
+Shotviewer [@Kerzner2015] to capture the parallel nature of that design study.
+We include a detailed discussion and annotation of the bottom process timeline
+[@McKenna2014] in [@sec:formulation]. These timelines show the flow of a project
+across multiple activities, from nested and parallel activities to backward
+movement.
 
 
 ![
   Examples of real-world design timelines.
-  To illustrate the complex, iterative, and multilinear nature of the
-  visualization design process, we constructed several different timelines
-  from real-world visualization projects. Each colored box corresponds to an
-  activity of the design activity framework, and these different timelines
-  emphasize the flexibility of backward movement plus the parallel and nested
-  support of these activities for a multifocused approach. Lastly, these design
-  timelines serve as concise communication materials that could help both novice
-  and expert visualization designers track the progress of a project.
+  To identify the movement principles, we summarized several design studies into
+  concise, communicative design process timelines that capture the flexibility
+  of backward movement plus parallel and nested activities. Each colored box
+  corresponds to a design activity. At the top, this timeline represents the
+  Variant View design study process [@Ferstay2013]. In the middle, we illustrate
+  the design process for Shotviewer [@Kerzner2015]. At the bottom, we present
+  our redesign project's process [@McKenna2014], detailed in [@sec:formulation].
 ](figures/daf/timelines.pdf){#fig:timelines width="100%"}
-
-<!-- TODO label each project these timelines reflect, with citations! -->
-<!-- TODO could clean up figure with arrows from bubblenet project -->
 
 
 Other researchers have shown the feasibility and usefulness of a design process
