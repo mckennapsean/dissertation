@@ -1,43 +1,59 @@
 # Worksheet Evaluation Materials {#app:evaluation}
 
-include questions from 2 surveys and interview guide
+In [@sec:worksheets], we discussed the methodology behind our process for
+evaluating the design activity framework worksheets. We utilized these
+worksheets for students undergoing a cumulative project for the course, and we
+surveyed students at the end of the course on their experiences and opinion of
+the materials. We provide the prompts and questions we used in the two online
+questionnaires, one of which was sent to the entire class and another which was
+sent only to 13 volunteers that utilized the worksheets as part of their
+project. For the survey questions, responses were in one of the following
+formats: five-point Likert scale (denoted with L), numbered scale (1-5, denoted
+N), free-form text response (denoted T), or a multiple select choice of design
+activities (denoted UIMD). Lastly, I conducted semistructured interviews with 11
+of the student volunteers, and the interview guide with base questions is
+included. These materials serve the purpose of adding reproducibility to the
+evaluation methodology and, further, to enable external validation of this work.
 
 
-## Full Class Web Survey
+
+
+
+## Course Web Survey
 
 Please complete the following questions honestly based on your experience in this course.
 
-1. How comfortable were you with visualization design before this class? (1-5)
-1. How comfortable are you with visualization design after this class? (1-5)
-1. The lectures in this course helped me learn how to design visualizations. (strongly disagree to strongly agree (likert))
-1. The exercises in class helped me learn how to design visualizations. (likert)
-1. The provided design worksheets helped me learn how to design visualizations. (likert)
-1. The final project helped me learn how to design visualizations. (likert)
+1. How comfortable were you with visualization design before this class? (N)
+1. How comfortable are you with visualization design after this class? (N)
+1. The lectures in this course helped me learn how to design visualizations. (L)
+1. The exercises in class helped me learn how to design visualizations. (L)
+1. The provided design worksheets helped me learn how to design visualizations. (L)
+1. The final project helped me learn how to design visualizations. (L)
 
 
 
 
 
-## Group Project Web Survey
+## Project Web Survey
 
 During your final project, we utilized several design activity worksheets: Understand, Ideate, Make, & Deploy. Please provide honest feedback on your use and opinion of these teaching materials.
 
-1. Which worksheets were the most helpful? Did a particular worksheet help you generate and evaluate artifacts? Did any worksheet build up your confidence in the design process? (multiple select u,i,m,d)
-1. Why is that? (free-form)
-1. Which worksheets were the least helpful? Did a particular worksheet hinder the generation and evaluation of artifacts? Did any worksheet fail to build up your confidence in the design process? (u,i,m,d)
-1. Why is that? (free-form)
-1. My group was able to generate and evaluate artifacts with the help of the design worksheets. (likert)
-1. Filling out the design worksheets took valuable time away from my final project. (likert)
-1. It was possible to fully complete each worksheet using the materials given to me during the course. (likert)
-1. The design worksheets were used to record artifacts or decisions I made, after they were already made. (likert)
-1. I was able to better structure my design process with the help of the design worksheets. (likert)
-1. There was not enough structure or guidance provided on the worksheets in order to complete them. (likert)
-1. I was able to figure out where to go next in the design process with the help of the design worksheets. (likert)
-1. There was too much information or text included on the blank design worksheets. (likert)
-1. I was able to capture design decisions easily and succinctly using the design worksheets. (likert)
-1. The system developed for my final project would have been just as effective if we had not used the design worksheets. (likert)
-1. What are some suggested changes or improvements for the worksheets? (free-form)
-1. Please include any additional comments on the design worksheets. (free-form)
+1. Which worksheets were the most helpful? Did a particular worksheet help you generate and evaluate artifacts? Did any worksheet build up your confidence in the design process? (UIMD)
+1. Why is that? (T)
+1. Which worksheets were the least helpful? Did a particular worksheet hinder the generation and evaluation of artifacts? Did any worksheet fail to build up your confidence in the design process? (UIMD)
+1. Why is that? (T)
+1. My group was able to generate and evaluate artifacts with the help of the design worksheets. (L)
+1. Filling out the design worksheets took valuable time away from my final project. (L)
+1. It was possible to fully complete each worksheet using the materials given to me during the course. (L)
+1. The design worksheets were used to record artifacts or decisions I made, after they were already made. (L)
+1. I was able to better structure my design process with the help of the design worksheets. (L)
+1. There was not enough structure or guidance provided on the worksheets in order to complete them. (L)
+1. I was able to figure out where to go next in the design process with the help of the design worksheets. (L)
+1. There was too much information or text included on the blank design worksheets. (L)
+1. I was able to capture design decisions easily and succinctly using the design worksheets. (L)
+1. The system developed for my final project would have been just as effective if we had not used the design worksheets. (L)
+1. What are some suggested changes or improvements for the worksheets? (T)
+1. Please include any additional comments on the design worksheets. (T)
 
 
 
