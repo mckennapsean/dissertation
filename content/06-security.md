@@ -424,10 +424,11 @@ aspects of the design study.
   our design process to create the BubbleNet dashboard [@mckenna2016]. This
   real-world project showcases how to utilize the worksheets and highlights how
   to capture a complex, iterative design process. A detailed copy of each
-  worksheet and sketches is included in the Appendix.
+  example worksheet and sketches is included with the worksheet materials
+  online.[^worksheets]
 ](figures/worksheets/worksheet-example.jpg){#fig:worksheet-example width="100%"}
 
-<!-- APPENDIX: add in each copy and link, or url? -->
+[^worksheets]: <https://design-worksheets.github.io/>
 
 
 As previously discussed, a number of user-centered design methods have been
@@ -494,27 +495,25 @@ team.
 
 ### Visualization Artifacts
 
-We present the resulting personas from our design study in [@fig:personas] and
-provide them in the Appendix. The four personas are a cyber analyst, a network
-operations center (NOC) manager, a director of information technology (IT), and
-a chief executive officer (CEO). For each persona, we pinpointed the goal or
-domain-specific task for each archetypal user and visually illustrated the
-user's cyber knowledge and situational awareness (SA) focus. We also considered
-the range or window of temporal data that each user requested, illustrating how
-to represent visualization-specific needs within a persona. Next, we highlighted
-each user's key cyber SA questions, pulling from an existing question taxonomy
-as a basis [@Paul2013a]. Lastly, we identified the general flow of both
-decisions (downward) and information (upwards) of these personas to characterize
+We present the resulting personas from our design study in [@fig:personas]. The
+four personas are a cyber analyst, a network operations center (NOC) manager, a
+director of information technology (IT), and a chief executive officer (CEO).
+For each persona, we pinpointed the goal or domain-specific task for each
+archetypal user and visually illustrated the user's cyber knowledge and
+situational awareness (SA) focus. We also considered the range or window of
+temporal data that each user requested, illustrating how to represent
+visualization-specific needs within a persona. Next, we highlighted each user's
+key cyber SA questions, pulling from an existing question taxonomy as a basis
+[@Paul2013a]. Lastly, we identified the general flow of both decisions
+(downward) and information (upwards) of these personas to characterize
 interactions taking place between them.
-
-<!-- APPENDIX: add to and link, or url? -->
 
 
 ![
   Cyber security personas for visual communication.
-  Here is an overview of the four visual personas we identified, showing the
-  role decisions and information play across all users. The personas method was
-  particularly effective at narrowing our design focus and facilitating
+  We identified four visual personas for cyber security visualization, showing
+  the role decisions and information play across all users. The personas method
+  was particularly effective at narrowing our design focus and facilitating
   consistent communication as a design team.
 ](figures/methods/personas.pdf){#fig:personas height="100%"}
 
@@ -605,7 +604,7 @@ that made use of real-world cyber security data [@Fischer2014; @Koike2005;
 ### Visualization Artifacts
 
 We present an overview of the 20 data sketches we produced in [@fig:sketches];
-please see the Appendix for a full-page version of each data sketch. We
+please see the project website[^design-methods] for a full-page version of each data sketch. We
 categorized each data sketch into four high-level groupings --- network graphs,
 maps, aggregated charts, and time --- which helped guide our discussion with our
 network analyst. We performed a free-form, informal evaluation session with our
@@ -613,7 +612,7 @@ analyst for three hours to see which visual representations were easily
 understood and potentially most useful. These data sketches can be repurposed in
 future projects for further brainstorming.
 
-<!-- APPENDIX: add in and link or url? -->
+[^design-methods]: <http://mckennapsean.com/projects/vizsec-design-methods/>
 
 
 ![
@@ -622,11 +621,8 @@ future projects for further brainstorming.
   was critical to our redesign of a cyber security dashboard in
   [@fig:dashboard2]. We categorized each sketch into four groups: network
   graphs, maps, aggregated charts, and time. We pulled several data sketches
-  from existing literature [@Fischer2014; @Koike2005; @Taylor2009]. We provide a
-  full-page version of each data sketch in the Appendix.
+  from existing literature [@Fischer2014; @Koike2005; @Taylor2009].
 ](figures/methods/sketches.pdf){#fig:sketches width="100%"}
-
-<!-- APPENDIX: add in and link or url? -->
 
 
 ### Results and Implications
@@ -826,10 +822,10 @@ the selection window in [@fig:dashboard](e) with details such as the date, time,
 country, number of records, and the deviation from average. Furthermore, a
 visual summary of the pattern's total records is shown in a horizontal bullet
 chart. For example, selecting four countries results in very different patterns
-in the heatmap, as shown in [@fig:interaction].
+in the heatmap, as shown in [@fig:interaction]. We provide a video showcasing
+all possible interactions on the project website.[^bubblenet]
 
-<!--We provide a video showcasing all possible interactions in Supplemental Materials.-->
-<!-- APPENDIX: add in video url? -->
+[^bubblenet]: <http://mckennapsean.com/projects/bubble-net/>
 
 
 ![
@@ -891,8 +887,6 @@ support visualization of any dataset that can be broken into network records and
 geolocated, so it works best when analyzing traffic over the internet. When it
 comes to scalability, the dashboard maintains interactivity with millions of
 records due to aggregation done on the back-end.
-
-<!-- APPENDIX: what about the video? -->
 
 
 
@@ -997,8 +991,6 @@ standard deviations lower than the average, which lowered the final score due to
 the relatively small sample size. We hypothesize that this user simply rates
 things more strictly since this user still achieved tasks successfully and had
 similar concerns as other analysts.
-
-<!-- APPENDIX: add in and link, or online url? -->
 
 
 ![

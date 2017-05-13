@@ -196,16 +196,12 @@ To create the visualization design worksheets, we first reflected on the design
 process and decisions illustrated by the design activity framework
 [@McKenna2014] across several of our own projects. Here, we discuss our process
 behind creating these teaching materials and provide examples of their use. The
-worksheets and teaching materials are located on a public-facing website for
-their dissemination and use by others, and we encourage feedback and
-improvements to these teaching materials by other visualization educators over
-time.
+worksheets and teaching materials are located on a public-facing
+website[^worksheets] for their dissemination and use by others, and we encourage
+feedback and improvements to these teaching materials by other visualization
+educators over time.
 
-<!-- APPENDIX: add to and link, or URL?
-repository\footnotemark
-\footnotetext{Supplemental Materials can be accessed via:
-\url{https://design-worksheets.github.io}}
--->
+[^worksheets]: <https://design-worksheets.github.io/>
 
 
 Inspired by the five design-sheet methodology [@Roberts2015], we wanted to
@@ -457,9 +453,7 @@ theory with actual, tangible concepts. Additionally, we mocked up an example of
 this project using the design worksheets to illustrate how to capture a complex,
 iterative design process utilizing the design worksheets. An overview of this
 example is provided in the next chapter. We include a copy of our lecture
-materials in the Appendix.
-
-<!-- APPENDIX: add to and link, or URL? -->
+materials on the project website.[^worksheets]
 
 
 
@@ -480,11 +474,8 @@ design worksheets for each of their six group projects. One student was not part
 of the original volunteers, but due to complications with her project she
 reached out to the teaching staff for further help and guidance for
 visualization design within the context of her project. For details on the
-project expectations, deadlines, and grading criteria, please see the Appendix.
-
-<!-- APPENDIX: add to and link, or URL?
- \footnotemark[\value{footnote}] \sm{this is on a previous page...}-->
-
+project expectations, deadlines, and grading criteria, please see the project
+website.
 
 
 To evaluate the efficacy of worksheets in supporting the visualization design

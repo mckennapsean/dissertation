@@ -58,11 +58,11 @@ s-CorrPlot encodes correlation spatially between variables as points on
 scatterplot using the geometric structure underlying Pearson's correlation.
 Furthermore, we extend the s-CorrPlot with interactive techniques that enable
 animation of the scatterplot to new projections of the correlation space, as
-illustrated in the companion video in the Appendix. We provide the s-CorrPlot
-technique and tool as an open-source R-package which we gave to our biology
-collaborators studying correlation of gene expression.
+illustrated in the companion video on our project website.[^scorrplot] We
+provide the s-CorrPlot technique and tool as an open-source R-package which we
+gave to our biology collaborators studying correlation of gene expression.
 
-<!-- APPENDIX: add links to video/tool? -->
+[^scorrplot]: <http://mckennapsean.com/projects/s-corrplot/>
 
 
 ### Visualizing Correlation
@@ -236,10 +236,8 @@ previous static correlation encodings [@corsten:biometrics76; @trosset:jcgs05;
 @falissard:jcgs99]. In doing so, we illustrate how the s-CorrPlot can be paired
 with multidimensional exploration techniques, in the spirit of existing systems
 that employ user-driven exploration [@swayne1998xgobi; @swayne2003ggobi;
-@Elmqvist08Rolling]. We encourage our readers to watch the short companion video
-in the Appendix to more easily understand the interactive exploration aspect.
-
-<!-- APPENDIX: link in video -->
+@Elmqvist08Rolling]. To easily understand the interactive exploration aspects,
+we advise watching the companion video available online.[^scorrplot]
 
 
 To better grasp multidimensional spaces, methods such as projection pursuit
@@ -706,11 +704,10 @@ addition, we believe that it could transfer well to a stepper (slideshow) model.
 This story features technical insights and complex data visualizations in a
 longer format. Thus we hypothesized that the visual narrative flow could
 substantially impact the story usability and reader preference. To experience
-this story and our stepper variant, please see the Appendix.
+this story and our stepper variant, please see our project
+website.[^narrative-flow]
 
-<!-- APPENDIX: add in link / url?
-\footnotemark[\value{footnote}]
--->
+[^narrative-flow]: <https://narrative-flow.github.io/>
 
 
 We recruited eight participants in our lab to read through the machine learning
@@ -718,15 +715,11 @@ story and instructed them to "explore" different reading experiences by toggling
 between the two types of narrative flow. After reading through the story,
 participants answered an online questionnaire on the usability of each approach
 and individual preference questions, selected from the system usability survey
-(SUS) [@brooke1996sus]. Survey materials used are included in the Appendix. The
-participants all have data visualization knowledge, different operating systems
-(Linux, Mac OS, Windows), various browsers (Firefox, Chromium, Chrome), display
-resolutions (1373x735 to 2560x1464), only three typically read visually animated
-stories, and five had read this story before.
-
-<!-- APPENDIX: add in link / url?
-\footnotemark[\value{footnote}]
--->
+(SUS) [@brooke1996sus]. Survey materials used are included on the project
+website. The participants all have data visualization knowledge, different
+operating systems (Linux, Mac OS, Windows), various browsers (Firefox, Chromium,
+Chrome), display resolutions (1373x735 to 2560x1464), only three typically read
+visually animated stories, and five had read this story before.
 
 
 The results from this study showed a mixed set of preferences for each
@@ -758,9 +751,8 @@ interview to gather preferences and feedback that the primary author analyzed
 iteratively with 3-5 passes on the interview notes along with informal coding
 techniques. Participants did not have formal training in data visualization, six
 participants had machine learning knowledge, and three participants had seen
-this story before. Materials used in the study are included in the Appendix.
-
-<!-- APPENDIX: add in link / url? -->
+this story before. Materials used in the study are provided on the project
+website.
 
 
 The results of this study shed more light on reader preference. For usability,
@@ -865,10 +857,8 @@ statements were duplicated across the two conditions (or chapters) that the
 participant had read. We randomized the order of questions, but questions per
 chapter were adjacent to support effective comparison. For analysis, several of
 the questions were negative attributes for engagement, so their responses were
-flipped accordingly. All materials and conditions used for the study are
-included in the Appendix.
-
-<!-- APPENDIX: add in link / url? -->
+flipped accordingly. All materials and conditions used for the study can be
+found on the project website.[^narrative-flow]
 
 
 ### Participants
@@ -918,9 +908,7 @@ since they are averages of the 14 questions on engagement. Certain questions had
 a stronger effect across the visual narrative flows, such as visualizations
 scoring higher on an aesthetics question: "This reading experience appealed to
 my visual senses." We provide an engagement model for each question and
-condition in the Appendix.
-
-<!-- APPENDIX: add in link / url? -->
+condition on our project website.
 
 
 ![

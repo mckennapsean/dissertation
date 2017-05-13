@@ -401,10 +401,10 @@ We present a sample visualization artifact resulting from our coding method in
 and into a hierarchy of categories. At the top-most level, we identified
 categories such as data, design guidelines, phases, roles, responsibilities,
 tasks, terminology, tools, and workflows. Additionally, we tagged information
-with subcategories on a finer scale.
+with subcategories on a finer scale. A more complete table of the data can be
+found on the project's website.[^design-methods]
 
-<!-- APPENDIX: add to and link, or online link? -->
-<!-- ; a more complete table of all the data is included in Supplemental Materials.[^1] -->
+[^design-methods]: <http://mckennapsean.com/projects/vizsec-design-methods/>
 
 
 ![
@@ -417,9 +417,6 @@ with subcategories on a finer scale.
   tools, and workflows. As a result of this design method, our team pinpointed a
   series of user needs to consider for redesigning a cyber security tool.
 ](figures/methods/coding.pdf){#fig:coding width="100%"}
-
-<!-- For more details, please see the Appendix. Supplemental Materials.[^1]-->
-<!-- APPENDIX: add to and link, or online link? -->
 
 
 Focusing on the data from these three CTAs enabled us to identify user needs
@@ -477,15 +474,13 @@ able to transfer our user needs into a set of concrete design opportunities to
 produce the desired outcome: understanding of user needs without direct access
 to users. These design opportunities led to the final redesign of a deployed
 tool that analysts found more usable and effective than before. The complete
-table of our coding results can be utilized by others to identify,
-categorize, and prioritize different user needs in future cyber security design
-projects. A limitation to this work is that it focuses on the details for only
-three papers; these results may be extended by coding additional papers from
-this field. Furthermore, one caveat to this approach is that published research
-may not reflect all the nuances of an operational environment. Thus, this method
-should not simply be used to replace access to real users.
-
-<!-- APPENDIX: add to and link, or just online link? e.g. [^1] -->
+table of our coding results can be utilized by others to identify, categorize,
+and prioritize different user needs in future cyber security design projects. A
+limitation to this work is that it focuses on the details for only three papers;
+these results may be extended by coding additional papers from this field.
+Furthermore, one caveat to this approach is that published research may not
+reflect all the nuances of an operational environment. Thus, this method should
+not simply be used to replace access to real users.
 
 
 ### Recommendations
@@ -494,6 +489,3 @@ should not simply be used to replace access to real users.
 - On the first pass, highlight and tag key pieces of information; we suggest starting with the categories we identified for cyber security visualization.
 - Limit the time and scope on your first pass of coding; spend more time to meet as a team and agree on codes.
 - Once you reach a consensus on codes, expand to more papers and divide up the work, allowing some overlap in coverage for consistency.
-
-<!-- APPENDIX: add to and link, or just online link? -->
-<!-- categories we identified [^1] -->
