@@ -1,4 +1,4 @@
-# Worksheet Evaluation Materials {#app:evaluation}
+# Worksheet Evaluation Materials {#sec:app-evaluation}
 
 In [@sec:worksheets], we discussed the methodology behind our process for
 evaluating the design activity framework worksheets. We utilized these

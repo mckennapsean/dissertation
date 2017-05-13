@@ -217,6 +217,9 @@ _deploy_. To do so, we reflected on our combined research and design experiences
 across each visualization design activity, and then broke down these activities
 into a series of tangible and generalized steps (see [@tbl:steps]). These steps
 are akin to design methods that can be generative or evaluative in nature.
+We created several introductory and template worksheets to help guide students
+through filling out each design activity worksheet, and we include these
+materials in [Appendix @sec:app-worksheets].
 
 
 \newpage
@@ -492,10 +495,8 @@ details. Additionally, the mentor met weekly with each visualization group to
 provide feedback on their design process and on the worksheets. These meetings
 provided a basis for obtaining in-person observations, in addition to the
 feedback acquired anonymously through the surveys and detailed interviews. The
-questions and prompts used for the surveys and interviews are included in the
-Appendix.
-
-<!-- APPENDIX: add to and link, or URL? -->
+questions and prompts used for the surveys and interviews are included in
+[Appendix @sec:app-evaluation].
 
 
 To gather anonymous feedback and assess the utility of the design worksheets for

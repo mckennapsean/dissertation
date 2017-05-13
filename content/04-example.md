@@ -80,10 +80,8 @@ a single design activity at a time. We present this discussion in rough,
 chronological order. In this discussion, we incorporate the methods we utilized
 and the visualization artifacts that were achieved. Each method number we
 reference stems from the collection of example methods in [@tbl:methods] and the
-full list of 100 methods included in the Appendix, such as the method of
-controlled experiments (_M-28_).
-
-<!-- APPENDIX: add to and link -->
+full list of 100 methods included in [Appendix @sec:app-methods], such as the
+method of controlled experiments (_M-28_).
 
 
 
