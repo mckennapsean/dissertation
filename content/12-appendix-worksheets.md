@@ -1,4 +1,4 @@
-# Teaching Design Worksheets {#app:worksheets}
+# Design Worksheet Materials {#app:worksheets}
 
 We provide additional worksheets and materials for the design activity
 framework. These resources were utilized in conjunction with the incorporation
@@ -11,8 +11,6 @@ sketching tips and resources for the design worksheets, as seen in
 [@sec:worksheets]. Lastly, we provide a front worksheet template in
 [@fig:worksheet-template] to guide students through the different components of
 the design activity framework worksheets.
-
-<!-- ThesisOffice: can we include full-page PDFs in the appendix or no? I kind of want to here to have all worksheet materials in a row -->
 
 
 ![

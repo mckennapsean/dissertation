@@ -118,26 +118,12 @@
 % override cite command since natbib won't work with ieee style guide
 \newcommand{\citep}[1]{\cite{#1}}
 
+% packages and settings for long table
+
 % add packages and styles for full methods table
-% TODO clean these up????
-\usepackage{booktabs}
-\usepackage{array}
-\usepackage{longtable}
-\usepackage{multirow}
 \usepackage{lscape}
 \usepackage[table]{xcolor}
-\usepackage{verbatim}
-\usepackage{subfig}
-\usepackage{amssymb,amsmath}
-\usepackage{graphicx}
-\usepackage{url}
-
-\newcommand{\etal}{{\em{et al.}}}
-\newcommand{\ie}{\textit{i.e.} }
-\newcommand{\eg}{\textit{e.g.} }
-\newcommand{\etc}{\textit{etc.}}
 \newcommand{\sbt}{\,\begin{picture}(2,3)(-1,-2)\circle*{3}\end{picture}\ }
-
 % alternate row colors
 \definecolor{light-gray}{gray}{0.85}
 \rowcolors{1}{white}{light-gray}

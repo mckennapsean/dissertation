@@ -21,7 +21,9 @@ evaluation methodology and, further, to enable external validation of this work.
 
 ## Course Web Survey
 
-Please complete the following questions honestly based on your experience in this course.
+Please complete the following questions honestly based on your experience in
+this course.
+
 
 1. How comfortable were you with visualization design before this class? (N)
 1. How comfortable are you with visualization design after this class? (N)
@@ -36,7 +38,10 @@ Please complete the following questions honestly based on your experience in thi
 
 ## Project Web Survey
 
-During your final project, we utilized several design activity worksheets: Understand, Ideate, Make, & Deploy. Please provide honest feedback on your use and opinion of these teaching materials.
+During your final project, we utilized several design activity worksheets:
+_understand_, _ideate_, _make_, & _deploy_. Please provide honest feedback on
+your use and opinion of these teaching materials.
+
 
 1. Which worksheets were the most helpful? Did a particular worksheet help you generate and evaluate artifacts? Did any worksheet build up your confidence in the design process? (UIMD)
 1. Why is that? (T)
@@ -61,15 +66,22 @@ During your final project, we utilized several design activity worksheets: Under
 
 ## Interview Guide
 
-Thanks for agreeing to meet and discuss your experiences this semester. We are looking for sincere, honest feedback of the design worksheets we utilized. This includes elements on the worksheets, when they were introduced & taught, when we utilized them, how we utilized them, and anything else you think would have helped you learn more and practice being a better visualization designer.
+Thanks for agreeing to meet and discuss your experiences this semester. We are
+looking for sincere, honest feedback of the design worksheets we utilized. This
+includes elements on the worksheets, when they were introduced & taught, when we
+utilized them, how we utilized them, and anything else you think would have
+helped you learn more and practice being a better visualization designer.
 
-Are you OK with recording this interview? It is for me to review later without scribbling notes.
+
+Are you OK with recording this interview? It is for me to review later without
+scribbling notes.
+
 
 1. The worksheets were created for teaching the design process. Can you describe the steps of the design process, briefly in your own words?
 1. What were the most useful aspects of the worksheets for your project? Least useful?
 1. How did you fill out the worksheets? Was it done as a group or individually? When was it most comfortable for you to fill these out?
 1. Was it helpful to have an evaluation step? Think of sketches, ideas. Why or why not?
-1. Were the design worksheets helpful for documenting your design process? Are the worksheets a useful tool for helping you write a process book? e.g. think of what you did during the Ideate and Make parts of your design process.
+1. Were the design worksheets helpful for documenting your design process? Are the worksheets a useful tool for helping you write a process book? e.g. think of what you did during the _ideate_ and _make_ parts of your design process.
 1. Did the worksheets help guide you through the design process? For example, where to go next, revisiting sheets, etc. Why or why not?
 1. Are you encouraged to try out new design methods after using the sheets? Did you?
 1. Are there any additional worksheets that could have been helpful for your project? Did you feel any steps were missing from the worksheets?
@@ -77,8 +89,21 @@ Are you OK with recording this interview? It is for me to review later without s
 1. Would you say that the design worksheets helped build your confidence in design? In what ways could it have helped you learn more & built up your confidence more effectively?
 1. Do you have any additional comments, questions, or feedback?
 
-Thank you again for participating in this interview. This work is part of my Ph.D. dissertation, to create teaching materials for visualization design. I greatly appreciate advising your final group and seeing how these worksheets helped shape your final project. It was a wonderful experience getting to see your group interact together and create _____. I look forward to seeing your work in the future, and feel free to reach out to me if you have any lingering questions about visualization design, these worksheets, or anything else.
 
-We hope to report on our findings using these worksheets in a classroom setting as a short paper at a visualization conference. Are you comfortable with quotes being taken anonymously from this interview to be included in that publication? It is totally fine to say no.
+Thank you again for participating in this interview. This work is part of my
+Ph.D. dissertation, to create teaching materials for visualization design. I
+greatly appreciate advising your final group and seeing how these worksheets
+helped shape your final project. It was a wonderful experience getting to see
+your group interact together and create _____. I look forward to seeing your
+work in the future, and feel free to reach out to me if you have any lingering
+questions about visualization design, these worksheets, or anything else.
 
-Before we conclude, do you have any other questions for me? Thanks again for your time!
+
+We hope to report on our findings using these worksheets in a classroom setting
+as a short paper at a visualization conference. Are you comfortable with quotes
+being taken anonymously from this interview to be included in that publication?
+It is totally fine to say no.
+
+
+Before we conclude, do you have any other questions for me? Thanks again for
+your time!
