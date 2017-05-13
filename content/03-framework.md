@@ -514,20 +514,18 @@ framework. This list contains methods commonly found in the visualization
 literature, as well as many more that come from the design, human-computer
 interaction, software engineering, sociology, and anthropology literature. We
 present a list of 40 methods in [@tbl:methods] and a more extensive list of 100
-methods in the Appendix. We shortened the list by picking those that were
+methods in [Appendix @sec:app-methods]. We shortened the list by picking those that were
 mentioned within the framework and redesign project we present in the next
 chapter, along with both commonly used and potentially novel or interesting
 methods for visualization design.
-
-<!-- APPENDIX: add to and link -->
 
 
 \newpage
 \begin{longtable}[]{@{}llll@{}}
 \caption{\label{tbl:methods}
   Numerous exemplar methods and where they fit within the framework. A more
-  extensive list of 100 methods is in the Appendix. We coded each method into
-  one or more of the four design activities: \emph{understand}
+  extensive list of 100 methods is in Appendix~\ref{sec:app-methods}. We coded
+  each method into one or more of the four design activities: \emph{understand}
   (\textbf{\emph{u}}), \emph{ideate} (\textbf{\emph{i}}), \emph{make}
   (\textbf{\emph{m}}), and \emph{deploy} (\textbf{\emph{d}}). Additionally, we
   tagged whether each method was largely generative (\textbf{\emph{g}}) or
@@ -544,14 +542,14 @@ methods for visualization design.
 <!-- CANNOT have a table be shown in a figure or a figure in a table. embed manually via latex.
 ![
   Numerous exemplar methods and where they fit within the framework.
-  A more extensive list of 100 methods is in the Appendix. We coded each method
-  into one or more of the four design activities: _understand_ (**_u_**),
-  _ideate_ (**_i_**), _make_ (**_m_**), and _deploy_ (**_d_**). Additionally, we
-  tagged whether each method was largely generative (**_g_**) or evaluative
-  (**_e_**), or both. Lastly, we categorized the methods we have seen commonly
-  reported within the visualization community (**_v_**) and also present
-  succinct definitions for each method to assist designers in trying each method
-  out.
+  A more extensive list of 100 methods is in [Appendix @sec:app-methods]. We
+  coded each method into one or more of the four design activities: _understand_
+  (**_u_**), _ideate_ (**_i_**), _make_ (**_m_**), and _deploy_ (**_d_**).
+  Additionally, we tagged whether each method was largely generative (**_g_**)
+  or evaluative (**_e_**), or both. Lastly, we categorized the methods we have
+  seen commonly reported within the visualization community (**_v_**) and also
+  present succinct definitions for each method to assist designers in trying
+  each method out.
 ](figures/daf/table.pdf){#tbl:methods width="100%"}
 -->
 
@@ -563,17 +561,15 @@ note that many methods can and often are used in different design activities.
 The methods are also categorized as being generative (**_g_**), evaluative
 (**_e_**), or both in nature. Several methods, e.g., graffiti walls (_M-43_),
 interviewing (_M-51_), and observation (_M-58_), have more complex
-characterizations than presented in this table; please see the Appendix for a
-more complete and detailed characterization. Some methods are also marked as
-appearing within the visualization literature (**_v_**). Finally, each method
-includes a definition and reference to aid visualization designers in bringing
-these methods into practice. As the design activity framework targets designers
-performing problem-driven visualization work, it is worth noting that many of
-the listed methods involve collaboration with domain experts, such as bull's-eye
-diagramming (_M-12_), contextual inquiry (_M-27_), paper prototyping (_M-61_),
-and speed dating (_M-80_).
-
-<!-- APPENDIX: add to and link -->
+characterizations than presented in this table; please see [Appendix
+@sec:app-methods] for a more complete and detailed characterization. Some
+methods are also marked as appearing within the visualization literature
+(**_v_**). Finally, each method includes a definition and reference to aid
+visualization designers in bringing these methods into practice. As the design
+activity framework targets designers performing problem-driven visualization
+work, it is worth noting that many of the listed methods involve collaboration
+with domain experts, such as bull's-eye diagramming (_M-12_), contextual inquiry
+(_M-27_), paper prototyping (_M-61_), and speed dating (_M-80_).
 
 
 The list is by no means a complete compendium of methods for visualization

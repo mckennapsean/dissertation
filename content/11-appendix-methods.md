@@ -1,4 +1,4 @@
-# Table of Design Methods {#app:methods}
+# Table of Design Methods {#sec:app-methods}
 
 To aid in the search for new design methods, we present an extended table of
 design methods in [@tbl:100methods]. This table is an extension of
