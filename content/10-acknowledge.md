@@ -1,24 +1,22 @@
-# Acknowledgements
-
 This dissertation would not have been possible without the guidance, support,
 and critique of my supervisory committee: Miriah, Alexander, Tamara, James, and
-Nathalie. Miriah has been a huge guiding light throughout my PhD, keeping my
-focus on the big picture, teaching me how to become a visualization designer,
-researcher, and practitioner. It has been an honor to work with her over these
-past five years, and it has been a pleasure to learn and grow under her
-mentorship. Alexander has provided similar support ever since he joined the
-University of Utah, and it has been a pleasure to work with him as the new
-Visualization Design Lab was established and as he taught students for the data
-visualization course. Tamara played a big role in guiding me through the large
-topic of research ethics and human research, and her course on human-centered
-security helped motivate the data sketches design method that I conducted. James
-taught me, through practice, observation, and discussion, a lot about design and
-making better systems for humans to use, and I enjoyed our project together as
-we redesigned a visualization tool and formulated the ground work for the design
-activity framework. Lastly, but certainly not least, Nathalie and I worked
-together for years, from visualizing set-typed data to establishing requirements
-for a storytelling authoring tool, and her inspiration, enthusiasm, and
-brilliance helped us describe and evaluate concepts for visual narrative flow.
+Nathalie. Miriah has been a huge guiding light throughout my PhD, keeping me
+focused on the big picture and teaching me how to become a visualization
+designer, researcher, and practitioner. It has been an honor to work with her
+over these past five years, and it has been a pleasure to learn and grow under
+her mentorship. Alexander has provided similar support and mentorship, and it
+has been a pleasure to work with him as the new Visualization Design Lab was
+established and as he taught students for the data visualization course. Tamara
+played a big role in guiding me through the vast topic of research ethics and
+human research, and her course on human-centered security helped motivate the
+data sketches design method that I conducted. James taught me, through practice,
+observation, and discussion, a lot about design and making better software
+systems for humans to use, and I enjoyed our project together as we redesigned a
+visualization tool and formulated the ground work for the design activity
+framework. Lastly, but certainly not least, Nathalie and I worked together for
+years, from visualizing set-typed data to establishing requirements for a
+storytelling authoring tool, and her inspiration, enthusiasm, and brilliance
+helped us describe and evaluate concepts for visual narrative flow.
 
 
 I would like to thank my family and friends for all their support throughout the
@@ -33,9 +31,9 @@ provided me with additional support, comfort, and much needed laughter. I am
 blessed to have had all these wonderful people in my life. I have also been
 graced with some amazing animals during my graduate career --- Evey, my first
 cat, has provided me with warmth and comfort over the years while also serving
-as a living alarm clock; my betta fish Mulberry adds colorful delight to my day;
-and three ferrets, Noodle, Flopsy, and Lucy, have been a welcome distraction
-from the everyday stresses of life.
+as a living alarm clock; my betta fish, Mulberry, adds colorful delight to my
+day; and three ferrets, Noodle, Flopsy, and Lucy, have been a welcome
+distraction from the everyday stresses of life.
 
 
 The pursuit of my graduate career would not have been possible without the
@@ -102,7 +100,7 @@ government, and no official endorsement should be inferred.
 
 This dissertation builds off of a variety of published research for which we
 obtained permissions for re-use.
-Reprinted [@McKenna2014], with permission, from McKenna, Sean and Mazur, Dominika and Agutter, James and Meyer, Miriah; "Design activity framework for visualization design"; _Transactions on Visualization and Computer Graphics_; and &copy; 2014 IEEE.
-Reprinted [@McKenna2015], with permission, from McKenna, Sean and Staheli, Diane and Meyer, Miriah; "Unlocking user-centered design methods for building cyber security visualizations"; _Proceedings of the International Symposium on Visualization for Cyber Security_; &copy; 2015 IEEE.
-Reprinted [@mckenna2015s], by permission of the American Statistical Association (<https://www.amstat.org>), from McKenna, Sean and Meyer, Miriah and Gregg, Christopher and Gerber, Samuel; "s-CorrPlot: An interactive scatterplot for exploring correlation"; _Journal of Computational and Graphical Statistics_; &copy; 2015 Taylor & Francis.
-Reprinted [@mckenna2016], with permission, from McKenna, Sean and Staheli, Diane and Fulcher, Cody and Meyer, Miriah; "BubbleNet: A cyber security dashboard for visualizing patterns"; _Computer Graphics Forum_; &copy; 2016 John Wiley and Sons.
+Reprinted [@McKenna2014], with permission, from McKenna, Sean and Mazur, Dominika and Agutter, James and Meyer, Miriah; "Design activity framework for visualization design"; _Transactions on Visualization and Computer Graphics_; and \copyright\ 2014 IEEE.
+Reprinted [@McKenna2015], with permission, from McKenna, Sean and Staheli, Diane and Meyer, Miriah; "Unlocking user-centered design methods for building cyber security visualizations"; _Proceedings of the International Symposium on Visualization for Cyber Security_; \copyright\ 2015 IEEE.
+Reprinted [@mckenna2015s], by permission of the American Statistical Association (<https://www.amstat.org>), from McKenna, Sean and Meyer, Miriah and Gregg, Christopher and Gerber, Samuel; "s-CorrPlot: An interactive scatterplot for exploring correlation"; _Journal of Computational and Graphical Statistics_; \copyright\ 2015 Taylor & Francis.
+Reprinted [@mckenna2016], with permission, from McKenna, Sean and Staheli, Diane and Fulcher, Cody and Meyer, Miriah; "BubbleNet: A cyber security dashboard for visualizing patterns"; _Computer Graphics Forum_; \copyright\ 2016 John Wiley and Sons.
