@@ -202,9 +202,11 @@
 \setcounter {page}     {2}             % UofU Thesis Office demands abstract on p. iii: start one lower
 \preface    {tex/00-abstract} {Abstract}
 % \dedicationpage
+\microtypesetup{protrusion=false} % disables protrusion locally for ToC
 \tableofcontents
 % \listoffigures
 % \listoftables
+\microtypesetup{protrusion=true} % enables protrusion
 
 %%% Uncomment this is you want the contents of acknowledge.tex typeset here.
 %%% Note that both "Acknowledgement" and "Acknowledgment" are accepted
