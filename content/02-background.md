@@ -310,9 +310,10 @@ linearity [@Kumar2012]. Design constraints and complex ordering of design
 activities were not explicitly captured in many existing visualization process
 models, and this led to a lack of flexibility when trying to track, describe,
 and document our own design processes. Furthermore, by failing to connect to
-design decisions or levels of the nested model [@Munzner2009], these models did
-not emphasize the importance of design rationale for decision-making which can
-play a critical role in how a complex design process unfolds.
+design decisions or levels of the nested model [@Munzner2009], these
+visualization models do not emphasize the importance of design rationale for
+decision-making which can play a critical role in how a visualization design
+process unfolds.
 
 
 ![
@@ -337,14 +338,16 @@ play a critical role in how a complex design process unfolds.
 By reflecting on our own design process in [@sec:formulation], we identify a
 need for a process framework that balances the flexibility and actionability of
 models from the design community with the explicit artifacts and decisions
-necessary for visualization design. We developed the design activity framework
-to overcome shortcomings in existing visualization design process models
-[@Chee2011; @Tory2004; @Wassink2009; @Lloyd2011; @Goodwin2013a; @DIS2010;
-@Sedlmair2012b] and to incorporate ideas from a broad range of models in HCI
-[@Wolf2006; @Vredenburg2002; @Rudisill1995] and design [@Lowgren1995;
-@Howard2008; @Wolf2006; @Cardella2008; @Jones2008; @Brown2009; @Lidwell2010;
-@Ware2010; @Wodehouse2010a; @DaGandra2012; @Teal2010; @Wu2011; @Atman2009;
-@Snider2013].
+necessary for visualization design. Bigelow et al. further emphasize this need
+that designers have for design flexibility, specifically for using visualization
+systems to broadly explore visual encodings [@Bigelow2014]. We developed the
+design activity framework to overcome shortcomings in existing visualization
+design process models [@Chee2011; @Tory2004; @Wassink2009; @Lloyd2011;
+@Goodwin2013a; @DIS2010; @Sedlmair2012b] and to incorporate ideas from a broad
+range of models in HCI [@Wolf2006; @Vredenburg2002; @Rudisill1995] and design
+[@Lowgren1995; @Howard2008; @Wolf2006; @Cardella2008; @Jones2008; @Brown2009;
+@Lidwell2010; @Ware2010; @Wodehouse2010a; @DaGandra2012; @Teal2010; @Wu2011;
+@Atman2009; @Snider2013].
 
 
 Several creative design process models emphasize the importance of a design

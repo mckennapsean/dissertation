@@ -60,12 +60,12 @@ defining its four steps as activities, and these activities can be conducted in
 various orders, nested, and even conducted in parallel by different members of a
 visualization design team. To capture the rich, complex, and flexible nature of
 design [@Sedlmair2012b; @DIS2010; @Tory2004; @Wassink2009; @Chee2011;
-@Moere2011], this framing supports capturing the design process in ways many
-existing visualization design process models failed to support. Additionally,
-each step differentiates between generative and evaluative methods, where
-generative methods allow for divergent approaches that encourage exploration,
-novelty, creativity, and innovation [@Roberts2015] and the evaluative methods
-winnow and narrow these artifacts to a smaller set.
+@Moere2011; @Bigelow2014], this framing supports capturing the design process in
+ways many existing visualization design process models failed to support.
+Additionally, each step differentiates between generative and evaluative
+methods, where generative methods allow for divergent approaches that encourage
+exploration, novelty, creativity, and innovation [@Roberts2015] and the
+evaluative methods winnow and narrow these artifacts to a smaller set.
 
 
 Since steps can involve evaluative methods, it is important for a design process
