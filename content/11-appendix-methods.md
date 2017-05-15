@@ -15,4 +15,4 @@ definition and source for visualization designers to research and learn more
 about a desired design method.
 
 
-\input{styles/methods-table}
+\input{templates/methods-table}

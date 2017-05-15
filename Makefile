@@ -7,7 +7,7 @@ dissertation.pdf: thesis.tex $(CHAPTERS)
 	cp tmp/thesis.pdf dissertation.pdf
 
 tex/%.tex: content/%.md
-	pandoc -F pandoc-crossref --natbib --top-level-division=chapter styles/pandoc.yaml $< -o $@
+	pandoc -F pandoc-crossref --natbib --top-level-division=chapter refs/crossref.yaml $< -o $@
 
 clean:
 	rm -rf tex/
