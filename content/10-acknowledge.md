@@ -39,23 +39,23 @@ distraction from the everyday stresses of life.
 The pursuit of my graduate career would not have been possible without the
 dedication of many individuals to my educational and personal experiences. Back
 in middle school, I was a very quiet and solitary child, and through the concern
-of my teachers, Lori Bychinski and Christian Ammon, I was able to come out of my
+of my teachers and the help of Christian Ammon, I was able to come out of my
 shell and embrace my passions outside the classroom, such as tabletop gaming and
-technical theater. These experiences in theater led me to make many great
-friends and mentors, from Thomas Bourke to LuAnne Richardt to Mark Weiss to
-Larry Kirchgaessner. I owe all of them so much for helping hone my attention to
-detail and troubleshooting skills to be what they are today. I especially need
-to thank Christian Ammon without whom none of this involvement would have been
-possible. I owe so much of my education to my teachers, and William Heeren was
-one of the most dedicated teachers I have ever had. Despite only taking one
-Chemistry class from him, he mentored me throughout high school in Science
-Olympiad and SMART Team, and it is through these experiences that my love and
-passion for Computer Science grew. The outstanding professors at Cornell College
-helped further that education in Computer Science, Physics, and Chemistry, with
-the academic excellence and rigor instilled to me by many professors, such as
-Tony deLaubenfels, Leon Tabak, Lyle Lichty, Kara Beauchamp, Derin Sherman, and
-Craig Teague. I would not be where I am today without all of these wonderful
-educators and mentors, and for that I am eternally grateful.
+technical theater, and over time Christian grew from a mentor into a colleague
+and friend. These experiences in theater led me to make many other great friends
+and mentors, from Thomas Bourke to LuAnne Richardt to Mark Weiss to Larry
+Kirchgaessner. I owe all of them so much for helping hone my attention to detail
+and troubleshooting skills to be what they are today. For my education, I have
+to thank my teachers, and William Heeren was one of the most dedicated teachers
+I have ever had. Despite only taking one Chemistry class from him, he mentored
+me throughout high school in Science Olympiad and SMART Team, and it is through
+these experiences that my love and passion for Computer Science grew. The
+outstanding professors at Cornell College helped further that education in
+Computer Science, Physics, and Chemistry, with the academic excellence and rigor
+instilled to me by many professors, such as Tony deLaubenfels, Leon Tabak, Lyle
+Lichty, Kara Beauchamp, Derin Sherman, and Craig Teague. I would not be where I
+am today without all of these wonderful educators and mentors, and for that I am
+eternally grateful.
 
 
 I would like to personally thank the following colleagues of the University of
