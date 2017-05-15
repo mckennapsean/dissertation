@@ -3,47 +3,48 @@
 This dissertation introduces a new data visualization design process model to
 guide and support visualization designers through the act of creating effective,
 useful, and usable visualization systems. Existing visualization design process
-models proved difficult to use in practice due to a disconnect with design
+models prove difficult to use in practice due to a disconnect with design
 decisions, evaluation methods, design artifacts, and which step a designer is
 in. We propose the design activity framework to more effectively guide
 visualization designers through a series of design activities. Each design
 activity has a descriptive motivation, a collection of generative or evaluative
 design methods, and the goal of visualization artifacts, such as design
-requirements, ideas, prototypes, and systems. The design activity framework is
-grounded in a series of formative and summative data visualization projects,
-where we encountered limitations of existing models and utilized this framework
-as a solution. The design activity framework is validated through series of case
-studies in the fields of biology [@mckenna2015s], cyber security [@McKenna2014;
-@McKenna2015; @mckenna2016], and data storytelling [@mckenna2017] and also by an
-evaluation of design activity worksheets taught in a data visualization
-classroom for use in a cumulative project [@mckenna2017a].
+requirements, ideas, prototypes, and systems. The development of the design
+activity framework is grounded in a series of formative and summative data
+visualization projects, where we encountered limitations of existing models and
+utilized this framework as a solution. The design activity framework is
+validated through series of case studies in the fields of biology
+[@mckenna2015s], cyber security [@McKenna2014; @McKenna2015; @mckenna2016], and
+data storytelling [@mckenna2017] and also by an evaluation of design activity
+worksheets taught in a data visualization classroom for use in a cumulative
+project [@mckenna2017a].
 
 
-As motivation, we identify five high-level goals that, if met, could improve
-upon existing visualization design process models: **achievability**,
+In order to capture the challenges faced when using existing visualization
+design process models, we identify five high-level goals for a model that, if
+met, could effectively aid visualization designers: **achievability**,
 **flexibility**, **justifiability**, **discoverability**, and **actionability**.
-Specifically, existing models failed to clearly lay out goals for steps of the
+Specifically, existing models fail to clearly lay out goals for steps of the
 design process, while the design activity framework includes achievable
 artifacts and connections to justifiable design decisions. With an activity's
 clear motivation, list of discoverable design methods, and flexible flow
 principles, the design activity framework is also more actionable and could help
 guide visualization designers effectively through the process. By working to
-capture these five goals, the design activity framework is a significant
-contribution and improvement upon previous models for data visualization design
-due to the model's increased descriptive, evaluative, and generative power
-[@Beaudouin-Lafon2004].
+capture these five goals, the design activity framework is an improvement upon
+previous models for data visualization design due to the model's increased
+descriptive, evaluative, and generative power [@Beaudouin-Lafon2004].
 
 
 To be _achievable_, a design process model should clearly highlight the desired
-visualization outcomes. While existing models have outlined the design process
-as a series of steps [@Sedlmair2012b; @Lloyd2011; @Wassink2009; @Chee2011], the
+visualization outcomes. While existing models outline the design process as a
+series of steps [@Sedlmair2012b; @Lloyd2011; @Wassink2009; @Chee2011], the
 design activity framework clearly defines and separates activities through a
 distinct motivation. Additionally, visualization designers are given a clear end
 product to work toward in each step: a visualization artifact. Commonly,
 visualization artifacts are tangible software tools, but the visualization
 design process can involve other kinds of artifacts, such as documents of user
-needs, a list of software requirements, or sketches. Existing process models
-fail to rigorously capture some of these design artifacts, largely due to how
+needs, a list of software requirements, or sketches. Existing process models do
+not rigorously capture some of these design artifacts, largely due to how
 existing models consider evaluation as a separate stage of the design process
 [@Lloyd2011; @Wassink2009; @Chee2011] rather than a part of every activity.
 Artifacts for visualization design can serve many purposes, from measuring
@@ -61,7 +62,7 @@ various orders, nested, and even conducted in parallel by different members of a
 visualization design team. To capture the rich, complex, and flexible nature of
 design [@Sedlmair2012b; @DIS2010; @Tory2004; @Wassink2009; @Chee2011;
 @Moere2011; @Bigelow2014], this framing supports capturing the design process in
-ways many existing visualization design process models failed to support.
+ways many existing visualization design process models fail to support.
 Additionally, each step differentiates between generative and evaluative
 methods, where generative methods allow for divergent approaches that encourage
 exploration, novelty, creativity, and innovation [@Roberts2015] and the
@@ -70,7 +71,7 @@ evaluative methods winnow and narrow these artifacts to a smaller set.
 
 Since steps can involve evaluative methods, it is important for a design process
 model to include _justifiable_ design decisions as part of visualization
-designers' rationale, and no existing models have made this connection of these
+designers' rationale, and no existing models make this connection of these
 design decisions [@Munzner2009; @Meyer] into the design process. The design
 activity framework includes evaluative methods in each step or activity to
 promote the validation, justification, and formation of or building upon
@@ -116,7 +117,7 @@ activities are further broken down into concrete steps [@Roberts2015], and
 worksheets for this framework support such a walk through approach. The notion
 of iteration in design can also be emphasized, taught, and realized by novices
 using these worksheets for real-world visualization projects. Moreover, existing
-visualization models have not explored pedagogical approaches for teaching the
+visualization models do not explore pedagogical approaches for teaching the
 design process to visualization design novices.
 
 
