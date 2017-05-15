@@ -1,11 +1,15 @@
 ---
 author: Sean Patrick McKenna
 title: "The Design Activity Framework: Investigating the Data Visualization Design Process"
-degree: Doctor of Philosophy\\ in\\ Computing
+degree: |
+  Doctor of Philosophy\
+  in\
+  Computing
 department: School of Computing
 graduateDean: David B. Kieda
 departmentChair: Ross Whitaker
-committeeChair: Professor Miriah Meyer
+committeeChairTitle: Professor
+committeeChair: Miriah Meyer
 committeeMember1: Alexander Lex
 committeeMember2: Tamara Denning
 committeeMember3: James Agutter
@@ -15,11 +19,21 @@ copyrightYear: 2017
 committeeApproved: 01 June 2017
 abstract: tex/00-abstract
 acknowledgements: tex/10-acknowledge
-chapters: chapters
-appendices:
-  - tex/11-appendix-methods
-  - tex/12-appendix-worksheets
-  - tex/13-appendix-evaluation
+chapter:
+- tex/01-intro
+- tex/02-background
+- tex/03-framework
+- tex/04-example
+- tex/05-worksheet
+- tex/06-security
+- tex/07-reflect
+- tex/08-discuss
+- tex/09-conclude
+appendixCount: 3
+appendix:
+- tex/11-appendix-methods
+- tex/12-appendix-worksheets
+- tex/13-appendix-evaluation
 journalAbbrev: styles/journal-abbreviations.bib
 references: references.bib
 ---
