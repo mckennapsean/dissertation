@@ -287,10 +287,10 @@ We present an overview of our design process in [@fig:process]. Each row and
 color corresponds to a different discourse channel. Each channel has different
 users, data sources, and design methods that were employed. The primary
 visualization artifacts of this process are the prototypes and tools, with other
-figures in this chapter showing each. The two prototypes are shown in
-[@fig:dashboard1; @fig:dashboard2], and the final BubbleNet dashboard is
-presented in [@fig:dashboard]. This final dashboard is linked to deployments in
-two discourse channels.
+figures in this chapter showing each. We created two dashboard prototypes during
+this process, as shown in [@fig:dashboard1; @fig:dashboard2]. The final
+BubbleNet dashboard is presented later in this chapter, and this dashboard is
+linked to deployments in two discourse channels.
 
 
 ![
@@ -304,8 +304,6 @@ two discourse channels.
   across all channels. We highlight the various design activities conducted
   below the main timeline.
 ](figures/bubble-net/process-daf.pdf){#fig:process width="100%"}
-
-<!-- ThesisOffice: DO NOT refer to 6.7 before previous figures, just reorder the figure accordingly -->
 
 
 ![
@@ -393,13 +391,11 @@ larger variety of users, shown in [@fig:dashboard2].
 
 
 A usability study was performed on this second prototype to evaluate its
-usability, resulting in the final BubbleNet dashboard in [@fig:dashboard].
-BubbleNet was deployed in a research environment, but significant changes were
-necessary to create the final tool for deployment into an operational
-environment. These aspects of evaluation and deployment will be discussed
-further.
-
-<!-- ThesisOffice: again watch order of figures, change for this? -->
+usability, resulting in the final BubbleNet dashboard which we discuss later in
+this chapter. BubbleNet was deployed in a research environment, but significant
+changes were necessary to create the final tool for deployment into an
+operational environment. These aspects of evaluation and deployment will be
+discussed further.
 
 
 As part of teaching the design activity framework to visualization students, we
@@ -555,11 +551,11 @@ captured from users [@McGinn2008].
 
 ### Recommendations
 
-  - Use personas to target the right users for a design or to evaluate a design with your users in mind.
-  - Talk with real users to build personas; if you cannot, use existing research or qualitative coding of the literature.
-  - Pinpoint user goals, knowledge, behaviors, and activities, focusing on both similarities and differences across users.
-  - Incorporate visual encodings when appropriate to enable easier and faster comparison across personas.
-  - Use and adapt personas over time; keep them as a living document to fuel multiple design projects.
+- Use personas to target the right users for a design or to evaluate a design with your users in mind.
+- Talk with real users to build personas; if you cannot, use existing research or qualitative coding of the literature.
+- Pinpoint user goals, knowledge, behaviors, and activities, focusing on both similarities and differences across users.
+- Incorporate visual encodings when appropriate to enable easier and faster comparison across personas.
+- Use and adapt personas over time; keep them as a living document to fuel multiple design projects.
 
 
 
@@ -630,23 +626,21 @@ future projects for further brainstorming.
 We showed each data sketch to our analyst; here we summarize the analyst's
 feedback for each kind of data sketch.
 
-  - _Network Graphs:_ The analyst was unconvinced that the graphs could show meaningful insights at scale with each node representing a single IP address. Furthermore, the layout algorithm confused the analyst since it positioned each IP address at a location that was not meaningful to the analyst.
-  - _Maps:_ In contrast to the network graph sketches, the map representations garnered positive feedback from the analyst, in particular the cartograms due to their novelty.
-  - _Aggregated Charts:_ These charts concerned the analyst because the finest level of detail was not available. We also included one data sketch to show a 3D data chart, which seemed to entice the analyst despite our continued warnings about the usability challenges of 3D for cyber security visualization [@Komlodi2005]. More unique kinds of visualization, such as parallel coordinates and treemaps, confused the analyst on first glance and required further explanation. After explanation, the analyst commented that parallel coordinates seemed promising for exploring multidimensional data, whereas the treemaps, which showed the IP address hierarchy, seemed less useful.
-  - _Time:_ These sketches were discussed in less detail; however, the analyst stated that the timestamp was one of the least important data fields to him.
+- _Network Graphs:_ The analyst was unconvinced that the graphs could show meaningful insights at scale with each node representing a single IP address. Furthermore, the layout algorithm confused the analyst since it positioned each IP address at a location that was not meaningful to the analyst.
+- _Maps:_ In contrast to the network graph sketches, the map representations garnered positive feedback from the analyst, in particular the cartograms due to their novelty.
+- _Aggregated Charts:_ These charts concerned the analyst because the finest level of detail was not available. We also included one data sketch to show a 3D data chart, which seemed to entice the analyst despite our continued warnings about the usability challenges of 3D for cyber security visualization [@Komlodi2005]. More unique kinds of visualization, such as parallel coordinates and treemaps, confused the analyst on first glance and required further explanation. After explanation, the analyst commented that parallel coordinates seemed promising for exploring multidimensional data, whereas the treemaps, which showed the IP address hierarchy, seemed less useful.
+- _Time:_ These sketches were discussed in less detail; however, the analyst stated that the timestamp was one of the least important data fields to him.
 
 
 After reviewing the analyst's feedback, we synthesized several considerations
 for cyber security dashboard design:
 
-  - Complex 3D graphics and interactions can be perceptually misleading and distract from the visual representation.
-  - Certain visual encodings, such as parallel coordinates and treemaps, may require significant explanation and should generally not be used in a dashboard.
-  - Precise details on the time scale may not be immediately vital.
-  - Summary views for communication can use aggregation.
-  - Aggregation of data should be immediately obvious.
-  - A map-based view could aid the discovery of patterns.
-
-<!-- ThesisOffice: why is there extra space here? only double-space between this line and the next paragraph! -->
+- Complex 3D graphics and interactions can be perceptually misleading and distract from the visual representation.
+- Certain visual encodings, such as parallel coordinates and treemaps, may require significant explanation and should generally not be used in a dashboard.
+- Precise details on the time scale may not be immediately vital.
+- Summary views for communication can use aggregation.
+- Aggregation of data should be immediately obvious.
+- A map-based view could aid the discovery of patterns.
 
 
 With these considerations in mind, we revisited our initial dashboard design and
@@ -686,13 +680,13 @@ cull potential design ideas and focus on a smaller subset of ideas quickly.
 
 ### Recommendations
 
-  - Incorporate real data whenever possible; if you cannot, use realistic datasets like the VAST challenge datasets.
-  - Repurpose the tools you know, and experiment with new ones (e.g., Python, Tableau, Gephi, D3.js, Processing, Excel, Spotfire, Arcsight, Splunk).
-  - Utilize real-data examples of visualization tools if a tool is unavailable or requires excessive time to input your data.
-  - Explore both interaction and animation in your data sketches.
-  - During evaluations, provide users with tasks or prompts if your goals require focusing the user feedback.
-  - Users may provide initial positive feedback on sketches because they are novel; consider re-evaluating at a later time.
-  - Introducing many data sketches at once can overload users; consider introducing sketches in multiple sessions.
+- Incorporate real data whenever possible; if you cannot, use realistic datasets like the VAST challenge datasets.
+- Repurpose the tools you know, and experiment with new ones (e.g., Python, Tableau, Gephi, D3.js, Processing, Excel, Spotfire, Arcsight, Splunk).
+- Utilize real-data examples of visualization tools if a tool is unavailable or requires excessive time to input your data.
+- Explore both interaction and animation in your data sketches.
+- During evaluations, provide users with tasks or prompts if your goals require focusing the user feedback.
+- Users may provide initial positive feedback on sketches because they are novel; consider re-evaluating at a later time.
+- Introducing many data sketches at once can overload users; consider introducing sketches in multiple sessions.
 
 
 
@@ -950,11 +944,11 @@ records view, better selection feedback, new map color encoding, and keyboard
 interactions. This analysis process gathered the key successes of the BubbleNet
 dashboard:
 
-  - Temporal pattern detection was simple and easy using the heatmap: _"I keep getting drawn to the heatmap and these darker areas, because they certainly stand out"_ (A4) and _"[The heatmap] helps find those temporal patterns"_ (A1)
-  - Users expressed that the dashboard's utility was for discovering patterns and trends in the data: _"The majority of what we are looking for is patterns and this just makes patterns which is faster"_ (A4)
-  - One-click-or-fewer interactions worked very well: _"It's very responsive and dynamic; the fact that it changes as I narrow [in] is the best"_ (manager #2, or M2)
-  - Most interactions occurred with the bullet charts and heatmap: _"I could write a splunk query to do this, but this is easier"_ (A5)
-  - No expressed dislike for animation in the map view: _"[The] best part is the instant visual gratification"_ (A4)
+- Temporal pattern detection was simple and easy using the heatmap: _"I keep getting drawn to the heatmap and these darker areas, because they certainly stand out"_ (A4) and _"[The heatmap] helps find those temporal patterns"_ (A1)
+- Users expressed that the dashboard's utility was for discovering patterns and trends in the data: _"The majority of what we are looking for is patterns and this just makes patterns which is faster"_ (A4)
+- One-click-or-fewer interactions worked very well: _"It's very responsive and dynamic; the fact that it changes as I narrow [in] is the best"_ (manager #2, or M2)
+- Most interactions occurred with the bullet charts and heatmap: _"I could write a splunk query to do this, but this is easier"_ (A5)
+- No expressed dislike for animation in the map view: _"[The] best part is the instant visual gratification"_ (A4)
 
 
 Furthermore, this analysis derived a set of design considerations for future

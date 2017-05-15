@@ -8,14 +8,6 @@ then do the same for the other fig. Examples to watch out for: #fig:framework, #
 http://stackoverflow.com/questions/16626462/figure-position-in-markdown-when-converting-to-pdf-with-knitr-and-pandoc/33801326#33801326
 
 
-For tables, no, you do not want to stop the text before the table. Fill the
-page with the table mention with text; in other words, do not stop the text.
-Then place the table title on a page alone, followed by the table.
-
-
-Be sure to include appendices, labeled A, B, C, etc.
-
-
 Figure text must be at least 2mm.
 
 

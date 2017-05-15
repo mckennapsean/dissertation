@@ -462,6 +462,18 @@ ensure flexibility of this framework to maximize its utility for a wide variety
 of visualization designers.
 
 
+![
+  Examples of real-world design timelines.
+  To identify the movement principles, we summarized several design studies into
+  concise, communicative design process timelines that capture the flexibility
+  of backward movement plus parallel and nested activities. Each colored box
+  corresponds to a design activity. At the top, this timeline represents the
+  Variant View design study process [@Ferstay2013]. In the middle, we illustrate
+  the design process for Shotviewer [@Kerzner2015]. At the bottom, we present
+  our redesign project's process [@McKenna2014], detailed in [@sec:formulation].
+](figures/daf/timelines.pdf){#fig:timelines width="100%"}
+
+
 To establish and showcase these two movement principles, we provide several
 design process timelines from different visualization projects and design
 studies [@Ferstay2013; @Kerzner2015; @McKenna2014] in [@fig:timelines]. In these
@@ -474,18 +486,6 @@ We include a detailed discussion and annotation of the bottom process timeline
 [@McKenna2014] in [@sec:formulation]. These timelines show the flow of a project
 across multiple activities, from nested and parallel activities to backward
 movement.
-
-
-![
-  Examples of real-world design timelines.
-  To identify the movement principles, we summarized several design studies into
-  concise, communicative design process timelines that capture the flexibility
-  of backward movement plus parallel and nested activities. Each colored box
-  corresponds to a design activity. At the top, this timeline represents the
-  Variant View design study process [@Ferstay2013]. In the middle, we illustrate
-  the design process for Shotviewer [@Kerzner2015]. At the bottom, we present
-  our redesign project's process [@McKenna2014], detailed in [@sec:formulation].
-](figures/daf/timelines.pdf){#fig:timelines width="100%"}
 
 
 Other researchers have shown the feasibility and usefulness of a design process
@@ -514,14 +514,16 @@ framework. This list contains methods commonly found in the visualization
 literature, as well as many more that come from the design, human-computer
 interaction, software engineering, sociology, and anthropology literature. We
 present a list of 40 methods in [@tbl:methods] and a more extensive list of 100
-methods in [Appendix @sec:app-methods]. We shortened the list by picking those that were
-mentioned within the framework and redesign project we present in the next
-chapter, along with both commonly used and potentially novel or interesting
+methods in [Appendix @sec:app-methods]. We shortened the list by picking those
+that were mentioned within the framework and redesign project we present in the
+next chapter, along with both commonly used and potentially novel or interesting
 methods for visualization design.
 
 
-\newpage
-\begin{longtable}[]{@{}llll@{}}
+\afterpage{
+\clearpage
+\begin{longtable}[]{cccc}
+\noalign{\vspace{3.2in}}
 \caption{\label{tbl:methods}
   Numerous exemplar methods and where they fit within the framework. A more
   extensive list of 100 methods is in Appendix~\ref{sec:app-methods}. We coded
@@ -533,13 +535,15 @@ methods for visualization design.
   have seen commonly reported within the visualization community
   (\textbf{\emph{v}}) and also present succinct definitions for each method to
   assist designers in trying each method out.
-}\tabularnewline
+}\endfirsthead \tabularnewline
 \includegraphics[width=1.00000\textwidth]{figures/daf/table.pdf}
 \end{longtable}
 \newpage
+}
 
+<!-- ThesisOffice: force table title on own page after content, cannot embed as in below so used latex -->
 
-<!-- CANNOT have a table be shown in a figure or a figure in a table. embed manually via latex.
+<!--
 ![
   Numerous exemplar methods and where they fit within the framework.
   A more extensive list of 100 methods is in [Appendix @sec:app-methods]. We
