@@ -15,15 +15,15 @@ the design activity framework worksheets.
 
 ![
   Introductory worksheet for the design activity framework worksheets.
-](figures/worksheets/intro-worksheet.pdf){#fig:worksheet-intro1 width="90%"}
+](figures/worksheets/intro-worksheet.pdf){#fig:worksheet-intro1 width="100%"}
 
 
 ![
   Introductory worksheet on sketching and related resources.
-](figures/worksheets/sketching-worksheet.pdf){#fig:worksheet-intro2 width="90%"}
+](figures/worksheets/sketching-worksheet.pdf){#fig:worksheet-intro2 width="100%"}
 
 
 ![
   A template for the different components of the design activity framework
   worksheets.
-](figures/worksheets/template-worksheet.pdf){#fig:worksheet-template width="90%"}
+](figures/worksheets/template-worksheet.pdf){#fig:worksheet-template width="100%"}

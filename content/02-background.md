@@ -193,7 +193,7 @@ flexibility and actionability.
   [@pugh1991total], where concept generation (CG) is interspersed with
   controlled convergence (CC). This funnel is foundational to the concepts of
   generation and evaluation for design.
-](figures/background/design-funnel-pugh.pdf){#fig:funnel width="70%"}
+](figures/background/design-funnel-pugh.pdf){#fig:funnel width="60%"}
 
 
 Visualization-specific design process models describe unique aspects for

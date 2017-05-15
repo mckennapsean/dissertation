@@ -218,8 +218,9 @@ through filling out each design activity worksheet, and we include these
 materials in [Appendix @sec:app-worksheets].
 
 
-\newpage
-\begin{longtable}[]{@{}llll@{}}
+\afterpage{
+\clearpage
+\begin{longtable}[]{cccc}
 \caption{\label{tbl:steps} Five steps for each design activity. We
 break down each visualization design activity into five concrete steps.
 The first four steps of the process are
@@ -339,8 +340,11 @@ consider a method to evaluate\strut
 \bottomrule
 \end{longtable}
 \newpage
+}
 
-<!-- CANNOT have a table be shown in a figure or a figure in a table. embed manually via latex.
+<!-- ThesisOffice: must manually specify table in latex as above -->
+
+<!--
 | _**understand**_ | _**ideate**_ | _**make**_ | _**deploy**_ |
 | :--------------- | :--------------- | :--------------- | :--------------- |
 | identify the challenge \& users | select a design requirement | set an achievable goal | pinpoint a target audience |
@@ -390,14 +394,14 @@ may be iterative and complex to perform.
   The _understand_ worksheet.
   We tailored this worksheet to help students identify their problem, users,
   data, and requirements for a data visualization system.
-](figures/worksheets/worksheet-understand.pdf){#fig:u-worksheet width="90%"}
+](figures/worksheets/worksheet-understand.pdf){#fig:u-worksheet width="100%"}
 
 
 ![
   The _ideate_ worksheet.
   In this activity, novice visualization designers must target a specific design
   opportunity or requirement in order to draw and compare three sketches.
-](figures/worksheets/worksheet-ideate.pdf){#fig:i-worksheet width="90%"}
+](figures/worksheets/worksheet-ideate.pdf){#fig:i-worksheet width="100%"}
 
 
 ![
@@ -405,7 +409,7 @@ may be iterative and complex to perform.
   Visualization novices use this worksheet to create a prototype system, by
   planning out their encodings, layouts, and interactions, along with coding it
   all together.
-](figures/worksheets/worksheet-make.pdf){#fig:m-worksheet width="90%"}
+](figures/worksheets/worksheet-make.pdf){#fig:m-worksheet width="100%"}
 
 
 ![
@@ -415,7 +419,7 @@ may be iterative and complex to perform.
   process, deployment must get the system into the hands of the appropriate
   audience, and the system must address key points of integration, speed up
   necessary processes, and improve the tool's aesthetics.
-](figures/worksheets/worksheet-deploy.pdf){#fig:d-worksheet width="90%"}
+](figures/worksheets/worksheet-deploy.pdf){#fig:d-worksheet width="100%"}
 
 
 To create the worksheets, we combined the design activity framework definitions

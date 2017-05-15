@@ -447,8 +447,8 @@ design.
 
 Lastly, the qualitative coding method enabled us to identify extensions to a
 well-known data hierarchy model for cyber security situational awareness
-[@DAmico2008] --- we present this extension in [@fig:model]. The original data
-model describes how analysts process, filter, sort, and select datasets, as
+[@DAmico2008] --- we present this extension in [@fig:data-model]. The original
+data model describes how analysts process, filter, sort, and select datasets, as
 datasets transfer from raw data into situational awareness. Our extensions
 highlights the data feedback loop, clearly shows the outputs from this feedback
 loop, and provides identification of tasks for filtering the data across levels.
@@ -462,7 +462,7 @@ loop, and provides identification of tasks for filtering the data across levels.
   part of the qualitative coding method, which we used to motivate the redesign
   of a software tool. This high-level model enabled our team to consider and
   target specific stages in our redesign.
-](figures/methods/model.pdf){#fig:model width="70%"}
+](figures/methods/model.pdf){#fig:data-model width="70%"}
 
 
 ### Discussion of the Method

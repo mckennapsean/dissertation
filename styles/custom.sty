@@ -123,3 +123,16 @@
 \usepackage{lscape}
 \usepackage[table]{xcolor}
 \newcommand{\sbt}{\,\begin{picture}(2,3)(-1,-2)\circle*{3}\end{picture}\ }
+
+% change default figure placement in latex
+\def\fps@figure{!htbp}
+
+% ThesisOffice: probably avoid breaking default placement options that may be set
+% from https://robjhyndman.com/hyndsight/latex-floats/
+% \setcounter{topnumber}{2}
+% \setcounter{bottomnumber}{2}
+% \setcounter{totalnumber}{4}
+% \renewcommand{\topfraction}{0.85}
+% \renewcommand{\bottomfraction}{0.85}
+% \renewcommand{\textfraction}{0.15}
+% \renewcommand{\floatpagefraction}{0.7}

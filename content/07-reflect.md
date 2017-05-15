@@ -898,7 +898,7 @@ full effects model to one without the effect of different visual narrative
 flows.
 
 
-[@fig:model] shows the results of the model, which contains the average
+[@fig:eng-model] shows the results of the model, which contains the average
 engagement score for all 14 questions. According to the model, the different
 conditions tested for this story affected the engagement score significantly ($p
 < .001$, $\lambda^{2}(3)=30.71$), supporting **_H1_**. In other words, readers
@@ -919,7 +919,7 @@ condition on our project website.
   when using visuals and especially when using animated transitions, but the
   effect of the other visual narrative flows, stepper and scroller, were not
   significantly different.
-](figures/narrative-flow/study-analysis.pdf){#fig:model width="100%"}
+](figures/narrative-flow/study-analysis.pdf){#fig:eng-model width="100%"}
 
 
 The animated transition conditions scored significantly higher on engagement

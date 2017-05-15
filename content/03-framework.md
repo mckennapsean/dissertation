@@ -462,18 +462,6 @@ ensure flexibility of this framework to maximize its utility for a wide variety
 of visualization designers.
 
 
-![
-  Examples of real-world design timelines.
-  To identify the movement principles, we summarized several design studies into
-  concise, communicative design process timelines that capture the flexibility
-  of backward movement plus parallel and nested activities. Each colored box
-  corresponds to a design activity. At the top, this timeline represents the
-  Variant View design study process [@Ferstay2013]. In the middle, we illustrate
-  the design process for Shotviewer [@Kerzner2015]. At the bottom, we present
-  our redesign project's process [@McKenna2014], detailed in [@sec:formulation].
-](figures/daf/timelines.pdf){#fig:timelines width="100%"}
-
-
 To establish and showcase these two movement principles, we provide several
 design process timelines from different visualization projects and design
 studies [@Ferstay2013; @Kerzner2015; @McKenna2014] in [@fig:timelines]. In these
@@ -486,6 +474,18 @@ We include a detailed discussion and annotation of the bottom process timeline
 [@McKenna2014] in [@sec:formulation]. These timelines show the flow of a project
 across multiple activities, from nested and parallel activities to backward
 movement.
+
+
+![
+  Examples of real-world design timelines.
+  To identify the movement principles, we summarized several design studies into
+  concise, communicative design process timelines that capture the flexibility
+  of backward movement plus parallel and nested activities. Each colored box
+  corresponds to a design activity. At the top, this timeline represents the
+  Variant View design study process [@Ferstay2013]. In the middle, we illustrate
+  the design process for Shotviewer [@Kerzner2015]. At the bottom, we present
+  our redesign project's process [@McKenna2014], detailed in [@sec:formulation].
+](figures/daf/timelines.pdf){#fig:timelines width="100%"}
 
 
 Other researchers have shown the feasibility and usefulness of a design process
