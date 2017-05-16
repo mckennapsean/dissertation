@@ -96,7 +96,6 @@
                 margin=0pt,
                 figurewithin=chapter,
                 tablewithin=chapter]{caption}
-% \usepackage[small, bf, up, hang]{caption} ---> TODO should we use this?
 \renewcommand{\thefootnote}{\fnsymbol{footnote}}
 \RequirePackage{microtype}
 
