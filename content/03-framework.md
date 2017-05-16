@@ -522,6 +522,8 @@ methods for visualization design.
 
 <!-- TODO need to update the refs in this figure??!! get appropriate ones or remove? since in appendix... -->
 
+<!--\input{templates/methods-table-subset}-->
+
 \afterpage{
 \clearpage
 \begin{longtable}[]{cccc}
