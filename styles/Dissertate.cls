@@ -95,6 +95,7 @@
                 margin=0pt,
                 figurewithin=chapter,
                 tablewithin=chapter]{caption}
+% \usepackage[small, bf, up, hang]{caption} ---> TODO should we use this?
 \renewcommand{\thefootnote}{\fnsymbol{footnote}}
 \RequirePackage{microtype}
 
@@ -184,6 +185,7 @@
 \universitycity{Monstropolis}
 \universitystate{Earth}
 
+% TODO define "school" or custom colors for dissertation?
 % School color found from university's graphic identity site:
 % http://isites.harvard.edu/icb/icb.do?keyword=k75408&pageid=icb.page392732
 \definecolor{SchoolColor}{rgb}{0.5, 0.5, 0.5} % Crimson
