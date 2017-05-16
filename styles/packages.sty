@@ -1,0 +1,35 @@
+% by Sean McKenna
+% packages to load for my dissertation
+
+
+% graphics/figure packages
+\usepackage{graphicx}
+\usepackage{afterpage}
+\usepackage{lscape}
+
+
+% table packages
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{multirow}
+\usepackage[table]{xcolor}
+
+
+% better math support (and undefine two macros from uu-thesis)
+\let \proof    = \relax
+\let \endproof = \relax
+\usepackage{amsmath}
+\usepackage{amsfonts}
+
+
+% improve the typographic justification
+\usepackage{microtype}
+
+
+% support custom colors
+\usepackage{color}
+
+
+% bibliography style guide (IEEE)
+% using biber, safely load in utf-8, don't sort (sorts in-text-order)
+\usepackage[style=ieee,bibencoding=utf8,backend=biber,sorting=none]{biblatex}

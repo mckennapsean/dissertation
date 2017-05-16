@@ -1,21 +1,21 @@
-%!TEX TS-program = xelatex
-%!TEX encoding = UTF-8 Unicode
+% by Sean McKenna
+% dissertate template adapted for my dissertation
 
 
 \documentclass{styles/Dissertate}
 
 
+% load packages
+\usepackage{styles/packages}
+
+
+% load custom styles & commands
 \usepackage{styles/custom}
 
 
-% bibliography style guide (IEEE)
-% safely load bibliography in utf-8, don't sort (sorts in-text-order)
-% include abbreviation files for journals
-% use double-spaces between references
-\usepackage[style=ieee,bibencoding=utf8,backend=biber,sorting=none]{biblatex}
+% load bibliography & journal abbreviations file
 \addbibresource{$journalAbbrev$}
 \addbibresource{$references$}
-\setlength\bibitemsep{2\itemsep}
 
 
 \begin{document}
