@@ -16,15 +16,15 @@ users.
 
 In this chapter, we first explore the necessary scoping, limitations, and
 avenues for future work based on the design activity framework. Next, we discuss
-implications from the first case study, a cyber security redesign project. More
-work still needs to be done to continue the validation of this framework, and we
-explore the limitations of the evaluation techniques used for the design
-activity worksheets in the classroom. Following this discussion, we focus on
-insights gained in our second case study for cyber security on the topics of
-winnowing users, casting roles for collaborators, and utilizing multiple
-discourse channels for visualization design. Throughout both case studies, the
-use of user-centered design methods impacted both projects positively and
-connect back to the design activity framework. Next, we relate these design
+implications from the first case study, a cyber security redesign project.
+Following this discussion, we focus on insights gained in our second case study
+for cyber security on the topics of winnowing users, casting roles for
+collaborators, and utilizing multiple discourse channels for visualization
+design. Throughout both case studies, the use of user-centered design methods
+impacted both projects positively and connect back to the design activity
+framework. More work still needs to be done to continue the validation of this
+framework, and we explore the limitations of the evaluation techniques used for
+the design activity worksheets in the classroom. Next, we relate these design
 processes to those used in development and software engineering, within the
 context of building data visualization systems. Specifically, agile
 methodologies are a popular choice for software engineering processes that have
@@ -179,6 +179,95 @@ common framework to discuss and present aspects of visualization design.
 
 
 
+## Casting, Collaborators, and Channels
+
+Upon reflecting on the BubbleNet design study in [@sec:security], we realized
+that winnowing and casting of user roles[@Sedlmair2012b] occurred later in the
+user-centered design process highlighted in [@fig:process]. Unlike a typical
+design study, there was very limited time from a single set of domain experts.
+By reviewing previous detailed cognitive studies of users and through
+interviews, personas were crafted to identify different potential users
+[@McKenna2015]. As a result, users were winnowed into two types, analysts and
+managers. This approach was motivated by domain constraints: limited access to
+users and data. Furthermore, the design activity framework highlights where the
+winnowing and casting of user roles occurred, when revisiting personas in the
+_understand_ activity, and these same users were incorporated when evaluating
+the dashboard in _make_ with a usability study. The design process figure, when
+incorporating these multiple channels, succinctly shows where and how users were
+involved with different generative or evaluative methods as well as deployments.
+
+
+Another reason that led this project to its own unique design process is due to
+the task of presentation. Presentation inherently involves two or more parties,
+so it could involve users beyond a data analyst. In a design study methodology,
+Sedlmair et al. describe several different kind of collaborator roles, such as
+front-line analysts and gatekeepers [@Sedlmair2012b]. Alternative collaborator
+roles have been identified, such as liaisons [@Bertini2015] which bridge
+visualization research to complex domains. While we worked with several
+liaisons, the user personas identified four kinds of users where only one, the
+network analyst, is a domain expert in cyber security. Other users, such as
+network managers, have some domain knowledge, but there was clearly another
+domain at work here: an organizational domain. Large organizations need to
+disseminate information up a chain of command in order for decisions to be made
+and passed down [@McKenna2015]. With multiple domains and types of users, this
+work challenges the role of a single domain expert as the optimum collaborator.
+It is important to identify these different user roles and design tools which
+adapt to their needs, and the design activity framework, especially the
+_understand_ worksheet, pushes on these concepts.
+
+
+Lastly, working in the cyber security domain benefited from the multiple
+discourse channel approach [@Wood2014] as highlighted in [@fig:process]. By
+reflecting on our design process, this multiple channel approach is particularly
+beneficial with the unique design constraints we faced: limited access to users
+and data, multiple types of users, and balancing trade-offs to deploy tools. The
+design of BubbleNet occurred within the second channel at a research
+organization, but this design would not have been as successful without the
+design methods and knowledge gained from the other channels. For example, the
+third channel represents a collaboration with a university network analyst which
+enabled us to validate abstractions of network security data and critically
+changed BubbleNet's location view. By working at an operational organization in
+the fourth channel, BubbleNet's design influenced and inspired new encodings to
+be implemented by a team of developers, leading to operational tool deployments.
+As discussed in [@sec:security], deploying a tool is a complex process which
+involves further design trade-offs, but it is important to discuss these aspects
+to help further the field of visualization and get tools in the hands of users.
+
+
+
+
+
+## User-Centered Design Methods
+
+In our case studies, we demonstrated how user-centered design methods can be
+both efficient and effective for visualization design. Specifically, we
+highlighted the projects' visualization artifacts, guiding motivations, and
+final results of each design method: qualitative coding, personas, and data
+sketches. When performing these methods for data visualization, we noted that
+the motivations and visualization artifacts aligned well with the activities of
+the design activity framework, both _understand_ and _ideate_. These methods can
+also be used in other activities, i.e., qualitative coding can be used as an
+evaluative method paired with other techniques in any activity and data sketches
+could also be utilized in the _make_ activity when parallel prototypes are being
+built and tested using this approach.
+
+
+User-centered design methods can help a designer establish user needs, uncover
+design opportunities, and evaluate ideas, and these types of design methods can
+be particularly useful in the early stages of _understand_ and _ideate_ for the
+visualization design process. The three design methods discussed in both case
+studies can involve any varied number of users. We encourage future
+visualization design projects to broaden the methodologies, methods, and
+techniques at their disposal in order to more completely explore the design
+space for data visualization in a given domain. Ultimately, embracing
+user-centered design methods and the importance of the design process will help
+us as a community be more efficient at building effective visualization tools
+across domains, users, data, and tasks.
+
+
+
+
+
 ## Design Worksheet Evaluation
 
 When using the design activity worksheets in the classroom, we observed how
@@ -293,95 +382,6 @@ worksheets for these settings. Lastly, scaffolding these design materials from
 visualization novices to experts could provide support for the visualization
 design worksheets to grow and expand for more advanced, creative, and flexible
 use.
-
-
-
-
-
-## Casting, Collaborators, and Discourse Channels
-
-Upon reflecting on the BubbleNet design study in [@sec:security], we realized
-that winnowing and casting of user roles[@Sedlmair2012b] occurred later in the
-user-centered design process highlighted in [@fig:process]. Unlike a typical
-design study, there was very limited time from a single set of domain experts.
-By reviewing previous detailed cognitive studies of users and through
-interviews, personas were crafted to identify different potential users
-[@McKenna2015]. As a result, users were winnowed into two types, analysts and
-managers. This approach was motivated by domain constraints: limited access to
-users and data. Furthermore, the design activity framework highlights where the
-winnowing and casting of user roles occurred, when revisiting personas in the
-_understand_ activity, and these same users were incorporated when evaluating
-the dashboard in _make_ with a usability study. The design process figure, when
-incorporating these multiple channels, succinctly shows where and how users were
-involved with different generative or evaluative methods as well as deployments.
-
-
-Another reason that led this project to its own unique design process is due to
-the task of presentation. Presentation inherently involves two or more parties,
-so it could involve users beyond a data analyst. In a design study methodology,
-Sedlmair et al. describe several different kind of collaborator roles, such as
-front-line analysts and gatekeepers [@Sedlmair2012b]. Alternative collaborator
-roles have been identified, such as liaisons [@Bertini2015] which bridge
-visualization research to complex domains. While we worked with several
-liaisons, the user personas identified four kinds of users where only one, the
-network analyst, is a domain expert in cyber security. Other users, such as
-network managers, have some domain knowledge, but there was clearly another
-domain at work here: an organizational domain. Large organizations need to
-disseminate information up a chain of command in order for decisions to be made
-and passed down [@McKenna2015]. With multiple domains and types of users, this
-work challenges the role of a single domain expert as the optimum collaborator.
-It is important to identify these different user roles and design tools which
-adapt to their needs, and the design activity framework, especially the
-_understand_ worksheet, pushes on these concepts.
-
-
-Lastly, working in the cyber security domain benefited from the multiple
-discourse channel approach [@Wood2014] as highlighted in [@fig:process]. By
-reflecting on our design process, this multiple channel approach is particularly
-beneficial with the unique design constraints we faced: limited access to users
-and data, multiple types of users, and balancing trade-offs to deploy tools. The
-design of BubbleNet occurred within the second channel at a research
-organization, but this design would not have been as successful without the
-design methods and knowledge gained from the other channels. For example, the
-third channel represents a collaboration with a university network analyst which
-enabled us to validate abstractions of network security data and critically
-changed BubbleNet's location view. By working at an operational organization in
-the fourth channel, BubbleNet's design influenced and inspired new encodings to
-be implemented by a team of developers, leading to operational tool deployments.
-As discussed in [@sec:security], deploying a tool is a complex process which
-involves further design trade-offs, but it is important to discuss these aspects
-to help further the field of visualization and get tools in the hands of users.
-
-
-
-
-
-## User-Centered Design Methods
-
-In our case studies, we demonstrated how user-centered design methods can be
-both efficient and effective for visualization design. Specifically, we
-highlighted the projects' visualization artifacts, guiding motivations, and
-final results of each design method: qualitative coding, personas, and data
-sketches. When performing these methods for data visualization, we noted that
-the motivations and visualization artifacts aligned well with the activities of
-the design activity framework, both _understand_ and _ideate_. These methods can
-also be used in other activities, i.e., qualitative coding can be used as an
-evaluative method paired with other techniques in any activity and data sketches
-could also be utilized in the _make_ activity when parallel prototypes are being
-built and tested using this approach.
-
-
-User-centered design methods can help a designer establish user needs, uncover
-design opportunities, and evaluate ideas, and these types of design methods can
-be particularly useful in the early stages of _understand_ and _ideate_ for the
-visualization design process. The three design methods discussed in both case
-studies can involve any varied number of users. We encourage future
-visualization design projects to broaden the methodologies, methods, and
-techniques at their disposal in order to more completely explore the design
-space for data visualization in a given domain. Ultimately, embracing
-user-centered design methods and the importance of the design process will help
-us as a community be more efficient at building effective visualization tools
-across domains, users, data, and tasks.
 
 
 

@@ -15,12 +15,15 @@ this project, we balanced human-centered design methods with an informal agile
 development process to produce a useful and effective dashboard for domain
 users. We were also able to build upon and repurpose the design opportunities we
 had identified with existing users from our redesign project into this dashboard
-project [@mckenna2016]. Furthermore, we conducted a formal usability study with
-a standardized quantitative questionnaire in order to validate the usability of
-the final dashboard tool. By reflecting on this design process, we have found
-that visualization design artifacts played a crucial role in communicating and
-reporting on the design process, and we have observed how the design activity
-framework can help successfully shape a real-world visualization design study.
+project [@mckenna2016]. We examine the role of two user-centered design methods,
+user personas and data sketches, that helped us find appropriate visual
+encodings for the dashboard. Furthermore, we conducted a formal usability study
+with a standardized quantitative questionnaire in order to validate the
+usability of the final dashboard tool. By reflecting on this design process, we
+have found that visualization design artifacts played a crucial role in
+communicating and reporting on the design process, and we have observed how the
+design activity framework can help successfully shape a real-world visualization
+design study.
 
 <!-- CONCERN: is the focus on the f/w enough? role, purpose, use of activities throughout -->
 <!-- CONCERN: where did existing models fail? more on 9-sf? what does DAF provide over them? -->
@@ -263,19 +266,25 @@ or a specific attribute between two countries.
 
 ## Design Process
 
-This design study focused on creating a dashboard for cyber security patterns.
-To present these patterns, we emphasized users beyond the network analyst. As
-such, it was necessary to incorporate these other users, their needs, and
-workflows into the design process in order to create the final BubbleNet
-dashboard. This design process highlighted key insights into the connection,
-similarities, and differences of user-centered design and a design study. These
-insights make this work unique compared to past user-centered design papers for
-cyber security. In particular, we found that the framing of the design activity
-framework succinctly captured, described, and guided our design process more
-effectively than the nine-stage framework process for design studies. As a
-result of using the design activity framework, we reflected on this design
+As we conducted this design study, we focused on validating the utility  of the
+design activity framework to capture the design methods we used, the resulting
+visualization artifacts, and our design rationale. As a result of using the
+design activity framework, this project resulted in creating a dashboard for
+cyber security patterns. To present these patterns, we emphasized users beyond
+the network analyst. As such, it was necessary to incorporate these other users,
+their needs, and workflows into the design process in order to create the final
+BubbleNet dashboard. This design process highlighted key insights into the
+connection, similarities, and differences of user-centered design and a design
+study. These insights make this work unique compared to past user-centered
+design papers for cyber security. In particular, we found that the framing of
+the design activity framework succinctly captured, described, and guided our
+design process more effectively than the nine-stage framework process for design
+studies.
+
+
+While employing the design activity framework, we reflected on our design
 process and modeled it in the form of the Wood et al. discourse channels, which
-are _"complex relationship between producers and consumers of a visualization"_
+are "complex relationship between producers and consumers of a visualization"
 [@Wood2014]. In this work, we utilized four distinct discourse channels: a
 software company, a research organization, university information security, and
 an operational organization. These different discourse channels interacted
@@ -328,7 +337,9 @@ linked to deployments in two discourse channels.
 ](figures/methods/dashboard2.pdf){#fig:dashboard2 width="100%"}
 
 
-Furthermore, at the bottom of [@fig:process], we highlight the different
+The design activity framework timelines enabled us to reflect on how these
+projects interacted together, through artifacts and transference of design
+rationale. At the bottom of [@fig:process], we highlight the different
 activities of the design activity framework, from the perspective of the primary
 visualization designer across the various discourse channels, design methods,
 and resulting visualization artifacts. What is unique is how a previous design
@@ -337,13 +348,18 @@ unique impact that the previous visualization artifacts had on the final
 BubbleNet dashboard visualization system.
 
 
-A previous domain analysis informed this design study:: a qualitative coding of
+A previous domain analysis informed this design study: a qualitative coding of
 cognitive task analysis papers [@McKenna2015]. In order to establish specific
 user needs, we performed a series of contextual semistructured interviews at a
 research organization. As a result, four key user personas were identified for
-dashboard design [@McKenna2015]. By evaluating project constraints, the project
-was further focused into two specific user personas: network analysts and
-managers.
+dashboard design [@McKenna2015], which we discuss in detail later in this
+chapter. By evaluating project constraints using the personas, the project was
+further focused into two specific user personas: network analysts and managers.
+By using the timelines inspired from the design activity framework, we were able
+to actively connect these different discourse or project channels together, and
+the visualization artifacts identified through different design methods, such as
+qualitative codes and personas, focused the design of a cyber security dashboard
+to the task of communication for specific types of users.
 
 
 After selecting this subset of users, we adapted user needs from a previous
@@ -390,41 +406,14 @@ developed a location-based encoding that is simpler and more intuitive for a
 larger variety of users, shown in [@fig:dashboard2].
 
 
-A usability study was performed on this second prototype to evaluate its
-usability, resulting in the final BubbleNet dashboard which we discuss later in
-this chapter. BubbleNet was deployed in a research environment, but significant
-changes were necessary to create the final tool for deployment into an
-operational environment. These aspects of evaluation and deployment will be
-discussed further.
-
-
-As part of teaching the design activity framework to visualization students, we
-mocked up our design process using the design worksheets presented previously.
-These design worksheets, shown in [@fig:worksheet-example], served as an example
-that we taught to students in a visualization design lecture. By illustrating
-how students could utilize the worksheets with a real-world example, we hoped
-that the worksheets would seem more tangible and actionable for novice
-visualization designers. By walking back through our design process in this
-design study, we incorporated various visualization artifacts as linked sketches
-and printouts to match each with their respective design activities, in
-approximate temporal order. Illustrated in [@fig:worksheet-example], these
-worksheets match the order of design activities shown in [@fig:process]. Despite
-this project being complex and iterative, both the design activity framework and
-design worksheets are able to succinctly capture and convey distinct and crucial
-aspects of the design study.
-
-
-![
-  Design activity worksheet example.
-  We showed how to use the design worksheets with linked sketches, summarizing
-  our design process to create the BubbleNet dashboard [@mckenna2016]. This
-  real-world project showcases how to utilize the worksheets and highlights how
-  to capture a complex, iterative design process. A detailed copy of each
-  example worksheet and sketches is included with the worksheet materials
-  online.[^worksheets]
-](figures/worksheets/worksheet-example.jpg){#fig:worksheet-example width="100%"}
-
-[^worksheets]: <https://design-worksheets.github.io/>
+In [Section @sec:designworksheets], we illustrate further details of our design
+process by placing visualization artifacts, such as concept sketches, into
+design activity framework worksheets. Next, a usability study was performed on
+this second prototype to evaluate its usability, resulting in the final
+BubbleNet dashboard which we discuss later in this chapter. BubbleNet was
+deployed in a research environment, but significant changes were necessary to
+create the final tool for deployment into an operational environment. These
+aspects of evaluation and deployment will be discussed further.
 
 
 As previously discussed, a number of user-centered design methods have been
@@ -1047,7 +1036,7 @@ these considerations remain important for continuing operational deployment.
 
 
 
-## Project Reflections
+## Summary
 
 We uncovered a set of implications for dashboard visualization of cyber security
 data that others can use. First, analysts sought details of the data whereas

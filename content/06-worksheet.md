@@ -193,7 +193,7 @@ visualization design concepts on their own more effectively.
 
 
 
-## Worksheets for the Design Activity Framework
+## Worksheets for the Design Activity Framework {#sec:designworksheets}
 
 To create the visualization design worksheets, we first reflected on the design
 process and decisions illustrated by the design activity framework
@@ -460,7 +460,34 @@ theory with actual, tangible concepts. Additionally, we mocked up an example of
 this project using the design worksheets to illustrate how to capture a complex,
 iterative design process utilizing the design worksheets. An overview of this
 example is provided in the next chapter. We include a copy of our lecture
-materials on the project website.[^worksheets]
+materials and this example on the project website.[^worksheets]
+
+
+To help teach a real-world design process, we mocked up design activity
+worksheets for the BubbleNet dashboard project [@mckenna2016]. These design
+worksheets, shown in [@fig:worksheet-example], served as an example that we
+taught to students in our visualization design lecture. By illustrating how
+students could utilize the worksheets with a real-world example, we hoped that
+the worksheets would seem more tangible and actionable for novice visualization
+designers. By walking back through our design study process, we incorporated
+various visualization artifacts as linked sketches and printouts to match each
+with their respective design activities, in approximate temporal order.
+Illustrated in [@fig:worksheet-example], these worksheets match the order of
+design activities presented in the previous chapter, [@fig:process]. Despite
+this design study being complex and iterative, both the design activity
+framework and design worksheets are able to succinctly capture and convey
+distinct and crucial aspects of the visualization design process.
+
+
+![
+  Design activity worksheet example.
+  We showed how to use the design worksheets with linked sketches, summarizing
+  our design process to create the BubbleNet dashboard [@mckenna2016]. This
+  real-world project showcases how to utilize the worksheets and highlights how
+  to capture a complex, iterative design process. A detailed copy of each
+  example worksheet and associated sketches is included online with the
+  worksheet materials.
+](figures/worksheets/worksheet-example.jpg){#fig:worksheet-example width="100%"}
 
 
 
