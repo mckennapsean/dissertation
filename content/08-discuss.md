@@ -185,14 +185,15 @@ When using the design activity worksheets in the classroom, we observed how
 these materials taught students how to perform visualization design, guiding
 them through actionable steps, and facilitating effective visualization design
 discussions both within a group and with their mentor. As students highlighted:
-"In having that methodically prescribed ... you break down the process into
-those clear steps, ... it is an intuitive flow", "This was really good guidance
-for us ... well categorized for the beginner", "It was my first time doing
-something at this scale, and I didn't know where to start. It was nice to have
-steps along the way", and "We considered more options than we would have", which
-demonstrated the benefit of generating ideas. Despite the many improvements that
-can be made, we see the use of these design worksheets as a success for teaching
-the visualization design process to students in their cumulative projects.
+_"In having that methodically prescribed ... you break down the process into
+those clear steps, ... it is an intuitive flow"_, _"This was really good
+guidance for us ... well categorized for the beginner"_, _"It was my first time
+doing something at this scale, and I didn't know where to start. It was nice to
+have steps along the way"_, and _"We considered more options than we would
+have"_, which demonstrated the benefit of generating ideas. Despite the many
+improvements that can be made, we see the use of these design worksheets as a
+success for teaching the visualization design process to students in their
+cumulative projects.
 
 
 This work explored utilizing the worksheets in a visualization course for the

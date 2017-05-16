@@ -2,20 +2,23 @@
 
 The design activity framework was initially formulated based on our reflections
 on a previous project where I was starting out as a novice visualization
-designer. For this project, visualization researchers worked with a team of
-designers, a psychologist, and a cyber security firm to tackle a redesign of
-that firm's visualization system [@McKenna2014]. We focused our redesign to
-create a series of sketches, wireframes, and mockups that visually communicated
-our visualization and interface ideas to the company's development team in order
-to improve their tool. Although the final changes to the system were limited by
-the company's development budget and time, we found that a reflection on this
-project yielded useful insights that we used to create the design activity
-framework. In particular, the visualization design artifacts and methods we
-utilized with other designers played a significant role in the success of this
-project. Previous models, such as the nested model and nine-stage framework, did
-not describe these artifacts, our decisions, and the process as completely as
-the design activity framework. Lastly, we reflected on our team's overall design
-process by incorporating and summarizing these aspects into a design timeline.
+designer. For this project, we worked as a multidisciplinary team with a cyber
+security firm to tackle a redesign of that firm's visualization system
+[@McKenna2014]. We focused our redesign to create a series of sketches,
+wireframes, and mockups that visually communicated our visualization and
+interface ideas to the company's development team in order to improve their
+tool. Although the final changes to the system were limited by the company's
+development budget and time, we found that a reflection on this project yielded
+useful insights that we used to create the design activity framework. In
+particular, the visualization design artifacts and methods we utilized with
+other designers played a significant role in the success of this project, and we
+discuss one user-centered design method, qualitative coding of user research
+papers, in detail. We reflected on our team's overall design process by
+incorporating and summarizing the methods and artifacts into a design timeline.
+Previous models, such as the nested model and nine-stage framework, did not
+describe these artifacts, our decisions, and our design process fully, but we
+were able to more effectively capture, characterize, and explain multiple
+aspects of our visualization design process using the design activity framework.
 
 <!-- CONCERN: should we better highlight stuff from the nested model and nine-stage framework? what was missing, why did these models fail? what held you back? how did DAF help? -->
 
@@ -25,18 +28,16 @@ process by incorporating and summarizing these aspects into a design timeline.
 
 ## Project Overview
 
-We encountered the insufficiencies of current visualization process models while
-working on a project with a multidisciplinary design team consisting of a
-visualization expert, two designers, and one psychologist. I was a novice
-visualization designer at the time, one year into my PhD and still learning
-about data visualization. Our team tackled the challenge of redesigning an
-existing visualization tool in the area of cyber security. As our team attempted
-to adopt the nine-stage framework for conducting design studies
-[@Sedlmair2012b], we struggled to answer questions such as: If I'm not starting
-from the beginning, where exactly am I in the design process? What are the range
-of design methods that are useful at any given point? What types of
-visualization artifacts should I be working toward along the way? How do I know
-my artifacts are good, or even just good enough, when balanced against
+Our multidisciplinary design team consisted of two designers, one psychologist,
+a visualization expert, and myself, a visualization novice. On this team, only
+one of the five members had used the nine stage framework previously. We tackled
+the challenge of redesigning an existing visualization tool in the area of cyber
+security. As our team attempted to adopt the nine-stage framework for conducting
+design studies [@Sedlmair2012b], we struggled to answer questions such as: If
+I'm not starting from the beginning, where exactly am I in the design process?
+What are the range of design methods that are useful at any given point? What
+types of visualization artifacts should I be working toward along the way? How
+do I know my artifacts are good, or even just good enough, when balanced against
 real-world constraints? We believe that these questions point to a lack of
 _actionability_ in current visualization process models, namely the nine-stage
 framework for design studies. In other words, this model lacked implementable
@@ -63,25 +64,28 @@ design team, namely a strict time frame for producing redesign ideas, limited
 funding available for implementing our ideas by software developers,
 confidentiality issues surrounding cyber security data, and the engineering
 realities of working within a large software system. The nine-stage framework
-and also the nested model both failed to as clearly capture and track these
-design constraints and the complex, collaborative process stemming from multiple
-team coordination.
+and also the nested model were unable to clearly capture and track these design
+constraints and the complex, collaborative process stemming from multiple team
+coordination, both of which were essential to our project.
 
 
-When we started this project, our design team was stuck and had no clear
-guidance from the nine-stage framework on what our next step should be. We
-turned to other designers for this guidance, and this process and reflections
-resulted in the creation of the design activity framework. This new data
-visualization process model generalizes to visualization design, not just design
-studies, and the guidance and terminology better match the collaborative
-activities we underwent. For this case study, we will describe our redesign
-project and design process using the design activity framework. We will focus on
-a single design activity at a time. We present this discussion in rough,
-chronological order. In this discussion, we incorporate the methods we utilized
-and the visualization artifacts that were achieved. Each method number we
-reference stems from the collection of example methods in [@tbl:methods] and the
-full list of 100 methods included in [Appendix @sec:app-methods], such as the
-method of controlled experiments (_M-28_).
+When we started this project, our design team was stuck because the nine-stage
+framework was tailored to design study work requiring close collaboration with
+domain experts, which we did not have in this project. This constraint
+significantly changed the possible methods we could perform and artifacts we
+could obtain. After we finished the project, we researched other design process
+models for additional guidance, and our reflections of these models for the
+visualization design process resulted in the creation of the design activity
+framework. This new data visualization process model generalizes to
+visualization design, not just design studies, and the guidance and terminology
+better match the collaborative activities we underwent. For this case study, we
+will describe our redesign project and design process using the design activity
+framework. We will focus on a single design activity at a time. We present this
+discussion in rough, chronological order. In this discussion, we incorporate the
+methods we utilized and the visualization artifacts that were achieved. Each
+method number we reference stems from the collection of example methods in
+[@tbl:methods] and the full list of 100 methods included in [Appendix
+@sec:app-methods], such as the method of controlled experiments (_M-28_).
 
 
 
@@ -135,9 +139,10 @@ conducted an extensive and broad literature review (_M-53_) across a series of
 40 articles from three key domains: cyber security visualization, situational
 awareness, and cognitive task analysis. From this review, we informally
 evaluated the articles based on their relevance and descriptive quality,
-isolating three of the articles as the best representative samples with the
-highest impact for forming our domain characterization for the visualization of
-cyber security data.
+isolating three of the articles [@DAmico2008; @Erbacher2010a; @Fink2009] as the
+best representative samples with the highest impact for forming our domain
+characterization for the visualization of cyber security data. We discuss this
+method in more detail and reflect on its use later in [Section @sec:qualcoding].
 
 
 Next, for these three articles, each member of our team did an informal open
@@ -328,34 +333,42 @@ shown in the bottom of [@fig:timelines]. The difference of these two timelines
 shows the flexiblity of the design activity framework to capture both the
 high-level view of a design project and the pattern or flow of design activities
 as well as the low-level detail of specific visualization artifacts and design
-methods utilized. These design timelines could be further enhanced by
-highlighting levels of the nested model or details of visualization design
-decisions made throughout the process. We found that keeping track of these
-activities can help visualization designers meet deadlines by focusing on
-specific design activities and visualization artifacts as well, which is why we
-highlight these deadlines explicitly in the timeline as well. These
-visualization design timelines can help the communication of a design process
-internally with a design team during the process or externally after the fact
-with research colleagues or managers to provide a concise overview of the
-results and work conducted.
+methods utilized. In the next section, we explore in detail the user-centered
+design method of qualitative coding for three CTA papers which was our team's
+first primary focus for the project. During this method, we uncovered codes and
+design opportunities that could be useful for other visualization designers in
+this space, and we reflect on this method as a substitute for users in the
+visualization design process.
+
+
+These design timelines could be further enhanced by highlighting levels of the
+nested model or details of visualization design decisions made throughout the
+process. We found that keeping track of these activities can help visualization
+designers meet deadlines by focusing on specific design activities and
+visualization artifacts as well, which is why we highlight these deadlines
+explicitly in the timeline. These visualization design timelines can help the
+communication of a design process internally with a design team during the
+process or externally after the fact with research colleagues or managers to
+provide a concise overview of the results and work conducted.
 
 
 
 
 
-## Qualitative Coding Design Method
+## Qualitative Coding Design Method {#sec:qualcoding}
 
-In this section, we focus on one design method in detail: **qualitative
-coding**. As we explained in the previous chapter, there is a benefit to
-exploring and validating the use of novel and unique design methods in the
-context of real-world visualization projects. The _qualitative coding_ method
-played a key role in the _understand_ activity of this project. For this design
-method, we first discuss our motivation behind why we utilized this approach in
-the context of our design process. Then, we highlight the visualization
-artifacts achieved, followed by results and implications of what we learned and
-a discussion of the method's efficiency, effectiveness, and limitations. Lastly,
-we present recommendations for using this method in the context of cyber
-security visualization design.
+To promote the discovery and adaptation of new design methods for novel
+problems, we focus on our team's use and the impact of a user-centered design
+method: **qualitative coding**. As we explained in the previous chapter, there
+is a benefit to exploring and validating the use of novel and unique design
+methods in the context of real-world visualization projects. The _qualitative
+coding_ method played a key role in the _understand_ activity of this project.
+For this design method, we first discuss our motivation behind why we utilized
+this approach in the context of our design process. Then, we highlight the
+visualization artifacts achieved, followed by results and implications of what
+we learned and a discussion of the method's efficiency, effectiveness, and
+limitations. Lastly, we present recommendations for using this method in the
+context of cyber security visualization design.
 
 
 When tasked with redesigning a large cyber security tool, our design team had
@@ -489,3 +502,21 @@ not simply be used to replace access to real users.
 - On the first pass, highlight and tag key pieces of information; we suggest starting with the categories we identified for cyber security visualization.
 - Limit the time and scope on your first pass of coding; spend more time to meet as a team and agree on codes.
 - Once you reach a consensus on codes, expand to more papers and divide up the work, allowing some overlap in coverage for consistency.
+
+
+
+
+
+## Summary
+
+In this chapter, we discussed a visualization redesign project, where our team
+faced unique design challenges that we were unable to explicitly capture using
+the existing nine-stage framework for design studies. To show the achievability
+and actionability of the design activity framework, we walked through the
+different design activities our team navigated through and the associated
+visualization artifacts, such as a software analysis and digital mockup
+interface. Next, we showed how the design activity framework timelines can
+succinctly communicate and describe a visualization project in its entirety. We
+concluded by performing a deep dive into a user-centered design method,
+qualitative coding, to illustrate the importance of discovering new design
+methods in order to adapt to a project's constraints and achieve success.

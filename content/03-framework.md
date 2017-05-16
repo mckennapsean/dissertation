@@ -520,6 +520,8 @@ next chapter, along with both commonly used and potentially novel or interesting
 methods for visualization design.
 
 
+<!-- TODO need to update the refs in this figure??!! get appropriate ones or remove? since in appendix... -->
+
 \afterpage{
 \clearpage
 \begin{longtable}[]{cccc}
