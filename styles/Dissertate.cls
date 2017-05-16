@@ -61,10 +61,10 @@
     {\begin{spacing}{\dcompressedspacing}\oldenumerate}
     {\endoldenumerate\end{spacing}}
 
-% Text layout.
-\RequirePackage[width=5.75in, letterpaper]{geometry}
+% Text layout. re-enable justified text & taller pages
+\RequirePackage[width=5.75in, top=1.25in, bottom=1.25in, letterpaper]{geometry}
 \usepackage{ragged2e}
-\RaggedRight
+% \RaggedRight
 \RequirePackage{graphicx}
 \usepackage{fixltx2e}
 \parindent 12pt
@@ -157,12 +157,6 @@
 
 % Some definitions.
 \def\advisor#1{\gdef\@advisor{#1}}
-\def\coadvisorOne#1{\gdef\@coadvisorOne{#1}}
-\def\coadvisorTwo#1{\gdef\@coadvisorTwo{#1}}
-\def\committeeInternal#1{\gdef\@committeeInternal{#1}}
-\def\committeeInternalOne#1{\gdef\@committeeInternalOne{#1}}
-\def\committeeInternalTwo#1{\gdef\@committeeInternalTwo{#1}}
-\def\committeeExternal#1{\gdef\@committeeExternal{#1}}
 \def\degreeyear#1{\gdef\@degreeyear{#1}}
 \def\degreemonth#1{\gdef\@degreemonth{#1}}
 \def\degreeterm#1{\gdef\@degreeterm{#1}}
@@ -179,23 +173,16 @@
 \def\pdTwoName#1{\gdef\@pdTwoName{#1}}
 \def\pdTwoSchool#1{\gdef\@pdTwoSchool{#1}}
 \def\pdTwoYear#1{\gdef\@pdTwoYear{#1}}
-% School name and location
-\university{Monsters University}
-\universitycity{Monstropolis}
-\universitystate{Earth}
 
-% TODO define "school" or custom colors for dissertation?
-% School color found from university's graphic identity site:
-% http://isites.harvard.edu/icb/icb.do?keyword=k75408&pageid=icb.page392732
-\definecolor{SchoolColor}{rgb}{0.5, 0.5, 0.5} % Crimson
-\definecolor{chaptergrey}{rgb}{0.5, 0.5, 0.5} % for chapter numbers
+% accent color to match website theme
+\definecolor{accentColor}{rgb}{0.404, 0.294, 0.549}
 
 \hypersetup{
     colorlinks,
-    citecolor=SchoolColor,
+    citecolor=accentColor,
     filecolor=black,
     linkcolor=black,
-    urlcolor=SchoolColor,
+    urlcolor=accentColor,
 }
 
 % Formatting guidelines found in:
@@ -216,10 +203,10 @@
 	\vspace*{\fill}
 	\vspace{100pt}
 	\begin{center}
-	\Huge \textcolor{SchoolColor}{\thetitle} \normalsize \\
+	\Huge \textcolor{accentColor}{\thetitle} \normalsize \\
 	\vspace{100pt}
 	\textsc{a dissertation presented \\ by\\
-	\theauthor\\ to\\ The Department of \@department\\
+	\theauthor\\ to\\ The \@department\\
 	\vspace{12pt}
 	in partial fulfillment of the requirements\\
 	for the degree of\\ \@degree\\
@@ -230,11 +217,11 @@
 	\end{center} \vspace*{\fill}
 }
 
-\newcommand{\copyrightpage}{
+\newcommand{\copyrightpage}[1]{
 	\newpage
 	\thispagestyle{empty}
 	\vspace*{\fill}
-	\scshape \noindent \small \copyright \small 2014\hspace{3pt}-- \theauthor \\
+	\scshape \noindent \small \copyright \small #1\hspace{3pt}-- \theauthor \\
 	\noindent all rights reserved.
 	\vspace*{\fill}
 	\newpage
@@ -246,11 +233,11 @@
 	\pagenumbering{roman}
 	\setcounter{page}{3}
 	\pagestyle{fancy}
-	\lhead{Thesis advisor: Professor \@advisor} \rhead{\@author}
+	\lhead{Advisor: \@advisor} \rhead{\@author}
 	\renewcommand{\headrulewidth}{0.0pt}
 	\vspace*{35pt}
 	\begin{center}
-	\Large \textcolor{SchoolColor}{\@title} \normalsize \\
+	\Large \textcolor{accentColor}{\@title} \normalsize \\
 	\vspace*{20pt}
 	\scshape Abstract \\ \rm
 	\end{center}

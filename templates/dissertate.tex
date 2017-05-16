@@ -2,7 +2,7 @@
 % dissertate template adapted for my dissertation
 
 
-\documentclass{styles/Dissertate}
+\documentclass[dsingle]{styles/Dissertate}
 
 
 % load packages
@@ -14,58 +14,46 @@
 
 
 % load bibliography & journal abbreviations file
-\addbibresource{$journalAbbrev$}
+\addbibresource{$journals$}
 \addbibresource{$references$}
 
 
 \begin{document}
 
 
-% the front matter
-% Some details about the dissertation.
+% dissertation info
 \title{$title$}
 \author{$author$}
+\advisor{$advisor$}
 
-%If you have one advisor
-\advisor{$committeeChair$}
 
-\committeeInternalOne{$committeeMember1$}
-\committeeInternalTwo{$committeeMember2$}
-% \committeeInternalThree{$committeeMember3$}
-
-% Everyone has an External committee member
-\committeeExternal{$committeeMember4$}
-
-% ... about the degree.
+% degree info
 \degree{$degree$}
-\field{Computing}
-\degreeyear{$copyrightYear$}
-\degreeterm{Summer}
-\degreemonth{June}
+\field{$degreeIn$}
+\degreeyear{$year$}
+\degreeterm{$term$}
+\degreemonth{$month$}
 \department{$department$}
+\university{$university$}
+\universitycity{$city$}
+\universitystate{$state$}
 
-% ... about the candidate's previous degrees.
-\pdOneName{B.A.}
-\pdOneSchool{Cornell College}
-\pdOneYear{2012}
 
 % front matter
 \maketitle
-\copyrightpage
+\copyrightpage{$year$}
 \setstretch{\dnormalspacing}
 \abstractpage{$abstract$}
-% TODO tweak table of content to avoid microtype issue?
-\tableofcontents
-\acknowledgments{$acknowledgements$}
+\toc
+\acknowledgments{$acknowledge$}
 
-% \doublespacing
 
-% all chapters
+% chapters
 $for(chapter)$
   \include{$chapter$}
 $endfor$
-
 \setstretch{\dnormalspacing}
+
 
 % back matter
 \begin{appendices}
@@ -75,8 +63,11 @@ $endfor$
 \end{appendices}
 \clearpage
 
+
+% references
 \addcontentsline{toc}{chapter}{References}%
-% show references
-\printbibliography
+\singlespace
+\printbibliography[title={References}]
+
 
 \end{document}
