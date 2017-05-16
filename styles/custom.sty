@@ -2,12 +2,6 @@
 % custom macros and settings for generating my dissertation
 
 
-% accent color to match website theme
-% except for uu-thesis which may require black
-\definecolor{accentColor}{rgb}{0.404, 0.294, 0.549}
-\definecolor{utahheadingcolor}{rgb}{0.1, 0.1, 0.1}
-
-
 % colorbrewer colors
 \definecolor{cb_red}{rgb}{0.894,0.102,0.110}
 \definecolor{cb_blue}{rgb}{0.216, 0.494, 0.722}
@@ -44,3 +38,11 @@
 
 % override cite command (natbib doesn't play well with ieee style guide)
 \newcommand{\citep}[1]{\cite{#1}}
+
+
+% disable microtype's protrusion for table of contents
+\newcommand{\toc}{
+  \microtypesetup{protrusion=false}
+  \tableofcontents
+  \microtypesetup{protrusion=true}
+}
