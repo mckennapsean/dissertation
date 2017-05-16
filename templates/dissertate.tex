@@ -2,43 +2,80 @@
 %!TEX encoding = UTF-8 Unicode
 
 
-\documentclass{Dissertate}
+\documentclass{styles/Dissertate}
+
+
+\usepackage{styles/custom}
+
+
+% bibliography style guide (IEEE)
+% safely load bibliography in utf-8, don't sort (sorts in-text-order)
+% include abbreviation files for journals
+% use double-spaces between references
+\usepackage[style=ieee,bibencoding=utf8,backend=biber,sorting=none]{biblatex}
+\addbibresource{$journalAbbrev$}
+\addbibresource{$references$}
+\setlength\bibitemsep{2\itemsep}
+
 
 \begin{document}
 
+
 % the front matter
-\input{frontmatter/personalize}
-% \maketitle
-% \copyrightpage
-\frontmatter
+% Some details about the dissertation.
+\title{$title$}
+\author{$author$}
+
+%If you have one advisor
+\advisor{$committeeChair$}
+
+\committeeInternalOne{$committeeMember1$}
+\committeeInternalTwo{$committeeMember2$}
+\committeeInternalThree{$committeeMember3$}
+
+% Everyone has an External committee member
+\committeeExternal{$committeeMember4$}
+
+% ... about the degree.
+\degree{$degree$}
+\field{Computing}
+\degreeyear{$copyrightYear$}
+\degreeterm{Summer}
+\degreemonth{June}
+\department{$department$}
+
+% ... about the candidate's previous degrees.
+\pdOneName{B.A.}
+\pdOneSchool{Cornell College}
+\pdOneYear{2012}
+
+% front matter
+\maketitle
+\copyrightpage
 \setstretch{\dnormalspacing}
-% \abstractpage
-% \tableofcontents
-% %\authorlist
-% \listoffigures
-% \dedicationpage
-% \acknowledgments
+\abstractpage{$abstract$}
+\tableofcontents
+\acknowledgments{$acknowledgements$}
 
 % \doublespacing
 
-% include each chapter...
-\setcounter{chapter}{-1}  % start chapter numbering at 0
-\include{chapters/introduction}
-\include{chapters/chapter1}
-\include{chapters/chapter2}
-\include{chapters/chapter3}
-\include{chapters/conclusion}
+% all chapters
+$for(chapter)$
+  \include{$chapter$}
+$endfor$
 
 \setstretch{\dnormalspacing}
 
-% the back matter
-\backmatter
+% back matter
+\begin{appendices}
+$for(appendix)$
+  \include{$appendix$}
+$endfor$
+\end{appendices}
+\clearpage
 
-% \clearpage
-% \bibliography{references}
-% \addcontentsline{toc}{chapter}{References}
-% \bibliographystyle{apalike2}
-
-% \include{endmatter/colophon}
+\addcontentsline{toc}{chapter}{References}%
+% show references
+\printbibliography
 
 \end{document}

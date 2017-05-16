@@ -10,7 +10,7 @@
 % --------------------------------------------------------------------
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{Dissertate}[2014/03/25 v2.0 Dissertate Class]
+\ProvidesClass{styles/Dissertate}[2014/03/25 v2.0 Dissertate Class]
 \LoadClass[12pt, oneside, letterpaper]{book}
 
 %
@@ -120,7 +120,7 @@
 
 % References.
 \renewcommand\bibname{References}
-\RequirePackage[super,comma,numbers]{natbib}
+% \RequirePackage[super,comma,numbers]{natbib}
 \renewcommand{\bibnumfmt}[1]{[#1]}
 \RequirePackage[palatino]{quotchap}
 \renewcommand*{\chapterheadstartvskip}{\vspace*{-0.5\baselineskip}}
@@ -240,7 +240,7 @@
 	\rm
 }
 
-\newcommand{\abstractpage}{
+\newcommand{\abstractpage}[1]{
 	\newpage
 	\pagenumbering{roman}
 	\setcounter{page}{3}
@@ -253,7 +253,7 @@
 	\vspace*{20pt}
 	\scshape Abstract \\ \rm
 	\end{center}
-	\input{frontmatter/abstract}
+	\input{#1}
 	\vspace*{\fill}
 	\newpage \lhead{} \rhead{}
 	\cfoot{\thepage}
@@ -265,10 +265,10 @@
 	\vspace*{\fill} \newpage \rm
 }
 
-\newcommand{\acknowledgments}{
+\newcommand{\acknowledgments}[1]{
 	\chapter*{Acknowledgments}
 	\noindent
-	\input{frontmatter/thanks}
+	\input{#1}
 	\vspace*{\fill} \newpage
 	\setcounter{page}{1}
 	\pagenumbering{arabic}

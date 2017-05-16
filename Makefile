@@ -7,7 +7,7 @@ CHAPTERS := $(patsubst content/%,tex/%,$(CHAPTERSTX))
 # build dissertation, using main tex file and all chapters/content
 # $< refers to first dependency, $@ refers to output
 dissertation.pdf: dissertation.tex $(CHAPTERS)
-	latexmk -outdir=tmp -pdf -silent -f $<; \
+	latexmk -xelatex -outdir=tmp -pdf -silent -f $<; \
 	cp tmp/$@ .
 
 
