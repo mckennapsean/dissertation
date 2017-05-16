@@ -74,10 +74,10 @@
 
 % Fonts.
 \RequirePackage{color}
-\RequirePackage{xcolor}
 \usepackage{hyperref}
 \RequirePackage{url}
 \RequirePackage{amssymb}
+\RequirePackage{amsmath}
 \RequirePackage{mathspec}
 \setmathsfont(Digits,Latin,Greek)[Numbers={Proportional}]{EB Garamond}
 \setmathrm{EB Garamond}
@@ -119,10 +119,9 @@
 % Endmatter
 \renewcommand{\setthesection}{\arabic{chapter}.A\arabic{section}}
 
-% References.
+% References (altered to use biber)
 \renewcommand\bibname{References}
-% \RequirePackage[super,comma,numbers]{natbib}
-\renewcommand{\bibnumfmt}[1]{[#1]}
+
 \RequirePackage[palatino]{quotchap}
 \renewcommand*{\chapterheadstartvskip}{\vspace*{-0.5\baselineskip}}
 \renewcommand*{\chapterheadendvskip}{\vspace{1.3\baselineskip}}
