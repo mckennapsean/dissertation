@@ -25,12 +25,12 @@
 \fourlevels
 
 
-
 % additional uu-thesis styles (override settings from above packages!)
 \usepackage{styles/uuthesis-2016-h}
 
 
 % add colored headings
+\definecolor{utahheadingcolor}{rgb}{0.1, 0.1, 0.1}
 \usepackage{styles/uuthesis-color-headings}
 
 
@@ -39,7 +39,7 @@
 
 
 % load bibliography & journal abbreviations file
-\addbibresource{$journalAbbrev$}
+\addbibresource{$journals$}
 \addbibresource{$references$}
 
 
@@ -47,108 +47,67 @@
 \setlength\bibitemsep{2\itemsep}
 
 
-%%% ====================================================================
-%%% The student-specific front matter fields are defined here:
-\author                 {$author$}
-\title                  {$title$}
-\thesistype             {dissertation}
-
-\dedication             {To ...}
-
-%%% Most students need just a short degree name, like this:
-% \degree                 {Doctor of Philosophy}
-%%% However, multiline degrees are possible, and are done like this:
-\degree                 {$degree$}
-
-%%% College- and Department-level definitions:
-\approvaldepartment     {Computing}
-\department             {$department$}
-\graduatedean           {$graduateDean$}
-\departmentchair        {$departmentChair$}
-
-%%% The graduate student's committee members:
-\committeechair         {$committeeChair$}
-\firstreader            {$committeeMember1$}
-\secondreader           {$committeeMember2$}
-\thirdreader            {$committeeMember3$}
-\fourthreader           {$committeeMember4$}
-\chairtitle             {$committeeChairTitle$}
+% front matter
+\author{$author$}
+\title{$title$}
+\thesistype{dissertation}
 
 
-%%% NB: It is rare, but possible, for there to be two chairs, For
-%%% example, one student had
-%%%
-%%% \committeechair{\mbox{\small Andrej Cherkaev and Andrejs Treibergs}}
-%%%
-%%% The \mbox{} ensures that line breaks cannot happen, and the \small
-%%% is necessary to make the names fit on the Dissertation Approval form
-
-%%% Dates that must be adjusted for each academic term, and be permitted
-%%% according to the University of Utah Thesis Office:
-\submitdate             {$submitDate$}
-\copyrightyear          {$copyrightYear$}
-
-%%% Dates on which committee members approved the thesis
-\chairdateapproved      {$committeeApproved$}
-\firstdateapproved      {$committeeApproved$}
-\seconddateapproved     {$committeeApproved$}
-\thirddateapproved      {$committeeApproved$}
-\fourthdateapproved     {$committeeApproved$}
-
-%%%%%
-% what did these do....?
-% \citeindextrue
-% \makeindex
-% \includeonly{chapters/intro,chapters/background,chapters/framework,chapters/formulation,chapters/security,chapters/story,chapters/timeline}
-
-%\inputpicturetrue % By Jeff McGough. See uuguide and private thesis.sty
-%\inputpicturefalse % To NOT produce pictures, uncomment this line
-%%%%%
+% degree & department info
+\degree{$degree$\\ in\\ $degreeIn$}
+\approvaldepartment{$degreeIn$}
+\department{$department$}
+\graduatedean{$graduateDean$}
+\departmentchair{$departmentChair$}
 
 
-%%% ====================================================================
-%%% Typesetting begins here:
+% committee & dates
+\committeechair{$advisor$}
+\firstreader{$committee1$}
+\secondreader{$committee2$}
+\thirdreader{$committee3$}
+\fourthreader{$committee4$}
+\chairtitle{Professor}
+\submitdate{$submitted$ $year$}
+\copyrightyear{$year$}
+\chairdateapproved{$day$ $month$ $year$}
+\firstdateapproved{$day$ $month$ $year$}
+\seconddateapproved{$day$ $month$ $year$}
+\thirddateapproved{$day$ $month$ $year$}
+\fourthdateapproved{$day$ $month$ $year$}
+
 
 \begin{document}
 
-%% contents of dissertation
+
+% front matter content
 \frontmatterformat
 \titlepage
 \copyrightpage
 \dissertationapproval
-\setcounter {page}     {2}             % UofU Thesis Office demands abstract on p. iii: start one lower
-\preface    {$abstract$} {Abstract}
-% \dedicationpage
-\microtypesetup{protrusion=false} % disables protrusion locally for ToC
-\tableofcontents
-% \listoffigures
-% \listoftables
-\microtypesetup{protrusion=true} % enables protrusion
+\setcounter{page}{2} % abstract on p. iii
+\preface{$abstract$}{Abstract}
+\toc
+\preface{$acknowledge$}{Acknowledgments}
 
-%%% Uncomment this is you want the contents of acknowledge.tex typeset here.
-%%% Note that both "Acknowledgement" and "Acknowledgment" are accepted
-%%% spellings of that word.
-\preface{$acknowledgements$}{Acknowledgements}
 
-%%% Demonstrations of thesis typesetting features for the sample thesis.
-%%% Once you have seen the examples, you can comment out this line.
-%%: \optionalfront {Typesetting Experiments} {\input{samples.tex}}
-\maintext       % Start normal page numbering: parts and chapters follow.
-\pagestyle{headings} % NEW for sample-thesis-6
-
+% chapters
+\maintext
+\pagestyle{headings}
 $for(chapter)$
   \include{$chapter$}
 $endfor$
 
+
 % appendices
-\numberofappendices = $appendixCount$ % set 0 for none, else number of appendices
-\appendix % label all sections A, B, etc.
+\numberofappendices = $appendixCount$
+\appendix
 $for(appendix)$
   \include{$appendix$}
 $endfor$
-%\nocite{*}
 
-% print out refs chapter according to thesis template (from uuthesis2e.cls)
+
+% references (from uuthesis2e.cls)
 \newpage
   \thispagestyle{empty}%
   \addcontentsline{toc}{chapter}{REFERENCES}%
@@ -156,7 +115,7 @@ $endfor$
   \par\removelastskip\singlespace\par\removelastskip% GBG Oct 1993
   \fixmainheadingSKIP
 
-% show references
 \printbibliography[heading=none]
+
 
 \end{document}
