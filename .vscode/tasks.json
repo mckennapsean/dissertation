@@ -10,6 +10,14 @@
       "args": ["clean"]
     },
     {
+      "taskName": "cleanuu",
+      "args": ["cleanuu"]
+    },
+    {
+      "taskName": "make uu",
+      "args": ["uu"]
+    },
+    {
       "taskName": "make",
       "args": [],
       "isBuildCommand": true
