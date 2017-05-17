@@ -307,9 +307,9 @@ linked to deployments in two discourse channels.
   Four distinct channels played a role in BubbleNet's design. The first
   (top-most) channel was previous work, and the second and fourth channels
   involved users in two distinct settings, both research and operational. The
-  third channel involved a network analyst from our university. Each channel
-  incorporated different sets of users and data, but the final design and
-  deployment occurred due to the interaction of artifacts and user feedback
+  third channel involved a network analyst from the University of Utah. Each
+  channel incorporated different sets of users and data, but the final design
+  and deployment occurred due to the interaction of artifacts and user feedback
   across all channels. We highlight the various design activities conducted
   below the main timeline.
 ](figures/bubble-net/process-daf.pdf){#fig:process width="100%"}
