@@ -92,8 +92,9 @@
 \setmonofont[Scale=MatchLowercase]{Source Code Pro}
 % \setromanfont[Numbers=OldStyle, Ligatures={Common, TeX}, Scale=1.0]{Source Serif Pro}
 % \newfontfamily{\smallcaps}[RawFeature={+c2sc,+scmp}]{Source Serif Pro}
-% \setromanfont[Numbers=OldStyle, Ligatures={Common, TeX}, Scale=1.0]{Lora}
+% \setromanfont[Numbers=OldStyle, Ligatures={Common, TeX}, Scale=0.85]{Lora}
 % \newfontfamily{\smallcaps}[RawFeature={+c2sc,+scmp}]{Lora}
+% \newfontfamily\headerfont[]{Source Sans Pro Semibold}
 % \setsansfont[Scale=MatchLowercase, BoldFont={Source Sans Pro Bold}]{Source Sans Pro}
 % \setmonofont[Scale=MatchLowercase]{Source Code Pro}
 \RequirePackage[labelfont={bf,sf,footnotesize,singlespacing},
@@ -114,6 +115,10 @@
 \setlength{\headheight}{15pt}
 \pagestyle{plain}
 \RequirePackage{titling}
+% \titleformat*{\chapter}{\Large\bfseries\headerfont\color{themeColor}}
+% \titleformat*{\section}{\large\bfseries\headerfont\color{themeColor}}
+% \titleformat*{\subsection}{\itshape\headerfont}
+
 
 % Front matter.
 \setcounter{tocdepth}{1}
