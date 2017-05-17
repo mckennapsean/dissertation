@@ -81,6 +81,8 @@
 \RequirePackage{mathspec}
 \setmathsfont(Digits,Latin,Greek)[Numbers={Proportional}]{EB Garamond}
 \setmathrm{EB Garamond}
+% \setmathsfont(Digits,Latin,Greek)[Numbers={Proportional}]{Source Code Pro}
+% \setmathrm{Source Code Pro}
 \AtBeginEnvironment{tabular}{\addfontfeature{RawFeature=+tnum}}
 \widowpenalty=300
 \clubpenalty=300
@@ -88,6 +90,12 @@
 \newfontfamily{\smallcaps}[RawFeature={+c2sc,+scmp}]{EB Garamond}
 \setsansfont[Scale=MatchLowercase, BoldFont={Lato Bold}]{Lato Regular}
 \setmonofont[Scale=MatchLowercase]{Source Code Pro}
+% \setromanfont[Numbers=OldStyle, Ligatures={Common, TeX}, Scale=1.0]{Source Serif Pro}
+% \newfontfamily{\smallcaps}[RawFeature={+c2sc,+scmp}]{Source Serif Pro}
+% \setromanfont[Numbers=OldStyle, Ligatures={Common, TeX}, Scale=1.0]{Lora}
+% \newfontfamily{\smallcaps}[RawFeature={+c2sc,+scmp}]{Lora}
+% \setsansfont[Scale=MatchLowercase, BoldFont={Source Sans Pro Bold}]{Source Sans Pro}
+% \setmonofont[Scale=MatchLowercase]{Source Code Pro}
 \RequirePackage[labelfont={bf,sf,footnotesize,singlespacing},
                 textfont={sf,footnotesize,singlespacing},
                 justification={justified},
