@@ -174,8 +174,14 @@
 \def\pdTwoSchool#1{\gdef\@pdTwoSchool{#1}}
 \def\pdTwoYear#1{\gdef\@pdTwoYear{#1}}
 
-% accent color to match website theme
-\definecolor{accentColor}{rgb}{0.404, 0.294, 0.549}
+% theme & accent colors to match website theme (purple & pink)
+% chaptergrey is the color of chapter number markers
+\definecolor{themeColor}{rgb}{0.404, 0.294, 0.549}
+\definecolor{chaptergrey}{rgb}{0.404, 0.294, 0.549}
+\definecolor{accentColor}{rgb}{0.980, 0.267, 0.667}
+\definecolor{webdark}{rgb}{0.133, 0.149, 0.161}
+\definecolor{webgrey}{rgb}{0.533, 0.533, 0.533}
+\definecolor{weblight}{rgb}{0.961, 0.976, 0.980}
 
 \hypersetup{
     colorlinks,
@@ -203,7 +209,7 @@
 	\vspace*{\fill}
 	\vspace{100pt}
 	\begin{center}
-	\Huge \textcolor{accentColor}{\thetitle} \normalsize \\
+	\Huge \textcolor{themeColor}{\thetitle} \normalsize \\
 	\vspace{100pt}
 	\textsc{a dissertation presented \\ by\\
 	\theauthor\\ to\\ The \@department\\
@@ -237,7 +243,7 @@
 	\renewcommand{\headrulewidth}{0.0pt}
 	\vspace*{35pt}
 	\begin{center}
-	\Large \textcolor{accentColor}{\@title} \normalsize \\
+	\Large \textcolor{themeColor}{\@title} \normalsize \\
 	\vspace*{20pt}
 	\scshape Abstract \\ \rm
 	\end{center}
