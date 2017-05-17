@@ -1,6 +1,11 @@
 % rotate table
 \begin{landscape}
 
+
+% reduce paragraph spacing (for cells)
+\begin{spacing}{1.0}
+
+
 % alternate row colors (NOTE: if colors are weird, swap order, 2 to a 1)
 \definecolor{light-gray}{gray}{0.90}
 \rowcolors{2}{white}{light-gray}
@@ -146,4 +151,5 @@
 
 % end page and un-rotate
 \newpage
+\end{spacing}
 \end{landscape}
