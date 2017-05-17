@@ -520,32 +520,7 @@ next chapter, along with both commonly used and potentially novel or interesting
 methods for visualization design.
 
 
-<!-- TODO need to update the refs in this figure??!! get appropriate ones or remove? since in appendix... -->
-
-<!--\input{templates/methods-table-subset}-->
-
-\afterpage{
-\clearpage
-\begin{longtable}[]{cccc}
-\noalign{\vspace{3.2in}}
-\caption{\label{tbl:methods}
-  Numerous exemplar methods and where they fit within the framework. A more
-  extensive list of 100 methods is in Appendix~\ref{sec:app-methods}. We coded
-  each method into one or more of the four design activities: \emph{understand}
-  (\textbf{\emph{u}}), \emph{ideate} (\textbf{\emph{i}}), \emph{make}
-  (\textbf{\emph{m}}), and \emph{deploy} (\textbf{\emph{d}}). Additionally, we
-  tagged whether each method was largely generative (\textbf{\emph{g}}) or
-  evaluative (\textbf{\emph{e}}), or both. Lastly, we categorized the methods we
-  have seen commonly reported within the visualization community
-  (\textbf{\emph{v}}) and also present succinct definitions for each method to
-  assist designers in trying each method out.
-}\endfirsthead \tabularnewline
-\includegraphics[width=1.00000\textwidth]{figures/daf/table.pdf}
-\end{longtable}
-\newpage
-}
-
-<!-- ThesisOffice: force table title on own page after content, cannot embed as in below so used latex -->
+\input{templates/methods-table-subset}
 
 <!--
 ![
