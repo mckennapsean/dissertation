@@ -20,8 +20,6 @@ describe these artifacts, our decisions, and our design process fully, but we
 were able to more effectively capture, characterize, and explain multiple
 aspects of our visualization design process using the design activity framework.
 
-<!-- CONCERN: should we better highlight stuff from the nested model and nine-stage framework? what was missing, why did these models fail? what held you back? how did DAF help? -->
-
 
 
 

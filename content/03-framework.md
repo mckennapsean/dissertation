@@ -42,8 +42,6 @@ guidance on how to choose effective design methods with a table of 40 selected
 design methods of interest to visualization designers to employ in their own
 projects.
 
-<!-- CONCERN: \ja{more on nine-stage framework} miriah: what do you think? -->
-
 
 
 
