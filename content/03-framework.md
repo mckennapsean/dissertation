@@ -248,19 +248,19 @@ their ideas early and often to help them generate more and better ideas.
 Next, a visualization designer must start to build a visualization system in the
 **make** activity. This activity's motivation is _to concretize ideas into
 tangible prototypes._ The visualization artifacts from the _make_ activity are a
-set of prototypes, with prototypes defined as "approximations of a product along
-some dimensions of interest" [@Hartmann2006a]. These prototypes must be built to
-handle and visualize real datasets, and it is common that, as prototypes get
-constructed, more design requirements or ideas may be explored and discovered,
-highlighting the iterative nature of visualization design. Another aspect of the
-_make_ activity goes beyond design: visualization designers need to employ
-software engineering and development techniques for writing code and programs to
-build visualizations to meet the needs of the users. This could be as simple as
-writing scripts or automating processes for generating visualizations and tying
-them together using a variety of existing tools, but it is also possible to use
-other visualization frameworks (e.g., D3.js, Vega, Processing) or graphics
-toolkits (e.g., OpenGL, WebGL, Canvas) to build and generate interactive
-visualizations from the ground up.
+set of prototypes, with prototypes defined as _"approximations of a product
+along some dimensions of interest"_ [@Hartmann2006a]. These prototypes must be
+built to handle and visualize real datasets, and it is common that, as
+prototypes get constructed, more design requirements or ideas may be explored
+and discovered, highlighting the iterative nature of visualization design.
+Another aspect of the _make_ activity goes beyond design: visualization
+designers need to employ software engineering and development techniques for
+writing code and programs to build visualizations to meet the needs of the
+users. This could be as simple as writing scripts or automating processes for
+generating visualizations and tying them together using a variety of existing
+tools, but it is also possible to use other visualization frameworks (e.g.,
+D3.js, Vega, Processing) or graphics toolkits (e.g., OpenGL, WebGL, Canvas) to
+build and generate interactive visualizations from the ground up.
 
 
 Most engineering design process models couple the ideate and make activities. We

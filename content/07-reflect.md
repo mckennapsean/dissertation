@@ -270,9 +270,8 @@ animation.
 As with multidimensional exploration between projections, animating between
 planes results in structures, such as clusters of correlated variables, moving
 together (or apart) in 3D, giving the user a partial sense of the relationship
-of the standardized variables in the multidimensional space. Perceptually,
-the animation results in seeing "shape from
-motion" [@ullman:visualMotion].
+of the standardized variables in the multidimensional space. Perceptually, the
+animation results in seeing _"shape from motion"_ [@ullman:visualMotion].
 
 
 
@@ -401,18 +400,18 @@ system, and the types of evaluation we employed on the s-CorrPlot match these
 levels: complexity analysis, interactive framerates with large datasets,
 qualitative image analysis, and case studies with our collaborators. On the
 other hand, with respect to a design study, there was a threat we squarely fell
-upon at the problem characterization level: "wrong problem" [@Munzner2009].
-Although this threat is characterized as "target users do not in fact have these
-problems" [@Munzner2009], the real threat we faced was more that the problem on
-its own was not the complete picture. The narrow focus to visualizing only one
-type of dataset and one visualization technique did not capture the greater
-problems that our domain experts were tackling. Although the s-CorrPlot tool did
-solve one of these problems quite well, it left future questions and work for
-domain experts outside of our tool. By failing to identify the appropriate set
-of problems and challenges broadly, the project was less successful as a design
-study. Thus, the "incomplete problem" threat we faced was not fully captured by
-the nested model, and the design study could have been improved by fleshing out
-the situation blocks [@Meyer] more completely.
+upon at the problem characterization level: _"wrong problem"_ [@Munzner2009].
+Although this threat is characterized as _"target users do not in fact have
+these problems"_ [@Munzner2009], the real threat we faced was more that the
+problem on its own was not the complete picture. The narrow focus to visualizing
+only one type of dataset and one visualization technique did not capture the
+greater problems that our domain experts were tackling. Although the s-CorrPlot
+tool did solve one of these problems quite well, it left future questions and
+work for domain experts outside of our tool. By failing to identify the
+appropriate set of problems and challenges broadly, the project was less
+successful as a design study. Thus, the "incomplete problem" threat we faced was
+not fully captured by the nested model, and the design study could have been
+improved by fleshing out the situation blocks [@Meyer] more completely.
 
 
 The design activity framework, as a process model, is able to capture multiple
@@ -483,19 +482,19 @@ visualizations in the space of visual data stories. Many factors can shape the
 flow of visual data-driven stories, and thereby the way readers experience those
 stories. Through the analysis of 80 existing stories found on popular websites,
 we systematically investigated and identified seven characteristics of these
-stories, which we name "flow-factors," and we illustrated how they feed into the
-broader concept of "visual narrative flow" [@mckenna2017]. These flow-factors
-are navigation input, level of control, navigation progress, story layout, role
-of visualization, story progression, and navigation feedback. We describe a
-series of studies we conducted, which shed initial light on how different visual
-narrative flows impact the reading experience. We report on two exploratory
-studies, in which we gathered reactions and preferences of readers for stepper-
-vs. scroller-driven flows. We then report on a crowdsourced study with 240
-participants, in which we explore the effect of the combination of different
-flow-factors on readers' engagement. Our results indicate that visuals and
-navigation feedback (e.g., static vs. animated transitions) have an impact on
-readers' engagement, while level of control (e.g., discrete vs. continuous) may
-not.
+stories, which we name **flow-factors**, and we illustrated how they feed into
+the broader concept of _"visual narrative flow"_ [@mckenna2017]. These
+flow-factors are navigation input, level of control, navigation progress, story
+layout, role of visualization, story progression, and navigation feedback. We
+describe a series of studies we conducted, which shed initial light on how
+different visual narrative flows impact the reading experience. We report on two
+exploratory studies, in which we gathered reactions and preferences of readers
+for stepper- vs. scroller-driven flows. We then report on a crowdsourced study
+with 240 participants, in which we explore the effect of the combination of
+different flow-factors on readers' engagement. Our results indicate that visuals
+and navigation feedback (e.g., static vs. animated transitions) have an impact
+on readers' engagement, while level of control (e.g., discrete vs. continuous)
+may not.
 
 
 ### Project Motivation
@@ -695,9 +694,9 @@ Two studies employed different protocols: an online pilot survey and in-person
 observations and interviews.
 
 
-For these exploratory studies, we utilized the story, "The Visual Introduction
-to Machine Learning" by Yee and Chu [@ml]. As shown in [@fig:ml], this story is
-a scroller, and we adapted the story and its various story points into another
+For these exploratory studies, we utilized the story, _"A Visual Introduction to
+Machine Learning"_ by Yee and Chu [@ml]. As shown in [@fig:ml], this story is a
+scroller, and we adapted the story and its various story points into another
 type of flow: a stepper. We selected this story because it won several awards,
 had many views, and was generally discussed as a good example of a scroller. In
 addition, we believe that it could transfer well to a stepper (slideshow) model.
@@ -776,11 +775,11 @@ contrast, we observed less interaction with the stepper. The participants
 generally hovered their fingers over the buttons to facilitate navigation and
 did not replay animation back and forth as much. We noted more expressions of
 joy and pleasure, such as laughter, from three participants in the scrolling
-experience. As participants stated: "scrolling allowed me to see the
-transformations more fluidly" (participant #4, or P4), "scrolling is sexier in
-some ways, it is unique ... and just more fun" (P10), and "my preference would
+experience. As participants stated: _"scrolling allowed me to see the
+transformations more fluidly"_ (participant #4, or P4), _"scrolling is sexier in
+some ways, it is unique ... and just more fun"_ (P10), and _"my preference would
 be a stepper with slides ... but scrolling goes over these expectations, since
-it ... helps reasoning and understanding" (P5). Six participants expressed that
+it ... helps reasoning and understanding"_ (P5). Six participants expressed that
 the continuous control over animations afforded by scrolling was very engaging,
 though this could be an effect of novelty or self-reporting on engagement.
 
@@ -906,8 +905,8 @@ ranked the engagement of stories with visualizations higher than the first
 baseline, text-only story. It is important to note that these effects are small,
 since they are averages of the 14 questions on engagement. Certain questions had
 a stronger effect across the visual narrative flows, such as visualizations
-scoring higher on an aesthetics question: "This reading experience appealed to
-my visual senses." We provide an engagement model for each question and
+scoring higher on an aesthetics question: _"This reading experience appealed to
+my visual senses."_ We provide an engagement model for each question and
 condition on our project website.
 
 
@@ -932,8 +931,8 @@ Additionally, we found a significant effect on the chapter of the story ($p =
 a higher engagement score (0.10). In other words, the animated conditions scored
 even higher in engagement for the second chapter of the story, which contained
 dynamic transitions. A question on novelty scored higher for flows with
-animations: "The reading experience was different from a typical online reading
-experience." Subsequently, animated transitions, such as navigation feedback,
+animations: _"The reading experience was different from a typical online reading
+experience."_ Subsequently, animated transitions, such as navigation feedback,
 showed a measurable benefit for reader-perceived engagement.
 
 

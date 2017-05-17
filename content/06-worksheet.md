@@ -579,7 +579,7 @@ both _understand_ and _ideate_ worksheets _"helped to get the project off the
 ground."_ On the flip side, the _deploy_ (four students) worksheet was selected
 as the least helpful because students often did not have sufficient time to
 focus on this activity, as they stated, _"We were out of time"_ and _"Once the
-projects were off the ground, [_deploy_] didn't seem too important."_ Student
+projects were off the ground, [deploy] didn't seem too important."_ Student
 feedback highlighted a benefit for the specific steps in an activity to organize
 and record their design process, explaining that for the worksheets: _"It seemed
 that the amount of text, guidance, and time taken achieved a proper balance."_

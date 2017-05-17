@@ -284,7 +284,7 @@ studies.
 
 While employing the design activity framework, we reflected on our design
 process and modeled it in the form of the Wood et al. discourse channels, which
-are "complex relationship between producers and consumers of a visualization"
+are _"complex relationship between producers and consumers of a visualization"_
 [@Wood2014]. In this work, we utilized four distinct discourse channels: a
 software company, a research organization, university information security, and
 an operational organization. These different discourse channels interacted
@@ -452,10 +452,10 @@ motivation is an ideal fit for the personas design method.
 
 The personas method is often utilized within the user-experience, design, and
 HCI communities [@Pruitt2003; @Faily2011; @Chang2008; @McGinn2008; @Martin2012].
-Personas are "documents meant to foster communication within a design team as
-archetypes of users, their behaviors, and their knowledge" [@Martin2012]. Within
-the cyber security domain, Stoll et al. describe a specific methodology for
-using personas, highlighting their benefits for cyber security visualization
+Personas are _"documents meant to foster communication within a design team as
+archetypes of users, their behaviors, and their knowledge"_ [@Martin2012].
+Within the cyber security domain, Stoll et al. describe a specific methodology
+for using personas, highlighting their benefits for cyber security visualization
 design [@Stoll2008a]. Here, we further this work in three ways. First, we
 describe how personas benefit the communication within a design team. Second, we
 add visual elements to our personas to promote fast visual comparison of
@@ -552,10 +552,10 @@ captured from users [@McGinn2008].
 
 ## Data Sketches Design Method
 
-As originally pioneered, data sketches allow a designer to "quickly and flexibly
-produce transient and uncertain visual representations of domain data by
-scavenging existing applications for functionality that allow data,
-interactions, and functionality to be combined" [@Lloyd2011]. In other words, a
+As originally pioneered, data sketches allow a designer to _"quickly and
+flexibly produce transient and uncertain visual representations of domain data
+by scavenging existing applications for functionality that allow data,
+interactions, and functionality to be combined"_ [@Lloyd2011]. In other words, a
 data sketch is a visualization developed using available software tools. We
 incorporated data sketches into our design of the cyber security dashboard
 during our _understand_ and _ideate_ design activities in order to establish a
