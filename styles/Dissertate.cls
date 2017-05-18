@@ -79,24 +79,15 @@
 \RequirePackage{amssymb}
 \RequirePackage{amsmath}
 \RequirePackage{mathspec}
-\setmathsfont(Digits,Latin,Greek)[Numbers={Proportional}]{EB Garamond}
-\setmathrm{EB Garamond}
-% \setmathsfont(Digits,Latin,Greek)[Numbers={Proportional}]{Source Code Pro}
-% \setmathrm{Source Code Pro}
+\setmathsfont(Digits,Latin,Greek)[Numbers={Proportional}]{Adobe Garamond Pro}
+\setmathrm{Adobe Garamond Pro}
 \AtBeginEnvironment{tabular}{\addfontfeature{RawFeature=+tnum}}
 \widowpenalty=300
 \clubpenalty=300
-\setromanfont[Numbers=OldStyle, Ligatures={Common, TeX}, Scale=1.0]{EB Garamond}
-\newfontfamily{\smallcaps}[RawFeature={+c2sc,+scmp}]{EB Garamond}
+\setromanfont[Numbers=Lining, Ligatures={Common, TeX}, Scale=1.0]{Adobe Garamond Pro}
+\newfontfamily{\smallcaps}[RawFeature={+c2sc,+scmp}]{Adobe Garamond Pro}
 \setsansfont[Scale=MatchLowercase, BoldFont={Lato Bold}]{Lato Regular}
 \setmonofont[Scale=MatchLowercase]{Source Code Pro}
-% \setromanfont[Numbers=OldStyle, Ligatures={Common, TeX}, Scale=1.0]{Source Serif Pro}
-% \newfontfamily{\smallcaps}[RawFeature={+c2sc,+scmp}]{Source Serif Pro}
-% \setromanfont[Numbers=OldStyle, Ligatures={Common, TeX}, Scale=0.85]{Lora}
-% \newfontfamily{\smallcaps}[RawFeature={+c2sc,+scmp}]{Lora}
-% \newfontfamily\headerfont[]{Source Sans Pro Semibold}
-% \setsansfont[Scale=MatchLowercase, BoldFont={Source Sans Pro Bold}]{Source Sans Pro}
-% \setmonofont[Scale=MatchLowercase]{Source Code Pro}
 \RequirePackage[labelfont={bf,sf,footnotesize,singlespacing},
                 textfont={sf,footnotesize,singlespacing},
                 justification={justified},
@@ -115,9 +106,6 @@
 \setlength{\headheight}{15pt}
 \pagestyle{plain}
 \RequirePackage{titling}
-% \titleformat*{\chapter}{\Large\bfseries\headerfont\color{themeColor}}
-% \titleformat*{\section}{\large\bfseries\headerfont\color{themeColor}}
-% \titleformat*{\subsection}{\itshape\headerfont}
 
 
 % Front matter.
