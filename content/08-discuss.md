@@ -2,42 +2,48 @@
 
 The design activity framework lays the groundwork for further research and
 models that connect creative and engineering processes [@Lowgren1995;
-@Howard2008; @Wolf2006; @Moere2011] for visualization design. By building on
-existing models in the field [@Sedlmair2012b; @Munzner2009; @Meyer], the design
-activity framework retains the application and benefits from these existing
-models while also extending its scope to other kinds of situations and
-visualization projects. The design activity framework is by no means complete.
-Future projects may reveal new aspects such as crucial activities for
-visualization design or different kinds of visualization artifacts. The design
-activity framework can and should evolve over time to adapt to more kinds of
-visualization design projects to keep its use valid and current with how
-visualization systems are designed for users.
+@Howard2008; @Wolf2006; @Moere2011] for visualization design. Through its design
+activity motivations, visualization artifacts, design worksheets, timelines,
+design methods and connection to design decisions, the design activity framework
+is more achievable, flexible, justifiable, discoverable, and actionable than
+existing models in the field. By building on these existing models
+[@Sedlmair2012b; @Munzner2009; @Meyer], the design activity framework retains
+the application and benefits from these existing models while also extending its
+scope to other kinds of situations and visualization projects, particularly for
+applied visualization design. However, the design activity framework is by no
+means complete. Future projects may reveal new aspects such as crucial
+activities for visualization design or different kinds of visualization
+artifacts. The design activity framework can and should evolve over time to
+adapt to more kinds of visualization design projects to keep its use valid and
+current with how visualization systems are designed for users.
 
 
 In this chapter, we first explore the necessary scope, limitations, and avenues
-for future work based on the design activity framework. Next, we discuss
-implications from the first case study, a cyber security redesign project.
-Following this discussion, we focus on insights gained in our second case study
-for cyber security on the topics of winnowing users, casting roles for
-collaborators, and utilizing multiple discourse channels for visualization
-design. The use of user-centered design methods impacted both case studies
-positively, capturing visualization artifacts across design activities. More
-work still needs to be done to continue the validation of this framework, and we
-explore the limitations of the evaluation techniques used for the design
-activity worksheets in the classroom. Next, we relate these design processes to
-those used in development and software engineering, within the context of
-building data visualization systems. Specifically, agile methodologies are a
-popular choice for software engineering processes that have begun to combine
-engineering and creative approaches. Lastly, although the design activity
-framework could apply to other types of research beyond application-driven
-design study projects, more examination and validation is required to
-investigate this notion.
+for future work based on the design activity framework ([Section @sec:scoping]).
+Although the design activity framework can apply to other types of research
+beyond application-driven design study projects, more examination and validation
+is required to investigate this notion in further detail. Next, we discuss
+implications from the first case study, a cyber security redesign project
+([Section @sec:design-teams]). Following this discussion, we focus on insights
+gained in our second case study for cyber security on the topics of winnowing
+users, casting roles for collaborators, and utilizing multiple discourse
+channels for visualization design ([Section @sec:cast-channels]). The use of
+user-centered design methods impacted both case studies positively, capturing
+visualization artifacts across design activities ([Section @sec:ucd-methods]).
+More work still needs to be done to continue the validation of this framework,
+and we explore the limitations of the evaluation techniques used for the design
+activity worksheets in the classroom ([Section @sec:worksheet-discussion]).
+Next, we relate these design processes to those used in development and software
+engineering, within the context of building data visualization systems.
+Specifically, agile methodologies are a popular choice for software engineering
+processes that have begun to combine engineering and creative approaches
+([Section @sec:swe-agile]).
 
 
 
 
 
-## Scoping the Design Activity Framework
+## Scoping the Design Activity Framework {#sec:scoping}
 
 The design activity framework is one approach to capture the steps of the
 visualization design process, and we have argued that one of its benefits over
@@ -52,23 +58,6 @@ design decisions. By highlighting connections to the nested model
 [@Munzner2009], the design activity framework supports visualization designers
 through the act of carefully and methodically identifying appropriate methods
 for validating and evaluating visualization artifacts in a design activity.
-
-
-As a process model, the primary goal of the design activity framework is to
-guide visualization designers through a design process. We believe that the
-framework will be useful to those with a broad range of expertise. The
-actionability of the framework stems from the inclusion of more than just
-activities and methods, as is done in other models such as the nine-stage
-framework [@Sedlmair2012b]. Specifically, the design activity framework also
-includes motivations, visualization artifacts, and explicit ties to the nested
-model in order to help guide a designer through the visualization design
-process. The motivation enables a visualization designer to determine which
-activity is currently being performed, which then allows the designer to
-identify potential methods, clarify artifacts, and make decisions with respect
-to the nested model. Although the design activity framework targets
-problem-driven visualization work, we could not identify a concrete reason why
-it could not be useful for technique-driven work as well; this extension
-presents interesting future work.
 
 
 The framework promotes increased design process flexibility by enabling and
@@ -90,6 +79,61 @@ know where to go next, when to stop, and what makes an effective design
 [@Buchanan1992]. These challenges exist for many design process models,
 including the design activity framework, pointing to opportunities for further
 investigation.
+
+
+As a process model, the primary goal of the design activity framework is to
+guide visualization designers through a design process. We believe that the
+framework will be useful to those with a broad range of expertise. The
+actionability of the framework stems from the inclusion of more than just
+activities and methods, as is done in other models such as the nine-stage
+framework [@Sedlmair2012b]. Specifically, the design activity framework also
+includes motivations, visualization artifacts, and explicit ties to the nested
+model in order to help guide a designer through the visualization design
+process. The motivation enables a visualization designer to determine which
+activity is currently being performed, which then allows the designer to
+identify potential methods, clarify artifacts, and make decisions with respect
+to the nested model. Although the design activity framework targets
+problem-driven visualization work, we could not identify a concrete reason why
+it could not be useful for technique-driven work as well; we reflected on
+previous projects in order to explore this extension.
+
+
+As illustrated in [@sec:reflections], the design activity framework has the
+ability to encompass and represent other types of research beyond only design
+studies, such as technique-driven or evaluative research projects. These
+projects are just the beginning of formalizing adaptations of the design
+activity framework for these styles of research. For example, custom worksheets
+for research activities within these approaches, with varying artifacts and
+suggested methods, could be created, utilized, and validated. It may be
+necessary to reshape the design activity framework and the concepts on which it
+is based for these different research modes. This is an interesting avenue for
+future work to explore and shed further light on the connection of research
+activities, such as reflection, learning, and writing [@Sedlmair2012b;
+@McCurdy2016], and where they fit in the broader context of visualization
+design.
+
+
+Visualization design, from experiments to systems to encoding or interaction
+techniques, plays a role in visualization research beyond just that of design
+studies. Researchers may often still work in teams and receive benefit from
+common terminologies for the research activities they perform. However, it is
+also unclear if the design activity framework is the appropriate model for all
+these kinds of work, so new models or extensions may be necessary. We recognize
+that problem-driven research encompasses many types of projects, however, and
+the design activity framework may be a useful lens for a variety of
+visualization design projects. Moreover, future work should explore these facets
+and consider how to best teach, guide, and support visualization novices in all
+aspects of visualization design.
+
+
+It is also important to adapt this framework and process beyond academia and
+pedagogy, to better understand how visualization designers work in industry and
+on product teams to build visualization tools and systems. It may be necessary
+to adopt more applicable or succinct terminology for such applications, and
+these modifications could benefit the design activity framework as a process
+model for a whole variety of interdisciplinary visualization projects engaging
+members such as visual designers, data visualization experts, and software
+engineers.
 
 
 The design activity framework has several limitations, the first of which is
@@ -118,27 +162,28 @@ for generation or evaluation, and assist the compact communication of a design
 process, as in [@fig:timelines]. We consider all design models to be a
 work-in-progress, and the design activity framework is by no means excluded.
 Further validating this framework against additional visualization design
-projects and in more pedagogical settings remains an interesting avenue for
-future work.
+projects, with a variety of different visualization designers, and in more
+pedagogical settings all lead to interesting avenues for future work.
 
 
-A number of open questions are possible for future work. For example, we
-established this framework from a problem-driven methodology, and it would be
-useful to rigorously, but cautiously, validate the use of the framework for more
-technique-driven projects. Furthermore, in the list of exemplar methods we
-include novel methods for visualization design, but the utility and
-effectiveness of these methods for designing a visualization system have yet to
-be tested and verified. Most visualization process models have not yet addressed
-a series of challenges: Where should I go next in the process? What method is
-the best for my situation? When do I know my design is effective enough? We
-believe these future directions provide rich opportunities to further explore
-the role of the design activity framework for visualization designers.
+A number of open questions remain for future work. For example, we established,
+evaluated, and reflected using this framework with a problem-driven methodology,
+and it would be useful to rigorously, but cautiously, validate the use of the
+framework for other methodologies, such as algorithmic-driven work. Furthermore,
+in the list of exemplar methods we include novel methods for visualization
+design, but the utility and effectiveness of these methods for designing a
+visualization system have yet to be tested and verified. Most visualization
+process models have not yet addressed a series of challenging questions: Where
+should I go next in the process? What method is the best for my situation? When
+do I know my design is effective enough? We believe these future directions
+provide rich opportunities for models to further explore the visualization
+design process.
 
 
 
 
 
-## Working in Design Teams
+## Working in Design Teams {#sec:design-teams}
 
 Throughout our redesign project in [@sec:formulation], we worked closely as a
 design team composed of designers, a psychologist, and visualization experts.
@@ -177,7 +222,7 @@ of visualization design.
 
 
 
-## Casting, Collaborators, and Channels
+## Casting, Collaborators, and Channels {#sec:cast-channels}
 
 Upon reflecting on the BubbleNet design study in [@sec:security], we realized
 that winnowing and casting of user roles[@Sedlmair2012b] occurred later in the
@@ -235,7 +280,7 @@ needs to discuss these trade-offs in order to get tools in the hands of users.
 
 
 
-## User-Centered Design Methods
+## User-Centered Design Methods {#sec:ucd-methods}
 
 In our case studies, we demonstrated how user-centered design methods can be
 both efficient and effective for visualization design. Specifically, we
@@ -266,7 +311,7 @@ data, and tasks.
 
 
 
-## Design Worksheet Evaluation
+## Design Worksheet Evaluation {#sec:worksheet-discussion}
 
 When using the design activity worksheets in the classroom, we observed the
 process by which students perform visualization design with these worksheets,
@@ -387,7 +432,7 @@ use.
 
 
 
-## Software Engineering and Agile Development
+## Software Engineering and Agile Development {#sec:swe-agile}
 
 A field related to the design of data visualization tools is software
 engineering or how people develop tools and systems. The field of software
@@ -458,44 +503,4 @@ these agile approaches, such as sprints. Although the focus of this dissertation
 is less on general principles of software engineering or agile development, many
 aspects and methods from these methodologies can be applied and can fit into the
 context of the design activity framework for visualization design.
-
-
-
-
-
-## Additional Types of Research
-
-As illustrated in [@sec:reflections], the design activity framework has the
-ability to encompass and represent other types of research beyond
-application-driven work, such as technique-driven or evaluative research
-projects. These projects are just the beginning of formalizing adaptations of
-the design activity framework for these styles of research. For example, custom
-worksheets for research activities within these approaches, with varying
-artifacts and suggested methods, could be created, utilized, and validated. It
-may be necessary to reshape the design activity framework and the concepts on
-which it is based for these different research modes. This is an interesting
-avenue for future work to explore and shed further light on the connection of
-research activities, such as reflection, learning, and writing [@Sedlmair2012b;
-@McCurdy2016], and where they fit in the broader context of visualization
-design.
-
-
-Visualization design, from experiments to systems to encoding or interaction
-techniques, plays a role in visualization research beyond just that of design
-studies. Researchers may often still work in teams and receive benefit from
-common terminologies for the research activities they perform. However, it is
-also unclear if the design activity framework is the appropriate model for all
-these kinds of work, so new models or extensions may be necessary. Future work
-should explore these facets and consider how to best teach, guide, and support
-visualization novices in all aspects of visualization design.
-
-
-It is also important to adapt this framework and process beyond academia and
-pedagogy, to better understand how visualization designers work in industry and
-on product teams to build visualization tools and systems. It may be necessary
-to adopt more applicable or succinct terminology for such applications, and
-these modifications could benefit the design activity framework as a process
-model for a whole variety of interdisciplinary visualization projects engaging
-members such as visual designers, data visualization experts, and software
-engineers.
 

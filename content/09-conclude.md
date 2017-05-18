@@ -52,9 +52,15 @@ number of improvements for the future.
 By reflecting on other types of research we have conducted, we explored how
 visualization design and the design activity framework relate to other kinds of
 research, both technique-driven [@mckenna2015s] and evaluative work
-[@mckenna2017]. Discussions for each project are considered with regard to how
-visualization design process models and the pedagogy of these models can be
-improved over time. As the field of data visualization matures, it is crucial we
-adapt and modify our design models in order to better prescribe, describe,
-encompass, analyze, and communicate the visualization design process.
+[@mckenna2017]. In particular, we identified new types of pitfalls for design
+studies and observed how the steps of the visualization design process mapped to
+both technique-driven prototypes and experimental design research. Over time, it
+is important to build upon these design models and continue to validate their
+usefulness and effectiveness for all kinds of visualization designers, from
+students in the classroom to expert practitioners in industry. By exploring more
+types of visualization designers over time, new models can expand upon this work
+to capture more types of visualization research and design projects. As the
+field of data visualization matures, it is crucial we adapt and modify our
+design models in order to better prescribe, describe, encompass, analyze, and
+communicate the visualization design process.
 
