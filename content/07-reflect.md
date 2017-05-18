@@ -977,38 +977,45 @@ not find any major differences in comprehension across condition pairs.
 
 ### Applying the Design Activity Framework
 
-In framing and evaluating this design space for visual narrative flow, the
-nine-stage framework was not a good fit for our process because this was not a
-design study. For example, no specific set of domain experts created the
-visualization stories that we worked with. This work aimed to support the
-creation of a tool to help these authors write, develop, and combine
-visualizations and animated transitions with text. However, we primarily
-explored and investigated the various possibilities and common practices in the
-overall design space. Although this work was problem-driven, the user study
-evaluation methods produced guidelines unlike those from design studies that
-typically result from inner reflection and synthesis of the research and design
-process [@Sedlmair2012b].
+This project aimed to support the creation of a tool to help story authors
+write, develop, and combine visualizations and animated transitions with text.
+So while this project was also applied research, a major focus of this work was
+to evaluate the qualitative story reading experience and compare engagement of
+different visual narrative flows. As such, a process model for design studies is
+not an apt fit to describe the steps we went through. However, the design
+activity framework is able to generally describe some of these stages, to create
+visualization artifacts, such as study hypotheses and story "prototypes." One
+stage of this project was qualitatively coding a corpus of many visual data
+stories, and this method was quite similar to other times we employed this
+method similarly in the _understand_ activity. As before, the design
+requirements we identified were critical to shaping the project, and here they
+are the seven flow-factors that we identified which motivated how we conducted
+user evaluation. Then, we employed user studies that resulted in guidelines for
+future tools, and the design activity framework is able to capture and describe
+the results of these evaluation methods to facilitate other visualization
+practitioners designing and evaluating tools and techniques in this space.
 
 
-With regard to the nested model, evaluation and user studies connect to the
-encoding and interaction levels, plus this model highlights one of the
-limitations of this project. For example, the crowdsourced user study described
-previously focused on establishing subjective comparisons of engagement using a
-questionnaire to produce guidelines on different visualization encoding and
-interaction techniques, coined visual narrative flows in the study. Various
-iterations of the study occurred, some of which tested usability and others that
-more formally tested other aspects such as reader-reported engagement. These
-forms of validation match their respective levels, and they also correspond to
-some of the contributions of this work, guidelines to utilize animation and
-visuals to increase engagement of visual data stories. However, the limitation
-stems from the nested model extension [@Meyer], which would emphasize that we
-built the visualization stories on a series of stacks of blocks, and the
-established guidelines would be scoped to the studied stack of blocks. As such,
-this model pinpoints a lack of generalizibility in the reported study, since the
-findings and guidelines may be localized to the given story.
+By connecting the design process to design decisions, we were able to reflect on
+how the studys' guidelines fit within the overall design process of these
+evaluation methods. By mapping to the nested model, the design activity
+framework emphasized that the evaluation and user studies for this project
+correspond to decisions made at the encoding and interaction levels. For
+example, the different types of visual feedback, interaction techniques, and
+levels of control all correspond to decisions we had to make when designing a
+story on one or both of these levels. With this mapping to decisions, we
+identified a limitation to the project. Specifically, the exploratory and
+crowdsourced studies investigated usability and reader-reported engagement to
+compare visual narrative flows. As a result of these studies, we established
+guidelines to utilize animation and visuals to increase engagement, implications
+for the _make_ and _deploy_ activities. While the design activity framework can
+describe these guidelines succintly, the nested model extension [@Meyer]
+elucidates this limitation, since the stories could be viewed as stacks of
+blocks, and the user study guidelines were only shown to be effective for a
+stories rather than generalized across many different stories.
 
 
-On the other hand, the design activity framework can be utilized to model and
+On the other hand, we noted that we could reflect on how the design activity framework can be utilized to model and
 describe this experimental design process. As before, the experimental designer
 must first approach a given problem to identify potential tasks, datasets to
 utilize, and which users to test, and then establish hypotheses for the research
