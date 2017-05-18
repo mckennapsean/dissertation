@@ -385,73 +385,42 @@ _"This is revealing new brain-region specific patterns in the data
 ### Applying the Design Activity Framework
 
 Although we created the s-CorrPlot technique for biology collaborators, this
-project was not a typical visualization design study. Via the definition from
-Sedlmair et al., visualization design studies focus on solving real-world
-problems that collaborators face, and the contributions that come out of such
-projects can stem from the problem characterization, abstraction, validated
-tool, or reflections on the design process [@Sedlmair2012b]. However, the final
-design study outcome for the s-CorrPlot research project was a contribution
-solely in the validation of the tool, primarily since this was a novel technique
-with potential benefit to many other domains. Looking back on this project, the
-final, validated tool did solve a problem our collaborators faced, to better
-visualize and explore high-level features of their multidimensional datasets.
-However, as a design study, this work did not really solve a complete problem
---- after finding interesting patterns in the tool, our collaborators just had
-more questions and needed to run further lab studies to find out more. As a
-result, even though we followed a design process, joining mid-project with an
-already fleshed out prototype limited the problem-finding and potential
-solutions we focused on.
+project was not a typical visualization design study. In fact, this project's
+primary contribution was a novel technique, generalizable and driven by an
+algorithm stemming from statistical theory. When evaluating this tool, we
+focused not on the problem domain or use-case in detail but rather if the
+technique provided analytical insight through a case study with our
+collaborators. This validation is inline with technique-driven research
+[@Lam2011a] but not with a design study, which involves validation of
+contributions consisting of a problem characterization, abstraction, and tool
+that solves a domain expert's problem [@Sedlmair2012b]. When reflecting on our
+process with the design activity framework, I realized that we never fully
+characterized or tried to solve a more complete problem. When using this new
+tool, our collaborators would find interesting patterns but then only had more
+questions and needed to run further lab studies to learn more. We simply focused
+heavily on the novelty within the specific tool rather than a design study.
 
 
-With regard to the nested model, the contributions of the s-CorrPlot are in the
-encoding, interaction, and algorithm levels. The nested model is useful when
-determining which forms of validation are necessary to evaluate a visualization
-system, and the types of evaluation we employed on the s-CorrPlot match these
-levels: complexity analysis, interactive framerates with large datasets,
-qualitative image analysis, and case studies with our collaborators. On the
-other hand, with respect to a design study, we encountered a threat at the
-problem-characterization level: _"wrong problem"_ [@Munzner2009]. Although this
-threat is characterized as _"target users do not in fact have these problems"_
-[@Munzner2009], the real threat we faced was more that the problem on its own
-was not the complete picture. The narrow focus on visualizing only one type of
-dataset and one visualization technique did not capture the greater problems
-that our domain experts were tackling. Although the s-CorrPlot tool did solve
-one of these problems quite well, it left future questions and work for domain
-experts outside our tool. By failing to identify the appropriate set of problems
-and challenges broadly, the project was less successful as a design study. Thus,
-the "incomplete problem" threat we faced was not fully captured by the nested
-model, and the design study could have been improved by fleshing out the
-situation blocks [@Meyer] more completely.
-
-
-The design activity framework, as a process model, is able to capture multiple
-aspects of the s-CorrPlot project. For example, one focus of this project was
-technique-driven: a new approach for visualizing multidimensional correlation.
-Unlike the nine-stage framework, we discovered that the design activity
-framework can apply to general visualization design, including technique-driven
-work. For example, this project focused on the problem of visualizing
-correlation in many dimensions where current techniques such as scatterplots,
-scatterplot matrices, and heatmaps do not scale to many variables. As a
-solution, the s-CorrPlot visualizes variables as points and projects them down
-into 2D, supporting a compact representation of correlation that couples well
-with interactive techniques. This approach requires interaction and exploration,
-but it is one idea and implementation that was realized in a visualization
-system, the s-CorrPlot tool built in R and OpenGL. We then deployed it to
-collaborators, and successful case studies illustrate its utility for completely
-visualizing large datasets. From the perspective of a design activity, we built
-and deployed this tool to solve the visualizing correlation across various large
-datasets with 100k variables and 100s of dimensions.
-
-
-The key research contributions of the s-CorrPlot project were the visualization
-artifacts: the algorithm, encoding, interaction, and visualization tool that
-realized these components. These artifacts stem from ideas built into a
-prototype and then final visualization system, and we made decisions to validate
-each over time. The design activity framework captured these concepts succinctly
-and show the overlap with concepts from the nested model. Lastly, these artifact
-contributions highlight a difference with the design activity framework, since
-ideas from technique-driven research can also involve algorithmic-level
-decisions [@Munzner2009].
+Design studies can be faced with threats to their validity at multiple levels,
+such as one at the problem-characterization level: _"wrong problem"_
+[@Munzner2009]. This threat is characterized as _"target users do not in fact
+have these problems"_ [@Munzner2009], but the s-CorrPlot tool did, in fact,
+solve a problem faced by our collaborators, since they were unable to visualize
+their full dataset with existing techniques. Using the design activity
+framework, we were able to realize that instead what this project faced was an
+"incomplete problem" threat, where we focused too heavily on only one of our
+collaborators' dataset types. By not taking a step back for the bigger picture,
+we left our collaborators with more questions than answers using this tool, and
+this design study could have been improved by revisiting the _understand_
+activity and fleshing out the situation blocks [@Meyer] more completely.
+Nevertheless, this project was still a success as technique-driven research. We
+can characterize the contributions of the s-CorrPlot using the levels of the
+nested model, touching on the encoding, interaction, and algorithm levels. The
+nested model is useful when determining which forms of validation are necessary
+to evaluate a visualization system, and the types of evaluation we employed on
+the s-CorrPlot match these levels: complexity analysis, interactive framerates
+with large datasets, qualitative image analysis, and case studies with our
+collaborators.
 
 
 By turning to the design activity framework, we formed insights about the design
@@ -462,24 +431,43 @@ prototype; the nine-stage framework [@Sedlmair2012b] would classify this as the
 collaborators' needs, I visited their lab weekly to observe the types of
 research problems they faced, better understand the problem domain, and see how
 they utilized the prototype, which is like going back to the "discover" stage or
-_understand_ activity. When we followed the nine-stage framework for design
-studies, this project was not as successful as a design study due to an
-incomplete problem focus and falling into several problems in the "design" stage
-[@Sedlmair2012b]. However, when reflecting on the design activities and
-specifically the _understand_ worksheet, we are able to pinpoint several missing
-factors from our design process: thinking about users' large-scale problems or
-challenges, different types of datasets to solve this, and tasks to perform on
-the data. Our design process focused on talking with and observing users, and
-the prototype that we had deployed early on impacted the focus of these
-interviews greatly. Rather than better understanding the bigger picture and
-problems faced by our collaborators, we focused on the details of iterating a
-prototype visualization to solve a single problem. Thus, our reflections on the
-design activity framework contribute new pitfalls for design studies:
+_understand_ activity. While following the nine-stage framework, we had an
+incomplete problem focus and fell into several problems in the "design" stage
+[@Sedlmair2012b]. However, when looking to the _understand_ worksheet, I was
+able to pinpoint several missing factors from our design process: thinking about
+users' large-scale problems or challenges, different types of datasets to solve
+this, and tasks to perform on the data. Our design process for this project had
+focused on talking with and observing users, and the prototype that we had
+deployed early on impacted the focus of these interviews significantly. Rather
+than focus on the bigger picture and problems faced by our collaborators, we had
+iterated on a prototype visualization tool to solve a single problem. Thus, our
+reflections on the design activity framework contribute new pitfalls for design
+studies, adding to previous ones [@Sedlmair2012b]:
 
 - PF-33. not communicating information across teammates on the problem characterization and abstraction (discover / _understand_)
 - PF-34. failing to identify the broad problem: solving small, specific problems may not be useful or impactful enough for domain experts (discover / _understand_)
 - PF-35. not tailoring the system for domain experts but focusing on designing novel solutions (discover / _understand_)
 - PF-36. deploying a prototype too early, thus limiting the problem and design focus --- instead aim to develop technology probes [@Hutchinson2003a] to shape design requirements, abstractions, and ideas (_deploy_)
+
+
+The design activity framework, as a process model, is able to capture multiple
+aspects of the s-CorrPlot project. When designing this tool, there were
+distinct, iterative phases of the prototype. For example, the scatterplot
+encoding is one such visualization artifact, which was validated in terms of its
+ability to scale across many variables, dimensions, and to overlay multiple
+datasets. A separate concept to the tool is the notion of interaction, with
+selection of and animation between projections; this concept was not a novel
+contribution on its own but added further value to the technique and s-CorrPlot
+tool. Most of these artifacts stem from the _ideate_ activity, but they were
+realized in a prototype system through the _make_ activity. This system was
+repeatedly deployed to our collaborators as well. The visualization artifacts of
+this technique-driven process correlate to the levels and contributions
+designated by the nested model, and we note that a modification of the design
+activity framework is required to allow ideas from technique-driven research to
+map to algorithmic-level decisions [@Munzner2009]. We have illustrated here how
+the design activity framework can uniquely apply to general visualization
+design, such as the technique-driven project employed here. In particular, the
+framework seems to work with research that has this applied focus.
 
 
 
