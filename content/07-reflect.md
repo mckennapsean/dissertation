@@ -810,7 +810,7 @@ continuous control over animations afforded by scrolling was very engaging,
 although this could be an effect of novelty or self-reporting on engagement.
 
 
-### Evaluation for Visual Narrative Flow
+### Crowdsourced Study on Engagement
 
 To study how different flow-factors of visual narrative flow affect readers'
 engagement, we conducted a larger scale crowdsourced study with 240 participants
