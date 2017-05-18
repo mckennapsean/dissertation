@@ -1,12 +1,12 @@
-# Reflections on Types of Research {#sec:reflections}
+# Reflections on Other Types of Research {#sec:reflections}
 
 In practice, visualization design can have implications for visualization
 research and be a research activity in itself, such as multiple approaches to
 conduct research through design [@Gaver2012; @Obrenovic2011] or the application
 of action design research to the process of creating visualization systems
 [@McCurdy2016]. For example, the design study methodology model includes
-research aspects, such as reflection and writing publications [@Sedlmair2012b],
-and action design research would similarly emphasize such reflection and
+research aspects, such as reflection and writing publications [@Sedlmair2012b].
+Action design research would similarly emphasize such reflection and
 learning throughout the visualization design process [@McCurdy2016]. Members of
 the visualization community need to consider other types of research, beyond
 design studies or application-driven work. Munzner identified a series of
@@ -29,7 +29,10 @@ collaborators' challenges, to explore large datasets for which current
 visualization methods for correlation did not scale appropriately. As a result
 of analyzing this project through the design activity framework, we pinpoint
 some of the pitfalls we fell into that previous visualization design models
-failed to effectively capture.
+failed to effectively capture. By illustrating how the design activity framework
+describes applied but technique-driven work, we can capture more steps for
+visualization design outside of design studies. The pitfalls we identify can
+further aid visualization designers conducting similar types of research.
 
 
 For evaluation-driven research, we conducted an exploration and evaluation of a
@@ -39,14 +42,29 @@ work, the design activity framework can be used to frame the steps of
 experimental design, despite the inability of existing process models, such as
 the nine-stage framework for design studies [@Sedlmair2012b], to map to this
 same process. Overall, we found that the design activity framework can support
-thinking about other types of research beyond just design studies and
-problem-driven work, unlike existing visualization design models.
+thinking about other types of research beyond just design studies. The design
+activity framework has proved useful to reflect on the steps taken and
+guidelines established during a visualization design process, for both
+technique-driven and evaluation research.
 
 
 
 
 
-## Overview of s-CorrPlot Technique
+## A Technique-Driven Project
+
+In this section, we provide details for a technique-driven research project, the
+s-CorrPlot [@mckenna2015s]. We first explain the motivation for this
+visualization technique, and then we provide the high-level mathematical
+derivation of the visual encoding as well as the interactive component to the
+technique. To conclude this project's description, we include the application of
+this technique to an applied domain, visualization for biology datasets. We
+reflected on this project using the design activity framework in order to
+identify pitfalls and clarify the reasons why this project strayed from being a
+problem-driven design study.
+
+
+### Visualizing Correlation
 
 Many data analysis applications use the degree of correlation between variables
 as a key measure of interdependence. The most common techniques for exploratory
@@ -64,9 +82,6 @@ technique and tool as an open-source R-package that we gave to our biology
 collaborators studying correlation of gene expression.
 
 [^scorrplot]: <http://mckennapsean.com/projects/s-corrplot/>
-
-
-### Visualizing Correlation
 
 Clustered heatmaps are a standard approach to visualize correlation among many
 variables [@wilkinson2009history; @seo2002interactively]. Heatmaps directly
@@ -94,7 +109,7 @@ pairwise correlations with error bounds for the rest.
 
 ### Statistical Correlation
 
-This work focuses on Pearson's and Spearman's correlation coefficients, which
+This project focuses on Pearson's and Spearman's correlation coefficients, which
 measure the strength of linear and monotonic relationships between the two
 variables, respectively. Spearman's correlation coefficient is Pearson's
 correlation but on ranked observations. The s-CorrPlot can apply to either
@@ -232,13 +247,14 @@ large datasets at interactive frame rates.
 
 ### Interactive Exploration
 
-We designed the s-CorrPlot to incorporate both interaction and animation, unlike
-previous static correlation encodings [@corsten:biometrics76; @trosset:jcgs05;
-@falissard:jcgs99]. In doing so, we illustrate how the s-CorrPlot can be paired
-with multidimensional exploration techniques, in the spirit of existing systems
-that employ user-driven exploration [@swayne1998xgobi; @swayne2003ggobi;
-@Elmqvist08Rolling]. To easily understand the interactive exploration aspects,
-we advise watching the companion video available online.[^scorrplot]
+We designed the s-CorrPlot technique to incorporate both interaction and
+animation, unlike previous static correlation encodings [@corsten:biometrics76;
+@trosset:jcgs05; @falissard:jcgs99]. In doing so, we illustrate how the
+s-CorrPlot can be paired with multidimensional exploration techniques, in the
+spirit of existing systems that employ user-driven exploration
+[@swayne1998xgobi; @swayne2003ggobi; @Elmqvist08Rolling]. To easily understand
+the interactive exploration aspects, we advise watching the companion video
+available online.[^scorrplot]
 
 
 To better grasp multidimensional spaces, methods such as projection pursuit
@@ -275,10 +291,7 @@ of the standardized variables in the multidimensional space. Perceptually, the
 animation results in seeing _"shape from motion"_ [@ullman:visualMotion].
 
 
-
-
-
-## Application of the s-CorrPlot Technique
+### Employing the s-CorrPlot in Biology
 
 While creating the s-CorrPlot visualization technique, we worked in tandem with
 biology collaborators to customize and tailor aspects of the data visualization
@@ -369,10 +382,7 @@ _"This is revealing new brain-region specific patterns in the data
   in different brain regions that we can test experimentally."_
 
 
-
-
-
-## On Designing for a Novel Technique
+### Applying the Design Activity Framework
 
 Although we created the s-CorrPlot technique for biology collaborators, this
 project was not a typical visualization design study. Via the definition from
@@ -475,29 +485,43 @@ design activity framework contribute new pitfalls for design studies:
 
 
 
-## Overview of Visual Narrative Flow
+## An Evaluation Project
 
-Next, we explore an application of evaluation research for comparing different
-visualizations in the space of visual data stories. Many factors can shape the
-flow of visual data-driven stories, and thereby the way readers experience those
-stories. Through the analysis of 80 existing stories found on popular websites,
-we systematically investigated and identified seven characteristics of these
-stories, which we name **flow-factors**, and we illustrated how they feed into
-the broader concept of _"visual narrative flow"_ [@mckenna2017]. These
-flow-factors are navigation input, level of control, navigation progress, story
-layout, role of visualization, story progression, and navigation feedback. We
-describe a series of studies we conducted that shed initial light on how
-different visual narrative flows impact the reading experience. We report on two
-exploratory studies, in which we gathered reactions and preferences of readers
-for stepper- vs. scroller-driven flows. We then report on a crowdsourced study
-with 240 participants, in which we explore the effect of the combination of
-different flow-factors on readers' engagement. Our results indicate that visuals
-and navigation feedback (e.g., static vs. animated transitions) have an impact
-on readers' engagement, but level of control (e.g., discrete vs. continuous)
-may not.
+In this project, we focused on several evaluation methods that enabled us to
+generate guidelines for data visualization stories [@mckenna2017]. First, we
+preface this research with an overview and motivations for the project, to study
+the visual narrative flow of data visualization stories. By providing examples
+of two types of flow, scrollers and steppers, we show how different these story
+experiences are to readers. Next, we characterize this design space for visual
+narrative flow into seven flow-factors. We employed evaluation methods which
+involved qualitative, exploratory studies on reading experiences, and we
+conducted a crowdsourced study in order to measure and compare engagement for
+different narrative flows. By reflecting on this project using the design
+activity framework, we provide an initial validation that steps for experimental
+design map to steps of the design process, where visualization artifacts can
+increase the reproducibility of an experimental design. We also discuss how the
+framework enabled us to reason about the limitations of the studies as well.
 
 
 ### Project Motivation
+
+Many factors can shape the flow of visual data-driven stories, and thereby the
+way readers experience those stories. Through the analysis of 80 existing
+stories found on popular websites, we systematically investigated and identified
+seven characteristics of these stories [@mckenna2017], named **flow-factors**,
+and we illustrated how they feed into the broader concept of _"visual narrative
+flow."_ These flow-factors are navigation input, level of control, navigation
+progress, story layout, role of visualization, story progression, and navigation
+feedback. We describe a series of studies we conducted that shed initial light
+on how different visual narrative flows impact the reading experience. We report
+on two exploratory studies, in which we gathered reactions and preferences of
+readers for stepper- vs. scroller-driven flows. We then report on a crowdsourced
+study with 240 participants, in which we explore the effect of the combination
+of different flow-factors on readers' engagement. Our results indicate that
+visuals and navigation feedback (e.g., static vs. animated transitions) have an
+impact on readers' engagement, but level of control (e.g., discrete vs.
+continuous) may not.
+
 
 Data-driven stories that tightly integrate visualizations have become a popular
 communication device in a variety of fields [@Segel2010], which has led the
@@ -560,7 +584,7 @@ data-driven story because these aspects are important and known outcomes of
 readers' experiences with technology.
 
 
-### Design Space
+### Visual Narrative Flow
 
 Here we introduce seven factors that contribute to visual narrative flow along
 with illustrations of the various properties for each flow-factor as in
@@ -785,29 +809,21 @@ continuous control over animations afforded by scrolling was very engaging,
 although this could be an effect of novelty or self-reporting on engagement.
 
 
-
-
-
-## Evaluation for Visual Narrative Flow
+### Evaluation for Visual Narrative Flow
 
 To study how different flow-factors of visual narrative flow affect readers'
 engagement, we conducted a larger scale crowdsourced study with 240 participants
-using Amazon Mechanical Turk.
-
-
-### Study Conditions and Hypotheses
-
-We selected four conditions to study in detail. We identified two baseline
-conditions, one with only text and another with only static visuals, to first
-see if there is a measurable benefit to scrolling stories with visualization or
-with animation. Lastly, we included a stepper narrative flow to explore
-measuring the difference in engagement we witnessed in the exploratory studies.
-Specifically, our conditions were:
+using Amazon Mechanical Turk. We selected four conditions to study in detail. We
+identified two baseline conditions, one with only text and another with only
+static visuals, to first see if there is a measurable benefit to scrolling
+stories with visualization or with animation. Lastly, we included a stepper
+narrative flow to explore measuring the difference in engagement we witnessed in
+the exploratory studies. Specifically, our conditions were:
 
 - _text_: a text-only story (baseline 1)
 - _visual_: text paired with static visual images (baseline 2)
 - _stepper_: text paired with visualizations and animated transitions via a stepper
-- _scroller_: text paired with visualizations and animated transitions via a continuous scroller 
+- _scroller_: text paired with visualizations and animated transitions via a continuous scroller
 
 
 For the two baseline conditions, we hypothesized that the inclusion of
@@ -826,8 +842,6 @@ algorithm. Thus, our hypotheses were:
   more engaging.
 - **_H3_**: Pairing dynamic transitions with continuous control contributes to make the data-driven story more engaging.
 
-
-### Crowdsourced Study Design
 
 We selected the machine learning story [@ml] as in previous studies because of
 its length and the various types of visualizations and transitions it included.
@@ -861,8 +875,6 @@ accordingly. Our project website includes all materials and conditions used for
 the study.[^narrative-flow]
 
 
-### Participants
-
 In total, 240 participants read through the story. They were compensated $2.31
 for their time. Twenty participants were assigned per pair of conditions, or 40
 per balanced set. We recruited participants via Amazon's Mechanical Turk (at
@@ -878,8 +890,6 @@ more, and 12.9% had subscriptions to a popular news site. They used a variety of
 input devices (75.4% mouse, 22.9% trackpad, 2 touch devices, 1 pen, and 1
 trackball).
 
-
-### Study Results
 
 We performed a linear mixed effects analysis using R [@rlang] and lme4 [@lme4]
 to study the relationship between different types of narrative flows and
@@ -977,10 +987,7 @@ participants comprehended the story well, scoring on average 4 out of 5. We did
 not find any major differences in comprehension across condition pairs.
 
 
-
-
-
-## On Designing for Evaluation
+### Applying the Design Activity Framework
 
 In framing and evaluating this design space for visual narrative flow, the
 nine-stage framework was not a good fit for our process because this was not a
