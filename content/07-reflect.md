@@ -1,51 +1,58 @@
 # Reflections on Other Types of Research {#sec:reflections}
 
-In practice, visualization design can have implications for visualization
-research and be a research activity in itself, such as multiple approaches to
-conduct research through design [@Gaver2012; @Obrenovic2011] or the application
-of action design research to the process of creating visualization systems
-[@McCurdy2016]. For example, the design study methodology model includes
-research aspects, such as reflection and writing publications [@Sedlmair2012b].
-Action design research would similarly emphasize such reflection and
-learning throughout the visualization design process [@McCurdy2016]. Members of
-the visualization community need to consider other types of research, beyond
-design studies or application-driven work. Munzner identified a series of
-publication types for the field of data visualization --- technique, design
-study, systems, evaluation, and model [@Munzner2008] --- which is similar to
-different kinds of research contributions, such as in the field of
-human-computer interaction [@Wobbrock2012]. Throughout this dissertation, the
-primary type of research explored is a design study or application-driven work,
-where we have designed and built tools for cyber security developers, analysts,
-and managers [@McKenna2014; @McKenna2015; @mckenna2016].
+The design activity framework can apply and provide insight into types of
+research beyond design studies. This is one of the benefits of the framework,
+since it can generalize to other types of this research. In this chapter, we
+explore two kinds of applied research projects: technique-driven [@mckenna2015s]
+and evaluation [@mckenna2017] research. After exploring each project, we reflect
+on the project's outcomes, research contributions, and implications using the
+design activity framework. From these reflections, we have noted that the design
+activity framework can apply and provide interesting insights into other kinds
+of research, from the steps of the design process to the visualization artifacts
+that are generated and evaluated.
 
 
-In this chapter, we focus on the implications of the design activity framework
-for other types of visualization research, specifically technique and evaluation
-research. For technique-driven research, we worked with a statistician and
-biology collaborators to develop a new method for encoding projected correlation
-data coupled with an interactive system to explore these correlation projections
+In practice, visualization design can have implications for many types of
+visualization research and be a research activity in itself, such as multiple
+approaches to conduct research through design [@Gaver2012; @Obrenovic2011] or
+the application of action design research to the process of creating
+visualization systems [@McCurdy2016]. For example, the design study methodology
+model includes research aspects, such as reflection and writing publications
+[@Sedlmair2012b]. Action design research would similarly emphasize such
+reflection and learning throughout the visualization design process
+[@McCurdy2016]. Members of the visualization community need to consider other
+types of research, beyond design studies or application-driven work. Munzner
+identified a series of publication types for the field of data visualization ---
+technique, design study, systems, evaluation, and model [@Munzner2008] --- which
+is similar to different kinds of research contributions, such as in the field of
+human-computer interaction [@Wobbrock2012]. In this chapter, we discuss two
+applied projects that contain primary contributions in technique and evaluation
+research.
+
+
+For technique-driven research, we worked with a statistician and biology
+collaborators to develop a new method for encoding projected correlation data
+coupled with an interactive system to explore these correlation projections
 [@mckenna2015s]. We reflect on the application of this technique to our biology
 collaborators' challenges, to explore large datasets for which current
 visualization methods for correlation did not scale appropriately. As a result
 of analyzing this project through the design activity framework, we pinpoint
-some of the pitfalls we fell into that previous visualization design models
-failed to effectively capture. By illustrating how the design activity framework
-describes applied but technique-driven work, we can capture more steps for
-visualization design outside of design studies. The pitfalls we identify can
-further aid visualization designers conducting similar types of research.
+some of the design study pitfalls we fell into that previous visualization
+design models did not capture. By illustrating how the design activity framework
+describes technique-driven work, we show that design activities work as steps
+for general visualization design.
 
 
-For evaluation-driven research, we conducted an exploration and evaluation of a
-design space for visual narrative story flow, coupled with initial studies into
-a few types of flow, such as steppers and scrollers [@mckenna2017]. In this
-work, the design activity framework can be used to frame the steps of
-experimental design, despite the inability of existing process models, such as
-the nine-stage framework for design studies [@Sedlmair2012b], to map to this
-same process. Overall, we found that the design activity framework can support
-thinking about other types of research beyond just design studies. The design
-activity framework has proved useful to reflect on the steps taken and
-guidelines established during a visualization design process, for both
-technique-driven and evaluation research.
+For evaluation research, we conducted an exploration and evaluation of a design
+space for visual narrative story flow, coupled with initial studies into a few
+types of flow, such as steppers and scrollers [@mckenna2017]. In this work, the
+design activity framework can be used to frame the steps of experimental design
+and identify study limitations from a lack of generalizability. The design
+activity framework timelines and worksheets further emphasize documenting and
+recording the visualization design process, and these aspects are important for
+reproducibility in evaluation research. Overall, we found that the design
+activity framework can support thinking about other types of research beyond
+just design studies, particularly research with an applied focus.
 
 
 
@@ -61,7 +68,11 @@ technique. To conclude this project's description, we include the application of
 this technique to an applied domain, visualization for biology datasets. We
 reflected on this project using the design activity framework in order to
 identify pitfalls and clarify the reasons why this project strayed from being a
-problem-driven design study.
+problem-driven design study. We discovered that the design activity framework
+can apply to steps of a technique-driven design process and enabled us to
+identify further pitfalls for design study research. Lastly, we uncovered in
+this reflection that visualization ideas in technique-driven work can span
+across more levels of the nested model, such as a new algorithm.
 
 
 ### Visualizing Correlation
@@ -476,19 +487,21 @@ framework seems to work with research that has this applied focus.
 ## An Evaluation Project
 
 In this project, we focused on several evaluation methods that enabled us to
-generate guidelines for data visualization stories [@mckenna2017]. First, we
-preface this research with an overview and motivations for the project, to study
-the visual narrative flow of data visualization stories. By providing examples
-of two types of flow, scrollers and steppers, we show how different these story
-experiences are to readers. Next, we characterize this design space for visual
-narrative flow into seven flow-factors. We employed evaluation methods which
-involved qualitative, exploratory studies on reading experiences, and we
-conducted a crowdsourced study in order to measure and compare engagement for
-different narrative flows. By reflecting on this project using the design
-activity framework, we provide an initial validation that steps for experimental
-design map to steps of the design process, where visualization artifacts can
-increase the reproducibility of an experimental design. We also discuss how the
-framework enabled us to reason about the limitations of the studies as well.
+generate guidelines for the applied area of creating data visualization stories
+[@mckenna2017]. First, we preface this research with an overview and motivations
+for the project, to study the visual narrative flow of data visualization
+stories. By providing examples of two types of flow, scrollers and steppers, we
+show how different these story experiences are to readers. Next, we characterize
+this design space for visual narrative flow into seven flow-factors. We employed
+evaluation methods which involved qualitative, exploratory studies on reading
+experiences, and we conducted a crowdsourced study in order to measure and
+compare engagement for different narrative flows. By reflecting on this project
+using the design activity framework, we provide an initial validation that steps
+for experimental design can map onto steps of the design process, where
+visualization artifacts can capture evaluation guidelines and increase the
+reproducibility through documentation of an experimental design. We also discuss
+how the framework enabled us to reason about the evalaution methods' limitations
+of generalizability.
 
 
 ### Project Motivation
@@ -1015,25 +1028,25 @@ blocks, and the user study guidelines were only shown to be effective for a
 stories rather than generalized across many different stories.
 
 
-On the other hand, we noted that we could reflect on how the design activity framework can be utilized to model and
-describe this experimental design process. As before, the experimental designer
-must first approach a given problem to identify potential tasks, datasets to
-utilize, and which users to test, and then establish hypotheses for the research
-problem. For example, this study explored aspects of visual narrative flow for a
-single dataset and focused on reading and comprehension tasks to measure
-engagement using a questionnaire. Many of these components correlate with
-actions and visualization artifacts of the _understand_ activity. A similar
-design process can be followed to create visualization artifacts used as
-materials in a study, such as tools, techniques, systems, and instantiations of
-a given encoding or interaction. This process will involve testing for usability
-and feasibility, such as through the use of pilots, similar to prototypes, in
-the _make_ activity. The process may not perfectly overlap, but it shows that
-the design activity framework can map to this style of formative or evaluative
-work in ways that the nine-stage framework cannot. Additionally, the lack of
-generalizability of the studies presented here could be uncovered by reflecting
-on assumptions and artifacts generated when forming the study, such as the
-single story, one dataset, and subset of visualizations, which is fixed
-throughout all of the conditions and studies.
+On the other hand, we noted that we could reflect on how the design activity
+framework can be utilized to model and describe this experimental design
+process. As before, the experimental designer must first approach a given
+problem to identify potential tasks, datasets to utilize, and which users to
+test, and then establish hypotheses for the research problem. For example, this
+study explored aspects of visual narrative flow for a single dataset and focused
+on reading and comprehension tasks to measure engagement using a questionnaire.
+Many of these components correlate with actions and visualization artifacts of
+the _understand_ activity. A similar design process can be followed to create
+visualization artifacts used as materials in a study, such as tools, techniques,
+systems, and instantiations of a given encoding or interaction. This process
+will involve testing for usability and feasibility, such as through the use of
+pilots, similar to prototypes, in the _make_ activity. The process may not
+perfectly overlap, but it shows that the design activity framework can map to
+this style of formative or evaluative work in ways that the nine-stage framework
+cannot. Additionally, the lack of generalizability of the studies presented here
+could be uncovered by reflecting on assumptions and artifacts generated when
+forming the study, such as the single story, one dataset, and subset of
+visualizations, which is fixed throughout all of the conditions and studies.
 
 
 Lastly, the design activity framework worksheets emphasize the importance of
