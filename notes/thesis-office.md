@@ -2,7 +2,7 @@
 
 Can I use the microtype package? or do the alterations break the "rules"?
 
-Oxford Dictionary vs standard of "cybersecurity" vs "cyber security"?
+Oxford Dictionary vs standard of "cybersecurity" vs "cyber security"? --> IEEE treats cyber as a prefix but not a common one. safer to go with "cybersecurity"
 
 Figure text must be at least 2mm. check fig 7.4, fig 7.7
 
