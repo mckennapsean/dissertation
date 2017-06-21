@@ -27,7 +27,8 @@
 
 
 % fix figure & table captions for IEEE style guide
-% \renewcommand{\figurename}{Fig.}
+\def\fnum@figure{\bfseries \color{utahheadingcolor}{Fig.\nobreakspace \thefigure}}
+\captionsetup[figure]{labelsep=period}
 \captionsetup[table]{labelsep=period}
 
 
