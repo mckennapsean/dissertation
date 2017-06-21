@@ -1,22 +1,18 @@
-# Work I will do
+# List of Edits
 
-1. scope the dissertation to the target audience: novice visualization designers
+- add 2-3 paragraphs to the start of Ch 3 on the methodology for how the DAF was formulated
+
+- add 1-2 paragraphs in Ch 3 on the benefits of merging creative arts with engineering approaches, e.g. when talking about methods and/or timelines
+
+- clarify at the end of Ch 3 which aspects of the DAF are specific to visualization and how the DAF differs from previous models for visualization design (2-3 paragraphs)
+
+- revise the main focus/goal of Ch 6 (worksheets) throughout the dissertation to serve as an external validation of the DAF
+
+- rework parts of Ch 7 (reflections) to cut out some of the less relevant content and tie-in to the design activities a little more clearly
+
+- add 1 paragraph to Ch 8 (discussion) on bridging creative design with an engineering process
+
+- add 1-2 paragraphs to Ch 8 (discussion) reflecting on the methodology used to create the DAF
 
 
-2. focus the design activity framework as being specific to visualization
-
-
-3. more complete comparison to existing work, including what existing work is missing
-
-
-4. add in more components of the design activity framework, and why they address what is missing from existing work
-
-
-5. integrate a rich discussion of the design activity framework as part of the work completed (case studies)
-
-
-
-If time:
-
-- simplify core components of the design activity framework into a textbook-like overview, with a more cohesive main figure that describes the macro and micro components altogether
-- web accessible components
+- dissertation web page?
