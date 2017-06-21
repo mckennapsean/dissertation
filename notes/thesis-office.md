@@ -1,7 +1,5 @@
 # Thesis Office Concerns
 
-Suggested to avoid "a/an/the" at beginning of all captions.
-
 Figure text must be at least 2mm. check fig 7.4, fig 7.7
 
 Get permission from authors, email is fine?

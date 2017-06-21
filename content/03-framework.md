@@ -141,7 +141,7 @@ design activities of the design activity framework.
 
 
 ![
-  The four core design activities.
+  Four core design activities.
   We identified four visualization design activities: _understand_, _ideate_,
   _make_, and _deploy_. Additionally, we detail the motivation and expected
   visualization artifacts within each activity. Throughout this dissertation, we

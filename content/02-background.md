@@ -109,7 +109,7 @@ the design of a visualization.
 
 
 ![
-  The nested model for visualization design.
+  Nested model for visualization design.
   Munzner produced the nested model with four levels to capture the specific
   data visualization design decisions [@Munzner2009]. Another goal of the model
   is to guide visualization designers to find appropriate validation depending
@@ -162,7 +162,7 @@ displayed in [@fig:process-howard] [@Howard2008].
 
 
 ![
-  An integrated creative design process model.
+  Integrated creative design process model.
   Howard et al. created a model to encompass both engineering and creative
   design processes [@Howard2008]. Components of a previous model are connected
   in their modification in order to emphasize and call out the specific stages
@@ -188,7 +188,7 @@ flexibility and actionability.
 
 
 ![
-  The design funnel model.
+  Design funnel model.
   For product engineering, Pugh laid out the popular notion of a design funnel
   [@pugh1991total], where concept generation (CG) is interspersed with
   controlled convergence (CC). This funnel is foundational to the concepts of
@@ -216,7 +216,7 @@ different design activities as a cycle, emphasizing an engineering approach.
 
 
 ![
-  A model for the human-centered design process.
+  Model for the human-centered design process.
   Lloyd and Dykes adapted a process model [@Lloyd2011] to illustrate traditional
   engineering design processes (left), as well as more creative processes
   (right, in red). This development cycle further highlights the need for a
@@ -267,7 +267,7 @@ focused on helping conduct general visualization design projects.
 
 
 ![
-  The nine-stage framework process model for design studies.
+  Nine-stage framework process model for design studies.
   Sedlmair et al. introduced nine different stages of the design process,
   characterized by three high-level categories [@Sedlmair2012b]. The gray arrows
   indicate iterative and nonlinear aspects. The design activity framework
@@ -363,7 +363,7 @@ multilinear increase the flexibility supported by the design activity framework.
 
 
 ![
-  The design thinking funnel.
+  Design thinking funnel.
   For design thinking, Brown emphasizes the importance of a design funnel
   [@Brown2009], which diverges and converges choices over time. First, divergent
   thinking creates many choices or possible solutions. Brown emphasizes that

@@ -313,7 +313,7 @@ linked to deployments in two discourse channels.
 
 
 ![
-  The first dashboard prototype.
+  First dashboard prototype.
   We created this initial prototype after using the personas design method,
   targeting our first design for analysts and managers. The primary encoding
   of this prototype is a treemap of countries around the world, sized and
@@ -325,7 +325,7 @@ linked to deployments in two discourse channels.
 
 
 ![
-  The second dashboard prototype.
+  Second dashboard prototype.
   We implemented this design after conducting the data sketches method to
   redesign the dashboard and simplify the encoding of geopositioned data,
   removing the hierarchy of a treemap and instead using a map. The heatmap seen
@@ -691,7 +691,7 @@ them as well.
 
 
 ![
-  The BubbleNet dashboard.
+  BubbleNet dashboard.
   This dashboard consists of multiple, interactive views, labeled by its
   corresponding encodings: (a) location map based on a Dorling cartogram, (b)
   temporal chart and heatmap, (c) attribute bullet bar charts, (d) record

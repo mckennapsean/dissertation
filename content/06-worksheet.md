@@ -270,21 +270,21 @@ may be iterative and complex to perform.
 
 
 ![
-  The _understand_ worksheet.
+  Worksheet for the _understand_ activity.
   We tailored this worksheet to help students identify their problem, users,
   data, and requirements for a data visualization system.
 ](figures/worksheets/worksheet-understand.pdf){#fig:u-worksheet width="100%"}
 
 
 ![
-  The _ideate_ worksheet.
+  Worksheet for the _ideate_ activity.
   In this activity, novice visualization designers must target a specific design
   opportunity or requirement in order to draw and compare three sketches.
 ](figures/worksheets/worksheet-ideate.pdf){#fig:i-worksheet width="100%"}
 
 
 ![
-  The _make_ worksheet.
+  Worksheet for the _make_ activity.
   Visualization novices use this worksheet to create a prototype system, by
   planning out their encodings, layouts, and interactions, along with coding it
   all together.
@@ -292,7 +292,7 @@ may be iterative and complex to perform.
 
 
 ![
-  The _deploy_ worksheet.
+  Worksheet for the _deploy_ activity.
   In the final activity, visualization designers seek to make prototypes more
   useful and evolve them into a polished visualization system. As part of this
   process, deployment must get the system into the hands of the appropriate

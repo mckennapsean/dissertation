@@ -24,6 +24,6 @@ the design activity framework worksheets.
 
 
 ![
-  A template for the different components of the design activity framework
+  Template for the different components of the design activity framework
   worksheets.
 ](figures/worksheets/template-worksheet.pdf){#fig:worksheet-template width="100%"}

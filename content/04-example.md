@@ -419,7 +419,7 @@ found on the project's website.[^design-methods]
 
 
 ![
-  A sample of qualitative codes.
+  Sample of qualitative codes.
   We generated these codes over a month of consuming three cognitive task
   analysis research papers, and iterated over the codes until the final version.
   We established these codes based on a series of evidence, both quotes and
@@ -466,7 +466,7 @@ loop, and provides identification of tasks for filtering the data across levels.
 
 
 ![
-  An extended data hierarchy model.
+  Extended data hierarchy model.
   We created an extension to the data hierarchy model presented by D'Amico et
   al. [@DAmico2008], highlighting how various results feed back to raw data,
   while also pinpointing several key tasks. We established this extension as
