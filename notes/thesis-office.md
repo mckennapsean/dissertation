@@ -2,6 +2,8 @@
 
 Oxford Dictionary vs standard of "cybersecurity" vs "cyber security"? --> IEEE treats cyber as a prefix but not a common one. safer to go with "cybersecurity"
 
+Suggested to avoid "a/an/the" at beginning of all captions.
+
 Figure text must be at least 2mm. check fig 7.4, fig 7.7
 
 Get permission from authors, email is fine?
@@ -13,6 +15,8 @@ On p. 68, you first refer to Figure 5.5 at the bottom of the page so place the f
 On p. 87, you first refer to Figure 6.1 at the bottom of the page so place the figure on page p. 89 rather than p. 90.
 
 Should Figures in the captions and text say Figure or Fig.? IEEE is shortened, but Thesis Office may override this. The LaTeX template overrides currently: "\fnum@figure"
+
+Should Fig/Table caption separators be periods or colons? IEEE is period. T.O. uses just spaces and one colon in their guide. May be flexible - Kelly says style guide is fine. So will do Fig. and use periods as separators, will need to set up.
 
 Check Margins: 1.25 inches on the left and right and 1 inch only on the bottom, >1 in at top IF starts with heading only
 **BE CAREFUL with Adobe Reader - compression CHANGED the margins! perhaps don't compress for printing?**
