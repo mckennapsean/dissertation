@@ -1,7 +1,5 @@
 # Thesis Office Concerns
 
-Get permission from authors, email is fine?
-
 From Kelly:
 On p. 12, you first refer to Figure 2.4 in the text so place the figure at the bottom of the page below the text.
 On pp. 14, 24, 25, 26, 33, 47, 60, 76, 80, 123, do the same thing.
