@@ -44,8 +44,8 @@ explicitly navigate a real-world visualization design process.
 
 
 This seven-month project focused on improving the usability and effectiveness of
-an existing, robust visualization system (RVS) for cyber security analysis.
-Analysts working with cyber security data focus on maintaining the security of
+an existing, robust visualization system (RVS) for cybersecurity analysis.
+Analysts working with cybersecurity data focus on maintaining the security of
 computer networks, relying on data about how a network is functioning, known
 network attack patterns, and a broad range of external sources of knowledge.
 Specifically, our team was tasked with providing ideas and mockups for how to
@@ -56,11 +56,11 @@ developed and maintains RVS.
 
 Over the course of our redesign project, we worked with developers, researchers,
 and managers at the RVS company; several Department of Defense intrusion
-analysts who use RVS; and several cyber security analysts at the University of
+analysts who use RVS; and several cybersecurity analysts at the University of
 Utah. This redesign project included several real-world constraints for our
 design team, namely a strict time frame for producing redesign ideas, limited
 funding available for implementing our ideas by software developers,
-confidentiality issues surrounding cyber security data, and the engineering
+confidentiality issues surrounding cybersecurity data, and the engineering
 realities of working within a large software system. The nine-stage framework
 and also the nested model were unable to clearly capture and track these design
 constraints and the complex, collaborative process stemming from multiple team
@@ -94,7 +94,7 @@ method number we reference stems from the collection of example methods in
 Since our redesign project focused on analyzing an existing visualization
 system, the RVS, we started our design process in the _deploy_ activity. Rather
 than test RVS and simply clean up usability and aesthetic issues, however, our
-design team was tasked with thinking of the broader task of cyber security
+design team was tasked with thinking of the broader task of cybersecurity
 analysis, the needs of users within that workflow, and the role of visualization
 for exploring computer network data. Ultimately, the RVS company was interested
 in incorporating new visualization components into their tool.
@@ -126,20 +126,20 @@ possible encodings and techniques to improve the existing visualization system.
 
 ## Understand Activity
 
-The field of cyber security analysis has many types of users, from those within
+The field of cybersecurity analysis has many types of users, from those within
 companies who maintain their own networks, to the military, which maintains and
 monitors traffic across a global network grid. A number of cognitive scientists
-have spent significant time observing and interviewing cyber security analysts
+have spent significant time observing and interviewing cybersecurity analysts
 [@DAmico2008; @Erbacher2010a; @Fink2009] across these different networks. We
 used the published work from these experts to form our base understanding of the
-field as we had limited access to cyber security experts ourselves. First, we
+field as we had limited access to cybersecurity experts ourselves. First, we
 conducted an extensive and broad literature review (_M-53_) across a series of
-40 articles from three key domains: cyber security visualization, situational
+40 articles from three key domains: cybersecurity visualization, situational
 awareness, and cognitive task analysis. From this review, we informally
 evaluated the articles based on their relevance and descriptive quality,
 isolating three of the articles [@DAmico2008; @Erbacher2010a; @Fink2009] as the
 best representative samples with the highest impact for forming our domain
-characterization for the visualization of cyber security data. We discuss this
+characterization for the visualization of cybersecurity data. We discuss this
 method in more detail and reflect on its use later in [Section @sec:qualcoding].
 
 
@@ -164,7 +164,7 @@ and which aspects of the tool could be improved, and then evaluated these
 against our initial list of design opportunities. These findings were combined
 with our project-specific _constraints_ and _considerations_, which included
 four months of the visualization team's time, one month of a developer's time,
-and existing visual conventions in the field of cyber security such as
+and existing visual conventions in the field of cybersecurity such as
 highlighting critical alerts in red.
 
 
@@ -179,7 +179,7 @@ highlighting critical alerts in red.
 
 Lastly, we conducted a series of semistructured interviews with different
 stakeholders to identify needs and aspirations (_M-51_): a developer who works
-on RVS and several cyber security analysts and managers at the University of
+on RVS and several cybersecurity analysts and managers at the University of
 Utah. Based on this feedback, we met as a design team and informally evaluated
 and filtered the list of design opportunities by reaching a group consensus on
 those we felt best met the unmet needs of our target users, balanced against the
@@ -225,7 +225,7 @@ could handle and show more data at once. For the time series data, we explored
 ideas for derived data, such as network alerts or general traffic and activity.
 For each data type, we explored various encodings and interaction techniques
 that would scale to different levels of the data; this scaling is critical due
-to the quantity and spread of real-world cyber security data.
+to the quantity and spread of real-world cybersecurity data.
 
 
 The concept sketches proved to be useful in exploring different ideas, but we
@@ -239,7 +239,7 @@ and showed our ideas to different members of the RVS company, to check that our
 _ideate_ visualization artifacts (sketches, paper prototypes, and wireframes)
 were on track for meeting the analysts' needs. Due to the main constraint of
 time within the project, we were unable to evaluate these wireframes more
-formally with the cyber security analysts.
+formally with the cybersecurity analysts.
 
 
 
@@ -366,10 +366,10 @@ this approach in the context of our design process. Then, we highlight the
 visualization artifacts achieved, followed by results and implications of what
 we learned and a discussion of the method's efficiency, effectiveness, and
 limitations. Lastly, we present recommendations for using this method in the
-context of cyber security visualization design.
+context of cybersecurity visualization design.
 
 
-When tasked with redesigning a large cyber security tool, our design team had
+When tasked with redesigning a large cybersecurity tool, our design team had
 limited access to end users. Despite the fact that a fully deployed tool already
 existed, we were taking a step back to find users' needs in the first design
 activity: _understand_. Our motivation in this activity was to better understand
@@ -391,7 +391,7 @@ existing categories to tag onto the source material [@Strauss1990]. This method
 has been utilized by visualization researchers to perform various post hoc
 analyses [@Lam2011a; @Isenberg2013a; @Sedlmair2014; @Staheli2014], but we had
 not seen this method used in the _understand_ activity to pinpoint user needs
-for cyber security.
+for cybersecurity.
 
 
 After half a month of extensive literature review, four members of our design
@@ -426,17 +426,17 @@ found on the project's website.[^design-methods]
   paraphrases, from the source papers. Some example categories include the cyber
   security data, general design guidelines, phases, roles, responsibilities,
   tools, and workflows. As a result of this design method, our team pinpointed a
-  series of user needs to consider for redesigning a cyber security tool.
+  series of user needs to consider for redesigning a cybersecurity tool.
 ](figures/methods/coding.pdf){#fig:coding width="100%"}
 
 
 Focusing on the data from these three CTAs enabled us to identify user needs
-without the user, as we had limited access to cyber security analysts. Over the
+without the user, as we had limited access to cybersecurity analysts. Over the
 course of a few weeks, our design team synthesized the codes into a set of
 distinguishable design opportunities, such as provenance, scalability,
 usability, desirability, data type handling, and a data hierarchy continuity. We
 used our knowledge from the qualitative coding method to prioritize this list
-and distinguish opportunities with the most potential to impact cyber security
+and distinguish opportunities with the most potential to impact cybersecurity
 analysts. This method produced our final thematic design opportunities for
 improvements to the existing tool: usability, workflow improvements,
 desirability, and temporal data representation.
@@ -457,7 +457,7 @@ design.
 
 
 Lastly, the qualitative coding method enabled us to identify extensions to a
-well-known data hierarchy model for cyber security situational awareness
+well-known data hierarchy model for cybersecurity situational awareness
 [@DAmico2008] --- we present this extension in [@fig:data-model]. The original
 data model describes how analysts process, filter, sort, and select datasets, as
 datasets transfer from raw data into situational awareness. Our extensions
@@ -486,7 +486,7 @@ produce the desired outcome: understanding of user needs without direct access
 to users. These design opportunities led to the final redesign of a deployed
 tool that analysts found more usable and effective than before. The complete
 table of our coding results can be utilized by others to identify, categorize,
-and prioritize different user needs in future cyber security design projects. A
+and prioritize different user needs in future cybersecurity design projects. A
 limitation to this work is that it focuses on the details for only three papers;
 these results may be extended by coding additional papers from this field.
 Furthermore, one caveat to this approach is that published research may not
@@ -496,8 +496,8 @@ not simply be used to replace access to real users.
 
 ### Recommendations
 
-- Start your coding method on a few papers to develop an initial set of codes; select papers from appropriate venues: e.g., in the field of cyber security visualization consider venues such as VizSec, VIS, CHI, HFES, Behavior & Information Technology, Computers & Security, FIRST, HST, AMCIS, SAM, CyCon, FloCon, CogSIMA, DHS CATCH, HCI HAS, CTS SECOTS.
-- On the first pass, highlight and tag key pieces of information; we suggest starting with the categories we identified for cyber security visualization.
+- Start your coding method on a few papers to develop an initial set of codes; select papers from appropriate venues: e.g., in the field of cybersecurity visualization consider venues such as VizSec, VIS, CHI, HFES, Behavior & Information Technology, Computers & Security, FIRST, HST, AMCIS, SAM, CyCon, FloCon, CogSIMA, DHS CATCH, HCI HAS, CTS SECOTS.
+- On the first pass, highlight and tag key pieces of information; we suggest starting with the categories we identified for cybersecurity visualization.
 - Limit the time and scope on your first pass of coding; spend more time to meet as a team and agree on codes.
 - Once you reach a consensus on codes, expand to more papers and divide up the work, allowing some overlap in coverage for consistency.
 

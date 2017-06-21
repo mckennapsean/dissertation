@@ -1,12 +1,12 @@
-# Case Study: Cyber Security Dashboard {#sec:security}
+# Case Study: Cybersecurity Dashboard {#sec:security}
 
-In this chapter, we discuss another case study for visualizing cyber security
-data, specifically, building a cyber security dashboard to support visual
+In this chapter, we discuss another case study for visualizing cybersecurity
+data, specifically, building a cybersecurity dashboard to support visual
 communication across multiple types of cyber users [@McKenna2015;
-@mckenna2016]. One of the challenges in the domain of cyber security is limited
+@mckenna2016]. One of the challenges in the domain of cybersecurity is limited
 access to end users. We found certain design methods to be effective with this
 design constraint in designing data visualizations, such as personas and data
-sketches [@McKenna2015]. Through a collaboration with cyber security researchers
+sketches [@McKenna2015]. Through a collaboration with cybersecurity researchers
 and users, we utilized the design activity framework to structure a design
 process that studied how cyber information is communicated among network
 analysts and managers. We then created a tool to aid that communication,
@@ -56,7 +56,7 @@ visualizations for their own workflows [@Fink2009].
 
 
 In this chapter, we describe a design study focusing on the domain of cyber
-security. In this design study, we worked with two dozen cyber security experts
+security. In this design study, we worked with two dozen cybersecurity experts
 over the span of two years with the goal of improving how analysts discover and
 present interesting anomalies and patterns within computer network data. To the
 best of our knowledge, this is the first end-to-end design study within this
@@ -67,7 +67,7 @@ guidelines for conducting design studies from the nine-stage framework, such as
 arguments for an up-front winnowing of users and collection of data
 [@Sedlmair2012b]. Addressing these issues, however, allowed us to validate a
 number of other guidelines for incorporating user-centered design methods into a
-cyber security project [@McKenna2015], as well as for making use of a variety of
+cybersecurity project [@McKenna2015], as well as for making use of a variety of
 discourse channels [@Wood2014]. By reflecting on the use of these channels and
 design methods, we found explicit connections of this design study to the design
 activity framework based on the project's steps, design methods, and
@@ -76,7 +76,7 @@ visualization artifacts.
 
 The primary contribution of this design study is the design, evaluation, and
 deployment of an interactive dashboard, BubbleNet, for visualizing patterns in
-cyber security data. BubbleNet is designed to not only support the discovery of
+cybersecurity data. BubbleNet is designed to not only support the discovery of
 patterns, but also facilitate presentation of these patterns to various
 stakeholders. We discuss a problem characterization for this domain, along with
 a data and task abstraction. A secondary contribution of this work is a detailed
@@ -85,25 +85,25 @@ user-centered design methods [@McKenna2015], as well as an application of the
 channels of discourse strategy [@Wood2014].
 
 
-In the first part of this chapter, we discuss related work for cyber security
+In the first part of this chapter, we discuss related work for cybersecurity
 visualization and then describe the data and task abstraction. Next, we examine
 a methodical design process for the unique design constraints we encountered
 along with a detailed discussion of two specific design methods useful for data
 visualization design. We then evaluate the BubbleNet dashboard both with a
 usability study and then through deployment to real users. Lastly, we reflect on
 implications from what we have learned while building the dashboard as applied
-to both the cyber security and visualization communities.
+to both the cybersecurity and visualization communities.
 
 
 
 
 
-## Related Work in Cyber Security
+## Related Work in Cybersecurity
 
 The tasks of discovery and presentation are open challenges in terms of
-visualization for cyber security. Many visualization tools and techniques are
+visualization for cybersecurity. Many visualization tools and techniques are
 designed to fit the data, not the users [@Staheli2014]. Furthermore,
-visualization and cyber security research is largely evaluated with use-cases
+visualization and cybersecurity research is largely evaluated with use-cases
 involving toy datasets and researchers, not practitioners in the field
 [@Staheli2014]. In addition, very few tools have considered how to present cyber
 information to stakeholders with less technical experience and knowledge, such
@@ -113,9 +113,9 @@ managers, in order to convey priorities and matters of importance to those in
 leadership roles who make decisions [@McKenna2015; @Erbacher2010].
 
 
-Numerous cyber security researchers have adapted existing visualizations for
+Numerous cybersecurity researchers have adapted existing visualizations for
 data in this domain, but very little of this work has tested the usability or
-utility for network analysts. Different researchers have plotted cyber security
+utility for network analysts. Different researchers have plotted cybersecurity
 data on bar and scatter plots [@Hao2013a; @Watson2005; @Lakkaraju2004]. Other
 researchers have explored using a heatmap or matrix to encode various attributes
 and hierarchies within the data [@Watson2005; @Koike2005; @Landstorfer2014;
@@ -129,7 +129,7 @@ then evaluate its usability and utility with end users.
 
 
 Visualization research has sought out novel visual representations tailored to
-cyber security data. Network graph layouts have been adapted and focused within
+cybersecurity data. Network graph layouts have been adapted and focused within
 this domain [@Foresti2006; @Taylor2009; @Paul2013]. Map-like visualizations of
 the entire internet seek to preserve the spatial location of similar types of
 computers across multiple datasets [@Fowlwer2014]. Aggregated sliding slices of
@@ -139,7 +139,7 @@ techniques could be useful, but most of them have not been evaluated with
 respect to their usability or effectiveness for network analysts with real data.
 
 
-A number of cyber security researchers have studied the usability and
+A number of cybersecurity researchers have studied the usability and
 effectiveness of their tools, but there is no common evaluation framework to
 utilize [@Staheli2014]. Researchers have developed custom surveys [@Musa2008;
 @Fink2005; @Blue2008; @Komlodi2005], which make comparison difficult and may not
@@ -162,9 +162,9 @@ found no end-to-end design study in this space, from abstraction to deployment.
 The outer two levels of the nested model focus on the definition of a specific
 problem domain and the types of data and tasks that users perform at an abstract
 level to map to other visualization challenges [@Munzner2009]. To characterize
-the domain problems and opportunities, we analyzed real cyber security datasets,
+the domain problems and opportunities, we analyzed real cybersecurity datasets,
 talked with a variety of researchers and end users, and surveyed a wide array of
-related research into cyber security users. These activities largely fall into
+related research into cybersecurity users. These activities largely fall into
 the _understand_ activity, to better understand user problems and challenges,
 but there are also some aspects of the _ideate_ activity, as researchers
 analyzed data and created initial prototypes to explore possible variations of
@@ -175,18 +175,18 @@ documented our research process to determine more concise and cohesive
 definitions for this domain and the datasets.
 
 
-Most domain research in cyber security focuses solely on data analysis, but the
+Most domain research in cybersecurity focuses solely on data analysis, but the
 task of presentation is a vital one for network analysts, as information must
 often be conveyed to other people for decisions to be made [@McKenna2015].
 Often, this information to convey and decisions to be made surround a problem or
 an incident [@DAmico2008]. One analyst we spoke with summarized why presentation
 is challenging: _"Pictures are great when going up to management because you
-have 60 seconds to make your case"_ (analyst #4, or A4). Numerous cyber security
+have 60 seconds to make your case"_ (analyst #4, or A4). Numerous cybersecurity
 incidents can result in negative outcomes, such as information disclosure,
 theft, and denial of service [@howard1998common].
 
 
-Cyber security includes a variety of data types such as logs of computer
+Cybersecurity includes a variety of data types such as logs of computer
 functionality, but network security is a subset that focuses on multiple
 computer interactions with a base unit of a **network record**. A _network
 record_ is metadata associated with the communication between two computers. The
@@ -213,17 +213,17 @@ document.
 
 Pattern recognition and finding anomalies is a crucial aspect for data science
 and machine learning in particular. Several researchers have adopted machine
-learning techniques for cyber security [@Amershi2011] and also for finding
+learning techniques for cybersecurity [@Amershi2011] and also for finding
 anomalies in social media analysis [@Zhao2014; @Cao2016]. These researchers
 discuss the rich and deep applications of machine learning for each domain. Due
-to the large scales of data in cyber security, these techniques can and often
+to the large scales of data in cybersecurity, these techniques can and often
 are utilized to find subsets of potentially interesting network records to
 visualize, but humans are still frequently required to analyze these results and
 are a critical component of this triage process [@Amershi2011].
 
 
 Another way to formulate patterns is to consider different aggregations of
-network records, such as time and location. Many cyber security visualizations
+network records, such as time and location. Many cybersecurity visualizations
 have been developed for showing hierarchical time-varying aspects of the data
 [@Erbacher2005; @Fischer2014]. From working with users, we found that
 aggregation to a larger scale by _hours_ and _days_ is both useful and
@@ -241,7 +241,7 @@ information such as averages.
 
 
 For this design study, the task focus was on the discovery and presentation of
-cyber security patterns. Presentation of patterns requires simple and easily
+cybersecurity patterns. Presentation of patterns requires simple and easily
 understood visualizations for consumption by users who are not domain experts.
 Discovery of patterns is an important part of network security analysis,
 encompassing tasks identified by previous researchers such as perception,
@@ -267,13 +267,13 @@ As we conducted this design study, we focused on validating the utility  of the
 design activity framework to capture the design methods we used, the resulting
 visualization artifacts, and our design rationale. As a result of using the
 design activity framework, this project resulted in creating a dashboard for
-cyber security patterns. To present these patterns, we emphasized users beyond
+cybersecurity patterns. To present these patterns, we emphasized users beyond
 the network analyst. As such, it was necessary to incorporate these other users,
 their needs, and workflows into the design process in order to create the final
 BubbleNet dashboard. This design process highlighted key insights into the
 connection, similarities, and differences of user-centered design and a design
 study. These insights make this work unique compared to past user-centered
-design papers for cyber security. In particular, we found that the framing of
+design papers for cybersecurity. In particular, we found that the framing of
 the design activity framework succinctly captured, described, and guided our
 design process more effectively than the nine-stage framework process for design
 studies.
@@ -355,7 +355,7 @@ further focused into two specific user personas: network analysts and managers.
 By using the timelines inspired from the design activity framework, we were able
 to actively connect these different discourse or project channels together, and
 the visualization artifacts identified through different design methods, such as
-qualitative codes and personas, focused the design of a cyber security dashboard
+qualitative codes and personas, focused the design of a cybersecurity dashboard
 to the task of communication for specific types of users.
 
 
@@ -414,12 +414,12 @@ aspects of evaluation and deployment will be discussed further.
 
 
 As previously discussed, a number of user-centered design methods have been
-utilized in the cyber security visualization literature, such as interviews,
+utilized in the cybersecurity visualization literature, such as interviews,
 observations, usability testing, focus groups, and workshops. A few methods were
 used in the context of a larger design process, but none of these methods were
 validated in the context of contribution to a completed, deployed visualization
 tool. Many other user-centered design methods have yet to be demonstrated for
-cyber security visualization design. We explored two design methods in detail
+cybersecurity visualization design. We explored two design methods in detail
 for designing a visualization: _personas_ and _data sketches_. These design
 methods played instrumental roles in the _understand_ and _ideate_ activities.
 Next, we discuss the two methods in detail, along with our motivation to place
@@ -427,7 +427,7 @@ the method in the context of the larger design process. Then we highlight the
 visualization artifacts achieved, followed by results and implications of what
 we learned and a discussion of the methods' efficiency, effectiveness, and
 limitations. We then summarize each method by presenting recommendations for use
-in cyber security visualization design.
+in cybersecurity visualization design.
 
 
 
@@ -436,14 +436,14 @@ in cyber security visualization design.
 ## Personas Design Method
 
 The personas design method was utilized as a way to identify potential users for
-a cyber security dashboard for communication of cyber information. We began this
+a cybersecurity dashboard for communication of cyber information. We began this
 design study with a broad, and fuzzy, goal, requiring us to take a step back and
 identify the needs of the users; again, we started in the _understand_ design
 activity. But who were the real users for a dashboard? With the task of
 communication, we surmised that more than one type of user was meant to utilize
 the dashboard. We could not find much research discussing users beyond network
 analysts, so our motivation was to uncover information on a range of users for
-cyber security to help form the design opportunities for this project. This
+cybersecurity to help form the design opportunities for this project. This
 motivation is an ideal fit for the personas design method.
 
 
@@ -451,19 +451,19 @@ The personas method is often utilized within the user-experience, design, and
 HCI communities [@Pruitt2003; @Faily2011; @Chang2008; @McGinn2008; @Martin2012].
 Personas are _"documents meant to foster communication within a design team as
 archetypes of users, their behaviors, and their knowledge"_ [@Martin2012].
-Within the cyber security domain, Stoll et al. describe a specific methodology
-for using personas, highlighting their benefits for cyber security visualization
+Within the cybersecurity domain, Stoll et al. describe a specific methodology
+for using personas, highlighting their benefits for cybersecurity visualization
 design [@Stoll2008a]. Here, we further this work in three ways. First, we
 describe how personas benefit the communication within a design team. Second, we
 add visual elements to our personas to promote fast visual comparison of
 multiple user profiles and highlight interactions between personas. Third, we
-tailor our personas to the field of cyber security by incorporating key aspects
+tailor our personas to the field of cybersecurity by incorporating key aspects
 of cyber situational awareness.
 
 
 We developed the personas based on a dozen semistructured interviews conducted
 over six weeks with various stakeholders: network analysts, managers,
-researchers embedded in cyber operations, and various other cyber security and
+researchers embedded in cyber operations, and various other cybersecurity and
 business-focused users. Reflecting on the data gathered during these interviews
 and existing literature, we produced personas for four types of users: analyst,
 manager, director, and CEO. Once we identified the four types of users for our
@@ -492,8 +492,8 @@ interactions taking place between them.
 
 
 ![
-  Cyber security personas for visual communication.
-  We identified four visual personas for cyber security visualization, showing
+  Cybersecurity personas for visual communication.
+  We identified four visual personas for cybersecurity visualization, showing
   the role decisions and information play across all users. The personas method
   was particularly effective at narrowing our design focus and facilitating
   consistent communication as a design team.
@@ -524,13 +524,13 @@ deployment.
 ### Discussion of the Method
 
 The personas presented in [@fig:personas] can be used as a starting point or
-tailored by others in future visualization design projects for cyber security.
+tailored by others in future visualization design projects for cybersecurity.
 Furthermore, these personas can be modified for different project motivations
 and user needs; it is common for personas to alter and become more refined over
 time [@Chang2008]. The personas design method took less than three months,
 including the interview process, and resulted in the design of a deployed
 dashboard. Thus, the personas method can be both efficient and effective for
-cyber security visualization design. Additionally, the personas method can be
+cybersecurity visualization design. Additionally, the personas method can be
 data-driven, where personas are built and evaluated against data directly
 captured from users [@McGinn2008].
 
@@ -554,12 +554,12 @@ flexibly produce transient and uncertain visual representations of domain data
 by scavenging existing applications for functionality that allow data,
 interactions, and functionality to be combined"_ [@Lloyd2011]. In other words, a
 data sketch is a visualization developed using available software tools. We
-incorporated data sketches into our design of the cyber security dashboard
+incorporated data sketches into our design of the cybersecurity dashboard
 during our _understand_ and _ideate_ design activities in order to establish a
 more complete data and task abstraction for the communication of cyber
 information. Our motivation was to better understand an analyst's needs, and to
 ideate further on the potential design options; we also sought recommendations
-for cyber security dashboard design. We asked a network security analyst at the
+for cybersecurity dashboard design. We asked a network security analyst at the
 University of Utah to provide real-world data for the data sketches, and
 followed-up with this analyst to get feedback on the sketches.
 
@@ -577,9 +577,9 @@ We spent a month sketching with this dataset. We utilized Python to simplify,
 aggregate, and parse the data in various ways, and used Tableau, Gephi, and
 D3.js to produce a variety of visualizations. Even with these powerful
 visualization tools, it was still challenging to explore this relatively small
-cyber security dataset. To supplement our own sketches, we also included images
+cybersecurity dataset. To supplement our own sketches, we also included images
 from existing literature of less common and more complex visual representations
-that made use of real-world cyber security data [@Fischer2014; @Koike2005;
+that made use of real-world cybersecurity data [@Fischer2014; @Koike2005;
 @Taylor2009].
 
 
@@ -599,8 +599,8 @@ future projects for further brainstorming.
 
 ![
   Overview of the 20 data sketches.
-  We evaluated these data sketches with a cyber security analyst; this feedback
-  was critical to our redesign of a cyber security dashboard in
+  We evaluated these data sketches with a cybersecurity analyst; this feedback
+  was critical to our redesign of a cybersecurity dashboard in
   [@fig:dashboard2]. We categorized each sketch into four groups: network
   graphs, maps, aggregated charts, and time. We pulled several data sketches
   from existing literature [@Fischer2014; @Koike2005; @Taylor2009].
@@ -614,12 +614,12 @@ feedback for each kind of data sketch.
 
 - _Network Graphs:_ The analyst was unconvinced that the graphs could show meaningful insights at scale with each node representing a single IP address. Furthermore, the layout algorithm confused the analyst since it positioned each IP address at a location that was not meaningful to the analyst.
 - _Maps:_ In contrast to the network graph sketches, the map representations garnered positive feedback from the analyst, in particular the cartograms due to their novelty.
-- _Aggregated Charts:_ These charts concerned the analyst because the finest level of detail was not available. We also included one data sketch to show a 3D data chart, which seemed to entice the analyst despite our continued warnings about the usability challenges of 3D for cyber security visualization [@Komlodi2005]. More unique kinds of visualization, such as parallel coordinates and treemaps, confused the analyst on first glance and required further explanation. After explanation, the analyst commented that parallel coordinates seemed promising for exploring multidimensional data, whereas the treemaps, which showed the IP address hierarchy, seemed less useful.
+- _Aggregated Charts:_ These charts concerned the analyst because the finest level of detail was not available. We also included one data sketch to show a 3D data chart, which seemed to entice the analyst despite our continued warnings about the usability challenges of 3D for cybersecurity visualization [@Komlodi2005]. More unique kinds of visualization, such as parallel coordinates and treemaps, confused the analyst on first glance and required further explanation. After explanation, the analyst commented that parallel coordinates seemed promising for exploring multidimensional data, whereas the treemaps, which showed the IP address hierarchy, seemed less useful.
 - _Time:_ These sketches were discussed in less detail; however, the analyst stated that the timestamp was one of the least important data fields to him.
 
 
 After reviewing the analyst's feedback, we synthesized several considerations
-for cyber security dashboard design:
+for cybersecurity dashboard design:
 
 - Complex 3D graphics and interactions can be perceptually misleading and distract from the visual representation.
 - Certain visual encodings, such as parallel coordinates and treemaps, may require significant explanation and should generally not be used in a dashboard.
@@ -647,13 +647,13 @@ recommendations for dashboard design, and for pinpointing certain
 representations of the data as promising. Furthermore, this method provided some
 key insights for our redesign of the dashboard, which is currently deployed to
 users. These data sketches and the feedback we received can be used by others to
-inspire and evaluate their own visualization design projects for cyber security.
+inspire and evaluate their own visualization design projects for cybersecurity.
 
 
 There were several limitations to our approach. First, we took several of the
 sketches from images in the literature, and thus they were not based on our
 collaborator's data. Unfortunately, many of the tools in visualization papers,
-particularly for cyber security, tend not to be publicly available or provide a
+particularly for cybersecurity, tend not to be publicly available or provide a
 consistent data format for others to easily and readily use the tools for such
 an exercise. This meant we either had to not include these more unique and
 interesting visualizations in our set, or compromise by showing alternative
@@ -682,7 +682,7 @@ cull potential design ideas and focus on a smaller subset of ideas quickly.
 
 As a result of the various design methods and visualization design process, we
 created BubbleNet, a novel dashboard to visualize and communicate patterns in
-cyber security datasets. In this section, we present the encodings and design
+cybersecurity datasets. In this section, we present the encodings and design
 justifications behind each view of the BubbleNet dashboard, shown in
 [@fig:dashboard]. In BubbleNet, each view supports interactive selection of
 elements. This selection pivots the data in all other views on the fly to the
@@ -875,7 +875,7 @@ records due to aggregation done on the back-end.
 ## Evaluation and Deployment
 
 Evaluation is undoubtedly an important aspect to designing tools for users, both
-for cyber security [@Staheli2014] but more broadly as well. First, we discuss
+for cybersecurity [@Staheli2014] but more broadly as well. First, we discuss
 the evaluation methodology of a usability study. This study is a combination of
 formative and summative evaluation since we prioritized key issues on a
 high-fidelity prototype but user needs were also uncovered. The results of this
@@ -938,7 +938,7 @@ dashboard:
 
 
 Furthermore, this analysis derived a set of design considerations for future
-cyber security dashboards, discussed in the next section. With the first few
+cybersecurity dashboards, discussed in the next section. With the first few
 participants of the study, we discovered a common usability issue since the
 bullet charts had two different bars to click on. Along with visual bugs, these
 issues were fixed right away to focus feedback on less obvious issues.
@@ -955,7 +955,7 @@ same analyst told us that he could imagine this dashboard being used with other
 kinds of datasets as well: _"pretty much everything: flow data, [firewall logs],
 [proxy logs], anything"_ (A1). This statement helped confirm that the
 abstraction was at just the right level since the dashboard could adapt to so
-many cyber security datasets.
+many cybersecurity datasets.
 
 
 We present the quantitative results of the usability survey in [@fig:sus]. The
@@ -1035,7 +1035,7 @@ these considerations remain important for continuing operational deployment.
 
 ## Summary
 
-We uncovered a set of implications for dashboard visualization of cyber security
+We uncovered a set of implications for dashboard visualization of cybersecurity
 data that others can use. First, analysts sought details of the data whereas
 managers wanted the broader impact of an incident on the larger network. Second,
 there are many different ways to aggregate and provide details of the underlying
@@ -1052,9 +1052,9 @@ We found that the design activity framework more comprehensively captured the
 design process of this project and the multiple discourse channel interactions,
 in ways which the previous nine-stage framework failed to connect visualization
 artifacts and design decisions across projects. However, the BubbleNet dashboard
-is not the end of research or development into cyber security dashboards. The
+is not the end of research or development into cybersecurity dashboards. The
 use of a map does not work for all data, and there is more work needed to find
-more effective encodings such as broader impact of cyber security incidents.
+more effective encodings such as broader impact of cybersecurity incidents.
 Nevertheless, the design process of BubbleNet shows how other design studies can
 work with collaborators and users beyond just data analysts. When working with
 these other types of users, it becomes more important to balance and prioritize

@@ -14,7 +14,7 @@ activity framework is grounded in a series of formative and summative data
 visualization projects, where we encountered limitations of existing models and
 utilized this framework as a solution. The design activity framework is
 validated through series of case studies in the fields of biology
-[@mckenna2015s], cyber security [@McKenna2014; @McKenna2015; @mckenna2016], and
+[@mckenna2015s], cybersecurity [@McKenna2014; @McKenna2015; @mckenna2016], and
 data storytelling [@mckenna2017] and also by an evaluation of design activity
 worksheets taught in a data visualization classroom for use in a cumulative
 project [@mckenna2017a].
@@ -142,12 +142,12 @@ To strengthen the contribution of this framework, we evaluated its use and
 application across several different visualization design projects.
 Specifically, we utilized this framework to formulate, guide, and reflect on the
 design process of design studies and research in the fields of biology
-[@mckenna2015s], cyber security [@McKenna2014; @McKenna2015; @mckenna2016], and
+[@mckenna2015s], cybersecurity [@McKenna2014; @McKenna2015; @mckenna2016], and
 data visualization storytelling [@mckenna2017]. For each of these projects, we
 employed a variety of qualitative and quantitative design methods in order to
 validate the utility of this framework in real-world projects and reflect on
 their use in future visualization design projects. We describe two case studies
-for visualization of cyber security datasets that illustrate examples of how to
+for visualization of cybersecurity datasets that illustrate examples of how to
 use this framework and provide rich descriptions behind a variety of different
 visualization design artifacts. To explore teaching and validating this
 framework in the classroom, we created concrete, step-by-step worksheets for
@@ -193,7 +193,7 @@ associated artifacts.
 
 The design activity framework came out of reflections of the successful design
 project explained in [@sec:formulation]. This project focused on redesigning a
-cyber security tool, resulting in updates to the underlying system as a result
+cybersecurity tool, resulting in updates to the underlying system as a result
 of this separate design process. This isolation of the design and development
 enabled us to reflect on how to best describe and explain our visualization
 design process to collaborators from different fields. As a result, we describe

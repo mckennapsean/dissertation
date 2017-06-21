@@ -17,7 +17,7 @@ support design team communication and retrospection.
 
 
 The role of the design activity framework is illustrated through two case
-studies for cyber security. The first case study explored a redesign project of
+studies for cybersecurity. The first case study explored a redesign project of
 a company's visualization tool [@McKenna2014]. The design activity framework was
 established based on our reflections of the various activities we performed as a
 design team, utilizing user-centered design methods such as qualitative coding
@@ -28,7 +28,7 @@ certain geographic and temporal patterns in security-based alert datasets, which
 we evaluated through a series of methods including a usabiilty study. Like the
 previous case study, user-centered design methods advanced the project through
 personas to winnow and target specific users and data sketches to compare and
-contrast possible visual encodings with a cyber security analyst [@McKenna2015].
+contrast possible visual encodings with a cybersecurity analyst [@McKenna2015].
 The framework guided the visualization design activities of this second case
 study from the ground up, spanning multiple discourse channels.
 

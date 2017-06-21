@@ -1,7 +1,5 @@
 # Thesis Office Concerns
 
-Oxford Dictionary vs standard of "cybersecurity" vs "cyber security"? --> IEEE treats cyber as a prefix but not a common one. safer to go with "cybersecurity"
-
 Suggested to avoid "a/an/the" at beginning of all captions.
 
 Figure text must be at least 2mm. check fig 7.4, fig 7.7

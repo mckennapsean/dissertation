@@ -13,7 +13,7 @@ visualization artifacts.
 
 To elucidate the framework, two case studies for visualization design illustrate
 these concepts, methods, and artifacts in real-world projects in the field of
-cyber security. For example, user-centered design methods, such as personas and
+cybersecurity. For example, user-centered design methods, such as personas and
 data sketches, are employed in these projects and emphasize our teams'
 motivations and visualization artifacts with respect to the design activity
 framework. These case studies also serve as examples for novice visualization

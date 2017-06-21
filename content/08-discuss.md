@@ -23,9 +23,9 @@ for future work based on the design activity framework ([Section @sec:scoping]).
 Although the design activity framework can apply to other types of research
 beyond application-driven design study projects, more examination and validation
 is required to investigate this notion in further detail. Next, we discuss
-implications from the first case study, a cyber security redesign project
+implications from the first case study, a cybersecurity redesign project
 ([Section @sec:design-teams]). Following this discussion, we focus on insights
-gained in our second case study for cyber security on the topics of winnowing
+gained in our second case study for cybersecurity on the topics of winnowing
 users, casting roles for collaborators, and utilizing multiple discourse
 channels for visualization design ([Section @sec:cast-channels]). The use of
 user-centered design methods impacted both case studies positively, capturing
@@ -248,7 +248,7 @@ gatekeepers [@Sedlmair2012b]. Alternative collaborator roles have been
 identified, such as liaisons [@Bertini2015], which bridge visualization research
 to complex domains. Although we worked with several liaisons, the user personas
 identified four kinds of users, only one of whom, the network analyst, is a
-domain expert in cyber security. Other users, such as network managers, have
+domain expert in cybersecurity. Other users, such as network managers, have
 some domain knowledge, but another domain was clearly at work here: an
 organizational domain. Large organizations need to disseminate information up a
 chain of command in order for decisions to be made and passed down
@@ -259,7 +259,7 @@ needs, and the design activity framework, especially the _understand_ worksheet,
 pushes these concepts.
 
 
-Lastly, working in the cyber security domain benefited from the multiple
+Lastly, working in the cybersecurity domain benefited from the multiple
 discourse channel approach [@Wood2014], as highlighted in [@fig:process]. By
 reflecting on our design process, this multiple channel approach is particularly
 beneficial with the unique design constraints we faced: limited access to users
