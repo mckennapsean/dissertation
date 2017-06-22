@@ -45,23 +45,23 @@ agency, everything from names to social security and passport numbers.
 Such hacks are becoming increasingly prevalent and sophisticated, making the
 maintenance of a safe and secure computer network challenging, yet critical.
 Maintaining security on these computer networks is tricky, particularly due to
-the scale of the data as well as the constantly evolving nature of cyber
-security attacks [@Erbacher2010a; @Best2014]. Often, these attacks require a
-human interpretation in order to uncover, stop, and recover from them
-[@DAmico2008]. Network analysts struggle with a very data-intensive task for
-which it is easy to make mistakes, errors, and miscalculations [@Erbacher2010a].
-Visualization is one way for analysts to both explore and present this large
-data space, but analysts have been known to be hesitant about trusting
-visualizations for their own workflows [@Fink2009].
+the scale of the data as well as the constantly evolving nature of cybersecurity
+attacks [@Erbacher2010a; @Best2014]. Often, these attacks require a human
+interpretation in order to uncover, stop, and recover from them [@DAmico2008].
+Network analysts struggle with a very data-intensive task for which it is easy
+to make mistakes, errors, and miscalculations [@Erbacher2010a]. Visualization is
+one way for analysts to both explore and present this large data space, but
+analysts have been known to be hesitant about trusting visualizations for their
+own workflows [@Fink2009].
 
 
-In this chapter, we describe a design study focusing on the domain of cyber
-security. In this design study, we worked with two dozen cybersecurity experts
-over the span of two years with the goal of improving how analysts discover and
-present interesting anomalies and patterns within computer network data. To the
-best of our knowledge, this is the first end-to-end design study within this
-domain. Conducting the design study presented an interesting set of design
-constraints: limited access to the analysts and data, multiple types of
+In this chapter, we describe a design study focusing on the domain of
+cybersecurity. In this design study, we worked with two dozen cybersecurity
+experts over the span of two years with the goal of improving how analysts
+discover and present interesting anomalies and patterns within computer network
+data. To the best of our knowledge, this is the first end-to-end design study
+within this domain. Conducting the design study presented an interesting set of
+design constraints: limited access to the analysts and data, multiple types of
 end-users, and deployment limitations. Some of these constraints go against
 guidelines for conducting design studies from the nine-stage framework, such as
 arguments for an up-front winnowing of users and collection of data
@@ -892,13 +892,13 @@ To improve upon the second prototype from [@fig:dashboard], we performed a
 usability study with network analysts and managers from both research and
 operational organizations using real-time, real-world data from an
 organizational network. The intent of this study was to improve the design and
-see if the prototype met the needs of both analysts and managers. Nine cyber
-security professionals participated in the study: five analysts, four managers.
-Each participant took part in a one-hour long think-aloud session, conducted by
-one moderator with an observer taking notes, both of whom participated in this
-research. Each session contained a scripted walk-through of the prototype,
-several prescribed tasks to complete, open-ended questions about how users would
-use the prototype, and distribution of a system usability scale
+see if the prototype met the needs of both analysts and managers. Nine
+cybersecurity professionals participated in the study: five analysts, four
+managers. Each participant took part in a one-hour long think-aloud session,
+conducted by one moderator with an observer taking notes, both of whom
+participated in this research. Each session contained a scripted walk-through of
+the prototype, several prescribed tasks to complete, open-ended questions about
+how users would use the prototype, and distribution of a system usability scale
 [@brooke1996sus].
 
 

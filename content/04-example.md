@@ -2,8 +2,8 @@
 
 The design activity framework was initially formulated based on our reflections
 on a previous project where I was starting out as a novice visualization
-designer. For this project, we worked as a multidisciplinary team with a cyber
-security firm to tackle a redesign of that firm's visualization system
+designer. For this project, we worked as a multidisciplinary team with a
+cybersecurity firm to tackle a redesign of that firm's visualization system
 [@McKenna2014]. We focused our redesign to create a series of sketches,
 wireframes, and mockups that visually communicated our visualization and
 interface ideas to the company's development team in order to improve their
@@ -29,18 +29,19 @@ aspects of our visualization design process using the design activity framework.
 Our multidisciplinary design team consisted of two designers, one psychologist,
 a visualization expert, and myself, a visualization novice. On this team, only
 one of the five members had used the nine stage framework previously. We tackled
-the challenge of redesigning an existing visualization tool in the area of cyber
-security. As our team attempted to adopt the nine-stage framework for conducting
-design studies [@Sedlmair2012b], we struggled to answer questions such as: If
-I'm not starting from the beginning, where exactly am I in the design process?
-What are the range of design methods that are useful at any given point? What
-types of visualization artifacts should I be working toward along the way? How
-do I know my artifacts are good, or even just good enough, when balanced against
-real-world constraints? We believe that these questions point to a lack of
-_actionability_ in current visualization process models, namely the nine-stage
-framework for design studies. In other words, this model lacked implementable
-and immediately usable guidance that could help visualization designers
-explicitly navigate a real-world visualization design process.
+the challenge of redesigning an existing visualization tool in the area of
+cybersecurity. As our team attempted to adopt the nine-stage framework for
+conducting design studies [@Sedlmair2012b], we struggled to answer questions
+such as: If I'm not starting from the beginning, where exactly am I in the
+design process? What are the range of design methods that are useful at any
+given point? What types of visualization artifacts should I be working toward
+along the way? How do I know my artifacts are good, or even just good enough,
+when balanced against real-world constraints? We believe that these questions
+point to a lack of _actionability_ in current visualization process models,
+namely the nine-stage framework for design studies. In other words, this model
+lacked implementable and immediately usable guidance that could help
+visualization designers explicitly navigate a real-world visualization design
+process.
 
 
 This seven-month project focused on improving the usability and effectiveness of
@@ -112,13 +113,14 @@ built by the RVS company to explore the features and efficacy of the tool.
 
 
 Our analysis of RVS revealed that it was necessary for us to take a step back to
-the _understand_ activity so that we could better discern the needs of cyber
-security analysts. Since the final visualization system is managed by the RVS
-company, we did not revisit the _deploy_ activity ourselves, but we do know that
-the changes that the company made to the tool were eventually pulled in as part
-of their visualization product. However, the scope of our redesign visualization
-project only started at this activity and took a step back to envision other
-possible encodings and techniques to improve the existing visualization system.
+the _understand_ activity so that we could better discern the needs of
+cybersecurity analysts. Since the final visualization system is managed by the
+RVS company, we did not revisit the _deploy_ activity ourselves, but we do know
+that the changes that the company made to the tool were eventually pulled in as
+part of their visualization product. However, the scope of our redesign
+visualization project only started at this activity and took a step back to
+envision other possible encodings and techniques to improve the existing
+visualization system.
 
 
 
@@ -293,9 +295,9 @@ consisted of an A/B testing method (_M-1_) coupled with a questionnaire
 (_M-69_). This evaluation received positive feedback over the previous version
 of RVS, which we took as a validation of the design ideas that had became
 concretized within the final visualization artifact: a new prototype of RVS.
-Although the company behind RVS likely continued implementing changes and deploying
-aspects to their visualization system, we were not involved with this design
-and development process.
+Although the company behind RVS likely continued implementing changes and
+deploying aspects to their visualization system, we were not involved with this
+design and development process.
 
 
 
@@ -423,10 +425,11 @@ found on the project's website.[^design-methods]
   We generated these codes over a month of consuming three cognitive task
   analysis research papers, and iterated over the codes until the final version.
   We established these codes based on a series of evidence, both quotes and
-  paraphrases, from the source papers. Some example categories include the cyber
-  security data, general design guidelines, phases, roles, responsibilities,
-  tools, and workflows. As a result of this design method, our team pinpointed a
-  series of user needs to consider for redesigning a cybersecurity tool.
+  paraphrases, from the source papers. Some example categories include the
+  cybersecurity data, general design guidelines, phases, roles,
+  responsibilities, tools, and workflows. As a result of this design method, our
+  team pinpointed a series of user needs to consider for redesigning a
+  cybersecurity tool.
 ](figures/methods/coding.pdf){#fig:coding width="100%"}
 
 
