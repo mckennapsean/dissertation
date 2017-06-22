@@ -58,8 +58,8 @@ practical steps for building better systems and tools.
 
 In [@sec:framework], we described one such theoretical model of the design
 process with four actionable design activities: _understand_, _ideate_, _make_,
-and _deploy_. Each of these activities includes a goal, target artifact or
-outcomes, and a plethora of design methods to choose from, each of which was
+and _deploy_. Each activity includes a goal, target artifact or
+outcomes, and a plethora of design methods to choose from, each of which is
 described in such a way to make the process model more actionable. We found,
 however, that the theoretical framing of the model restricted and limited its
 use and actionability in the classroom or class project settings. To address
@@ -145,7 +145,7 @@ designing a visualization. Their approach begins with brainstorming, followed by
 three unique designs and a realization sheet for the final tool. The authors
 evaluated this teaching methodology with master's-level students in information
 visualization. Over several years, 53 students completed these design sheets
-over the span of 2 hours to come up with different ways to visualize their own
+over the span of two hours to come up with different ways to visualize their own
 chosen dataset, after which they received feedback and additional time to
 finalize their designs [@Roberts2015]. After grading the sheets, the researchers
 compared these grades with the students' project and final course grades, as
@@ -153,7 +153,7 @@ well as an anonymous survey, to gather feedback on the entire course including
 the design sheets. Generally, they found that the design sheets aided students
 in planning and organizing a design section for the project write-up, and it
 also encouraged students to think divergently, which is a skill not often taught
-in computer science. However, in a workshop at the 2016 IEEE VIS conference that
+in computer science. However, in a workshop at the 2016 IEEE VIS Conference that
 used these worksheets, we experienced a limitation by using this approach too
 soon: many steps must occur first, such as data collection, identifying the
 challenge, focusing on a target user, and finding tasks. Roberts et al. elude to
@@ -357,12 +357,12 @@ distinct and crucial aspects of the visualization design process.
 
 ![
   Design activity worksheet example.
-  We showed how to use the design worksheets with linked sketches, summarizing
-  our design process to create the BubbleNet dashboard [@mckenna2016]. This
-  real-world project showcases how to utilize the worksheets and highlights how
-  to capture a complex, iterative design process. A detailed copy of each
-  example worksheet and associated sketches is included online with the
-  worksheet materials.
+  We showed students how to use the design worksheets with linked sketches,
+  summarizing our design process to create the BubbleNet dashboard
+  [@mckenna2016]. This real-world project showcases how to utilize the
+  worksheets and highlights how to capture a complex, iterative design process.
+  A detailed copy of each example worksheet and associated sketches is included
+  online with the worksheet materials.
 ](figures/worksheets/worksheet-example.jpg){#fig:worksheet-example width="100%"}
 
 
@@ -533,10 +533,10 @@ worksheets into a checklist for each step, the same as the steps shown in
 [@tbl:steps]. Based on the interviews, we recommend two formats for guiding the
 visualization design process: a checklist and worksheets. The worksheets did
 provide structure, _"It's like a checklist to make sure everything is covered"_
-(P11), but the worksheets did limit free-form thinkers: _"If you have a lot of
-things on your mind, you won't fit everything in the box anyways so the boxes
-are actually wasting paper"_ (P6). Some visualization designers recommend paper
-for sketching [@Roberts2015], but others in the design community argue digital
+(P11), but they also limited free-form thinkers: _"If you have a lot of things
+on your mind, you won't fit everything in the box anyways so the boxes are
+actually wasting paper"_ (P6). Some visualization designers recommend paper for
+sketching [@Roberts2015], but others in the design community argue digital
 sketching can have functional benefits, such as shapes, undo, layers,
 duplication, and manipulation of details through zooming [@Wu2011], which two
 students utilized and felt was vital to their visualization design process.
@@ -546,18 +546,18 @@ you with the other worksheet and have a screenshot"_ (P8).
 
 
 Students also suggested adding more worksheets to the materials. Six students
-felt that _"those activities frame the process well"_ (P2). However, two students
-brought up a crucial aspect of evaluation and feedback: that it might be
-worthwhile to devote a whole worksheet to these concepts, otherwise _"If you have
-it on the other worksheets, [evaluation] doesn't seem to have as much value"_
-(P10). A key challenge for a visualization design project can be finding the
-right dataset. Four students requested a visualization design worksheet to help
-probe into and explore the dataset or datasets that a group may want to
+felt that _"those activities frame the process well"_ (P2). However, two
+students brought up a crucial aspect of evaluation and feedback: that it might
+be worthwhile to devote a whole worksheet to these concepts, otherwise _"If you
+have it on the other worksheets, [evaluation] doesn't seem to have as much
+value"_ (P10). A key challenge for a visualization design project can be finding
+the right dataset. Four students requested a visualization design worksheet to
+help probe into and explore the dataset or datasets that a group may want to
 visualize. By providing guidance, steps, and questions on aspects of the
 dataset, potential issues with visualizing the dataset could be avoided later,
 which is exactly what happened with two student projects. Lastly, three students
 requested a visualization design worksheet on how to structure the code of a
-visualization system, particularly in the case of one group that had no computer
+visualization system, particularly in the case of one group with no computer
 science background. Such a resource would help students brainstorm on how to
 structure classes in their code, especially for building data visualization
 systems. Specific guidelines for particular languages, such as designing
