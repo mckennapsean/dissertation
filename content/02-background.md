@@ -5,11 +5,11 @@ main goals of the design activity framework originate from shortfalls in
 existing visualization models: achievability, flexibility, justifiability,
 discoverability, and actionability. In this chapter, we focus on two types of
 visualization design models, decision and process models [@Meyer]. The nested
-model [@Munzner2009; @Meyer] is the primary model for visualization design
-decisions, which addresses justifiability unlike process models. On the other
-hand, design process models can be grouped into two approaches based on research
-in the human-computer interaction (HCI) community: creative and engineering
-[@Lowgren1995; @Howard2008; @Wolf2006; @Moere2011], and together these two
+model [@Munzner2009; @Meyer], the primary model for visualization design
+decisions, addresses justifiability unlike process models. On the other hand,
+design process models can be grouped into two approaches based on research in
+the human-computer interaction (HCI) community: creative and engineering
+[@Lowgren1995; @Howard2008; @Wolf2006; @Moere2011]. Together, these two
 approaches can complement and enrich a design process. Next, we investigate how
 visualization design process models fail to capture the complex, actionable, and
 flexible nature of the creative process. Furthermore, we reflect on the role and
@@ -84,7 +84,7 @@ encoding data in an interactive visualization system.
   Decision-making framework in design.
   Christiaans and Almendra identified different forms of design strategies, both
   problem and solution driven [@Christiaans2010]. Many other design decision
-  models, outside of the visualization field, have similarly identified this
+  models, outside the visualization field, have similarly identified this
   separation of the problem and the solution, including the aspects of
   creative processes, such as exploration and generation, which lead to
   decisions that produce solutions.
@@ -112,7 +112,7 @@ the design of a visualization.
   data visualization design decisions [@Munzner2009]. Another goal of the model
   is to guide visualization designers to find appropriate validation depending
   on where they are in the model, and this validation guidance can provide
-  warnings about potential errors which can cascade into downstream or deeper
+  warnings about potential errors that can cascade into downstream or deeper
   levels.
 ](figures/background/nested-model.pdf){#fig:nested-model width="80%"}
 
@@ -136,7 +136,7 @@ methods. Existing visualization process models fail to incorporate this
 justifiability without a link to decision models. Moreover, numerous existing
 models capture evaluation as only a step of the design process [@Chee2011;
 @Tory2004; @Wassink2009; @Lloyd2011] rather than a continuing role throughout
-the process like in design decision models.
+the process as in design decision models.
 
 
 ### Design Process Models
@@ -166,7 +166,7 @@ displayed in [@fig:process-howard] [@Howard2008].
   in their modification in order to emphasize and call out the specific stages
   of generation, evaluation, and analysis. A key aspect of this model is the
   incorporation of creative output, which is an idea that must be novel,
-  invented but not obvious, and be of use to industry.
+  invented but not obvious, and of use to industry.
 ](figures/background/design-process-howard.pdf){#fig:process-howard width="100%"}
 
 
@@ -174,7 +174,7 @@ An example of a creative model is Pugh's process, a design funnel in
 [@fig:funnel] [@pugh1991total] that begins with concept generation and
 controlled convergence iterating over time until a final concept is reached
 [@buxton2010sketching]. Additionally, ideation and design activities often
-involve sketching as a method which is a crucial aspect for creative design
+involve sketching as a method that is a crucial aspect for creative design
 processes, as sketching is not simply the act of drawing but rather is an
 activity involving generation, brainstorming, learning, reasoning, and design
 thinking [@buxton2010sketching]. As recognized by researchers in the design
@@ -225,7 +225,7 @@ different design activities as a cycle, emphasizing an engineering approach.
 
 ![
   Process model where design activities are interconnected.
-  The standard ISO9241-210 includes this design process model [@DIS2010] which
+  The standard ISO9241-210 includes this design process model [@DIS2010] that
   breaks apart the stages of the design process into overlapping, human-centered
   design activities. However, the iteration and interconnection of these
   activities is not as clearly illustrated in the model or the standard.
@@ -235,7 +235,7 @@ different design activities as a cycle, emphasizing an engineering approach.
 Goodwin et al. accompany this engineering process model with specific methods
 for eliciting creativity from end users [@Goodwin2013a], a step toward including
 aspects of a creative design process. Vande Moere and Purchase further
-characterize the role of design in visualization [@Moere2011], and, while no
+characterize the role of design in visualization [@Moere2011], and, although no
 design process model is outlined, their assertions on design emphasize the
 importance of creative aspects for visualization design. By embracing concepts
 from action design research (ADR), McCurdy et al. applied ADR to a design study
@@ -266,12 +266,12 @@ focused on helping conduct general visualization design projects.
 
 ![
   Nine-stage framework process model for design studies.
-  Sedlmair et al. introduced nine different stages of the design process,
-  characterized by three high-level categories [@Sedlmair2012b]. The gray arrows
-  indicate iterative and nonlinear aspects. The design activity framework
-  extends upon the four core stages of this model: discover, design, implement,
-  and deploy, in order to increase the model's achievability, flexibility,
-  justifiability, discoverability, and actionability.
+  Sedlmair et al. introduced nine stages of the design process, characterized by
+  three high-level categories [@Sedlmair2012b]. The gray arrows indicate
+  iterative and nonlinear aspects. The design activity framework extends the
+  four core stages of this model --- discover, design, implement, and deploy ---
+  in order to increase the model's achievability, flexibility, justifiability,
+  discoverability, and actionability.
 ](figures/background/nine-stage-framework.pdf){#fig:nine-stage-framework width="100%"}
 
 
@@ -290,9 +290,9 @@ framework and linking to design decisions to support justifiability.
 
 ## Flexibility in Visualization Design
 
-In a visualization design project where we worked with two general designers and
-a psychologist (discussed in [@sec:formulation]), we discovered a disparity with
-how existing visualization design models support flexibility throughout the
+In a visualization design project in which we worked with two general designers
+and a psychologist (discussed in [@sec:formulation]), we discovered a disparity
+with how existing visualization design models support flexibility throughout the
 design process. Although some visualization researchers argue that design and
 research methods can elicit creativity in visualization design [@Lloyd2011;
 @Goodwin2013a; @Moere2011], design practitioners explicitly emphasize and
@@ -300,17 +300,17 @@ highlight the complex nature of the design process [@Baker2010; @Cao2010] as
 well as the role of design constraints [@Onarheim2010; @Savage1998]. Baker and
 van der Hoek observed designers from Intuit, AmberPoint, and Adobe [@Baker2010].
 The researchers tracked the designers' ideas over time, as seen in
-[@fig:ideas-baker], which shows the complex, iterative, and non-linear nature of
+[@fig:ideas-baker], which shows the complex, iterative, and nonlinear nature of
 the design process. In addition, a model used by Kumar to demonstrate design
 methods also shows the nonlinear nature of the design process, as in
 [@fig:process-kumar], and he further cautions against models that imply
 linearity [@Kumar2012]. Design constraints and complex ordering of design
 activities were not explicitly captured in many existing visualization process
-models, and this led to a lack of flexibility when trying to track, describe,
+models which led to a lack of flexibility when trying to track, describe,
 and document our own design processes. Furthermore, by failing to connect to
 design decisions or levels of the nested model [@Munzner2009], these
 visualization models do not emphasize the importance of design rationale for
-decision-making which can play a critical role in how a visualization design
+decision-making, which can play a critical role in how a visualization design
 process unfolds.
 
 
@@ -326,7 +326,7 @@ process unfolds.
 ![
   Design innovation process model.
   Kumar presents this model with seven modes [@Kumar2012] and a highlighted
-  design process which again shows the importance of capturing nonlinearity for
+  design process that again shows the importance of capturing nonlinearity for
   design. This model's concept motivated the representation of the design
   activity framework, to embrace creative process models by steering away from a
   linear or cyclic diagram.
@@ -356,7 +356,7 @@ activity framework. By utilizing this design funnel and providing succinct
 definitions, activity motivations, and desired visualization artifacts, such as
 design constraints, the design activity framework achieves greater actionability
 and flexibility over existing visualization design process models. Additionally,
-principles that show a flow of activities that is complex, iterative and
+principles that show a flow of activities that is complex, iterative, and
 multilinear increase the flexibility supported by the design activity framework.
 
 
@@ -397,27 +397,28 @@ evaluation.
 
 
 For visualization design, many publications report the use and benefit of
-user-centered design methods, but connections to the larger design process is
-not always stated which limits both the discoverability and actionability of
-these methods. In many design studies, researchers interview users to derive
-requirements for a visualization tool [@Goodall2005; @Erbacher2012;
-@Brehmer2014; @McCurdy2015; @Kerzner2015; @Quinan2015]. There are other methods
-for deriving user requirements, such as the personas design method [@Stoll2008a]
-or qualitative coding and data sketches [@McKenna2015]. Others promote similar
-design-first, co-creation, or creative approaches to help find innovative
-visualization solutions, emphasizing visual concepts before user requirements
-[@Paul2015; @Goodwin2013a; @Landstorfer2014]. Several researchers have used
-iterative usability studies and user feedback to improve upon the design of a
-visualization prototype [@Komlodi2005; @Hao2013a; @mckenna2016]. Many of the
-visualization models capture more of an engineering design process, with a
-testing or evaluation phase [@Chee2011; @Tory2004; @Wassink2009; @Lloyd2011]
-that does not support the role of evaluation and decisions throughout the
-process. User-centered design methods can be evaluative at any step or phase, to
-limit or narrow the choice of potential artifacts going forward. This gap stems
-from a lack of emphasis on evaluative methods in existing visualization design
-process models, but there exist a plethora of design methods that get utilized
-in real-world projects and that could be introduced to visualization designers
-if a model supported their discoverability.
+user-centered design methods, but they do not always state the connections to
+the larger design process which limits both the discoverability and
+actionability of these methods. In many design studies, researchers interview
+users to derive requirements for a visualization tool [@Goodall2005;
+@Erbacher2012; @Brehmer2014; @McCurdy2015; @Kerzner2015; @Quinan2015]. Other
+methods for deriving user requirements include the personas design method
+[@Stoll2008a], qualitative coding, and data sketches [@McKenna2015]. Others
+promote similar design-first, co-creation, or creative approaches to help find
+innovative visualization solutions, emphasizing visual concepts before user
+requirements [@Paul2015; @Goodwin2013a; @Landstorfer2014]. Several researchers
+have used iterative usability studies and user feedback to improve upon the
+design of a visualization prototype [@Komlodi2005; @Hao2013a; @mckenna2016].
+Many of the visualization models capture more of an engineering design process,
+with a testing or evaluation phase [@Chee2011; @Tory2004; @Wassink2009;
+@Lloyd2011] that does not support the role of evaluation and decisions
+throughout the process. User-centered design methods can be evaluative at any
+step or phase, to limit or narrow the choice of potential artifacts going
+forward. This gap stems from a lack of emphasis on evaluative methods in
+existing visualization design process models, but there exist a plethora of
+design methods that get utilized in real-world projects and that could be
+introduced to visualization designers if a model supported their
+discoverability.
 
 
 
@@ -431,7 +432,7 @@ visualization process models have been studied and reported on their use in a
 classroom setting. Existing process models for visualization could be improved
 to more clearly outline the desired, achievable visualization artifacts.
 Furthermore, the actionability of such models has not been studied or explored.
-For example, actionable guidance might provide a more step-by-step walk through
+For example, actionable guidance might provide a more step-by-step walk-through
 [@Roberts2015] for the design process, and illustrative examples of the design
 process can further add to the actionability of a model.
 
@@ -464,14 +465,14 @@ However, novices may struggle in visualization design projects since existing
 design models outlined in textbooks [@Ware2010; @Shneiderman2004] and research
 papers [@Munzner2014; @Sedlmair2012b] utilize high-level terminology that is
 often theory-based and less actionable out of context. Simplifying such
-terminology and focusing on comprehensive aspects [@Kindlmann2016] can aid
-students to understand and apply concepts more readily. Furthermore, steps for
-the ideation process have been outlined by the five design-sheet methodology
-with worksheets shown in [@fig:design-sheets] [@Roberts2015], but broader steps
-beyond just ideation would be beneficial for visualization design pedagogy. The
-design activity framework and worksheets provide such a step-by-step description
-that increases not only its achievability but actionability as a visualization
-design process model.
+terminology and focusing on comprehensive aspects [@Kindlmann2016] help students
+understand and apply concepts more readily. Furthermore, steps for the ideation
+process have been outlined by the five design-sheet methodology with worksheets
+shown in [@fig:design-sheets] [@Roberts2015], but broader steps beyond just
+ideation would be beneficial for visualization design pedagogy. The design
+activity framework and worksheets provide such a step-by-step description that
+increases not only its achievability but actionability as a visualization design
+process model.
 
 
 ![

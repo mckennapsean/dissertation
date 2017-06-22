@@ -673,8 +673,8 @@ visual story, such as the animated chart in _S-16_.
 story, such as linear story points, skipping between, or more complex paths. The
 most common story type we observed is linear, where a reader is guided through
 each story point in order like in _S-21_. However, a variation of this approach
-is a linear skip, where readers can jump backwards or ahead -- often included if
-a navigation progress widget is present such as the stepper in _S-9_. A story
+is a linear skip, where readers can jump backwards or ahead --- often included
+if a navigation progress widget is present such as the stepper in _S-9_. A story
 can also contain more complex story paths, such as a tree style or graph to
 include cycles or loops. A good example is _S-29_, a visual, interactive story
 about how neurons work.

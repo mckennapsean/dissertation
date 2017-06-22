@@ -19,6 +19,8 @@ For ref at page bottom, place fig on following page (1 pg too late!):
 Fig 5.5 | fig:sketches
 Fig 6.1 | fig:u-worksheet
 
+Pages with figures should have at least 6 consecutive lines of text, or none.
+
 Title page: divide up title further (inverse pyramid), possibly OK
 Title page: even spacing between all sections (e.g. 6 lines), possibly OK
 Table of Contents: sentence case for Chapters & Appendices, possibly OK
