@@ -447,7 +447,7 @@ cybersecurity to help form the design opportunities for this project. This
 motivation is an ideal fit for the personas design method.
 
 
-The personas method is often utilized within the user-experience, design, and
+The personas method is often utilized within the user experience, design, and
 HCI communities [@Pruitt2003; @Faily2011; @Chang2008; @McGinn2008; @Martin2012].
 Personas are _"documents meant to foster communication within a design team as
 archetypes of users, their behaviors, and their knowledge"_ [@Martin2012].

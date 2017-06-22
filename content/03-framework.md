@@ -82,7 +82,7 @@ artifacts.
 
 Next, visualization **artifacts** are the specific, unique results of a design
 activity, characterized by which level or levels of the nested model they
-address. There is a close connection of artifacts with design **methods**, which
+address. Artifacts are closely connected with design **methods**, which
 are actions or techniques that a designer employs to either generate or evaluate
 artifacts. It is in the application of methods to the broad space of all
 visualization design options, particularly methods for evaluation, that design
@@ -98,15 +98,15 @@ convergent and filter artifacts, such as methods that elicit feedback from
 domain experts [@Beyer1997; @Lam2011a] or user studies [@Cairns2008;
 @Lazar2010]. This distinction between generation and evaluation is common within
 the design community [@Brown2009; @Hevner2008; @Hanington2003; @Christiaans2010;
-@Hevner2008], such as Pugh's design funnel that includes both concept generation
-and controlled convergence [@pugh1991total]. Interestingly, some methods can be
-both generative and evaluative, such as observation and interviewing. In the
-design activity framework, we consider generative and evaluative design methods
-as vital components of each activity, unlike process models that capture
-evaluation as a single, unique stage in the design process [@Chee2011;
-@Tory2004; @Wassink2009; @Lloyd2011; @Goodwin2013a; @DIS2010]. This emphasis on
-evaluation methods encourages visualization designers to consider evaluation
-early, and often, for each design activity.
+@Hevner2008], such as Pugh's design funnel, which includes both concept
+generation and controlled convergence [@pugh1991total]. Interestingly, some
+methods can be both generative and evaluative, such as observation and
+interviewing. In the design activity framework, we consider generative and
+evaluative design methods as vital components of each activity, unlike process
+models that capture evaluation as a single, unique stage in the design process
+[@Chee2011; @Tory2004; @Wassink2009; @Lloyd2011; @Goodwin2013a; @DIS2010]. This
+emphasis on evaluation methods encourages visualization designers to consider
+evaluation early, and often, for each design activity.
 
 
 ![
@@ -145,8 +145,8 @@ design activities of the design activity framework.
   We identified four visualization design activities: _understand_, _ideate_,
   _make_, and _deploy_. Additionally, we detail the motivation and expected
   visualization artifacts within each activity. Throughout this dissertation, we
-  refer activities using the first initial of each activity and its associated
-  color.
+  refer to activities using the first initial of each activity and its
+  associated color.
 ](figures/daf/activities.pdf){#fig:framework width="100%"}
 
 
@@ -204,8 +204,8 @@ of a deployed visualization system.
 The second activity in the framework is the **ideate** activity, which has the
 motivation _to generate a plethora of concepts and then winnow these into good
 ideas that meet the needs of a user._ The visualization artifacts of the
-_ideate_ activity are a set of ideas that are often externalized in a variety of
-forms, from sketches to wireframes to low-fidelity prototypes. Generation and
+_ideate_ activity are a set of ideas often externalized in a variety of forms,
+from sketches to wireframes to low-fidelity prototypes. Generation and
 evaluation are two very important steps for ideation. For example, many creative
 designers strive to generate ideas free of limitations, constraints, or
 considerations because early judgment and decision-making can limit the range of
@@ -256,9 +256,9 @@ designers need to employ software engineering and development techniques for
 writing code and programs to build visualizations to meet the needs of the
 users. This could be as simple as writing scripts or automating processes for
 generating visualizations and tying them together using a variety of existing
-tools, but it is also possible to use other visualization frameworks (e.g.,
-D3.js, Vega, Processing) or graphics toolkits (e.g., OpenGL, WebGL, Canvas) to
-build and generate interactive visualizations from the ground up.
+tools, but designers can also use other visualization frameworks (e.g., D3.js,
+Vega, Processing) or graphics toolkits (e.g., OpenGL, WebGL, Canvas) to build
+and generate interactive visualizations from the ground up.
 
 
 Most engineering design process models couple the ideate and make activities. We
@@ -290,18 +290,18 @@ problem-driven visualization design since it supports real-world users in their
 own work environments. Constructing a visualization system often involves
 considerations and steps not necessary for early visualization prototypes. For
 example, it is less common to focus on usability, aesthetics, or scalability
-issues in a prototype system, but these are all critical aspects of a final
-system that can impact domain collaborators' ability or desire to effectively
-use the produced visualization tool for their set of tasks.
+issues in a prototype system, but these critical aspects of a final system can
+impact domain collaborators' ability or desire to effectively use the produced
+visualization tool for their set of tasks.
 
 
 Another important step in the _deploy_ activity is to consider optimizations
-that are needed by users to use a tool to solve their problems. As an example,
-imagine domain collaborators generate their data using an industry standard tool
-and want to be able to use that specific data format inside a newly designed
-visualization system. For building an initial prototype of the system,
-visualization designers may require the collaborators to export their data or
-use a script to get it into a standard format and provide feedback for
+needed by users to use a tool to solve their problems efficiently. As an
+example, imagine domain collaborators generate their data using an industry
+standard tool and want to be able to use that specific data format inside a
+newly designed visualization system. For building an initial prototype of the
+system, visualization designers may require the collaborators to export their
+data or use a script to get it into a standard format and provide feedback for
 evaluation. However, for daily tasks, this data process would be cumbersome,
 require significant training, and limit the ability of the collaborators to use
 the tool. A key aspect of deploying a visualization system is improving these
@@ -326,9 +326,8 @@ decision (e.g., which data abstraction to use) will often move through different
 design activities to pick the right one; thus, the culmination of a complete
 visualization could involve moving through this framework in a complex,
 iterative, and _multilinear_ fashion. By multilinear, we mean that a process
-combines forward, linear movement with cyclic, backwards, and parallel
-movements. We discuss more about movement and design timelines in the following
-section.
+combines forward, linear movement with cyclic, backward, and parallel movements.
+We discuss more about movement and design timelines in the following section.
 
 
 ![
@@ -391,7 +390,7 @@ user.
 
 The _deploy_ activity and its final visualization system are often constructed
 using methods from the field of software engineering and user experience
-engineering, with a focus of supporting target users utilizing the tool in a
+engineering, with a focus on supporting target users utilizing the tool in a
 real-world situation. Thus, the visualization system must touch on decisions
 made at the algorithm level of the nested model, in addition to other decisions
 that are not necessarily about the visualization design itself, such as
@@ -448,16 +447,17 @@ multilinearity. We illustrate these principles in [@fig:order].
 ](figures/daf/activity-timeline.pdf){#fig:order width="100%"}
 
 
-Other visualization process models are also characterized in similar ways,
+Many visualization process models are also characterized in similar ways,
 supporting ordered forward movement with iteration [@Chee2011; @Tory2004;
-@Wassink2009; @Sedlmair2012b; @DIS2010]; and still others suggest an overlap
-between stages, such as the nine-stage framework [@Sedlmair2012b] and the
-international standard for human-centered design activities [@DIS2010]. These
-models, however, are often represented linearly or cyclically and imply the need
-to start at the beginning of the process, making it difficult, for example, to
+@Wassink2009; @Sedlmair2012b; @DIS2010]; and researchers in visualization and
+design suggest an overlap between stages, such as the nine-stage framework
+[@Sedlmair2012b] and the international standard for human-centered design
+activities [@DIS2010]. However, researchers often represent their design models
+linearly [@Sedlmair2012b] or cyclically [@DIS2010] and thus imply the need to
+start at the beginning of the process, making it difficult, for example, to
 capture the process of a more complex visualization redesign project. We want to
-ensure flexibility of this framework to maximize its utility for a wide variety
-of visualization designers.
+ensure flexibility of the design activity framework to maximize its utility for
+a wide variety of visualization designers.
 
 
 To establish and showcase these two movement principles, we provide several
@@ -535,16 +535,16 @@ methods for visualization design.
 -->
 
 
-Each method was informally coded and characterized by the activities of the
+We informally coded and characterized each method by the activities of the
 design activity framework in which it can be used --- _understand_ (**_u_**),
 _ideate_ (**_i_**), _make_ (**_m_**), and _deploy_ (**_d_**). It is important to
-note that many methods can and often are used in different design activities.
-The methods are also categorized as being generative (**_g_**), evaluative
+note that many methods can and often are used in different design activities. We
+also categorized the methods as being generative (**_g_**), evaluative
 (**_e_**), or both in nature. Several methods, e.g., graffiti walls (_M-43_),
 interviewing (_M-51_), and observation (_M-58_), have more complex
 characterizations than presented in this table; please see [Appendix
-@sec:app-methods] for a more complete and detailed characterization. Some
-methods are also marked as appearing within the visualization literature
+@sec:app-methods] for a more complete and detailed characterization.
+Additionally, we marked methods as appearing within the visualization literature
 (**_v_**). Finally, each method includes a definition and reference to aid
 visualization designers in bringing these methods into practice. As the design
 activity framework targets designers performing problem-driven visualization
