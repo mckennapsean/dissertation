@@ -1,5 +1,7 @@
 # Thesis Office Concerns
 
+Remove all figures & refs from Chapter 2
+
 For following figs, place at bottom of page, below the ref (instead of top):
 Fig 2.4 | fig:process-howard
 Fig 2.6 | fig:process-lloyd
@@ -19,5 +21,3 @@ Fig 6.1 | fig:u-worksheet
 
 Check Margins: 1.25 inches on the left and right and 1 inch only on the bottom, >1 in at top IF starts with heading only
 **BE CAREFUL with Adobe Reader - compression CHANGED the margins! perhaps don't compress for printing?**
-
-See "ThesisOffice" mentions for additional, material-specific concerns.

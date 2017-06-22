@@ -21,8 +21,6 @@ introduce the design activity framework as a way to bridge design activities
 with the decisions a visualization designer might make, supporting all five
 goals for an improved data visualization design process model.
 
-<!-- ThesisOffice: REMOVE all figures and fig-refs in this chapter -->
-
 
 
 
