@@ -1,24 +1,24 @@
 # Case Study: Redesigning a System {#sec:formulation}
 
-The design activity framework was initially formulated based on our reflections
-on a previous project where I was starting out as a novice visualization
+We initially formulated the design activity framework based on our reflections
+on a previous project for which I had started as a novice visualization
 designer. For this project, we worked as a multidisciplinary team with a
 cybersecurity firm to tackle a redesign of that firm's visualization system
 [@McKenna2014]. We focused our redesign to create a series of sketches,
 wireframes, and mockups that visually communicated our visualization and
 interface ideas to the company's development team in order to improve their
-tool. Although the final changes to the system were limited by the company's
-development budget and time, we found that a reflection on this project yielded
-useful insights that we used to create the design activity framework. In
-particular, the visualization design artifacts and methods we utilized with
-other designers played a significant role in the success of this project, and we
-discuss one user-centered design method, qualitative coding of user research
-papers, in detail. We reflected on our team's overall design process by
-incorporating and summarizing the methods and artifacts into a design timeline.
-Previous models, such as the nested model and nine-stage framework, did not
-describe these artifacts, our decisions, and our design process fully, but we
-were able to more effectively capture, characterize, and explain multiple
-aspects of our visualization design process using the design activity framework.
+tool. Although the company's development budget and time limited the final
+changes to the system, we found that a reflection on this project yielded useful
+insights that we used to create the design activity framework. In particular,
+the visualization design artifacts and methods we utilized with other designers
+played a significant role in the success of this project, and we discuss one
+user-centered design method, qualitative coding of user research papers, in
+detail. We reflected on our team's overall design process by incorporating and
+summarizing the methods and artifacts into a design timeline. Previous models,
+such as the nested model and nine-stage framework, did not describe these
+artifacts, our decisions, and our design process fully, but we were able to more
+effectively capture, characterize, and explain multiple aspects of our
+visualization design process using the design activity framework.
 
 
 
@@ -28,7 +28,7 @@ aspects of our visualization design process using the design activity framework.
 
 Our multidisciplinary design team consisted of two designers, one psychologist,
 a visualization expert, and myself, a visualization novice. On this team, only
-one of the five members had used the nine stage framework previously. We tackled
+one of the five members had used the nine-stage framework previously. We tackled
 the challenge of redesigning an existing visualization tool in the area of
 cybersecurity. As our team attempted to adopt the nine-stage framework for
 conducting design studies [@Sedlmair2012b], we struggled to answer questions
@@ -264,12 +264,12 @@ what RVS _could_ be even though a complete software implementation was beyond
 what our visualization could perform given our constraint of time. We considered
 real-world datasets and user workflows when creating and formulating both the
 digital mockups and detailed wireframes, which are the visualization artifacts
-we created in the _make_ activity. Even though some may consider these artifacts
-as ideas and not prototypes, our visualization team had finalized making
-decisions at the abstraction level and focused not on new ideas but on encodings
-and interaction techniques in these artifacts, so we argue that this goes beyond
-the _ideate_ activity and resulted in visualization prototypes that could be
-tested with users.
+we created in the _make_ activity. Even though some designers may consider these
+artifacts as ideas and not prototypes, our visualization team had finalized
+making decisions at the abstraction level and focused not on new ideas but on
+encodings and interaction techniques in these artifacts, so we argue that this
+goes beyond the _ideate_ activity and resulted in visualization prototypes that
+could be tested with users.
 
 
 ![
@@ -288,7 +288,7 @@ that the distinction here between the visualization team and development team is
 somewhat unique to our redesign project; most often in visualization design
 these two groups of people overlap or work closely in cohort. As a result of
 this implementation process, the development team created a software prototype
-(_M-67_), which they evaluated with several network security analysts who work
+(_M-67_) that they evaluated with several network security analysts who work
 with RVS. The RVS company sought a quick and easy approach to minimize the time
 needed by network security analysts to participate; thus, this evaluation
 consisted of an A/B testing method (_M-1_) coupled with a questionnaire
@@ -334,10 +334,10 @@ shows the flexiblity of the design activity framework to capture both the
 high-level view of a design project and the pattern or flow of design activities
 as well as the low-level detail of specific visualization artifacts and design
 methods utilized. In the next section, we explore in detail the user-centered
-design method of qualitative coding for three CTA papers which was our team's
-first primary focus for the project. During this method, we uncovered codes and
-design opportunities that could be useful for other visualization designers in
-this space, and we reflect on this method as a substitute for users in the
+design method of qualitative coding for three papers, which was our team's first
+primary focus for the project. During this method, we uncovered codes and design
+opportunities that could be useful for other visualization designers in this
+space, and we reflect on this method as a substitute for users in the
 visualization design process.
 
 
@@ -384,27 +384,27 @@ three cognitive task analyses.
 
 
 We took inspiration from the social sciences [@Strauss1990] to help structure
-our analysis by performing an open coding on several key CTA papers from the
-field. Qualitative researchers often use coding as a method to organize,
-structure, and consolidate information into a structured framework. Open coding
-is a subset of qualitative coding that focuses on the original content to form
-the codes the researcher makes, as opposed to axial coding, which incorporates
-existing categories to tag onto the source material [@Strauss1990]. This method
-has been utilized by visualization researchers to perform various post hoc
-analyses [@Lam2011a; @Isenberg2013a; @Sedlmair2014; @Staheli2014], but we had
-not seen this method used in the _understand_ activity to pinpoint user needs
-for cybersecurity.
+our analysis by performing an open coding on three key cognitive task analysis
+(CTA) papers from the field. Qualitative researchers often use coding as a
+method to organize, structure, and consolidate information into a structured
+framework. Open coding is a subset of qualitative coding that focuses on the
+original content to form the codes the researcher makes, as opposed to axial
+coding, which incorporates existing categories to tag onto the source material
+[@Strauss1990]. This method has been utilized by visualization researchers to
+perform various post hoc analyses [@Lam2011a; @Isenberg2013a; @Sedlmair2014;
+@Staheli2014], but we had not seen this method used in the _understand_ activity
+to pinpoint user needs for cybersecurity.
 
 
-After half a month of extensive literature review, four members of our design
-team identified and performed a deep reading on three cognitive task analysis
-(CTA) papers [@DAmico2008; @Erbacher2010a; @Fink2009], pulling out key quotes,
-paraphrases, and models. Each piece of data corresponds to rows of our coding
-table, and we met several times over a month to better organize, iterate on, and
-consistently tag this information across all three papers. These meetings and
-iterative coding process were crucial to allow the design team to come to an
-agreement on our final codes. After a month of open coding the three papers, we
-consolidated the data in a final meeting.
+After two weeks of extensive literature review, four members of our design
+team identified and performed a deep reading on these three CTA papers
+[@DAmico2008; @Erbacher2010a; @Fink2009], pulling out key quotes, paraphrases,
+and models. Each piece of data corresponds to rows of our coding table, and we
+met several times over a month to better organize, iterate on, and consistently
+tag this information across all three papers. These meetings and iterative
+coding process were crucial to allow the design team to come to an agreement on
+our final codes. After a month of open coding the three papers, we consolidated
+the data in a final meeting.
 
 
 ### Visualization Artifacts
@@ -510,14 +510,14 @@ not simply be used to replace access to real users.
 
 ## Summary
 
-In this chapter, we discussed a visualization redesign project, where our team
-faced unique design challenges that we were unable to explicitly capture using
-the existing nine-stage framework for design studies. To show the achievability
-and actionability of the design activity framework, we walked through the
-different design activities our team navigated through and the associated
-visualization artifacts, such as a software analysis and digital mockup
-interface. Next, we showed how the design activity framework timelines can
-succinctly communicate and describe a visualization project in its entirety. We
-concluded by performing a deep dive into a user-centered design method,
+In this chapter, we discussed a visualization redesign project, in which our
+team faced unique design challenges that we were unable to explicitly capture
+using the existing nine-stage framework for design studies. To show the
+achievability and actionability of the design activity framework, we walked
+through the different design activities our team navigated through and the
+associated visualization artifacts, such as a software analysis and digital
+mockup interface. Next, we showed how the design activity framework timelines
+can succinctly communicate and describe a visualization project in its entirety.
+We concluded by performing a deep dive into a user-centered design method,
 qualitative coding, to illustrate the importance of discovering new design
 methods in order to adapt to a project's constraints and achieve success.
