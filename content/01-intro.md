@@ -179,7 +179,7 @@ pedagogical approaches for teaching the visualization design process
 A core contribution of this dissertation is the design activity framework; we
 present an overview in [@sec:framework]. This framework addresses a missing
 connection between different kinds of visualization design models, providing for
-a more complete description of a design project in visualization. This framework
+a more complete description of a design project in visualization. The framework
 presents steps of a visualization design process through four design activities:
 _understand_, _ideate_, _make_, and _deploy_. Each activity contains a
 motivation or goal, a list of methods, and target visualization artifacts. These

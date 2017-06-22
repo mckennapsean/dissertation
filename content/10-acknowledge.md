@@ -12,7 +12,7 @@ human research, and her course on human-centered security helped motivate the
 data sketches design method that I conducted. James taught me, through practice,
 observation, and discussion, a lot about design and making better software
 systems for humans to use, and I enjoyed our project together as we redesigned a
-visualization tool and formulated the ground work for the design activity
+visualization tool and formulated the groundwork for the design activity
 framework. Lastly, but certainly not least, Nathalie and I worked together for
 years, from visualizing set-typed data to establishing requirements for a
 storytelling authoring tool, and her inspiration, enthusiasm, and brilliance
@@ -21,7 +21,7 @@ helped us describe and evaluate concepts for visual narrative flow.
 
 I would like to thank my family and friends for all their support throughout the
 tumultuous time as I pursued a graduate degree. My parents raised me to be an
-open-minded and driven individual for which I am very thankful, and my parents
+open-minded and driven individual, for which I am very thankful, and my parents
 and brother have always been a solid rock for me to depend on over time,
 emotionally and financially, everything from lending an open ear to helping me
 move. In my extended family, my grandparents, aunts, uncles, and cousins have
@@ -47,11 +47,11 @@ and mentors, from Thomas Bourke to LuAnne Richardt to Mark Weiss to Larry
 Kirchgaessner. I owe all of them so much for helping hone my attention to detail
 and troubleshooting skills to be what they are today. For my education, I have
 to thank my teachers, and William Heeren was one of the most dedicated teachers
-I have ever had. Despite only taking one Chemistry class from him, he mentored
+I have ever had. Despite only taking one chemistry class from him, he mentored
 me throughout high school in Science Olympiad and SMART Team, and it is through
-these experiences that my love and passion for Computer Science grew. The
+these experiences that my love and passion for computer science grew. The
 outstanding professors at Cornell College helped further that education in
-Computer Science, Physics, and Chemistry, with the academic excellence and rigor
+computer science, physics, and chemistry, with the academic excellence and rigor
 instilled to me by many professors, such as Tony deLaubenfels, Leon Tabak, Lyle
 Lichty, Kara Beauchamp, Derin Sherman, and Craig Teague. I would not be where I
 am today without all of these wonderful educators and mentors, and for that I am
@@ -77,14 +77,14 @@ interns at Microsoft Research. I would like to thank both Michael Sedlmair and
 Mike Kirby for their feedback and advice when writing the initial design
 activity framework paper. Lastly, the faculty and staff at the School of
 Computing and SCI Institute have helped shape my educational career and further
-my academic research in Computer Science, and I cannot thank them all enough for
+my academic research in computer science, and I cannot thank them all enough for
 this support and dedication.
 
 
 The work presented in this dissertation would not have been possible without
 funding support. A majority of this work is sponsored by the Air Force Research
 Laboratory and the DARPA XDATA program. Additionally, I was provided the Wayne
-Brown Fellowship by the College of Engineering which aided in my first years of
+Brown Fellowship by the College of Engineering, which aided in my first years of
 research and study. During my graduate career, I also was funded through two
 internships at MIT Lincoln Laboratory as well as one at Microsoft Research. This
 work is also sponsored in part by the Office of Naval Research award
@@ -93,7 +93,7 @@ to Intelligent Automation, Inc. The Lincoln Laboratory portion of this work was
 sponsored by the Assistant Secretary of Defense for Research & Engineering under
 Air Force Contract FA8721-05-C-0002. Opinions, interpretations, conclusions, and
 recommendations are those of the authors and are not necessarily endorsed by the
-United States Government or Intelligent Automation, Inc. The content of the
+United States government or Intelligent Automation, Inc. The content of the
 information does not necessarily reflect the position or the policy of the
 government, and no official endorsement should be inferred.
 
