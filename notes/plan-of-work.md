@@ -1,9 +1,5 @@
 # List of Edits
 
-- add 2-3 paragraphs to the start of Ch 3 on the methodology for how the DAF was formulated
-
-- add 1-2 paragraphs in Ch 3 on the benefits of merging creative arts with engineering approaches, e.g. when talking about methods and/or timelines
-
 - clarify at the end of Ch 3 which aspects of the DAF are specific to visualization and how the DAF differs from previous models for visualization design (2-3 paragraphs)
 
 - rework parts of Ch 7 (reflections) to cut out some of the less relevant content and tie-in to the design activities a little more clearly

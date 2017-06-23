@@ -540,6 +540,21 @@ way to structure the communication and reporting of a visualization design
 process in a similar way.
 
 
+Another unique aspect of the design activity framework is its merging of both
+the creative arts with engineering approaches. The design timeline is one
+example of this concept, with complex and flexible aspects such as the nested
+and parallel activity support coupled inside a linear timeline to show project
+progression in an engineering mindset. By enabling the fluid coupling of design
+activities, the design activity framework supports many complex paths of the
+design process like those in the creative arts. However, the timelines also
+encourage a linear focus on producing artifacts and completing methods in order
+to meet deadlines, which are engineering aspects. This dynamic and dual nature
+of the design activity framework provides additional benefits to visualization
+designers with a broad range of expertise and experience, since they can
+practice and experiment with either of these aspects they are less familiar with
+to gain experience and grow their skill set.
+
+
 
 
 
@@ -619,6 +634,21 @@ within their visualization project by reflecting on these two questions:
 
 1. Did you achieve your desired visualization artifacts?
 1. Did you successfully deploy a visualization tool to users as a result of this method?
+
+
+Furthermore, we acknowledge that this methods table provides another benefit to
+using the design activity framework in real-world projects. Specifically,
+tagging methods as generative or evaluative is useful for visualization
+designers in practice. Primarily generative design methods may be commonly
+utilized in creative art and design for producing many artifacts. Conversely,
+evaluative methods may be more common in engineering approaches to winnow
+visualization artifacts into a smaller set. Thus, the design activity framework
+flexibly supports visualization designers to pick and choose appropriate design
+methods that can merge these creative and engineering design aspects. Along
+these lines, visualization designers can push themselves to use more generative
+or more evaluative methods, or new design methods in general, as they grow and
+enhance their abilities for and expertise at creating and comparing
+visualization tools and systems.
 
 
 
