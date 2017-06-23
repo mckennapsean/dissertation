@@ -4,7 +4,7 @@ The design activity framework lays the groundwork for further research and
 models that connect creative and engineering processes [@Lowgren1995;
 @Howard2008; @Wolf2006; @Moere2011] for visualization design. Through its design
 activity motivations, visualization artifacts, design worksheets, timelines,
-design methods and connection to design decisions, the design activity framework
+design methods, and connection to design decisions, the design activity framework
 is more achievable, flexible, justifiable, discoverable, and actionable than
 existing models in the field. By building on these existing models
 [@Sedlmair2012b; @Munzner2009; @Meyer], the design activity framework retains
@@ -22,7 +22,7 @@ In this chapter, we first explore the necessary scope, limitations, and avenues
 for future work based on the design activity framework ([Section @sec:scoping]).
 Although the design activity framework can apply to other types of research
 beyond application-driven design study projects, more examination and validation
-is required to investigate this notion in further detail. Next, we discuss
+are required to investigate this notion in further detail. Next, we discuss
 implications from the first case study, a cybersecurity redesign project
 ([Section @sec:design-teams]). Following this discussion, we focus on insights
 gained in our second case study for cybersecurity on the topics of winnowing
@@ -71,9 +71,9 @@ that previous visualization process models and their representations do not.
 
 
 In addressing the design process more generally, the design community does not
-have a consensus on any particular process model [@DaGandra2012], nor do they
-even agree that any such model could capture the "black box" of design
-[@Fallman2003a]. Furthermore, considering design as a "wicked problem"
+have a consensus on any particular process model [@DaGandra2012], nor do members
+of this community even agree that any such model could capture the "black box"
+of design [@Fallman2003a]. Furthermore, considering design as a "wicked problem"
 [@Buchanan1992; @Farrell2013; @Gaver2012; @Wolf2006], it can be challenging to
 know where to go next, when to stop, and what makes an effective design
 [@Buchanan1992]. These challenges exist for many design process models,
@@ -148,7 +148,7 @@ stages_ of the nine-stage framework [@Sedlmair2012b] could be combined with the
 design activity framework to serve as the planning activity. Lastly, we believe
 that there is still much to understand and articulate about the design process
 for visualization. With respect to the design activity framework, further
-research could extend the framework including more finely defining or breaking
+research could extend the framework, including more finely defining or breaking
 apart specific activities, adding new activities, or making the connection to a
 different design decision model.
 
@@ -159,11 +159,11 @@ iterative, and multilinear process of real-world visualization design. The
 overall goal of this work is to help guide visualization designers through the
 design process, encourage visualization designers to consider new design methods
 for generation or evaluation, and assist the compact communication of a design
-process, as in [@fig:timelines]. We consider all design models to be a
-work-in-progress, and the design activity framework is by no means excluded.
-Further validating this framework against additional visualization design
-projects, with a variety of different visualization designers, and in more
-pedagogical settings all lead to interesting avenues for future work.
+process, as in [@fig:timelines]. We consider all design models to be a work in
+progress, and the design activity framework is by no means excluded. Further
+validating this framework against additional visualization design projects, with
+a variety of different visualization designers, and in more pedagogical settings
+leads to interesting avenues for future work.
 
 
 A number of open questions remain for future work. For example, we established,
@@ -206,17 +206,17 @@ communication with the design team, so the decisions and changes to the tool and
 code were made by the company. By reflecting on how industry and product teams
 conduct similar processes, e.g., with agile methodologies [@Abran2001;
 @AgileManifesto2001], our approach is clearly very different. In these teams,
-the designers will often work hand-in-hand with the developers to identify
+the designers will often work hand in hand with the developers to identify
 potential areas for improvement and features for a sprint or development cycle.
 This redesign project was a special case, since we were invited to partake in
 the project specifically for our outside experience and knowledge, but
 integration of design and development teams can increase communication and
 realization of ideas and potentially address more user needs than if these teams
 work separately and with little communication. Having teams work together or
-comprehend the design activities and visualization artifacts more completely,
-this could increase the level of communication across teams and have a higher
-rate of impact when utilizing a common framework to discuss and present aspects
-of visualization design.
+comprehend the design activities and visualization artifacts more completely
+could increase the level of communication across teams and have a higher rate of
+impact when utilizing a common framework to discuss and present aspects of
+visualization design.
 
 
 
@@ -234,8 +234,8 @@ users [@McKenna2015]. As a result, users were winnowed into two types, analysts
 and managers. This approach was motivated by domain constraints: limited access
 to users and data. Furthermore, the design activity framework highlights where
 the winnowing and casting of user roles occurred when revisiting personas in the
-_understand_ activity, and these same users were incorporated when evaluating
-the dashboard in _make_ with a usability study. The design process figure, when
+_understand_ activity, and we incorporated these roles when evaluating the
+dashboard in _make_ with a usability study. The design process figure, when
 incorporating these multiple channels, succinctly shows where and how users were
 involved with different generative or evaluative methods as well as deployments.
 
@@ -244,19 +244,19 @@ The task of presentation influenced the unique design process of this project.
 Presentation inherently involves two or more parties, so it could involve users
 beyond a data analyst. In a design study methodology, Sedlmair et al. describe
 several different collaborator roles, such as front-line analysts and
-gatekeepers [@Sedlmair2012b]. Alternative collaborator roles have been
-identified, such as liaisons [@Bertini2015], which bridge visualization research
-to complex domains. Although we worked with several liaisons, the user personas
+gatekeepers [@Sedlmair2012b]. Simon et al. identified alternative collaborator
+roles, such as liaisons [@Bertini2015] who bridge visualization research to
+complex domains. Although we worked with several liaisons, the user personas
 identified four kinds of users, only one of whom, the network analyst, is a
-domain expert in cybersecurity. Other users, such as network managers, have
-some domain knowledge, but another domain was clearly at work here: an
-organizational domain. Large organizations need to disseminate information up a
-chain of command in order for decisions to be made and passed down
-[@McKenna2015]. With multiple domains and types of users, this work challenges
-the role of a single domain expert as the optimum collaborator. It is important
-to identify these different user roles and design tools that adapt to their
-needs, and the design activity framework, especially the _understand_ worksheet,
-pushes these concepts.
+domain expert in cybersecurity. Other users, such as network managers, have some
+domain knowledge, but another domain was clearly at work here: an organizational
+domain. Large organizations need to disseminate information up a chain of
+command in order for decisions to be made and passed down [@McKenna2015]. With
+multiple domains and types of users, this work challenges the role of a single
+domain expert as the optimum collaborator. It is important to identify these
+different user roles and design tools that adapt to their needs, and the design
+activity framework, especially the _understand_ worksheet, pushes these
+concepts.
 
 
 Lastly, working in the cybersecurity domain benefited from the multiple
