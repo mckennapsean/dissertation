@@ -1,15 +1,14 @@
 # Reflections on Other Types of Research {#sec:reflections}
 
-The design activity framework can apply and provide insight into types of
+The design activity framework can apply to and provide insight into types of
 research beyond design studies. This is one of the benefits of the framework,
 since it can generalize to other types of this research. In this chapter, we
 explore two kinds of applied research projects: technique-driven [@mckenna2015s]
 and evaluation [@mckenna2017] research. After exploring each project, we reflect
 on the project's outcomes, research contributions, and implications using the
 design activity framework. From these reflections, we have noted that the design
-activity framework can apply and provide interesting insights into other kinds
-of research, from the steps of the design process to the visualization artifacts
-that are generated and evaluated.
+activity framework can capture steps of other research processes and the
+visualization artifacts that are generated and evaluated.
 
 
 In practice, visualization design can have implications for many types of
@@ -69,7 +68,7 @@ this technique to an applied domain, visualization for biology datasets. We
 reflected on this project using the design activity framework in order to
 identify pitfalls and clarify the reasons why this project strayed from being a
 problem-driven design study. We discovered that the design activity framework
-can apply to steps of a technique-driven design process and enabled us to
+can apply to steps of a technique-driven design process and enable us to
 identify further pitfalls for design study research. Lastly, we uncovered in
 this reflection that visualization ideas in technique-driven work can span
 across more levels of the nested model, such as a new algorithm.
@@ -159,7 +158,6 @@ $$
   {
     \lVert \tilde{\mathbf{x}} \rVert \;\, \lVert \tilde{\mathbf{y}} \rVert 
   }
-  \, ,
 $$ {#eq:geom}
 which highlights the geometrical nature of the correlation coefficient.
 
@@ -338,7 +336,7 @@ size of datasets that our collaborator struggles to analyze.
 
 
 At first, our collaborator explored 38,365 genes in two regions of the brain,
-with 22 observations, using the s-CorrPlot, shown in the top of
+with 22 observations, using the s-CorrPlot, shown at the top of
 [@fig:gene-case-study]. Since each gene can exist in either brain region, this
 refers to a combined total of 76,730 variables. The gene expression levels
 measured in brain region 1 are shown in red, and those in brain region 2 are
@@ -401,7 +399,7 @@ primary contribution was a novel technique, generalizable and driven by an
 algorithm stemming from statistical theory. When evaluating this tool, we
 focused not on the problem domain or use-case in detail but rather if the
 technique provided analytical insight through a case study with our
-collaborators. This validation is inline with technique-driven research
+collaborators. This validation is in line with technique-driven research
 [@Lam2011a] but not with a design study, which involves validation of
 contributions consisting of a problem characterization, abstraction, and tool
 that solves a domain expert's problem [@Sedlmair2012b]. When reflecting on our
@@ -464,15 +462,15 @@ studies, adding to previous ones [@Sedlmair2012b]:
 The design activity framework, as a process model, is able to capture multiple
 aspects of the s-CorrPlot project. When designing this tool, there were
 distinct, iterative phases of the prototype. For example, the scatterplot
-encoding is one such visualization artifact, which was validated in terms of its
-ability to scale across many variables, dimensions, and to overlay multiple
+encoding is one such visualization artifact, which we validated in terms of its
+ability to scale across many variables and dimensions, and to overlay multiple
 datasets. A separate concept to the tool is the notion of interaction, with
 selection of and animation between projections; this concept was not a novel
 contribution on its own but added further value to the technique and s-CorrPlot
 tool. Most of these artifacts stem from the _ideate_ activity, but they were
-realized in a prototype system through the _make_ activity. This system was
-repeatedly deployed to our collaborators as well. The visualization artifacts of
-this technique-driven process correlate to the levels and contributions
+realized in a prototype system through the _make_ activity. We repeatedly
+deployed this system to our collaborators as well. The visualization artifacts
+of this technique-driven process correlate to the levels and contributions
 designated by the nested model, and we note that a modification of the design
 activity framework is required to allow ideas from technique-driven research to
 map to algorithmic-level decisions [@Munzner2009]. We have illustrated here how
@@ -493,7 +491,7 @@ for the project, to study the visual narrative flow of data visualization
 stories. By providing examples of two types of flow, scrollers and steppers, we
 show how different these story experiences are to readers. Next, we characterize
 this design space for visual narrative flow into seven flow-factors. We employed
-evaluation methods which involved qualitative, exploratory studies on reading
+evaluation methods that involved qualitative, exploratory studies on reading
 experiences, and we conducted a crowdsourced study in order to measure and
 compare engagement for different narrative flows. By reflecting on this project
 using the design activity framework, we provide an initial validation that steps
@@ -538,9 +536,9 @@ matching the author's intent and voice ([@fig:flow]).
 
 ![
   Characteristics impacting narrative flow.
-  We illustrate high-level aspects that affect visual narrative flow: a reader's
+  We illustrate high-level aspects that affect visual narrative flow: readers'
   interactions with the story, the mechanisms tying the story components into a
-  narrative, and the different forms of visual feedback perceived by the reader
+  narrative, and the different forms of visual feedback perceived by readers
   as they navigate, read, and interact with the visual data-driven story.
 ](figures/narrative-flow/narrative-flow.pdf){#fig:flow width="80%"}
 
@@ -612,7 +610,7 @@ otherwise initially possible.
 
 **Navigation input** is how a reader interacts to progress through a narrative
 visualization. For example, an author can choose to use scrolling input to move
-down a document, like in _S-51_ in the story corpus [@mckenna2017]. Another
+down a document, as in _S-51_ in the story corpus [@mckenna2017]. Another
 input mechanism is a button, which corresponds to a click, tap, or keyboard
 press, e.g., _S-4_. Another element, though rare, is a slider, with which
 readers can select and drag to choose where they wish to be in the story.
@@ -642,7 +640,7 @@ the entire story. Not all stories may show navigation progress, relying on the
 implied progress of a scrollbar. Otherwise, stories may showcase this progress
 in a variety of ways. A common way is to represent steps with dots such as the
 stepper in _S-4_, and another method utilizes numbers or text for story steps
-like in _S-6_. Authors also use visualization to convey story progress, such as
+as in _S-6_. Authors also use visualization to convey story progress, such as
 a path on a small multiple map as utilized in _S-18_. These progress widgets can
 also be combined with button input for navigation.
 
@@ -672,7 +670,7 @@ visual story, such as the animated chart in _S-16_.
 **Story progression** categorizes the possible story paths that can occur in a
 story, such as linear story points, skipping between, or more complex paths. The
 most common story type we observed is linear, where a reader is guided through
-each story point in order like in _S-21_. However, a variation of this approach
+each story point in order as in _S-21_. However, a variation of this approach
 is a linear skip, where readers can jump backward or ahead --- often included
 if a navigation progress widget is present such as the stepper in _S-9_. A story
 can also contain more complex story paths, such as a tree style or graph to
@@ -848,7 +846,7 @@ We selected the machine learning story [@ml] as in previous studies because of
 its length and the various types of visualizations and transitions it included.
 Both the text and visual conditions used a document layout and scrolling
 navigation input. In the text condition, textual descriptions replaced the
-visualizations whereas the visual condition utilizes static screenshots of the
+visualizations whereas the visual condition utilized static screenshots of the
 visualizations. The scroller is the original story, and the stepper is our
 implemented version, which contains a progress widget, does not animate text,
 and controls animations by discrete button presses.
@@ -860,20 +858,20 @@ out a survey at the end. Each participant received only two unique conditions,
 one for each story chapter. Participants completed the survey after reading both
 chapters in order to avoid breaking their concentration and issues of memory
 recall of responses that would result in less effective comparison results. The
-study is balanced in design, with the four conditions crossed with the two
+study was balanced in design, with the four conditions crossed with the two
 chapters of the story resulting in 12 combinations.
 
 
 For measuring engagement, we adapted a validated questionnaire from O'Brien and
 Toms [@OBrien2010] containing 14 questions on reader-perceived engagement across
 attributes such as usability, attention, aesthetics, and novelty. Each statement
-then received a 5-point Likert response from the participant. These statements
-were duplicated across the two conditions (or chapters) that the participant had
-read. We randomized the order of questions, but questions per chapter were
-adjacent to support effective comparison. For analysis, several of the questions
-were negative attributes for engagement, so we flipped participant responses
-accordingly. Our project website includes all materials and conditions used for
-the study.[^narrative-flow]
+then received a five-point Likert response from the participant. These
+statements were duplicated across the two conditions (or chapters) that the
+participant had read. We randomized the order of questions, but questions per
+chapter were adjacent to support effective comparison. For analysis, several of
+the questions were negative attributes for engagement, so we flipped participant
+responses accordingly. Our project website includes all materials and conditions
+used for the study.[^narrative-flow]
 
 
 In total, 240 participants read through the story. They were compensated $2.31
@@ -886,9 +884,9 @@ instructions and paying attention to the content of the story, both in the text
 and the visuals. Participants had a varied educational background (46.2% high
 school or some college, 39.2% with a bachelor's degree, 14.6% with master's or
 beyond), 58.3% had never taken a computer science course, 87.0\% were unfamiliar
-with machine learning, 74.6% read stories on the Web multiple times weekly or
+with machine learning, 74.6% read stories on the web multiple times weekly or
 more, and 12.9% had subscriptions to a popular news site. They used a variety of
-input devices (75.4% mouse, 22.9% trackpad, 2 touch devices, 1 pen, and 1
+input devices (75.4% mouse, 22.9% trackpad, two touch devices, one pen, and one
 trackball).
 
 
@@ -936,7 +934,7 @@ The animated transition conditions scored significantly higher on engagement
 than static visualizations ($p < .001$, $\lambda^{2}(2) = 18.04$), supporting
 **_H2_** and suggesting that animated transitions increase the reader-perceived
 engagement. We tested interaction effects of the engagement per chapter of the
-story but found none to be significant and so were left out of the model.
+story but found none to be significant, and so they were left out of the model.
 Additionally, we found a significant effect on the chapter of the story ($p =
 .017$, $\lambda^{2}(1) = 5.72$), where the second chapter received, on average,
 a higher engagement score (0.10). In other words, the animated conditions scored
@@ -1002,15 +1000,15 @@ stage of this project was qualitatively coding a corpus of many visual data
 stories, and this method was quite similar to other times we employed this
 method similarly in the _understand_ activity. As before, the design
 requirements we identified were critical to shaping the project, and here they
-are the seven flow-factors that we identified which motivated how we conducted
-user evaluation. Then, we employed user studies that resulted in guidelines for
+are the seven flow-factors we identified that motivated how we conducted user
+evaluation. Then, we employed user studies that resulted in guidelines for
 future tools, and the design activity framework is able to capture and describe
 the results of these evaluation methods to facilitate other visualization
 practitioners designing and evaluating tools and techniques in this space.
 
 
 By connecting the design process to design decisions, we were able to reflect on
-how the studys' guidelines fit within the overall design process of these
+how the study's guidelines fit within the overall design process of these
 evaluation methods. By mapping to the nested model, the design activity
 framework emphasized that the evaluation and user studies for this project
 correspond to decisions made at the encoding and interaction levels. For
@@ -1024,8 +1022,8 @@ guidelines to utilize animation and visuals to increase engagement, implications
 for the _make_ and _deploy_ activities. While the design activity framework can
 describe these guidelines succintly, the nested model extension [@Meyer]
 elucidates this limitation, since the stories could be viewed as stacks of
-blocks, and the user study guidelines were only shown to be effective for a
-stories rather than generalized across many different stories.
+blocks, and the user study guidelines were shown to be effective for only a
+single story rather than generalized across many different stories.
 
 
 On the other hand, we noted that we could reflect on how the design activity
@@ -1053,7 +1051,7 @@ Lastly, the design activity framework worksheets emphasize the importance of
 documenting and recording the design process, which overlaps with the importance
 of reproducibility in experimental design. By recording visualization artifacts
 and design decisions, a visualization designer can justify why specific tasks,
-encodings, or interactions were selected or modified. In a design study, this
+encodings, or interactions are selected or modified. In a design study, this
 notion of reproducibility is not the goal, and Sedlmair et al. promote the goal
 of transferability instead [@Sedlmair2012b] due to the subjective nature of
 field work and based on methodologies of ethnography and action research.
