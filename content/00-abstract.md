@@ -22,8 +22,8 @@ and guiding novices through their own design process to create a visualization
 tool.
 
 
-To evaluate the pedagogical efficacy of this framework, we created worksheets
-for each design activity, outlining a series of concrete, tangible steps for
+To externally evaluate the efficacy of this framework, we created worksheets for
+each design activity, outlining a series of concrete, tangible steps for
 novices. In order to validate the design worksheets, we conducted 13 student
 observations over the course of two months, received 32 online survey responses,
 and performed a qualitative analysis of 11 in-depth interviews. Students found

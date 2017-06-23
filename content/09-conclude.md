@@ -33,20 +33,20 @@ The framework guided the visualization design activities of this second case
 study from the ground up, spanning multiple discourse channels.
 
 
-A potential benefit of the design activity framework is its actionability for
-teaching novices how to conduct a visualization design process. We investigated
-this aspect in a graduate visualization course with students' cumulative
-projects [@mckenna2017a]. To more effectively teach the visualization design
-process, we created teaching materials for the course: a lecture on
-visualization design, an introduction to the design activity framework,
-resources on sketching, and four design activity worksheets. We tailored each
-worksheet to the four activities for visualization design, including
-step-by-step instructions, guidance, tips, and hints to guide students through
-their first visualization project. We worked with 13 students throughout the
-course, helping them with their projects and teamwork, and we evaluated the
-worksheets using group observations, online surveys, and interviews. Overall,
-the design worksheets were a good first attempt, and students highlighted a
-number of improvements for the future.
+In order to externally evaluate the framework and increase its actionability, we
+investigated teaching novices how to conduct a visualization design process. To
+this end, we created design worksheets for students to use in a cumulative
+project for a graduate visualization course [@mckenna2017a]. To more effectively
+teach the visualization design process, we created teaching materials for the
+course: a lecture on visualization design, an introduction to the design
+activity framework, resources on sketching, and four design activity worksheets.
+We tailored each worksheet to the four activities for visualization design,
+including step-by-step instructions, guidance, tips, and hints to guide students
+through their first visualization project. We worked with 13 students throughout
+the course, helping them with their projects and teamwork, and we externally
+evaluated the worksheets using group observations, online surveys, and
+interviews. Overall, the design worksheets were a good first attempt, and
+students highlighted a number of improvements for the future.
 
 
 By reflecting on other types of research we have conducted, we explored how

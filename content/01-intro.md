@@ -15,9 +15,9 @@ visualization projects, where we encountered limitations of existing models and
 utilized this framework as a solution. The design activity framework is
 validated through series of case studies in the fields of biology
 [@mckenna2015s], cybersecurity [@McKenna2014; @McKenna2015; @mckenna2016], and
-data storytelling [@mckenna2017] and also by an evaluation of design activity
-worksheets taught in a data visualization classroom for use in a cumulative
-project [@mckenna2017a].
+data storytelling [@mckenna2017] and also by an external validation using design
+activity worksheets taught in a data visualization classroom for use in a
+cumulative project [@mckenna2017a].
 
 
 In order to capture the challenges faced when using existing visualization
@@ -115,8 +115,8 @@ activities are further broken down into concrete steps [@Roberts2015], and
 worksheets for this framework support such a walk-through approach. The notion
 of iteration in design can also be emphasized, taught, and realized by novices
 using these worksheets for real-world visualization projects. Moreover, existing
-visualization models do not explore pedagogical approaches for teaching the
-design process to visualization design novices.
+visualization models do not explore pedagogical approaches that validate the
+design process with visualization design novices.
 
 
 
@@ -135,7 +135,7 @@ framework is its specificity for visualization design by connecting steps of the
 design process to the justifiable design decisions made and
 visualization-specific artifacts obtained. Other novel aspects of this framework
 include its flexibility for design iteration, actionability to guide
-visualization designers, and discoverability of user-centered design methods
+visualization designers, and discoverability of user-centered design methods.
 
 
 To strengthen the contribution of this framework, we evaluated its use and
@@ -149,13 +149,12 @@ validate the utility of this framework in real-world projects and reflect on
 their use in future visualization design projects. We describe two case studies
 for visualization of cybersecurity datasets that illustrate examples of how to
 use this framework and provide rich descriptions behind a variety of different
-visualization design artifacts. To explore teaching and validating this
-framework in the classroom, we created concrete, step-by-step worksheets for
-each activity that we evaluated through a series of qualitative surveys and
-interviews with novice visualization designers. As a result of this evaluation,
-we discovered that students effectively learned how to design and develop a
-visualization system while justifying their decisions using the design activity
-worksheets.
+visualization design artifacts. To externally validate this framework, we
+created concrete, step-by-step worksheets for each activity that we evaluated
+through a series of qualitative surveys and interviews with novice visualization
+designers in the classroom. As a result of this evaluation, we discovered that
+students effectively learned how to design and develop a visualization system
+while justifying their decisions using the design activity worksheets.
 
 
 
@@ -212,21 +211,20 @@ deployment of this visualization system as a case study that shows the
 descriptive and generative power of the design activity framework.
 
 
-To tailor the design activity framework to visualization novices and increase
-the model's actionability and achievability, we created concise design
-worksheets for the framework, described in [@sec:worksheets]. By reflecting on
-our own experience using a variety of design methods, we identified descriptive
-steps for each design activity of visualization design. These steps served as a
-checklist that we taught and utilized in a visualization course with students.
-We performed a qualitative evaluation of the use of these visualization design
-worksheets in a cumulative project for which students had to design and develop
-their own web-based visualization system from scratch. This qualitative
-evaluation included survey feedback from 32 students and 11 in-depth,
-semistructured interviews. The design activity worksheets are a new approach to
-teach the next generation of visualization designers about the data
-visualization design process, by equipping them with not only the theoretical
-knowledge but also the practical skills for building better visualization
-systems and tools.
+To perform an external evaluation of the framework and increase the framework's
+actionability and achievability, we created concise design activity worksheets,
+described in [@sec:worksheets]. By reflecting on our own experience using a
+variety of design methods, we identified descriptive steps for each design
+activity of visualization design. These steps served as a checklist that we
+taught and utilized in a visualization course with students. We performed a
+qualitative evaluation of the use of these visualization design worksheets in a
+cumulative project for which students had to design and develop their own
+web-based visualization system from scratch. This qualitative evaluation
+included survey feedback from 32 students and 11 in-depth, semistructured
+interviews. The design activity worksheets are a new approach to teach the next
+generation of visualization designers about the data visualization design
+process, by equipping them with not only the theoretical knowledge but also the
+practical skills for building better visualization systems and tools.
 
 
 [@sec:reflections] explores different applications of the design activity

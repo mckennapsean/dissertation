@@ -438,12 +438,13 @@ discoverability.
 Another crucial aspect for visualization design models is how easily they can be
 introduced, taught, and understood by novice visualization designers. Few
 visualization process models have been studied and reported on their use in a
-classroom setting. Existing process models for visualization could be improved
-to more clearly outline the desired, achievable visualization artifacts.
-Furthermore, the actionability of such models has not been studied or explored.
-For example, actionable guidance might provide a more step-by-step walk-through
-[@Roberts2015] for the design process, and illustrative examples of the design
-process can further add to the actionability of a model.
+classroom setting, which is one approach to evaluate a model. Existing process
+models for visualization could be improved to more clearly outline the desired,
+achievable visualization artifacts. Furthermore, the actionability of such
+models has not been studied or explored. For example, actionable guidance might
+provide a more step-by-step walk-through [@Roberts2015] for the design process,
+and illustrative examples of the design process can further add to the
+actionability of a model.
 
 
 Over time, pedagogy for data visualization has shifted from more theoretical
