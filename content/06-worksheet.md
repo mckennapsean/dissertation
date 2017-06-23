@@ -9,7 +9,7 @@ steps of the process for visualization designers, but the four activities lack a
 breakdown or example of concrete steps to facilitate novices utilizing this
 framework to walk through their own real-world design process. To provide such a
 framing, we created new teaching materials for the design activity framework,
-such as visualization design worksheets for each design activity, a lecture on
+such as a visualization design worksheet for each design activity, a lecture on
 the design process showcased within a real-world project, and resources for
 learning how to design and sketch visualizations [@mckenna2017a].
 
@@ -495,8 +495,8 @@ helped them document their visualization design process for their final project
 report. These design worksheets served as a _"snapshot in time"_ (P1) and were
 sufficiently detailed to explain their design process for the report. Eight
 students described an iterative process that occurred, although informal and not
-written on any of their own design worksheets. When digging into this
-informality, students pinpointed that worksheets helped organize their thoughts.
+written on any of their own design worksheets. When digging into this process,
+students pinpointed that the worksheets helped organize their thoughts.
 Furthermore, the activities helped guide them as novice designers, such as one
 student who used the visualization design worksheets for the first time later in
 the course of the project and stated that _"When I used [the] worksheets, it
