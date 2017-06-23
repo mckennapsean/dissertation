@@ -1,5 +1,7 @@
 # Thesis Office Concerns
 
+Citing authors with et al. needs better spacing, OR automatic names.
+
 Remove all figures & refs from Chapter 2
 
 For ref at page bottom, place fig on following page (1 pg too late!):

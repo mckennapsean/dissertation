@@ -202,8 +202,8 @@ this chapter presents a variety of design methods, visualization artifacts, and
 a design timeline.
 
 
-In [@sec:security], we conducted a successful design study to create a cyber
-security visualization dashboard using the design activity framework. This
+In [@sec:security], we used the design activity framework to perform a
+successful design study to create a cybersecurity visualization dashboard. This
 design study highlights significant challenges for user-centered design, such as
 limited access to end users and data. We present several design methods that we
 used to overcome these challenges and produce useful visualization design
@@ -222,8 +222,8 @@ We performed a qualitative evaluation of the use of these visualization design
 worksheets in a cumulative project for which students had to design and develop
 their own web-based visualization system from scratch. This qualitative
 evaluation included survey feedback from 32 students and 11 in-depth,
-semistructured interviews. The design activity worksheets are one new approach
-to teach the next generation of visualization designers about the data
+semistructured interviews. The design activity worksheets are a new approach to
+teach the next generation of visualization designers about the data
 visualization design process, by equipping them with not only the theoretical
 knowledge but also the practical skills for building better visualization
 systems and tools.

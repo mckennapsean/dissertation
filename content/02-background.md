@@ -63,7 +63,7 @@ strategies of designers, such as problem-driven (targeting a specific
 description of a challenge, such as generating software requirements) versus
 solution-driven (focusing on a small set of possible solutions, such as
 repurposing an existing tool or technique), as shown in [@fig:design-decision]
-[@Christiaans2010]. These strategies get combined with specific
+[@Christiaans2010]. These strategies are combined with specific
 operationalizations of that mindset as well as with how decisions get made by an
 individual or a team, such as autocratic versus autonomic. Similarly, Tang et
 al. divide design decisions into three groups: planning, problem space, and
@@ -83,11 +83,13 @@ encoding data in an interactive visualization system.
 ![
   Decision-making framework in design.
   Christiaans and Almendra identified different forms of design strategies, both
-  problem and solution driven [@Christiaans2010]. Many other design decision
-  models, outside the visualization field, have similarly identified this
-  separation of the problem and the solution, including the aspects of
-  creative processes, such as exploration and generation, which lead to
-  decisions that produce solutions.
+  problem and solution driven [@Christiaans2010]. This decision model aims to
+  capture the mindset and the operationalization of that mindset into strategies
+  in order to describe the decisions that designers make as they produce design
+  solutions. Many other design decision models, outside the visualization field,
+  have similarly identified this separation of the problem and the solution,
+  including the aspects of creative processes, such as exploration and
+  generation, which lead to decisions that produce solutions.
 ](figures/background/design-decision-making.pdf){#fig:design-decision width="80%"}
 
 
@@ -133,10 +135,10 @@ design a visualization, only the types of decisions (_what_) and rationale
 (_why_) that a visualization designer formulates along the way [@Meyer]. Design
 decisions, rationale, and guidelines are formed from employed evaluation
 methods. Existing visualization process models fail to incorporate this
-justifiability without a link to decision models. Moreover, numerous existing
-models capture evaluation as only a step of the design process [@Chee2011;
-@Tory2004; @Wassink2009; @Lloyd2011] rather than a continuing role throughout
-the process as in design decision models.
+justifiability because they have no link to decision models. Moreover, numerous
+existing models capture evaluation as only a step of the design process
+[@Chee2011; @Tory2004; @Wassink2009; @Lloyd2011] rather than a continuing role
+throughout the process as in design decision models.
 
 
 ### Design Process Models
@@ -219,7 +221,7 @@ different design activities as a cycle, emphasizing an engineering approach.
   engineering design processes (left), as well as more creative processes
   (right, in red). This development cycle further highlights the need for a
   model that clearly emphasizes the flexibility of a creative design process
-  instead of implying cyclical movement.
+  instead of implying strictly cyclical movement.
 ](figures/background/design-process-lloyd.pdf){#fig:process-lloyd width="100%"}
 
 
@@ -280,9 +282,9 @@ guidance for conducting design studies, provides less actionable advice for
 visualization designers, such as knowing what design stage they are in, what
 kinds of methods to employ, or the specific artifacts and decisions they should
 make. The design activity framework is largely inspired by the nine-stage
-framework but with a focus on providing more actionable guidance for
-visualization designers that is not currently available within the nine-stage
-framework and linking to design decisions to support justifiability.
+framework but focuses on providing more actionable guidance for visualization
+designers, which is not currently available within the nine-stage framework, and
+linking to design decisions to support justifiability.
 
 
 
@@ -317,19 +319,26 @@ process unfolds.
 ![
   Designer ideas tracked over time.
   Baker and van der Hoek captured key ideas that designers generated from three
-  companies: Intuit, AmberPoint, and Adobe (top to bottom) [@Baker2010]. This
-  visualization emphasizes that ideas played a nonlinear role throughout the
-  process.
+  companies: Intuit, AmberPoint, and Adobe (top to bottom) [@Baker2010]. During
+  a structured session with designers from these three companies, the
+  researchers categorized the different types and connections between ideas as
+  they evolved in the design session. Each rectangular node represents a
+  specific idea, and the nodes are connected by arcs based on relationships of
+  the user needs or idea repetition. Colors denote different subjects discussed
+  by the designers. This visualization emphasizes that ideas and their
+  connections played a nonlinear role throughout the process.
 ](figures/background/design-ideas-baker.pdf){#fig:ideas-baker width="100%"}
 
 
 ![
   Design innovation process model.
-  Kumar presents this model with seven modes [@Kumar2012] and a highlighted
-  design process that again shows the importance of capturing nonlinearity for
-  design. This model's concept motivated the representation of the design
-  activity framework, to embrace creative process models by steering away from a
-  linear or cyclic diagram.
+  Kumar presents this model with seven activity modes for design innovation
+  [@Kumar2012] --- sense intent, know context, know people, frame insights,
+  explore concepts, frame solutions, and realize offerings. The curved line
+  represents the design process and highlights the importance of capturing
+  nonlinearity for design. This model's concept motivated the representation of
+  the design activity framework, to embrace creative process models by steering
+  away from a linear or cyclic diagram.
 ](figures/background/design-process-kumar.pdf){#fig:process-kumar width="60%"}
 
 
@@ -452,9 +461,9 @@ ideas too early [@Roberts2015].
 
 ![
   Example VizItCards for use in design workshops.
-  He and Adar incorporated a variety of cards into the classroom to teach and
-  reiterate core visualization concepts [@He2017], such as the importance of
-  identifying domain tasks, finding inspiration, and selecting appropriate
+  He and Adar incorporated the cards in design workshops to teach and reiterate
+  core visualization concepts in the classroom [@He2017], such as the importance
+  of identifying domain tasks, finding inspiration, and selecting appropriate
   abstractions and encodings. These cards and this workshop approach could work
   in tandem with the design activity framework and worksheets when designing a
   visualization.
