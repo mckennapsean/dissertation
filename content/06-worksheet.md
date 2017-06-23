@@ -250,6 +250,13 @@ materials in [Appendix @sec:app-worksheets].
 -->
 
 
+![
+  Worksheet for the _understand_ activity.
+  We tailored this worksheet to help students identify their problem, users,
+  data, and requirements for a data visualization system.
+](figures/worksheets/worksheet-understand.pdf){#fig:u-worksheet width="100%"}
+
+
 We introduce the first design worksheet for the _understand_ activity in
 [@fig:u-worksheet]. At the top of each sheet, we describe the desired goal and
 resulting visualization artifact or outcome for the activity. Each sheet can be
@@ -267,13 +274,6 @@ part of visualization designers to verify that their current visualization
 artifacts are sufficient and that they succeed in addressing the desired problem
 or challenge in enough detail. This is why many visualization design processes
 may be iterative and complex to perform.
-
-
-![
-  Worksheet for the _understand_ activity.
-  We tailored this worksheet to help students identify their problem, users,
-  data, and requirements for a data visualization system.
-](figures/worksheets/worksheet-understand.pdf){#fig:u-worksheet width="100%"}
 
 
 ![

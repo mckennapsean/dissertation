@@ -585,6 +585,16 @@ that made use of real-world cybersecurity data [@Fischer2014; @Koike2005;
 
 ### Visualization Artifacts
 
+![
+  Overview of the 20 data sketches.
+  We evaluated these data sketches with a cybersecurity analyst; this feedback
+  was critical to our redesign of a cybersecurity dashboard in
+  [@fig:dashboard2]. We categorized each sketch into four groups: network
+  graphs, maps, aggregated charts, and time. We pulled several data sketches
+  from existing literature [@Fischer2014; @Koike2005; @Taylor2009].
+](figures/methods/sketches.pdf){#fig:sketches width="100%"}
+
+
 We present an overview of the 20 data sketches we produced in [@fig:sketches];
 please see the project website[^design-methods] for a full-page version of each data sketch. We
 categorized each data sketch into four high-level groupings --- network graphs,
@@ -595,16 +605,6 @@ understood and potentially most useful. These data sketches can be repurposed in
 future projects for further brainstorming.
 
 [^design-methods]: <http://mckennapsean.com/projects/vizsec-design-methods/>
-
-
-![
-  Overview of the 20 data sketches.
-  We evaluated these data sketches with a cybersecurity analyst; this feedback
-  was critical to our redesign of a cybersecurity dashboard in
-  [@fig:dashboard2]. We categorized each sketch into four groups: network
-  graphs, maps, aggregated charts, and time. We pulled several data sketches
-  from existing literature [@Fischer2014; @Koike2005; @Taylor2009].
-](figures/methods/sketches.pdf){#fig:sketches width="100%"}
 
 
 ### Results and Implications
