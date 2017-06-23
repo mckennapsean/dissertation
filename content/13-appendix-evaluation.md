@@ -4,16 +4,16 @@ In [@sec:worksheets], we discussed the methodology behind our process for
 evaluating the design activity framework worksheets. We utilized these
 worksheets for students undergoing a cumulative project for the course, and we
 surveyed students at the end of the course on their experiences and opinion of
-the materials. We provide the prompts and questions we used in the two online
-questionnaires, one of which was sent to the entire class and another which was
-sent only to 13 volunteers that utilized the worksheets as part of their
-project. For the survey questions, responses were in one of the following
-formats: five-point Likert scale (denoted with L), numbered scale (1-5, denoted
-N), free-form text response (denoted T), or a multiple select choice of design
-activities (denoted UIMD). Lastly, I conducted semistructured interviews with 11
-of the student volunteers, and the interview guide with base questions is
-included. These materials serve the purpose of adding reproducibility to the
-evaluation methodology and, further, to enable external validation of this work.
+the materials. We provided the prompts and questions in the two online
+questionnaires, one of which was sent to the entire class and another to only 13
+volunteers who utilized the worksheets as part of their project. For the survey
+questions, responses were in one of the following formats: five-point Likert
+scale (denoted with L), numbered scale (1--5, denoted N), free-form text
+response (denoted T), or a multiple select choice of design activities (denoted
+UIMD). Lastly, we conducted semistructured interviews with 11 of the student
+volunteers; the interview guide with base questions is included. These materials
+serve the purpose of adding reproducibility to the evaluation methodology and,
+further, enabling external validation of this work.
 
 
 
