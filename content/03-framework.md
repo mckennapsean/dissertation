@@ -27,19 +27,59 @@ along the way, leading to what we believe is a more actionable visualization
 process model than those that currently exist.
 
 
-The concepts of this framework developed over the course of several real-world
-design processes, as a result of reflection on a previous research project
+We developed the framework over the course of several real-world design
+processes, as a result of reflection on a previous research project
 ([@sec:reflections]) and more successful case studies ([@sec:formulation] and
-[@sec:security]). Next, we present the idea of a design activity, which forms
-the basis of the new framework. Following that, we describe the four activities
-contained in the framework: _understand_, _ideate_, _make_, and _deploy_. For
-each activity, we articulate the motivation, possible design methods, and the
-visualization artifacts that relate to decisions and have an explicit link back
-to levels of the nested model. This framework supports an iterative,
-human-centered visualization design process that we characterize with the
-introduction of design timelines. Lastly, we provide guidance on how to choose
-effective design methods with a table of 40 selected design methods of interest
-to visualization designers to employ in their own projects.
+[@sec:security]). Next, we discuss the methodology by which we initially
+formulated the design activity framework. Then, we present the idea of a design
+activity, which forms the basis of the new framework. Following that, we
+describe the four activities contained in the framework: _understand_, _ideate_,
+_make_, and _deploy_. For each activity, we articulate the motivation, possible
+design methods, and the visualization artifacts that relate to decisions and
+have an explicit link back to levels of the nested model. This framework
+supports an iterative, human-centered visualization design process that we
+characterize with the introduction of design timelines. Lastly, we provide
+guidance on how to choose effective design methods with a table of 40 selected
+design methods of interest to visualization designers to employ in their own
+projects.
+
+
+
+
+
+## Methodology
+
+Through a series of reflective discussions, we formulated the groundwork for the
+design activity framework [@McKenna2014]. Our design team was tasked with a
+redesign of a cybersecurity's visualization tool. Our team was composed of
+visualization experts, a psychologist, and several designers. During this
+multidisciplinary project, we were cognizant of our design process, visualization artifacts,
+motivations, and design methods. The two visualization experts on the team
+attempted to use the nine-stage framework [@Sedlmair2012b] to guide and model
+this process, but the model was unable to capture and track our design
+constraints, artifacts, and decisions in such a way that promoted team
+collaboration nor the final project communication.
+
+
+As a result, our team conducted a literature review of numerous design models,
+presented in the previous chapter. This review utilized a characterization
+between two types of design process models, creative and engineering models. Our
+team recognized the importance of a visualization design process model to
+incorporate both creative and engineering aspects to describe, capture, and
+prescribe processes effectively, such as our redesign project and other past
+experiences. However, in this literature review, we noted that no existing
+visualization design process models had combined these types of models
+comprehensively.
+
+
+In order to create a new design process model for data visualization, we
+utilized our combined experience in visualization design and general design, in
+addition to terminology and concepts from existing models, as a guide to
+identify different stages and components of the process. As a team, we
+iteratively codified the different stages performed, goals identified, artifacts
+created, and methods employed in our own visualization projects. As a result, we
+established a consensus for the terminology and these concepts which comprise
+the design activity framework. Next, we introduce these concepts.
 
 
 
