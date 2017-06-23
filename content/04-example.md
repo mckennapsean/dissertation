@@ -47,7 +47,7 @@ process.
 This seven-month project focused on improving the usability and effectiveness of
 an existing, robust visualization system (RVS) for cybersecurity analysis.
 Analysts working with cybersecurity data focus on maintaining the security of
-computer networks, relying on data about how a network is functioning, known
+computer networks. They rely on data about how a network is functioning, known
 network attack patterns, and a broad range of external sources of knowledge.
 Specifically, our team was tasked with providing ideas and mockups for how to
 redesign the visualizations and interface within RVS --- the implementation of
@@ -60,12 +60,12 @@ and managers at the RVS company; several Department of Defense intrusion
 analysts who use RVS; and several cybersecurity analysts at the University of
 Utah. This redesign project included several real-world constraints for our
 design team, namely a strict time frame for producing redesign ideas, limited
-funding available for implementing our ideas by software developers,
-confidentiality issues surrounding cybersecurity data, and the engineering
-realities of working within a large software system. The nine-stage framework
-and also the nested model were unable to clearly capture and track these design
-constraints and the complex, collaborative process stemming from multiple team
-coordination, both of which were essential to our project.
+funding for implementing our ideas by software developers, confidentiality
+issues surrounding cybersecurity data, and the engineering realities of working
+within a large software system. The nine-stage framework and also the nested
+model were unable to clearly capture and track these design constraints and the
+complex, collaborative process stemming from multiple team coordination, both of
+which were essential to our project.
 
 
 When we started this project, our design team was stuck because the nine-stage
@@ -184,11 +184,11 @@ stakeholders to identify needs and aspirations (_M-51_): a developer who works
 on RVS and several cybersecurity analysts and managers at the University of
 Utah. Based on this feedback, we met as a design team and informally evaluated
 and filtered the list of design opportunities by reaching a group consensus on
-those we felt best met the unmet needs of our target users, balanced against the
-strengths and weaknesses of RVS and taking into account the real-world
-constraints and considerations of the project. The final thematic design
-opportunities for our visualization redesign were 1) interface usability, 2)
-workflow improvements, 3) tool desirability, and 4) temporal data
+those we felt best addressed the unmet needs of our target users, balanced
+against the strengths and weaknesses of RVS and taking into account the
+real-world constraints and considerations of the project. The final thematic
+design opportunities for our visualization redesign were 1) interface usability,
+2) workflow improvements, 3) tool desirability, and 4) temporal data
 representation. We also developed a more low-level list of all visualization
 artifacts, such as a detailed data and task abstraction.
 
