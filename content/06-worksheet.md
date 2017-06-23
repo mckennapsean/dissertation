@@ -7,7 +7,7 @@ interaction, or data visualization system. Our introduction of a new framework
 for visualization design in [@sec:framework] codifies some of the high-level
 steps of the process for visualization designers, but the four activities lack a
 breakdown or example of concrete steps to facilitate novices utilizing this
-framework to walk through their own real-world design process. To provide such a
+framework to walk through their own real-world design process. To externally validate the framework and provide such a
 framing, we created new teaching materials for the design activity framework,
 such as a visualization design worksheet for each design activity, a lecture on
 the design process showcased within a real-world project, and resources for
@@ -19,14 +19,15 @@ summary of each activity with more actionable, guided steps for students to walk
 through the process of designing their own visualization system. Furthermore, we
 validated the effectiveness and use of these worksheets and the overall
 framework in the context of a graduate-level visualization course taught at the
-University of Utah [@mckenna2017a]. For this evaluation, we surveyed the class
-and worked with 13 students who voluntarily utilized these design worksheets for
-their cumulative projects. We conducted a series of interviews to garner
-additional open-ended feedback and suggestions that highlight the strengths and
-limitations of these worksheets as teaching materials. In this chapter, we
-present four worksheets, one for each design activity, with five concrete steps
-and guidance on each sheet, and we evaluated the effectiveness of these
-worksheets in a pedagogical setting.
+University of Utah [@mckenna2017a]. For this external evaluation, we surveyed
+the class and worked with 13 students who voluntarily utilized these design
+worksheets for their cumulative projects. We conducted a series of interviews to
+garner additional open-ended feedback and suggestions that highlight the
+strengths and limitations of these worksheets as teaching materials. In this
+chapter, we present four worksheets, one for each design activity, with five
+concrete steps and guidance on each sheet, and we externally evaluated the
+effectiveness of the design activity framework and these worksheets in a
+pedagogical setting.
 
 
 
@@ -372,20 +373,20 @@ distinct and crucial aspects of the visualization design process.
 ## Evaluating the Worksheets
 
 
-In order to conduct an evaluation of the visualization design worksheets, we
-employed them in a classroom setting. We gave a lecture on visualization design
-to all 66 students in our university's graduate-level visualization course. The
-lecture was followed by an in-class exercise that had students analyze and
-redesign an existing visualization using the first two worksheets: _understand_
-and _ideate_. As part of the course, students formed groups to complete a
-cumulative project: to design and build a web-based interactive visualization
-system. I recruited and mentored 13 volunteers from the course to complete the
-design worksheets for each of their six group projects. One student was not part
-of the original volunteers, but due to complications with her project she
-reached out to the teaching staff for further help and guidance for
-visualization design within the context of her project. For details on the
-project expectations, deadlines, and grading criteria, please see the project
-website.
+In order to externally evaluate the framework and visualization design
+worksheets, we employed them in a classroom setting. We gave a lecture on
+visualization design to all 66 students in our university's graduate-level
+visualization course. The lecture was followed by an in-class exercise that had
+students analyze and redesign an existing visualization using the first two
+worksheets: _understand_ and _ideate_. As part of the course, students formed
+groups to complete a cumulative project: to design and build a web-based
+interactive visualization system. I recruited and mentored 13 volunteers from
+the course to complete the design worksheets for each of their six group
+projects. One student was not part of the original volunteers, but due to
+complications with her project she reached out to the teaching staff for further
+help and guidance for visualization design within the context of her project.
+For details on the project expectations, deadlines, and grading criteria, please
+see the project website.
 
 
 To evaluate the efficacy of worksheets in supporting the visualization design
@@ -414,16 +415,18 @@ positivity bias, these questions varied between positive and negative wording.
 
 After the student projects were completed, 11 students, at least one from each
 project, participated in a semistructured interview to provide feedback on the
-visualization design worksheets. We audio recorded each interview to more
-efficiently take notes and transcribed participant responses to ensure accuracy
-and correctness. With each interviewee, we explained the goals of the study and
-acquired consent to utilize feedback and quotes for publication. The interview
-questions focused on digging deeper into the survey findings. We asked
-open-ended questions to gather suggestions for improvement and for the next
-iteration of the visualization design worksheets. At the beginning of the
-interview, we asked students to briefly describe the steps of the visualization
-design process in their own words in order to informally test recall of the
-high-level concepts of the framework and worksheets.
+visualization design worksheets. This feedback serves as an external validation
+of the framework and worksheets for data visualization design. We audio recorded
+each interview to more efficiently take notes and transcribed participant
+responses to ensure accuracy and correctness. With each interviewee, we
+explained the goals of the study and acquired consent to utilize feedback and
+quotes for publication. The interview questions focused on digging deeper into
+the survey findings. We asked open-ended questions to gather suggestions for
+improvement and for the next iteration of the visualization design worksheets.
+At the beginning of the interview, we asked students to briefly describe the
+steps of the visualization design process in their own words in order to
+informally test recall of the high-level concepts of the framework and
+worksheets.
 
 
 
@@ -590,18 +593,18 @@ time carved out [for] doing the worksheets"_ (P5).
 
 ## Summary
 
-In this chapter, we introduced four new worksheets to guide and teach students
-through the visualization design process. For each of the four design
-activities, we identified five steps, four generative and one evaluative with
-additional tips and hints, to help guide visualization novices through the
-design process. By deploying these worksheets for use in a visualization
-classroom and cumulative project, we observed how students utilized and
-interacted with the worksheets. We conducted a qualitative evaluation of the
-worksheets using semistructured interviews, and we found that the _understand_
-and _ideate_ worksheets were the most beneficial and appreciated by the students
-we worked with. Furthermore, students suggested adding more materials and
-worksheets, such as incorporating VizItCards [@He2017] or new worksheets for
-exploring data and outlining programming advice for good code. As an initial,
-external validation of the worksheets and design activity framework, we consider
-this evaluation a success for actionably guiding students through a
-visualization design project.
+In this chapter, we introduced an external validation of the design activity
+framework using four new worksheets to guide and teach students through the
+visualization design process. For each of the four design activities, we
+identified five steps, four generative and one evaluative with additional tips
+and hints, to help guide visualization novices through the design process. By
+deploying these worksheets for use in a visualization classroom and cumulative
+project, we observed how students utilized and interacted with the worksheets.
+We conducted a qualitative evaluation of the worksheets using semistructured
+interviews, and we found that the _understand_ and _ideate_ worksheets were the
+most beneficial and appreciated by the students we worked with. Furthermore,
+students suggested adding more materials and worksheets, such as incorporating
+VizItCards [@He2017] or new worksheets for exploring data and outlining
+programming advice for good code. As an initial, external validation of the
+worksheets and design activity framework, we consider this evaluation a success
+for actionably guiding students through a visualization design project.
