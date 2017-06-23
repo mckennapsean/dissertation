@@ -5,13 +5,13 @@ outcome, such as a visualization system. Design _decisions_ are the reasons and
 justification behind a choice made for a visualization, such as encoding with
 either a pie or bar chart. Design _artifacts_, like a system prototype, are the
 goal for each step of the design process and result from making design
-decisions. As explained in [@sec:background], no such work exists that connects
-all three of these aspects for visualization design. By connecting these
-components, the design activity framework more completely captures and describes
-the design process with achievability through artifacts, flexibility in
-principles of flow, justifiability by linking to design decisions,
-discoverability of different user-centered design methods, and actionability for
-use by visualization designers.
+decisions. As explained in [@sec:background], no work currently connects all
+three of these aspects for visualization design. By connecting these components,
+the design activity framework more comprehensively captures and describes the
+design process with achievability through artifacts, flexibility in principles
+of flow, justifiability by linking to design decisions, discoverability of
+different user-centered design methods, and actionability for use by
+visualization designers.
 
 
 In this chapter, we present an overview of the **design activity framework**
@@ -27,20 +27,19 @@ along the way, leading to what we believe is a more actionable visualization
 process model than those that currently exist.
 
 
-The concepts of this framework have developed over the course of several
-real-world design processes, as a result of reflection on a previous research
-project ([@sec:reflections]) and more successful case studies
-([@sec:formulation] and [@sec:security]). Next, we present the idea of a design
-activity, which forms the basis of the new framework. Following that, we
-describe the four activities contained in the framework: _understand_, _ideate_,
-_make_, and _deploy_. For each activity, we articulate the motivation, possible
-design methods, and the visualization artifacts that relate to decisions and
-have an explicit link back to levels of the nested model. This framework
-supports an iterative, human-centered visualization design process that we
-characterize with the introduction of design timelines. Lastly, we provide
-guidance on how to choose effective design methods with a table of 40 selected
-design methods of interest to visualization designers to employ in their own
-projects.
+The concepts of this framework developed over the course of several real-world
+design processes, as a result of reflection on a previous research project
+([@sec:reflections]) and more successful case studies ([@sec:formulation] and
+[@sec:security]). Next, we present the idea of a design activity, which forms
+the basis of the new framework. Following that, we describe the four activities
+contained in the framework: _understand_, _ideate_, _make_, and _deploy_. For
+each activity, we articulate the motivation, possible design methods, and the
+visualization artifacts that relate to decisions and have an explicit link back
+to levels of the nested model. This framework supports an iterative,
+human-centered visualization design process that we characterize with the
+introduction of design timelines. Lastly, we provide guidance on how to choose
+effective design methods with a table of 40 selected design methods of interest
+to visualization designers to employ in their own projects.
 
 
 
@@ -86,7 +85,7 @@ address. Artifacts are closely connected with design **methods**, which
 are actions or techniques that a designer employs to either generate or evaluate
 artifacts. It is in the application of methods to the broad space of all
 visualization design options, particularly methods for evaluation, that design
-**decisions** are made.
+**decisions** are made between artifacts.
 
 
 We highlight two distinct kinds of methods used in each design activity:
@@ -98,15 +97,15 @@ convergent and filter artifacts, such as methods that elicit feedback from
 domain experts [@Beyer1997; @Lam2011a] or user studies [@Cairns2008;
 @Lazar2010]. This distinction between generation and evaluation is common within
 the design community [@Brown2009; @Hevner2008; @Hanington2003; @Christiaans2010;
-@Hevner2008], such as Pugh's design funnel, which includes both concept
-generation and controlled convergence [@pugh1991total]. Interestingly, some
-methods can be both generative and evaluative, such as observation and
-interviewing. In the design activity framework, we consider generative and
-evaluative design methods as vital components of each activity, unlike process
-models that capture evaluation as a single, unique stage in the design process
-[@Chee2011; @Tory2004; @Wassink2009; @Lloyd2011; @Goodwin2013a; @DIS2010]. This
-emphasis on evaluation methods encourages visualization designers to consider
-evaluation early, and often, for each design activity.
+@Hevner2008]. For example, Pugh's design funnel includes both concept generation
+and controlled convergence [@pugh1991total]. Interestingly, some methods can be
+both generative and evaluative, such as observation and interviewing. In the
+design activity framework, we consider generative and evaluative design methods
+as vital components of each activity, unlike process models that capture
+evaluation as a single, unique stage in the design process [@Chee2011;
+@Tory2004; @Wassink2009; @Lloyd2011; @Goodwin2013a; @DIS2010]. This emphasis on
+evaluation methods encourages visualization designers to consider evaluation
+early, and often, for each design activity.
 
 
 ![
@@ -164,8 +163,8 @@ as design requirements [@Jones2008; @Royce1970; @Lloyd2011; @Goodwin2013a;
 users solve the problems or challenges they face in visualizing data. Not all
 challenges that users or domain collaborators may face will use or need a
 visualization system. For example, sometimes statistics, machine learning, or
-preexisting visualization tools such as Microsoft Excel or Tableau can help
-solve certain problems. In a visualization project, it is important for a
+existing visualization tools such as Microsoft Excel or Tableau can help solve
+certain problems. In a visualization project, it is important for a
 visualization designer to identify early on if there is a need and a set of
 design requirements that cannot easily be solved using existing tools.
 
@@ -382,7 +381,7 @@ that make the prototype work. This activity is not just about implementing a
 given design; rather, the activity, including development or coding, also
 involves critical visualization design decisions [@Moere2011]. For example, when
 using a map-based encoding for a dataset, a visualization designer might
-discover that several data points are right on top of each other and have to
+discover that several data points are right on top of each other and has to
 make low-level decisions on how the algorithm or encoding handles these
 overlapping points so that they are shown completely and without error to the
 user.
@@ -409,9 +408,9 @@ reuse in their own visualization systems and tools.
 
 ## Timelines of the Design Process
 
-In our experience, a visualization design process rarely seems to progress
-neatly through a set of designated stages; this fact motivated our synthesis of
-the design activity framework, which can be pieced together by designers in many
+In our experience, a visualization design process rarely progresses neatly
+through a set of designated stages; this fact motivated our synthesis of the
+design activity framework, which can be pieced together by designers in many
 different ways to best suit the needs of their visualization design project.
 This complex motion aligns with creative process models from the design
 community that already emphasize that design is messy, iterative, and
@@ -523,14 +522,14 @@ methods for visualization design.
 <!--
 ![
   Numerous exemplar methods and where they fit within the framework.
-  A more extensive list of 100 methods is in [Appendix @sec:app-methods]. We
-  coded each method into one or more of the four design activities: _understand_
-  (**_u_**), _ideate_ (**_i_**), _make_ (**_m_**), and _deploy_ (**_d_**).
-  Additionally, we tagged whether each method was largely generative (**_g_**)
-  or evaluative (**_e_**), or both. Lastly, we categorized the methods we have
+  We coded each method into one or more of the four design activities:
+  _understand_ (**_u_**), _ideate_ (**_i_**), _make_ (**_m_**), and _deploy_
+  (**_d_**). Additionally, we tagged whether each method was largely generative
+  (**_g_**) or evaluative (**_e_**), or both. We categorized the methods we have
   seen commonly reported within the visualization community (**_v_**) and also
   present succinct definitions for each method to assist designers in trying
-  each method out.
+  each method out. A more extensive list of 100 methods is in [Appendix
+  @sec:app-methods].
 ](figures/daf/table.pdf){#tbl:methods width="100%"}
 -->
 

@@ -2,6 +2,8 @@
 
 Citing authors with et al. needs better spacing, OR automatic names.
 
+Consider cutting content from Table 3.1 in order to fit all on one page. May need to rotate caption then.
+
 Remove all figures & refs from Chapter 2
 
 For ref at page bottom, place fig on following page (1 pg too late!):
