@@ -153,6 +153,34 @@ apart specific activities, adding new activities, or making the connection to a
 different design decision model.
 
 
+Another limitation to this framework is the methodology by which it was created.
+We created the design activity framework based on our own experiences and after
+an extensive literature review. However, design in the real-world may not always
+coincide with these experiences, largely from academia. It is important to
+recognize this limitation, as visualization design may vary in other
+disciplines, such as in industry. Furthermore, the design activity framework has
+numerous visualization specific components, but certain aspects are also
+generalized for broader design. To evaluate the efficacy, utility, and
+application of this model, it would be important to validate in other domains
+with other types of designers in a wide variety of situations, design methods,
+and target artifacts.
+
+
+To this purpose, it would be useful to evaluate the design activity framework
+further. Since the framework was largely established through our own
+experiences, another useful external evaluation of the framework would involve
+other visualization designers, or even general user interface or experience
+designers. This evaluation could take place through a variety of means:
+interviews, design workshops, group discussions, or card sorting, to name a few.
+Similarly, the design worksheets and concepts could be applied in new design
+projects, to measure the time taken, methods explored, ideas generated, or
+quality of the final artifacts, in comparison to a team's previous design
+projects. These evaluations could also support extending the model to other
+kinds of design. By working with other designers, the design activities,
+worksheets, and concepts of this visualization process model could be compared
+and evaluated by other real-world designers.
+
+
 In this dissertation, we have presented a novel visualization design process
 model, the design activity framework, which begins to address the messy,
 iterative, and multilinear process of real-world visualization design. The
@@ -164,6 +192,19 @@ progress, and the design activity framework is by no means excluded. Further
 validating this framework against additional visualization design projects, with
 a variety of different visualization designers, and in more pedagogical settings
 leads to interesting avenues for future work.
+
+
+The design activity framework bridges creative design with an engineering
+process model, but there is plenty of future work to pursue and explore along
+these lines. For instance, we reviewed a handful of design models which use a
+grid to represent design activities, but many more creative design process
+models exist that may utilize other paradigms or concepts. On the other hand,
+there are also a number of engineering process models which utilize cyclical
+design concepts which we did not utilize. These concept variations could be
+adapted into the design activity framework or expanded into their own process
+model. It is important to consider these different styles of thinking and
+working, as a single model may not work for all types of visualization designers
+or all kinds of situations.
 
 
 A number of open questions remain for future work. For example, we established,
