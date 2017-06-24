@@ -673,4 +673,33 @@ activity framework's overall increased achievability, flexibility,
 justifiability, discoverability, and actionability.
 
 
+The design activity framework is specific to visualization in a variety of ways.
+First, this process model was formulated through reflection on many
+visualization design projects, so we cannot claim that the stages, components,
+artifacts, and methods will generalize to other kinds of design. The four design
+activities, while they have generalized names, do have descriptive motivations
+that are specific to the creation of a visualization tool or system. Similarly,
+the design artifacts are defined as being specific to visualization, such as
+task abstractions or visualization encodings. While some of the general
+principles of the design activity framework may be useful to other kinds of
+design, we have only used and validated the framework for visualization design
+in a series of case studies and in an external validation with novice
+visualization designers.
+
+
+Unlike previous design models for visualization, the design activity framework
+more clearly lays out multiple elements of a design stage: its motivation,
+visualization artifacts, and design methods. Additionally, the connection to
+design decisions, through the nested model, is not included in any previous
+visualization design process model. The design activity framework does have many
+parallels with the nine-stage framework, and the four design activities could be
+considered an extension upon Sedlmair et al.'s four core design phases
+[@Sedlmair2012b]. However, the design activity framework is based off of the
+concept of a design activity with clear, descriptive definitions, numerous
+possible design methods to employ, and supports flexible and dynamic timelines.
+We also carefully constructed this framework to incorporate and merge the
+creative art and design aspects with an engineering approach to provide a more
+comprehensive snapshot of the visualization design process. For all of these
+reasons, the design activity framework is a novel and useful design process
+model for the visualization community.
 
