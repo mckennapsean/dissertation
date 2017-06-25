@@ -91,7 +91,7 @@ scribbling notes.
 
 
 Thank you again for participating in this interview. This work is part of my
-Ph.D. dissertation, to create teaching materials for visualization design. I
+PhD dissertation, to create teaching materials for visualization design. I
 greatly appreciate advising your final group and seeing how these worksheets
 helped shape your final project. It was a wonderful experience getting to see
 your group interact together and create _____. I look forward to seeing your

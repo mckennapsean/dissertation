@@ -93,38 +93,8 @@ collaborators studying correlation of gene expression.
 
 [^scorrplot]: <http://mckennapsean.com/projects/s-corrplot/>
 
-Clustered heatmaps are a standard approach to visualize correlation among many
-variables [@wilkinson2009history; @seo2002interactively]. Heatmaps directly
-visualize the correlation between each pair of variables using a color encoding
-and can highlight clusters of variables reasonably well, but they also have a
-number of limitations: pairwise correlation computations grow quadratically with
-the number of variables; clustering is necessary for pattern detection, but the
-visual results are highly variable based on the clustering technique
-[@seo2002interactively]; and accurate evaluation of correlation values is
-difficult due to the relative nature of color perception [@Albers06Interaction;
-@Wong10Color].
-
-
-As an alternative to heatmaps, the s-CorrPlot encodes correlation structure
-spatially among many variables as points in a scatterplot. This encoding scales
-to large datasets containing hundreds of thousands of variables and thousands of
-observations, both computationally and visually. The visual encoding of the
-s-CorrPlot  is based on a 2D orthogonal projection of standardized variables.
-The observation that standardized variables lie on a unit hypersphere leads to a
-derivation of a new exact spatial encoding of correlation through orthogonal
-projection. McKenna et al. describe in detail the derivation of this new spatial
-encoding [@mckenna2015s], where the encoding is precise for a subset of all
-pairwise correlations with error bounds for the rest.
-
 
 ### Statistical Correlation
-
-This project focuses on Pearson's and Spearman's correlation coefficients, which
-measure the strength of linear and monotonic relationships between the two
-variables, respectively. Spearman's correlation coefficient is Pearson's
-correlation but on ranked observations. The s-CorrPlot can apply to either
-measure of correlation.
-
 
 The s-CorrPlot is based on a geometrical interpretation of correlation
 [@dempster1969elements; @rodgers1984linearly] where datasets are represented
@@ -137,19 +107,7 @@ language, the points on this sphere are termed standardized variables.
 
 Pearson's correlation coefficient, $\hat{r}$, for any two variables $\mathbf{x} =
 \{x_1, \; \ldots \;, x_n\}$ and $\mathbf{y} = \{ y_1, \;
-\ldots \;, y_n\}$ is
-$$
-\hat{r}(\mathbf{x}, \mathbf{y}) = \frac{ \sum_{i=1}^n (x_i
-- \overline{x} ) (y_i - \overline{y} ) }{ \sqrt{\sum_{i=1}^n (x_i -
-\overline{x} )^2} \sqrt{\sum_{i=1}^n (y_i - \overline{y} )^2} }
-$$ {#eq:pearson}
-where $\overline{x} = \frac{1}{n}\sum_{i=1}^{n} x_i$
-and $\overline{y} = \frac{1}{n}\sum_{i=1}^{n} y_i$ are the means of $\mathbf{x}$
-and $\mathbf{y}$, respectively.
-
-By letting $\tilde{\mathbf{x}} = \{(x_1 -\overline{x}), \; \ldots \;, (x_n
--\overline{x})\}$ and $\tilde{\mathbf{y}} = \{(y_1 -\overline{y}), \; \ldots \;, (y_n
--\overline{y})\}$, [@eq:pearson] can be written as 
+\ldots \;, y_n\}$ can be written as
 $$
   \hat{r}(\mathbf{x}, \mathbf{y}) = 
   \frac{
@@ -159,7 +117,7 @@ $$
     \lVert \tilde{\mathbf{x}} \rVert \;\, \lVert \tilde{\mathbf{y}} \rVert 
   }
 $$ {#eq:geom}
-which highlights the geometrical nature of the correlation coefficient.
+which highlights the geometrical nature of the correlation coefficient [@mckenna2015s].
 
 
 In this geometric interpretation, the standardization of a variable can be
@@ -183,28 +141,20 @@ sphere onto a plane through the origin. After this projection step, the
 variables can be displayed as points on a scatterplot, the **s-CorrPlot**.
 
 
-By selecting two noncollinear standardized variables, $\mathbf{p}$ and
-$\mathbf{s}$ on the correlation sphere, as illustrated by $U$ in
-[@fig:corr-plot], we can define such a plane through the origin. Projecting all
-variables onto this plane collapses them to points on the s-CorrPlot. The
-projection plane forms a circular intersection with the selected points due to
-standardization. For any variable on this circular boundary, the correlation to
-any other projected variable in the plane is encoded exactly. Furthermore, error
-bounds exist to show that the approximation error increases slowly as one moves
-away from the boundary [@mckenna2015s].
-
-
-To graphically illustrate how the s-CorrPlot encodes correlation coefficients,
-we will use a simple example of three variables with four observations. Thus,
-the variables can be represented as vectors in $\mathbb{R}^4$, as with the three
-standardized variables: $\mathbf{p}$, $\mathbf{s}$, and $\mathbf{x}$. Because
-these standardized variables effectively reside in a 3D subspace of
-$\mathbb{R}^4$, we can directly illustrate them in [@fig:corr-plot](a). Next,
-the correlation sphere is intersected with a projection plane, $U$, which is
-defined as going through the origin and containing any two noncollinear
-variables $\mathbf{p}$ and $\mathbf{s}$. Any standardized variable,
-$\mathbf{x}$, can be projected onto the plane $U$, producing the 2D coordinates
-of the s-CorrPlot, shown in [@fig:corr-plot](b).
+Based on [@eq:geom], the correlation coefficient for two variables is equal to
+the dot product between their vectors, such as for $\mathbf{p}$ and $\mathbf{x}$
+as illustrated in [@fig:corr-plot](a) and reflected in [@fig:corr-plot](b). The
+vertical grid lines in the s-CorrPlot, as in [@fig:corr-plot](c), specify values
+of equal correlation to $\mathbf{p}$ for any location in the scatterplot. Thus,
+since $\mathbf{x}_U = U \, \mathbf{x}$, it follows that, for any vector
+$\mathbf{x}$, the correlation to $\mathbf{p}$ is directly encoded in the first
+component of the vector $\mathbf{x}_U$. In fact, any vector that projects onto
+the line $V_U$, shown in [@fig:corr-plot](b), has the same first component
+value, and thus the same correlation to $\mathbf{p}$. Moving $V$ along the
+vector $\mathbf{p}$ produces grid lines as shown in [@fig:corr-plot](c). For
+further details about the mathematical derivation of the s-CorrPlot, including
+the uncertainty bounds and density estimation technique, please see the original
+publication [@mckenna2015s].
 
 
 ![
@@ -225,58 +175,19 @@ of the s-CorrPlot, shown in [@fig:corr-plot](b).
 ](figures/scorrplot/s-corrplot.pdf){#fig:corr-plot width="95%"}
 
 
-Based on [@eq:geom], the correlation coefficient for two variables is equal to
-the dot product between their vectors, such as for $\mathbf{p}$ and $\mathbf{x}$
-as illustrated in [@fig:corr-plot](a) and reflected in [@fig:corr-plot](b). The
-vertical grid lines in the s-CorrPlot, as in [@fig:corr-plot](c), specify values
-of equal correlation to $\mathbf{p}$ for any location in the scatterplot. Thus,
-since $\mathbf{x}_U = U \, \mathbf{x}$, it follows that, for any vector
-$\mathbf{x}$, the correlation to $\mathbf{p}$ is directly encoded in the first
-component of the vector $\mathbf{x}_U$. In fact, any vector that projects onto
-the line $V_U$, shown in [@fig:corr-plot](b), has the same first component
-value, and thus the same correlation to $\mathbf{p}$. The line $V_U$ corresponds
-to the projection of a $(n-2)$-flat, $V$, onto $U$, where $V$ is orthogonal to
-$\mathbf{p}$ and contains $\mathbf{x}$.  Thus, any vector that lies on $V$ is at
-the same distance from $\mathbf{p}$, and thus has the same correlation value.
-We illustrate this $(n-2)$-flat $V$ in [@fig:corr-plot](a).  Moving $V$ along
-the vector $\mathbf{p}$ produces grid lines as shown in [@fig:corr-plot](c). For
-further details about the mathematical derivation of the s-CorrPlot, including
-the uncertainty bounds and density estimation technique, please see the original
-publication [@mckenna2015s].
-
-
-This spatial encoding of correlation affords several advantages. First, the
-geometric interpretation of correlation underlying the s-CorrPlot enables
-multidimensional exploration techniques. Also, categorical information for
-groups of variables can be encoded using color or shape. The projection, for $p$
-variables, results in a $O(p)$ algorithm for generating any single projection on
-the s-CorrPlot. This linear computation for each scatterplot enables scaling to
-large datasets at interactive frame rates.
-
-
 ### Interactive Exploration
 
-We designed the s-CorrPlot technique to incorporate both interaction and
-animation, unlike previous static correlation encodings [@corsten:biometrics76;
+This spatial encoding of correlation affords several advantages. For example,
+the technique can encode categorical information using color, and the projection
+is computed in linear time at interactive frame rates. We also designed the
+s-CorrPlot technique to incorporate both interaction and animation, unlike
+previous static correlation encodings [@corsten:biometrics76;
 @trosset:jcgs05; @falissard:jcgs99]. In doing so, we illustrate how the
 s-CorrPlot can be paired with multidimensional exploration techniques, in the
 spirit of existing systems that employ user-driven exploration
 [@swayne1998xgobi; @swayne2003ggobi; @Elmqvist08Rolling]. To easily understand
 the interactive exploration aspects, we advise watching the companion video
 available online.[^scorrplot]
-
-
-To better grasp multidimensional spaces, methods such as projection pursuit
-[@huber1985projection; @Friedman87Exploratory], the grand tour method
-[@Asimov85Grand], and combinations of both [@cook1995grand], explore
-multidimensional space through sequences of 2D projections. Several mature
-systems that implement these techniques include xgobi [@swayne1998xgobi] and
-ggobi [@swayne2003ggobi], which provide animations and interactions to let the
-user explore the complete space of projections. The spatial encoding of
-correlation in the s-CorrPlot is also applicable within any of these existing
-systems. Our implementation of the s-CorrPlot was motivated by these exploratory
-techniques in order to create simple user-guided tours, or animations between
-projections.
 
 
 The s-CorrPlot employs several simple aspects of user-driven exploration to help
@@ -290,14 +201,9 @@ interpolating across the vectors chosen for the projection. In addition, we
 orient the viewer by projecting the primary vector to a fixed location on the
 far right of the s-CorrPlot and draw the gridlines vertically with respect to
 this primary vector in order to preserve the spatial encoding throughout the
-animation.
-
-
-As with multidimensional exploration between projections, animating between
-planes results in structures, such as clusters of correlated variables, moving
-together (or apart) in 3D, giving the user a partial sense of the relationship
-of the standardized variables in the multidimensional space. Perceptually, the
-animation results in seeing _"shape from motion"_ [@ullman:visualMotion].
+animation. This animation results in seeing structures, such as clusters of
+correlated variables, moving together (or apart) in 3D; perceptually, this is
+known as seeing _"shape from motion"_ [@ullman:visualMotion].
 
 
 ### Employing the s-CorrPlot in Biology
@@ -490,37 +396,18 @@ generate guidelines for the applied area of creating data visualization stories
 for the project, to study the visual narrative flow of data visualization
 stories. By providing examples of two types of flow, scrollers and steppers, we
 show how different these story experiences are to readers. Next, we characterize
-this design space for visual narrative flow into seven flow-factors. We employed
-evaluation methods that involved qualitative, exploratory studies on reading
-experiences, and we conducted a crowdsourced study in order to measure and
-compare engagement for different narrative flows. By reflecting on this project
-using the design activity framework, we provide an initial validation that steps
-for experimental design can map onto steps of the design process, where
-visualization artifacts can capture evaluation guidelines and increase the
-reproducibility through documentation of an experimental design. We also discuss
-how the framework enabled us to reason about the evalaution methods' limitations
-of generalizability.
+this design space for visual narrative flow into seven flow-factors. We
+conducted a crowdsourced study in order to measure and compare engagement for
+different narrative flows. By reflecting on this project using the design
+activity framework, we provide an initial validation that steps for experimental
+design can map onto steps of the design process, where visualization artifacts
+can capture evaluation guidelines and increase the reproducibility through
+documentation of an experimental design. We also discuss how the framework
+enabled us to reason about the evalaution methods' limitations of
+generalizability.
 
 
 ### Project Motivation
-
-Many factors can shape the flow of visual data-driven stories, and thereby the
-way readers experience those stories. Through the analysis of 80 existing
-stories found on popular websites, we systematically investigated and identified
-seven characteristics of these stories [@mckenna2017], named **flow-factors**,
-and we illustrated how they feed into the broader concept of _"visual narrative
-flow."_ These flow-factors are navigation input, level of control, navigation
-progress, story layout, role of visualization, story progression, and navigation
-feedback. We describe a series of studies we conducted that shed initial light
-on how different visual narrative flows impact the reading experience. We report
-on two exploratory studies, in which we gathered reactions and preferences of
-readers for stepper- vs. scroller-driven flows. We then report on a crowdsourced
-study with 240 participants, in which we explore the effect of the combination
-of different flow-factors on readers' engagement. Our results indicate that
-visuals and navigation feedback (e.g., static vs. animated transitions) have an
-impact on readers' engagement, but level of control (e.g., discrete vs.
-continuous) may not.
-
 
 Data-driven stories that tightly integrate visualizations have become a popular
 communication device in a variety of fields [@Segel2010], which has led the
@@ -529,18 +416,9 @@ practitioners employ to craft narratives, from visual and interactive techniques
 [@Segel2010; @Stolper2016] to specific genres [@Amini2015; @Amini2016;
 @bach2016telling]. Specific knowledge on these factors is growing, but we still
 have little knowledge on which are predominant for, and how they may be combined
-to create, effective **_visual narrative flows_**, which combine a reader's
-input with story components and congruent visual feedback that tell the story
-matching the author's intent and voice ([@fig:flow]).
-
-
-![
-  Characteristics impacting narrative flow.
-  We illustrate high-level aspects that affect visual narrative flow: readers'
-  interactions with the story, the mechanisms tying the story components into a
-  narrative, and the different forms of visual feedback perceived by readers
-  as they navigate, read, and interact with the visual data-driven story.
-](figures/narrative-flow/narrative-flow.pdf){#fig:flow width="80%"}
+to create, effective **_visual narrative flows_** [@mckenna2017], which combine
+a reader's input with story components and congruent visual feedback that tell
+the story matching the author's intent and voice.
 
 
 An ongoing informal debate on visual narrative flow centers around the effects
@@ -567,22 +445,6 @@ point out several potential issues pertaining to the use of scrolling (e.g.,
 ](figures/narrative-flow/scroller-stepper.pdf){#fig:ml width="100%"}
 
 
-Navigation input may influence the flow and reading experience of a data-driven
-story, but diverse examples from _The Guardian_ [@guardian] and _The Wall Street
-Journal_'s Custom Studios team [@wsj] suggest that there is more to shaping a
-visual narrative flow than just input. Furthermore, the understanding of how
-different flows might influence reading experiences is limited. Here, we
-systematically examine what story design aspects are used by practitioners,
-which we name **_flow-factors_**, that encompass reader input, story components,
-and visual feedback as shown in [@fig:flow]. We then describe a series of
-studies we conducted to provide initial empirical evidence on how different
-combinations of flow-factors, i.e., how different visual narrative flows, can
-impact reading experiences. We focus specifically on readers' reactions,
-preferences, usability, and level of engagement with a visual, interactive,
-data-driven story because these aspects are important and known outcomes of
-readers' experiences with technology.
-
-
 ### Visual Narrative Flow
 
 Here we introduce seven factors that contribute to visual narrative flow along
@@ -596,7 +458,8 @@ focused on high-level story components (e.g., animation, progress bars) along
 with story genres and narrative approaches [@Segel2010]. However, these
 flow-factors build upon their work by breaking down these properties to
 characterize and explore a broader range of visual data-driven stories than
-otherwise initially possible.
+otherwise initially possible. For further details on each of these factors,
+please see the original publication [@mckenna2017].
 
 
 ![
@@ -606,90 +469,6 @@ otherwise initially possible.
   necessarily mutually exclusive, and hybrids can and often do occur in data
   visualization stories created by authors.
 ](figures/narrative-flow/design-space.pdf){#fig:design-space width="100%"}
-
-
-**Navigation input** is how a reader interacts to progress through a narrative
-visualization. For example, an author can choose to use scrolling input to move
-down a document, as in _S-51_ in the story corpus [@mckenna2017]. Another
-input mechanism is a button, which corresponds to a click, tap, or keyboard
-press, e.g., _S-4_. Another element, though rare, is a slider, with which
-readers can select and drag to choose where they wish to be in the story.
-A common theme across all flow-factors is that multiple properties can be
-combined in a story. For example, _S-79_ combines both buttons with a slider in
-a timeline chart. Such a hybrid approach shows how the line between a stepper
-and scroller does not need to be rigid in terms of reader input.
-
-
-**Level of control** corresponds to how much control readers have over the
-motion or animated transitions of story components. For these levels of control,
-readers can have _discrete_ control if they trigger motion playback like the
-scroller in _S-2_, or _continuous_ control if they can play through the
-keyframes or time points of that motion like the machine learning scroller _S-1_
-and in [@fig:ml]. It is also possible for a _hybrid_ style to combine or support
-aspects of both, such as the scrolling story in _S-8_ with a timeline plot where
-points can be clicked to navigate. We break down levels of control based on the
-following categories: text, visualizations, and animated transitions. Text and
-visualizations can move or fade in or out within the page, and this motion is
-described by level of control for those elements. An animated transition is
-defined here as more specific, data-relevant motion that preserves data context
-across or within visualizations.
-
-
-**Navigation progress** describes how readers perceive their placement within
-the entire story. Not all stories may show navigation progress, relying on the
-implied progress of a scrollbar. Otherwise, stories may showcase this progress
-in a variety of ways. A common way is to represent steps with dots such as the
-stepper in _S-4_, and another method utilizes numbers or text for story steps
-as in _S-6_. Authors also use visualization to convey story progress, such as
-a path on a small multiple map as utilized in _S-18_. These progress widgets can
-also be combined with button input for navigation.
-
-
-**Story layout** captures both the type of layout model and the number of
-columns used in the story. Stories commonly utilize a single- or two-column
-approach, but these can be mixed as in _S-44_, which changes the layout across
-sections. The two kinds of layout models are either a document (e.g., _S-1_) or
-a slideshow (e.g., _S-4_), but hybrids (e.g., _S-3_) also occur where this
-example looks like a slideshow stepper but uses different animations and
-scrolling for input. These layout models are similar to steppers and scrollers.
-
-
-**Role of visualization** examines the purpose and the part that visualizations
-serve with respect to the entire story. Some aspects of this flow-factor may get
-decided when first creating a story based on the author's intent, but the role
-of visualization helps determine the visual narrative flow based on how the
-visualizations and text interact with each other. From the visual, interactive
-stories we surveyed, 29 stories have text and visualizations playing an equal
-role in telling the stories, such as the interplay between the text and maps in
-_S-11_. However, other stories have visualizations serve as a figure to help
-convey part of the story, such as the progress map used in _S-18_. Lastly,
-visualizations can drive telling a story, with text primarily annotating the
-visual story, such as the animated chart in _S-16_.
-
-
-**Story progression** categorizes the possible story paths that can occur in a
-story, such as linear story points, skipping between, or more complex paths. The
-most common story type we observed is linear, where a reader is guided through
-each story point in order as in _S-21_. However, a variation of this approach
-is a linear skip, where readers can jump backward or ahead --- often included
-if a navigation progress widget is present such as the stepper in _S-9_. A story
-can also contain more complex story paths, such as a tree style or graph to
-include cycles or loops. A good example is _S-29_, a visual, interactive story
-about how neurons work.
-
-
-**Navigation feedback** combines animated transitions with additional animations
-of story text or other components, such as fading or movement. This factor shows
-readers that their input affects the story. For example, it is possible for both
-the text and visualizations to transition or move on the page simultaneously, or
-in sync, such as _S-5_ where visualizations and text move down the page
-together. However, these animations can also occur one before the other, just
-the text or just the visualizations, so they swap their order as in _S-11_,
-which swaps between maps and the text. Animated transitions not tied to data can
-show change using motion or fading, and these animations can occur in different
-parts of the story interface: the text, the progress widget, or the
-visualizations. The story in _S-80_ uniquely combines all three kinds of
-feedback as a reader advances.
 
 
 The expressivity of the design space can be evaluated by looking at the model's
@@ -706,118 +485,16 @@ the community previously called one category, demonstrating the framework's
 descriptive power.
 
 
-### Exploratory Studies
-
-We conducted two exploratory studies to understand how visual narrative flow
-impacts the reader experience as well as to investigate how to capture this
-impact. We focused on two specific kinds of flows, steppers and scrollers, to
-mimic real-world reading experiences. For this exploration, our goal was to
-observe usability issues and reader preferences between the two different flows.
-Two studies employed different protocols: an online pilot survey and in-person
-observations and interviews.
-
-
-For these exploratory studies, we utilized the story, _"A Visual Introduction to
-Machine Learning,"_ by Yee and Chu [@ml]. As shown in [@fig:ml], this story is a
-scroller, and we adapted it and its various story points into another type of
-flow: a stepper. We selected this story because it won several awards, had many
-views, and was generally discussed in the visualization community as a good
-example of a scroller. In addition, we believe that it could transfer well to a
-stepper (slideshow) model. This story features technical insights and complex
-data visualizations in a longer format. Thus, we hypothesized that the visual
-narrative flow could substantially impact the story usability and reader
-preference. To experience this story and our stepper variant, please see our
-project website.[^narrative-flow]
-
-[^narrative-flow]: <https://narrative-flow.github.io/>
-
-
-We recruited eight participants in our lab to read through the machine learning
-story and instructed them to "explore" different reading experiences by toggling
-between the two types of narrative flow. After reading through the story,
-participants answered an online questionnaire on the usability of each approach
-and individual preference questions, selected from the system usability survey
-(SUS) [@brooke1996sus]. The project website includes the survey materials used.
-The participants all have data visualization knowledge, different operating
-systems (Linux, Mac OS, Windows), various browsers (Firefox, Chromium, Chrome),
-display resolutions (1373x735 to 2560x1464), only three typically read visually
-animated stories, and five had read this story before.
-
-
-The results from this study showed a mixed set of preferences for each
-participant. Three participants preferred the stepper and five preferred the
-scroller. Participants also considered both visual narrative flows moderately
-usable, scoring 62 and 60 out of 100, respectively. Thus, the differences we
-collected between both approaches varied mostly by subjective preference. For
-example, responses to open-ended questions indicated that three readers
-preferred steppers for the progress bar or the arrow keys enabling efficient
-story progression, and two others reported that scrolling required less effort.
-By analyzing interaction logs from the stories, we found that participants
-generally spent more time and interacted more in the flow they had rated higher.
-
-
-To gather deeper insights on the impact of visual narrative flows on preferences
-and usability, we conducted observations and semistructured interviews with 10
-participants. The study lasted 30 minutes on average, and we gave a $10
-compensation. To ensure participants experience both conditions, we broke the
-story into three chapters. Participants experienced the two conditions
-in a random order and were asked to pick a flow for the final chapter based on
-their preference. We improved the usability and breakpoints of the stepper
-version from the previous study.
-
-
-Participants read the story on the same touchscreen tablet device. After each
-chapter, participants completed a longer usability questionnaire based on SUS
-[@brooke1996sus]. After reading the entire story, we conducted a semistructured
-interview to gather preferences and feedback that the primary author analyzed
-iteratively with three to five passes on the interview notes along with informal
-coding techniques. Participants did not have formal training in data
-visualization. Six participants had machine learning knowledge, and three
-participants had seen this story before. The project website provides the
-materials used in the study
-
-
-The results of this study shed more light on reader preference. For usability,
-the stepper scored 76 and scroller scored 80 out of 100, so both types of
-narrative flow were rated strongly usable, likely due to improvements to our
-implementations. Contrary to the previous study, only two (of 10) readers
-preferred the stepper; the remaining eight preferred the scroller version,
-although two of them did not express a strong preference. The interviews
-revealed that the touch interface may have impacted the experience. Two
-participants commented that if swiping gestures (rather than tapping arrows)
-were implemented in the stepper version, they would have likely favored the
-stepper. These comments hint that different properties of visual narrative flow
-can affect reader preference.
-
-
-All but one participant agreed that these visual narrative flows impacted their
-story reading experience. We observed that all participants in the scroller
-condition scrolled back and forth to align text or replay animated transitions
-in certain positions on the screen. Three participants commented that it was
-hard to find the "perfect" view while reading the story. In contrast, we
-observed less interaction with the stepper. The participants generally hovered
-their fingers over the buttons to facilitate navigation and did not replay
-animation back and forth as much. We noted more expressions of joy and pleasure,
-such as laughter, from three participants in the scrolling experience. As
-participants stated: _"scrolling allowed me to see the transformations more
-fluidly"_ (participant #4, or P4), _"scrolling is sexier in some ways, it is
-unique ... and just more fun"_ (P10), and _"my preference would be a stepper
-with slides ... but scrolling goes over these expectations, since it ... helps
-reasoning and understanding"_ (P5). Six participants expressed that the
-continuous control over animations afforded by scrolling was very engaging,
-although this could be an effect of novelty or self-reporting on engagement.
-
-
 ### Crowdsourced Study on Engagement
 
 To study how different flow-factors of visual narrative flow affect readers'
-engagement, we conducted a larger scale crowdsourced study with 240 participants
+engagement, we conducted a large-scale crowdsourced study with 240 participants
 using Amazon Mechanical Turk. We selected four conditions to study in detail. We
 identified two baseline conditions, one with only text and another with only
 static visuals, to first see if there is a measurable benefit to scrolling
 stories with visualization or with animation. Lastly, we included a stepper
 narrative flow to explore measuring the difference in engagement we witnessed in
-the exploratory studies. Specifically, our conditions were:
+our exploratory studies. Specifically, our conditions were:
 
 - _text_: a text-only story (baseline 1)
 - _visual_: text paired with static visual images (baseline 2)
@@ -842,68 +519,19 @@ algorithm. Thus, our hypotheses were:
 - **_H3_**: Pairing dynamic transitions with continuous control contributes to make the data-driven story more engaging.
 
 
-We selected the machine learning story [@ml] as in previous studies because of
-its length and the various types of visualizations and transitions it included.
-Both the text and visual conditions used a document layout and scrolling
-navigation input. In the text condition, textual descriptions replaced the
-visualizations whereas the visual condition utilized static screenshots of the
-visualizations. The scroller is the original story, and the stepper is our
-implemented version, which contains a progress widget, does not animate text,
-and controls animations by discrete button presses.
-
-
-We broke apart the story into two chapters based on types of animated
-transitions used, and each participant went through each chapter and then filled
-out a survey at the end. Each participant received only two unique conditions,
-one for each story chapter. Participants completed the survey after reading both
-chapters in order to avoid breaking their concentration and issues of memory
-recall of responses that would result in less effective comparison results. The
-study was balanced in design, with the four conditions crossed with the two
-chapters of the story resulting in 12 combinations.
-
-
+We broke apart the machine learning story [@ml] into two chapters, and each
+participant went through each chapter and then filled out a survey at the end.
 For measuring engagement, we adapted a validated questionnaire from O'Brien and
 Toms [@OBrien2010] containing 14 questions on reader-perceived engagement across
-attributes such as usability, attention, aesthetics, and novelty. Each statement
-then received a five-point Likert response from the participant. These
-statements were duplicated across the two conditions (or chapters) that the
-participant had read. We randomized the order of questions, but questions per
-chapter were adjacent to support effective comparison. For analysis, several of
-the questions were negative attributes for engagement, so we flipped participant
-responses accordingly. Our project website includes all materials and conditions
-used for the study.[^narrative-flow]
+attributes such as usability, attention, aesthetics, and novelty. We performed a
+linear mixed effects analysis using R [@rlang] and lme4 [@lme4] to study the
+relationship between different types of narrative flows and reader-perceived
+engagement (all 14 questions). We obtained the $p$-values reported here through
+likelihood ratio tests of the full effects model to one without the effect of
+different visual narrative flows. Our project website includes all materials and
+conditions used for the study.[^narrative-flow]
 
-
-In total, 240 participants read through the story. They were compensated $2.31
-for their time. Twenty participants were assigned per pair of conditions, or 40
-per balanced set. We recruited participants via Amazon's Mechanical Turk (at
-least 98% HIT approval rate, at least 100 approved HITs, and English-speaking
-countries only). We asked a series of questions to ensure that no one had seen
-this particular story before and that participants were actively following
-instructions and paying attention to the content of the story, both in the text
-and the visuals. Participants had a varied educational background (46.2% high
-school or some college, 39.2% with a bachelor's degree, 14.6% with master's or
-beyond), 58.3% had never taken a computer science course, 87.0\% were unfamiliar
-with machine learning, 74.6% read stories on the web multiple times weekly or
-more, and 12.9% had subscriptions to a popular news site. They used a variety of
-input devices (75.4% mouse, 22.9% trackpad, two touch devices, one pen, and one
-trackball).
-
-
-We performed a linear mixed effects analysis using R [@rlang] and lme4 [@lme4]
-to study the relationship between different types of narrative flows and
-reader-perceived engagement (all 14 questions). As fixed effects, we used both
-the four narrative flows and chapter (without the interaction term) in the
-model. For random effects, we incorporated intercepts for participants and
-engagement questions, as well as a by-participant and by-question random slope
-model for the effect of engagement. We visually inspected residual plots and
-found no extreme deviations from homoscedasticity or normality to violate model
-assumptions. Despite the effect of engagement being captured using a Likert
-scale, the underlying concepts are likely continuous in nature, and it is
-accepted in several fields to utilize linear models for such ordinal data
-without succumbing to a negative bias as with other approaches [@Bauer2011]. We
-obtained the $p$-values reported here through likelihood ratio tests of the full
-effects model to one without the effect of different visual narrative flows.
+[^narrative-flow]: <https://narrative-flow.github.io/>
 
 
 [@fig:eng-model] shows the results of the model, which contains the average
@@ -979,13 +607,6 @@ animated transitions and scrollers for the second chapter of the story.
 ](figures/narrative-flow/study-preferences.pdf){#fig:prefs width="100%"}
 
 
-In addition to questions on engagement, we asked participants to complete five
-comprehension questions, which varied in difficulty from terminology or concept
-recall to complex application of a concept to a new problem. Overall,
-participants comprehended the story well, scoring on average 4 out of 5. We did
-not find any major differences in comprehension across condition pairs.
-
-
 ### Applying the Design Activity Framework
 
 This project aimed to support the creation of a tool to help story authors
@@ -1015,15 +636,15 @@ correspond to decisions made at the encoding and interaction levels. For
 example, the different types of visual feedback, interaction techniques, and
 levels of control all correspond to decisions we had to make when designing a
 story on one or both of these levels. With this mapping to decisions, we
-identified a limitation to the project. Specifically, the exploratory and
-crowdsourced studies investigated usability and reader-reported engagement to
-compare visual narrative flows. As a result of these studies, we established
-guidelines to utilize animation and visuals to increase engagement, implications
-for the _make_ and _deploy_ activities. While the design activity framework can
-describe these guidelines succinctly, the nested model extension [@Meyer]
-elucidates this limitation, since the stories could be viewed as stacks of
-blocks, and the user study guidelines were shown to be effective for only a
-single story rather than generalized across many different stories.
+identified a limitation to the project. Specifically, the crowdsourced study
+investigated reader-reported engagement and preference to compare visual
+narrative flows. As a result of this study, we established guidelines to utilize
+animation and visuals to increase engagement, implications for the _make_ and
+_deploy_ activities. While the design activity framework can describe these
+guidelines succinctly, the nested model extension [@Meyer] elucidates this
+limitation, since the stories could be viewed as stacks of blocks, and the user
+study guidelines were shown to be effective for only a single story rather than
+generalized across many different stories.
 
 
 On the other hand, we noted that we could reflect on how the design activity
@@ -1041,10 +662,10 @@ will involve testing for usability and feasibility, such as through the use of
 pilots, similar to prototypes, in the _make_ activity. The process may not
 perfectly overlap, but it shows that the design activity framework can map to
 this style of formative or evaluative work in ways that the nine-stage framework
-cannot. Additionally, the lack of generalizability of the studies presented here
-could be uncovered by reflecting on assumptions and artifacts generated when
-forming the study, such as the single story, one dataset, and subset of
-visualizations, which is fixed throughout all of the conditions and studies.
+cannot. Additionally, the lack of generalizability of the study presented here
+could be uncovered by reflecting on assumptions and artifacts generated, such as
+the single story, one dataset, and subset of visualizations, which is fixed
+throughout all of the conditions.
 
 
 Lastly, the design activity framework worksheets emphasize the importance of
