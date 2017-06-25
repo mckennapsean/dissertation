@@ -140,7 +140,7 @@ process.
 Educators have worked on concretizing steps for the ideation process.
 Specifically, the five design-sheet methodology [@Roberts2015] utilizes
 worksheets to structure and guide visualization students through the ideation
-process. This approach by Roberts et al. encourages engineering students to
+process. This approach by Roberts et al.\ encourages engineering students to
 think divergently and creatively and sketch out ideas on paper when first
 designing a visualization. Their approach begins with brainstorming, followed by
 three unique designs and a realization sheet for the final tool. The authors
@@ -157,9 +157,9 @@ also encouraged students to think divergently, which is a skill not often taught
 in computer science. However, in a workshop at the 2016 IEEE VIS Conference that
 used these worksheets, we experienced a limitation by using this approach too
 soon: many steps must occur first, such as data collection, identifying the
-challenge, focusing on a target user, and finding tasks. Roberts et al. elude to
-this limitation with different preparation steps [@Roberts2015], but these steps
-can be nontrivial and tricky for novices. Thus, it would be beneficial to
+challenge, focusing on a target user, and finding tasks. Roberts et al.\ elude
+to this limitation with different preparation steps [@Roberts2015], but these
+steps can be nontrivial and tricky for novices. Thus, it would be beneficial to
 establish and evaluate more worksheets beyond just ideation for data
 visualization design pedagogy.
 

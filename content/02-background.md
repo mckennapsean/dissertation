@@ -66,10 +66,10 @@ repurposing an existing tool or technique), as shown in [@fig:design-decision]
 [@Christiaans2010]. These strategies are combined with specific
 operationalizations of that mindset as well as with how decisions get made by an
 individual or a team, such as autocratic versus autonomic. Similarly, Tang et
-al. divide design decisions into three groups: planning, problem space, and
+al.\ divide design decisions into three groups: planning, problem space, and
 solution space decisions, in order to better realize the effect decisions have
 on design [@Tang2010]. Through studying the process of expert designers, Wu et
-al. identify three classes of design strategies: forward working (from abstract
+al.\ identify three classes of design strategies: forward working (from abstract
 to concrete), backward working (from concrete to abstract), and problem
 switching (alternating between the two) [@Wu2011]. Furthermore, several
 researchers have broken down decision-making into different kinds of high-level
@@ -121,7 +121,7 @@ the design of a visualization.
 
 ![
   The nested blocks and guidelines model.
-  Meyer et al. introduced an extension to the nested model to more finely
+  Meyer et al.\ introduced an extension to the nested model to more finely
   capture guidelines [@Meyer]. These guidelines stem from design decisions made
   by visualization designers, and guidelines can be established within or
   between levels of the nested model. As a visualization system is designed and
@@ -156,14 +156,14 @@ problem definition, where the overall process is largely sequential and
 convergent toward a single solution [@Lowgren1995]. On the other hand, a
 **creative design process** begins with more gradual problem scoping, and the
 process has many overlapping activities in which many different possibilities
-are explored before choosing a single solution [@Lowgren1995]. Howard et al.
+are explored before choosing a single solution [@Lowgren1995]. Howard et al.\
 created a design process model to utilize both creative and engineering aspects,
 displayed in [@fig:process-howard] [@Howard2008].
 
 
 ![
   Integrated creative design process model.
-  Howard et al. created a model to encompass both engineering and creative
+  Howard et al.\ created a model to encompass both engineering and creative
   design processes [@Howard2008]. Components of a previous model are modified
   and connected in order to emphasize and call out the specific stages
   of generation, evaluation, and analysis. A key aspect of this model is the
@@ -209,7 +209,7 @@ in a variety of forms --- waterfall, cyclical, and spiral --- to perform
 user-centered design [@Chee2011; @Tory2004; @Wassink2009], but they emphasize
 convergence as in an engineering design process model. The design process model
 used by both Lloyd and Dykes [@Lloyd2011] (shown in [@fig:process-lloyd]) and
-Goodwin et al. [@Goodwin2013a] is drawn from an international standard on
+Goodwin et al.\ [@Goodwin2013a] is drawn from an international standard on
 human-centered design, ISO13407, which has recently been updated, ISO9241-210
 [@DIS2010]. This standard's model, presented in [@fig:process-iso], describes
 different design activities as a cycle, emphasizing an engineering approach.
@@ -234,13 +234,13 @@ different design activities as a cycle, emphasizing an engineering approach.
 ](figures/background/design-process-iso.pdf){#fig:process-iso width="80%"}
 
 
-Goodwin et al. accompany this engineering process model with specific methods
+Goodwin et al.\ accompany this engineering process model with specific methods
 for eliciting creativity from end users [@Goodwin2013a], a step toward including
 aspects of a creative design process. Vande Moere and Purchase further
 characterize the role of design in visualization [@Moere2011], and, although no
 design process model is outlined, their assertions on design emphasize the
 importance of creative aspects for visualization design. By embracing concepts
-from action design research (ADR), McCurdy et al. applied ADR to a design study
+from action design research (ADR), McCurdy et al.\ applied ADR to a design study
 to illustrate how intervention with collaborators shaped the final visualization
 design and how they reflected and learned throughout this process
 [@McCurdy2016]. Although the visualization community recognizes that creative
@@ -260,7 +260,7 @@ of the nested model are mentioned; however, an explicit description of what
 types of artifacts should be expected at each step is not provided. Furthermore,
 the model as a whole only loosely captures the overlapping and iterative nature
 of visualization design, as well as the role of evaluation throughout, which
-McCurdy et al. argue is crucial and should occur concurrently with building a
+McCurdy et al.\ argue is crucial and should occur concurrently with building a
 system [@McCurdy2016]. As such, we consider the design activity framework as an
 extension of the four-core design stages in Sedlmair's model for design studies,
 focused on helping conduct general visualization design projects.
@@ -268,8 +268,8 @@ focused on helping conduct general visualization design projects.
 
 ![
   Nine-stage framework process model for design studies.
-  Sedlmair et al. introduced nine stages of the design process, characterized by
-  three high-level categories [@Sedlmair2012b]. The gray arrows indicate
+  Sedlmair et al.\ introduced nine stages of the design process, characterized
+  by three high-level categories [@Sedlmair2012b]. The gray arrows indicate
   iterative and nonlinear aspects. The design activity framework extends the
   four core stages of this model --- discover, design, implement, and deploy ---
   in order to increase the model's achievability, flexibility, justifiability,
@@ -345,7 +345,7 @@ process unfolds.
 By reflecting on our own design process in [@sec:formulation], we identify a
 need for a process framework that balances the flexibility and actionability of
 models from the design community with the explicit artifacts and decisions
-necessary for visualization design. Bigelow et al. further emphasize this need
+necessary for visualization design. Bigelow et al.\ further emphasize this need
 that designers have for design flexibility, specifically for using visualization
 systems to broadly explore visual encodings [@Bigelow2014]. We developed the
 design activity framework to overcome shortcomings in existing visualization
@@ -487,7 +487,7 @@ process model.
 
 ![
   Five design-sheet methodology worksheets.
-  Roberts et al. present a method for teaching the ideation process to students
+  Roberts et al.\ present a method for teaching the ideation process to students
   using five worksheets [@Roberts2015] that encourage sketching visualization
   ideas and comparing them before realizing a final visualization design. This
   work motivated the creation of design activity worksheets for students to

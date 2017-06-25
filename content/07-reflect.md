@@ -673,7 +673,7 @@ documenting and recording the design process, which overlaps with the importance
 of reproducibility in experimental design. By recording visualization artifacts
 and design decisions, a visualization designer can justify why specific tasks,
 encodings, or interactions are selected or modified. In a design study, this
-notion of reproducibility is not the goal, and Sedlmair et al. promote the goal
+notion of reproducibility is not the goal, and Sedlmair et al.\ promote the goal
 of transferability instead [@Sedlmair2012b] due to the subjective nature of
 field work and based on methodologies of ethnography and action research.
 However, in other types of design work, such as for experimental evaluation, it

@@ -271,9 +271,9 @@ involved with different generative or evaluative methods as well as deployments.
 
 The task of presentation influenced the unique design process of this project.
 Presentation inherently involves two or more parties, so it could involve users
-beyond a data analyst. In a design study methodology, Sedlmair et al. describe
+beyond a data analyst. In a design study methodology, Sedlmair et al.\ describe
 several different collaborator roles, such as front-line analysts and
-gatekeepers [@Sedlmair2012b]. Simon et al. identified alternative collaborator
+gatekeepers [@Sedlmair2012b]. Simon et al.\ identified alternative collaborator
 roles, such as liaisons [@Bertini2015] who bridge visualization research to
 complex domains. Although we worked with several liaisons, the user personas
 identified four kinds of users, only one of whom, the network analyst, is a

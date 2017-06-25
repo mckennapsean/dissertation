@@ -146,9 +146,9 @@ utilize [@Staheli2014]. Researchers have developed custom surveys [@Musa2008;
 account for response bias [@brooke1996sus]. Leschke and Nicholas evaluated a
 tool with a standardized usability survey [@Leschke2013] and others have
 performed formal user studies [@Rasmussen2010; @Amershi2011], but none discuss
-deployment. Landstorfer et al. designed a visualization in a user-centered
+deployment. Landstorfer et al.\ designed a visualization in a user-centered
 design process but garnered only initial user feedback [@Landstorfer2014]. Hao
-et al. worked with analysts to showcase the utility of web-based visualization
+et al.\ worked with analysts to showcase the utility of web-based visualization
 dashboards for network security but did not employ the users' own data
 [@Hao2013a]. Although visualization researchers have worked with users, we have
 found no end-to-end design study in this space, from abstraction to deployment.
@@ -280,7 +280,7 @@ studies.
 
 
 While employing the design activity framework, we reflected on our design
-process and modeled it in the form of the Wood et al. discourse channels, which
+process and modeled it in the form of the Wood et al.\ discourse channels, which
 are _"complex relationship between producers and consumers of a visualization"_
 [@Wood2014]. In this work, we utilized four distinct discourse channels: a
 software company, a research organization, university information security, and
@@ -451,7 +451,7 @@ The personas method is often utilized within the user experience, design, and
 HCI communities [@Pruitt2003; @Faily2011; @Chang2008; @McGinn2008; @Martin2012].
 Personas are _"documents meant to foster communication within a design team as
 archetypes of users, their behaviors, and their knowledge"_ [@Martin2012].
-Within the cybersecurity domain, Stoll et al. describe a specific methodology
+Within the cybersecurity domain, Stoll et al.\ describe a specific methodology
 for using personas, highlighting their benefits for cybersecurity visualization
 design [@Stoll2008a]. Here, we further this work in three ways. First, we
 describe how personas benefit the communication within a design team. Second, we

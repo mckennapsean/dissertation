@@ -212,7 +212,7 @@ design requirements that cannot easily be solved using existing tools.
 We break down visualization design requirements of the _understand_ activity
 into three classes: _opportunities_, _constraints_, and _considerations_.
 Visualization design **opportunities** encompass the data and task abstraction
-artifacts that have a potential to impact the work and field of the  target
+artifacts that have a potential to impact the work and field of the target
 users. It is important to uncover data and task abstractions that cannot or
 cannot easily be solved using existing visualization tools. These opportunities
 may also include higher level themes discovered through the domain
@@ -614,7 +614,7 @@ finding potential methods within a specific design activity; and second, the
 table contains many methods that are not commonly, if at all, found in the
 visualization literature, and therefore provides new design methods that more
 experienced visualization designers could utilize to potentially enhance their
-design process. For example, Goodwin et al. introduce several novel creativity
+design process. For example, Goodwin et al.\ introduce several novel creativity
 techniques for visualization design such as generating ideas using the method of
 constraint removal (_M-26_) [@Goodwin2013a].
 
