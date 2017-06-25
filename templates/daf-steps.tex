@@ -1,5 +1,7 @@
 \afterpage{
 \clearpage
+% reduce paragraph spacing (for cells)
+\begin{spacing}{1.0}
 \begin{longtable}[]{cccc}
 \noalign{\vspace{2.2in}}
 \caption{\label{tbl:steps} Five steps for each design activity. We
@@ -14,13 +16,13 @@ designers, students, using design worksheets as a template, as in
 Figs.~\ref{fig:u-worksheet}, \ref{fig:i-worksheet}, \ref{fig:m-worksheet}, \ref{fig:d-worksheet}.
 }\tabularnewline
 \toprule
-\begin{minipage}[b]{0.21\columnwidth}\raggedright\strut
+\begin{minipage}[b]{0.22\columnwidth}\raggedright\strut
 \emph{\textbf{understand}}\strut
-\end{minipage} & \begin{minipage}[b]{0.21\columnwidth}\raggedright\strut
+\end{minipage} & \begin{minipage}[b]{0.22\columnwidth}\raggedright\strut
 \emph{\textbf{ideate}}\strut
-\end{minipage} & \begin{minipage}[b]{0.21\columnwidth}\raggedright\strut
+\end{minipage} & \begin{minipage}[b]{0.22\columnwidth}\raggedright\strut
 \emph{\textbf{make}}\strut
-\end{minipage} & \begin{minipage}[b]{0.21\columnwidth}\raggedright\strut
+\end{minipage} & \begin{minipage}[b]{0.22\columnwidth}\raggedright\strut
 \emph{\textbf{deploy}}\strut
 \end{minipage}\tabularnewline
 \midrule
@@ -120,5 +122,6 @@ consider a method to evaluate\strut
 \end{minipage}\tabularnewline
 \bottomrule
 \end{longtable}
+\end{spacing}
 \newpage
 }
