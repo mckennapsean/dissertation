@@ -330,7 +330,7 @@ outline.
 
 We show this timeline in more detail in [@fig:redesignTimeline] than previously
 shown in the bottom of [@fig:timelines]. The difference of these two timelines
-shows the flexiblity of the design activity framework to capture both the
+shows the flexibility of the design activity framework to capture both the
 high-level view of a design project and the pattern or flow of design activities
 as well as the low-level detail of specific visualization artifacts and design
 methods utilized. In the next section, we explore in detail the user-centered

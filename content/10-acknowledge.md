@@ -69,7 +69,7 @@ deployment, which was made possible through the guidance of Diane Staheli. For
 the redesign project, Dominika Mazur, Matthew Parkin, and James Agutter all
 contributed significantly to this project as well. On the s-CorrPlot tool, this
 project would not have been possible without the initial tool written by Samuel
-Gerber, as well as the addtional feedback from Kristi Potter, Wei-Chao Huang,
+Gerber, as well as the additional feedback from Kristi Potter, Wei-Chao Huang,
 Tom Fletcher, and Kristen Zygmunt. In the narrative flow project, this
 evaluation would not have been possible without the guiding support of Bongshin
 Lee and Jeremy Boy, as well as feedback provided from researchers and interns at

@@ -51,7 +51,7 @@ projects.
 
 Through a series of reflective discussions, we formulated the groundwork for the
 design activity framework [@McKenna2014]. Our design team was tasked with a
-redesign of a cybersecurity's visualization tool. Our team was composed of two
+redesign of a cybersecurity visualization tool. Our team was composed of two
 visualization practitioners, a psychologist, and several designers. During this
 multidisciplinary project, we were cognizant of our design process,
 visualization artifacts, motivations, and design methods. The two visualization

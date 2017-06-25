@@ -403,7 +403,7 @@ activity framework, we provide an initial validation that steps for experimental
 design can map onto steps of the design process, where visualization artifacts
 can capture evaluation guidelines and increase the reproducibility through
 documentation of an experimental design. We also discuss how the framework
-enabled us to reason about the evalaution methods' limitations of
+enabled us to reason about the evaluation methods' limitations of
 generalizability.
 
 
