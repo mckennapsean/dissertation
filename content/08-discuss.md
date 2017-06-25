@@ -15,7 +15,7 @@ means complete. Future projects may reveal new aspects such as crucial
 activities for visualization design or different kinds of visualization
 artifacts. The design activity framework can and should evolve over time to
 adapt to more kinds of visualization design projects to keep its use valid and
-current with how visualization systems are designed for users.
+current with how visualization systems are designed for people.
 
 
 In this chapter, we first explore the necessary scope, limitations, and avenues
@@ -147,10 +147,11 @@ complementary to the design activity framework. For example, the _precondition
 stages_ of the nine-stage framework [@Sedlmair2012b] could be combined with the
 design activity framework to serve as the planning activity. Lastly, we believe
 that there is still much to understand and articulate about the design process
-for visualization. With respect to the design activity framework, further
-research could extend the framework, including more finely defining or breaking
-apart specific activities, adding new activities, or making the connection to a
-different design decision model.
+for visualization. We consider all design models to be a work in progress, and
+the design activity framework is by no means excluded. Further research could
+extend the framework, including more finely defining or breaking apart specific
+activities, adding new activities, or making the connection to a different
+design decision model.
 
 
 Another limitation to this framework is the methodology by which it was created.
@@ -181,19 +182,6 @@ worksheets, and concepts of this visualization process model could be compared
 and evaluated by other real-world designers.
 
 
-In this dissertation, we have presented a novel visualization design process
-model, the design activity framework, which begins to address the messy,
-iterative, and multilinear process of real-world visualization design. The
-overall goal of this work is to help guide visualization designers through the
-design process, encourage visualization designers to consider new design methods
-for generation or evaluation, and assist the compact communication of a design
-process, as in [@fig:timelines]. We consider all design models to be a work in
-progress, and the design activity framework is by no means excluded. Further
-validating this framework against additional visualization design projects, with
-a variety of different visualization designers, and in more pedagogical settings
-leads to interesting avenues for future work.
-
-
 The design activity framework bridges creative design with an engineering
 process model, but there is plenty of future work to pursue and explore along
 these lines. For instance, we reviewed a handful of design models which use a
@@ -208,7 +196,7 @@ or all kinds of situations.
 
 
 A number of open questions remain for future work. For example, we established,
-evaluated, and reflected using this framework with a problem-driven methodology,
+evaluated, and reflected using this framework for problem-driven methodologies,
 and it would be useful to rigorously, but cautiously, validate the use of the
 framework for other methodologies, such as algorithmic-driven work. Furthermore,
 in the list of exemplar methods we include novel methods for visualization
@@ -227,18 +215,18 @@ design process.
 ## Working in Design Teams {#sec:design-teams}
 
 Throughout our redesign project in [@sec:formulation], we worked closely as a
-design team composed of designers, a psychologist, and visualization experts.
-Our different perspectives and experience led to a richer and more informed
-design process. When working together, we found that having common terms and
-definitions for design was critical in promoting effective and efficient
-communication among all members --- as such, we spent significant time and
-effort learning from each other to better understand, and speak in, each other's
-domain languages [@Kirby2013]. This effort allowed us to synthesize the ideas
-and perspectives on the design process from several different fields in the
-design activity framework. Moreover, we coined these terms to help future
-visualization design teams with a common set of definitions and terminology that
-can be used for communicating specific aspects as well as an overview of their
-design process, as in the form of design timelines.
+design team composed of designers, a psychologist, and visualization
+practitioners. Our different perspectives and experience led to a richer and
+more informed design process. When working together, we found that having common
+terms and definitions for design was critical in promoting effective and
+efficient communication among all members --- as such, we spent significant time
+and effort learning from each other to better understand, and speak in, each
+other's domain languages [@Kirby2013]. This effort allowed us to synthesize the
+ideas and perspectives on the design process from several different fields in
+the design activity framework. Moreover, we coined the framework's terms to help
+future visualization design teams with a common set of definitions and
+terminology that can be used for communicating specific aspects as well as an
+overview of their design process, as in the form of design timelines.
 
 
 Working in design teams can provide its own set of challenges and obstacles. For
@@ -336,17 +324,16 @@ sketches could also be utilized in the _make_ activity when parallel prototypes
 are being built and tested using this approach.
 
 
-User-centered design methods can help a designer establish user needs, uncover
-design opportunities, and evaluate ideas, and these types of design methods can
-be particularly useful in the early stages of _understand_ and _ideate_ for the
-visualization design process. The three design methods discussed in both case
-studies can involve any number of users. We encourage future visualization
+User-centered design methods can also help a designer establish user needs,
+uncover design opportunities, and evaluate ideas. These types of design methods
+can be particularly useful in the early stages of _understand_ and _ideate_ for
+the visualization design process. The three design methods discussed in both
+case studies can involve any number of users. We encourage future visualization
 design projects to broaden the methodologies, methods, and techniques at their
 disposal in order to more completely explore the design space for data
 visualization in a given domain. Ultimately, embracing user-centered design
-methods and the importance of the design process will help us as a community be
-more efficient at building effective visualization tools across domains, users,
-data, and tasks.
+method will help us as a community be more efficient at building effective
+visualization tools across domains, users, data, and tasks.
 
 
 
@@ -461,13 +448,12 @@ encourage the community to continue this line of work. The one student in our
 study who used VizItCards would have liked to see the cards generalized for
 other visualization challenges. Furthermore, the visualization design process,
 steps, and guidance can always be improved to be more descriptive, more clear,
-and sufficiently succinct, and to encompass other design methods and
-methodologies. Other common methods for teaching are design studios [@He2017]
-and exercises [@Bertini2017], and it would be worthwhile to adapt design
-worksheets for these settings. Lastly, scaffolding these design materials from
-visualization novices to experts could provide support for the visualization
-design worksheets to grow and expand for more advanced, creative, and flexible
-use.
+sufficiently succinct, and encompass other design methods and methodologies.
+Other common methods for teaching are design studios [@He2017] and exercises
+[@Bertini2017], and it would be worthwhile to adapt design worksheets for these
+settings. Lastly, scaffolding these design materials from visualization novices
+to experts could provide support for the visualization design worksheets to grow
+and expand for more advanced, creative, and flexible use.
 
 
 

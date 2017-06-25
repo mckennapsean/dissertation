@@ -2,10 +2,10 @@
 
 The design activity framework can apply to and provide insight into types of
 research beyond design studies. This is one of the benefits of the framework,
-since it can generalize to other types of this research. In this chapter, we
-explore two kinds of applied research projects: technique-driven [@mckenna2015s]
-and evaluation [@mckenna2017] research. After exploring each project, we reflect
-on the project's outcomes, research contributions, and implications using the
+since it can generalize to other types of research. In this chapter, we explore
+two kinds of applied research projects: technique-driven [@mckenna2015s] and
+evaluation [@mckenna2017] research. After exploring each project, we reflect on
+the project's outcomes, research contributions, and implications using the
 design activity framework. From these reflections, we have noted that the design
 activity framework can capture steps of other research processes and the
 visualization artifacts that are generated and evaluated.
@@ -447,7 +447,7 @@ able to pinpoint several missing factors from our design process: thinking about
 users' large-scale problems or challenges, different types of datasets to solve
 this, and tasks to perform on the data. Our design process for this project had
 focused on talking with and observing users, and the prototype that we had
-deployed early on impacted the focus of these interviews significantly. Rather
+deployed early on impacted the focus of these interactions significantly. Rather
 than focus on the bigger picture and problems faced by our collaborators, we had
 iterated on a prototype visualization tool to solve a single problem. Thus, our
 reflections on the design activity framework contribute new pitfalls for design
@@ -1020,7 +1020,7 @@ crowdsourced studies investigated usability and reader-reported engagement to
 compare visual narrative flows. As a result of these studies, we established
 guidelines to utilize animation and visuals to increase engagement, implications
 for the _make_ and _deploy_ activities. While the design activity framework can
-describe these guidelines succintly, the nested model extension [@Meyer]
+describe these guidelines succinctly, the nested model extension [@Meyer]
 elucidates this limitation, since the stories could be viewed as stacks of
 blocks, and the user study guidelines were shown to be effective for only a
 single story rather than generalized across many different stories.

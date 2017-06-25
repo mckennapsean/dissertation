@@ -164,8 +164,8 @@ displayed in [@fig:process-howard] [@Howard2008].
 ![
   Integrated creative design process model.
   Howard et al. created a model to encompass both engineering and creative
-  design processes [@Howard2008]. Components of a previous model are connected
-  in their modification in order to emphasize and call out the specific stages
+  design processes [@Howard2008]. Components of a previous model are modified
+  and connected in order to emphasize and call out the specific stages
   of generation, evaluation, and analysis. A key aspect of this model is the
   incorporation of creative output, which is an idea that must be novel,
   invented but not obvious, and of use to industry.

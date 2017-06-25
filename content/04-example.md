@@ -9,16 +9,16 @@ wireframes, and mockups that visually communicated our visualization and
 interface ideas to the company's development team in order to improve their
 tool. Although the company's development budget and time limited the final
 changes to the system, we found that a reflection on this project yielded useful
-insights that we used to create the design activity framework. In particular,
-the visualization design artifacts and methods we utilized with other designers
-played a significant role in the success of this project, and we discuss one
-user-centered design method, qualitative coding of user research papers, in
-detail. We reflected on our team's overall design process by incorporating and
-summarizing the methods and artifacts into a design timeline. Previous models,
-such as the nested model and nine-stage framework, did not describe these
-artifacts, our decisions, and our design process fully, but we were able to more
-effectively capture, characterize, and explain multiple aspects of our
-visualization design process using the design activity framework.
+insights that we used in order to create the design activity framework. In
+particular, the visualization design artifacts and methods we utilized with
+other designers played a significant role in the success of this project, and we
+discuss one user-centered design method, qualitative coding of user research
+papers, in detail. We reflected on our team's overall design process by
+incorporating and summarizing the methods and artifacts into a design timeline.
+Previous models, such as the nested model and nine-stage framework, did not
+describe these artifacts, our decisions, and our design process fully, but we
+were able to more effectively capture, characterize, and explain multiple
+aspects of our visualization design process using the design activity framework.
 
 
 
@@ -261,7 +261,7 @@ the different visualizations would link together through user interactions.
 These prototypes synthesized all our design ideas into a revised interface, as
 illustrated in [@fig:redesign2]. The purpose behind this method was to envision
 what RVS _could_ be even though a complete software implementation was beyond
-what our visualization could perform given our constraint of time. We considered
+what RVS developers could produce given our constraint of time. We considered
 real-world datasets and user workflows when creating and formulating both the
 digital mockups and detailed wireframes, which are the visualization artifacts
 we created in the _make_ activity. Even though some designers may consider these
@@ -323,8 +323,8 @@ outline.
   activities are located in the middle, highlighting both backward movement and
   activities nesting within each other when team members worked separately. We
   encountered several key time constraints, or deadlines, listed at the top.
-  Toward the bottom, we highlight numerous design methods and visualization
-  artifacts utilized throughout our project.
+  Toward the bottom, we also highlight numerous design methods and visualization
+  artifacts utilized.
 ](figures/daf/timeline.pdf){#fig:redesignTimeline width="100%"}
 
 

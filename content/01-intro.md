@@ -184,10 +184,10 @@ _understand_, _ideate_, _make_, and _deploy_. Each activity contains a
 motivation or goal, a list of methods, and target visualization artifacts. These
 concise definitions support novice designers in learning and utilizing the
 framework to connect their design decisions to visualization artifacts. We
-include a table of possible design methods that visualization designers can
-employ to generate and evaluate visualization artifacts. Lastly, a showcase of
-design timelines illustrates how to track and report on activities with their
-associated artifacts.
+showcase a series of design timelines to illustrate how to track and report on
+activities with their associated artifacts. Lastly, we include a table of
+possible design methods that visualization designers can employ to generate and
+evaluate visualization artifacts.
 
 
 The design activity framework came out of reflections of the successful design

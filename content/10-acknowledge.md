@@ -5,18 +5,18 @@ focused on the big picture and teaching me how to become a visualization
 designer, researcher, and practitioner. It has been an honor to work with her
 over these past five years, and it has been a pleasure to learn and grow under
 her mentorship. Alexander has provided similar support and mentorship, and it
-has been a pleasure to work with him as the new Visualization Design Lab was
-established and as he taught students for the data visualization course. Tamara
-played a big role in guiding me through the vast topic of research ethics and
-human research, and her course on human-centered security helped motivate the
-data sketches design method that I conducted. James taught me, through practice,
-observation, and discussion, a lot about design and making better software
-systems for humans to use, and I enjoyed our project together as we redesigned a
-visualization tool and formulated the groundwork for the design activity
-framework. Lastly, but certainly not least, Nathalie and I worked together for
-years, from visualizing set-typed data to establishing requirements for a
-storytelling authoring tool, and her inspiration, enthusiasm, and brilliance
-helped us describe and evaluate concepts for visual narrative flow.
+has been a pleasure to work with him as the Visualization Design Lab was
+established and for the data visualization course. Tamara played a big role in
+guiding me through the vast topic of research ethics and human research, and her
+course on human-centered security helped motivate the data sketches design
+method that I conducted. James taught me, through practice, observation, and
+discussion, a lot about design and making better software systems for humans to
+use, and I enjoyed our project together as we redesigned a visualization tool
+and formulated the groundwork for the design activity framework. Lastly, but
+certainly not least, Nathalie and I worked together for years, from visualizing
+set-typed data to establishing requirements for a storytelling authoring tool,
+and her inspiration, enthusiasm, and brilliance helped us describe and evaluate
+concepts for visual narrative flow.
 
 
 I would like to thank my family and friends for all their support throughout the
@@ -72,13 +72,14 @@ project would not have been possible without the initial tool written by Samuel
 Gerber, as well as the addtional feedback from Kristi Potter, Wei-Chao Huang,
 Tom Fletcher, and Kristen Zygmunt. In the narrative flow project, this
 evaluation would not have been possible without the guiding support of Bongshin
-Lee and Jeremy Boy, as well as many other feedback provided from researchers and
-interns at Microsoft Research. I would like to thank both Michael Sedlmair and
-Mike Kirby for their feedback and advice when writing the initial design
-activity framework paper. Lastly, the faculty and staff at the School of
-Computing and SCI Institute have helped shape my educational career and further
-my academic research in computer science, and I cannot thank them all enough for
-this support and dedication.
+Lee and Jeremy Boy, as well as feedback provided from researchers and interns at
+Microsoft Research. I would like to thank both Michael Sedlmair and Mike Kirby
+for their feedback and advice when writing the initial design activity framework
+paper. I would also like to thank Christine Pickett for her many edits,
+corrections, and comments throughout my dissertation. Lastly, the faculty and
+staff at the School of Computing and SCI Institute have helped guide my
+educational career and further my academic research in computer science, and I
+cannot thank them all enough for this support and dedication.
 
 
 The work presented in this dissertation would not have been possible without

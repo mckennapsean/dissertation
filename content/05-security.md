@@ -116,7 +116,7 @@ leadership roles who make decisions [@McKenna2015; @Erbacher2010].
 Numerous cybersecurity researchers have adapted existing visualizations for
 data in this domain, but very little of this work has tested the usability or
 utility for network analysts. Different researchers have plotted cybersecurity
-data on bar and scatter plots [@Hao2013a; @Watson2005; @Lakkaraju2004]. Other
+data on bar and scatterplots [@Hao2013a; @Watson2005; @Lakkaraju2004]. Other
 researchers have explored using a heatmap or matrix to encode various attributes
 and hierarchies within the data [@Watson2005; @Koike2005; @Landstorfer2014;
 @Komlodi2005]. Parallel coordinates have also been utilized by several
@@ -266,16 +266,16 @@ or a specific attribute between two countries.
 As we conducted this design study, we focused on validating the utility  of the
 design activity framework to capture the design methods we used, the resulting
 visualization artifacts, and our design rationale. As a result of using the
-design activity framework, this project resulted in creating a dashboard for
-cybersecurity patterns. To present these patterns, we emphasized users beyond
-the network analyst. As such, it was necessary to incorporate these other users,
-their needs, and workflows into the design process in order to create the final
+design activity framework, we created a dashboard for visualizing cybersecurity
+patterns. To present these patterns, we emphasized users beyond the network
+analyst. As such, it was necessary to incorporate these other users, their
+needs, and workflows into the design process in order to create the final
 BubbleNet dashboard. This design process highlighted key insights into the
 connection, similarities, and differences of user-centered design and a design
 study. These insights make this work unique compared to past user-centered
-design papers for cybersecurity. In particular, we found that the framing of
-the design activity framework succinctly captured, described, and guided our
-design process more effectively than the nine-stage framework process for design
+design papers for cybersecurity. In particular, we found that the framing of the
+design activity framework succinctly captured, described, and guided our design
+process more effectively than the nine-stage framework process for design
 studies.
 
 
@@ -1047,16 +1047,16 @@ interactions are very appropriate to reduce the number of required clicks to
 pivot visualizations using animation and provide quick details on demand.
 
 
-We found that the design activity framework more comprehensively captured the
-design process of this project and the multiple discourse channel interactions,
-in which the previous nine-stage framework failed to connect visualization
-artifacts and design decisions across projects. However, the BubbleNet dashboard
-is not the end of research or development into cybersecurity dashboards. The use
-of a map does not work for all data, and there is more work needed to find more
-effective encodings such as broader impact of cybersecurity incidents.
-Nevertheless, the design process of BubbleNet shows how other design studies can
-work with collaborators and users beyond just data analysts. When working with
-these other types of users, it becomes more important to balance and prioritize
-appropriate sets of user needs to design, develop, and deploy effective,
-domain-specific visualization tools.
+In summary, we found that the design activity framework more comprehensively
+captured the design process of this project and the multiple discourse channel
+interactions, in which the previous nine-stage framework failed to connect
+visualization artifacts and design decisions across projects. However, the
+BubbleNet dashboard is not the end of research or development into cybersecurity
+dashboards. The use of a map does not work for all data, and there is more work
+needed to find more effective encodings such as broader impact of cybersecurity
+incidents. Nevertheless, the design process of BubbleNet shows how other design
+studies can work with collaborators and users beyond just data analysts. When
+working with these other types of users, it becomes more important to balance
+and prioritize appropriate sets of user needs to design, develop, and deploy
+effective, domain-specific visualization tools.
 

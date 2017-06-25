@@ -7,11 +7,12 @@ interaction, or data visualization system. Our introduction of a new framework
 for visualization design in [@sec:framework] codifies some of the high-level
 steps of the process for visualization designers, but the four activities lack a
 breakdown or example of concrete steps to facilitate novices utilizing this
-framework to walk through their own real-world design process. To externally validate the framework and provide such a
-framing, we created new teaching materials for the design activity framework,
-such as a visualization design worksheet for each design activity, a lecture on
-the design process showcased within a real-world project, and resources for
-learning how to design and sketch visualizations [@mckenna2017a].
+framework to walk through their own real-world design process. To externally
+validate the framework and provide such a framing, we created new teaching
+materials for the design activity framework, such as a visualization design
+worksheet for each design activity, a lecture on the design process showcased
+within a real-world project, and resources for learning how to design and sketch
+visualizations [@mckenna2017a].
 
 
 These design activity worksheets for visualization novices present a high-level
@@ -59,16 +60,15 @@ practical steps for building better systems and tools.
 
 In [@sec:framework], we described one such theoretical model of the design
 process with four actionable design activities: _understand_, _ideate_, _make_,
-and _deploy_. Each activity includes a goal, target artifact or
-outcomes, and a plethora of design methods to choose from, each of which is
-described in such a way to make the process model more actionable. We found,
-however, that the theoretical framing of the model restricted and limited its
-use and actionability in the classroom or class project settings. To address
-these limitations, we crafted a design worksheet for each design activity with
-steps to assist students walking through the visualization design process for
-the first time. Furthermore, we sought to validate the use of these worksheets
-in a graduate-level visualization course with students working on their
-cumulative projects for the course.
+and _deploy_. Each activity includes a goal, target artifact or outcomes, and a
+plethora of design methods to choose from, each of which is described in such a
+way to make the process model more actionable. We found, however, that the
+theoretical framing of the model restricted and limited its use and
+actionability in the classroom or class project settings. To address these
+limitations, we crafted a design worksheet for each design activity with steps
+to assist students walking through the visualization design process for the
+first time. Furthermore, we sought to validate the use of this framework and the
+worksheets in cumulative projects for a graduate-level visualization course.
 
 
 
@@ -333,10 +333,7 @@ visualization design decisions [@Munzner2009]. This model was used to help
 categorize design decisions that were contextualized within a visualization
 design project, a cyber-security visualization dashboard [@mckenna2016]. By
 utilizing this real-world visualization project, we were able to explain the
-theory with actual, tangible concepts. Additionally, we mocked up an example of
-this project using the design worksheets to illustrate how to capture a complex,
-iterative design process utilizing the design worksheets. An overview of this
-example is provided in the next chapter. We include a copy of our lecture
+theory with actual, tangible concepts. We include a copy of our lecture
 materials and this example on the project website.[^worksheets]
 
 
@@ -350,7 +347,7 @@ designers. By walking back through our design study process, we incorporated
 various visualization artifacts as linked sketches and printouts to match each
 with their respective design activities, in approximate temporal order.
 Illustrated in [@fig:worksheet-example], these worksheets match the order of
-design activities presented in the previous chapter, [@fig:process]. Despite
+design activities presented in the project timeline, [@fig:process]. Despite
 this design study being complex and iterative, both the design activity
 framework and design worksheets are able to succinctly capture and convey
 distinct and crucial aspects of the visualization design process.
@@ -389,21 +386,21 @@ For details on the project expectations, deadlines, and grading criteria, please
 see the project website.
 
 
-To evaluate the efficacy of worksheets in supporting the visualization design
-process of a cumulative, final project, we conducted a full-course survey, a
-focused survey for students who used the worksheets, and interviews with student
-participants to elicit in-depth worksheet feedback and clarify necessary
-details. Additionally, the mentor met weekly with each visualization group to
-provide feedback on their design process and on the worksheets. These meetings
-provided a basis for obtaining in-person observations, in addition to the
-feedback acquired anonymously through the surveys and detailed interviews. The
-questions and prompts used for the surveys and interviews are included in
-[Appendix @sec:app-evaluation].
+To evaluate the efficacy of the design activity framework and worksheets in
+supporting the visualization design process of a cumulative, final project, we
+conducted a full-course survey, a focused survey for students who used the
+worksheets, and interviews with student participants to elicit in-depth
+worksheet feedback and clarify necessary details. Additionally, the mentor met
+weekly with each visualization group to provide feedback on their design process
+and on the worksheets. These meetings provided a basis for obtaining in-person
+observations, in addition to the feedback acquired anonymously through the
+surveys and detailed interviews. The questions and prompts used for the surveys
+and interviews are included in [Appendix @sec:app-evaluation].
 
 
-To gather anonymous feedback and assess the utility of the design worksheets for
-teaching a visualization course, we sent an online survey to the students at the
-end of the course. Specifically, we asked questions about students' comfort
+To gather anonymous feedback and assess the utility of the framework and design
+worksheets, we sent an online survey to the students at the end of the
+visualization course. Specifically, we asked questions about students' comfort
 level with visualization design before and after taking the course along with
 which factors taught them how to design visualizations: lectures, in-class
 exercises, design worksheets, and the cumulative project. Additionally, we sent
@@ -436,13 +433,13 @@ worksheets.
 
 For the full-class survey, we received 25 responses. Twenty-three students
 showed an improvement in their comfort level for visualization design, on
-average two out of five points higher by the end of the course. Students ranked
-these improvements based on where they learned how to design, which was
-primarily through the lectures, projects, and class exercises. The design
-worksheets received a significantly larger portion of neutral responses for
-helping students learn, possibly because only some students used them in their
-projects. We compared the ratio of agreement to disagreement of these materials
-helping students learn. The design worksheets were on the level of other methods
+average 2 out of 5 points higher by the end of the course. Students ranked these
+improvements based on where they learned how to design, which was primarily
+through the lectures, projects, and class exercises. The design worksheets
+received a significantly larger portion of neutral responses for helping
+students learn, possibly because only some students used them in their projects.
+We compared the ratio of agreement to disagreement of these materials helping
+students learn. The design worksheets were on the level of other methods
 utilized in the course: design worksheets (13:1), lectures (23:1), exercises
 (20:2), and projects (18:2).
 

@@ -51,14 +51,14 @@ projects.
 
 Through a series of reflective discussions, we formulated the groundwork for the
 design activity framework [@McKenna2014]. Our design team was tasked with a
-redesign of a cybersecurity's visualization tool. Our team was composed of
-visualization experts, a psychologist, and several designers. During this
-multidisciplinary project, we were cognizant of our design process, visualization artifacts,
-motivations, and design methods. The two visualization experts on the team
-attempted to use the nine-stage framework [@Sedlmair2012b] to guide and model
-this process, but the model was unable to capture and track our design
-constraints, artifacts, and decisions in such a way that promoted team
-collaboration nor the final project communication.
+redesign of a cybersecurity's visualization tool. Our team was composed of two
+visualization practitioners, a psychologist, and several designers. During this
+multidisciplinary project, we were cognizant of our design process,
+visualization artifacts, motivations, and design methods. The two visualization
+practitioners on the team attempted to use the nine-stage framework
+[@Sedlmair2012b] to guide and model this process, but the model was unable to
+capture and track our design constraints, artifacts, and decisions in such a way
+that promoted team collaboration nor the final project communication.
 
 
 As a result, our team conducted a literature review of numerous design models,
@@ -73,13 +73,13 @@ comprehensively.
 
 
 In order to create a new design process model for data visualization, we
-utilized our combined experience in visualization design and general design, in
-addition to terminology and concepts from existing models, as a guide to
-identify different stages and components of the process. As a team, we
-iteratively codified the different stages performed, goals identified, artifacts
-created, and methods employed in our own visualization projects. As a result, we
-established a consensus for the terminology and these concepts which comprise
-the design activity framework. Next, we introduce these concepts.
+utilized our team's combined experience in visualization design and general
+design, in addition to terminology and concepts from existing models, as a guide
+to identify different stages and components of the process. As a redesign team,
+we iteratively codified the different stages performed, goals identified,
+artifacts created, and methods employed in our own visualization projects. As a
+result, we established a consensus for the terminology and these concepts which
+comprise the design activity framework. Next, we introduce these concepts.
 
 
 
@@ -340,10 +340,10 @@ example, imagine domain collaborators generate their data using an industry
 standard tool and want to be able to use that specific data format inside a
 newly designed visualization system. For building an initial prototype of the
 system, visualization designers may require the collaborators to export their
-data or use a script to get it into a standard format and provide feedback for
-evaluation. However, for daily tasks, this data process would be cumbersome,
-require significant training, and limit the ability of the collaborators to use
-the tool. A key aspect of deploying a visualization system is improving these
+data or use a script to get it into a standard format in order to visualize it.
+However, for daily tasks, this data process would be cumbersome, require
+significant training, and limit the ability of the collaborators to use the
+tool. A key aspect of deploying a visualization system is improving these
 challenging aspects by having the system support domain collaborators' native
 data formats once the tool is deployed, so that no special steps are needed for
 them to use the visualization tool to solve their domain tasks.
@@ -439,8 +439,8 @@ important to consider, since there may be issues of scalability or the
 interactive speeds of the system when using the real, potentially larger
 datasets that collaborators use in their day-to-day workflows. These types of
 optimizations can even be published on their own as an algorithm improvement to
-speed up the visualization encoding or interactive technique that others could
-reuse in their own visualization systems and tools.
+speed up the visualization encoding or interactive technique in other
+visualization systems and tools.
 
 
 
@@ -496,7 +496,7 @@ linearly [@Sedlmair2012b] or cyclically [@DIS2010] and thus imply the need to
 start at the beginning of the process, making it difficult, for example, to
 capture the process of a more complex visualization redesign project. We want to
 ensure flexibility of the design activity framework to maximize its utility for
-a wide variety of visualization designers.
+a wide variety of visualization design projects.
 
 
 To establish and showcase these two movement principles, we provide several
@@ -542,9 +542,9 @@ process in a similar way.
 
 Another unique aspect of the design activity framework is its merging of both
 the creative arts with engineering approaches. The design timeline is one
-example of this concept, with complex and flexible aspects such as the nested
-and parallel activity support coupled inside a linear timeline to show project
-progression in an engineering mindset. By enabling the fluid coupling of design
+example of this concept, with complex and flexible aspects, such as the nested
+and parallel activity support, coupled inside a linear timeline to show project
+progression in an engineering mindset. By enabling this fluid coupling of design
 activities, the design activity framework supports many complex paths of the
 design process like those in the creative arts. However, the timelines also
 encourage a linear focus on producing artifacts and completing methods in order
@@ -665,12 +665,12 @@ designers can justifiably link design decisions they make with the visualization
 artifacts they produce through the levels of the nested model. This highlights
 potential validation or evaluative methods to perform, and we provide a table of
 user-centered design methods for further discoverability of new methods to
-utilize. Lastly, we showcase the flexibility of the design activity framework
-with generalized flow principles illustrated in several design timelines for
-tracking and documenting the visualization design process. Together, these
-contributions improve upon existing design process models due to the design
-activity framework's overall increased achievability, flexibility,
-justifiability, discoverability, and actionability.
+utilize. We also showcase the flexibility of the design activity framework with
+generalized flow principles illustrated in several design timelines for tracking
+and documenting the visualization design process. Together, these contributions
+improve upon existing design process models due to the design activity
+framework's overall increased achievability, flexibility, justifiability,
+discoverability, and actionability.
 
 
 The design activity framework is specific to visualization in a variety of ways.
