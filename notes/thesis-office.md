@@ -1,9 +1,5 @@
 # Thesis Office Concerns
 
-For ref at page bottom, place fig on following page (1 pg too late!):
-Fig 5.5 | fig:sketches (fixed by moving figure right before paragraph)
-Fig 6.1 | fig:u-worksheet (not fully fixed, table and figure misordered now)
-
 Compile uu-dissertation with chapter 2 with no figures.
 
 Pages with figures should have at least 6 consecutive lines of text, or none.
