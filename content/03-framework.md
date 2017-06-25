@@ -39,7 +39,7 @@ design methods, and the visualization artifacts that relate to decisions and
 have an explicit link back to levels of the nested model. This framework
 supports an iterative, human-centered visualization design process that we
 characterize with the introduction of design timelines. Lastly, we provide
-guidance on how to choose effective design methods with a table of 40 selected
+guidance on how to choose effective design methods with a table of 33 selected
 design methods of interest to visualization designers to employ in their own
 projects.
 
@@ -565,7 +565,7 @@ list of exemplar methods that designers can use throughout the design activity
 framework. This list contains methods commonly found in the visualization
 literature, as well as many more that come from the design, human-computer
 interaction, software engineering, sociology, and anthropology literature. We
-present a list of 40 methods in [@tbl:methods] and a more extensive list of 100
+present a list of 33 methods in [@tbl:methods] and a more extensive list of 100
 methods in [Appendix @sec:app-methods]. We shortened the list by picking those
 that were mentioned within the framework and redesign project we present in the
 next chapter, along with both commonly used and potentially novel or interesting
@@ -576,15 +576,13 @@ methods for visualization design.
 
 <!--
 ![
-  Numerous exemplar methods and where they fit within the framework.
-  We coded each method into one or more of the four design activities:
-  _understand_ (**_u_**), _ideate_ (**_i_**), _make_ (**_m_**), and _deploy_
-  (**_d_**). Additionally, we tagged whether each method was largely generative
-  (**_g_**) or evaluative (**_e_**), or both. We categorized the methods we have
-  seen commonly reported within the visualization community (**_v_**) and also
-  present succinct definitions for each method to assist designers in trying
-  each method out. A more extensive list of 100 methods is in [Appendix
-  @sec:app-methods].
+  Numerous exemplar methods within the framework.
+  We coded methods into each design activity: _understand_ (**_u_**), _ideate_
+  (**_i_**), _make_ (**_m_**), and _deploy_ (**_d_**). We tagged generative
+  (**_g_**) and evaluative (**_e_**) methods, along with those commonly reported
+  within the visualization community (**_v_**). We present definitions to assist
+  designers employing methods. [Appendix @sec:app-methods] contains a more
+  extensive list of 100 methods.
 ](figures/daf/table.pdf){#tbl:methods width="100%"}
 -->
 
