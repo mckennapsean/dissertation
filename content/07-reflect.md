@@ -48,7 +48,7 @@ types of flow, such as steppers and scrollers [@mckenna2017]. In this work, the
 design activity framework can be used to frame the steps of experimental design
 and identify study limitations from a lack of generalizability. The design
 activity framework timelines and worksheets further emphasize documenting and
-recording the visualization design process, and these aspects are important for
+recording the visualization design process, which are important for
 reproducibility in evaluation research. Overall, we found that the design
 activity framework can support thinking about other types of research beyond
 just design studies, particularly research with an applied focus.
@@ -62,15 +62,15 @@ just design studies, particularly research with an applied focus.
 In this section, we provide details for a technique-driven research project, the
 s-CorrPlot [@mckenna2015s]. We first explain the motivation for this
 visualization technique, and then we provide the high-level mathematical
-derivation of the visual encoding as well as the interactive component to the
+derivation of the visual encoding as well as the interactive component of the
 technique. To conclude this project's description, we include the application of
 this technique to an applied domain, visualization for biology datasets. We
 reflected on this project using the design activity framework in order to
 identify pitfalls and clarify the reasons why this project strayed from being a
 problem-driven design study. We discovered that the design activity framework
 can apply to steps of a technique-driven design process and enable us to
-identify further pitfalls for design study research. Lastly, we uncovered in
-this reflection that visualization ideas in technique-driven work can span
+identify further pitfalls for design study research. Lastly, we found, through
+this reflection, that visualization ideas in technique-driven work can span
 across more levels of the nested model, such as a new algorithm.
 
 
@@ -243,18 +243,19 @@ size of datasets that our collaborator struggles to analyze.
 
 At first, our collaborator explored 38,365 genes in two regions of the brain,
 with 22 observations, using the s-CorrPlot, shown at the top of
-[@fig:gene-case-study]. Since each gene can exist in either brain region, this
-refers to a combined total of 76,730 variables. The gene expression levels
+[@fig:gene-case-study]. Since each gene can exist in either brain region, the
+plot shows a combined total of 76,730 variables. The gene expression levels
 measured in brain region 1 are shown in red, and those in brain region 2 are
-shown in blue. He first looked at only brain region 1 (red), orienting the
-s-CorrPlot using the first principal component for these variables --- he noted
-that no strong clusters emerged. He then did the same for only brain region 2
-(blue), and saw a significant grouping of correlated and anticorrelated points,
-shown in the dashed ovals. Overlaying the two brain regions confirmed
-interesting differences across the correlation of all genes between these two
-regions. The biologist anticipated that the differences in the correlation
-structure of the data reflect differences in the cell types and mechanisms that
-regulate gene expression and the function of the two brain regions.
+shown in blue. Our collaborator first looked at only brain region 1 (red),
+orienting the s-CorrPlot using the first principal component for these variables
+--- he noted that no strong clusters emerged. He then did the same for only
+brain region 2 (blue), and saw a significant grouping of correlated and
+anticorrelated points, shown in the dashed ovals. Overlaying the two brain
+regions confirmed interesting differences across the correlation of all genes
+between these two regions. The biologist anticipated that the differences in the
+correlation structure of the data reflect differences in the cell types and
+mechanisms that regulate gene expression and the function of the two brain
+regions.
 
 
 ![
@@ -370,7 +371,7 @@ aspects of the s-CorrPlot project. When designing this tool, there were
 distinct, iterative phases of the prototype. For example, the scatterplot
 encoding is one such visualization artifact, which we validated in terms of its
 ability to scale across many variables and dimensions, and to overlay multiple
-datasets. A separate concept to the tool is the notion of interaction, with
+datasets. A concept separate from the tool is the notion of interaction, with
 selection of and animation between projections; this concept was not a novel
 contribution on its own but added further value to the technique and s-CorrPlot
 tool. Most of these artifacts stem from the _ideate_ activity, but they were
@@ -415,7 +416,7 @@ visualization research community to investigate the design factors that
 practitioners employ to craft narratives, from visual and interactive techniques
 [@Segel2010; @Stolper2016] to specific genres [@Amini2015; @Amini2016;
 @bach2016telling]. Specific knowledge on these factors is growing, but we still
-have little knowledge on which are predominant for, and how they may be combined
+have little knowledge of which are predominant for, and how they may be combined
 to create, effective **_visual narrative flows_** [@mckenna2017], which combine
 a reader's input with story components and congruent visual feedback that tell
 the story matching the author's intent and voice.
@@ -611,7 +612,7 @@ animated transitions and scrollers for the second chapter of the story.
 
 This project aimed to support the creation of a tool to help story authors
 write, develop, and combine visualizations and animated transitions with text.
-So while this project was also applied research, a major focus of this work was
+Although this project was also applied research, a major focus of this work was
 to evaluate the qualitative story reading experience and compare engagement of
 different visual narrative flows. As such, a process model for design studies is
 not an apt fit to describe the steps we went through. However, the design
@@ -619,13 +620,13 @@ activity framework is able to generally describe some of these stages, to create
 visualization artifacts, such as study hypotheses and story "prototypes." One
 stage of this project was qualitatively coding a corpus of many visual data
 stories, and this method was quite similar to other times we employed this
-method similarly in the _understand_ activity. As before, the design
-requirements we identified were critical to shaping the project, and here they
-are the seven flow-factors we identified that motivated how we conducted user
-evaluation. Then, we employed user studies that resulted in guidelines for
-future tools, and the design activity framework is able to capture and describe
-the results of these evaluation methods to facilitate other visualization
-practitioners designing and evaluating tools and techniques in this space.
+approach in the _understand_ activity. As before, the design requirements we
+identified were critical to shaping the project, and here they are the seven
+flow-factors we identified that motivated how we conducted user evaluation.
+Then, we employed user studies that resulted in guidelines for future tools. The
+design activity framework is able to capture and describe the results of these
+evaluation methods to facilitate other visualization practitioners designing and
+evaluating tools and techniques in this space.
 
 
 By connecting the design process to design decisions, we were able to reflect on

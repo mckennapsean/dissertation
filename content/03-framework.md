@@ -58,7 +58,7 @@ visualization artifacts, motivations, and design methods. The two visualization
 practitioners on the team attempted to use the nine-stage framework
 [@Sedlmair2012b] to guide and model this process, but the model was unable to
 capture and track our design constraints, artifacts, and decisions in such a way
-that promoted team collaboration nor the final project communication.
+that promoted team collaboration and the final project communication.
 
 
 As a result, our team conducted a literature review of numerous design models,
@@ -540,16 +540,16 @@ way to structure the communication and reporting of a visualization design
 process in a similar way.
 
 
-Another unique aspect of the design activity framework is its merging of both
-the creative arts with engineering approaches. The design timeline is one
-example of this concept, with complex and flexible aspects, such as the nested
-and parallel activity support, coupled inside a linear timeline to show project
-progression in an engineering mindset. By enabling this fluid coupling of design
-activities, the design activity framework supports many complex paths of the
-design process like those in the creative arts. However, the timelines also
-encourage a linear focus on producing artifacts and completing methods in order
-to meet deadlines, which are engineering aspects. This dynamic and dual nature
-of the design activity framework provides additional benefits to visualization
+Another unique aspect of the design activity framework is its merging of the
+creative arts with engineering approaches. The design timeline is one example of
+this concept, with complex and flexible aspects, such as the nested and parallel
+activity support, coupled inside a linear timeline to show project progression
+in an engineering mindset. By enabling this fluid coupling of design activities,
+the design activity framework supports many complex paths of the design process
+such as those in the creative arts. However, the timelines also encourage a
+linear focus on producing artifacts and completing methods in order to meet
+deadlines, which are engineering aspects. This dynamic and dual nature of the
+design activity framework provides additional benefits to visualization
 designers with a broad range of expertise and experience, since they can
 practice and experiment with either of these aspects they are less familiar with
 to gain experience and grow their skill set.
@@ -641,11 +641,11 @@ designers in practice. Primarily generative design methods may be commonly
 utilized in creative art and design for producing many artifacts. Conversely,
 evaluative methods may be more common in engineering approaches to winnow
 visualization artifacts into a smaller set. Thus, the design activity framework
-flexibly supports visualization designers to pick and choose appropriate design
-methods that can merge these creative and engineering design aspects. Along
-these lines, visualization designers can push themselves to use more generative
-or more evaluative methods, or new design methods in general, as they grow and
-enhance their abilities for and expertise at creating and comparing
+flexibly supports visualization designers picking and choosing appropriate
+design methods that can merge these creative and engineering design aspects.
+Along these lines, visualization designers can push themselves to use more
+generative or more evaluative methods, or new design methods in general, as they
+grow and enhance their abilities for and expertise at creating and comparing
 visualization tools and systems.
 
 
@@ -660,15 +660,15 @@ for visualization design: _understand_, _ideate_, _make_, and _deploy_. Within
 each of these activities, we specify succinct definitions, motivations, and
 expected visualization artifacts to be achieved. Furthermore, visualization
 designers can justifiably link design decisions they make with the visualization
-artifacts they produce through the levels of the nested model. This highlights
-potential validation or evaluative methods to perform, and we provide a table of
-user-centered design methods for further discoverability of new methods to
-utilize. We also showcase the flexibility of the design activity framework with
-generalized flow principles illustrated in several design timelines for tracking
-and documenting the visualization design process. Together, these contributions
-improve upon existing design process models due to the design activity
-framework's overall increased achievability, flexibility, justifiability,
-discoverability, and actionability.
+artifacts they produce through the levels of the nested model. These decisions
+highlight potential validation or evaluative methods to perform, and we provide
+a table of user-centered design methods for further discoverability of new
+methods to utilize. We also showcase the flexibility of the design activity
+framework with generalized flow principles illustrated in several design
+timelines for tracking and documenting the visualization design process.
+Together, these contributions improve upon existing design process models due to
+the design activity framework's overall increased achievability, flexibility,
+justifiability, discoverability, and actionability.
 
 
 The design activity framework is specific to visualization in a variety of ways.
@@ -678,11 +678,11 @@ artifacts, and methods will generalize to other kinds of design. The four design
 activities, while they have generalized names, do have descriptive motivations
 that are specific to the creation of a visualization tool or system. Similarly,
 the design artifacts are defined as being specific to visualization, such as
-task abstractions or visualization encodings. While some of the general
-principles of the design activity framework may be useful to other kinds of
-design, we have only used and validated the framework for visualization design
-in a series of case studies and in an external validation with novice
-visualization designers.
+task abstractions or visualization encodings. Some of the general principles of
+the design activity framework may be useful to other kinds of design, but we
+have used and validated the framework only for visualization design in a series
+of case studies and in an external validation with novice visualization
+designers.
 
 
 Unlike previous design models for visualization, the design activity framework
@@ -691,13 +691,13 @@ visualization artifacts, and design methods. Additionally, the connection to
 design decisions, through the nested model, is not included in any previous
 visualization design process model. The design activity framework does have many
 parallels with the nine-stage framework, and the four design activities could be
-considered an extension upon Sedlmair et al.'s four core design phases
-[@Sedlmair2012b]. However, the design activity framework is based off of the
-concept of a design activity with clear, descriptive definitions, numerous
-possible design methods to employ, and supports flexible and dynamic timelines.
-We also carefully constructed this framework to incorporate and merge the
-creative art and design aspects with an engineering approach to provide a more
-comprehensive snapshot of the visualization design process. For all of these
+considered an extension upon the four core design phases of Sedlmair et al.\
+[@Sedlmair2012b]. However, the design activity framework is based on the concept
+of a design activity with clear, descriptive definitions and numerous possible
+design methods to employ, and it supports flexible and dynamic timelines. We
+also carefully constructed this framework to incorporate and merge the creative
+art and design aspects with an engineering approach to provide a more
+comprehensive snapshot of the visualization design process. For all these
 reasons, the design activity framework is a novel and useful design process
 model for the visualization community.
 
