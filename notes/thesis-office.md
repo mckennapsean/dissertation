@@ -2,12 +2,6 @@
 
 Compile uu-dissertation with chapter 2 with no figures & only 'p' placement.
 
-Footnotes & figures, check to see which should be at bottom (5.7, 7.5).
-
-Place figures at top of page when appropriate (3.6, 5.3, 7.4).
-
-Pages with figures should have at least 6 consecutive lines of text, or none.
-
 Title page: divide up title further (inverse pyramid), possibly OK
 Title page: even spacing between all sections (e.g. 6 lines), possibly OK
 Table of Contents: sentence case for Chapters & Appendices, possibly OK
