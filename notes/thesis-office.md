@@ -2,6 +2,8 @@
 
 Compile uu-dissertation with chapter 2 with no figures & only 'p' placement.
 
+Check print size: scale 100%, print entire image (96%), fill entire paper (97%).
+
 Title page: divide up title further (inverse pyramid), possibly OK
 Title page: even spacing between all sections (e.g. 6 lines), possibly OK
 Table of Contents: sentence case for Chapters & Appendices, possibly OK
