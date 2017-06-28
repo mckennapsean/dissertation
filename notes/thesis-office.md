@@ -1,8 +1,6 @@
 # Thesis Office Concerns
 
-Compile uu-dissertation with chapter 2 with no figures.
-
-Large table text size & several figures are close. Depends on how measured. Will see what the thesis office marks.
+Compile uu-dissertation with chapter 2 with no figures & only 'p' placement.
 
 Footnotes & figures, check to see which should be at bottom (5.7, 7.5).
 
