@@ -241,6 +241,20 @@ designed to support only 10,000 to 20,000 genes, so it does not scale to the
 size of datasets that our collaborator struggles to analyze.
 
 
+![
+  Two biological datasets visualized in the s-CorrPlot.
+  Each dataset contains 76,730 (genes) and 120,000 (exons) variables, with 22
+  and 37 observations, respectively. For each dataset, genes and exons have been
+  colored according to two brain regions in which the expression levels were
+  measured, resulting in separate and combined overlay visualizations. The
+  s-CorrPlot highlights different patterns of correlation in each of these brain
+  regions due to the gene and exon expression patterns varying on a global
+  scale, i.e., the blue and red regions of these plots show different patterns,
+  distributions, and clusters across the two regions, which indicates
+  potentially significant differences in their biological processes.
+](figures/scorrplot/case-studies.pdf){#fig:gene-case-study width="95%"}
+
+
 At first, our collaborator explored 38,365 genes in two regions of the brain,
 with 22 observations, using the s-CorrPlot, shown at the top of
 [@fig:gene-case-study]. Since each gene can exist in either brain region, the
@@ -256,20 +270,6 @@ between these two regions. The biologist anticipated that the differences in the
 correlation structure of the data reflect differences in the cell types and
 mechanisms that regulate gene expression and the function of the two brain
 regions.
-
-
-![
-  Two biological datasets visualized in the s-CorrPlot.
-  Each dataset contains 76,730 (genes) and 120,000 (exons) variables, with 22
-  and 37 observations, respectively. For each dataset, genes and exons have been
-  colored according to two brain regions in which the expression levels were
-  measured, resulting in separate and combined overlay visualizations. The
-  s-CorrPlot highlights different patterns of correlation in each of these brain
-  regions due to the gene and exon expression patterns varying on a global
-  scale, i.e., the blue and red regions of these plots show different patterns,
-  distributions, and clusters across the two regions, which indicates
-  potentially significant differences in their biological processes.
-](figures/scorrplot/case-studies.pdf){#fig:gene-case-study width="95%"}
 
 
 Using a different dataset, our collaborator visualized the expression levels of
@@ -448,6 +448,15 @@ point out several potential issues pertaining to the use of scrolling (e.g.,
 
 ### Visual Narrative Flow
 
+![
+  Seven factors for visual narrative flow.
+  We identified these flow-factors by analyzing and coding a corpus of 80 visual
+  data stories. Each flow-factor contains multiple properties, which are not
+  necessarily mutually exclusive, and hybrids can and often do occur in data
+  visualization stories created by authors.
+](figures/narrative-flow/design-space.pdf){#fig:design-space width="100%"}
+
+
 Here we introduce seven factors that contribute to visual narrative flow along
 with illustrations of the various properties for each flow-factor as in
 [@fig:design-space]. These factors were identified through a series of
@@ -461,15 +470,6 @@ flow-factors build upon their work by breaking down these properties to
 characterize and explore a broader range of visual data-driven stories than
 otherwise initially possible. For further details on each of these factors,
 please see the original publication [@mckenna2017].
-
-
-![
-  Seven factors for visual narrative flow.
-  We identified these flow-factors by analyzing and coding a corpus of 80 visual
-  data stories. Each flow-factor contains multiple properties, which are not
-  necessarily mutually exclusive, and hybrids can and often do occur in data
-  visualization stories created by authors.
-](figures/narrative-flow/design-space.pdf){#fig:design-space width="100%"}
 
 
 The expressivity of the design space can be evaluated by looking at the model's

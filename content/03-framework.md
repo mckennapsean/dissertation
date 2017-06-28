@@ -354,6 +354,16 @@ them to use the visualization tool to solve their domain tasks.
 
 ## Justifying Design Decisions
 
+![
+  Connections to the nested model.
+  We illustrate the overlap of the design activity framework with respect to the
+  levels of the nested model [@Munzner2009]. It is important to note that each
+  of the three inner levels of the nested model exists across two activities in
+  the framework; thus, a visualization designer must think carefully about with
+  which levels of the nested model any process artifact corresponds.
+](figures/daf/nm-comparison.pdf){#fig:nm-comparison width="100%"}
+
+
 Both novice and expert visualization designers can utilize the design activity
 framework to reflect on the design decisions they made by tracking the
 visualization artifacts they produce in each activity. As shown in
@@ -367,16 +377,6 @@ visualization could involve moving through this framework in a complex,
 iterative, and _multilinear_ fashion. By multilinear, we mean that a process
 combines forward, linear movement with cyclic, backward, and parallel movements.
 We discuss more about movement and design timelines in the following section.
-
-
-![
-  Connections to the nested model.
-  We illustrate the overlap of the design activity framework with respect to the
-  levels of the nested model [@Munzner2009]. It is important to note that each
-  of the three inner levels of the nested model exists across two activities in
-  the framework; thus, a visualization designer must think carefully about with
-  which levels of the nested model any process artifact corresponds.
-](figures/daf/nm-comparison.pdf){#fig:nm-comparison width="100%"}
 
 
 Artifacts for the _understand_ activity fall into the outer two levels of the
