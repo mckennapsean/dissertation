@@ -156,9 +156,9 @@ problem definition, where the overall process is largely sequential and
 convergent toward a single solution [@Lowgren1995]. On the other hand, a
 **creative design process** begins with more gradual problem scoping, and the
 process has many overlapping activities in which many different possibilities
-are explored before choosing a single solution [@Lowgren1995]. Howard et al.\
-created a design process model to utilize both creative and engineering aspects,
-displayed in [@fig:process-howard] [@Howard2008].
+are explored before choosing a single solution [@Lowgren1995].
+Howard et al.\ created a design process model to utilize both creative and
+engineering aspects, displayed in [@fig:process-howard] [@Howard2008].
 
 
 ![

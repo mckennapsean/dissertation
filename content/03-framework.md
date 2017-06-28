@@ -691,13 +691,13 @@ visualization artifacts, and design methods. Additionally, the connection to
 design decisions, through the nested model, is not included in any previous
 visualization design process model. The design activity framework does have many
 parallels with the nine-stage framework, and the four design activities could be
-considered an extension upon the four core design phases of Sedlmair et al.\
-[@Sedlmair2012b]. However, the design activity framework is based on the concept
-of a design activity with clear, descriptive definitions and numerous possible
-design methods to employ, and it supports flexible and dynamic timelines. We
-also carefully constructed this framework to incorporate and merge the creative
-art and design aspects with an engineering approach to provide a more
-comprehensive snapshot of the visualization design process. For all these
-reasons, the design activity framework is a novel and useful design process
-model for the visualization community.
+considered an extension upon the four core design phases of
+Sedlmair et al.\ [@Sedlmair2012b]. However, the design activity framework is
+based on the concept of a design activity with clear, descriptive definitions
+and numerous possible design methods to employ, and it supports flexible and
+dynamic timelines. We also carefully constructed this framework to incorporate
+and merge the creative art and design aspects with an engineering approach to
+provide a more comprehensive snapshot of the visualization design process. For
+all these reasons, the design activity framework is a novel and useful design
+process model for the visualization community.
 
