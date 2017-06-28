@@ -560,18 +560,6 @@ to gain experience and grow their skill set.
 
 ## Discovering Design Methods
 
-To help visualization designers tackle a real-world design project, we present a
-list of exemplar methods that designers can use throughout the design activity
-framework. This list contains methods commonly found in the visualization
-literature, as well as many more that come from the design, human-computer
-interaction, software engineering, sociology, and anthropology literature. We
-present a list of 33 methods in [@tbl:methods] and a more extensive list of 100
-methods in [Appendix @sec:app-methods]. We shortened the list by picking those
-that were mentioned within the framework and redesign project we present in the
-next chapter, along with both commonly used and potentially novel or interesting
-methods for visualization design.
-
-
 \input{templates/methods-table-subset}
 
 <!--
@@ -585,6 +573,18 @@ methods for visualization design.
   extensive list of 100 methods.
 ](figures/daf/table.pdf){#tbl:methods width="100%"}
 -->
+
+
+To help visualization designers tackle a real-world design project, we present a
+list of exemplar methods that designers can use throughout the design activity
+framework. This list contains methods commonly found in the visualization
+literature, as well as many more that come from the design, human-computer
+interaction, software engineering, sociology, and anthropology literature. We
+present a list of 33 methods in [@tbl:methods] and a more extensive list of 100
+methods in [Appendix @sec:app-methods]. We shortened the list by picking those
+that were mentioned within the framework and redesign project we present in the
+next chapter, along with both commonly used and potentially novel or interesting
+methods for visualization design.
 
 
 We informally coded and characterized each method by the activities of the
