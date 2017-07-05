@@ -18,14 +18,14 @@ committee2: Tamara Denning
 committee3: James Agutter
 committee4: Nathalie Henry Riche
 
-# defense date & place
-submitted: August
+# defense date & place & graduation\
 year: 2017
 month: June
 term: Summer
 day: 01
 city: Salt Lake City
 state: Utah
+graduation: December
 
 # dissertation content
 abstract: tex/00-abstract
