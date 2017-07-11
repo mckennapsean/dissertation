@@ -383,6 +383,8 @@ add: more helper text, warning icons, expected results for each step, and a
 label at the top for attachments.
 
 
+<!-- TODO NOTE "cyber security" "cybersecurity" this is a DIFFERENT case! "cyber-security" ---fix? ThesisOffice: concern inconsistency! -->
+
 Before introducing design worksheets to students, we needed to form a basis of
 understanding, both in terminology and contextualized as a real-world
 visualization example. We created an 80-minute lecture on visualization design,
