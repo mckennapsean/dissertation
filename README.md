@@ -49,6 +49,17 @@ if those files change. This is useful when you have only changed one chapter and
 want to typeset and build your entire manuscript easily.
 
 
+Lastly, I chose to use two templates / formats for my dissertation. My primary
+format, the [Dissertate template](https://github.com/suchow/Dissertate),
+generates the publicly available PDF version of my dissertation. I also used the
+[University of Utah's LaTeX template](http://ftp.math.utah.edu/pub/uuthesis/)
+because it is required by the Thesis Office for all manuscripts. The official
+published version of my dissertation will be this version, and I removed figures
+from Chapter 2 (background / related work) to avoid potential copyright issues
+when formally publishing the dissertation.
+
+
+
 ## File Organization
 
 I like to keep my manuscripts fairly well organized into folders.
