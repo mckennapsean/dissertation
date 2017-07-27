@@ -117,3 +117,29 @@ have altered the Thesis Office TeX template files but only for the purpose of
 reorganization. The downside to this approach is that future template releases
 will need to be manually adopted (and checked) into this format, and they
 unfortunately have many files due to the nature of the beast.
+
+
+
+## Style Guides and Formatting
+
+The University of Utah Thesis Office is known to be sticklers with the
+formatting. So pick your Style Guide to use early, and stick with it. I used
+IEEE, after it came recommended by Christine Pickett, and many other SCI
+students have used it. Look up and read the style guide. The goal is to have
+your document be consistent, so try to keep that in mind. There is a reason to
+the madness. You will have to keep a special eye out for abbreviations,
+hyphenated words, figure placement, figure references, citation lists, and
+spacing/margins. Good luck!
+
+
+
+## License
+
+I am including these materials, resources, and content under the MIT License.
+Some materials, such as the Dissertate template, and University of Utah LaTeX
+template are not mine, and I cannot license their source. For reference, you can
+find links to these resources here:
+
+- [Dissertate template](https://github.com/suchow/Dissertate)
+
+- [University of Utah LaTeX template](http://ftp.math.utah.edu/pub/uuthesis/)
