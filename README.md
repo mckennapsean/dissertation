@@ -60,6 +60,26 @@ when formally publishing the dissertation.
 
 
 
+## Build Requirements
+
+To build the manuscript locally, download the materials, and be sure to create
+a folder inside the repository called `tex/`. Alternatively, just run
+`make clean`, and then you can build the manuscript (using the Dissertate
+template) with `make`.
+
+
+This workflow requires a number of tools on your system, but is cross-platform compatible:
+
+- make: For Windows only, install [the make utility](http://gnuwin32.sourceforge.net/packages/make.htm).
+- posix commands: For Windows only, I'd recommend [installing Git](https://git-scm.com/download/win) with the "optional command line tools" to get access to commands like `ls`, `rm`, etc.
+- pandoc: I last used and tested this with [Pandoc v.1.19](https://github.com/jgm/pandoc/releases/tag/1.19.2.1). Based on what I have seen, Pandoc 2.0 should be faster and probably worth the switch.
+- pandoc-crossref: You can install this plugin from [the binary releases](https://github.com/lierdakil/pandoc-crossref/releases) just make sure they are added to your path, which I would recommend using the binary unless you already have Haskell installed, then use `cabal`.
+- LaTeX: For Linux and Mac OS, I would recommend using [TeXLive](https://www.tug.org/texlive/acquire-netinstall.html). You will likely need to install missing packages with `tlmgr`. For Windows, I would recommend using [MiKTeX](https://miktex.org/download), and you can have it install packages automatically on the fly.
+- latexmk: This script will run the LaTeX for you, and it can be installed [using these directions](http://mg.readthedocs.io/latexmk.html).
+- fonts: For LaTeX, I would recommend downloading additional fonts with the collections: `collection-fontsrecommended` and `collection-fontsextra`. The templates may also use some other fonts local on my machine, so you may have to find and install, or replace those fonts to get it to build correctly.
+
+
+
 ## File Organization
 
 I like to keep my manuscripts fairly well organized into folders.
