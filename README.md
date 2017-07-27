@@ -71,11 +71,17 @@ template) with `make`.
 This workflow requires a number of tools on your system, but is cross-platform compatible:
 
 - make: For Windows only, install [the make utility](http://gnuwin32.sourceforge.net/packages/make.htm).
+
 - posix commands: For Windows only, I'd recommend [installing Git](https://git-scm.com/download/win) with the "optional command line tools" to get access to commands like `ls`, `rm`, etc.
+
 - pandoc: I last used and tested this with [Pandoc v.1.19](https://github.com/jgm/pandoc/releases/tag/1.19.2.1). Based on what I have seen, Pandoc 2.0 should be faster and probably worth the switch.
+
 - pandoc-crossref: You can install this plugin from [the binary releases](https://github.com/lierdakil/pandoc-crossref/releases) just make sure they are added to your path, which I would recommend using the binary unless you already have Haskell installed, then use `cabal`.
+
 - LaTeX: For Linux and Mac OS, I would recommend using [TeXLive](https://www.tug.org/texlive/acquire-netinstall.html). You will likely need to install missing packages with `tlmgr`. For Windows, I would recommend using [MiKTeX](https://miktex.org/download), and you can have it install packages automatically on the fly.
+
 - latexmk: This script will run the LaTeX for you, and it can be installed [using these directions](http://mg.readthedocs.io/latexmk.html).
+
 - fonts: For LaTeX, I would recommend downloading additional fonts with the collections: `collection-fontsrecommended` and `collection-fontsextra`. The templates may also use some other fonts local on my machine, so you may have to find and install, or replace those fonts to get it to build correctly.
 
 
@@ -98,7 +104,7 @@ I like to keep my manuscripts fairly well organized into folders.
 
 - `styles/`: The `uuthesis` files, as well as `Chicago.clo` and `dissertationapproval.sty` are all part of the University of Utah LaTeX template, and only alterations to these files have been made due to their directories. I used `Dissertate.cls` as my primary style template for the manuscript I will make publicly available. `packages.sty` can be used to load custom packages to each of your LaTeX templates, such as the microtype package which improves typesetting. As a note, this is where biblatex uses Biber to specify the style guide for the references, IEEE here. Lastly, `custom.sty` is used to add additional macros or helper LaTeX code for your templates. For example, custom colored commands for my committee were utilized, and I overwrote the figure placement environment to automatically set position parameters.
 
-- `templates/`: These are files used to generate the manuscript through LaTeX. Three of the files are just tables, which required some custom LaTeX commands to customize, position, and render them more easily than through plain Markdown. The other two templates, `uu.tex` and `dissertate.tex` use a templating language defined through Pandoc. You will note that the templates have dollar signs in them, such as `\title{$title$}`, which embeds variables into the templates from the main `dissertation.yaml` file. Thus, the personal info or manuscript-wide variables, such as author, title, which chapters to load, committee names, etc. can all be changed and affect both templates automatically.
+- `templates/`: These are files used to generate the manuscript through LaTeX. Three of the files are just tables, which required some custom LaTeX commands to customize, position, and render them more easily than through plain Markdown. The other two templates, `uu.tex` and `dissertate.tex` use a templating language defined through Pandoc. You will note that the templates have dollar signs in them, such as `\title{$title$}`, which embeds variables into the templates from the main `dissertation.yaml` file. Thus, the personal info or manuscript-wide variables, such as author, title, which chapters to load, committee names, etc. can all be changed and affect both templates automatically. These template files get filled and stored as temporary tex files in the main directory.
 
 - `tex/`: When Pandoc converts all Markdown content (in `content/`), it renders them to LaTeX in this folder. It is a temp folder, which can be inspected or cleared if you wish.
 
