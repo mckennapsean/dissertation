@@ -40,3 +40,10 @@ quickly. You can also disable which chapters to build in `dissertation.yaml`. To
 use custom system-wide fonts, I used XeLaTeX for my dissertation. For
 references, I used Biber to generate citations and the bibliography, since it
 more easily conformed to the IEEE style guide and fit simply in my workflow.
+
+
+To optimize generating your manuscript, I recommend using the `make` tool to
+combine commands together with "dependencies" --- basically, tasks in `make` can
+have files they depend on, and thus will rerun that task's commands if and only
+if those files change. This is useful when you have only changed one chapter and
+want to typeset and build your entire manuscript easily.
