@@ -50,9 +50,9 @@ to thank my teachers, and William Heeren was one of the most dedicated teachers
 I have ever had. Despite only taking one chemistry class from him, he mentored
 me throughout high school in Science Olympiad and SMART Team, and it is through
 these experiences that my love and passion for computer science grew. The
-outstanding professors at Cornell College helped further that education in
-computer science, physics, and chemistry, with the academic excellence and rigor
-instilled to me by many professors, such as Tony deLaubenfels, Leon Tabak, Lyle
+outstanding faculty at Cornell College helped further that education in computer
+science, physics, and chemistry, with the academic excellence and rigor
+instilled in me by many professors, such as Tony deLaubenfels, Leon Tabak, Lyle
 Lichty, Kara Beauchamp, Derin Sherman, and Craig Teague. I would not be where I
 am today without all of these wonderful educators and mentors, and for that I am
 eternally grateful.

@@ -32,7 +32,7 @@ process. Next, by applying the design activity framework to technique-driven and
 evaluation-based research projects, we brainstormed possible extensions to the
 design model. Lastly, we examined implications of the design activity framework
 and present future work in this space. The visualization community is challenged
-to consider on how to more effectively describe, capture, and communicate the
+to consider how to more effectively describe, capture, and communicate the
 complex, iterative nature of data visualization design throughout research,
 design, development, and deployment of visualization systems and tools.
 
