@@ -12,11 +12,14 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{styles/Dissertate}[2014/03/25 v2.0 Dissertate Class]
 \LoadClass[12pt, oneside, letterpaper]{book}
+% For Publishing:
+% \LoadClass[12pt, twoside, letterpaper]{book}
 
 %
 % Options
 %
 \RequirePackage{etoolbox}
+\RequirePackage{emptypage}
 
 % Line spacing: dsingle/ddouble
 %   Whether to use single- or doublespacing.
@@ -63,6 +66,8 @@
 
 % Text layout. re-enable justified text & taller pages
 \RequirePackage[width=5.75in, top=1.25in, bottom=1.25in, letterpaper]{geometry}
+% For Publishing:
+% \RequirePackage[paperwidth=8.125in, paperheight=10.250in, width=5.75in, top=1.25in, bottom=1.25in]{geometry}
 \usepackage{ragged2e}
 % \RaggedRight
 \RequirePackage{graphicx}
