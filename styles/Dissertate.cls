@@ -197,19 +197,6 @@
     urlcolor=accentColor,
 }
 
-% Formatting guidelines found in:
-% http://www.gsas.harvard.edu/publications/form_of_the_phd_dissertation.php
-\renewcommand{\frontmatter}{
-	\input{frontmatter/personalize}
-	\maketitle
-	\copyrightpage
-	\abstractpage
-	\tableofcontents
-	% \listoffigures % optional
-	\dedicationpage
-	\acknowledgments
-}
-
 \renewcommand{\maketitle}{
 	\thispagestyle{empty}
 	\vspace*{\fill}
@@ -269,7 +256,7 @@
 	\chapter*{Acknowledgments}
 	\noindent
 	\input{#1}
-	\vspace*{\fill} \newpage
+	\vspace*{\fill} \cleardoublepage
 	\setcounter{page}{1}
 	\pagenumbering{arabic}
 }
