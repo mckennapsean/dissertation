@@ -3,7 +3,7 @@
 Titled: **The Design Activity Framework: Investigating the Data Visualization Design Process**
 
 
-Manuscript: [https://mckennapsean.com/website-resources/dissertation/design-activity-framework.pdf](https://mckennapsean.com/website-resources/dissertation/design-activity-framework.pdf)
+Manuscript: [https://resources.mckennapsean.com/dissertation/design-activity-framework.pdf](https://resources.mckennapsean.com/dissertation/design-activity-framework.pdf)
 
 
 Defended: _June 1st, 2017_
